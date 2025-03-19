@@ -1,5 +1,5 @@
 name: Download Data and Render pdf file
-permissions: read-all | write-all
+permissions: read-all|write-all
 
 on: 
   workflow_dispatch:
