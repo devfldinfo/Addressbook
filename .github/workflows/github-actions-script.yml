@@ -8,7 +8,7 @@ on:
 env:
   USE_CACHE: true
   ETL_FOLDER: download-and-convert-gdocs
-  TEX_FOLDER: output
+  TEX_FOLDER: my-awesome-cv
   PD_FOLDER: my-awesome-cv/cv/personal_data
 
 jobs:
@@ -35,6 +35,7 @@ jobs:
         name: "document_id.json"
         json: ${{ secrets.DOCUMENT_ID }}
         dir: '${{ env.ETL_FOLDER }}/configs/'
+
 
     - name: Update DOCUMENT_ID Config file from payload
       id: create-json-2-payload
@@ -65,8 +66,6 @@ jobs:
          cd ..
       shell: bash
 
-
-
     - name: Pull Image
       run: |
         docker pull thomasweise/docker-texlive-thin
@@ -78,11 +77,11 @@ jobs:
         docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
       shell: bash
 
-    - name: Archive code output.pdf
+    - name: Archive code cv.pdf
       uses: actions/upload-artifact@v4
       with:
         name: zipped_cv
-        path: ${{ env.TEX_FOLDER }}/output.pdf
+        path: ${{ env.TEX_FOLDER }}/cv/cv.pdf
         retention-days: 30
 
     - uses: stefanzweifel/git-auto-commit-action@v5
