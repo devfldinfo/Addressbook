@@ -1,5 +1,5 @@
 name: Download Data and Render pdf file
-permissions: read-all|write-all
+permissions: read-all
 
 on: 
   workflow_dispatch:
@@ -14,8 +14,10 @@ env:
   PD_FOLDER: my-awesome-cv/cv/personal_data
 
 jobs:
+  
   Get-Docker-Images-and-Compile:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
     - uses: actions/checkout@v3
 
@@ -85,7 +87,7 @@ jobs:
         name: zipped_cv
         path: ${{ env.TEX_FOLDER }}/cv/cv.pdf
         retention-days: 30
-
+    
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Apply php-cs-fixer changes
