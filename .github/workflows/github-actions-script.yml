@@ -8,7 +8,7 @@ on:
 env:
   USE_CACHE: true
   ETL_FOLDER: download-and-convert-gdocs
-  TEX_FOLDER: my-awesome-cv
+  TEX_FOLDER: output
   PD_FOLDER: my-awesome-cv/cv/personal_data
 
 jobs:
@@ -31,11 +31,11 @@ jobs:
         docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
       shell: bash
 
-    - name: Archive code cv.pdf
+    - name: Archive code output.pdf
       uses: actions/upload-artifact@v4
       with:
         name: zipped_cv
-        path: ${{ env.TEX_FOLDER }}/cv/cv.pdf
+        path: ${{ env.TEX_FOLDER }}/output.pdf
         retention-days: 30
 
     - uses: stefanzweifel/git-auto-commit-action@v5
