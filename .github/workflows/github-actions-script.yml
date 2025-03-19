@@ -1,0 +1,90 @@
+name: Download Data and Render pdf file
+on: 
+  workflow_dispatch:
+  push:
+    paths:
+      - '**.tex'
+
+env:
+  USE_CACHE: true
+  ETL_FOLDER: download-and-convert-gdocs
+  TEX_FOLDER: my-awesome-cv
+  PD_FOLDER: my-awesome-cv/cv/personal_data
+
+jobs:
+  Get-Docker-Images-and-Compile:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Output Inputs
+      run: echo "${{ toJSON(github.event.client_payload) }}"
+
+    - name: Update CREDENTIALS Config file
+      id: create-json-1
+      uses: jsdaniell/create-json@v1.2.1
+      with:
+        name: "credentials.json"
+        json: ${{ secrets.CREDENTIALS }}
+        dir: '${{ env.ETL_FOLDER }}/configs/'
+
+    - name: Update DOCUMENT_ID Config file
+      id: create-json-2 
+      uses: jsdaniell/create-json@v1.2.1
+      with:
+        name: "document_id.json"
+        json: ${{ secrets.DOCUMENT_ID }}
+        dir: '${{ env.ETL_FOLDER }}/configs/'
+
+
+    - name: Update DOCUMENT_ID Config file from payload
+      id: create-json-2-payload
+      if: ${{ github.event.client_payload }}
+      uses: jsdaniell/create-json@v1.2.1
+      with:
+        name: "document_id.json"
+        json: ${{ toJSON(github.event.client_payload) }}
+        dir: '${{ env.ETL_FOLDER }}/configs/'
+
+    - name: Check if MOBILE set and replace it
+      env: 
+        mobile: ${{ secrets.MOBILE }}
+      if: ${{ env.mobile != '' }}
+      run: |
+        echo ${{ env.PD_FOLDER }} 
+        pwd
+        ls ${{ env.PD_FOLDER }}
+        echo "${{ env.mobile }}"
+        echo "${{ env.mobile }}" > ${{ env.PD_FOLDER }}/mobile.tex
+        cat ${{ env.PD_FOLDER }}/mobile.tex
+      shell: bash
+          
+    - name: Build image
+      run: |
+         cd $ETL_FOLDER
+         docker build -t gdocs .
+         cd ..
+      shell: bash
+
+    - name: Pull Image
+      run: |
+        docker pull thomasweise/docker-texlive-thin
+      shell: bash
+
+    - name: Complie XeLaTex Document
+      run: |
+        cd $TEX_FOLDER
+        docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
+      shell: bash
+
+    - name: Archive code cv.pdf
+      uses: actions/upload-artifact@v4
+      with:
+        name: zipped_cv
+        path: ${{ env.TEX_FOLDER }}/cv/cv.pdf
+        retention-days: 30
+
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Apply php-cs-fixer changes
+        file_pattern: '*.pdf'
