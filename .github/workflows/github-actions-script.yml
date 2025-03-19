@@ -19,13 +19,6 @@ jobs:
 
     - name: Output Inputs
       run: echo "${{ toJSON(github.event.client_payload) }}"
-          
-    - name: Build image
-      run: |
-         cd $ETL_FOLDER
-         docker build -t gdocs .
-         cd ..
-      shell: bash
 
     - name: Pull Image
       run: |
