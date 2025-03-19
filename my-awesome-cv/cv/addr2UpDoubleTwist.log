@@ -1,0 +1,972 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  3 MAR 2025 03:07
+entering extended mode
+**f:/My*Documents/Address*Book/Output/addr2UpDoubleTwist.tex
+("f:/My Documents/Address Book/Output/addr2UpDoubleTwist.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, greek, gujarati, hindi, hungarian, icelandic, indonesian, inter
+lingua, irish, italian, kannada, kurmanji, lao, latin, latvian, lithuanian, mal
+ayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, nynorsk, oriya, p
+anjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slova
+k, slovenian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, u
+kenglish, ukrainian, uppersorbian, usenglishmax, welsh, loaded.
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\base\minimal.cls
+Document Class: minimal 2001/05/25 Standard LaTeX minimal class
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2011/03/10 v0.4n Insert pages of external PDF documents (AM)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count79
+\calc@Bcount=\count80
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count81
+\calc@Cskip=\skip43
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count82
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2011/03/10 v0.4n Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks15
+\c@AM@survey=\count83
+\AM@templatesizebox=\box27
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count84
+\Gm@cntv=\count85
+\c@Gm@tempcnt=\count86
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks16
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\geometry\geometry.cfg)) ("f:\My D
+ocuments\Address Book\Output\addr2UpDoubleTwist.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+\AtBeginShipoutBox=\box28
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count87
+\scratchdimen=\dimen114
+\scratchbox=\box29
+\nofMPsegments=\count88
+\nofMParguments=\count89
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count90
+\MPscratchDim=\dimen115
+\MPnumerator=\count91
+\makeMPintoPDFobject=\count92
+\everyMPtoPDFconversion=\toks18
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=29.13666pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=0.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=0.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<addr2Book.pdf, id=3, page=1, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 1>
+Package pdftex.def Info: addr2Book.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[1 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=52, 
+page=2, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 2>
+Package pdftex.def Info: addr2Book.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 2>
+Package pdftex.def Info: addr2Book.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 2>
+Package pdftex.def Info: addr2Book.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 2>
+Package pdftex.def Info: addr2Book.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 2>
+Package pdftex.def Info: addr2Book.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 2>
+Package pdftex.def Info: addr2Book.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[2 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=72, 
+page=3, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 3>
+Package pdftex.def Info: addr2Book.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 3>
+Package pdftex.def Info: addr2Book.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 3>
+Package pdftex.def Info: addr2Book.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 3>
+Package pdftex.def Info: addr2Book.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 3>
+Package pdftex.def Info: addr2Book.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 3>
+Package pdftex.def Info: addr2Book.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[3 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=80, 
+page=4, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 4>
+Package pdftex.def Info: addr2Book.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 4>
+Package pdftex.def Info: addr2Book.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 4>
+Package pdftex.def Info: addr2Book.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 4>
+Package pdftex.def Info: addr2Book.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 4>
+Package pdftex.def Info: addr2Book.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 4>
+Package pdftex.def Info: addr2Book.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[4 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=88, 
+page=5, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 5>
+Package pdftex.def Info: addr2Book.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 5>
+Package pdftex.def Info: addr2Book.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 5>
+Package pdftex.def Info: addr2Book.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 5>
+Package pdftex.def Info: addr2Book.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 5>
+Package pdftex.def Info: addr2Book.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 5>
+Package pdftex.def Info: addr2Book.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[5 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=96, 
+page=6, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 6>
+Package pdftex.def Info: addr2Book.pdf, page6 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 6>
+Package pdftex.def Info: addr2Book.pdf, page6 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 6>
+Package pdftex.def Info: addr2Book.pdf, page6 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 6>
+Package pdftex.def Info: addr2Book.pdf, page6 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 6>
+Package pdftex.def Info: addr2Book.pdf, page6 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 6>
+Package pdftex.def Info: addr2Book.pdf, page6 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[6 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=104,
+ page=7, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 7>
+Package pdftex.def Info: addr2Book.pdf, page7 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 7>
+Package pdftex.def Info: addr2Book.pdf, page7 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 7>
+Package pdftex.def Info: addr2Book.pdf, page7 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 7>
+Package pdftex.def Info: addr2Book.pdf, page7 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 7>
+Package pdftex.def Info: addr2Book.pdf, page7 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 7>
+Package pdftex.def Info: addr2Book.pdf, page7 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[7 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=113,
+ page=8, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 8>
+Package pdftex.def Info: addr2Book.pdf, page8 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 8>
+Package pdftex.def Info: addr2Book.pdf, page8 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 8>
+Package pdftex.def Info: addr2Book.pdf, page8 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 8>
+Package pdftex.def Info: addr2Book.pdf, page8 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 8>
+Package pdftex.def Info: addr2Book.pdf, page8 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 8>
+Package pdftex.def Info: addr2Book.pdf, page8 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[8 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=121,
+ page=9, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 9>
+Package pdftex.def Info: addr2Book.pdf, page9 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 9>
+Package pdftex.def Info: addr2Book.pdf, page9 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 9>
+Package pdftex.def Info: addr2Book.pdf, page9 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 9>
+Package pdftex.def Info: addr2Book.pdf, page9 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 9>
+Package pdftex.def Info: addr2Book.pdf, page9 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 9>
+Package pdftex.def Info: addr2Book.pdf, page9 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[9 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=129,
+ page=10, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 10>
+Package pdftex.def Info: addr2Book.pdf, page10 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 10>
+Package pdftex.def Info: addr2Book.pdf, page10 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 10>
+Package pdftex.def Info: addr2Book.pdf, page10 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 10>
+Package pdftex.def Info: addr2Book.pdf, page10 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 10>
+Package pdftex.def Info: addr2Book.pdf, page10 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 10>
+Package pdftex.def Info: addr2Book.pdf, page10 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[10 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=137
+, page=11, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 11>
+Package pdftex.def Info: addr2Book.pdf, page11 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 11>
+Package pdftex.def Info: addr2Book.pdf, page11 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 11>
+Package pdftex.def Info: addr2Book.pdf, page11 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 11>
+Package pdftex.def Info: addr2Book.pdf, page11 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 11>
+Package pdftex.def Info: addr2Book.pdf, page11 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 11>
+Package pdftex.def Info: addr2Book.pdf, page11 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[11 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=145
+, page=12, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 12>
+Package pdftex.def Info: addr2Book.pdf, page12 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 12>
+Package pdftex.def Info: addr2Book.pdf, page12 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 12>
+Package pdftex.def Info: addr2Book.pdf, page12 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 12>
+Package pdftex.def Info: addr2Book.pdf, page12 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 12>
+Package pdftex.def Info: addr2Book.pdf, page12 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 12>
+Package pdftex.def Info: addr2Book.pdf, page12 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[12 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=153
+, page=13, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 13>
+Package pdftex.def Info: addr2Book.pdf, page13 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 13>
+Package pdftex.def Info: addr2Book.pdf, page13 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 13>
+Package pdftex.def Info: addr2Book.pdf, page13 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 13>
+Package pdftex.def Info: addr2Book.pdf, page13 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 13>
+Package pdftex.def Info: addr2Book.pdf, page13 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 13>
+Package pdftex.def Info: addr2Book.pdf, page13 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[13 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=162
+, page=14, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 14>
+Package pdftex.def Info: addr2Book.pdf, page14 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 14>
+Package pdftex.def Info: addr2Book.pdf, page14 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 14>
+Package pdftex.def Info: addr2Book.pdf, page14 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 14>
+Package pdftex.def Info: addr2Book.pdf, page14 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 14>
+Package pdftex.def Info: addr2Book.pdf, page14 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 14>
+Package pdftex.def Info: addr2Book.pdf, page14 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[14 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=170
+, page=15, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 15>
+Package pdftex.def Info: addr2Book.pdf, page15 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 15>
+Package pdftex.def Info: addr2Book.pdf, page15 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 15>
+Package pdftex.def Info: addr2Book.pdf, page15 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 15>
+Package pdftex.def Info: addr2Book.pdf, page15 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 15>
+Package pdftex.def Info: addr2Book.pdf, page15 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 15>
+Package pdftex.def Info: addr2Book.pdf, page15 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[15 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=178
+, page=16, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 16>
+Package pdftex.def Info: addr2Book.pdf, page16 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 16>
+Package pdftex.def Info: addr2Book.pdf, page16 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 16>
+Package pdftex.def Info: addr2Book.pdf, page16 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 16>
+Package pdftex.def Info: addr2Book.pdf, page16 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 16>
+Package pdftex.def Info: addr2Book.pdf, page16 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 16>
+Package pdftex.def Info: addr2Book.pdf, page16 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[16 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=186
+, page=17, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 17>
+Package pdftex.def Info: addr2Book.pdf, page17 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 17>
+Package pdftex.def Info: addr2Book.pdf, page17 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 17>
+Package pdftex.def Info: addr2Book.pdf, page17 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 17>
+Package pdftex.def Info: addr2Book.pdf, page17 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 17>
+Package pdftex.def Info: addr2Book.pdf, page17 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 17>
+Package pdftex.def Info: addr2Book.pdf, page17 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[17 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=194
+, page=18, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 18>
+Package pdftex.def Info: addr2Book.pdf, page18 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 18>
+Package pdftex.def Info: addr2Book.pdf, page18 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 18>
+Package pdftex.def Info: addr2Book.pdf, page18 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 18>
+Package pdftex.def Info: addr2Book.pdf, page18 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 18>
+Package pdftex.def Info: addr2Book.pdf, page18 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 18>
+Package pdftex.def Info: addr2Book.pdf, page18 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[18 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=202
+, page=19, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 19>
+Package pdftex.def Info: addr2Book.pdf, page19 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 19>
+Package pdftex.def Info: addr2Book.pdf, page19 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 19>
+Package pdftex.def Info: addr2Book.pdf, page19 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 19>
+Package pdftex.def Info: addr2Book.pdf, page19 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 19>
+Package pdftex.def Info: addr2Book.pdf, page19 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 19>
+Package pdftex.def Info: addr2Book.pdf, page19 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[19 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=211
+, page=20, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 20>
+Package pdftex.def Info: addr2Book.pdf, page20 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 20>
+Package pdftex.def Info: addr2Book.pdf, page20 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 20>
+Package pdftex.def Info: addr2Book.pdf, page20 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 20>
+Package pdftex.def Info: addr2Book.pdf, page20 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 20>
+Package pdftex.def Info: addr2Book.pdf, page20 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 20>
+Package pdftex.def Info: addr2Book.pdf, page20 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[20 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=219
+, page=21, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 21>
+Package pdftex.def Info: addr2Book.pdf, page21 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 21>
+Package pdftex.def Info: addr2Book.pdf, page21 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 21>
+Package pdftex.def Info: addr2Book.pdf, page21 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 21>
+Package pdftex.def Info: addr2Book.pdf, page21 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 21>
+Package pdftex.def Info: addr2Book.pdf, page21 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 21>
+Package pdftex.def Info: addr2Book.pdf, page21 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[21 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=227
+, page=22, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 22>
+Package pdftex.def Info: addr2Book.pdf, page22 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 22>
+Package pdftex.def Info: addr2Book.pdf, page22 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 22>
+Package pdftex.def Info: addr2Book.pdf, page22 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 22>
+Package pdftex.def Info: addr2Book.pdf, page22 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 22>
+Package pdftex.def Info: addr2Book.pdf, page22 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 22>
+Package pdftex.def Info: addr2Book.pdf, page22 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[22 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=235
+, page=23, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 23>
+Package pdftex.def Info: addr2Book.pdf, page23 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 23>
+Package pdftex.def Info: addr2Book.pdf, page23 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 23>
+Package pdftex.def Info: addr2Book.pdf, page23 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 23>
+Package pdftex.def Info: addr2Book.pdf, page23 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 23>
+Package pdftex.def Info: addr2Book.pdf, page23 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 23>
+Package pdftex.def Info: addr2Book.pdf, page23 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[23 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=243
+, page=24, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 24>
+Package pdftex.def Info: addr2Book.pdf, page24 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 24>
+Package pdftex.def Info: addr2Book.pdf, page24 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 24>
+Package pdftex.def Info: addr2Book.pdf, page24 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 24>
+Package pdftex.def Info: addr2Book.pdf, page24 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 24>
+Package pdftex.def Info: addr2Book.pdf, page24 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 24>
+Package pdftex.def Info: addr2Book.pdf, page24 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[24 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=251
+, page=25, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 25>
+Package pdftex.def Info: addr2Book.pdf, page25 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 25>
+Package pdftex.def Info: addr2Book.pdf, page25 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 25>
+Package pdftex.def Info: addr2Book.pdf, page25 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 25>
+Package pdftex.def Info: addr2Book.pdf, page25 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 25>
+Package pdftex.def Info: addr2Book.pdf, page25 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 25>
+Package pdftex.def Info: addr2Book.pdf, page25 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[25 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=260
+, page=26, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 26>
+Package pdftex.def Info: addr2Book.pdf, page26 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 26>
+Package pdftex.def Info: addr2Book.pdf, page26 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 26>
+Package pdftex.def Info: addr2Book.pdf, page26 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 26>
+Package pdftex.def Info: addr2Book.pdf, page26 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 26>
+Package pdftex.def Info: addr2Book.pdf, page26 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 26>
+Package pdftex.def Info: addr2Book.pdf, page26 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[26 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=268
+, page=27, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 27>
+Package pdftex.def Info: addr2Book.pdf, page27 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 27>
+Package pdftex.def Info: addr2Book.pdf, page27 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 27>
+Package pdftex.def Info: addr2Book.pdf, page27 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 27>
+Package pdftex.def Info: addr2Book.pdf, page27 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 27>
+Package pdftex.def Info: addr2Book.pdf, page27 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 27>
+Package pdftex.def Info: addr2Book.pdf, page27 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[27 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=276
+, page=28, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 28>
+Package pdftex.def Info: addr2Book.pdf, page28 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 28>
+Package pdftex.def Info: addr2Book.pdf, page28 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 28>
+Package pdftex.def Info: addr2Book.pdf, page28 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 28>
+Package pdftex.def Info: addr2Book.pdf, page28 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 28>
+Package pdftex.def Info: addr2Book.pdf, page28 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 28>
+Package pdftex.def Info: addr2Book.pdf, page28 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[28 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=284
+, page=29, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 29>
+Package pdftex.def Info: addr2Book.pdf, page29 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 29>
+Package pdftex.def Info: addr2Book.pdf, page29 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 29>
+Package pdftex.def Info: addr2Book.pdf, page29 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 29>
+Package pdftex.def Info: addr2Book.pdf, page29 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 29>
+Package pdftex.def Info: addr2Book.pdf, page29 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 29>
+Package pdftex.def Info: addr2Book.pdf, page29 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[29 <f:/My Documents/Address Book/Output/addr2Book.pdf>] <addr2Book.pdf, id=292
+, page=30, 597.50829pt x 845.0471pt>
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 30>
+Package pdftex.def Info: addr2Book.pdf, page30 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 30>
+Package pdftex.def Info: addr2Book.pdf, page30 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 30>
+Package pdftex.def Info: addr2Book.pdf, page30 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 30>
+Package pdftex.def Info: addr2Book.pdf, page30 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 30>
+Package pdftex.def Info: addr2Book.pdf, page30 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+File: addr2Book.pdf Graphic file (type pdf)
+<use addr2Book.pdf, page 30>
+Package pdftex.def Info: addr2Book.pdf, page30 used on input line 5.
+(pdftex.def)             Requested size: 422.50157pt x 597.53772pt.
+[30 <f:/My Documents/Address Book/Output/addr2Book.pdf>] ("f:\My Documents\Addr
+ess Book\Output\addr2UpDoubleTwist.aux") ) 
+Here is how much of TeX's memory you used:
+ 2722 strings out of 494072
+ 39826 string characters out of 3136729
+ 101915 words of memory out of 3000000
+ 6009 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 42i,20n,47p,336b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on addr2UpDoubleTwist.pdf (30 pages, 287751 bytes).
+PDF statistics:
+ 302 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+

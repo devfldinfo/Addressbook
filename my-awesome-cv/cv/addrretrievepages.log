@@ -1,0 +1,134 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  3 MAR 2025 03:07
+entering extended mode
+**f:/My*Documents/Address*Book/Output/addrretrievepages.tex
+("f:/My Documents/Address Book/Output/addrretrievepages.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, greek, gujarati, hindi, hungarian, icelandic, indonesian, inter
+lingua, irish, italian, kannada, kurmanji, lao, latin, latvian, lithuanian, mal
+ayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, nynorsk, oriya, p
+anjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slova
+k, slovenian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, u
+kenglish, ukrainian, uppersorbian, usenglishmax, welsh, loaded.
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\base\minimal.cls
+Document Class: minimal 2001/05/25 Standard LaTeX minimal class
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2011/03/10 v0.4n Insert pages of external PDF documents (AM)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count79
+\calc@Bcount=\count80
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count81
+\calc@Cskip=\skip43
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count82
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (d:\DBSharedFiles\LatexFiles\Miktex\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2011/03/10 v0.4n Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks15
+\c@AM@survey=\count83
+\AM@templatesizebox=\box27
+) ("f:\My Documents\Address Book\Output\addrretrievepages.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+\AtBeginShipoutBox=\box28
+(d:\DBSharedFiles\LatexFiles\Miktex\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count84
+\scratchdimen=\dimen106
+\scratchbox=\box29
+\nofMPsegments=\count85
+\nofMParguments=\count86
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count87
+\MPscratchDim=\dimen107
+\MPnumerator=\count88
+\makeMPintoPDFobject=\count89
+\everyMPtoPDFconversion=\toks17
+)
+
+Package haha Warning: PDF Page count: xxxx 59xxxx on input line 7.
+
+[1{d:/DBSharedFiles/LatexFiles/Miktex/pdftex/config/pdftex.map}] ("f:\My Docume
+nts\Address Book\Output\addrretrievepages.aux") ) 
+Here is how much of TeX's memory you used:
+ 2155 strings out of 494072
+ 30607 string characters out of 3136729
+ 84742 words of memory out of 3000000
+ 5456 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 37i,6n,39p,371b,102s stack positions out of 5000i,500n,10000p,200000b,50000s
+<d:/DBSharedFiles/LatexFiles/M
+iktex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on addrretrievepages.pdf (1 page, 9523 bytes).
+PDF statistics:
+ 11 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
