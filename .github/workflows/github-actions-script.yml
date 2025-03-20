@@ -7,12 +7,6 @@ on:
     paths:
       - '**.tex'
 
-env:
-  USE_CACHE: true
-  ETL_FOLDER: download-and-convert-gdocs
-  TEX_FOLDER: my-awesome-cv
-  PD_FOLDER: my-awesome-cv/cv/personal_data
-
 jobs:
   
   Get-Docker-Images-and-Compile:
