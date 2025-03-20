@@ -85,7 +85,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: zipped_cv
-        path: ${{ env.TEX_FOLDER }}/cv/cv.pdf
+        path: output/cv.pdf
         retention-days: 30
     
     - uses: stefanzweifel/git-auto-commit-action@v5
