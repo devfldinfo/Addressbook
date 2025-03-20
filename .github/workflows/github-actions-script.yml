@@ -1,6 +1,6 @@
 name: Compile Latex File
-
-on: 
+permissions: write-all
+on:
   workflow_dispatch:
   push:
     paths:
