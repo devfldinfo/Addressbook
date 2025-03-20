@@ -30,17 +30,11 @@ jobs:
         commit_message: Apply php-cs-fixer changes
         file_pattern: '*.pdf'
 
-    - name: Remove output.tex file
-      run: |
-        if [ -f ${{env.outputtex}}]; then
-          rm ${{env.outputtex}}
-          echo "output.tex file removed."
-        else
-          echo "output.tex file not found."
-          exit  1
-        fi
-      shell: bash
-      
+    - name: Remove File
+      uses: JesseTG/rm@v1.0.3
+      with:
+        path: /output.tex
+    
     - name: Commit changes
       run: |
         git config --global user.name 'GitHub Actions'
