@@ -49,19 +49,6 @@ jobs:
         name: "document_id.json"
         json: ${{ toJSON(github.event.client_payload) }}
         dir: '${{ env.ETL_FOLDER }}/configs/'
-
-    - name: Check if MOBILE set and replace it
-      env: 
-        mobile: ${{ secrets.MOBILE }}
-      if: ${{ env.mobile != '' }}
-      run: |
-        echo ${{ env.PD_FOLDER }} 
-        pwd
-        ls ${{ env.PD_FOLDER }}
-        echo "${{ env.mobile }}"
-        echo "${{ env.mobile }}" > ${{ env.PD_FOLDER }}/mobile.tex
-        cat ${{ env.PD_FOLDER }}/mobile.tex
-      shell: bash
           
     - name: Build image
       run: |
