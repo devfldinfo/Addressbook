@@ -31,7 +31,6 @@ jobs:
 
     - name: Complie XeLaTex Document
       run: |
-        cd $TEX_FOLDER
         docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
       shell: bash
     
