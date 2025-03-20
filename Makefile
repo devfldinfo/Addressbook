@@ -6,8 +6,8 @@ CV_SRCS = cv/sections.tex
 PD_DIR = cv/personal_data
 PD_SRCS = $(shell find $(PD_DIR) -name '*.tex')
 
-output.pdf: output.tex
-	$(CC) -output-directory= my-awesome-cv/cv/output $<
+cv.pdf: $(CV_DIR)/output.tex $(CV_SRCS) $(PD_SRCS)
+	$(CC) -output-directory=$(CV_DIR) $<
 
 clean:
-	rm -rf my-awesome-cv/cv/*.pdf
+	rm -rf $(CV_DIR)/*.pdf
