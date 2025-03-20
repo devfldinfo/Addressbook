@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '**.tex'
+      
 env:
   outputtex: output.tex
 
