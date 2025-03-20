@@ -24,6 +24,13 @@ jobs:
       run: |
         docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
       shell: bash
+      
+    - name: Archive code output.pdf
+      uses: actions/upload-artifact@v4
+      with:
+        name: zipped_cv
+        path: output/output.pdf
+        retention-days: 30
     
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
