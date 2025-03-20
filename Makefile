@@ -3,7 +3,7 @@
 CC = xelatex
 CV_DIR = output
 
-cv.pdf: output.tex
+output.pdf: output.tex
 	$(CC) -output-directory=$(CV_DIR) $<
 
 clean:
