@@ -32,8 +32,8 @@ jobs:
 
     - name: Remove output.tex file
       run: |
-        if [ -f ${{outputtex}}]; then
-          rm ${{outputtex}}
+        if [ -f ${{env.outputtex}}]; then
+          rm ${{env.outputtex}}
           echo "output.tex file removed."
         else
           echo "output.tex file not found."
@@ -45,7 +45,7 @@ jobs:
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add ${{outputtex}}
+        git add ${{env.outputtex}}
         git commit -m "Remove output.tex file"
         git push
       shell: bash
