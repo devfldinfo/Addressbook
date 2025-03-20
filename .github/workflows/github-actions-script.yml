@@ -24,14 +24,6 @@ jobs:
     - name: Output Inputs
       run: echo "${{ toJSON(github.event.client_payload) }}"
 
-    - name: Update CREDENTIALS Config file
-      id: create-json-1
-      uses: jsdaniell/create-json@v1.2.1
-      with:
-        name: "credentials.json"
-        json: ${{ secrets.CREDENTIALS }}
-        dir: '${{ env.ETL_FOLDER }}/configs/'
-
     - name: Update DOCUMENT_ID Config file
       id: create-json-2 
       uses: jsdaniell/create-json@v1.2.1
