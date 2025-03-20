@@ -38,7 +38,7 @@ class Converter:
     def _generate_footer(environment: str) -> str:
         return fr'\end{{{environment}}}' + '\n'
 
-    def convert_and_save(self, filepath='cv.tex') -> None:
+    def convert_and_save(self, filepath='output.tex') -> None:
         if '/' in filepath:
             Path(filepath[:filepath.rfind('/')]).mkdir(exist_ok=True)
 
