@@ -1,7 +1,7 @@
 .PHONY: cv
 
 CC = xelatex
-CV_DIR = my-awesome-cv/cv
+CV_DIR = output
 CV_SRCS = my-awesome-cv/cv/sections.tex
 PD_DIR = my-awesome-cv/cv/personal_data
 
