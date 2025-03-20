@@ -29,17 +29,12 @@ jobs:
       with:
         commit_message: Apply php-cs-fixer changes
         file_pattern: '*.pdf'
-
- #   - name: Remove File
-  #    uses: JesseTG/rm@v1.0.3
-   #   with:
-    #    path: output.tex
     
-    - name: Commit changes
+    - name: Delete output.tex file
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         git rm output.tex
-        git commit -m "RRR"
+        git commit -m "Delete output.tex"
         git push origin main
       shell: bash
