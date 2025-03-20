@@ -2,8 +2,6 @@
 
 CC = xelatex
 CV_DIR = output
-CV_SRCS = my-awesome-cv/cv/sections.tex
-PD_DIR = my-awesome-cv/cv/personal_data
 
 cv.pdf: output.tex
 	$(CC) -output-directory=$(CV_DIR) $<
