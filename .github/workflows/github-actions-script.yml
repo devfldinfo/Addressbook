@@ -15,25 +15,25 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-#    - name: Pull Image
- #     run: |
-  #      docker pull thomasweise/docker-texlive-thin
-   #   shell: bash
+    - name: Pull Image
+      run: |
+        docker pull thomasweise/docker-texlive-thin
+      shell: bash
 
-#    - name: Complie XeLaTex Document
- #     run: |
-  #      docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
-   #   shell: bash
+    - name: Complie XeLaTex Document
+      run: |
+        docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
+      shell: bash
     
- #   - uses: stefanzweifel/git-auto-commit-action@v5
- #     with:
-  #      commit_message: Apply php-cs-fixer changes
-   #     file_pattern: '*.pdf'
-
-    - name: Remove File
-      uses: JesseTG/rm@v1.0.3
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        path: output.tex
+        commit_message: Apply php-cs-fixer changes
+        file_pattern: '*.pdf'
+
+ #   - name: Remove File
+  #    uses: JesseTG/rm@v1.0.3
+   #   with:
+    #    path: output.tex
     
     - name: Commit changes
       run: |
