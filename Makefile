@@ -1,6 +1,6 @@
 .PHONY: cv
 
-CC = Luatex
+CC = XeLatex
 CV_DIR = output
 
 cv.pdf: output.tex
