@@ -7,7 +7,7 @@ PD_DIR = cv/personal_data
 PD_SRCS = $(shell find $(PD_DIR) -name '*.tex')
 
 output.pdf: output.tex
-	$(CC) -output-directory= output $<
+	$(CC) -output-directory= my-awesome-cv/cv/output $<
 
 clean:
-	rm -rf output/*.pdf
+	rm -rf my-awesome-cv/cv/*.pdf
