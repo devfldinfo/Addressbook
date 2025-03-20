@@ -1,5 +1,5 @@
-name: Download Data and Render pdf file
-permissions: read-all
+name: Compile Latex File
+permissions: write-all
 
 on: 
   workflow_dispatch:
