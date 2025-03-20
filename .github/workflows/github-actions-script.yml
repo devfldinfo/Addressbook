@@ -23,24 +23,6 @@ jobs:
 
     - name: Output Inputs
       run: echo "${{ toJSON(github.event.client_payload) }}"
-
-    - name: Update DOCUMENT_ID Config file
-      id: create-json-2 
-      uses: jsdaniell/create-json@v1.2.1
-      with:
-        name: "document_id.json"
-        json: ${{ secrets.DOCUMENT_ID }}
-        dir: '${{ env.ETL_FOLDER }}/configs/'
-
-
-    - name: Update DOCUMENT_ID Config file from payload
-      id: create-json-2-payload
-      if: ${{ github.event.client_payload }}
-      uses: jsdaniell/create-json@v1.2.1
-      with:
-        name: "document_id.json"
-        json: ${{ toJSON(github.event.client_payload) }}
-        dir: '${{ env.ETL_FOLDER }}/configs/'
           
     - name: Build image
       run: |
