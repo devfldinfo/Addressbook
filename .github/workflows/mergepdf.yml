@@ -1,0 +1,23 @@
+name: Merge PDFs with pdftk
+
+on: [push]
+
+jobs:
+  merge-pdfs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install pdftk
+      run: sudo apt-get update && sudo apt-get install -y pdftk
+
+    - name: Merge PDFs
+      run: pdftk file1.pdf file2.pdf cat output merged.pdf
+
+    - name: Upload merged PDF
+      uses: actions/upload-artifact@v4
+      with:
+        name: merged-pdf
+        path: merged.pdf
