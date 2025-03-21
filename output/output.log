@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  21 MAR 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  21 MAR 2025 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,15 +218,322 @@ File: Temp.pdf Graphic file (type pdf)
 Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
  [2 <./Temp.pdf>]
+<Temp.pdf, id=54, page=2, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+
+[3 <./Temp.pdf>]
+<Temp.pdf, id=58, page=3, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [4 <./Temp.pdf>]
+<Temp.pdf, id=62, page=4, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [5 <./Temp.pdf>]
+<Temp.pdf, id=66, page=5, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [6 <./Temp.pdf>]
+<Temp.pdf, id=70, page=6, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 6>
+Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 6>
+Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 6>
+Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [7 <./Temp.pdf>]
+<Temp.pdf, id=75, page=7, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 7>
+Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 7>
+Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 6>
+Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 7>
+Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [8 <./Temp.pdf>]
+<Temp.pdf, id=79, page=8, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 8>
+Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 8>
+Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 6>
+Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 7>
+Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 8>
+Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [9 <./Temp.pdf>]
+<Temp.pdf, id=83, page=9, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 9>
+Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 9>
+Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 6>
+Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 7>
+Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 8>
+Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 9>
+Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [10 <./Temp.pdf>]
+<Temp.pdf, id=87, page=10, 298.75415pt x 421.10124pt>
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 10>
+Package pdftex.def Info: Temp.pdf , page10 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 10>
+Package pdftex.def Info: Temp.pdf , page10 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 1>
+Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 2>
+Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 3>
+Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 4>
+Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 5>
+Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 6>
+Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 7>
+Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 8>
+Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 9>
+Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+File: Temp.pdf Graphic file (type pdf)
+<use Temp.pdf, page 10>
+Package pdftex.def Info: Temp.pdf , page10 used on input line 5.
+(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+ [11 <./Temp.pdf>]
 (output/output.aux) ) 
 Here is how much of TeX's memory you used:
- 2318 strings out of 479972
- 39368 string characters out of 5887510
- 330365 words of memory out of 5000000
- 20527 multiletter control sequences out of 15000+600000
+ 2345 strings out of 479972
+ 40055 string characters out of 5887510
+ 336365 words of memory out of 5000000
+ 20554 multiletter control sequences out of 15000+600000
  469259 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,17n,76p,239b,423s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,17n,76p,239b,424s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 17.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
@@ -234,10 +541,10 @@ Here is how much of TeX's memory you used:
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on output/output.pdf (2 pages, 89393 bytes).
+Output written on output/output.pdf (11 pages, 111699 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
