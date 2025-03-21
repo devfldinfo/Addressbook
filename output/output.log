@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  21 MAR 2025 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  21 MAR 2025 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,79 +359,510 @@ LaTeX Font Info:    ... okay on input line 3.
 ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL )
 ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP )
 ( FP-CLIP )
-LaTeX Font Info:    Calculating math sizes for size <9.095> on input line 6.
+\openout2 = `addrFront.aux'.
+
+ (./addrFront.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Calculating math sizes for size <9.095> on input line 7.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5475> not available
-(Font)              size <5> substituted on input line 6.
+(Font)              size <5> substituted on input line 7.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5475> not available
-(Font)              size <5> substituted on input line 6.
+(Font)              size <5> substituted on input line 7.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5475> not available
-(Font)              size <5> substituted on input line 6.
+(Font)              size <5> substituted on input line 7.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.095> on input line 6.
+(Font)              <9.095> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.36647> on input line 6.
+(Font)              <6.36647> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.5475> on input line 6.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
+(Font)              <4.5475> on input line 7.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 7
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2] [3] [4] [5] [6] [7] [8] [9] [10]
-[11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-[26] [27] [28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
-
- []
-
-[30] [31] [32] [33]
-Overfull \hbox (7.66443pt too wide) in paragraph at lines 509--509
-\OT1/phv/m/n/7.65 ls8543@gmail.com; (-13.7390830,29.1959780)  
+)
+Underfull \hbox (badness 1275) in paragraph at lines 11--11
+[]\OT1/phv/m/n/7.65 Mother; Mundele-mane 
  []
 
 
-Overfull \hbox (7.66443pt too wide) in paragraph at lines 509--509
-\OT1/phv/m/n/7.65 ls8543@gmail.com; (-13.7390830,29.1959780)  
+Underfull \hbox (badness 1275) in paragraph at lines 11--11
+[]\OT1/phv/m/n/7.65 Mother; Mundele-mane 
  []
 
-[34] [35] [36] [37]
+[2
+
+
+]
+Underfull \hbox (badness 1092) in paragraph at lines 32--32
+[]\OT1/phv/m/n/7.65 Wigan; Li-fubu, Luwingu 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 32--32
+[]\OT1/phv/m/n/7.65 Wigan; Li-fubu, Luwingu 
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 38--38
+\OT1/phv/m/n/7.65 Hola Vil-lage, Ntcheu 
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 38--38
+\OT1/phv/m/n/7.65 Hola Vil-lage, Ntcheu 
+ []
+
+[3]
+Underfull \hbox (badness 1348) in paragraph at lines 47--47
+[]\OT1/phv/m/n/7.65 Mai D 
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 47--47
+[]\OT1/phv/m/n/7.65 Mai D 
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 50--50
+[]\OT1/phv/m/n/7.65 Varaidzai(M Mon-ica) 
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 50--50
+[]\OT1/phv/m/n/7.65 Varaidzai(M Mon-ica) 
+ []
+
+[4]
+Underfull \hbox (badness 2065) in paragraph at lines 69--69
+[]\OT1/phv/m/n/7.65 Tatenda; in RSA 
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 69--69
+[]\OT1/phv/m/n/7.65 Tatenda; in RSA 
+ []
+
+[5]
+Underfull \hbox (badness 1163) in paragraph at lines 80--80
+[]\OT1/phv/m/n/7.65 John; Lu-fubu, Luwingu 
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 80--80
+[]\OT1/phv/m/n/7.65 John; Lu-fubu, Luwingu 
+ []
+
+[6]
+Underfull \hbox (badness 1852) in paragraph at lines 101--101
+[]\OT1/phv/m/n/7.65 Obey, 
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 101--101
+[]\OT1/phv/m/n/7.65 Obey, 
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 105--105
+\OT1/phv/m/n/7.65 combe 
+ []
+
+[7] [8]
+Underfull \hbox (badness 4168) in paragraph at lines 127--127
+[]\OT1/phv/m/n/7.65 Joseph 
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 127--127
+[]\OT1/phv/m/n/7.65 Joseph 
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 133--133
+[]\OT1/phv/m/n/7.65 Papa 
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 133--133
+[]\OT1/phv/m/n/7.65 Papa 
+ []
+
+[9]
+Underfull \hbox (badness 1603) in paragraph at lines 139--139
+[]\OT1/phv/m/n/7.65 Edna 
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 139--139
+[]\OT1/phv/m/n/7.65 Edna 
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 141--141
+[]\OT1/phv/m/n/7.65 Patricia, Petronella 
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 141--141
+[]\OT1/phv/m/n/7.65 Patricia, Petronella 
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 145--145
+[]\OT1/phv/m/n/7.65 Gift & Kennedy; Luwingu 
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 145--145
+[]\OT1/phv/m/n/7.65 Gift & Kennedy; Luwingu 
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 148--148
+[]\OT1/phv/m/n/7.65 Margaret; Lu-fubu, Luwingu 
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 148--148
+[]\OT1/phv/m/n/7.65 Margaret; Lu-fubu, Luwingu 
+ []
+
+[10]
+Underfull \hbox (badness 1406) in paragraph at lines 154--154
+\OT1/phv/m/n/7.65 c/o Nyava Sch, Bindura 
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 154--154
+\OT1/phv/m/n/7.65 c/o Nyava Sch, Bindura 
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 156--156
+\OT1/phv/m/n/7.65 34.6236940) 
+ []
+
+[11]
+Underfull \hbox (badness 3746) in paragraph at lines 168--168
+\OT1/phv/m/n/7.65 lope 
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 170--170
+[]\OT1/phv/m/n/7.65 Panashe 
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 170--170
+[]\OT1/phv/m/n/7.65 Panashe 
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 176--176
+\OT1/phv/m/n/7.65 20.2083,28.65423) 
+ []
+
+[12]
+Underfull \hbox (badness 1072) in paragraph at lines 187--187
+[]\OT1/phv/m/n/7.65 Perfect 
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 187--187
+[]\OT1/phv/m/n/7.65 Perfect 
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 190--190
+[]\OT1/phv/m/n/7.65 Esther 
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 190--190
+[]\OT1/phv/m/n/7.65 Esther 
+ []
+
+[13] [14] [15]
+Underfull \hbox (badness 3375) in paragraph at lines 234--234
+[]\OT1/phv/m/n/7.65 Papa Mal-oba 
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 234--234
+[]\OT1/phv/m/n/7.65 Papa Mal-oba 
+ []
+
+[16] [17] [18]
+Underfull \hbox (badness 1189) in paragraph at lines 283--283
+\OT1/phv/m/n/7.65 Praise; Vil-lage 16B 
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 283--283
+\OT1/phv/m/n/7.65 Praise; Vil-lage 16B 
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 290--290
+\OT1/phv/m/n/7.65 Gokwe 
+ []
+
+[19]
+Underfull \hbox (badness 1394) in paragraph at lines 308--308
+[]\OT1/phv/m/n/7.65 Derick 
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 308--308
+[]\OT1/phv/m/n/7.65 Derick 
+ []
+
+[20]
+Underfull \hbox (badness 1527) in paragraph at lines 323--323
+[]\OT1/phv/m/n/7.65 Elliot, c/o Enoch 
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 323--323
+[]\OT1/phv/m/n/7.65 Elliot, c/o Enoch 
+ []
+
+[21] [22] [23] [24]
+Underfull \hbox (badness 1137) in paragraph at lines 391--391
+[]\OT1/phv/m/n/7.65 Leo 
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 391--391
+[]\OT1/phv/m/n/7.65 Leo 
+ []
+
+[25]
+Underfull \hbox (badness 3623) in paragraph at lines 399--399
+[]\OT1/phv/m/n/7.65 Shadrach 
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 399--399
+[]\OT1/phv/m/n/7.65 Shadrach 
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 414--414
+[]\OT1/phv/m/n/7.65 Boidy 
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 414--414
+[]\OT1/phv/m/n/7.65 Boidy 
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 415--415
+[]\OT1/phv/m/n/7.65 Christopher 
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 415--415
+[]\OT1/phv/m/n/7.65 Christopher 
+ []
+
+[26]
+Underfull \hbox (badness 1924) in paragraph at lines 416--416
+[]\OT1/phv/m/n/7.65 Kent 
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 416--416
+[]\OT1/phv/m/n/7.65 Kent 
+ []
+
+[27]
+Underfull \hbox (badness 1038) in paragraph at lines 438--438
+[]\OT1/phv/m/n/7.65 Nyasha 
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 438--438
+[]\OT1/phv/m/n/7.65 Nyasha 
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 459--459
+[]\OT1/phv/m/n/7.65 Peter; Harare 
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 459--459
+[]\OT1/phv/m/n/7.65 Peter; Harare 
+ []
+
+[29]
+Underfull \hbox (badness 1975) in paragraph at lines 471--471
+\OT1/phv/m/n/7.65 Rd, Bor-row-dale 
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 471--471
+\OT1/phv/m/n/7.65 Rd, Bor-row-dale 
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 472--472
+[]\OT1/phv/m/n/7.65 Mai 
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 472--472
+[]\OT1/phv/m/n/7.65 Mai 
+ []
+
+[30] [31]
+Underfull \hbox (badness 1742) in paragraph at lines 498--498
+[]\OT1/phv/m/n/7.65 Papa 
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 498--498
+[]\OT1/phv/m/n/7.65 Papa 
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 500--500
+\OT1/phv/m/n/7.65 Chivhu 
+ []
+
+
+Overfull \hbox (7.66443pt too wide) in paragraph at lines 510--510
+\OT1/phv/m/n/7.65 ls8543@gmail.com; (-13.7390830,29.1959780) 
+ []
+
+
+Overfull \hbox (7.66443pt too wide) in paragraph at lines 510--510
+\OT1/phv/m/n/7.65 ls8543@gmail.com; (-13.7390830,29.1959780) 
+ []
+
+[32]
+Underfull \hbox (badness 5878) in paragraph at lines 514--514
+\OT1/phv/m/n/7.65 Bus stop) 
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 524--524
+[]\OT1/phv/m/n/7.65 Mai Shu-vai 
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 524--524
+[]\OT1/phv/m/n/7.65 Mai Shu-vai 
+ []
+
+[33]
+Underfull \hbox (badness 1436) in paragraph at lines 531--531
+\OT1/phv/m/n/7.65 PB 93, Ma-gunje 
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 531--531
+\OT1/phv/m/n/7.65 PB 93, Ma-gunje 
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 535--535
+[]\OT1/phv/m/n/7.65 Patience 
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 535--535
+[]\OT1/phv/m/n/7.65 Patience 
+ []
+
+[34]
+Underfull \hbox (badness 1629) in paragraph at lines 547--547
+[]\OT1/phv/m/n/7.65 Audrey; Mvuma 
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 547--547
+[]\OT1/phv/m/n/7.65 Audrey; Mvuma 
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 551--551
+[]\OT1/phv/m/n/7.65 Mercy 
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 551--551
+[]\OT1/phv/m/n/7.65 Mercy 
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 553--553
+[]\OT1/phv/m/n/7.65 Ambuya Njanji 
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 553--553
+[]\OT1/phv/m/n/7.65 Ambuya Njanji 
+ []
+
+[35]
+Underfull \hbox (badness 1394) in paragraph at lines 566--566
+\OT1/phv/m/n/7.65 Box 144, Mpan-dawana 
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 566--566
+\OT1/phv/m/n/7.65 Box 144, Mpan-dawana 
+ []
+
+[36]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 585.
- [38
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 586.
+ [37
 
-] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
-[49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] (output/output.aux)
+] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
+[51] [52] [53] [54] [55] [56] [57] [58] (output/output.aux
+(output/addrFront.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.4525pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 4041 strings out of 479972
- 65256 string characters out of 5887510
- 398724 words of memory out of 5000000
- 22188 multiletter control sequences out of 15000+600000
- 494341 words of font info for 65 fonts, out of 8000000 for 9000
+ 4069 strings out of 479972
+ 66015 string characters out of 5887510
+ 399724 words of memory out of 5000000
+ 22209 multiletter control sequences out of 15000+600000
+ 497004 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,12n,76p,348b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,12n,76p,348b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output/output.pdf (59 pages, 190878 bytes).
+Output written on output/output.pdf (58 pages, 193263 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
+ 223 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
