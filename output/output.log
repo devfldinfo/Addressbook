@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  21 MAR 2025 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  21 MAR 2025 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,7 +529,7 @@ Package pdftex.def Info: Temp.pdf , page10 used on input line 5.
 Here is how much of TeX's memory you used:
  2345 strings out of 479972
  40055 string characters out of 5887510
- 336365 words of memory out of 5000000
+ 336367 words of memory out of 5000000
  20554 multiletter control sequences out of 15000+600000
  469259 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
