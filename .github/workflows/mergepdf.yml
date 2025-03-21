@@ -1,7 +1,7 @@
 name: Merge PDFs with pdftk
 
-on: [push]
-
+on: 
+  workflow_dispatch
 jobs:
   merge-pdfs:
     runs-on: ubuntu-latest
