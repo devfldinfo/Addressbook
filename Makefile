@@ -1,7 +1,0 @@
-.PHONY: cv
-
-CC = xelatex
-CV_DIR = output
-
-output.pdf: output.tex
-	$(CC) -output-directory=$(CV_DIR) $<
