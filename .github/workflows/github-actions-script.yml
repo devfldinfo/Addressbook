@@ -12,6 +12,7 @@ env:
 jobs:
   Get-Docker-Images-and-Compile:
     runs-on: ubuntu-latest
+    permissions: write
     steps:
     - uses: actions/checkout@v3
 
@@ -27,8 +28,8 @@ jobs:
     
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: Apply php-cs-fixer changes
-        file_pattern: '*.pdf'
+        commit_message: Stefanzweif
+        file_pattern: '*.*'
     
 #    - name: Delete output.tex file
 #      run: |
