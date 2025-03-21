@@ -27,10 +27,10 @@ jobs:
         docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
       shell: bash
     
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Stefanzweif
-        file_pattern: '*.*'
+        file_pattern: '.'
     
 #    - name: Delete output.tex file
 #      run: |
