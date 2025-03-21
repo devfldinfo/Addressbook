@@ -1,7 +1,7 @@
 name: Merge PDFs in Book Layout
 
 on: 
-  dispatch
+  workflow_dispatch:
 
 jobs:
   merge-pdfs:
