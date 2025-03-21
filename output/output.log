@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2022.10.31)  21 MAR 2025 12:22
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2022.10.31)  21 MAR 2025 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,24 @@ entering extended mode
 (./output.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15>
-(/usr/share/texlive/texmf-dist/tex/latex/base/minimal.cls
-Document Class: minimal 2001/05/25 Standard LaTeX minimal class
-) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -16,16 +31,16 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count181
-\calc@Bcount=\count182
-\calc@Adimen=\dimen138
-\calc@Bdimen=\dimen139
-\calc@Askip=\skip47
-\calc@Bskip=\skip48
+\calc@Acount=\count189
+\calc@Bcount=\count190
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count183
-\calc@Cskip=\skip49
+\calc@Ccount=\count191
+\calc@Cskip=\skip51
 ) (./eso-pic.sty
 Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
 
@@ -56,78 +71,56 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/04/16 v5.0m Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 )
-\AM@pagewidth=\dimen142
-\AM@pageheight=\dimen143
-\AM@fboxrule=\dimen144
+\AM@pagewidth=\dimen143
+\AM@pageheight=\dimen144
+\AM@fboxrule=\dimen145
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2022/05/22 v0.5v Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count184
+\pdfpages@includegraphics@status=\count192
 \AM@pagebox=\box51
 \AM@global@opts=\toks17
-\AM@pagecnt=\count185
+\AM@pagecnt=\count193
 \AM@toc@title=\toks18
-\c@AM@survey=\count186
+\c@AM@survey=\count194
 \AM@templatesizebox=\box52
-)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count187
-\Gm@cntv=\count188
-\c@Gm@tempcnt=\count189
-\Gm@bindingoffset=\dimen145
-\Gm@wd@mp=\dimen146
-\Gm@odd@mp=\dimen147
-\Gm@even@mp=\dimen148
-\Gm@layoutwidth=\dimen149
-\Gm@layoutheight=\dimen150
-\Gm@layouthoffset=\dimen151
-\Gm@layoutvoffset=\dimen152
-\Gm@dimlist=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
-\g__graphics_track_int=\count190
+\g__graphics_track_int=\count195
 \l__pdf_internal_box=\box53
-\g__pdf_backend_object_int=\count191
-\g__pdf_backend_annotation_int=\count192
-\g__pdf_backend_link_int=\count193
+\g__pdf_backend_object_int=\count196
+\g__pdf_backend_annotation_int=\count197
+\g__pdf_backend_link_int=\count198
 )
 (output/output.aux)
 \openout1 = `output.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
@@ -142,6 +135,9 @@ Package color Info: Driver file: xetex.def on input line 149.
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
@@ -152,55 +148,23 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 ))
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-*geometry* verbose mode - [ preamble ] result:
-* driver: xetex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=29.13666pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=10.0pt
-* \footskip=0.0pt
-* \marginparwidth=0.0pt
-* \marginparsep=0.0pt
-* \columnsep=0.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+File: addrFront.pdf Graphic file (type pdf)
+<use addrFront.pdf>
+File: addrFront.pdf Graphic file (type pdf)
+<use addrFront.pdf>
+File: addrFront.pdf Graphic file (type pdf)
+<use addrFront.pdf, page 1>
+File: addrFront.pdf Graphic file (type pdf)
+<use addrFront.pdf, page 1>
+File: addrFront.pdf Graphic file (type pdf)
+<use addrFront.pdf, page 1>
+File: addrFront.pdf Graphic file (type pdf)
+<use addrFront.pdf, page 1>
+File: addrFront.pdf Graphic file (type pdf)
+<use addrFront.pdf, page 1>
+ [1
 
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-[1]
+]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf>
 File: Temp.pdf Graphic file (type pdf)
@@ -224,7 +188,8 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 1>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 2>
- [3]
+
+[3]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 3>
 File: Temp.pdf Graphic file (type pdf)
@@ -599,8 +564,7 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 16>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 17>
-
-[18]
+ [18]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 18>
 File: Temp.pdf Graphic file (type pdf)
@@ -641,7 +605,8 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 17>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 18>
- [19]
+
+[19]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 19>
 File: Temp.pdf Graphic file (type pdf)
@@ -1425,8 +1390,7 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 31>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 32>
-
-[33]
+ [33]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 33>
 File: Temp.pdf Graphic file (type pdf)
@@ -1497,7 +1461,8 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 32>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 33>
- [34]
+
+[34]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 34>
 File: Temp.pdf Graphic file (type pdf)
@@ -2701,8 +2666,7 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 46>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 47>
-
-[48]
+ [48]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 48>
 File: Temp.pdf Graphic file (type pdf)
@@ -2803,7 +2767,8 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 47>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 48>
- [49]
+
+[49]
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 49>
 File: Temp.pdf Graphic file (type pdf)
@@ -4046,15 +4011,14 @@ File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 58>
 File: Temp.pdf Graphic file (type pdf)
 <use Temp.pdf, page 59>
- [60]
-(output/output.aux) ) 
+ [60] (output/output.aux) ) 
 Here is how much of TeX's memory you used:
- 2414 strings out of 477853
- 44548 string characters out of 5846608
- 393197 words of memory out of 5000000
- 23359 multiletter control sequences out of 15000+600000
+ 2108 strings out of 477853
+ 38736 string characters out of 5846608
+ 390930 words of memory out of 5000000
+ 23056 multiletter control sequences out of 15000+600000
  469267 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,16n,76p,281b,405s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,17n,76p,239b,421s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on output/output.pdf (60 pages).
