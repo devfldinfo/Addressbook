@@ -1,0 +1,8 @@
+pdf:
+  image: thomasweise/texlive
+  script: 
+    - cd examples
+    - xelatex resume.tex
+  artifacts:
+    paths:
+    - examples/resume.pdf
