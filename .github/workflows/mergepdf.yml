@@ -1,7 +1,8 @@
-name: Merge PDFs with pdftk
+name: Merge PDFs in Book Layout
 
 on: 
-  workflow_dispatch
+  dispatch
+
 jobs:
   merge-pdfs:
     runs-on: ubuntu-latest
@@ -10,14 +11,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install pdftk
-      run: sudo apt-get update && sudo apt-get install -y pdftk
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y texlive-extra-utils
 
     - name: Merge PDFs
       run: pdftk file1.pdf file2.pdf cat output merged.pdf
 
-    - name: Upload merged PDF
+    - name: Convert to Book Layout
+      run: pdfjam --booklet true --landscape merged.pdf --outfile book-layout.pdf
+
+    - name: Upload Booklet PDF
       uses: actions/upload-artifact@v4
       with:
-        name: merged-pdf
-        path: merged.pdf
+        name: booklet-pdf
+        path: book-layout.pdf
