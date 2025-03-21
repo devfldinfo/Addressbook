@@ -12,7 +12,8 @@ env:
 jobs:
   Get-Docker-Images-and-Compile:
     runs-on: ubuntu-latest
-    permissions: write
+    permissions: 
+      contents: write
     steps:
     - uses: actions/checkout@v3
 
