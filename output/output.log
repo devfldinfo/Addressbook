@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  21 MAR 2025 19:27
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2022.10.31)  22 MAR 2025 08:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,540 +11,405 @@ Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
+) (./addressbook1.sty
+Package: addressbook1 
 
+(./addressbook3.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/07/20 3.78 The Babel package
+\babel@savecnt=\count189
+\U@D=\dimen139
+\l@unhyphenated=\language4
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read2
+\bbl@dirlevel=\count190
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box51
+\UL@hyphenbox=\box52
+\UL@skip=\skip58
+\UL@hook=\toks16
+\UL@height=\dimen140
+\UL@pe=\count191
+\UL@pixel=\dimen141
+\ULC@box=\box53
+Package: ulem 2019/11/18
+\ULdepth=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip59
+\RaggedLeftLeftskip=\skip60
+\RaggedRightLeftskip=\skip61
+\CenteringRightskip=\skip62
+\RaggedLeftRightskip=\skip63
+\RaggedRightRightskip=\skip64
+\CenteringParfillskip=\skip65
+\RaggedLeftParfillskip=\skip66
+\RaggedRightParfillskip=\skip67
+\JustifyingParfillskip=\skip68
+\CenteringParindent=\skip69
+\RaggedLeftParindent=\skip70
+\RaggedRightParindent=\skip71
+\JustifyingParindent=\skip72
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count192
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count193
+\FP@xia=\count194
+\FP@xib=\count195
+\FP@xfa=\count196
+\FP@xfb=\count197
+\FP@rega=\count198
+\FP@regb=\count199
+\FP@regs=\count266
+\FP@times=\count267
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count268
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count269
+\calc@Bcount=\count270
+\calc@Adimen=\dimen143
+\calc@Bdimen=\dimen144
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count271
+\calc@Cskip=\skip75
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count193
-\calc@Bcount=\count194
-\calc@Adimen=\dimen139
-\calc@Bdimen=\dimen140
-\calc@Askip=\skip49
-\calc@Bskip=\skip50
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count195
-\calc@Cskip=\skip51
-) (./eso-pic.sty
-Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
+\pb@xlen=\skip76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count272
+\mult@box=\box54
+\multicol@leftmargin=\dimen145
+\c@unbalance=\count273
+\c@collectmore=\count274
+\doublecol@number=\count275
+\multicoltolerance=\count276
+\multicolpretolerance=\count277
+\full@width=\dimen146
+\page@free=\dimen147
+\premulticols=\dimen148
+\postmulticols=\dimen149
+\multicolsep=\skip77
+\multicolbaselineskip=\skip78
+\partial@page=\box55
+\last@line=\box56
+\maxbalancingoverflow=\dimen150
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count278
+\c@columnbadness=\count279
+\c@finalcolumnbadness=\count280
+\last@try=\dimen151
+\multicolovershoot=\dimen152
+\multicolundershoot=\dimen153
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count281
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(./cvpr_eso.sty
-
-LaTeX Warning: You have requested package `eso-pic',
-               but the package provides `everyshi'.
-
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks18
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+\TempCnt=\count285
+\FontScaleCnt=\count286
+\ProvFontCnt=\count287
+\DistFontCnt=\count288
+\MedSmallFontCnt=\count289
+\NormalFontCnt=\count290
+\SmallFontCnt=\count291
+\VSmallFontCnt=\count292
+\SurnameDim=\dimen162
+\PhoneDim=\dimen163
+\AddrDim=\dimen164
+\AddrPhoneDim=\dimen165
+\SurAddrDim=\dimen166
+\SurAddrPhoneDim=\dimen167
+ ( FP-MUL )
+( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-CLIP )
+( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP )
+\HeadBox=\box99
+\TempBox=\box100
+\PhoneListBox=\box101
+\DetailsBox=\box102
+\AddressBox=\box103
+\HomeBox=\box104
+\LeftBox=\box105
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
-)
-\AM@pagewidth=\dimen143
-\AM@pageheight=\dimen144
-\AM@fboxrule=\dimen145
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
-)
-\pdfpages@includegraphics@status=\count196
-\AM@pagebox=\box51
-\AM@global@opts=\toks17
-\AM@pagecnt=\count197
-\AM@toc@title=\toks18
-\c@AM@survey=\count198
-\AM@templatesizebox=\box52
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count199
-\l__pdf_internal_box=\box53
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
+\g__graphics_track_int=\count293
+\l__pdf_internal_box=\box106
+\g__pdf_backend_object_int=\count294
+\g__pdf_backend_annotation_int=\count295
+\g__pdf_backend_link_int=\count296
 )
 (output/output.aux)
 \openout1 = `output.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
- ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Package color Info: Driver file: pdftex.def on input line 149.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count266
-\scratchdimen=\dimen146
-\scratchbox=\box54
-\nofMPsegments=\count267
-\nofMParguments=\count268
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count269
-\MPscratchDim=\dimen147
-\MPnumerator=\count270
-\makeMPintoPDFobject=\count271
-\everyMPtoPDFconversion=\toks20
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 241.84845pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 364.1953pt, 28.45274pt)
+* \paperwidth=298.75394pt
+* \paperheight=421.10078pt
+* \textwidth=241.84845pt
+* \textheight=364.1953pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-56.81725pt
+* \headheight=12.0pt
+* \headsep=1.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+\SurnameDim=\dimen168
+\PhoneDim=\dimen169
+\AddrDim=\dimen170
+\AddrPhoneDim=\dimen171
+\SurAddrDim=\dimen172
+\SurAddrPhoneDim=\dimen173
+( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL )
+( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP )
+( FP-CLIP )
+LaTeX Font Info:    Calculating math sizes for size <9.095> on input line 8.
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
-<addrFront.pdf, id=1, 298.75415pt x 422.52354pt>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf>
-Package pdftex.def Info: addrFront.pdf  used on input line 4.
-(pdftex.def)             Requested size: 298.75342pt x 422.5225pt.
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf>
-Package pdftex.def Info: addrFront.pdf  used on input line 4.
-(pdftex.def)             Requested size: 298.75342pt x 422.5225pt.
-<addrFront.pdf, id=4, page=1, 298.75415pt x 422.52354pt>
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-Package pdftex.def Info: addrFront.pdf , page1 used on input line 4.
-(pdftex.def)             Requested size: 298.75342pt x 422.5225pt.
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-Package pdftex.def Info: addrFront.pdf , page1 used on input line 4.
-(pdftex.def)             Requested size: 149.37671pt x 211.26125pt.
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-Package pdftex.def Info: addrFront.pdf , page1 used on input line 4.
-(pdftex.def)             Requested size: 149.37671pt x 211.26125pt.
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-Package pdftex.def Info: addrFront.pdf , page1 used on input line 4.
-(pdftex.def)             Requested size: 149.37671pt x 211.26125pt.
-File: addrFront.pdf Graphic file (type pdf)
-<use addrFront.pdf, page 1>
-Package pdftex.def Info: addrFront.pdf , page1 used on input line 4.
-(pdftex.def)             Requested size: 149.37671pt x 211.26125pt.
- [1
 
- <./addrFront.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
-<Temp.pdf, id=21, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf>
-Package pdftex.def Info: Temp.pdf  used on input line 5.
-(pdftex.def)             Requested size: 298.75342pt x 421.1002pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf>
-Package pdftex.def Info: Temp.pdf  used on input line 5.
-(pdftex.def)             Requested size: 298.75342pt x 421.1002pt.
-<Temp.pdf, id=24, page=1, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 298.75342pt x 421.1002pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [2 <./Temp.pdf>]
-<Temp.pdf, id=54, page=2, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5475> not available
+(Font)              size <5> substituted on input line 8.
 
-[3 <./Temp.pdf>]
-<Temp.pdf, id=58, page=3, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [4 <./Temp.pdf>]
-<Temp.pdf, id=62, page=4, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [5 <./Temp.pdf>]
-<Temp.pdf, id=66, page=5, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [6 <./Temp.pdf>]
-<Temp.pdf, id=70, page=6, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 6>
-Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 6>
-Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 6>
-Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [7 <./Temp.pdf>]
-<Temp.pdf, id=75, page=7, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 7>
-Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 7>
-Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 6>
-Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 7>
-Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [8 <./Temp.pdf>]
-<Temp.pdf, id=79, page=8, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 8>
-Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 8>
-Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 6>
-Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 7>
-Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 8>
-Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [9 <./Temp.pdf>]
-<Temp.pdf, id=83, page=9, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 9>
-Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 9>
-Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 6>
-Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 7>
-Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 8>
-Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 9>
-Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [10 <./Temp.pdf>]
-<Temp.pdf, id=87, page=10, 298.75415pt x 421.10124pt>
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 10>
-Package pdftex.def Info: Temp.pdf , page10 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 10>
-Package pdftex.def Info: Temp.pdf , page10 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 1>
-Package pdftex.def Info: Temp.pdf , page1 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 2>
-Package pdftex.def Info: Temp.pdf , page2 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 3>
-Package pdftex.def Info: Temp.pdf , page3 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 4>
-Package pdftex.def Info: Temp.pdf , page4 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 5>
-Package pdftex.def Info: Temp.pdf , page5 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 6>
-Package pdftex.def Info: Temp.pdf , page6 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 7>
-Package pdftex.def Info: Temp.pdf , page7 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 8>
-Package pdftex.def Info: Temp.pdf , page8 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 9>
-Package pdftex.def Info: Temp.pdf , page9 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
-File: Temp.pdf Graphic file (type pdf)
-<use Temp.pdf, page 10>
-Package pdftex.def Info: Temp.pdf , page10 used on input line 5.
-(pdftex.def)             Requested size: 149.37671pt x 210.5501pt.
- [11 <./Temp.pdf>]
-(output/output.aux) ) 
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5475> not available
+(Font)              size <5> substituted on input line 8.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5475> not available
+(Font)              size <5> substituted on input line 8.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.095> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.36647> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.5475> on input line 8.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+) [1
+
+] [2]
+(output/output.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.4525pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2345 strings out of 479972
- 40055 string characters out of 5887510
- 336367 words of memory out of 5000000
- 20554 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 4061 strings out of 477853
+ 66700 string characters out of 5846608
+ 403616 words of memory out of 5000000
+ 24950 multiletter control sequences out of 15000+600000
+ 475969 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,17n,76p,239b,424s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on output/output.pdf (11 pages, 111699 bytes).
-PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70i,11n,76p,263b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on output/output.pdf (2 pages).
