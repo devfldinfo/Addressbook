@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2022.10.31)  22 MAR 2025 09:04
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2022.10.31)  22 MAR 2025 09:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,7 +394,12 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-) [1
+)
+Missing character: There is no é ("E9) in font phvr7t!
+Missing character: There is no è ("E8) in font phvr7t!
+Missing character: There is no é ("E9) in font phvr7t!
+Missing character: There is no è ("E8) in font phvr7t!
+[1
 
 ]
 Missing character: There is no é ("E9) in font phvr7t!
@@ -467,7 +472,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4062 strings out of 477853
  66718 string characters out of 5846608
- 404614 words of memory out of 5000000
+ 404616 words of memory out of 5000000
  24951 multiletter control sequences out of 15000+600000
  475969 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
