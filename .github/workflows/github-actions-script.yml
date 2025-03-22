@@ -22,7 +22,7 @@ jobs:
         docker pull thomasweise/docker-texlive-thin
       shell: bash
 
-    - name: Complie XeLaTex Document
+    - name: Compile XeLaTex Document
       run: |
         docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
       shell: bash
