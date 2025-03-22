@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2022.10.31)  22 MAR 2025 09:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  22 MAR 2025 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,14 +11,14 @@ Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\c@figure=\count187
-\c@table=\count188
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -39,14 +39,13 @@ Package: addressbook1
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/07/20 3.78 The Babel package
-\babel@savecnt=\count189
+\babel@savecnt=\count193
 \U@D=\dimen139
 \l@unhyphenated=\language4
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count190
+\bbl@dirlevel=\count194
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -79,7 +78,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \UL@skip=\skip58
 \UL@hook=\toks16
 \UL@height=\dimen140
-\UL@pe=\count191
+\UL@pe=\count195
 \UL@pixel=\dimen141
 \ULC@box=\box53
 Package: ulem 2019/11/18
@@ -108,19 +107,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count192
+\actioncount=\count196
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count193
-\FP@xia=\count194
-\FP@xib=\count195
-\FP@xfa=\count196
-\FP@xfb=\count197
-\FP@rega=\count198
-\FP@regb=\count199
-\FP@regs=\count266
-\FP@times=\count267
+\FP@xs=\count197
+\FP@xia=\count198
+\FP@xib=\count199
+\FP@xfa=\count266
+\FP@xfb=\count267
+\FP@rega=\count268
+\FP@regb=\count269
+\FP@regs=\count270
+\FP@times=\count271
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -139,7 +138,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count268
+\FPseed=\count272
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -158,15 +157,15 @@ Package: pbox 2011/12/07 v1.2 Dynamic parboxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count269
-\calc@Bcount=\count270
+\calc@Acount=\count273
+\calc@Bcount=\count274
 \calc@Adimen=\dimen143
 \calc@Bdimen=\dimen144
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count271
+\calc@Ccount=\count275
 \calc@Cskip=\skip75
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -176,14 +175,14 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count272
+\c@tracingmulticols=\count276
 \mult@box=\box54
 \multicol@leftmargin=\dimen145
-\c@unbalance=\count273
-\c@collectmore=\count274
-\doublecol@number=\count275
-\multicoltolerance=\count276
-\multicolpretolerance=\count277
+\c@unbalance=\count277
+\c@collectmore=\count278
+\doublecol@number=\count279
+\multicoltolerance=\count280
+\multicolpretolerance=\count281
 \full@width=\dimen146
 \page@free=\dimen147
 \premulticols=\dimen148
@@ -233,15 +232,15 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\c@minrows=\count278
-\c@columnbadness=\count279
-\c@finalcolumnbadness=\count280
+\c@minrows=\count282
+\c@columnbadness=\count283
+\c@finalcolumnbadness=\count284
 \last@try=\dimen151
 \multicolovershoot=\dimen152
 \multicolundershoot=\dimen153
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
-\mc@col@check@num=\count281
+\mc@col@check@num=\count285
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -256,9 +255,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count282
-\Gm@cntv=\count283
-\c@Gm@tempcnt=\count284
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -269,14 +268,14 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks18
 )
-\TempCnt=\count285
-\FontScaleCnt=\count286
-\ProvFontCnt=\count287
-\DistFontCnt=\count288
-\MedSmallFontCnt=\count289
-\NormalFontCnt=\count290
-\SmallFontCnt=\count291
-\VSmallFontCnt=\count292
+\TempCnt=\count289
+\FontScaleCnt=\count290
+\ProvFontCnt=\count291
+\DistFontCnt=\count292
+\MedSmallFontCnt=\count293
+\NormalFontCnt=\count294
+\SmallFontCnt=\count295
+\VSmallFontCnt=\count296
 \SurnameDim=\dimen162
 \PhoneDim=\dimen163
 \AddrDim=\dimen164
@@ -294,13 +293,10 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \HomeBox=\box104
 \LeftBox=\box105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
-\g__graphics_track_int=\count293
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box106
-\g__pdf_backend_object_int=\count294
-\g__pdf_backend_annotation_int=\count295
-\g__pdf_backend_link_int=\count296
 )
 (output/output.aux)
 \openout1 = `output.aux'.
@@ -314,13 +310,6 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -328,9 +317,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -394,41 +383,9 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no è ("E8) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no è ("E8) in font phvr7t!
-[1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-[2]
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-[3]
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no   ("A0) in font phvr7t!
-[4]
-Missing character: There is no è ("E8) in font phvr7t!
-Missing character: There is no è ("E8) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no ö ("F6) in font phvb7t!
-Missing character: There is no ë ("EB) in font phvr7t!
-Missing character: There is no ë ("EB) in font phvr7t!
-[5]
+] [2] [3] [4] [5]
 Overfull \hbox (6.1408pt too wide) in paragraph at lines 98--98
 []\OT1/phv/m/n/7.65 Adri; 6 Oboe St, Ryn-field, Benoni, 1501; adri.frans00@gmai
 l.com  
@@ -440,42 +397,40 @@ Overfull \hbox (6.1408pt too wide) in paragraph at lines 98--98
 l.com  
  []
 
-Missing character: There is no è ("E8) in font phvr7t!
-Missing character: There is no è ("E8) in font phvr7t!
-[6]
-Missing character: There is no ü ("FC) in font phvr7t!
-Missing character: There is no ü ("FC) in font phvr7t!
-Missing character: There is no é ("E9) in font phvb7t!
-[7]
+[6] [7]
 Overfull \hbox (6.52286pt too wide) in paragraph at lines 125--125
 \OT1/phv/m/n/7.65 bjv[]bj@yahoo.com(Ben), berthaver-cueil@gmail.com(Ber)  
  []
 
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-[8]
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-[9]
-Missing character: There is no ° ("B0) in font phvr7t!
-Missing character: There is no ° ("B0) in font phvr7t!
-Missing character: There is no ° ("B0) in font phvr7t!
-Missing character: There is no ° ("B0) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-Missing character: There is no é ("E9) in font phvr7t!
-[10] (output/output.aux)
+[8] [9]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
+60.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+) [10]
+(output/output.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.4525pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 4062 strings out of 477853
- 66718 string characters out of 5846608
- 404616 words of memory out of 5000000
- 24951 multiletter control sequences out of 15000+600000
- 475969 words of font info for 45 fonts, out of 8000000 for 9000
+ 4050 strings out of 479972
+ 65429 string characters out of 5887510
+ 397724 words of memory out of 5000000
+ 22202 multiletter control sequences out of 15000+600000
+ 481846 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,11n,76p,263b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on output/output.pdf (10 pages, 71787 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on output/output.pdf (10 pages).
