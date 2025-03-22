@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  22 MAR 2025 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  22 MAR 2025 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,7 +394,7 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 ) [10] [11] [12]
 [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
 [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
-[43] [44] [45] (output/output.aux)
+[43] [44] (output/output.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.4525pt have occurred.
@@ -403,20 +403,20 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4056 strings out of 479972
  65479 string characters out of 5887510
- 398724 words of memory out of 5000000
+ 399724 words of memory out of 5000000
  22207 multiletter control sequences out of 15000+600000
  482924 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,11n,76p,316b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,76p,314b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output/output.pdf (45 pages, 162829 bytes).
+Output written on output/output.pdf (44 pages, 161849 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 174 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
