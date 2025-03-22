@@ -21,6 +21,9 @@ jobs:
       run: |
         docker pull thomasweise/docker-texlive-thin
       shell: bash
+      
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y texlive-extra-utils
 
     - name: Compile XeLaTex Document
       run: |
