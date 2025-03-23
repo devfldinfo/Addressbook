@@ -1,0 +1,45 @@
+name: Compile Latex File
+permissions: write-all
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**.tex'
+      
+env:
+  outputtex: output.tex
+
+jobs:
+  Get-Docker-Images-and-Compile:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Pull Image
+      run: |
+        docker pull thomasweise/docker-texlive-thin
+      shell: bash
+      
+ #   - name: Install dependencies
+ #     run: sudo apt-get update && sudo apt-get install -y texlive-extra-utils
+
+    - name: Compile XeLaTex Document
+      run: |
+        docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
+      shell: bash
+    
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Stefanzweif
+        file_pattern: '.'
+    
+#    - name: Delete output.tex file
+#      run: |
+#        git config --global user.name 'GitHub Actions'
+#        git config --global user.email 'actions@github.com'
+#        git rm output.tex
+#        git commit -m "Delete output.tex"
+#        git push origin main
+#      shell: bash
