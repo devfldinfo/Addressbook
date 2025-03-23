@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  23 MAR 2025 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.31)  23 MAR 2025 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -356,11 +356,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 6.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
-.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-) [1
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \SurnameDim=\dimen168
@@ -369,89 +365,56 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 \AddrPhoneDim=\dimen171
 \SurAddrDim=\dimen172
 \SurAddrPhoneDim=\dimen173
- ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL )
-( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP
-) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP )
-LaTeX Font Info:    Calculating math sizes for size <9.095> on input line 13.
+ ( FP-MUL ) ( FP-MUL )
+( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-MUL ) ( FP-CLIP ) ( FP-CLIP )
+( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP ) ( FP-CLIP )
+LaTeX Font Info:    Calculating math sizes for size <9.095> on input line 11.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5475> not available
-(Font)              size <5> substituted on input line 13.
+(Font)              size <5> substituted on input line 11.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5475> not available
-(Font)              size <5> substituted on input line 13.
+(Font)              size <5> substituted on input line 11.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5475> not available
-(Font)              size <5> substituted on input line 13.
+(Font)              size <5> substituted on input line 11.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.095> on input line 13.
+(Font)              <9.095> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.36647> on input line 13.
+(Font)              <6.36647> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.5475> on input line 13.
+(Font)              <4.5475> on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+1.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+) [1
 
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 13.
-
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6.8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 13.
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 14.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 15.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 16.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 17.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 18.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 19.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 20.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scit' undefined
-(Font)              using `OT1/phv/m/it' instead on input line 21.
-
-[1
-
-] (output/output.aux)
+]
+(output/output.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.4525pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 4043 strings out of 479972
- 65250 string characters out of 5887510
- 391721 words of memory out of 5000000
- 22186 multiletter control sequences out of 15000+600000
- 494895 words of font info for 67 fonts, out of 8000000 for 9000
+ 4032 strings out of 479972
+ 65126 string characters out of 5887510
+ 391712 words of memory out of 5000000
+ 22181 multiletter control sequences out of 15000+600000
+ 486528 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,11n,76p,279b,259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,76p,279b,286s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on output/output.pdf (2 pages, 42961 bytes).
+/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on output/output.pdf (2 pages, 44925 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
