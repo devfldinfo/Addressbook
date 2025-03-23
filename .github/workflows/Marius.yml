@@ -1,10 +1,10 @@
-name: Compile Latex File
+name: Marius Toets
 permissions: write-all
 on:
   workflow_dispatch:
       
 env:
-  outputtex: output.tex
+  outputtex: marius.tex
 
 jobs:
   Get-Docker-Images-and-Compile:
