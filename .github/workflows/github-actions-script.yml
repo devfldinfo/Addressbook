@@ -1,45 +1,43 @@
-name: Compile Latex File
-permissions: write-all
+name: Compile LaTeX Files
+
 on:
-  workflow_dispatch:
   push:
     paths:
-      - '**.tex'
-      
-env:
-  outputtex: output.tex
+      - 'input/**/start.txt'
+
+  pull_request:
+    paths:
+      - 'input/**/start.txt'
+
+  workflow_dispatch:
 
 jobs:
-  Get-Docker-Images-and-Compile:
+  compile:
     runs-on: ubuntu-latest
-    permissions: 
-      contents: write
+
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Pull Image
-      run: |
-        docker pull thomasweise/docker-texlive-thin
-      shell: bash
-      
- #   - name: Install dependencies
- #     run: sudo apt-get update && sudo apt-get install -y texlive-extra-utils
+      - name: Install LaTeX
+        run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-xetex
 
-    - name: Compile XeLaTex Document
-      run: |
-        docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/docker-texlive-thin make
-      shell: bash
-    
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Stefanzweif
-        file_pattern: '.'
-    
-#    - name: Delete output.tex file
-#      run: |
-#        git config --global user.name 'GitHub Actions'
-#        git config --global user.email 'actions@github.com'
-#        git rm output.tex
-#        git commit -m "Delete output.tex"
-#        git push origin main
-#      shell: bash
+      - name: Create Output Directory
+        run: mkdir -p output
+
+      - name: Compile LaTeX Files
+        run: |
+          for file in input/*.tex; do
+            pdflatex -interaction=nonstopmode -output-directory=output "$file"
+          done
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Compiled LaTeX files
+          file_pattern: '.'
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-pdfs
+          path: output/*.pdf
