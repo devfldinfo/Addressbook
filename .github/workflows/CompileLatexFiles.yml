@@ -29,11 +29,12 @@ jobs:
         run: |
           for file in input/*.tex; do
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
-          done
+          done        
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Compiled LaTeX files
+          push_options: '--force'
           file_pattern: '.'
 
       - name: Upload PDFs
