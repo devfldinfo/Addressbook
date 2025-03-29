@@ -27,7 +27,7 @@ jobs:
 
       - name: Compile LaTeX Files
         run: |
-          for file in input/*.tex; do
+          for file in input/*.txt; do
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
           done        
 
