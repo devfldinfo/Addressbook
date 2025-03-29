@@ -3,11 +3,11 @@ name: Compile LaTeX Files
 on:
   push:
     paths:
-      - 'input/**/start.txt'
+      - 'input/**/start.start'
 
   pull_request:
     paths:
-      - 'input/**/start.txt'
+      - 'input/**/start.start'
 
   workflow_dispatch:
 
