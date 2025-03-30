@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,26 +450,19 @@ Overfull \hbox (19.9001pt too wide) in paragraph at lines 652--652
 
 [49] [50] [51] [52] [53] [54] [55] [56]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 740.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 739.
  [57
 
-] [58] [59]
+] [58] [59] [60]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 22.48999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
-[75] [76] [77] [78] [79] [80] [81]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 22.48999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96]
-[97] [98] [99] [100] [101] [102] (output/Northern Provinces.aux)
+[61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75]
+[76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
+[91] [92] [93] [94] [95] [96] [97] [98] [99] (output/Northern Provinces.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -483,21 +476,21 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4084 strings out of 476182
  64599 string characters out of 5795595
- 1937975 words of memory out of 5000000
+ 1935975 words of memory out of 5000000
  26019 multiletter control sequences out of 15000+600000
  584338 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,79p,394b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,79p,394b,290s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on "output/Northern Provinces.pdf" (103 pages, 299109 bytes).
+Output written on "output/Northern Provinces.pdf" (100 pages, 294852 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
+ 358 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

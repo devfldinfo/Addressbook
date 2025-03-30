@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,7 +417,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4046 strings out of 476182
  64122 string characters out of 5795595
- 1936975 words of memory out of 5000000
+ 1935975 words of memory out of 5000000
  25985 multiletter control sequences out of 15000+600000
  584025 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -428,7 +428,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on "output/Cape Peninsula - North.pdf" (18 pages, 109323 bytes).
+Output written on "output/Cape Peninsula - North.pdf" (18 pages, 108536 bytes).
 
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)

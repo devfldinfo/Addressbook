@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,15 +409,8 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
  [28
 
 ] [29] [30] [31] [32] [33] [34] [35] [36] [37]
-[38] [39] [40] [41]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 22.48999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]
-[57] [58] (output/Western Cape.aux)
+[38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
+[53] [54] [55] [56] [57] (output/Western Cape.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -431,7 +424,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4047 strings out of 476182
  64010 string characters out of 5795595
- 1936975 words of memory out of 5000000
+ 1937975 words of memory out of 5000000
  25986 multiletter control sequences out of 15000+600000
  584025 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -442,10 +435,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on "output/Western Cape.pdf" (59 pages, 208221 bytes).
+Output written on "output/Western Cape.pdf" (58 pages, 204260 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
+ 223 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

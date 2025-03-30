@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,7 +417,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 73.
  [6
 
-] [7] [8] [9] [10] [11] [12] (output/Jhb - West Rand.aux)
+] [7] [8] [9] [10] [11] (output/Jhb - West Rand.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -431,7 +431,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4080 strings out of 476182
  64518 string characters out of 5795595
- 1936975 words of memory out of 5000000
+ 1935975 words of memory out of 5000000
  26015 multiletter control sequences out of 15000+600000
  584338 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -442,10 +442,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on "output/Jhb - West Rand.pdf" (13 pages, 95619 bytes).
+Output written on "output/Jhb - West Rand.pdf" (12 pages, 94338 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

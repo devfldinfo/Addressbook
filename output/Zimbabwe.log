@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,8 +414,7 @@ Overfull \hbox (9.93817pt too wide) in paragraph at lines 505--505
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 602.
  [40] [41] [42] [43] [44] [45] [46] [47] [48]
-[49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60]
-(output/Zimbabwe.aux)
+[49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] (output/Zimbabwe.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -440,10 +439,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on output/Zimbabwe.pdf (61 pages, 190805 bytes).
+Output written on output/Zimbabwe.pdf (60 pages, 189393 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
