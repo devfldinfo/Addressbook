@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.29)  29 MAR 2025 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"input/Jhb - West Rand.tex"
-(./input/Jhb - West Rand.tex
+**"input/Jhb - West Rand.txt"
+(./input/Jhb - West Rand.txt
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -397,54 +397,27 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) [1
 
 ] [2] [3]
-Overfull \hbox (3.9805pt too wide) in paragraph at lines 54--54
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
+4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Overfull \hbox (3.9805pt too wide) in paragraph at lines 58--58
 \OT1/phv/m/n/7.65 line.smith@standardbank.co.za(H)  
  []
 
 [4]
-Overfull \hbox (3.9805pt too wide) in paragraph at lines 60--60
-\OT1/phv/m/n/7.65 line.smith@standardbank.co.za(H)  
- []
-
-
-Overfull \hbox (3.9805pt too wide) in paragraph at lines 66--66
-\OT1/phv/m/n/7.65 line.smith@standardbank.co.za(H)  
- []
-
-
-Overfull \hbox (19.9001pt too wide) in paragraph at lines 70--70
+Overfull \hbox (19.9001pt too wide) in paragraph at lines 65--65
 \OT1/phv/m/n/7.65 Chante@teacherslearningcentre.co.za  
  []
 
 [5]
-Overfull \hbox (19.9001pt too wide) in paragraph at lines 76--76
-\OT1/phv/m/n/7.65 Chante@teacherslearningcentre.co.za  
- []
-
-
-Overfull \hbox (19.9001pt too wide) in paragraph at lines 82--82
-\OT1/phv/m/n/7.65 Chante@teacherslearningcentre.co.za  
- []
-
-[6] [7]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-03.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [8] [9]
-[10] [11] [12] [13]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 177.
- [14
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 73.
+ [6
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 22.48999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15] [16] [17] [18] [19] [20] (output/Jhb - West Rand.aux)
+] [7] [8] [9] [10] [11] [12] (output/Jhb - West Rand.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -469,10 +442,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on "output/Jhb - West Rand.pdf" (21 pages, 106009 bytes).
+Output written on "output/Jhb - West Rand.pdf" (13 pages, 95619 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

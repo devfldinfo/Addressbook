@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.29)  29 MAR 2025 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**input/Zambia.tex
-(./input/Zambia.tex
+**input/Zambia.txt
+(./input/Zambia.txt
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -299,7 +299,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box107
 )
-No file Zambia.aux.
+(output/Zambia.aux)
 \openout1 = `Zambia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -316,6 +316,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -395,19 +396,19 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) [1
 
-]
-Overfull \hbox (9.93817pt too wide) in paragraph at lines 31--31
+] [2]
+Overfull \hbox (9.93817pt too wide) in paragraph at lines 49--49
 \OT1/phv/m/n/7.65 ls8543@gmail.com; (-13.7390830,29.1959780)  
  []
 
 
-Overfull \hbox (9.93817pt too wide) in paragraph at lines 31--31
+Overfull \hbox (9.93817pt too wide) in paragraph at lines 49--49
 \OT1/phv/m/n/7.65 ls8543@gmail.com; (-13.7390830,29.1959780)  
  []
 
-[2] [3]
+[3]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 58.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 57.
  [4
 
 ] [5] (output/Zambia.aux)
@@ -422,10 +423,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 4042 strings out of 476182
- 63831 string characters out of 5795595
- 1933975 words of memory out of 5000000
- 25983 multiletter control sequences out of 15000+600000
+ 4045 strings out of 476182
+ 63888 string characters out of 5795595
+ 1934975 words of memory out of 5000000
+ 25984 multiletter control sequences out of 15000+600000
  584025 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,11n,79p,285b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -435,7 +436,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on output/Zambia.pdf (6 pages, 68852 bytes).
+Output written on output/Zambia.pdf (6 pages, 68919 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream

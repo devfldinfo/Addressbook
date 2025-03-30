@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.29)  29 MAR 2025 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.30)  30 MAR 2025 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"input/North West Province & Vaal Triangle.tex"
-(./input/North West Province & Vaal Triangle.tex
+**"input/North West Province & Vaal Triangle.txt"
+(./input/North West Province & Vaal Triangle.txt
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -394,24 +394,24 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 0.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-) [1
-
-] [2] [3]
-Overfull \hbox (32.79881pt too wide) in paragraph at lines 55--55
+)
+Overfull \hbox (32.79881pt too wide) in paragraph at lines 14--14
 \OT1/phv/m/n/7.65 ip 377, gedeelte 2; daniebarnard20@gmail.com(D) 
  []
 
 
-Overfull \hbox (32.79881pt too wide) in paragraph at lines 55--55
+Overfull \hbox (32.79881pt too wide) in paragraph at lines 14--14
 \OT1/phv/m/n/7.65 ip 377, gedeelte 2; daniebarnard20@gmail.com(D) 
  []
 
-[4] [5] [6] [7]
+[1
+
+] [2] [3] [4] [5] [6]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 105.
- [8
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 77.
+ [7
 
-] [9] [10] [11]
+] [8] [9] [10]
 (output/North West Province & Vaal Triangle.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -426,22 +426,22 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  4047 strings out of 476182
  64299 string characters out of 5795595
- 1936975 words of memory out of 5000000
+ 1935975 words of memory out of 5000000
  25986 multiletter control sequences out of 15000+600000
  584025 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,79p,355b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,316b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on "output/North West Province & Vaal Triangle.pdf" (12 pages, 9
-4567 bytes).
+Output written on "output/North West Province & Vaal Triangle.pdf" (11 pages, 9
+1653 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
