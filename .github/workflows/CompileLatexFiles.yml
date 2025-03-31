@@ -27,8 +27,8 @@ jobs:
 
       - name: Compile LaTeX Files
         run: |
-          for file in input/*.tex; do
-            base_name=$(basename "$file" .tex)
+          for file in input/*.txt; do
+            base_name=$(basename "$file" .txt)
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
             biber output/"$base_name" || true
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
