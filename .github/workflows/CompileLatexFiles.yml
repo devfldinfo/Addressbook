@@ -23,35 +23,37 @@ jobs:
           sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-xetex texlive-bibtex-extra biber texlive-extra-utils
 
       - name: Create Output Directory
-        run: mkdir -p output output/booklets
+        run: mkdir -p output
 
       - name: Compile LaTeX Files
         run: |
-          for file in input/*.txt; do
+          for file in input/*.tex; do
+            base_name=$(basename "$file" .tex)
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
+            biber output/"$base_name" || true
+            pdflatex -interaction=nonstopmode -output-directory=output "$file"
+            mv output/"$base_name.pdf" output/"$base_name - View.pdf"
           done        
 
       - name: Generate Booklet PDFs
         run: |
-          for pdf in output/*.pdf; do
-            pdfjam --booklet true --landscape "$pdf" --outfile "output/booklets/$(basename "$pdf" .pdf)-booklet.pdf"
+          for pdf in output/*- View.pdf; do
+            base_name=$(basename "$pdf" " - View.pdf")
+            pdfjam --booklet true --landscape --paper a4paper "$pdf" --outfile "output/${base_name} - Print.pdf"
           done  
+
+      - name: Delete Temporary LaTeX Files
+        run: rm -f output/*.{aux,log,lof,lot,toc,bbl,blg,out,synctex.gz,fdb_latexmk,fls}
 
       - name: Auto Commit PDFs
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Compiled LaTeX files and generated booklets"
+          commit_message: "Compiled LaTeX files with View and Print versions"
           push_options: '--force'
-          file_pattern: 'output/*.pdf output/booklets/*.pdf'
+          file_pattern: 'output/*.pdf'
 
       - name: Upload PDFs
         uses: actions/upload-artifact@v4
         with:
-          name: compiled-pdfs
+          name: compiled-and-booklet-pdfs
           path: output/*.pdf
-
-      - name: Upload Booklet PDFs
-        uses: actions/upload-artifact@v4
-        with:
-          name: booklet-pdfs
-          path: output/booklets/*.pdf
