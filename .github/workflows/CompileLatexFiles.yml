@@ -4,11 +4,9 @@ on:
   push:
     paths:
       - 'input/**/start.start'
-
   pull_request:
     paths:
       - 'input/**/start.start'
-
   workflow_dispatch:
 
 jobs:
@@ -19,26 +17,41 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install LaTeX
-        run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-xetex
+      - name: Install LaTeX and PDF Utilities
+        run: |
+          sudo apt-get update 
+          sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-xetex texlive-bibtex-extra biber texlive-extra-utils
 
       - name: Create Output Directory
-        run: mkdir -p output
+        run: mkdir -p output output/booklets
 
       - name: Compile LaTeX Files
         run: |
-          for file in input/*.txt; do
+          for file in input/*.tex; do
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
           done        
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Generate Booklet PDFs
+        run: |
+          for pdf in output/*.pdf; do
+            pdfjam --booklet true --landscape "$pdf" --outfile "output/booklets/$(basename "$pdf" .pdf)-booklet.pdf"
+          done  
+
+      - name: Auto Commit PDFs
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Compiled LaTeX files
+          commit_message: "Compiled LaTeX files and generated booklets"
           push_options: '--force'
-          file_pattern: '.'
+          file_pattern: 'output/*.pdf output/booklets/*.pdf'
 
       - name: Upload PDFs
         uses: actions/upload-artifact@v4
         with:
           name: compiled-pdfs
           path: output/*.pdf
+
+      - name: Upload Booklet PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: booklet-pdfs
+          path: output/booklets/*.pdf
