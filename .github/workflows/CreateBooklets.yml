@@ -25,11 +25,11 @@ jobs:
       - name: Process PDF Files
         run: |
           mkdir -p output
-          for file in output/* - View.pdf; do
+          for file in output/*\ -\ View.pdf; do
             if [[ -f "$file" ]]; then
               base_name="${file% - View.pdf}"
-              pdfbook2 "$file"
-              mv output.pdf "${base_name} - Print.pdf"
+              output_file="${base_name} - Print.pdf"
+              pdfbook2 "$file" --outfile "$output_file"
             fi
           done
 
@@ -42,6 +42,3 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-  
