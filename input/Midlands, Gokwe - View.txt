@@ -1,0 +1,194 @@
+\documentclass[english]{article}
+\title{Midlands, Gokwe}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Birch}{Kwekwe}{ "Hillside", Gokwe Rd, Kwekwe / w 6 Kaguvi Dr, LIS; P.O.Box 170, Kwekwe; pjbirch76@gmail.com; (-18.94039,29.77879) }{+263712 406 741(P)\\0254 22654W}
+\Home{Chibvuwo }{Gweru}{ 523 Marongere RD, Ascot. Gweru}{+263787615899(V)}
+\Home{Chigogo}{Musadzi}{Naison Hwadze Secondary School, Village 9A}{071 747 5630(F)}
+\Home{Chikande}{Zhombe}{Tatenda,mzk Palmer St Peters Sch, PB788, Kadoma}{073 997 5351(M)\\0777562350(M)}
+\Home{Chikwava}{Midlands Contacts}{ Gweru}{0733 896 159}
+\Home{Chiwara}{Midlands Contacts}{ 6234 Mkoba 19}{}
+\Home{Gogo }{Midlands Contacts}{ Dzvairo Village}{+263784752597(D)}
+\Home{Gotohori}{Munyatipanzi}{ Gumunyu, Munyatipanze}{077 856 4298(B)}
+\Home{Govere}{Gweru}{Andrew Plot 6,Gandwe(Onway to sino)Mvuma road}{+263 77 606 3886(C)\\+263773943495(K)\\+263714666999(K)}
+\Home{Hlasi}{Midlands Contacts}{Vimbai,Takudzwa,Thulani,Takundwa Dombwe Pr Sch, Box 1 Shurugwi}{0779 309 212}
+\Home{Hove}{Gweru}{ 1 Peter falk Road, Athlone. Gweru}{+263778042826(E)\\+263715390222(E)}
+\Home{Hove}{Gweru}{Mikayla,Eden 9 Smart Road, Athlone. Gweru}{+263782865376(U)}
+\Home{Jakopo}{Shurugwi}{Tracey Shurugwi}{+263773345675(TJ)\\ +263773787194 (T)\\+263735942630(T)}
+\Home{Mafukidze}{Munyatipanzi}{Praise,Cynthia,Brighton,Peniel Munyatipanze Sch, Box 36, Nembudzia}{+263774716702(B)\\+263773741925(M)}
+\Home{Magomana}{Mapu}{ Kwaedza Sch,PB6009, Gokwe}{+263 774712814(J)\\077 576 9649(L)}
+\Home{Makavanga}{Gweru}{Julias,Kudakwashe,Violet 4463/1 Khami street Mkoba 9, Gweru}{+263779706125(E)}
+\Home{Makavanga}{Midlands Contacts}{ 4463/1 Khami street Mkoba 9, Gweru}{+263774418977(R)}
+\Home{Malisao}{Midlands Contacts}{Mikayla,Mitchel,Nigel Athlone, Gweru}{+263715300177(M)}
+\Home{Mandaba}{Midlands Contacts}{ Kadoma prison}{+263773670022(M)\\+263713766955(M)}
+\Home{Mandaba}{Midlands Contacts}{Nyengeterai Std 1486, Light Industries, Gokwe}{0773 442 749(K)\\071 563 5200(C)}
+\Home{Mangirazi}{Mapu}{ Kwaedza Sch, PB6009, Gokwe}{+263785686513(B)}
+\Home{Mangwanya}{Zhombe}{Melissa,Tariro St Peters Sch, PB788, Kadoma}{0716340718(S)\\077 326 1032 (S)\\0776784269(M)\\+263 77 137 1895(T)}
+\Home{Manonga}{Zhombe}{Victory,Aubrey,Chelsea Charlene St Peters School, PB 788, Kadoma}{0776 283 937(H)\\+27845227746(H)\\+27665169251(C)}
+\Home{Marufu}{Midlands Contacts}{ }{0786194587(A)}
+\Home{Masanga}{Kwekwe}{ 2 Herrick Road, Glenwood,Kwekwe}{+263774 486 856}
+\Home{Mavhengere}{Midlands Contacts}{Praise Village 16B}{}
+\Home{Mavhika}{Mapu}{ Kwaedza Sch, PB6009, Gokwe}{0771467715(E)\\077 677 8370(D)}
+\Home{Mavhika}{Midlands Contacts}{Sheila,Sharon,Samuel,Gracious }{+263773347623(N)\\+263789960380(S)}
+\Home{Mawana}{Chidoma}{mzk: Lissa Chidoma Sec School, Box 720, Gokwe}{+263789966504(K)}
+\Home{Mawana}{Midlands Contacts}{ Chidoma Sec School, Box 720, Gokwe}{077 745 4807(N)}
+\Home{Mawana}{Midlands Contacts}{Claytus,Gibson Chidoma Sec School, Box 720, Gokwe}{077 872 4592(G)\\077 872 4510(C)}
+\Home{Mawana}{Midlands Contacts}{Lisa Chidoma Sec School, Box 720, Gokwe}{}
+\Home{Mazhambe}{Munyatipanzi}{mzk Joseph Munyatipanze Sch, Box 36, Nembudzia}{+263781906844(A)}
+\Home{Mbizo (Moyo)}{Mapu}{Tafadzwa Gwanyika Sch, PB6023, Gokwe}{077 418 6903}
+\Home{Moyo}{Zhombe}{Petronella,Nyasha,Eustina,Takudzwa St Peters Sch, PB788, Kadoma; (-18.45652,29.52498) }{0773 297 879(E)\\0773 789 610(Eu)\\071 628 7224(Eu)}
+\Home{Mpofu}{Midlands Contacts}{Freddie Kwaedza School, PB6009, Gokwe}{}
+\Home{Msindo}{Chegutu}{ Chegutu plots, road to Chakari; (-17.4488,28.965) }{077 923 6665(E)}
+\Home{Muchemwa}{Midlands Contacts}{c/o Enoch }{}
+\Home{Mudimu}{Mashame}{ Mashame Pri Sch, PB6231, Gokwe}{+263780401637(C)}
+\Home{Mudimu}{Mashame}{Tanaka,Tinotenda,Tinevimbo,Mzk Issac Mashame Pri Sch, PB6231, Gokwe}{+263778752347(R)\\+263776766838(E)}
+\Home{Mudimu}{Midlands Contacts}{Shanezze,Shyleen Mashame Pri Sch, PB6231, Gokwe}{}
+\Home{Mudiwa}{Midlands Contacts}{Nyasha 2741/13 Mbizo}{055-47333}
+\Home{Mudzoki}{Midlands Contacts}{ Kadoma}{+263774100538(M)}
+\Home{Mudzoki}{Midlands Contacts}{ Plot 81, Oldham Farm/Box 635, Chegutu}{0774 180 890(T)}
+\Home{Mudzoki}{Midlands Contacts}{Rumbi Svibe Sec Sch, PB 21, Nembudzia}{+263782840727(F)\\+263788497990(M)}
+\Home{Mudzoki}{Nembudzia}{Emmanuel,Prince,Kingsley,Steven,Abigail Svibe Sec Sch, PB 21, Nembudzia}{+263780220932(S)}
+\Home{Mudzoki}{Nyamacheni}{ Manica Bridge, Mutare}{+263776 153 249(D)\\0713 545 585(V)}
+\Home{Muguti }{Mapu}{Clayton,Tsitsi,Tinaye  Kwaedza Sch, PB6009, Gokwe}{}
+\Home{Muguti }{Midlands Contacts}{ Kwaedza Sch, PB6009, Gokwe}{}
+\Home{Muguti}{Mapu}{Munyaradzi,Eria }{ +263771330893(C)\\+263779080022(M)}
+\Home{Mukarakate}{Midlands Contacts}{ Munyatipanze Sch, Box 36, Nembudzia}{0774 368 292(M)}
+\Home{Mukarakate}{Munyatipanzi}{ Munyatipanze Sch, Box 36, Nembudzia}{077 412 7534(A)}
+\Home{Mukarakate}{Munyatipanzi}{Aplonia,Leslie,Linnetah Munyatipanze Sch, Box 36, Nembudzia}{+263774613230(S)}
+\Home{Muparuri}{Midlands Contacts}{Junior Mutimutema Sec school. village 2 Paka}{+263775004398(A)}
+\Home{Murambinda }{Midlands Contacts}{ St Peters Sch, PB788, Kadoma}{+263713226411(C)}
+\Home{Murambinda}{Kwekwe}{Maud,Mildred,Mashal }{0783 056 057}
+\Home{Murambinda}{Midlands Contacts}{Adriel St Peters Sch, PB788, Kadoma}{+263710405574(T)\\+263773112140(T)}
+\Home{Murambinda}{Midlands Contacts}{Blessed,Nonsikelelo, Nosi }{0775 180 692(R)}
+\Home{Murambinda}{Zhombe}{Dephine,mzk Clemence St Peters Sch, PB788, Kadoma}{+263710834588(C)\\+263782456449(D)\\+263775599226(C)}
+\Home{Mutambara}{Midlands Contacts}{ Gokwe Copper Queen}{}
+\Home{Mutandavari}{Midlands Contacts}{ Chiedza Sch, PB 609, Kadoma}{}
+\Home{Mutero}{Chidoma}{ Chidoma, Mapu}{+263787184750(C)}
+\Home{Mutyorahuri}{Zhombe}{ St Andrews, Dzairo Village line.}{+263775236776(E)}
+\Home{Muzanenhamo}{Midlands Contacts}{ }{071 821 5813}
+\Home{Muzanenhamo}{Midlands Contacts}{Shelton,Isaiah,Paddington,Martha Safago Farm, Box 427, Gweru}{+263780173238(V)\\071 643 6399(S)\\0773625075(W)\\+263776539788(P)}
+\Home{Ncube}{Midlands Contacts}{Edson,Eveline St Peters, Private Bag 788, Kodoma}{}
+\Home{Ndlovhu}{Midlands Contacts}{George 4027 Ngezi Township}{0773 498 516}
+\Home{Phiri}{Midlands Contacts}{ near Manungo Village, Shurugwi}{077 963 2828(T)}
+\Home{Phiri}{Midlands Contacts}{Anopa 2340/14 Mkoba, Gweru}{071 533 0443(G)\\077 254 2981(P)}
+\Home{Phiri}{Midlands Contacts}{Stanley,Gracious Svika Sec Sch, Box 944, Shurugwi}{0735 416 073(St)\\0736 127 795(Si)}
+\Home{Phiri}{Shurugwi}{mzk Junior near Manungo Village, Shurugwi; Dombwe Pr Sch, Box 1 Shurugwi; (-19.59018,30.20128) }{077 457 9312(N)\\+263718129407}
+\Home{Sibanda}{Chireya}{Receive Chireya, Gokwe}{077 776 4670(L)\\+263787340988(E)}
+\Home{Tachiva}{Midlands Contacts}{ Village 16A, Musadzi Sch, PB 60 Nembudzia}{0712 191 201}
+\Home{Tachiva}{Midlands Contacts}{Constance,Tatenda,Tinashe Village 16A, Musadzi Sch. PB 60, Nembudzia}{0771 961 295}
+\Home{Tachiva}{Midlands Contacts}{Tarisai Chiodza Sch PB 6191, Gokwe (Nemangwe bus-Mutimutema Bus stop)}{}
+\Home{Taru}{Midlands Contacts}{ Binga}{+263 71 359 9151(L)}
+\Home{Tunge}{Midlands Contacts}{Nyasha,Eddie Chitsa Shops, Gokwe}{0712 088 570(R)\\077 905 4537(R)}
+\Home{Zava }{Midlands Contacts}{ Gokwe, Copper queen}{+263715908909(T)\\+263784804722(T)}
+\Home{Zava }{Midlands Contacts}{ Gokwe, Sanyati}{+263773661324(M)}
+\Home{Zava}{Midlands Contacts}{ Nyamacheni Pr Sch, BP 6007, Gokwe}{}
+\Home{Zvinorova}{Midlands Contacts}{ Binga Sengwa Island; Gokwe center 6079 Njelele Phase 2, after Mahofa shops. Gokwe center}{ +263718487034(E)}
+\Home{Zvinorova}{Midlands Contacts}{ Musadzi}{0714 006 253}
+\Home{Zvinorova}{Midlands Contacts}{Ropafadzo Kadoma}{+263786634035(P)}
+\Home{Zvinorova}{Musadzi}{Eunice,Learmore Village 16A, Musadzi Sch. PB 60, Nembudzia; Gokwe center 6079 Njelele Phase 2, after Mahofa shops. Gokwe center}{+263785626824(S)}\EndHomes
+\EndSection
+\MLDistrictH{Midlands, Gokwe}
+\MLMeetingH{Chegutu}
+\MLHome{Msindo}{}{}
+\MLMeetingH{Chidoma}
+\MLHome{Mawana}{}{mzk: Lissa}
+\MLHome{Mutero}{}{}
+\MLMeetingH{Chireya}
+\MLHome{Sibanda}{}{Receive}
+\MLMeetingH{Gweru}
+\MLHome{Chibvuwo }{}{}
+\MLHome{Govere}{}{Andrew}
+\MLHome{Hove}{}{}
+\MLHome{Hove}{}{Mikayla,Eden}
+\MLHome{Makavanga}{}{Julias,Kudakwashe,Violet}
+\MLMeetingH{Kwekwe}
+\MLHome{Birch}{All mtgs;Elder}{}
+\MLHome{Masanga}{Son Givi moved to beitbridge}{}
+\MLHome{Murambinda}{}{Maud,Mildred,Mashal}
+\MLMeetingH{Mapu}
+\MLHome{Magomana}{}{}
+\MLHome{Mangirazi}{}{}
+\MLHome{Mavhika}{WedPM;Meeting @13:00}{}
+\MLHome{Mbizo (Moyo)}{SunAM,SunPM}{Tafadzwa}
+\MLHome{Muguti}{}{Munyaradzi,Eria}
+\MLHome{Muguti }{}{Clayton,Tsitsi,Tinaye }
+\MLMeetingH{Mashame}
+\MLHome{Mudimu}{}{}
+\MLHome{Mudimu}{SunAM,SunPM}{Tanaka,Tinotenda,Tinevimbo,Mzk Issac}
+\MLMeetingH{Midlands Contacts}
+\MLHome{Chikwava}{}{}
+\MLHome{Chiwara}{}{}
+\MLHome{Gogo }{}{}
+\MLHome{Hlasi}{}{Vimbai,Takudzwa,Thulani,Takundwa}
+\MLHome{Makavanga}{}{}
+\MLHome{Malisao}{}{Mikayla,Mitchel,Nigel}
+\MLHome{Mandaba}{}{Nyengeterai}
+\MLHome{Mandaba}{}{}
+\MLHome{Marufu}{}{}
+\MLHome{Mavhengere}{}{Praise}
+\MLHome{Mavhika}{}{Sheila,Sharon,Samuel,Gracious}
+\MLHome{Mawana}{}{Claytus,Gibson}
+\MLHome{Mawana}{}{Lisa}
+\MLHome{Mawana}{}{}
+\MLHome{Mpofu}{}{Freddie}
+\MLHome{Muchemwa}{}{c/o Enoch}
+\MLHome{Mudimu}{}{Shanezze,Shyleen}
+\MLHome{Mudiwa}{}{Nyasha}
+\MLHome{Mudzoki}{}{Rumbi}
+\MLHome{Mudzoki}{}{}
+\MLHome{Mudzoki}{}{}
+\MLHome{Muguti }{}{}
+\MLHome{Mukarakate}{}{}
+\MLHome{Muparuri}{}{Junior}
+\MLHome{Murambinda}{}{Blessed,Nonsikelelo, Nosi}
+\MLHome{Murambinda}{}{Adriel}
+\MLHome{Murambinda }{}{}
+\MLHome{Mutambara}{}{}
+\MLHome{Mutandavari}{}{}
+\MLHome{Muzanenhamo}{}{}
+\MLHome{Muzanenhamo}{}{Shelton,Isaiah,Paddington,Martha}
+\MLHome{Ncube}{}{Edson,Eveline}
+\MLHome{Ndlovhu}{}{George}
+\MLHome{Phiri}{}{Stanley,Gracious}
+\MLHome{Phiri}{}{Anopa}
+\MLHome{Phiri}{}{}
+\MLHome{Tachiva}{}{Tarisai}
+\MLHome{Tachiva}{}{Constance,Tatenda,Tinashe}
+\MLHome{Tachiva}{}{}
+\MLHome{Taru}{}{}
+\MLHome{Tunge}{}{Nyasha,Eddie}
+\MLHome{Zava}{}{}
+\MLHome{Zava }{}{}
+\MLHome{Zava }{}{}
+\MLHome{Zvinorova}{}{}
+\MLHome{Zvinorova}{}{}
+\MLHome{Zvinorova}{}{Ropafadzo}
+\MLMeetingH{Munyatipanzi}
+\MLHome{Gotohori}{}{}
+\MLHome{Mafukidze}{Elder}{Praise,Cynthia,Brighton,Peniel}
+\MLHome{Mazhambe}{}{mzk Joseph}
+\MLHome{Mukarakate}{}{}
+\MLHome{Mukarakate}{lenmore in BYO now}{Aplonia,Leslie,Linnetah}
+\MLMeetingH{Musadzi}
+\MLHome{Chigogo}{}{Naison}
+\MLHome{Zvinorova}{All mtgs;Elder;Wed 3pm}{Eunice,Learmore}
+\MLMeetingH{Nembudzia}
+\MLHome{Mudzoki}{}{Emmanuel,Prince,Kingsley,Steven,Abigail}
+\MLMeetingH{Nyamacheni}
+\MLHome{Mudzoki}{}{}
+\MLMeetingH{Shurugwi}
+\MLHome{Jakopo}{Tendai works in Gutu}{Tracey}
+\MLHome{Phiri}{SunAM,WedPM}{mzk Junior}
+\MLMeetingH{Zhombe}
+\MLHome{Chikande}{}{Tatenda,mzk Palmer}
+\MLHome{Mangwanya}{}{Melissa,Tariro}
+\MLHome{Manonga}{}{Victory,Aubrey,Chelsea Charlene}
+\MLHome{Moyo}{WedPM;Elder}{Petronella,Nyasha,Eustina,Takudzwa}
+\MLHome{Murambinda}{Elder;Dephine in Namibia}{Dephine,mzk Clemence}
+\MLHome{Mutyorahuri}{}{}
+\end{document}
