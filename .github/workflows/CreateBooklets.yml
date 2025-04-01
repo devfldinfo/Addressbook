@@ -1,12 +1,10 @@
 name: Generate Booklet PDFs
 
 on:
-  push:
-    paths:
-      - 'output/**/*.pdf'
-  pull_request:
-    paths:
-      - 'output/**/*.pdf'
+  workflow_run:
+    workflows: ["CompileLatexFiles.yml"]
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
