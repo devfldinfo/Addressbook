@@ -1,0 +1,1415 @@
+\documentclass[english]{article}
+\title{Western Cape}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Abrahams}{Tygerdal}{ c/o Steven \& Bronwyn 24 Freesia Road, Tygerdal, Goodwood, 7460}{079 355 8037\\215912107}
+\Home{Abrahams}{Tygerdal}{Jude,Jared 24 Freesia Road, Tygerdal, Goodwood, 7460; bronwyn.abrahams77@gmail.com(B) , steven.abrahams@eskom.co.za(S) }{0828992051(S)\\021 591 2107\\+2771 670 8690(B)}
+\Home{Adams}{Atlantis}{Leigh Ann,Candice,Brent,Emily 9 Olyf street, Malmesbury, 7300; adamsbelinda1@gmail.com(Be) , adamsbrent914@gmail.com}{063 367 4393(M)\\064 223 2820(Be)\\083 602 0980(C)}
+\Home{Adams}{Protea Hoogte}{ N15 De Novo Rd, Kraaifontein, 7570; (-33.839483,18.775015) }{062 545 0773}
+\Home{Adams}{Westridge}{ 36 Tracey street,Weltevreden Glen, Colorado Park, 7785; marleneadams66@gmail.com}{078 036 8462}
+\Home{Adams}{Westridge}{ 5 Oleander St, Lentegeur, Mitchells Plain, 7786}{079 868 6283}
+\Home{Adonis}{WC Contacts}{ 57 Broadway Circle, Westgate, 7798; Maureen Spies sent message 15 Feb}{}
+\Home{Adonis}{Westgate}{ 57 Broadway Circle, Westgate, 7798; derickadonis@gmail.com(D) }{069 105 8639(D)\\081 783 5162(L)}
+\Home{Anthony}{WC Contacts}{ Arcadia Place, Room 222, 414 Main Road, Observatory, 7925}{084 881 4539}
+\Home{April}{Vredendal}{ p/a 43 Hector Pietersen Straat, Vredendal Noord, 8160; apriltruitjie@gmail.com}{065 248 3757(T)}
+\Home{Arendolf}{Worcester}{ 7 Truter St, Victoria Park, Worcester, 6850}{083 594 5314}
+\Home{Baard}{St Helena Bay}{ 2 Freesia St, Vredenburg, 7380; ruth.baard@gmail.com}{072 671 2252}
+\Home{Bailey}{Westridge}{Cecelia 42 Hibiscus Road, Lentegeur, 7785}{+2771 092 3017(H)\\+27780325731(C)}
+\Home{Bal}{St Helena Bay}{ Huis Wittekruin, Uranus st, Vredenburg, 7380. Woonstel 11}{082 961 3849}
+\Home{Barnard}{Worcester}{Faghan 4 Reinecke St, Ceres, 6835; barnard337@gmail.com(J) , mercc081@gmail.com(I) }{078 095 3365(J)\\082 674 7934(I)}
+\Home{Basson}{Gordons Bay}{ Sea breeze Park, 2 Durmont Crescent, Gordon's Bay}{073 334 2854}
+\Home{Basson}{Ridgeworth}{ 21 Hibiscus Ave, Ridgeworth, 7530}{073 873 1960\\021 919 7951}
+\Home{Baumann}{Gordons Bay}{ 39 Mountainside Boulevard, Mountainside, Gordons Bay, 7140; P.O.Box 204, Strand 7139; liz3@telkomsa.net}{082 738 9425\\021 856 5493}
+\Home{Benjamin}{Kasselsvlei Rd}{Claudia,Gia 111 Chestnut Way, Belhar, 7490; claudiabenjamin88@gmail.com(Cl) ; (-33.948260,18.623754) }{078 989 4507(Cl)\\078 479 0075(T)}
+\Home{Benjamin}{Kasselsvlei Rd}{Nathan 46 Kasselsvlei Rd, Bellville South, 7530; anniebenj@gmail.com(A) , teddybenj@gmail.com(E) }{083 707 0712(E)\\073 357 0705(A)\\021 951 5278}
+\Home{Bernardo}{Pinehurst}{Bonita 5 Flamink Close, Durbanville 7550; isaacbernardo2007@gmail.com(I) }{0844068063(M)\\0604835151(I)\\021 975 4758\\0730356732(B)}
+\Home{Bester}{Pinehurst}{Laramé 10 Parkzicht, Parkzicht Close, Uitzicht, Durbanville}{+27 82 683 8912}
+\Home{Bester}{Porterville}{ 3 Meul st, Porterville; iona.bester.2001@gmail.com}{083 781 1099\\027 341 1099}
+\Home{Bester}{Protea Hoogte}{ 56 Waterbessie Str, Sandalwood Mews, Kuilsrivier, 7580; besters@wam.co.za(G) }{084 245 8651(G)\\083 391 3845(A)}
+\Home{Beukes}{Moorreesburg}{ Moorreesburg; shirben@webmail.co.za}{072 047 8380}
+\Home{Bezuidenhout}{Hermanus}{ 153 Fynbos Retirement Village, Church Str, Hermanus, 7200; joybez78@gmail.com}{063 694 0015}
+\Home{Blom}{Bethanie 2}{ 15 Glen Choral, Beethoven Cresc, Sonstraal Hoogte, Durbanville; blomdalene@gmail.com}{082 824 4194}
+\Home{Blom}{Langebaan \#1}{ 109 Harpuisbos St, Myburgpark, Langebaan, 7357; alwyn.blom67@gmail.com(A) , Karen.blom68@gmail.com(K) }{072 281 4200(A)\\082 471 5943(K)}
+\Home{Blom}{Langebaan \#1}{ 33 Birdland street, Country Club, Langebaan; Posbus 305, Graafwater, 8120; tobieblom@telkomsa.net(T) }{083 502 3753(T)\\083 514 6601(N)}
+\Home{Bosch}{Bishop Lavis}{ 92 Koppiesdam Rd, Bishop Lavis, 7490}{084 586 9747(B)\\079 426 9455(F)}
+\Home{Botha}{Bethanie}{Christian,Leah 28 Falcon Street, D'Urbanvale, 7550}{082 560 4716(Y)}
+\Home{Botha}{Grassy Park}{ 130, 4th Ave, Grassy Park}{082 845 5434}
+\Home{Bown}{Bethanie}{Aimee,Oliver 68 Alison Rd, Kenever, Cape Town, 7550; chrystal@intekom.co.za}{0825727733(C)}
+\Home{Brandt}{Fairways}{ 16 Raleigh Road, Mowbray, Cape Town, 7700}{073 257 2911}
+\Home{Burger}{Westgate}{ 140 Dennegeur Ave, Strandfontein, 7798}{079 037 4980}
+\Home{Cameron}{Rondebosch East}{ 5 Van Schalkwyk Rd, Rondebosch East, 7780; P O Box 36464, Glosderry, 7702; rodcam888@gmail.com(R) }{082 904 3300(R)\\082 792 8700(A)\\021 697 3384}
+\Home{Cameron}{WC Contacts}{ 5 Van Schalkwyk Rd, Rondebosch East, 7780; Maureen Spies sent message 15 Feb; cameror@eskom.co.za}{082 903 9381(Cr)}
+\Home{Camfer}{Tygerdal}{ 29 7th Street, Kensington, 7405}{072 576 5527}
+\Home{Campbell}{Kraaifontein}{Courtney,Cassidy,Kendal 6 Jacaranda St, Valmary Park, Durbanville; candice@freightfocus.co.za(C) , shelto@freightfocus.co.za(S) }{082 843 9367(S)\\082 928 8006(C)\\021 824 3374}
+\Home{Cedras}{Penhill Estate}{Donay,Micheala 37 Laurimer Street, Penhill Estate, Eersterivier, 7100; donavan.cedras@gmail.com(Dv) }{079 507 1629(Dv)\\081 048 2481(Dr)\\081 048 2480(Dy)\\0683278734(M)}
+\Home{Chauke}{Somerset West Golden Acre}{ 33 Little Greece, 65 George street, Strand}{067 245 8519}
+\Home{Chiwara}{Gordons Bay}{ Flat 406, Soterio complex, 147 Chicago avenue, Strand}{061 439 7273}
+\Home{Cloete}{Kraaifontein}{ Edelweiss ACVV Dienstak C111, Hoek van Edelweis en Mountain View rylaan, Eversdal, DURBANVILLE, 7550; traudie@gmail.com}{072 432 3472\\021 917 1110}
+\Home{Cloete}{Protea Hoogte}{ 56 Waterbessie Str, Sandalwood Mews, Kuilsrivier, 7580}{083 484 5757(E)\\021 903 3230}
+\Home{Coetzee}{Protea Hoogte}{ 12 Amanda St, Morgenster, Brackenfell, 7560; sandra.coetzee24@gmail.com(S) }{082 410 5030(S)}
+\Home{Collier}{WC Contacts}{Olivia 63 Brand Street, Bredasdorp}{0710458716(C)}
+\Home{Combrinck}{Highbury}{ 38 Gazania Way, Belhar 4, 7490}{073 609 7016\\021 952 3511}
+\Home{Cook}{Eendekuil}{Dillan,Cailyn Maas Straat 1, Eendekuil. Posbus 96, Citrusdal, 7340; ontvangs@cedarpack.com}{084 885 6777(SH)\\084 993 6777(SO)}
+\Home{Daames}{Highbury}{ 24 Helderberg, Evergreen Lifestyle Retirement Village Sitari Country Estate, Cypress Walk, Macassar, Somerset West; communityfunerals@gmail.com(C) ; (-34.0541450, 18.7774160) }{062 714 8244(C)\\072 675 2181(S)}
+\Home{Daames}{Westgate}{Sherné 5 Theatre Close Westgate; sdaames2011@gmail.com(S) }{079 1110453(S)}
+\Home{Dagnin}{Westridge}{ 36 Tracey street Weltevreden Glen Colorado Park; robertadagnin12@gmail.com}{067 993 4265}
+\Home{Dalziel}{WC Contacts}{ 70 Gallway street Ravensmead}{072 961 6527}
+\Home{Dammert}{Tygerdal}{ 88 Monte Vista Boulevard, Monte Vista, 7460; dammertpatsy@gmail.com}{076 513 1567}
+\Home{Davids}{Penhill Estate}{ 8 Concordia st, Devon Park, Eerste Rivier}{071 189 2554}
+\Home{De Beer}{Pinehurst}{ Huis Aristea, 5 Queen str, Durbanville, 7550}{082 551 6929}
+\Home{De Beer}{WC Contacts}{ Staff Accommodation Rooms 3\&4, St. Helena Bay Hotel, 45 Main Road, St. Helena Bay.; toinette@revolavia.com}{073 495 2343}
+\Home{De Klerk}{WC Contacts}{ Helderstroom Correctional Services, Medium section}{282151060}
+\Home{Delport}{Kuils River}{ 6 Arendse St, Highbury, Cape Town, 7580}{061 167 2826}
+\Home{Delport}{Somerset West Morningside}{ K2 Golf Beach, Greenways Golf Estate, Strand 7140; thesadelports@gmail.com, beverleydelport@yahoo.co.uk(B) }{071 254 8929(B)\\081 896 4600(D)}
+\Home{Dhunrajah}{Kasselsvlei Rd}{Kai 8 Vlei Street, Parow Valley, 7500}{067 370 8748(R)}
+\Home{Dick}{Huis Luckhoff}{ Huis Luckhoff, 42 Alma Road, Room 2, Rosebank, 7700; joycedick123@gmail.com}{072 375 3401}
+\Home{Dippenaar}{Ridgeworth}{ 67 Malibu St, Oak Glen, 7530}{083 553 2857\\021 910 2294}
+\Home{Du Plessis}{Bethanie 2}{ 21B Kastanje Street, Kleinbron Estate, Durbanville, 7551; dup5862@gmail.com(P) , Estellemdupl@outlook.com(E) }{082 906 3275(P)\\061 541 2894(E)}
+\Home{Du Plessis}{Pearl Valley}{Jenna Lee,Daniel,Michael 241 Castles Pine Close, Pearl Valley Golf Estate, Paarl, 7646; michelle@countrysidesa.co.za(M) }{072 757 2727(M)}
+\Home{Du Plessis}{Plattekloof}{ 1 Melkhout Crescent, Plattekloof 3, 7500; pdupmail@gmail.com(P) , kocotrading@gmail.com(W) }{082 781 1022(P)\\082 781 1021(W)}
+\Home{Du Plessis}{Ridgeworth}{ Chrismar Villas E5, 25 Jessie St, Chrismar, Bellville, 7530}{072 288 2031}
+\Home{Du Plessis}{Somerset West Morningside}{ 7 Bergzicht Gardens, Fijnbos Close, Strand}{829589809}
+\Home{Du Plessis}{WC Contacts}{ 125 Pinetree Way, Rosedale, Eersterivier, 7100}{062 021 0780}
+\Home{Du Raan}{St Helena Bay}{ 10 St. Gabriel St, St.Helena Bay; PO Box 9, St Helena Bay, 7390; ontvangs@mdelectronics.co.za}{082 376 6574\\022 736 1129W\\022 736 2644}
+\Home{Du Toit}{Gordons Bay}{ 49 Strand Ridge, Vredenhoff Street ,Strand, 7140; armandusdutoit@gmail.com(A) }{076 117 4629(A)\\072 721 1515(E)}
+\Home{Du Toit}{Kuils River}{ 4 Loeloeraai St, Kuilsrivier, 7580; lindydutoit@gmail.com(L) }{084 770 0466(L)\\082 772 0869(A)\\021 906 3843}
+\Home{Du Toit}{WC - North - Sick Bay}{ Sick Bay. George \& Anne Starck Homes, 2 Willow Lodge, Frans Conradie Drive, Bellville; johanna.dutoit42@gmail.com}{076 483 7414}
+\Home{Dunn}{Fairways}{ 6 Fifth Ave, Fairways, 7945; chrisdunn1@mweb.co.za(C) }{083 373 1023(C)\\073 798 2667(F)}
+\Home{Dunn}{Fairways}{Sharné,Mikayla 15 Stella Rd, Plumstead, 7800 (Mikayla in Bloem); michelle.dunn@johnbrownmedia.com(M) , sdunn@webmail.co.za}{072 143 3749(S)\\082 371 0515(M)}
+\Home{Dunn}{Steenberg}{ Annandale Crt, 12 Annandale Rd, Flat No 14, Diep River, 7945; dunnthersia@gmail.com}{084 619 7537}
+\Home{Dunn}{WC Contacts}{ 59 Yarmouth Road, Muizenberg, 7950; clive@kandcwaste.co.za}{082 372 7122}
+\Home{Duthie}{Fairways}{ 30 Canal Rd, Woodlands Park, Wetton, 7780; canalroadeducare@gmail.com(M) }{071 568 4325(M)}
+\Home{Duthie}{WC Contacts}{ 30 Canal Rd, Woodlands Park, Wetton, 7780; Maureen Spies sent message 15 Feb; canalroadeducare@gmail.com}{}
+\Home{Dyason}{Plattekloof}{ 107 Palm Spring, Oasis Retirement Resort, Oasis Lane, Century City, 7441; stephen@dyasons.co.za}{082 886 8212}
+\Home{Dyason}{Somerset West Golden Acre}{Jesse 18a Curlew Way, Somerset Ridge}{081 598 9196}
+\Home{Dyason}{Steenberg}{ 66 Sandstone way, Stonehurst Mountain Estate, Cape Town; j9dyason@gmail.com}{082 903 8402\\081 374 7277}
+\Home{Dzvokora}{Westridge}{Tanaka,Tinashe No 350, NY 1, Gugulethu; odzvokoh@gmail.com(O) }{078 813 9312(O)\\081 704 7540(O)\\079 599 6131(N)}
+\Home{Eksteen}{WC Contacts}{ 102 Renoster Street , Leiden. Delft}{079 644 9562}
+\Home{Ellis}{Hermanus}{Melanie,Jon 4 Goshawk street, Auvergne Estate, Blue Crane Road, Vermont; mandi2ellis@gmail.com}{084 667 7874(M)\\084 555 5502(M)\\071 242 6812(J)}
+\Home{Erasmus}{Grassy Park}{Isabella,Luca 72, Sixth Ave, Grassy Park, 7945; ashley.erasmus7@gmail.com(A) , jodieo2014@gmail.com(J) }{0610942039(A)\\+27844869147(J)}
+\Home{Esbend}{Pinelands}{ 1 Hannes Louw Drive, De Tijger, Cape Town, 7500; mashardo@gmail.com}{+27792383912}
+\Home{Ewertse}{Protea Valley}{Lauren 6 Prinizia Avenue, Welgedacht, Bellville, 7530; alrene@bedking.co.za(A) , mervyn@bedking.co.za(M) }{082 324 3580(M)\\082 874 3914(A)\\021 913 2598}
+\Home{Ewertse}{St Helena Bay}{Alistair 62 7th Avenue, Shelley Point, St Helena Bay, 7282; v.ewertse@gmail.com(V) }{083 273 5254(V)\\063 418 6805(J)}
+\Home{Ewertse}{Tygerdal}{ 10 Arlington way, Milnerton Ridge, 7441; ewertsedesiree@gmail.com(D) }{084 337 4366(D)}
+\Home{Faul}{Gordons Bay}{ 6 Devon Road, Gordons Bay, 7140; jwf@absamail.co.za(B) }{082 926 2431(B)}
+\Home{Faul}{Langebaan \#1}{ 109 Harpuisbos Street, Myburgpark, Langebaan, 7357; cfaul@mweb.co.za}{084 520 3832}
+\Home{Faul}{Plattekloof}{ Sandown Crescent, Unit D309, 12 Grand National Blvd, Milnerton, 7441; arnofaul@gmail.com}{083 369 9257}
+\Home{Faul}{Protea Hoogte}{Eugene 1 Maree Close, Protea Hoogte, Brackenfell, 7560; christofaul@gmail.com(C) , sanelfaul@gmail.com(S) }{082 378 0621(C)\\071 869 8362(S)\\071 530 1299(E)}
+\Home{Faul}{WC Contacts}{Bréton Moved to Cape Town; hoperhdf@gmail.com}{079 608 4654(R)\\079 436 4339(E)}
+\Home{Faure}{Plattekloof}{ 57 Cedar Street, Sandown, 7441; mu.faure@gmail.com}{074 994 1895}
+\Home{Faure}{Plattekloof}{Liani, Braam (jnr),Isabella 57 Cedar Street, Sandown, 7441; braam.faure@gmail.com}{061 364 3113(B)\\061 398 0636(C)}
+\Home{Faure}{Somerset West Morningside}{ 15 Summerwood Estate, Hoeveld Rd, Somerset West, 7129}{082 458 7771(B)\\082 920 5615(L)}
+\Home{February}{WC Contacts}{ 7 Bangor Rd, Athlone, 7764}{084 508 2542}
+\Home{Fevrier}{Plattekloof}{ 129 Plattekloof Rd, Monte Vista, Cape Town, 7460; julie@travelmanor.co.za}{074 124 6460\\071 352 6190}
+\Home{Fortuin}{Kuils River}{ Room no 48, Sarepta AGS Oue Tehuis, Sarepta Street, Kuils River; jhfortuin1@gmail.com}{021 592 8235}
+\Home{Foster}{Graafwater}{ 29 Rhenius St, Graafwater; Posbus 334, Graafwater, 8120; martinfoster@telkomsa.net(M) }{0828215892(M)\\ 0711606121(T)\\274221141}
+\Home{Foster}{Graafwater}{ Kookfontein, Graafwater; PO Box 422, Graafwater, 8120; foster.norman.karin@gmail.com}{0834134369(N)\\0604407209(K)\\027 482 2930}
+\Home{Fouché}{Ridgeworth}{ D21, Wilger Park, 2 Stellenberg St, Oak Glen, Bellville, 7530; fouchemuriel@gmail.com}{084 548 1414}
+\Home{Foye}{Pinelands}{ Oasis Retirement Resort, 803 Palm Royale, Century Way, Century City, 7441; jwf@iafrica.com}{082 567 7488\\021 250 0936}
+\Home{Foye}{Ridgeworth}{Laura Lee,Julia 5 Artillery Road, Door de Kraal, 7530; andrew.foye@gmail.com(A) , illana.foye@gmail.com(I) }{082 809 6651(A)\\083 415 8246(I)\\021 913 1782}
+\Home{Foye}{WC Contacts}{Richard,Logan,Rhosannah 5 Arcadia Street, Westcliff, Hermanus, 7200; david\_foye@mweb.co.za(D) , quickcyn@hotmail.com(C) }{082 757 2707(D)\\072 432 3471(C)}
+\Home{Francis}{WC Contacts}{ 86, 3rd Avenue, Fairways, 7800}{064 239 8921(K)\\021 706 6814}
+\Home{Franke}{Fairways}{Mandi,Elrita 25 Edna St, Montague Gift, Grassy Park, 7945}{078 217 0623(E)\\079 129 8180 (G)}
+\Home{Fraser}{Huis Luckhoff}{ Huis Luckhoff, Sickbay, 42 Alma Road, Rosebank}{021 689 3612}
+\Home{Fritz}{Kasselsvlei Rd}{ 34 Railway St, Corner of MacKenzie St, Bellville South, 7530; shirleyfritz100@gmail.com}{079 448 4780\\021 951 5182}
+\Home{Fritz}{Kasselsvlei Rd}{ 37 Brand St, Bellville South, 7530; rosetrishcoe@gmail.com(P) }{082 743 4068(P)\\+27 82 571 3711(G)\\021 951 4414}
+\Home{Frost}{WC Contacts}{Katelyn 8 George Nolan Rd, Kensington, 7405; LynetteJoy.Frost@capetown.gov.za(L) , lynettejoy.frost@gmail.com(L) }{076 250 1401(P)\\082 085 4745(L)}
+\Home{Froude}{Protea Hoogte}{ Room 101, Huis Ravenzicht, 161 9th Avenue, Kraaifontein, 7570; sariefroude@gmail.com}{082 334 1386}
+\Home{Geduld}{Atlantis}{ 62 Snip St, Cnr Swawel St, Robinvale, 7349; Posbus 1590, Dassenberg, 7350; cathy@imvusaplastics.co.za(C) , karel@imvusaplastics.co.za(F) }{082 384 9764(F)\\076 256 6099(C)\\021 572 0267}
+\Home{Geduld}{WC Contacts}{Jeethan,Jeehan Steenloper Street, Robinvale, Atlantis 7349}{}
+\Home{Geduld}{WC Contacts}{Xavier,Xayden,Xandria 62 Snip Street, Robinvale, Atlantis 7349}{}
+\Home{Gihwala}{Tygerdal}{ 8 Moore Street, Parrow valley, Cape Town, 7500}{073 381 3425}
+\Home{Gihwala}{WC Contacts}{ 8 Prince Arthur Rd, Lansdowne, 7780; Maureen Spies sent message 15 Feb}{}
+\Home{Gilfillan}{Kraaifontein}{ 56 Ascot Street, Windsor Estate, Kraaifontein, 7580}{067 169 2984}
+\Home{Gilles}{Protea Valley}{ 1 Featherhead St, Protea Valley, 7530; apic@mweb.co.za}{060 713 0479(J)\\083 708 1393(A)}
+\Home{Goliath}{Highbury}{ 46 Plover Walk, Sunbird Park, Kuils River, 7580}{072 184 0833(J)\\076 362 4297(J)\\064 203 2981(S)}
+\Home{Goss}{WC Contacts}{Zander,Taswill,Jason,Sonia Rose Park Farm, Mondeor Rd, Broadlands; henfred@mweb.co.za(F) }{082 541 1570(F)\\082 655 2029(E)}
+\Home{Green}{Pinelands}{Terence 6 Gladiator St, Kensington, 7405}{079 479 1357(U)\\072 426 0563(T) }
+\Home{Grobbelaar}{Pinehurst}{ 32 Seinne Crescent, Thornwood Estate, Pinehurst, Durbanville, 7550; dirkg7@telkomsa.net(D) }{083 233 8707(D)\\083 375 0408(C)\\021 975 9351}
+\Home{Grootboom}{Bishop Lavis}{ 26 Commercial Rd, Clarkes}{062 655 7930}
+\Home{Grootboom}{Bishop Lavis}{ 84, 9th Avenue, Leonsdale, Elsies River, 7490}{083 989 8202\\071 184 8977(M)\\0781198253(R)}
+\Home{Grootboom}{Bishop Lavis}{Alaric,Enslin 28 Commercial Road, Clarkes, 7490}{078 169 8717(A)\\074 909 4821(F)}
+\Home{Grootboom}{Highbury}{ 35 Garnet Rd, Highbury, Kuils River, 7580; melvyn.grootboom@gmail.com(Mv) , sharlener.grootboom@gmail.com(S) }{073 526 7186(Mv)\\060 463 0048(S)}
+\Home{Grootboom}{Highbury}{ 35 Garnet Rd, Highbury, Kuils River, 7580; mgrootboom@live.com(Mc) }{071 718 6586(Mc)}
+\Home{Grootboom}{Highbury}{ 35 Garnet Rd, Highbury, Kuils River, 7580}{078 469 4448}
+\Home{Grootboom}{Highbury}{ 7 Hendrik Smith St, Highbury, Kuils River, 7580}{084 041 3436\\021 903 0047}
+\Home{Günther}{St Helena Bay}{Natasja 6 Leyden St, Vredenburg; guentherwietz@gmail.com}{084 205 7502(W)\\084 205 8159(A)\\076 093 2228(N)}
+\Home{Hall}{Kraaifontein}{ Unit no A05, Welverdiend Retirement Resort, 1 De Oewer Street, Bellair, Cape Town, 7530; hlhall@webafrica.org.za(H) }{072 140 1176(H)\\0728279533(L)\\870010915\\021 958 3605}
+\Home{Hall}{Langebaan \#1}{ 6 Meresteijn Road, Langebaan, 7357; bert.hall@mweb.co.za, berthall.ehs@gmail.com(B) }{082 326 3791(B)\\076 110 6229(P)\\022 772 0601}
+\Home{Hall}{Plattekloof}{ 11 Houtman St, Monte Vista, 7460}{021 559 2401\\076 693 2576(K)}
+\Home{Hall}{WC Contacts}{ Eden on the Bay, Big Bay, Blaauwberg Strand; BertramH@foschini.co.za}{079 521 7341}
+\Home{Hall}{WC Contacts}{Gerhard 9  Jacaranda Street, Parow Valley, 7500}{082 349 7713}
+\Home{Harmse}{WC Contacts}{Quinn 22 Maestricht St, De Bron; roslynjanice@yahoo.co.za(R) }{084 340 3086(R)\\021 913 0804}
+\Home{Hartman}{WC Contacts}{ 2 Woolmore St, Hazendal, 7764}{060 894 3714\\021 697 5059}
+\Home{Hartnick}{Pearl Valley}{Marco 455 Sysie St, Amstelhof, Paarl, 7646; johnhartnick@hotmail.com}{076 873 7587\\021 862 4241}
+\Home{Havemann}{WC Contacts}{Jenna 6 Nursery Rd, Rondebosch, 7780; donyeleh@gmail.com(D) }{060 343 5531(D)\\083 720 0623(J)\\021 685 0627}
+\Home{Hermans}{Fairways}{ 31 Woodside Rd, Ottery, 7800; louishermans.mail@gmail.com(L) }{073 426 6855(L)\\083 552 2273(M)\\021 703 4273}
+\Home{Hermans}{Kraaifontein}{ 8 Norseman Crescent, Kraaifontein, 7570; 5P99+FJG Kraaifontein, Cape Town}{072 233 2246(J)}
+\Home{Hermans}{Protea Valley}{ 63 Grandiflora St, Protea Valley, 7530; leslie.hermans@icloud.com(L) , mhermans@exmms.co.za(M) }{082 871 6283(L)\\082 897 1309(M)\\021 913 4616}
+\Home{Hermans}{Ridgeworth}{Chanelle 31 Church Street, Village Walk 11, Durbanville, 7550; deon.hermans@gmail.com(D) , susan.hermans@sanlam.co.za(S) , chanelle.hermans@gmail.com(C) }{072 924 7066(D)\\079 296 4439(S)\\0737996448(C)\\021 007 5345}
+\Home{Herman}{Bethanie}{ Bethanie, 28 Schabort Drive, Eversdal, 7550; Box 4549, Tygervalley, 7536; andreherman62@gmail.com(A) }{083 270 8051(A)\\083 488 0328(I)\\021 976 7208}
+\Home{Herman}{Kraaifontein}{Beatrix 14 Schabort Drive, Eversdal, 7550; rherman546@gmail.com}{ 083 277 2676(R)\\073 693 3128(T)}
+\Home{Hickley}{Somerset West Morningside}{Joshua,Shaylynn 8 Croft Close, Briza, Somerset West, 7130; alanhickley@gmail.com(A) , barbara.hickley@gmail.com(B) }{082 570 6454(A)\\081 258 9820(A)\\082 825 8777(B)}
+\Home{Hodgson}{Rondebosch East}{ 322 Obs Court, 3A Howe Street, Observatory, Cape Town; hodgson.ce@gmail.com}{072 615 0551}
+\Home{Holtzhausen}{Bethanie 2}{ 32 Schabort Drive, Eversdal, 7550; louis.holtzhausen@gmail.com}{073 169 6968}
+\Home{Holtzhausen}{Bethanie 2}{Elzet 32 Schabort Drive, Eversdal, 7550; louisj.holtzhausen@gmail.com(L) , marie.holtzhausen@gmail.com(M) }{078 090 9092(L)\\083 432 6201(M)\\076 875 8448(E)}
+\Home{Howard}{WC Contacts}{ 2 Kuhn Street, Hospital Park, Worcester; shelleyhoward680@gmail.com}{079 769 6909}
+\Home{Hudson}{Protea Hoogte}{Jacques,Dale,Juan Pierre,Heinrich 135 Dan King Rd, Bonnybrook, Kraaifontein, 7570; edithhudson229@gmail.com}{060 794 5557(E)}
+\Home{Hughes}{Gordons Bay}{Kyle 23 Fleur Park, Gordons Bay}{0613636390(E)\\071 632 2712(D)}
+\Home{Hughes}{WC Contacts}{ 207 Crimson Square, 21 Fairview Avenue, Woodstock; ronwyn.hughes@gmail.com(R) , mrs.yhughes@gmail.com(Y) }{067 399 0927(R)\\082 288 9605(Y)}
+\Home{Huisamen}{Protea Hoogte}{ Maryport, George \& Annie Starck Home, Frans Conradie Drive, Oosterzee; sms contact only; nshuisamen@gmail.com}{081 027 9293(N)}
+\Home{Jackson}{Pearl Valley}{Roula,Lara,StephenJr Colenso, Malmesbury, 7299; annemijackson@gmail.com(A) , stephenjackson@conergate.com(S) }{082 569 2220(S)\\072 103 9179(A)\\022 487 2047}
+\Home{Jackson}{Pinehurst}{ 16 Legato Retirement Villiage, Ibis St, Sonstraal Heights 7550; louisajackson66@gmail.com}{084 586 0609}
+\Home{Jackson}{Plattekloof}{ 30 Tulbagh Street, Monte Vista, 7460; fbsjack@gmail.com}{079 060 0449}
+\Home{Jackson}{Plattekloof}{ 30 Tulbagh Street, Monte Vista, 7460}{082 708 0475}
+\Home{Jacobs}{Rondebosch East}{ 41 Joanne Rd, Lansdowne, 7780}{078 277 9459}
+\Home{Jacobs}{Worcester}{ 22 Martin St, Victoria Park, Worcester, 6850; leonardjacobs626@gmail.com}{076 688 0949}
+\Home{Jacobs}{Worcester}{ 22 Martin St, Victoria Park, Worcester, 6850}{061 828 0866\\023 347 0467}
+\Home{Jaftha}{Fairways}{Pauline Renskies Farm, Ottery Rd, (Opposite Ottery Cemetery)}{079 580 7705(B)\\076 038 5283(M)\\0741039528(P)}
+\Home{Jaftha}{Westgate}{Angelique 1 White Eye Court, Pelican Park}{083 605 8157}
+\Home{Jaftha}{Westgate}{Patrick,Quinton,Joshua,Qewin 4 Agulhas St, Strandfontein, 7785}{071 825 8584(M)}
+\Home{Jansen}{Protea Valley}{ 10 Denhume Way, Kenridge Ext 3, 7530; chabou@mweb.co.za}{082 490 2135(C)\\082 806 0842(S)}
+\Home{Jansen}{Protea Valley}{Chloe,Noah 10 Denhume Way, Kenridge Ext 3, 7530}{082 494 4069}
+\Home{Jansen}{Worcester}{ c/o Joseph Barnard}{746921523}
+\Home{Jansen}{Worcester}{Leona Awendrus Tehuis, Van Zyl str, Esselin Park, Worcester}{084 459 6827(L)\\073 505 9798(S)}
+\Home{January}{Worcester}{NicoJohn,Heinrich,Raydon,Cheslyn 17 Martin Street, Victoria Park, Worcester, 6850}{0687523237(H)\\071 968 8120(M)}
+\Home{Jasson}{Plattekloof}{Chasney,Cheilem 3 Uitzicht Crescent, Richwood; charlene.jasson@westerncape.gov.za(C) }{082 336 7231(C)}
+\Home{Jeffries}{St Helena Bay}{ 14 Strand St, Laingville, St Helena Bay, 7390}{073 169 5905(P)\\071 154 4660(P)}
+\Home{Jeffries}{WC Contacts}{ 14 Strand St, Laingville, St Helena Bay, 7390; Gretta sent message on 25 Nov 2016}{072 344 6221(H)\\073 196 8201(H)\\022 736 1040}
+\Home{Kabamba}{Steenberg}{Annabelle,Adriel 19 Orchestra St, Steenberg, 7945; amonnr@gmail.com(N) , kabambafamily@gmail.com}{071 919 1865(T)\\082 322 7224(N)\\021 707 5240W(N)}
+\Home{Ketch}{WC Contacts}{ Moved to West Coast; enderwuigen0@gmail.com}{061 479 2652}
+\Home{King}{Rondebosch East}{ 9 Ellerslie Road, Wynberg, Cape Town, 7800; skingmle@gmail.com}{072 057 3095}
+\Home{King}{Rondebosch East}{Bella,Ava,Chloe,Scott 9 Ellerslie Road, Wynberg, Cape Town, 7800; mailearl@yahoo.com(E) , webbdentist@yahoo.com(C) }{083 451 3385(E)\\082 851 8838(C)}
+\Home{Kotzee}{WC Contacts}{Carlyle,Theagan 29 Snip Street, Robinvale, Atlantis, 7349; carlenekotzee@gmail.com(C) }{084 412 4488(T)\\082 377 4928(C)}
+\Home{Kruger}{Kuils River}{ 21 Forest St, Voëlvlei, Kuils River, 7580; jeffmkk@gmail.com(J) , rkruger2011@gmail.com(R) }{082 556 1762(J)\\072 836 4050(R)\\021 903 2851}
+\Home{Langenegger}{Somerset West Golden Acre}{ C119 Emerald Bay, Green Ways, Beach Rd, Strand; Postal Unit 4278,Greenways, Beach Rd, Strand 7140; jlang@wam.co.za(J) }{082 893 5744(J)\\066 201 5760(C)\\021 854 5220}
+\Home{Lawrence}{Bishop Lavis}{ 15 Nederland street, Belhar 16, Cape Town, 7493}{}
+\Home{Le Grange}{Bishop Lavis}{ 3 William Mason Rd, Bishop Lavis, 7490}{021 934 5609\\071 614 5783}
+\Home{Le Grange}{Bishop Lavis}{ 5 Heather Rd, Bishop Lavis, 7490}{021 934 3719\\670834851}
+\Home{Le Roux}{Kraaifontein}{ unit 471 Block 10 2nd flr. BuhRein Retirement Village, BuhRein Drive, BuhRein Estate 7570.; thelerouxs@telkomsa.net(L) }{082 9299 337(E)\\082 577 2030(L)\\021 783 1854}
+\Home{Legg}{Pinelands}{ 86 Palmyra Road , Newlands, Cape Town, 7708}{0766981076(B)}
+\Home{Lehy}{St Helena Bay}{ 5 Blueberry Drive, Blueberry Hill, St.Helena Bay, 7390; annette@axxess.co.za(A) }{082 565 5244(B)\\082 823 1747(A)\\022 742 1608}
+\Home{Leonard}{WC Contacts}{ 4 Myra St, Devon Park, Eerste Rivier, 7100}{0662706659(D)\\021 904 2251\\078 079 4123(J)}
+\Home{Lewis}{Kuils River}{Kirsten,Carl 144 Gladioli Street, Soneike, Kuils River, 7580; lynnbrendalewis@gmail.com(L) , patrickcharleslewis@yahoo.com(P) }{083 732 7904(P)\\083 499 3419(L)}
+\Home{Liebenberg}{Worcester}{ 15 Transvaal weg, Worcester Wes, 7200}{081 334 3829}
+\Home{Lomas}{Gordons Bay}{ La Fontana, Buccaneer St, Unit 16, 36 Tony Crescent, Gordon’s Bay, 7140; marionlomas034@gmail.com}{072 434 7584\\021 856 2886}
+\Home{Lomas}{Protea Valley}{ 11 Duff St, Parow Valley, 7500; jmalomas@gmail.com}{072 309 0298(G)\\072 769 1507(M)\\021 931 6530H}
+\Home{Lomas}{Somerset West Morningside}{ Room 11, Mountainview, 121 Lourensford Road, Somerset West; mh-lomas@futurenet.co.za}{}
+\Home{Louw}{Bethanie}{ 2 Luckhoff St, Durbanville, 7550; pieter.louw@outlook.com}{083 366 9268\\021 975 6427}
+\Home{Louw}{Williston}{Marnel,Alet Zakfontein - 25km out of town; Posbus 114, Williston 8920; drlouw@flexitron.co.za(K) , mlouw@fxsos.co.za(M) }{083 235 3209(K)\\083 6070 098(M)\\053 391 4186}
+\Home{Lutzke}{Grassy Park}{Ruby 26 Seven Sleepers road, Kirstenhof; bmlutzke@gmail.com(B) , carl@lawsplumbing.co.za(C) }{0833509509(B)\\072118874(C)}
+\Home{Maasdorp}{WC Contacts}{Chrischar Rock (Daughter) Meerenbosch Frail Care. 68 Falcon St, D'Urbanvale, Durbanville 7550. Press code 297 for frail care. Keep right.}{074 979 9850(C)}
+\Home{Mannel}{Penhill Estate}{Xenethia 60 Bobby St, Gaylee, Blackheath, 7580}{083 954 1188(S)\\0741894795(P)}
+\Home{Manuel}{Fairways}{ 34 Daniel Ave, Ottery, 7800}{073 264 9435}
+\Home{Marais}{Kuils River}{Sebastian,Stefan 6 Serena Close, Kuilsrivier, 7580; naashtc@gmail.com(N) , sonjamarais@oldmutual.com(S) }{083 498 2425(S)\\021 903 1293\\+27845484659(N)}
+\Home{Marais}{Somerset West Golden Acre}{Ayla,Keren 19 Ainsworth Crescent, Golden Acre, Somerset West, 7130; lomasvanessa@gmail.com(V) , johanperu@gmail.com(J) }{081 530 4342(J)\\083 678 7322(V)}
+\Home{Martinus}{Rondebosch East}{Cameron,Andrea 389G Nassau Rd, Wynberg Military Base; andremartinus772@gmail.com(A) }{083 383 7328(P)}
+\Home{Mathias}{Kuils River}{Sofia,Michael Block 3, 31 Cederberg Estate, Haasendal Road, Haasendal, Kuils River, 7580; rockafella.wp@gmail.com(Ju) }{061 586 6712(Ju)\\072 298 4679(Je)}
+\Home{Matthews}{Highbury}{Anthea 4 Cassia Link, Belhar 1, 7490; antheamatthews440@gmail.com(A) }{083 500 5188(A)\\073 702 9972(J)\\021 952 5045}
+\Home{Maxim}{Bishop Lavis}{ 8 Hughes st, Belhar Ext 23, Cape Town}{076 620 7948(T)}
+\Home{Mc Lane}{Bishop Lavis}{ }{072 465 5057}
+\Home{Mc Lane}{Bishop Lavis}{Jovaunté,Eve 49 Kogelberg Rd, Bishop Lavis, 7490; evenicole.mclean@gmail.com(Y) }{082 958 7521(Y)}
+\Home{Mc Lane}{WC Contacts}{ 8 Mint Str, Bardale Village, Kuils River}{083 710 4411}
+\Home{McDougall}{Graafwater}{Hannah ; Box 362, Graafwater, 8120; thelmamacdougall@gmail.com}{073 125 2319(T)\\063 525 2923(H)}
+\Home{Meadows}{Bethanie 2}{Heidi,Benjamin 37 Rosendal St, Glen Ive, Cape Town, 7550}{083 452 9986(J)\\0603559960(H)}
+\Home{Meintjes}{Pinelands}{ 3 Oaks Court, 23 Union Street, Gardens; mia.meintjes@gmail.com}{064 541 2987}
+\Home{Mervyn}{Westridge}{ 42 Hibiscus Road, Lentegeur, 7785}{+2776 703 9460}
+\Home{Mgamera}{Somerset West Golden Acre}{ Flat A10, Villa Arnolda, 8 Kleinbos Ave, Strand}{}
+\Home{Michaels}{WC Contacts}{ 23 Dieman Rd, Grassy Park, 7945}{}
+\Home{Middleton}{Bishop Lavis}{ 3 Crozier Close, Leonsdale}{0614052947(J)}
+\Home{Minnaar}{Somerset West Golden Acre}{ 14 Suurbessie Street, Idas Valley, Stellenbosch}{073 642 4129}
+\Home{Minnies}{Atlantis}{Keenan,Ashwel,Nathan Rainbow Chicken Farm (Langdam - "Touch Wood") 8Kms out on the Klein Dassenberg Rd, Atlantis 7530}{061 528 6602(A)\\074 568 7009(B)}
+\Home{Minnie}{Langebaan \#2}{ 1089 Van Breda Drive, LCE (Langebaan Country Estate), Langebaan; coisminnie@gmail.com}{082 811 9686}
+\Home{Monk}{Plattekloof}{Miqael 30 Tulbagh Street, Monte Vista, 7460; yolandi@lusinco.co.za}{072 424 5669(Y)}
+\Home{Morar}{Pinelands}{ 7 Scouts Place, Pinelands, 7405; maylene.shungking@uct.ac.za(M) }{071 200 3607(M)\\082 899 6138(R)}
+\Home{Morris}{Grassy Park}{ c/o Bonita Lutzke; christopher.morris@yahoo.com}{082 586 0805}
+\Home{Morris}{Grassy Park}{Kaylynne,Peter,Noah 10 Harmony way, Kirstenhof}{082 887 8273(C)\\+27715467679(C)\\081 896 2663(J)}
+\Home{Mouton}{WC Contacts}{ 4a Dorp Straat, Vredenburg 7380}{083 275 5503(M)}
+\Home{Mullam}{Kasselsvlei Rd}{Megan,Chad 17 Clover Rd, Belhar 17; maurice@axxess.co.za(M) }{083 648 2648(C)\\084 909 9365(M)\\021 952 2723}
+\Home{Muller}{WC Contacts}{ 1 Albatros St, Bloubergrant}{064 751 5612}
+\Home{Murray}{Pinehurst}{ 8 Mayenne Road, Thornwood Estate, Pinehurst, Durbanville 7550; jmurray.2504@gmail.com(J) , esthermurray2307@gmail.com(E) }{083 270 4127(J)\\083 375 0508(E)}
+\Home{Myburgh}{Protea Valley}{ ; carlaewertse@gmail.com}{082 610 5933}
+\Home{Myers}{Pinehurst}{Emily,Lucy 24 Paarlberg St, The Crest, Durbanville, 7550; MyersLM@eskom.co.za(L) , edwina@hamiltons-advertising.co.za(E) }{083 692 4069(L)\\083 403 3685(E)}
+\Home{Naidoo}{Steenberg}{ 57 Dick Burton Road, Plumstead (Geraldine in Dubai); kevin007naidoo@gmail.com(K) }{064 287 2200(K)\\+971559231370(G)}
+\Home{Naidoo}{Steenberg}{ 58 Dick Burton Road, Plumstead}{064 118 2243}
+\Home{Naidoo}{Steenberg}{ 59 Dick Burton Road, Plumstead}{074 228 9758}
+\Home{Nefdt}{Rondebosch East}{ 4 Woodbury Close, Kenwyn, 7780}{078 344 6874(St)\\078 198 7180(Sh)}
+\Home{Nefdt}{WC Contacts}{ 4 Woodbury Close, Kenwyn, 7780; Maureen Spies sent message 15 Feb}{}
+\Home{Ngamera}{Somerset West Golden Acre}{ Flat A10 Villa arnoldo, 8 Kleinbos ave, Strand}{073 470 2643}
+\Home{Nortjé}{Protea Hoogte}{ 36 Doringboom Street, De Oude Spruit, Brackenfell, 7560}{084 449 4467(P)}
+\Home{Nortjé}{WC Contacts}{ Gansbaai}{067 328 9950}
+\Home{O'Ryan}{Grassy Park}{ 27 St Lucia crescent, Conniston Park}{064 154 2469}
+\Home{O'Ryan}{Grassy Park}{ 72, Sixth Ave, Grassy Park, 7945; oryanmaurice@gmail.com(M) , oryanjosephine@gmail.com(J) }{0790489039(M)\\0620929319(J)}
+\Home{O'Ryan}{Grassy Park}{ 72, Sixth Ave, Grassy Park, 7945}{+27794508270(T)}
+\Home{O'Ryan}{Grassy Park}{Jade,Carlynne 72, Sixth Ave, Grassy Park, 7945; evanoryan66@gmail.com(E) }{060 618 4360(E)\\0713894232(C)}
+\Home{O'Ryan}{Rondebosch East}{Sam ,Ryan  39 Quick Rd, Lansdowne, 7780; joanne.oryan@gmail.com}{062 670 6511}
+\Home{O'Ryan}{WC Contacts}{ 11 Camberwell Rd, Rondebosch, 7700}{083 246 3264(J)\\021 696 8474}
+\Home{O'Ryan}{Westgate}{ 7 Figtree Close, Eastridge, Mitchells Plain, 7785; reubenoryan@gmail.com(R) }{0671775308(J)\\076 616 9996(R)}
+\Home{O'Ryan}{Westridge}{ 34 Gleneagles Way, Westridge, Mitchells Plain, 7798; sandraoryan@live.com(S) }{0607202209(St)\\072 286 0867(S)\\079 416 9927(S)}
+\Home{Okkers}{Penhill Estate}{Candice,Aiden,Jadon 65 Forest Mews Complex, Heather Park, 7100; wayneokkers1@gmail.com(W) ,enselineokkers01@gmail.com(E) }{061 245 2458(W)\\074 497 8467(E)}
+\Home{Olls}{Langebaan \#2}{ 7 Harpuisbos Rd, Myburgpark, Langebaan 7357; James is at Venitia mine, Limpopo. Attends in Alldays. Stays at Marula Lodge Safari's; jamesm.olls@gmail.com(J) , olls.brenda@gmail.com(B) }{082 482 4038(B)\\072 643 8876(J)\\060 453 8270(J)}
+\Home{Oosthuysen}{Pearl Valley}{ Country Fair Oberin Broiler Farm, R312 Lichtenburg Road, Suid Agter Paarl, 7620; oostjc@gmail.com(Jo) }{082 419 6564(Jo)\\076 330 4643(Ja)}
+\Home{Opie}{Somerset West Morningside}{ 60 DeVelde, Block 6, DeBeers Avenue, Somerset West; valmaeo@gmail.com}{083 280 2953}
+\Home{Page}{Bethanie 2}{ 38 Swart Street, Morgensterhoogte, Brackenfell, 7560}{083 703 3192}
+\Home{Phaal}{Grassy Park}{Erica 56 Fountain Road, Bergvliet,7945; ephaal@gmail.com(E) }{082 587 4125(H)\\0847728306(E)}
+\Home{Philander}{Kraaifontein}{ B3 Belami Ridge, Sonstraal Heights, Durbanville, 7550}{082 474 9384(T)\\066 040 4715(D)}
+\Home{Phillips}{Grassy Park}{Ridge 23 Dieman Rd, Grassy Park, 7945; phillipsmichael802@gemail.com(M) }{0827963441(M)\\0834100503(B)}
+\Home{Phillips}{WC Contacts}{Tarryn 15 Geland St, Grassy Park, 7945; nphillips@telkomsa.net(N) }{078 800 4645(N)\\082 474 8743(Z)}
+\Home{Phukuile}{WC Contacts}{ 3 Odins close, Odin drive, Thornton; donavinephukuile@gmail.com}{079 966 3365}
+\Home{Pieterse}{Protea Hoogte}{Matthew,Maunia 4 Jonker st, Proteahoogte, 7560; pietersegisele@gmail.com(Gi) }{072 315 8947(Gi)\\0813419670(Gr)}
+\Home{Pieterse}{WC Contacts}{Vaughn,Jade,Callum 102 Savanna Mews, Gulden Cres, Broadway Blvd, Strand}{061 431 7986(N)\\084 771 9236(R)}
+\Home{Pieterse}{Worcester}{Hayley 7 Truter St, Victoria Park, Worcester, 6850; adinesadonis@gmail.com}{079 525 6900}
+\Home{Pogenpoel}{WC Contacts}{Carmen 10 Walnut Road, Lansdowne}{083 963 0056}
+\Home{Posthumus}{Somerset West Morningside}{Luke,Oliver 4 Marula Close, Olive Grove, Somerset West; aimeedelport@hotmail.com}{081 484 1096}
+\Home{Potgieter}{Somerset West Golden Acre}{ 5 Verreweide rd, Universitas Oord, Stellenbosch}{078 154 1050}
+\Home{Potgieter}{WC Contacts}{Oswald,Wendy,Andy,Amber,Ashley LeGrange 102 Renoster Str, Delft; GPS:; (-33.973583,18.639717) }{062 610 9101(S)}
+\Home{Reed}{Pinelands}{ 6 Poplar Way, Pinelands, 7405; annettereed1947@gmail.com}{083 476 0009}
+\Home{Reed}{Pinelands}{Matthew,Caitlyn,Jonathan 6 Poplar Way, Pinelands, 7405; peter@jcmtech.co.za(P) , jacqui@jcmtech.co.za(J) }{082 552 8420(P)\\082 929 0594(J)\\021 531 0333}
+\Home{Reed}{Plattekloof}{Aidan,Oliver 33 York Close, Parklands, Table View, 7441; michaelreed2812@outlook.com(M) }{082 853 6904(M)\\082 555 5110(Y)}
+\Home{Renaud}{Fairways}{ 304 Brentwood, 40 Gray Rd, Plumstead, 7800; mercia.renaude24@gmail.com}{072 341 3328(M)}
+\Home{Rezant}{Atlantis}{ 4 Gloriosa Close, Protea Park, Atlantis 7349}{074 631 4899}
+\Home{Rezant}{WC - North - Sick Bay}{Justin,Ashwin Huis De Kuilen, Kuilsrivier; chris.rezant@gmail.com(C) }{083 419 8912(C)\\084 975 5341(J)\\084 976 6636(A)\\082 839 1024(C)}
+\Home{Robijn}{WC Contacts}{ 7 Laurimer Rd, Penhill, 7100}{}
+\Home{Robinson}{Huis Luckhoff}{ Huis Luckhoff room 109, 42 Alma Road, Room 104, Rosebank}{083 249 0233 }
+\Home{Robinson}{Worcester}{ 22 Martin St, Victoria Park, Worcester, 6850; bridgetterobinson1@gmail.com}{064 807 6088}
+\Home{Roodt}{WC Contacts}{Mishka 5 Wairakei Close, Fairview Golf estate, Gordon's Bay}{082 410 5817}
+\Home{Roos}{Langebaan \#1}{Riana,Zandré 8 Emerald street, Villa Diamante, Langebaan; steveroos@webmail.co.za}{079 118 7612}
+\Home{Rossouw}{WC Contacts}{ No. 3, 44OnMain, Main Road, Fish Hoek}{083 281 7081}
+\Home{Rossouw}{WC Contacts}{ Unit 694, block 76, de Velde Life style Estate, Firgrove Rural 7130; roelofrossouw@lando.co.za(R) }{079 873 4636(R)}
+\Home{Rothmann}{Pearl Valley}{ 7 Optenhorst Mews, Lemoenkloof, Paarl, 7647; wesley.rothmann@gmail.com(W) , larysha.rothmann@gmail.com(L) }{072 308 8687(W)\\071 610 1370(L)}
+\Home{Ruger}{Pinelands}{ 201 Grosvenor Square, 17 College Rd, Rondebosch; denyse@ruger.co.za}{082 658 1358\\021 686 0897}
+\Home{Samuels}{Gordons Bay}{ 99 10th Street, Strand, 7139}{072 797 1659(M)}
+\Home{Samuels}{Penhill Estate}{ 125 Pinetree Way, Rosedale, Eersterivier, 7100}{083 206 4502(S)}
+\Home{Sassman}{Grassy Park}{Daniel 1 Jubalew street, Welcome Estate, Vanguard}{067 951 0647}
+\Home{Sassman}{Grassy Park}{Matthew 1 Jubalew street, Welcome Estate ,Vanguard}{079 037 5550}
+\Home{Sauls}{Worcester}{Merlize,Keelan 104 Parker Street, Worcester}{082 559 3541(A)\\061 984 6313(M)}
+\Home{Schlemmer}{Kraaifontein}{ F2 Parkview Heights, Belami Drive, Sonstraal Heights; schlemmerillona@gmail.com}{084 491 0769}
+\Home{Schooling}{Langebaan \#2}{ 193 Elysenpark, Langebaan Country Estate, Langebaan; fschooling@gmail.com}{078 068 3798}
+\Home{Schooling}{St Helena Bay}{Stanford 1113 Robbejacht Close, Langebaan Country Estate, Langebaan; chrisschooling@gmail.com}{+2782 554 8688 (C)\\074 899 4069 (L)\\227221863}
+\Home{ShungKing}{Pinelands}{ 27 Avro Ave, Kensington, 7405}{072 607 3774}
+\Home{Simons}{Graafwater}{Conner 3 Nortier Street, Lamberts Bay, 8130; carlinne.h.87@gmail.com(C) }{072 283 4062(M)\\0605467432(C)}
+\Home{Simpson}{Kuils River}{Charlton 88 De La Haye Avenue, Stikland, Bellville, 7530}{066 238 8611(L)}
+\Home{Slater}{Pinehurst}{Zachary,Elijah 13 Landzicht Cres, Avalon Estate, Uitzicht, Durbanville, 7550; chrystaljackson@gmail.com(C) }{084 501 5272(C)}
+\Home{Smith}{Fairways}{ 16 Ascot Close, Ascot Mews, Ottery, 7800; ionasmith32@gmail.com}{078 622 7858}
+\Home{Smith}{St Helena Bay}{ 138 Main St, Laingville, St Helena Bay, 7390; hazznetrading@gmail.com}{073 873 3004(H)}
+\Home{Smith}{Tygerdal}{ 11 Claredon Crescent. Ysterplaat, 7405; soniasmith411@gmail.com(S) }{074 422 1893(M)\\084 763 7243(S)}
+\Home{Smit}{WC Contacts}{ }{083 263 1843}
+\Home{Snyders}{Pinehurst}{ Onze Molen, 12 High street, Durbanville; snyderscathy@gmail.com}{082 333 9871}
+\Home{Snyder}{Huis Luckhoff}{ Huis Luckhoff, 42 Alma Road, Rosebank, 7700; Frail Care No. 1.; jephthahsnyder@gmail.com}{072 871 5949(J)}
+\Home{Snyder}{Kasselsvlei Rd}{ 46 Kasselsvlei Rd, Bellville South, 7530; audreysnyder1306@gmail.com(A) , danaud46@gmail.com(D) }{083 338 4658(D)\\084 487 6202(A)\\021 951 5098}
+\Home{Snyder}{Kuils River}{ 27 Kremetart Ave, Silver Oaks, Kuils River, 7580; noelene.snyder@rawson.co.za(N) }{082 415 7982(N)\\082 435 9006(K)\\021 903 1753}
+\Home{Snyder}{Kuils River}{Marlene 42 Millettia Street, Rouxville, Kuilsrivier; snyderbarbara@gmail.com, barbara-snyder@live.com}{079 195 3265(B)\\082 443 8361(M)}
+\Home{Snyder}{Pearl Valley}{Arron 12 Stephanie Str, Uitsig, Wellington, 7635}{072 116 6063(L)\\021 873 7230}
+\Home{Snyder}{Penhill Estate}{ 4 Moss St, Austinville, Blackheath, 7580; Box 66, Blackheath, 7581; charlfred@telkomsa.net(C) }{060 396 2839(C)\\084 507 0919(P)\\021 905 1911}
+\Home{Snyder}{WC Contacts}{ 10 Aiken Close, Frogmore Estate, 7945; hiltonjhn@gmail.com}{076 882 8845(H)}
+\Home{Snyder}{WC Contacts}{Nadia 78 Middelvlei, Burgundy Estate; eunice.newimage@gmail.com(E) }{083 461 9977(E)}
+\Home{Solomons}{Atlantis}{ 6 Duikersteeg Street, Atlantis, 7349}{082 429 8070(C)\\072 613 8701(N)}
+\Home{Solomons}{WC Contacts}{Leah,Erin Leigh,Peyton 38 Gazania Way, Belhar 4, 7490}{083 862 3238(A)\\021 952 3511}
+\Home{Solomon}{Penhill Estate}{ 17 Athems Road, The Conifers, Blue Downs, 7100}{073 143 3812(F)\\073 738 2939(G)}
+\Home{Solomon}{Tygerdal}{Allandore,Cheslin 11 Claredon Crescent. Ysterplaat, 7405}{081 720 4117}
+\Home{Solomon}{WC Contacts}{ 12 Claredon Crescent, Ysterplaat, 7405}{}
+\Home{Solomon}{Westridge}{Eva Mitchell's Plain}{084 044 7706(E)\\078 550 7140(R)}
+\Home{Stadler}{Hermanus}{Nicolene,Jolene 12 Vader Visser Street , Sandbaai Hermanus, 7200}{079 112 1957}
+\Home{Stafford}{Protea Valley}{Patsy 94 Duncan Rd, Parow Valley 7500}{079 610 8084(N)\\021 933 4329(N)\\079 466 8510(P)\\021 203 7884(P)}
+\Home{Stevens}{Rondebosch East}{Tamlyn 72A Waterloo Road, Kenwyn, 7780; melanie@melaniestevenslaw.co.za(Me) }{083 354 0205(Me)\\082 700 3050(Ma)}
+\Home{Steyl}{WC - North - Sick Bay}{ c/o Graham\&Magda Lomas, 11 Duff St, Parow Valley}{082 957 8383}
+\Home{Styan}{Pinelands}{Alexander,Christopher 16 Gardenia Ave, Vredehoek; james-brent.styan@westerncape.gov.za}{084 583 1670}
+\Home{Swanepoel}{Pearl Valley}{Michael,Rachel 243 Bear Creek Blvd, Pearl Valley Golf Estate, Paarl, 7646; marcels@grp1.co.za(M) , susan.pearlvalley@gmail.com(S) }{021 867 1095\\083 290 8014(M)\\082 824 8840(S) }
+\Home{Swanepoel}{Steenberg}{ 66 Sandstone way, Stonehurst Mountain Estate, Cape Town; lizellex@yahoo.com}{082 821 9128}
+\Home{Swartbooi}{Worcester}{ 4 Reinecke St, Ceres, 6835; swartbooicorrine01@gmail.com}{061 454 2206}
+\Home{Swellah}{Somerset West Golden Acre}{ c/o Marion Lomas}{084 717 1966}
+\Home{Swiegelaar}{WC Contacts}{ 111 Fransman str, Roodewal, Worcester, 6850}{073 348 7982}
+\Home{Teixeira}{Huis Luckhoff}{ 22 The Village Apartments, Beach Crescent, Scott Estate, Houtbay Cape Town, 7806}{+27631239026}
+\Home{Toerien}{Bethanie 2}{Charles,Tanya Wessel Lourens Rylaan 60, Vredekloof, 7560; heiditoerien@mweb.co.za(H) }{083 243 6803(H)\\021 981 8199\\+27 78 642 8253(T)}
+\Home{Trench}{Pearl Valley}{ 11 Grande Boulevard, Le Parc Residencial Estate, Paarl, 7624; kstrench@gmail.com(K) ; (-18.340317, 25.486911) }{082 544 0780(K)\\072 574 9285(S)}
+\Home{Turner}{Graafwater}{ Lambertsbay Weg, Graafwater; dieturners@gmail.com(A) }{083 230 7270(A)\\083 665 2718(R)}
+\Home{Turner}{Graafwater}{ Spikkedissie (sign at gate), Breedevlei; P.O. Box 5, Graafwater, 8120; omaburnice@gmail.com; (-32.154776,18.617250) }{064 900 1666\\027 422 1623}
+\Home{Turner}{Graafwater}{Frederick,Benjamin,Amy Spikkedissie (sign at gate), Breedevlei; PO Box 5, Graafwater, 8120; nsturner@mylan.co.za(N) ; (-32.154853,18.616999) }{082 894 7251(N)\\082 874 5234(S)\\027 422 1890}
+\Home{Van Dyk}{Plattekloof}{Wian 17 Blinkwater Crescent, Edgemead, 7441; mandipienaar@gmail.com}{082 262 0346(M)\\072 259 7487(F)}
+\Home{Van Heerden}{Langebaan \#1}{ 5 Rietbaai Close, Waterfront, Langebaan, 7357; wesselhendrick@outlook.com(W) }{072 360 3751(W)}
+\Home{Van Niekerk}{Gordons Bay}{Caleb,Erin 4 De Ruyter Street, Strand, 7140}{0844848840(D)\\0799748495(T)\\021 853 6914}
+\Home{Van Niekerk}{Plattekloof}{ 2 De Hoop Cresent, Edgemead, Cape Town, 7441}{084 240 2884}
+\Home{Van Niekerk}{Somerset West Morningside}{ 8 Myrtle St, Morningside, Somerset West; meiringmary@vodamail.co.za(M) }{076 279 8557(M)\\072 178 6421(D)}
+\Home{Van Rensburg}{Ridgeworth}{Bianca 21 Hibiscus Ave, Ridgeworth 7530; nico2vr@gmail.com(N) , belindavr66@gmail.com(B) }{083 270 9608(N)\\072 208 7736(B)\\0834148073(BI)}
+\Home{Van Rooijen}{Plattekloof}{Raymond,Gemma,Kayleigh 44 General Lucas Meyer Ave, Welgelegen 2, Cape Town, 7500; nadiavr8@gmail.com(N) }{082 376 8563(N)}
+\Home{Van Wyk}{Hermanus}{ 49 Protea Park, Bergsig St, Sandbaai, Hermanus, 7200; vanwykjjc@gmail.com(J) }{084 508 1726(J)\\073 411 8032(Y)}
+\Home{Van Wyk}{Kraaifontein}{D.J. 7 St. Luke Rd. Eversdal, 7550; johan@airwavetech.co.za(J) , johanvanwy@gmail.com(J) , barbsvanwyk@gmail.com(B) }{082 859 9067(J)\\064 804 0407(J)\\082 856 8572(B)\\021 976 5190}
+\Home{Van Wyk}{Langebaan \#2}{ 3 Thera Way, Calypso Beach, Langebaan; marlynvwyk@gmail.com(A) , dirk.vanwyk@jbtc.com(D) }{083 625 8186(D)\\083 635 9155(A)\\021 913 1982}
+\Home{Van Wyk}{Pinelands}{ 2 Whitehall apartment, 10 London Street, Sea Point, 8005}{079 748 9958(C)\\074 886 8728(J)}
+\Home{Van Wyk}{Ridgeworth}{ Old Oak Clusters, 18 Berkley St, Oakglen, 7530; genevw@gmail.com}{082 878 6030\\021 919 9927}
+\Home{Van der Merwe}{Protea Hoogte}{ Unit C118, La Recolte Retirement Village; louise.fransvdm@gmail.com}{076 847 5465\\ 021 982 0942}
+\Home{Van der Merwe}{Somerset West Morningside}{ 9 Dianthus Street, Heldervue, Somerset West; vdmerwe.vivienne@gmail.com}{016 971 2420\\082 566 6644(J)\\073 260 3479(V)}
+\Home{Van der Merwe}{WC Contacts}{ Wellway Park East, Durbanville}{074 857 2373}
+\Home{Van der Walt}{Somerset West Morningside}{Tyler,Leila 11 Fiona Close, Somerset West}{082 573 1229(F)}
+\Home{Van der Westhuizen}{Protea Valley}{Lara,Jean 1 Featherhead St, Protea Valley, 7530, C/o Jannes Gilles; (-33.815479,18.970556) }{082 497 0120}
+\Home{Venter}{Langebaan \#2}{ 22 Casos str, Calypso Beach, Langebaan; safariv@corpdial.co.za(V) }{011 867 1357\\082 550 7550(V)\\082 556 8675(C)}
+\Home{Victor}{Bethanie}{ 22 Cecilia St, Chrismar, Bellville, 7530; eleanorevictor@gmail.com(E) }{082 517 3219(E)\\021 919 4121}
+\Home{Victor}{WC Contacts}{ Erf 3273 Heleen Close, Ocean View Heights, Struisbaai; P O Box 752, Struisbaai, 7285; jeanettevictor@gmail.com}{083 270 9719}
+\Home{Visagie}{Bethanie}{ Capolavoro Mountain Estate, Dwarsvallei St, Kylemae, 7600; eunice.visagie@eikestadnuus.com}{076 382 7754}
+\Home{Visagie}{Lutzville}{ On N7 North take Klaver t/off.Continue to Vredendal.Turn right at Std Bank towards Lutzville.At Strandfontein/Doringbaai board turn left.Proceed until Indrafwinkel (on left),turn right.Cont 1km to house.; Posbus 17, Lutzville, 8165.; joeyvisagie07@gmail.com}{083 660 0004}
+\Home{Visagie}{WC Contacts}{ Stellenbosch University}{}
+\Home{Vlok}{Kuils River}{ 6 Serena Close, Kuilsrivier, 7580}{076 765 1097}
+\Home{Vlok}{Steenberg}{ Capricorn Beach, 26 Ocean Villas, Muizenberg; amandavlok1@gmail.com}{073 391 2191}
+\Home{Volkwyn}{Tygerdal}{ 183, 11th Avenue, Kensington, 7405; superama@iafrica.com}{072 063 1735}
+\Home{Vries}{WC Contacts}{ 19 Johannesberg Str, Croyden Estate, Faure}{082 212 0304\\021 905 1911}
+\Home{Walker}{Protea Valley}{ 10 Esperance Street, Avondale, Parow; dot47.walker@gmail.com(D) }{063 400 5805(A)\\078 578 5494(D)}
+\Home{Walker}{Protea Valley}{Amelia,Lea,Elijah 10 Esperance Street, Avondale, Parow}{067 401 0470(J)\\+2782 324 3384(M)}
+\Home{Warner}{WC Contacts}{ 18 Martin Peterson Street, Bellville South,7530}{074 638 6554(A)}
+\Home{Warnick}{WC Contacts}{Jodaunté,Jordao,Cattelya 22 Fairview Close, Darling, 7345}{083 822 1639(J)\\076 254 8689(C)}
+\Home{Weber}{Rondebosch East}{Matthew ,Bevan 5 Penlyn Ave, Penlyn Estate; (Matthew also att Kasselsvlei mtgs); mweber@fnb.co.za}{084 259 4286}
+\Home{Willard}{Hermanus}{ 1103 Hilton Circle, Pringle Bay; davewillard3@gmail.com(D) , willardmonique@gmail.com(M) }{082 442 8625(D)\\083 327 7411(M)}
+\Home{Willard}{Somerset West Morningside}{ Unit 2231, Somerset Links, Jigger Street, Somerset West; cwillardinteriors@gmail.com}{084 580 1254}
+\Home{Willard}{WC Contacts}{ c/o Dave \& Monique Willard}{083 564 0936}
+\Home{Williamson}{Somerset West Morningside}{ 208 Fagan St, Strand, Cape Town, 7139; elmarie.williamson@gmail.com}{082 309 6508\\021 853 5311}
+\Home{Williams}{Pinelands}{Lee Anne,Caryn,Jade 222, Twelfth Ave, Kensington, 7405; williamsvivienne55@gmail.com(Vv) }{072 635 0849(V)\\076 055 0045(Vv)}
+\Home{Windvogel}{Kasselsvlei Rd}{Gershwin,Wesley 9 Reynolds street. De La Haye, Bellville, 7530; seanwindvogel@yahoo.com(S) }{084 613 9334(S)\\021 917 1120}
+\Home{Wise}{Bethanie}{ 1 Hewitt Street Aurora Durbanville; pjwise48@gmail.com}{066 093 1319\\+27 21 975 4302}
+\Home{Wise}{Gordons Bay}{ 50 Helena Avenue, Helena Heights, Somerset West; jnwise00@gmail.com}{072 376 5034}
+\Home{Wise}{Gordons Bay}{ 50 Helena Avenue, Somerset West; the6wise@gmail.com(J) }{079 529 1069(J)\\082 895 7326(E)}
+\Home{Wise}{WC Contacts}{Leilani,Danny 12 Adam Tas Rd, Parel Vallei, Somerset West, 7130; eddiewise91@gmail.com (E) , chaniblom@gmail.com(C) }{072 831 5488(E)\\071 382 5448(C)}
+\Home{Wyngaard}{Kuils River}{Shanlan 5 Minstrel Crescent, Summersville, Kuilsrivier 7580; alkushun@yahoo.co.uk(A) , undeanw@gmail.com(U) }{0784806675(A)\\082 773 2422(U)}
+\Home{Wyngaard}{Protea Hoogte}{ 8 Fick St, Scottsville, Kraaifontein, 7570; maggiewyngaard@gmail.com}{083 258 2165\\021 988 2531}\EndHomes
+\EndSection
+\MLDistrictH{Cape Peninsula - North}
+\MLMeetingH{WC - North - Sick Bay}
+\MLHome{Du Toit}{}{}
+\MLHome{Rezant}{}{Justin,Ashwin}
+\MLHome{Steyl}{}{}
+\MLMeetingH{Bethanie;Herman, A}
+\MLHome{Botha}{}{Christian,Leah}
+\MLHome{Bown}{}{Aimee,Oliver}
+\MLHome{Herman}{SunAM;Elder}{}
+\MLHome{Louw}{WedPM}{}
+\MLHome{Victor}{}{}
+\MLHome{Visagie}{}{}
+\MLHome{Wise}{}{}
+\MLMeetingH{Bethanie 2;Holtzhausen, L}
+\MLHome{Blom}{}{}
+\MLHome{Du Plessis}{SunPM}{}
+\MLHome{Holtzhausen}{}{}
+\MLHome{Holtzhausen}{SunAM;Elder}{Elzet}
+\MLHome{Meadows}{WedPM}{Heidi,Benjamin}
+\MLHome{Page}{}{}
+\MLHome{Toerien}{}{Charles,Tanya}
+\MLMeetingH{Highbury;Grootboom, Melvyn}
+\MLHome{Combrinck}{}{}
+\MLHome{Daames}{}{}
+\MLHome{Goliath}{WedPM}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{SunAM;Elder}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Matthews}{SunPM}{Anthea}
+\MLMeetingH{Kasselsvlei Rd;Snyder, D}
+\MLHome{Benjamin}{}{Claudia,Gia}
+\MLHome{Benjamin}{}{Nathan}
+\MLHome{Dhunrajah}{}{Kai}
+\MLHome{Fritz}{}{}
+\MLHome{Fritz}{SunPM,WedPM}{}
+\MLHome{Mullam}{}{Megan,Chad}
+\MLHome{Snyder}{SunAM;Elder}{}
+\MLHome{Windvogel}{}{Gershwin,Wesley}
+\MLMeetingH{Kraaifontein;Hermans, J}
+\MLHome{Campbell}{WedPM;Wed - even dates}{Courtney,Cassidy,Kendal}
+\MLHome{Cloete}{}{}
+\MLHome{Gilfillan}{}{}
+\MLHome{Hall}{}{}
+\MLHome{Herman}{WedPM;Wed - uneven dates}{Beatrix}
+\MLHome{Hermans}{SunAM,WedPM;Elder}{}
+\MLHome{Le Roux}{}{}
+\MLHome{Philander}{}{}
+\MLHome{Schlemmer}{}{}
+\MLHome{Van Wyk}{SunPM}{D.J.}
+\MLMeetingH{Kuils River;Kruger, J}
+\MLHome{Delport}{}{}
+\MLHome{Du Toit}{}{}
+\MLHome{Fortuin}{}{}
+\MLHome{Kruger}{SunAM,SunPM;Elder}{}
+\MLHome{Lewis}{}{Kirsten,Carl}
+\MLHome{Marais}{WedPM}{Sebastian,Stefan}
+\MLHome{Mathias}{}{Sofia,Michael}
+\MLHome{Simpson}{}{Charlton}
+\MLHome{Snyder}{}{Marlene}
+\MLHome{Snyder}{}{}
+\MLHome{Vlok}{}{}
+\MLHome{Wyngaard}{}{Shanlan}
+\MLMeetingH{Pinehurst;Murray, J}
+\MLHome{Bernardo}{}{Bonita}
+\MLHome{Bester}{}{Laramé}
+\MLHome{De Beer}{}{}
+\MLHome{Grobbelaar}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Murray}{SunAM,WedPM;Elder}{}
+\MLHome{Myers}{SunPM}{Emily,Lucy}
+\MLHome{Slater}{}{Zachary,Elijah}
+\MLHome{Snyders}{}{}
+\MLMeetingH{Protea Hoogte;Faul, C}
+\MLHome{Adams}{}{}
+\MLHome{Bester}{}{}
+\MLHome{Cloete}{}{}
+\MLHome{Coetzee}{}{}
+\MLHome{Faul}{SunAM;Elder}{Eugene}
+\MLHome{Froude}{}{}
+\MLHome{Hudson}{}{Jacques,Dale,Juan Pierre,Heinrich}
+\MLHome{Huisamen}{}{}
+\MLHome{Nortjé}{}{}
+\MLHome{Pieterse}{WedPM}{Matthew,Maunia}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Wyngaard}{SunPM}{}
+\MLMeetingH{Protea Valley;Gilles, J}
+\MLHome{Ewertse}{SunPM}{Lauren}
+\MLHome{Gilles}{SunAM;Elder}{}
+\MLHome{Hermans}{WedPM}{}
+\MLHome{Jansen}{}{}
+\MLHome{Jansen}{}{Chloe,Noah}
+\MLHome{Lomas}{}{}
+\MLHome{Myburgh}{}{}
+\MLHome{Stafford}{WedPM}{Patsy}
+\MLHome{Van der Westhuizen}{}{Lara,Jean}
+\MLHome{Walker}{}{}
+\MLHome{Walker}{}{Amelia,Lea,Elijah}
+\MLMeetingH{Ridgeworth;Van Rensburg, N}
+\MLHome{Basson}{}{}
+\MLHome{Dippenaar}{}{}
+\MLHome{Du Plessis}{}{}
+\MLHome{Fouché}{}{}
+\MLHome{Foye}{WedPM}{Laura Lee,Julia}
+\MLHome{Hermans}{}{Chanelle}
+\MLHome{Van Rensburg}{SunAM,SunPM;Elder}{Bianca}
+\MLHome{Van Wyk}{}{}
+\MLMeetingH{Bethanie 2 S;Du Plessis, P}
+\MLHome{Blom}{}{}
+\MLHome{Du Plessis}{SunPM}{}
+\MLHome{Holtzhausen}{}{}
+\MLHome{Holtzhausen}{SunAM;Elder}{Elzet}
+\MLHome{Meadows}{WedPM}{Heidi,Benjamin}
+\MLHome{Page}{}{}
+\MLHome{Toerien}{}{Charles,Tanya}
+\MLMeetingH{Bethanie S}
+\MLHome{Botha}{}{Christian,Leah}
+\MLHome{Bown}{}{Aimee,Oliver}
+\MLHome{Herman}{SunAM;Elder}{}
+\MLHome{Louw}{WedPM}{}
+\MLHome{Victor}{}{}
+\MLHome{Visagie}{}{}
+\MLHome{Wise}{}{}
+\MLMeetingH{Eversdal S;Van Wyk, Johan}
+\MLHome{Campbell}{WedPM;Wed - even dates}{Courtney,Cassidy,Kendal}
+\MLHome{Cloete}{}{}
+\MLHome{Gilfillan}{}{}
+\MLHome{Hall}{}{}
+\MLHome{Herman}{WedPM;Wed - uneven dates}{Beatrix}
+\MLHome{Hermans}{SunAM,WedPM;Elder}{}
+\MLHome{Le Roux}{}{}
+\MLHome{Philander}{}{}
+\MLHome{Schlemmer}{}{}
+\MLHome{Van Wyk}{SunPM}{D.J.}
+\MLMeetingH{Highbury S;Matthews, J}
+\MLHome{Combrinck}{}{}
+\MLHome{Daames}{}{}
+\MLHome{Goliath}{WedPM}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{SunAM;Elder}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Matthews}{SunPM}{Anthea}
+\MLMeetingH{Kasselsvlei Rd S;Windvogel, S @ Fritz, S}
+\MLHome{Benjamin}{}{Claudia,Gia}
+\MLHome{Benjamin}{}{Nathan}
+\MLHome{Dhunrajah}{}{Kai}
+\MLHome{Fritz}{}{}
+\MLHome{Fritz}{SunPM,WedPM}{}
+\MLHome{Mullam}{}{Megan,Chad}
+\MLHome{Simpson}{}{Charlton}
+\MLHome{Snyder}{SunAM;Elder}{}
+\MLHome{Windvogel}{}{Gershwin,Wesley}
+\MLMeetingH{Kuils River S;Kruger, J}
+\MLHome{Delport}{}{}
+\MLHome{Du Toit}{}{}
+\MLHome{Fortuin}{}{}
+\MLHome{Kruger}{SunAM,SunPM;Elder}{}
+\MLHome{Lewis}{}{Kirsten,Carl}
+\MLHome{Marais}{WedPM}{Sebastian,Stefan}
+\MLHome{Mathias}{}{Sofia,Michael}
+\MLHome{Snyder}{}{Marlene}
+\MLHome{Snyder}{}{}
+\MLHome{Vlok}{}{}
+\MLHome{Wyngaard}{}{Shanlan}
+\MLMeetingH{Pinehurst S;Myers, L}
+\MLHome{Bernardo}{}{Bonita}
+\MLHome{Bester}{}{Laramé}
+\MLHome{De Beer}{}{}
+\MLHome{Grobbelaar}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Murray}{SunAM,WedPM;Elder}{}
+\MLHome{Myers}{SunPM}{Emily,Lucy}
+\MLHome{Slater}{}{Zachary,Elijah}
+\MLHome{Snyders}{}{}
+\MLMeetingH{Protea Hoogte S;Bester, G @ Wyngaard, M}
+\MLHome{Adams}{}{}
+\MLHome{Bester}{}{}
+\MLHome{Cloete}{}{}
+\MLHome{Coetzee}{}{}
+\MLHome{Faul}{SunAM;Elder}{Eugene}
+\MLHome{Froude}{}{}
+\MLHome{Hudson}{}{Jacques,Dale,Juan Pierre,Heinrich}
+\MLHome{Huisamen}{}{}
+\MLHome{Nortjé}{}{}
+\MLHome{Pieterse}{WedPM}{Matthew,Maunia}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Wyngaard}{SunPM}{}
+\MLMeetingH{Protea Valley S;Ewertse, M}
+\MLHome{Ewertse}{SunPM}{Lauren}
+\MLHome{Gilles}{SunAM;Elder}{}
+\MLHome{Hermans}{WedPM}{}
+\MLHome{Jansen}{}{}
+\MLHome{Jansen}{}{Chloe,Noah}
+\MLHome{Myburgh}{}{}
+\MLHome{Stafford}{WedPM}{Patsy}
+\MLHome{Van der Westhuizen}{}{Lara,Jean}
+\MLHome{Walker}{}{}
+\MLHome{Walker}{}{Amelia,Lea,Elijah}
+\MLMeetingH{Ridgeworth S;Van Rensburg, N}
+\MLHome{Basson}{}{}
+\MLHome{Dippenaar}{}{}
+\MLHome{Du Plessis}{}{}
+\MLHome{Fouché}{}{}
+\MLHome{Foye}{WedPM}{Laura Lee,Julia}
+\MLHome{Hermans}{}{Chanelle}
+\MLHome{Van Rensburg}{SunAM,SunPM;Elder}{Bianca}
+\MLHome{Van Wyk}{}{}
+\MLMeetingH{Bethanie 2 W;Meadows, J}
+\MLHome{Blom}{}{}
+\MLHome{Du Plessis}{SunPM}{}
+\MLHome{Holtzhausen}{}{}
+\MLHome{Holtzhausen}{SunAM;Elder}{Elzet}
+\MLHome{Meadows}{WedPM}{Heidi,Benjamin}
+\MLHome{Page}{}{}
+\MLHome{Toerien}{}{Charles,Tanya}
+\MLMeetingH{Bethanie W;Louw, P}
+\MLHome{Botha}{}{Christian,Leah}
+\MLHome{Bown}{}{Aimee,Oliver}
+\MLHome{Herman}{SunAM;Elder}{}
+\MLHome{Louw}{WedPM}{}
+\MLHome{Victor}{}{}
+\MLHome{Visagie}{}{}
+\MLHome{Wise}{}{}
+\MLMeetingH{Eversdal W pm}
+\MLHome{Campbell}{WedPM;Wed - even dates}{Courtney,Cassidy,Kendal}
+\MLHome{Herman}{WedPM;Wed - uneven dates}{Beatrix}
+\MLHome{Le Roux}{}{}
+\MLHome{Philander}{}{}
+\MLHome{Schlemmer}{}{}
+\MLHome{Van Wyk}{SunPM}{D.J.}
+\MLMeetingH{Highbury W@19h30;Goliath, John}
+\MLHome{Combrinck}{}{}
+\MLHome{Daames}{}{}
+\MLHome{Goliath}{WedPM}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{SunAM;Elder}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Matthews}{SunPM}{Anthea}
+\MLMeetingH{Kasselsvlei Rd W;Benjamin, E @ Fritz, S}
+\MLHome{Benjamin}{}{Claudia,Gia}
+\MLHome{Benjamin}{}{Nathan}
+\MLHome{Dhunrajah}{}{Kai}
+\MLHome{Fritz}{}{}
+\MLHome{Fritz}{SunPM,WedPM}{}
+\MLHome{Mullam}{}{Megan,Chad}
+\MLHome{Simpson}{}{Charlton}
+\MLHome{Snyder}{SunAM;Elder}{}
+\MLHome{Windvogel}{}{Gershwin,Wesley}
+\MLMeetingH{Kraaifontein W am@10h30;Hall, H @ Hermans, J}
+\MLHome{Cloete}{}{}
+\MLHome{Froude}{}{}
+\MLHome{Gilfillan}{}{}
+\MLHome{Hall}{}{}
+\MLHome{Hermans}{SunAM,WedPM;Elder}{}
+\MLHome{Nortjé}{}{}
+\MLHome{Wyngaard}{SunPM}{}
+\MLMeetingH{Kuils River W;Marais, N}
+\MLHome{Delport}{}{}
+\MLHome{Du Toit}{}{}
+\MLHome{Kruger}{SunAM,SunPM;Elder}{}
+\MLHome{Lewis}{}{Kirsten,Carl}
+\MLHome{Marais}{WedPM}{Sebastian,Stefan}
+\MLHome{Mathias}{}{Sofia,Michael}
+\MLHome{Snyder}{}{Marlene}
+\MLHome{Snyder}{}{}
+\MLHome{Vlok}{}{}
+\MLHome{Wyngaard}{}{Shanlan}
+\MLMeetingH{Pinehurst W;Bernardo, I @ Murray, J}
+\MLHome{Bernardo}{}{Bonita}
+\MLHome{Bester}{}{Laramé}
+\MLHome{De Beer}{}{}
+\MLHome{Grobbelaar}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Murray}{SunAM,WedPM;Elder}{}
+\MLHome{Myers}{SunPM}{Emily,Lucy}
+\MLHome{Slater}{}{Zachary,Elijah}
+\MLHome{Snyders}{}{}
+\MLMeetingH{Protea Hoogte W;Pieterse, G}
+\MLHome{Bester}{}{}
+\MLHome{Cloete}{}{}
+\MLHome{Coetzee}{}{}
+\MLHome{Faul}{SunAM;Elder}{Eugene}
+\MLHome{Hudson}{}{Jacques,Dale,Juan Pierre,Heinrich}
+\MLHome{Pieterse}{WedPM}{Matthew,Maunia}
+\MLMeetingH{Protea Valley W;Hermans, L}
+\MLHome{Ewertse}{SunPM}{Lauren}
+\MLHome{Hermans}{WedPM}{}
+\MLHome{Jansen}{}{}
+\MLHome{Jansen}{}{Chloe,Noah}
+\MLHome{Myburgh}{}{}
+\MLHome{Van der Westhuizen}{}{Lara,Jean}
+\MLMeetingH{Protea Valley WedAM@10h30;Stafford, N}
+\MLHome{Fortuin}{}{}
+\MLHome{Gilles}{SunAM;Elder}{}
+\MLHome{Stafford}{WedPM}{Patsy}
+\MLHome{Walker}{}{}
+\MLHome{Walker}{}{Amelia,Lea,Elijah}
+\MLMeetingH{Ridgeworth W;Foye, A}
+\MLHome{Basson}{}{}
+\MLHome{Dippenaar}{}{}
+\MLHome{Du Plessis}{}{}
+\MLHome{Fouché}{}{}
+\MLHome{Foye}{WedPM}{Laura Lee,Julia}
+\MLHome{Hermans}{}{Chanelle}
+\MLHome{Van Rensburg}{SunAM,SunPM;Elder}{Bianca}
+\MLHome{Van Wyk}{}{}
+\MLDistrictH{Cape Peninsula - South}
+\MLMeetingH{Bishop Lavis;Bosch, F}
+\MLHome{Bosch}{All mtgs;Elder}{}
+\MLHome{Grootboom}{}{Alaric,Enslin}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Lawrence}{}{}
+\MLHome{Le Grange}{}{}
+\MLHome{Le Grange}{Takes Sun pm}{}
+\MLHome{Maxim}{}{}
+\MLHome{Mc Lane}{}{}
+\MLHome{Mc Lane}{}{Jovaunté,Eve}
+\MLHome{Middleton}{Takes Wed AM}{}
+\MLMeetingH{Fairways;Dunn, C}
+\MLHome{Brandt}{}{}
+\MLHome{Dunn}{SunAM,WedPM;Elder}{}
+\MLHome{Dunn}{SunPM}{Sharné,Mikayla}
+\MLHome{Duthie}{SunPM}{}
+\MLHome{Franke}{}{Mandi,Elrita}
+\MLHome{Hermans}{WedPM}{}
+\MLHome{Jaftha}{}{Pauline}
+\MLHome{Manuel}{}{}
+\MLHome{Renaud}{}{}
+\MLHome{Smith}{WedPM}{}
+\MLMeetingH{Grassy Park;O'Ryan, E}
+\MLHome{Botha}{}{}
+\MLHome{Erasmus}{}{Isabella,Luca}
+\MLHome{Lutzke}{}{Ruby}
+\MLHome{Morris}{}{}
+\MLHome{Morris}{}{Kaylynne,Peter,Noah}
+\MLHome{O'Ryan}{SunAM,SunPM;Elder}{Jade,Carlynne}
+\MLHome{O'Ryan}{}{}
+\MLHome{O'Ryan}{}{}
+\MLHome{O'Ryan}{}{}
+\MLHome{Phaal}{}{Erica}
+\MLHome{Phillips}{}{Ridge}
+\MLHome{Sassman}{}{Matthew}
+\MLHome{Sassman}{}{Daniel}
+\MLMeetingH{Huis Luckhoff;Snyder, J}
+\MLHome{Dick}{}{}
+\MLHome{Fraser}{not able to attend mtgs}{}
+\MLHome{Robinson}{}{}
+\MLHome{Snyder}{SunAM,WedPM;Elder;Meeting is now in sun room close to Joyce Dick. }{}
+\MLHome{Teixeira}{}{}
+\MLMeetingH{Penhill Estate;Cedras, D  @ Cedras, D}
+\MLHome{Cedras}{SunAM;Elder}{Donay,Micheala}
+\MLHome{Davids}{}{}
+\MLHome{Mannel}{}{Xenethia}
+\MLHome{Okkers}{}{Candice,Aiden,Jadon}
+\MLHome{Samuels}{}{}
+\MLHome{Snyder}{SunPM,WedPM}{}
+\MLHome{Solomon}{}{}
+\MLMeetingH{Pinelands;Reed, P}
+\MLHome{Esbend}{}{}
+\MLHome{Foye}{}{}
+\MLHome{Green}{}{Terence}
+\MLHome{Legg}{}{}
+\MLHome{Meintjes}{}{}
+\MLHome{Morar}{}{}
+\MLHome{Reed}{}{}
+\MLHome{Reed}{All mtgs;Elder}{Matthew,Caitlyn,Jonathan}
+\MLHome{Ruger}{}{}
+\MLHome{ShungKing}{}{}
+\MLHome{Styan}{}{Alexander,Christopher}
+\MLHome{Van Wyk}{Takes Wed pm}{}
+\MLHome{Williams}{Takes Sun pm}{Lee Anne,Caryn,Jade}
+\MLMeetingH{Plattekloof;Du Plessis, P}
+\MLHome{Du Plessis}{SunAM,SunPM;Elder}{}
+\MLHome{Dyason}{Takes WedPM}{}
+\MLHome{Faul}{Takes SunPM alternates with Michael
+}{}
+\MLHome{Faure}{}{Liani, Braam (jnr),Isabella}
+\MLHome{Faure}{}{}
+\MLHome{Fevrier}{WedPM}{}
+\MLHome{Hall}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Jasson}{}{Chasney,Cheilem}
+\MLHome{Monk}{}{Miqael}
+\MLHome{Reed}{Takes SunPM alternates with Arno}{Aidan,Oliver}
+\MLHome{Van Dyk}{}{Wian}
+\MLHome{Van Niekerk}{}{}
+\MLHome{Van Rooijen}{}{Raymond,Gemma,Kayleigh}
+\MLMeetingH{Rondebosch East;Cameron, R}
+\MLHome{Cameron}{SunAM,SunPM;Elder}{}
+\MLHome{Hodgson}{}{}
+\MLHome{Jacobs}{}{}
+\MLHome{King}{}{Bella,Ava,Chloe,Scott}
+\MLHome{King}{}{}
+\MLHome{Martinus}{}{Cameron,Andrea}
+\MLHome{Nefdt}{}{}
+\MLHome{O'Ryan}{}{Sam ,Ryan }
+\MLHome{Stevens}{}{Tamlyn}
+\MLHome{Weber}{WedPM}{Matthew ,Bevan}
+\MLMeetingH{Steenberg;Kabamba, T}
+\MLHome{Dunn}{}{}
+\MLHome{Dyason}{}{}
+\MLHome{Kabamba}{SunAM;Elder}{Annabelle,Adriel}
+\MLHome{Naidoo}{}{}
+\MLHome{Naidoo}{}{}
+\MLHome{Naidoo}{}{}
+\MLHome{Swanepoel}{}{}
+\MLHome{Vlok}{}{}
+\MLMeetingH{Tygerdal;Abrahams, S}
+\MLHome{Abrahams}{All mtgs;Elder}{Jude,Jared}
+\MLHome{Abrahams}{}{}
+\MLHome{Camfer}{}{}
+\MLHome{Dammert}{}{}
+\MLHome{Ewertse}{}{}
+\MLHome{Gihwala}{}{}
+\MLHome{Smith}{}{}
+\MLHome{Solomon}{}{Allandore,Cheslin}
+\MLHome{Volkwyn}{}{}
+\MLMeetingH{Westgate;Adonis, Derick}
+\MLHome{Adonis}{SunAM,SunPM;Elder}{}
+\MLHome{Burger}{}{}
+\MLHome{Daames}{Takes SundayPM}{Sherné}
+\MLHome{Jaftha}{}{Angelique}
+\MLHome{Jaftha}{}{Patrick,Quinton,Joshua,Qewin}
+\MLHome{O'Ryan}{}{}
+\MLMeetingH{Westridge;O' Ryan, Stanley}
+\MLHome{Adams}{}{}
+\MLHome{Adams}{}{}
+\MLHome{Bailey}{}{Cecelia}
+\MLHome{Dagnin}{}{}
+\MLHome{Dzvokora}{}{Tanaka,Tinashe}
+\MLHome{Mervyn}{}{}
+\MLHome{O'Ryan}{SunAM,WedPM;Elder}{}
+\MLHome{Solomon}{}{Eva}
+\MLMeetingH{Bishop Lavis SunPM@17h30;Le Grannge, R @ Bosch, F}
+\MLHome{Bosch}{All mtgs;Elder}{}
+\MLHome{Grootboom}{}{Alaric,Enslin}
+\MLHome{Grootboom}{}{}
+\MLHome{Grootboom}{}{}
+\MLHome{Lawrence}{}{}
+\MLHome{Le Grange}{}{}
+\MLHome{Le Grange}{Takes Sun pm}{}
+\MLHome{Maxim}{}{}
+\MLHome{Mc Lane}{}{}
+\MLHome{Mc Lane}{}{Jovaunté,Eve}
+\MLHome{Middleton}{Takes Wed AM}{}
+\MLMeetingH{Blackheath S;Snyder, C 17h30 @ Snyder, C}
+\MLHome{Cedras}{SunAM;Elder}{Donay,Micheala}
+\MLHome{Davids}{}{}
+\MLHome{Mannel}{}{Xenethia}
+\MLHome{Okkers}{}{Candice,Aiden,Jadon}
+\MLHome{Samuels}{}{}
+\MLHome{Snyder}{SunPM,WedPM}{}
+\MLHome{Solomon}{}{}
+\MLMeetingH{Grassy Park S;O'Ryan, M 17h00 @ O'Ryan, E}
+\MLHome{Botha}{}{}
+\MLHome{Erasmus}{}{Isabella,Luca}
+\MLHome{Lutzke}{}{Ruby}
+\MLHome{O'Ryan}{SunAM,SunPM;Elder}{Jade,Carlynne}
+\MLHome{O'Ryan}{}{}
+\MLHome{O'Ryan}{}{}
+\MLHome{Phillips}{}{Ridge}
+\MLHome{Sassman}{}{Matthew}
+\MLHome{Sassman}{}{Daniel}
+\MLMeetingH{Huis Luckhoff S;Snyder, J}
+\MLHome{Dick}{}{}
+\MLHome{Snyder}{SunAM,WedPM;Elder;Meeting is now in sun room close to Joyce Dick. }{}
+\MLHome{Teixeira}{}{}
+\MLMeetingH{Pinelands S;Williams, V @ Reed, P}
+\MLHome{Foye}{}{}
+\MLHome{Green}{}{Terence}
+\MLHome{Legg}{}{}
+\MLHome{Meintjes}{}{}
+\MLHome{Morar}{}{}
+\MLHome{Reed}{}{}
+\MLHome{Reed}{All mtgs;Elder}{Matthew,Caitlyn,Jonathan}
+\MLHome{Ruger}{}{}
+\MLHome{ShungKing}{}{}
+\MLHome{Styan}{}{Alexander,Christopher}
+\MLHome{Van Wyk}{Takes Wed pm}{}
+\MLHome{Williams}{Takes Sun pm}{Lee Anne,Caryn,Jade}
+\MLMeetingH{Plattekloof S;Alternate between Reed, M and Faul, A17h30 @ Du Plessis, P}
+\MLHome{Du Plessis}{SunAM,SunPM;Elder}{}
+\MLHome{Dyason}{Takes WedPM}{}
+\MLHome{Faul}{Takes SunPM alternates with Michael
+}{}
+\MLHome{Faure}{}{}
+\MLHome{Fevrier}{WedPM}{}
+\MLHome{Hall}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Jasson}{}{Chasney,Cheilem}
+\MLHome{Monk}{}{Miqael}
+\MLHome{Reed}{Takes SunPM alternates with Arno}{Aidan,Oliver}
+\MLHome{Van Dyk}{}{Wian}
+\MLHome{Van Niekerk}{}{}
+\MLHome{Van Rooijen}{}{Raymond,Gemma,Kayleigh}
+\MLMeetingH{Plumstead S;Dunn, S 17h30 @ Dunn, S}
+\MLHome{Brandt}{}{}
+\MLHome{Dunn}{SunPM}{Sharné,Mikayla}
+\MLHome{Dunn}{}{}
+\MLHome{Dyason}{}{}
+\MLHome{Kabamba}{SunAM;Elder}{Annabelle,Adriel}
+\MLHome{Renaud}{}{}
+\MLHome{Swanepoel}{}{}
+\MLHome{Vlok}{}{}
+\MLMeetingH{Rondebosch East S;Nefdt, S @ Cameron, R}
+\MLHome{Cameron}{SunAM,SunPM;Elder}{}
+\MLHome{Jacobs}{}{}
+\MLHome{King}{}{Bella,Ava,Chloe,Scott}
+\MLHome{King}{}{}
+\MLHome{Martinus}{}{Cameron,Andrea}
+\MLHome{Nefdt}{}{}
+\MLHome{O'Ryan}{}{Sam ,Ryan }
+\MLHome{Stevens}{}{Tamlyn}
+\MLHome{Weber}{WedPM}{Matthew ,Bevan}
+\MLMeetingH{Tygerdal SunPM;Abrahams, S 17h30 @ Abrahams, S}
+\MLHome{Abrahams}{All mtgs;Elder}{Jude,Jared}
+\MLHome{Abrahams}{}{}
+\MLHome{Camfer}{}{}
+\MLHome{Dammert}{}{}
+\MLHome{Ewertse}{}{}
+\MLHome{Gihwala}{}{}
+\MLHome{Smith}{}{}
+\MLHome{Solomon}{}{Allandore,Cheslin}
+\MLHome{Volkwyn}{}{}
+\MLMeetingH{Westgate S;Solomon, E @ Adonis, Derick}
+\MLHome{Adams}{}{}
+\MLHome{Adams}{}{}
+\MLHome{Adonis}{SunAM,SunPM;Elder}{}
+\MLHome{Burger}{}{}
+\MLHome{Daames}{Takes SundayPM}{Sherné}
+\MLHome{Dagnin}{}{}
+\MLHome{Dzvokora}{}{Tanaka,Tinashe}
+\MLHome{Jaftha}{}{Angelique}
+\MLHome{Jaftha}{}{Patrick,Quinton,Joshua,Qewin}
+\MLHome{O'Ryan}{}{}
+\MLHome{O'Ryan}{SunAM,WedPM;Elder}{}
+\MLHome{Solomon}{}{Eva}
+\MLMeetingH{Wetton S;Duthie, M}
+\MLHome{Dunn}{SunAM,WedPM;Elder}{}
+\MLHome{Duthie}{SunPM}{}
+\MLHome{Franke}{}{Mandi,Elrita}
+\MLHome{Hermans}{WedPM}{}
+\MLHome{Jaftha}{}{Pauline}
+\MLHome{Manuel}{}{}
+\MLHome{Naidoo}{}{}
+\MLHome{Naidoo}{}{}
+\MLHome{Naidoo}{}{}
+\MLHome{Smith}{WedPM}{}
+\MLMeetingH{Bishop Lavis WedAM@10h30;Middleton, T @ Bosch, F}
+\MLHome{Bosch}{All mtgs;Elder}{}
+\MLHome{Grootboom}{}{Alaric,Enslin}
+\MLHome{Grootboom}{}{}
+\MLHome{Lawrence}{}{}
+\MLHome{Le Grange}{Takes Sun pm}{}
+\MLHome{Maxim}{}{}
+\MLHome{Mc Lane}{}{}
+\MLHome{Mc Lane}{}{Jovaunté,Eve}
+\MLHome{Middleton}{Takes Wed AM}{}
+\MLMeetingH{Blackheath W;Solomon, F 19h00 @ Snyder, C}
+\MLHome{Cedras}{SunAM;Elder}{Donay,Micheala}
+\MLHome{Davids}{}{}
+\MLHome{Mannel}{}{Xenethia}
+\MLHome{Okkers}{}{Candice,Aiden,Jadon}
+\MLHome{Samuels}{}{}
+\MLHome{Snyder}{SunPM,WedPM}{}
+\MLHome{Solomon}{}{}
+\MLMeetingH{Fairways W am@10h30;Dunn, C}
+\MLHome{Dunn}{SunAM,WedPM;Elder}{}
+\MLHome{Duthie}{SunPM}{}
+\MLHome{Manuel}{}{}
+\MLHome{Renaud}{}{}
+\MLHome{Sassman}{}{Matthew}
+\MLHome{Vlok}{}{}
+\MLMeetingH{Grassy Park WedAM@10h30;O'Ryan, E}
+\MLHome{Botha}{}{}
+\MLHome{Erasmus}{}{Isabella,Luca}
+\MLHome{O'Ryan}{SunAM,SunPM;Elder}{Jade,Carlynne}
+\MLHome{O'Ryan}{}{}
+\MLHome{O'Ryan}{}{}
+\MLHome{Phaal}{}{Erica}
+\MLMeetingH{Huis Luckhoff W am;Snyder, J}
+\MLHome{Dick}{}{}
+\MLHome{Snyder}{SunAM,WedPM;Elder;Meeting is now in sun room close to Joyce Dick. }{}
+\MLHome{Teixeira}{}{}
+\MLMeetingH{Ottery No.1 W;Hermans, L}
+\MLHome{Dunn}{}{}
+\MLHome{Dyason}{}{}
+\MLHome{Hermans}{WedPM}{}
+\MLHome{Kabamba}{SunAM;Elder}{Annabelle,Adriel}
+\MLHome{Naidoo}{}{}
+\MLHome{Naidoo}{}{}
+\MLHome{Naidoo}{}{}
+\MLHome{Swanepoel}{}{}
+\MLMeetingH{Ottery No.2 W;Dunn, S @ Smith, I}
+\MLHome{Brandt}{}{}
+\MLHome{Dunn}{SunPM}{Sharné,Mikayla}
+\MLHome{Franke}{}{Mandi,Elrita}
+\MLHome{Jaftha}{}{Pauline}
+\MLHome{Martinus}{}{Cameron,Andrea}
+\MLHome{Smith}{WedPM}{}
+\MLHome{Stevens}{}{Tamlyn}
+\MLMeetingH{Penlyn Estate W;Weber, M}
+\MLHome{Cameron}{SunAM,SunPM;Elder}{}
+\MLHome{Jacobs}{}{}
+\MLHome{King}{}{Bella,Ava,Chloe,Scott}
+\MLHome{King}{}{}
+\MLHome{Nefdt}{}{}
+\MLHome{O'Ryan}{}{Sam ,Ryan }
+\MLHome{Weber}{WedPM}{Matthew ,Bevan}
+\MLMeetingH{Pinelands W;van Wyk C @ Reed, P}
+\MLHome{Foye}{}{}
+\MLHome{Green}{}{Terence}
+\MLHome{Legg}{}{}
+\MLHome{Meintjes}{}{}
+\MLHome{Morar}{}{}
+\MLHome{Reed}{}{}
+\MLHome{Reed}{All mtgs;Elder}{Matthew,Caitlyn,Jonathan}
+\MLHome{Ruger}{}{}
+\MLHome{ShungKing}{}{}
+\MLHome{Styan}{}{Alexander,Christopher}
+\MLHome{Van Wyk}{Takes Wed pm}{}
+\MLHome{Williams}{Takes Sun pm}{Lee Anne,Caryn,Jade}
+\MLMeetingH{Plattekloof W;Dyason, S @ Fevrier, J}
+\MLHome{Du Plessis}{SunAM,SunPM;Elder}{}
+\MLHome{Dyason}{Takes WedPM}{}
+\MLHome{Faul}{Takes SunPM alternates with Michael
+}{}
+\MLHome{Faure}{}{}
+\MLHome{Fevrier}{WedPM}{}
+\MLHome{Hall}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Jackson}{}{}
+\MLHome{Jasson}{}{Chasney,Cheilem}
+\MLHome{Monk}{}{Miqael}
+\MLHome{Reed}{Takes SunPM alternates with Arno}{Aidan,Oliver}
+\MLHome{Van Dyk}{}{Wian}
+\MLHome{Van Niekerk}{}{}
+\MLHome{Van Rooijen}{}{Raymond,Gemma,Kayleigh}
+\MLMeetingH{Tygerdal WedPM;19h00 @ Abrahams, S}
+\MLHome{Abrahams}{All mtgs;Elder}{Jude,Jared}
+\MLHome{Abrahams}{}{}
+\MLHome{Camfer}{}{}
+\MLHome{Dammert}{}{}
+\MLHome{Ewertse}{}{}
+\MLHome{Gihwala}{}{}
+\MLHome{Smith}{}{}
+\MLHome{Solomon}{}{Allandore,Cheslin}
+\MLHome{Volkwyn}{}{}
+\MLMeetingH{Westridge W;Daames, S @ O' Ryan, Stanley}
+\MLHome{Adams}{}{}
+\MLHome{Adams}{}{}
+\MLHome{Adonis}{SunAM,SunPM;Elder}{}
+\MLHome{Burger}{}{}
+\MLHome{Daames}{Takes SundayPM}{Sherné}
+\MLHome{Dagnin}{}{}
+\MLHome{Dzvokora}{}{Tanaka,Tinashe}
+\MLHome{Jaftha}{}{Angelique}
+\MLHome{Jaftha}{}{Patrick,Quinton,Joshua,Qewin}
+\MLHome{O'Ryan}{}{}
+\MLHome{O'Ryan}{SunAM,WedPM;Elder}{}
+\MLHome{Solomon}{}{Eva}
+\MLDistrictH{Strand, Hermanus, Paarl, Worcester}
+\MLMeetingH{Hermanus@10:30;Van Wyk, Jim}
+\MLHome{Bezuidenhout}{WedPM}{}
+\MLHome{Ellis}{}{Melanie,Jon}
+\MLHome{Stadler}{}{Nicolene,Jolene}
+\MLHome{Van Wyk}{SunAM,SunPM;Elder}{}
+\MLHome{Willard}{}{}
+\MLMeetingH{Gordons Bay;Wise, J @ Faul, B}
+\MLHome{Basson}{}{}
+\MLHome{Baumann}{WedPM}{}
+\MLHome{Chiwara}{}{}
+\MLHome{Du Toit}{}{}
+\MLHome{Faul}{SunAM}{}
+\MLHome{Hughes}{}{Kyle}
+\MLHome{Lomas}{}{}
+\MLHome{Samuels}{}{}
+\MLHome{Van Niekerk}{}{Caleb,Erin}
+\MLHome{Wise}{Elder}{}
+\MLHome{Wise}{WedPM}{}
+\MLMeetingH{Pearl Valley;Swanepoel, M}
+\MLHome{Du Plessis}{WedPM}{Jenna Lee,Daniel,Michael}
+\MLHome{Hartnick}{}{Marco}
+\MLHome{Jackson}{}{Roula,Lara,StephenJr}
+\MLHome{Oosthuysen}{}{}
+\MLHome{Rothmann}{}{}
+\MLHome{Snyder}{}{Arron}
+\MLHome{Swanepoel}{SunAM,SunPM;Elder}{Michael,Rachel}
+\MLHome{Trench}{}{}
+\MLMeetingH{Somerset West Golden Acre;Marais, J}
+\MLHome{Chauke}{}{}
+\MLHome{Dyason}{}{Jesse}
+\MLHome{Langenegger}{Takes Sun pm}{}
+\MLHome{Marais}{SunAM,SunPM;Elder}{Ayla,Keren}
+\MLHome{Mgamera}{}{}
+\MLHome{Minnaar}{}{}
+\MLHome{Ngamera}{}{}
+\MLHome{Potgieter}{}{}
+\MLHome{Swellah}{}{}
+\MLMeetingH{Somerset West Morningside@10:30;Hickley, A @ Van Niekerk, D}
+\MLHome{Delport}{}{}
+\MLHome{Du Plessis}{}{}
+\MLHome{Faure}{}{}
+\MLHome{Hickley}{WedPM;Elder}{Joshua,Shaylynn}
+\MLHome{Lomas}{Cannot attend meetings}{}
+\MLHome{Opie}{}{}
+\MLHome{Posthumus}{}{Luke,Oliver}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Van der Walt}{}{Tyler,Leila}
+\MLHome{Van Niekerk}{All mtgs}{}
+\MLHome{Willard}{}{}
+\MLHome{Williamson}{}{}
+\MLMeetingH{Worcester;Jacobs, L @ Adonis, A}
+\MLHome{Arendolf}{}{}
+\MLHome{Barnard}{}{Faghan}
+\MLHome{Jacobs}{}{}
+\MLHome{Jacobs}{SunAM,SunPM;Elder}{}
+\MLHome{Jansen}{}{}
+\MLHome{Jansen}{}{Leona}
+\MLHome{January}{WedPM}{NicoJohn,Heinrich,Raydon,Cheslyn}
+\MLHome{Liebenberg}{}{}
+\MLHome{Pieterse}{}{Hayley}
+\MLHome{Robinson}{}{}
+\MLHome{Sauls}{}{Merlize,Keelan}
+\MLHome{Swartbooi}{}{}
+\MLMeetingH{Ceres SunPM@5:00 PM;Barnard, J}
+\MLHome{Barnard}{}{Faghan}
+\MLHome{Jansen}{}{}
+\MLHome{Swartbooi}{}{}
+\MLMeetingH{Gordons Bay S@5:00 PM;Samuels, M}
+\MLHome{Basson}{}{}
+\MLHome{Baumann}{WedPM}{}
+\MLHome{Chiwara}{}{}
+\MLHome{Du Toit}{}{}
+\MLHome{Faul}{SunAM}{}
+\MLHome{Hughes}{}{Kyle}
+\MLHome{Lomas}{}{}
+\MLHome{Samuels}{}{}
+\MLHome{Wise}{Elder}{}
+\MLHome{Wise}{WedPM}{}
+\MLMeetingH{Hermanus SunPM@12:00;Van Wyk, Jim}
+\MLHome{Bezuidenhout}{WedPM}{}
+\MLHome{Ellis}{}{Melanie,Jon}
+\MLHome{Stadler}{}{Nicolene,Jolene}
+\MLHome{Van Wyk}{SunAM,SunPM;Elder}{}
+\MLHome{Willard}{}{}
+\MLMeetingH{Pearl Valley S;Trench, K @ Swanepoel, M}
+\MLHome{Du Plessis}{WedPM}{Jenna Lee,Daniel,Michael}
+\MLHome{Hartnick}{}{Marco}
+\MLHome{Rothmann}{}{}
+\MLHome{Snyder}{}{Arron}
+\MLHome{Swanepoel}{SunAM,SunPM;Elder}{Michael,Rachel}
+\MLHome{Trench}{}{}
+\MLMeetingH{Somerset West Golden Acre S@18:00;Langenegger J @ Marais, J}
+\MLHome{Chauke}{}{}
+\MLHome{Dyason}{}{Jesse}
+\MLHome{Langenegger}{Takes Sun pm}{}
+\MLHome{Marais}{SunAM,SunPM;Elder}{Ayla,Keren}
+\MLHome{Mgamera}{}{}
+\MLHome{Minnaar}{}{}
+\MLHome{Ngamera}{}{}
+\MLHome{Potgieter}{}{}
+\MLHome{Swellah}{}{}
+\MLMeetingH{Somerset West Morningside S@17:30;Hickley, A @ Van Niekerk, D}
+\MLHome{Delport}{}{}
+\MLHome{Du Plessis}{}{}
+\MLHome{Faure}{}{}
+\MLHome{Hickley}{WedPM;Elder}{Joshua,Shaylynn}
+\MLHome{Lomas}{Cannot attend meetings}{}
+\MLHome{Opie}{}{}
+\MLHome{Posthumus}{}{Luke,Oliver}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Van der Walt}{}{Tyler,Leila}
+\MLHome{Van Niekerk}{All mtgs}{}
+\MLHome{Willard}{}{}
+\MLHome{Williamson}{}{}
+\MLMeetingH{Worcester S@5:00 PM;January, H @ Jacobs, L}
+\MLHome{Arendolf}{}{}
+\MLHome{Jacobs}{}{}
+\MLHome{Jacobs}{SunAM,SunPM;Elder}{}
+\MLHome{Jansen}{}{Leona}
+\MLHome{January}{WedPM}{NicoJohn,Heinrich,Raydon,Cheslyn}
+\MLHome{Liebenberg}{}{}
+\MLHome{Pieterse}{}{Hayley}
+\MLHome{Robinson}{}{}
+\MLHome{Sauls}{}{Merlize,Keelan}
+\MLMeetingH{Ceres WedPM@05:30 PM;Barnard, J}
+\MLHome{Barnard}{}{Faghan}
+\MLHome{Jansen}{}{}
+\MLHome{Swartbooi}{}{}
+\MLMeetingH{Gordons Bay W@10:00 AM;Faul, B @ E Baumann}
+\MLHome{Basson}{}{}
+\MLHome{Baumann}{WedPM}{}
+\MLHome{Faul}{SunAM}{}
+\MLHome{Hughes}{}{Kyle}
+\MLHome{Lomas}{}{}
+\MLHome{Wise}{Elder}{}
+\MLMeetingH{Helena Heights WedPM@19:30;Johnathan Wise}
+\MLHome{Chauke}{}{}
+\MLHome{Chiwara}{}{}
+\MLHome{Du Toit}{}{}
+\MLHome{Dyason}{}{Jesse}
+\MLHome{Marais}{SunAM,SunPM;Elder}{Ayla,Keren}
+\MLHome{Mgamera}{}{}
+\MLHome{Ngamera}{}{}
+\MLHome{Samuels}{}{}
+\MLHome{Swellah}{}{}
+\MLHome{Wise}{WedPM}{}
+\MLMeetingH{Hermanus WedPM \#1@18:00;Van Wyk, Jim @ Bezuidenhout, J}
+\MLHome{Bezuidenhout}{WedPM}{}
+\MLHome{Ellis}{}{Melanie,Jon}
+\MLHome{Stadler}{}{Nicolene,Jolene}
+\MLHome{Van Wyk}{SunAM,SunPM;Elder}{}
+\MLMeetingH{Hermanus WedPM \#2@7:30 PM;Strydom, F}
+\MLHome{Willard}{}{}
+\MLMeetingH{Pearl Valley W@0.8125;Du Plessis, M}
+\MLHome{Du Plessis}{WedPM}{Jenna Lee,Daniel,Michael}
+\MLHome{Hartnick}{}{Marco}
+\MLHome{Rothmann}{}{}
+\MLHome{Snyder}{}{Arron}
+\MLHome{Swanepoel}{SunAM,SunPM;Elder}{Michael,Rachel}
+\MLHome{Trench}{}{}
+\MLMeetingH{Somerset West Morningside WedAM@10:00;Delport, D @ Van Niekerk, D}
+\MLHome{Delport}{}{}
+\MLHome{Du Plessis}{}{}
+\MLHome{Opie}{}{}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Van Niekerk}{All mtgs}{}
+\MLMeetingH{Somerset West Morningside WedPM@19:30;Hickley, A}
+\MLHome{Faure}{}{}
+\MLHome{Hickley}{WedPM;Elder}{Joshua,Shaylynn}
+\MLHome{Langenegger}{Takes Sun pm}{}
+\MLHome{Minnaar}{}{}
+\MLHome{Posthumus}{}{Luke,Oliver}
+\MLHome{Potgieter}{}{}
+\MLHome{Van der Walt}{}{Tyler,Leila}
+\MLHome{Willard}{}{}
+\MLHome{Williamson}{}{}
+\MLMeetingH{Worcester W@0.666666666666667;January, H}
+\MLHome{Arendolf}{}{}
+\MLHome{Jacobs}{}{}
+\MLHome{Jacobs}{SunAM,SunPM;Elder}{}
+\MLHome{Jansen}{}{Leona}
+\MLHome{January}{WedPM}{NicoJohn,Heinrich,Raydon,Cheslyn}
+\MLHome{Liebenberg}{}{}
+\MLHome{Pieterse}{}{Hayley}
+\MLHome{Robinson}{}{}
+\MLHome{Sauls}{}{Merlize,Keelan}
+\MLDistrictH{WC Admin}
+\MLMeetingH{WC Contacts}
+\MLHome{Adonis}{}{}
+\MLHome{Anthony}{}{}
+\MLHome{Cameron}{}{}
+\MLHome{Collier}{Cannot get to meetings}{Olivia}
+\MLHome{Dalziel}{}{}
+\MLHome{De Beer}{}{}
+\MLHome{De Klerk}{Visiting 8-2pm Sat/Sun, Booking with phone to be made before planned visit.}{}
+\MLHome{Du Plessis}{}{}
+\MLHome{Dunn}{}{}
+\MLHome{Duthie}{}{}
+\MLHome{Eksteen}{}{}
+\MLHome{Faul}{}{Bréton}
+\MLHome{February}{}{}
+\MLHome{Foye}{}{Richard,Logan,Rhosannah}
+\MLHome{Francis}{}{}
+\MLHome{Frost}{}{Katelyn}
+\MLHome{Geduld}{}{Jeethan,Jeehan}
+\MLHome{Geduld}{}{Xavier,Xayden,Xandria}
+\MLHome{Gihwala}{}{}
+\MLHome{Goss}{}{Zander,Taswill,Jason,Sonia}
+\MLHome{Hall}{}{}
+\MLHome{Hall}{}{Gerhard}
+\MLHome{Harmse}{}{Quinn}
+\MLHome{Hartman}{SunPM}{}
+\MLHome{Havemann}{}{Jenna}
+\MLHome{Howard}{}{}
+\MLHome{Hughes}{}{}
+\MLHome{Jeffries}{}{}
+\MLHome{Ketch}{}{}
+\MLHome{Kotzee}{}{Carlyle,Theagan}
+\MLHome{Leonard}{}{}
+\MLHome{Maasdorp}{}{Chrischar Rock (Daughter)}
+\MLHome{Mc Lane}{don't know where she is}{}
+\MLHome{Michaels}{}{}
+\MLHome{Mouton}{}{}
+\MLHome{Muller}{}{}
+\MLHome{Nefdt}{}{}
+\MLHome{Nortjé}{}{}
+\MLHome{O'Ryan}{}{}
+\MLHome{Phillips}{}{Tarryn}
+\MLHome{Phukuile}{}{}
+\MLHome{Pieterse}{}{Vaughn,Jade,Callum}
+\MLHome{Pogenpoel}{}{Carmen}
+\MLHome{Potgieter}{}{Oswald,Wendy,Andy,Amber,Ashley LeGrange}
+\MLHome{Robijn}{}{}
+\MLHome{Roodt}{}{Mishka}
+\MLHome{Rossouw}{}{}
+\MLHome{Rossouw}{}{}
+\MLHome{Smit}{}{}
+\MLHome{Snyder}{}{Nadia}
+\MLHome{Snyder}{}{}
+\MLHome{Solomon}{}{}
+\MLHome{Solomons}{}{Leah,Erin Leigh,Peyton}
+\MLHome{Swiegelaar}{}{}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Victor}{}{}
+\MLHome{Visagie}{}{}
+\MLHome{Vries}{}{}
+\MLHome{Warner}{}{}
+\MLHome{Warnick}{}{Jodaunté,Jordao,Cattelya}
+\MLHome{Willard}{}{}
+\MLHome{Wise}{}{Leilani,Danny}
+\MLDistrictH{West Coast}
+\MLMeetingH{Eendekuil}
+\MLHome{Cook}{}{Dillan,Cailyn}
+\MLMeetingH{Moorreesburg}
+\MLHome{Beukes}{}{}
+\MLMeetingH{Vredendal}
+\MLHome{April}{}{}
+\MLMeetingH{Williston;Louw, M}
+\MLHome{Louw}{All mtgs}{Marnel,Alet}
+\MLMeetingH{Atlantis;Geduld, F}
+\MLHome{Adams}{SunPM,WedPM}{Leigh Ann,Candice,Brent,Emily}
+\MLHome{Geduld}{All mtgs;Elder}{}
+\MLHome{Minnies}{}{Keenan,Ashwel,Nathan}
+\MLHome{Rezant}{}{}
+\MLHome{Solomons}{}{}
+\MLMeetingH{Graafwater;Turner, B}
+\MLHome{Foster}{SunPM}{}
+\MLHome{Foster}{}{}
+\MLHome{McDougall}{}{Hannah}
+\MLHome{Simons}{}{Conner}
+\MLHome{Turner}{}{}
+\MLHome{Turner}{SunAM}{}
+\MLHome{Turner}{Elder}{Frederick,Benjamin,Amy}
+\MLMeetingH{Langebaan \#1;Hall, B}
+\MLHome{Blom}{WedPM}{}
+\MLHome{Blom}{}{}
+\MLHome{Faul}{}{}
+\MLHome{Hall}{SunAM;Elder}{}
+\MLHome{Roos}{}{Riana,Zandré}
+\MLHome{Van Heerden}{}{}
+\MLMeetingH{Langebaan \#2;Minnie, F}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{}
+\MLHome{Olls}{}{}
+\MLHome{Schooling}{}{}
+\MLHome{Van Wyk}{}{}
+\MLHome{Venter}{}{}
+\MLMeetingH{Lutzville}
+\MLHome{Visagie}{}{}
+\MLMeetingH{Porterville}
+\MLHome{Bester}{}{}
+\MLMeetingH{St Helena Bay;Bodenstein, K @ Du Raan, E}
+\MLHome{Baard}{}{}
+\MLHome{Bal}{SunPM,WedPM}{}
+\MLHome{Du Raan}{SunAM;Elder}{}
+\MLHome{Ewertse}{}{Alistair}
+\MLHome{Günther}{}{Natasja}
+\MLHome{Jeffries}{}{}
+\MLHome{Lehy}{SunPM}{}
+\MLHome{Schooling}{Elder}{Stanford}
+\MLHome{Smith}{}{}
+\MLMeetingH{Lamberts Bay PM}
+\MLHome{Simons}{}{Conner}
+\MLMeetingH{Atlantis S;Geduld, F}
+\MLHome{Geduld}{All mtgs;Elder}{}
+\MLHome{Minnies}{}{Keenan,Ashwel,Nathan}
+\MLHome{Rezant}{}{}
+\MLHome{Solomons}{}{}
+\MLMeetingH{Graafwater S;Foster, Norman @ Foster, M}
+\MLHome{Foster}{SunPM}{}
+\MLHome{Foster}{}{}
+\MLHome{McDougall}{}{Hannah}
+\MLHome{Turner}{}{}
+\MLHome{Turner}{SunAM}{}
+\MLHome{Turner}{Elder}{Frederick,Benjamin,Amy}
+\MLMeetingH{Langebaan S@5:00 PM;Hall, B}
+\MLHome{Blom}{WedPM}{}
+\MLHome{Blom}{}{}
+\MLHome{Faul}{}{}
+\MLHome{Hall}{SunAM;Elder}{}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{}
+\MLHome{Olls}{}{}
+\MLHome{Roos}{}{Riana,Zandré}
+\MLHome{Schooling}{}{}
+\MLHome{Van Heerden}{}{}
+\MLHome{Van Wyk}{}{}
+\MLMeetingH{Malmesbury S@18:30;Oosthuizen, Johan}
+\MLHome{Adams}{SunPM,WedPM}{Leigh Ann,Candice,Brent,Emily}
+\MLHome{Oosthuysen}{}{}
+\MLMeetingH{St Helena Bay S@5:00 PM;Lehy, B}
+\MLHome{Du Raan}{SunAM;Elder}{}
+\MLHome{Ewertse}{}{Alistair}
+\MLHome{Jeffries}{}{}
+\MLHome{Lehy}{SunPM}{}
+\MLHome{Smith}{}{}
+\MLMeetingH{Vredenburg S@17h00;Günther, W @ Bal, L}
+\MLHome{Baard}{}{}
+\MLHome{Bal}{SunPM,WedPM}{}
+\MLHome{Günther}{}{Natasja}
+\MLMeetingH{Atlantis W@10h30;Geduld, F @ Minnies, A}
+\MLHome{Geduld}{All mtgs;Elder}{}
+\MLHome{Minnies}{}{Keenan,Ashwel,Nathan}
+\MLHome{Rezant}{}{}
+\MLHome{Solomons}{}{}
+\MLMeetingH{Graafwater W@19h30;Blom, T}
+\MLHome{Foster}{SunPM}{}
+\MLHome{McDougall}{}{Hannah}
+\MLHome{Turner}{}{}
+\MLHome{Turner}{SunAM}{}
+\MLHome{Turner}{Elder}{Frederick,Benjamin,Amy}
+\MLMeetingH{Laingville W@19h00;Du Raan, N @ De Windt, L}
+\MLHome{Lehy}{SunPM}{}
+\MLMeetingH{Langebaan W@7:00 PM;Blom, A}
+\MLHome{Blom}{WedPM}{}
+\MLHome{Blom}{}{}
+\MLHome{Faul}{}{}
+\MLHome{Hall}{SunAM;Elder}{}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{}
+\MLHome{Olls}{}{}
+\MLHome{Roos}{}{Riana,Zandré}
+\MLHome{Schooling}{}{}
+\MLHome{Van Heerden}{}{}
+\MLHome{Van Wyk}{}{}
+\MLMeetingH{Malmesbury W@19:00;Adams, M}
+\MLHome{Adams}{SunPM,WedPM}{Leigh Ann,Candice,Brent,Emily}
+\MLHome{Oosthuysen}{}{}
+\MLMeetingH{Vredenburg W@19h30;Günther, W @ Bal, L}
+\MLHome{Baard}{}{}
+\MLHome{Bal}{SunPM,WedPM}{}
+\MLHome{Günther}{}{Natasja}
+\MLMeetingH{St Helena Bay W}
+\end{document}
