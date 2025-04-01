@@ -1,0 +1,14 @@
+\documentclass[english]{article}
+\title{Send books function - (Marius)}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\EndHomes
+\EndSection
+\MLDistrictH{}
+\MLMeetingH{}
+\end{document}
