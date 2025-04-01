@@ -48,21 +48,21 @@ jobs:
             #mv output/"$base_name.pdf" output/"$base_name - View.pdf"
           done  
 
-      - name: Auto Commit PDFs
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Compiled LaTeX files with View and Print versions"
-          push_options: '--force'
-          file_pattern: 'output/*.pdf'
+    #  - name: Auto Commit PDFs
+    #     uses: stefanzweifel/git-auto-commit-action@v4
+    #    with:
+    #      commit_message: "Compiled LaTeX files with View and Print versions"
+    #      push_options: '--force'
+    #      file_pattern: 'output/*.pdf'
 
           
 
-      - name: Generate Booklet PDFs
-        run: |
-          for pdf in output/*- View.pdf; do
-            base_name=$(basename "$pdf" " - View.pdf")
-            pdfjam --booklet true --landscape --paper a4paper "$pdf" --outfile "output/${base_name} - Print.pdf"
-          done  
+     # - name: Generate Booklet PDFs
+     #   run: |
+     #     for pdf in output/*- View.pdf; do
+     #       base_name=$(basename "$pdf" " - View.pdf")
+     #       pdfjam --booklet true --landscape --paper a4paper "$pdf" --outfile "output/${base_name} - Print.pdf"
+     #     done  
 
       - name: Delete Temporary LaTeX Files
         run: rm -f output/*.{aux,log,lof,lot,toc,bbl,blg,out,synctex.gz,fdb_latexmk,fls,bcf,run.xml}
