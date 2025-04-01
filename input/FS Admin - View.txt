@@ -1,0 +1,65 @@
+\documentclass[english]{article}
+\title{FS Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Adamson}{FS Contacts}{Adrianna 29 Madeliefie lane, Kimberley, 8301}{053 874 2327}
+\Home{Beukman}{FS Contacts}{ 2 Olifants weg, Virginia, 9430; beukmancj@gmail.com}{060 620 7392\\072 147 2489}
+\Home{Botha}{FS Contacts}{ 79 Peter Ewertse Rd, Ashbury, Bloemfontein, 9323, South Africa; Anthony Hodgkinson sent message 17 Feb}{}
+\Home{Brown}{FS Contacts}{ 8 Murray str, Bethulie, 9992}{079 430 9059(M)\\ 079 302 8663(N)}
+\Home{Dunn}{FS Contacts}{ 67 Brand Street, Ficksburg, 9730}{072 220 5847}
+\Home{Fraser}{FS Contacts}{ 17 Aquila Rd, De Aar 7000}{082 613 2513}
+\Home{Fraser}{FS Contacts}{ King Edward Weg.Mannheim Dames. 10 Vygie str, New Bright, De Aar, 7000}{074 884 4516}
+\Home{Greeff}{FS Contacts}{ (Student Accommodation) 58 Arndt St, Universitas, Bloemfontein, 9301}{082 876 5807}
+\Home{Herion}{FS Contacts}{ 2 Tarragona, Dolf van Niekerk Street, Langenhoven Park, Bloemfontein}{082 584 7330(C)}
+\Home{Janse van Vuuren}{FS Contacts}{ Ridgewood Nr 1, Blinkblaar rd, Woodland Hills Estate, Bloemfontein, 9301; annelie.vanvuuren@gmail.com, vanvuurenwors@gmail.com}{074 227 7462}
+\Home{Johnson}{FS Contacts}{Meah,Mcneill 10 Mossies st, Residencia, De Aar, 7000; Christine Skibbe sent message 6 Feb}{060 634 4616(M)}
+\Home{Langenhoven}{FS Contacts}{ 28 Krygs way, Fleurdal, Bloemfontein, 9301; Anthony Hodgkinson sent message 17 Feb; louisanru@gmail.com}{076 161 6167(R)}
+\Home{Liebenberg}{FS Contacts}{ Bella Rio ouetehuis, Louisvale}{}
+\Home{Mackay}{FS Contacts}{ c/o Margaret Mackay,874 Aandblom Street, Barkley West}{079 211 4420}
+\Home{Malgas}{FS Contacts}{ 64 Wynand Mouton Drive, Universitas; deo21malgas@gmail.com}{074 282 7745}
+\Home{Mannel}{FS Contacts}{ moved to De Aar}{}
+\Home{Matthews}{FS Contacts}{ 196 Raymond Mhlaba rd, Noordhoek, Bloemfontein}{083 666 1412}
+\Home{Mokhosi}{FS Contacts}{ House 3595, Moemaneng, Marquard 9610; fusim2@sparta.c.za}{074 380 3994}
+\Home{Ndlela}{FS Contacts}{ Has moved to Knysna}{+27 60 428 5909}
+\Home{O'Brien}{FS Contacts}{ 29 Leeubekkie rd, Heidedal, Bloemfontein, 9306; Anthony Hodgkinson sent message 17 Feb; joseh.obrien@gmail.com}{079 120 5178(JY)}
+\Home{Oosthuizen}{FS Contacts}{ 5 Mont Aux Sources rd, Carters Glen, Kimberley, 8301}{079 459 7504}
+\Home{Topkin}{FS Contacts}{ 104 Houmoed rd, Oppermans}{082 071 7166\\072 236 4738}
+\Home{Van Der Merwe}{FS Contacts}{ Reitz}{076 472 0666(P)\\084 512 0656(E)}
+\Home{Van Zuydam}{FS Contacts}{ Morning Glory farm, near Bethlehem; (28o15’41.3”S; 28o09’45.7”E) }{076 531 3113(B)}
+\Home{Visagie}{FS Contacts}{Riaan 13 Iris way, Odendaalsrus, 9480; elistinav@gmail.com}{057 398 1957H\\062 712 5817(E)}
+\Home{Young}{FS Contacts}{ contact Robbie Young or Eddie W}{}\EndHomes
+\EndSection
+\MLDistrictH{FS Admin}
+\MLMeetingH{FS Contacts}
+\MLHome{Adamson}{}{Adrianna}
+\MLHome{Beukman}{}{}
+\MLHome{Botha}{}{}
+\MLHome{Brown}{}{}
+\MLHome{Dunn}{}{}
+\MLHome{Fraser}{}{}
+\MLHome{Fraser}{}{}
+\MLHome{Greeff}{}{}
+\MLHome{Herion}{}{}
+\MLHome{Janse van Vuuren}{}{}
+\MLHome{Johnson}{}{Meah,Mcneill}
+\MLHome{Langenhoven}{WedPM}{}
+\MLHome{Liebenberg}{}{}
+\MLHome{Mackay}{}{}
+\MLHome{Malgas}{}{}
+\MLHome{Mannel}{removed from Sarah Mannel's home}{}
+\MLHome{Matthews}{}{}
+\MLHome{Mokhosi}{}{}
+\MLHome{Ndlela}{}{}
+\MLHome{O'Brien}{}{}
+\MLHome{Oosthuizen}{}{}
+\MLHome{Topkin}{}{}
+\MLHome{Van Der Merwe}{}{}
+\MLHome{Van Zuydam}{}{}
+\MLHome{Visagie}{}{Riaan}
+\MLHome{Young}{}{}
+\end{document}
