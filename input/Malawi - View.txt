@@ -1,0 +1,33 @@
+\documentclass[english]{article}
+\title{Malawi}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bonya}{Malawi Contacts}{Shadreck,Lyton’s,Irene,Kingsley,Parkstone Kabekele Scottish CDSS, P Bag 10 Ntcheu}{+265999620219(P)}
+\Home{Chicafa}{Malawi Contacts}{Chrispen,Mayamiko Hola Village, Ntcheu}{}
+\Home{Chicafa}{Ntcheu}{Frances,Pilani,Doreen,Malicelo,Anes,Christina,Ester,Alfred Hola Village, Ntcheu; chicafastivin@gmail.com(S) , francis.chicafa@gmail.com(F) ; (-14.95169,34.59024) }{+27 63 569 6148(S)\\+265889748022(J)\\+265999179554(S)\\+258855174831(S)\\+27672815361(S) }
+\Home{Gondwe}{Malawi Contacts}{ Malawi}{+265 99 530 2726}
+\Home{Kathanda }{Malawi Contacts}{Tionge Malawi, Ntcheu.; (-14.8030710, 34.6236940) }{+265 99 377 1540(D)}
+\Home{Konola }{Malawi Contacts}{ Malawi, Lilongwe}{+265 99 545 3510(P)}
+\Home{Konola}{Malawi Contacts}{ Malawi, Ntcheu Batch; (-14.7998560, 34.6230610) }{+265 99 518 8844(T)\\+265 88 138 8264(T)}
+\Home{Msindo}{Malawi Contacts}{Tadiwa stand ND40 Magalasi, Nyambadwe. Blantyre; Box 30780 Chichiri, Blantyre; msindophil@africa-online.net; (-15.7557170, 35.0250813) }{+265999928649(P)\\+265881094474(P)\\+265 99 992 1716(V)}
+\Home{Muvindi}{Malawi Contacts}{ Blantyre, Malawi}{+265996268892(E)\\+263775044670(E)}\EndHomes
+\EndSection
+\MLDistrictH{Malawi}
+\MLMeetingH{Malawi Contacts}
+\MLHome{Bonya}{}{Shadreck,Lyton’s,Irene,Kingsley,Parkstone}
+\MLHome{Chicafa}{}{Chrispen,Mayamiko}
+\MLHome{Gondwe}{}{}
+\MLHome{Kathanda }{}{Tionge}
+\MLHome{Konola}{}{}
+\MLHome{Konola }{}{}
+\MLHome{Msindo}{}{Tadiwa}
+\MLHome{Muvindi}{}{}
+\MLMeetingH{Ntcheu}
+\MLHome{Chicafa}{in South Africa }{Frances,Pilani,Doreen,Malicelo,Anes,Christina,Ester,Alfred
+}
+\end{document}
