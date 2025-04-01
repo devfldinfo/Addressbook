@@ -1,0 +1,281 @@
+\documentclass[english]{article}
+\title{East Rand to Heidelberg}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Abrahams}{Sunnyridge}{Dex Unit 4, Eagles Nest complex, Begonia Road, Primrose Hill; P.O. Box 41327, Richards Bay, 3900}{072 736 7501(G)\\+27767441610(D)}
+\Home{Arries}{Impala Park}{Arnold(AJ),Aiden,Cherelee 983 Butch Jantjies Rd, Reiger Park, Boksburg, 1459; P.O. Box 5059, Boksburg, 1460}{065 534 7627(A)\\061 294 1192(C)}
+\Home{Bibbey}{Benoni West}{Danicke,James,Brandon 97 Cambridge St, Farrarmere, Benoni; P.O. Box 15208, Farrarmere, 1518; nanette.bibbey@gmail. com}{083 357 8830(M)\\071 860 9560(N)}
+\Home{Caixeiro}{Rynfield}{ 12 Felicia Street, Northvilla; nitrocivils@mweb.co.za}{083 232 3674}
+\Home{Charli}{Impala Park}{Zinhle 2259 Masinyane Str, Tsakane, Brakpan}{0795604384(Z)\\0810423134(El)}
+\Home{Clarke}{Rynfield}{ 4 Geranium, Retirement Estate 1, Cnr Pretoria road/Parker St, Rynfield 1514}{011 747 7221\\078 872 1757}
+\Home{Cloete}{Sunnyridge}{ 7 Milton Rise, Sovereign Street, Bedfordview; lcloete@pm.me}{082 404 8642}
+\Home{Coetzee}{Farrarmere}{ 6 Vygie St, Northmead X4, Benoni, 1501; P.O. Box 12179, Benoryn, 1504; eileenmarg001@gmail.com}{011 849 7269\\083 235 0997}
+\Home{Coetzee}{Impala Park}{ 247 Prince George Park, Dumane Rd, Parkdene, Boksburg.}{084 514 5027(Li)}
+\Home{De Beer}{Benoni West}{ C307 Deneys Conradie Residentia, 2 Railway Ave, Benoni 1500}{082 646 1599}
+\Home{De Bruyn}{Impala Park}{ Moved to East Rand}{083 280 7991}
+\Home{De Bruyn}{Impala Park}{Kayleb,Kayden Lee Moved to East Rand; AlroyBrood@gmail.com}{083 280 7993(A)\\082 733 7025(L)}
+\Home{Dunn}{Rynfield}{Jaydan 11 Clarke Street, Rynfield, Benoni; dunnjr50@gmail.com(J) }{083 276 4960(J)\\083 415 9646(A)}
+\Home{Frost}{Sunnyridge}{ K16 Oranje Hof, Ascolona Street, Pomona AH; fpbfrost@gmail.com}{011 979 7342\\082 446 5299(B)\\083 607 6634(F)}
+\Home{Gilfillan}{Impala Park}{ 12 Cragg St, Rynfield, Benoni, 1514, South Africa; barryg22@gmail.com}{083 555 9382}
+\Home{Gilfillan}{Impala Park}{ 16 Buffalo Road, Impala Park, Boksburg,1459; Gilfillan.alec@gmail.com(A) , mozzie884@gmail.com(M) }{011 894 3040\\083 276 7805(A)\\084 610 4088(M)}
+\Home{Hickley}{Impala Park}{Kevin,Ryan,Emma 9 Tassenberg Rd, Alphen Park, Benoni; Private Bag X3, Unit 79, Bonaero Park, 1622; rhickley@eject.co.za}{011 918 6808\\011 713 6600 W(R)\\083 276 5949(R)\\082 458 2840(L)}
+\Home{Hofmann}{Springs}{JW,Günther 42 Sackville Road, Casseldale, Springs}{073 839 2166(D)}
+\Home{Holtzhausen}{Van Riebeeck Park}{ 8 Voorbrand Ave, Allen Grove Ext 2, Kempton Park.; jimholtzhausen@gmail.com(J) , holtzhausenlauren@gmail.com(L) }{0834629771(J)\\0791625240(L)}
+\Home{Humphries}{Kempton Park}{ 13 Peter Binikos St, Norkem Park, Kempton Park; letitia.humphries@absamail.co.za(L) }{083 631 3037(D)\\082 866 9038(L)}
+\Home{Hutchinson}{Springs}{ 26 Tyrell Cresent, Selection Park, Springs}{079 684 7503}
+\Home{Höll}{Heidelberg}{Riëtte (Daughter in law) 2 Freeman St, Industrial, Suikerbosrand Aftreeoord, Room 17; Post box 429, Heidelberg, Gauteng}{079 456 9129(S)\\082 325 2419(R)}
+\Home{Jacobs}{Kempton Park}{Lisa C/o Pierre Kruger, Plot 93, Main Rd, Bapsfontein}{081 433 9354}
+\Home{James}{Sunnyridge}{ 43 Beacon Road, Lambton, Germiston}{071 621 4849\\082 428 2103}
+\Home{Jordaan}{Sunnyridge}{ 13 Watkins str, Witfield, Boksburg}{079 598 2583}
+\Home{Kotzé}{Van Riebeeck Park}{ 29 Edenvillage, 6 Soutspan Ave, Eden Glen, Edenvale 1610; bonitamann0111@gmail.com; (-28.390253,26.007463) }{}
+\Home{Kruger}{Kempton Park}{ Plot 93, Main Rd, Bapsfontein; P.O. Box 358, Bapsfontein, 1510; pkruger57@gmail.com(P) , ednakru@gmail.com(E) ; (-26.0073810, 28.4302320) }{083 630 1972(P)\\072 888 9757(E)}
+\Home{Kruger}{Rynfield}{ 6 Oboe St, Rynfield, Benoni, 1501; adri.frans00@gmail.com}{011 968 2132\\082 335 8098}
+\Home{Labuschagne}{Van Riebeeck Park}{ 5 Villa Carmen, Singel Street, Edleen; PO Box 363 Modderfontein, 1645; alma@softwareshack.co.za}{083 321 1308}
+\Home{Labuschagne}{Van Riebeeck Park}{ 8 Thirlemere Avenue, Lakeside Village, Modderfontein, 1609; P O Box 363, Modderfontein, 1645; ashley@softwareshack.co.za}{011 608 1165 W\\082 331 5248}
+\Home{Mann}{Farrarmere}{ 17 Whitehouse Ave, Farrarmere, Benoni, 1501; alicemnn@gmail.com}{083 407 8753(A)}
+\Home{Mann}{Farrarmere}{Jèan 6 Vygie St, Northmead X4, Benoni, 1501; alanmann001@gmail.com}{083 560 8443(A)}
+\Home{Mann}{Rynfield}{Jèan 43 Vlei Loerie, 61 Vlei road, Rynfield; PO Box 8473, Bonaero Park, 1622}{083 258 5491}
+\Home{Mathews}{Kempton Park}{ 35 Kafue Estate, 7th Ave, Glen Marais Ext 23; deliamathews@ymail.com; (-24.508883,28.718883) }{083 326 0977}
+\Home{Mathews}{Kempton Park}{ 35 Kafue Estate, 7th Ave, Glen Marais Ext 23}{083 551 4033}
+\Home{Mathews}{Kempton Park}{Viveka Jade 30 Tsesebe st, Nimrod Park, Kempton Park; judytoni.mathews@gmail.com(J) , hendy.boran@gmail.com(H) }{083 326 2080(H)\\083 666 6912(J)}
+\Home{Matsane}{Rynfield}{Bongiwe 6521 Sandgrouse Street, Vlakfontein, Benoni 1501; david.matsane@gmail.com(D) }{083 538 2244(M)\\078 334 8692(D)}
+\Home{Meerholz}{Benoni West}{ Room A4, Old People's Home, 111 Howard Avenue, Benoni}{011 892 5670\\078 865 4905}
+\Home{Muvindi}{Kempton Park}{ 4884 Umvumvu St, Birch Acres, Ext 32; paradzaimuvindi@gmail.com}{069 755 1019(P)\\0634272254(R)}
+\Home{Naude}{Springs}{ Balfour/Standerton rd. 25 kms from Standerton. See GPS; (-26.8925595, 29.0064108) }{0733967795(ST)}
+\Home{Niemand}{Benoni West}{ 4 Jade St, Farrarmere, Benoni, 1501; P.O. Box 15208, Farrarmere, 1518}{011 849 6426H\\084 600 7530(N)}
+\Home{Niemand}{Rynfield}{Shi nique,Cherise,Lukah 6 Oboe st. Rynfield, Benoni. 1501; eloise.sc3@gmail.com(E) }{076 758 0878(E)}
+\Home{Petkoon}{Rynfield}{ 12 Felicia Street, Northvilla; lpprojects@mweb.co.za}{083 277 0106}
+\Home{Robijn}{Farrarmere}{ 7 Marks Ave, Farrar Park, Boksburg,1459 (Works in Lephalale but every 2nd Sunday in Boksburg)}{}
+\Home{Robijn}{Farrarmere}{ 7 Marks Ave, Farrar Park, Boksburg,1459; P.O. Box 18823, Sunward Park, 1470; tarobijn@gmail.com}{083 309 3377}
+\Home{Robinson}{Sunnyridge}{ 5 Gemsbok Place, Sunnyridge, Germiston; Box 3187, Symridge 1420; hiltonr@healthbreak.co.za(H) , robinsonvolume@gmail.com(J) }{083 399 6509(H)\\083 254 3796(J)}
+\Home{Roux}{Benoni West}{ 5 Darwin St, Benoni West, 1501; P.O. Box 17004, Benoni West, 1503; skorras@fnb.co.za}{0798639350\\066 258 6700\\011 421 7606H/F}
+\Home{Roux}{Benoni West}{ Pebble Bridge Old Age Home, Short Rd, Brakpan}{082 377 5396}
+\Home{Schultz}{Van Riebeeck Park}{Abigail 47 Epic Avenue, Chloorkop; P.O. Box 12107, Chloorkop, 1624; (-26.0720391, 28.1941239) }{073 934 0718(W)\\078 007 0026(A)}
+\Home{Shamrock}{Benoni West}{ 73 Calvinia Rd, Brentwood Park, Benoni, 1505}{082 320 8569(B)\\066 346 7590(D)}
+\Home{Sookdar}{Sunnyridge}{ 84 Seventeenth Ave. Edenvale, 1609; vsookdar@pharmaq.co.za}{082 444 1666}
+\Home{Strauss}{Benoni West}{ 11 Libra Lodge, 6 Pluto Street, Benoni; stanliz@telkomsa.net}{082 468 8242(S)\\083 441 1182(L)}
+\Home{Swanepoel}{Farrarmere}{ 26 Windermere Drive, Benoni, 1510}{081 789 4884}
+\Home{Van Wyk}{Springs}{ 26 Heidelberg Vaaldam Pad, Heidelberg}{+27 78 439 5310}
+\Home{Van der Merwe}{Rynfield}{ 205 Lessing Street, Rynfield, Benoni}{083 235 6784}
+\Home{Van der Merwe}{Rynfield}{ 7 Jacaranda str, Northmead ext 4, Benoni, 1501; heckeradmin@mweb.co.za}{083 231 0110\\011 894 3643 W}
+\Home{Van der Vyver}{Kempton Park}{ 16 Seder Ave, Birchleigh, Kempton Park}{082 363 4616(A)}
+\Home{Venter}{Farrarmere}{Arno,Alanicia,Ziané,Brandon 17 Whitehouse Ave, Farrarmere, Benoni, 1501; jannesventer1@gmail.com(J) , eloise\_venter@yahoo.com(E) }{082 564 1148(J)\\083 419 9854(E)}
+\Home{Vercueil}{Van Riebeeck Park}{Anwazelle 25A Rustig Ave, Van Riebeeck Park, Kempton Park; bjv\_bj@yahoo.com(Ben) , berthavercueil@gmail.com(Ber) }{076 132 2781(Ben)\\074 600 2143(Ber)}
+\Home{Vermaak}{Kempton Park}{ c/o Plot 93, Main Rd, Bapsfontein; roy.vermaak@gmail.com}{082 805 4501(R)}
+\Home{Viljoen}{Springs}{Yvette 42 Sackville Road, Casseldale, Springs; yviljoen1933@gmail.com(Y) }{083 747 0382(D)\\079 995 8564(Y)}
+\Home{Wattrus}{Van Riebeeck Park}{ 427 Bedford, 1 Kirkby road, Bedfordview, 2007; desireewattrus@gmail.com}{083 651 9741}
+\Home{Webb}{Springs}{ c/o 42 Sackville Road, Casseldale, Springs}{084 582 0488}
+\Home{Williamson}{Rynfield}{ 38 Brookfields Apartments, 6 Vlei Rd, Fairleads, Benoni, 2008; esw100745@gmail.com}{060 504 7427(E)\\072 449 8163(M)}
+\Home{Williams}{Rynfield}{ 349 Wild Peach Drive, Eastlands Mature Lifestyle Centre, Eastlands Drive, Bredell; P.O. Box 12319, Benoryn, 1504; daniellwilliams1940@gmail.com}{084 514 5953}
+\Home{Wright}{Van Riebeeck Park}{Katherine,Alexis,Madison 8 Voorbrand Ave, Allen Grove Ext 2, Kempton Park.; Box 2805, Faerie Glen, 0043; timothy771@gmail.com(T) , sarahwright771@gmail.com(S) }{+27615054102(S)}\EndHomes
+\EndSection
+\MLDistrictH{East Rand to Heidelberg}
+\MLMeetingH{Benoni West;I Roux}
+\MLHome{Bibbey}{}{Danicke,James,Brandon}
+\MLHome{De Beer}{}{}
+\MLHome{Meerholz}{}{}
+\MLHome{Niemand}{}{}
+\MLHome{Roux}{}{}
+\MLHome{Roux}{All mtgs}{}
+\MLHome{Shamrock}{}{}
+\MLHome{Strauss}{Elder}{}
+\MLMeetingH{Farrarmere}
+\MLHome{Coetzee}{}{}
+\MLHome{Mann}{SunPM,WedPM}{Jèan}
+\MLHome{Mann}{}{}
+\MLHome{Robijn}{}{}
+\MLHome{Robijn}{SunPM,WedPM}{}
+\MLHome{Swanepoel}{}{}
+\MLHome{Venter}{SunAM;Elder}{Arno,Alanicia,Ziané,Brandon}
+\MLMeetingH{Heidelberg}
+\MLHome{Höll}{}{Riëtte (Daughter in law)}
+\MLMeetingH{Impala Park}
+\MLHome{Arries}{}{Arnold(AJ),Aiden,Cherelee}
+\MLHome{Charli}{}{Zinhle}
+\MLHome{Coetzee}{}{}
+\MLHome{De Bruyn}{}{Kayleb,Kayden Lee}
+\MLHome{De Bruyn}{}{}
+\MLHome{Gilfillan}{SunAM,SunPM;Elder}{}
+\MLHome{Gilfillan}{Takes SunPM mtg}{}
+\MLHome{Hickley}{WedPM}{Kevin,Ryan,Emma}
+\MLMeetingH{Kempton Park}
+\MLHome{Humphries}{SunAM;Elder}{}
+\MLHome{Jacobs}{}{Lisa}
+\MLHome{Kruger}{}{}
+\MLHome{Mathews}{}{}
+\MLHome{Mathews}{}{}
+\MLHome{Mathews}{SunPM,WedPM}{Viveka Jade}
+\MLHome{Muvindi}{SunPM}{}
+\MLHome{Van der Vyver}{}{}
+\MLHome{Vermaak}{}{}
+\MLMeetingH{Rynfield;Dunn, J}
+\MLHome{Caixeiro}{}{}
+\MLHome{Clarke}{}{}
+\MLHome{Dunn}{All mtgs;Elder}{Jaydan}
+\MLHome{Kruger}{WedPM}{}
+\MLHome{Mann}{}{Jèan}
+\MLHome{Matsane}{}{Bongiwe}
+\MLHome{Niemand}{}{Shi nique,Cherise,Lukah}
+\MLHome{Petkoon}{}{}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Williams}{}{}
+\MLHome{Williamson}{}{}
+\MLMeetingH{Springs}
+\MLHome{Hofmann}{}{JW,Günther}
+\MLHome{Hutchinson}{}{}
+\MLHome{Naude}{}{}
+\MLHome{Van Wyk}{}{}
+\MLHome{Viljoen}{SunAM,SunPM;Every 1st Sunday of the month to Rynfield}{Yvette}
+\MLHome{Webb}{Every 1st Sunday of the month to Rynfield}{}
+\MLMeetingH{Sunnyridge}
+\MLHome{Abrahams}{}{Dex}
+\MLHome{Cloete}{Takes WedPM}{}
+\MLHome{Frost}{}{}
+\MLHome{James}{}{}
+\MLHome{Jordaan}{}{}
+\MLHome{Robinson}{All mtgs;Elder}{}
+\MLHome{Sookdar}{}{}
+\MLMeetingH{Van Riebeeck Park;B Vercueil}
+\MLHome{Holtzhausen}{Elder}{}
+\MLHome{Kotzé}{}{}
+\MLHome{Labuschagne}{}{}
+\MLHome{Labuschagne}{Takes WedPM}{}
+\MLHome{Schultz}{WedPM}{Abigail}
+\MLHome{Vercueil}{SunAM,SunPM}{Anwazelle}
+\MLHome{Wattrus}{}{}
+\MLHome{Wright}{}{Katherine,Alexis,Madison}
+\MLMeetingH{Benoni West SunPM;I Roux}
+\MLHome{Bibbey}{}{Danicke,James,Brandon}
+\MLHome{Coetzee}{}{}
+\MLHome{De Beer}{}{}
+\MLHome{Mann}{SunPM,WedPM}{Jèan}
+\MLHome{Mann}{}{}
+\MLHome{Meerholz}{}{}
+\MLHome{Niemand}{}{}
+\MLHome{Roux}{}{}
+\MLHome{Roux}{All mtgs}{}
+\MLHome{Shamrock}{}{}
+\MLHome{Strauss}{Elder}{}
+\MLHome{Swanepoel}{}{}
+\MLMeetingH{Birch Acres SunPM;Muvindi, P}
+\MLHome{Humphries}{SunAM;Elder}{}
+\MLHome{Muvindi}{SunPM}{}
+\MLMeetingH{Farrarmere SunPM;Robijn, T}
+\MLHome{Arries}{}{Arnold(AJ),Aiden,Cherelee}
+\MLHome{Coetzee}{}{}
+\MLHome{Robijn}{SunPM,WedPM}{}
+\MLHome{Venter}{SunAM;Elder}{Arno,Alanicia,Ziané,Brandon}
+\MLMeetingH{Impala Park SunPM;Gilfillan, A}
+\MLHome{De Bruyn}{}{Kayleb,Kayden Lee}
+\MLHome{De Bruyn}{}{}
+\MLHome{Gilfillan}{SunAM,SunPM;Elder}{}
+\MLHome{Gilfillan}{Takes SunPM mtg}{}
+\MLHome{Hickley}{WedPM}{Kevin,Ryan,Emma}
+\MLMeetingH{Nimrod Park SunPM;Matthews, H}
+\MLHome{Jacobs}{}{Lisa}
+\MLHome{Kruger}{}{}
+\MLHome{Mathews}{}{}
+\MLHome{Mathews}{}{}
+\MLHome{Mathews}{SunPM,WedPM}{Viveka Jade}
+\MLHome{Van der Vyver}{}{}
+\MLHome{Vermaak}{}{}
+\MLMeetingH{Rynfield SunPM;Petkoon @ Dunn, J}
+\MLHome{Caixeiro}{}{}
+\MLHome{Clarke}{}{}
+\MLHome{Dunn}{All mtgs;Elder}{Jaydan}
+\MLHome{Kruger}{WedPM}{}
+\MLHome{Mann}{}{Jèan}
+\MLHome{Matsane}{}{Bongiwe}
+\MLHome{Niemand}{}{Shi nique,Cherise,Lukah}
+\MLHome{Petkoon}{}{}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Williams}{}{}
+\MLHome{Williamson}{}{}
+\MLMeetingH{Springs SunPM;Viljoen, D}
+\MLHome{Viljoen}{SunAM,SunPM;Every 1st Sunday of the month to Rynfield}{Yvette}
+\MLHome{Webb}{Every 1st Sunday of the month to Rynfield}{}
+\MLMeetingH{Sunnyridge SunPM;Faul, A @ Robinson, H}
+\MLHome{Abrahams}{}{Dex}
+\MLHome{Cloete}{Takes WedPM}{}
+\MLHome{Jordaan}{}{}
+\MLHome{Kotzé}{}{}
+\MLHome{Robinson}{All mtgs;Elder}{}
+\MLHome{Wattrus}{}{}
+\MLMeetingH{Van Riebeeck Park SunPM;B Vercueil}
+\MLHome{Holtzhausen}{Elder}{}
+\MLHome{Labuschagne}{}{}
+\MLHome{Labuschagne}{Takes WedPM}{}
+\MLHome{Schultz}{WedPM}{Abigail}
+\MLHome{Vercueil}{SunAM,SunPM}{Anwazelle}
+\MLHome{Wright}{}{Katherine,Alexis,Madison}
+\MLMeetingH{Benoni West WedPM@16h00;P de Beer @ I Roux}
+\MLHome{Bibbey}{}{Danicke,James,Brandon}
+\MLHome{De Beer}{}{}
+\MLHome{Meerholz}{}{}
+\MLHome{Niemand}{}{}
+\MLHome{Roux}{}{}
+\MLHome{Roux}{All mtgs}{}
+\MLHome{Shamrock}{}{}
+\MLHome{Strauss}{Elder}{}
+\MLMeetingH{Farrar Park WedPM@18h00;Robijn, T}
+\MLHome{Arries}{}{Arnold(AJ),Aiden,Cherelee}
+\MLHome{Coetzee}{}{}
+\MLHome{Robijn}{SunPM,WedPM}{}
+\MLMeetingH{Farrarmere WedPM@19h30;Allan Mann}
+\MLHome{Coetzee}{}{}
+\MLHome{Dunn}{All mtgs;Elder}{Jaydan}
+\MLHome{Mann}{SunPM,WedPM}{Jèan}
+\MLHome{Mann}{}{}
+\MLHome{Swanepoel}{}{}
+\MLHome{Van der Merwe}{}{}
+\MLHome{Venter}{SunAM;Elder}{Arno,Alanicia,Ziané,Brandon}
+\MLMeetingH{Impala Park WedPM@19h30;Hickley, R}
+\MLHome{Caixeiro}{}{}
+\MLHome{De Bruyn}{}{Kayleb,Kayden Lee}
+\MLHome{De Bruyn}{}{}
+\MLHome{Gilfillan}{SunAM,SunPM;Elder}{}
+\MLHome{Gilfillan}{Takes SunPM mtg}{}
+\MLHome{Hickley}{WedPM}{Kevin,Ryan,Emma}
+\MLHome{Mann}{}{Jèan}
+\MLHome{Matsane}{}{Bongiwe}
+\MLHome{Petkoon}{}{}
+\MLHome{Williamson}{}{}
+\MLMeetingH{Nimrod Park WedPM}
+\MLHome{Humphries}{SunAM;Elder}{}
+\MLHome{Mathews}{}{}
+\MLHome{Mathews}{}{}
+\MLHome{Mathews}{SunPM,WedPM}{Viveka Jade}
+\MLHome{Wright}{}{Katherine,Alexis,Madison}
+\MLMeetingH{Rynfield WedAM@10h30;Kruger, A}
+\MLHome{Clarke}{}{}
+\MLHome{Frost}{}{}
+\MLHome{Holtzhausen}{Elder}{}
+\MLHome{Kruger}{WedPM}{}
+\MLHome{Niemand}{}{Shi nique,Cherise,Lukah}
+\MLHome{Williams}{}{}
+\MLMeetingH{Rynfield WedPM;Van der Merwe, A @ Dunn, J}
+\MLHome{Van der Merwe}{}{}
+\MLMeetingH{Springs WedAM@10h00;Viljoen, D}
+\MLHome{Viljoen}{SunAM,SunPM;Every 1st Sunday of the month to Rynfield}{Yvette}
+\MLHome{Webb}{Every 1st Sunday of the month to Rynfield}{}
+\MLMeetingH{Sunnyridge WedPM@19h30;Robinson, H}
+\MLHome{Abrahams}{}{Dex}
+\MLHome{Cloete}{Takes WedPM}{}
+\MLHome{Jordaan}{}{}
+\MLHome{Kotzé}{}{}
+\MLHome{Robinson}{All mtgs;Elder}{}
+\MLHome{Sookdar}{}{}
+\MLHome{Wattrus}{}{}
+\MLMeetingH{Van Riebeeck Park WedPM@18h00;Schultz, W}
+\MLHome{Labuschagne}{}{}
+\MLHome{Labuschagne}{Takes WedPM}{}
+\MLHome{Schultz}{WedPM}{Abigail}
+\MLHome{Vercueil}{SunAM,SunPM}{Anwazelle}
+\end{document}
