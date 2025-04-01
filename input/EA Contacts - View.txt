@@ -1,0 +1,17 @@
+\documentclass[english]{article}
+\title{EA Contacts}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Taxi Moshi}{Tanzania useful contact}{ }{+255 629 367 691}\EndHomes
+\EndSection
+\MLDistrictH{EA Contacts}
+\MLMeetingH{Tanzania useful contact}
+\MLHome{Taxi Moshi}{}{}
+\MLMeetingH{Kenya Contacts}
+\MLMeetingH{Kenya useful contact}
+\end{document}
