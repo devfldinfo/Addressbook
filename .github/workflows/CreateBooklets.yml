@@ -33,12 +33,15 @@ jobs:
             fi
           done
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add output/* - Print.pdf
-          git commit -m "Generate booklet PDFs"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Auto Commit PDFs
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Compiled LaTeX files with View and Print versions"
+          push_options: '--force'
+          file_pattern: 'output/*.pdf'
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-and-booklet-pdfs
+          path: output/*.pdf
