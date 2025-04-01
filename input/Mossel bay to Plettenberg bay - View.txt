@@ -1,0 +1,29 @@
+\documentclass[english]{article}
+\title{Mossel bay to Plettenberg bay}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\EndHomes
+\EndSection
+\MLDistrictH{Mossel bay to Plettenberg bay}
+\MLMeetingH{George Pacaltsdorp SunPM@16h30;H. Wiese @ S Stroebel}
+\MLHome{Davids}{}{}
+\MLHome{Davids}{}{}
+\MLHome{Davids}{}{Kelsey,Cullan}
+\MLHome{Langenhoven}{}{}
+\MLHome{Stroebel}{All mtgs;Elder}{Shellan}
+\MLHome{Wattrus}{}{Joshua,Julie Ann}
+\MLHome{Wiese}{}{}
+\MLHome{Wiese}{WedPM}{}
+\MLMeetingH{George Pacaltsdorp WedPM@18h00;S Stroebel}
+\MLHome{Davids}{}{}
+\MLHome{Davids}{}{}
+\MLHome{Davids}{}{Kelsey,Cullan}
+\MLHome{Langenhoven}{}{}
+\MLHome{Stroebel}{All mtgs;Elder}{Shellan}
+\MLHome{Wattrus}{}{Joshua,Julie Ann}
+\end{document}
