@@ -8,7 +8,7 @@ on:
     paths:
       - 'output/**/*.pdf'
   workflow_dispatch:
-  
+
 jobs:
   generate-booklets:
     runs-on: ubuntu-latest
@@ -25,10 +25,11 @@ jobs:
       - name: Process PDF Files
         run: |
           mkdir -p output
-          for file in output/*.pdf; do
+          for file in output/* - View.pdf; do
             if [[ -f "$file" ]]; then
-              base_name="${file%.pdf}"
-              pdfbook2 "$file" --short-edge --outfile "${base_name} - Print.pdf"
+              base_name="${file% - View.pdf}"
+              pdfbook2 "$file"
+              mv output.pdf "${base_name} - Print.pdf"
             fi
           done
 
@@ -36,8 +37,11 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add output/* -Print.pdf
+          git add output/* - Print.pdf
           git commit -m "Generate booklet PDFs"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+  
