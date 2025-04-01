@@ -1,0 +1,121 @@
+\documentclass[english]{article}
+\title{Limpopo Province Contacts}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Booysen}{Limpopo Kontakte}{ (Work: Insect Science); Tzaneen}{+27 83 269 2235}
+\Home{Burger}{Limpopo Kontakte}{ c/o Niel van Rensburg}{}
+\Home{Cawood}{Limpopo Kontakte}{ ; Modimolle}{}
+\Home{Chiloane}{Limpopo Kontakte}{Makungu,Ahlulani,Rulani -23.959804,31.049288; Phalaborwa}{+27 63 045 9800(L)\\+27 62 534 3073(I)}
+\Home{Cumming}{Limpopo Kontakte}{ ; Tzaneen; mingl575@gmail.com(L) }{+27 81 452 1311(L)\\+27 67 005 4099(C)}
+\Home{Diederick}{Limpopo Kontakte}{Hanco,Ansofie Alldays C/o Bart Saaimans}{}
+\Home{Dyzel}{Limpopo Kontakte}{ ; Modimolle}{+27 79 891 4309(C)}
+\Home{Ebrahim}{Limpopo Kontakte}{Zayn,Aliyah 125 Grosvenor, Phalaborwa, 1390}{+27 78 386 9210(Y)}
+\Home{Ferreira}{Limpopo Kontakte}{Andrea,Stephan 14 Amarylis street, Impala Park, Mokopane, 0601}{+27 76 269 9252(C)}
+\Home{Fillis (Jansen)}{Limpopo Kontakte}{ 15 Umkomaas Street, Mokopane}{084 705 9013(J)}
+\Home{Fillis}{Limpopo Kontakte}{ 15 Umkomaas Street, Mokopane}{+27 84 705 9013(J)}
+\Home{Fivas}{Limpopo Kontakte}{ -24,485210,30.854799 (Off Swadini Rd); Hoedspruit; mohlatsi@nix.co.za}{`071 296 2784(J)}
+\Home{Fivaz}{Limpopo Kontakte}{ ; Hoedspruit; mohlatsi@nix.co.za}{+27 71 296 2784(J)}
+\Home{Futcher}{Limpopo Kontakte}{ c/o Lurette Futcher; Louis Trichardt}{}
+\Home{Goodes}{Limpopo Kontakte}{ 44 Boundry Street; Tzaneen}{083 539 0472(J)}
+\Home{Goodes}{Limpopo Kontakte}{ Boundary Street; Tzaneen}{+27 83 539 0472(J)}
+\Home{Grimsted}{Limpopo Kontakte}{ c/o Adrie Coetzee}{}
+\Home{Grobbelaar}{Limpopo Kontakte}{ 32 Boshoff street, Modimolle, 0510}{+27 76 313 1661(B)}
+\Home{Havemann}{Limpopo Kontakte}{ C/o Bryan Havemann}{}
+\Home{Havemann}{Limpopo Kontakte}{ C/o Shirley Havemann; Hoedspruit}{}
+\Home{Havemann}{Limpopo Kontakte}{ Reserve Manager, R71 Tar Road, 20 km from Phalaborwa towards Gravelotte at North Gate, Abelana Game Reserve; bryan.havemann@gmail.com(B) ; (-19.458477204298752, 30.966127772532307) }{076 216 6120(B)}
+\Home{Jansen}{Limpopo Kontakte}{Chante ; Mokopane; ajansen198361@gmail.com(A) }{+27 62 589 0682(A)}
+\Home{Johnson}{Limpopo Kontakte}{ Jaffray Farm, Tzaneen (-23.833033,30.338883); cleland.johnson@gmail.com(Cl) }{+27 84 401 1584(Cl)}
+\Home{Johnson}{Limpopo Kontakte}{ Jaffray Farm, Tzaneen (-23.833033,30.338883)}{+27 81 519 0691(C)\\+27 97 542 6198(B)}
+\Home{Johnson}{Limpopo Kontakte}{ Jaffray Farm, Tzaneen (-23.833033,30.338883)}{}
+\Home{Joubert}{Limpopo Kontakte}{ C/o Karina Nel; Modjadjiskloof}{}
+\Home{Mapholisa}{Limpopo Kontakte}{ c/o Wouter \&Leoni Meintjes; Louis Trichardt}{079 094 6748(C)}
+\Home{Meintjes}{Limpopo Kontakte}{ c/o Meintjes}{083 507 2768}
+\Home{Meintjes}{Limpopo Kontakte}{ c/o Wouter \&Leoni Meintjes; Louis Trichardt}{083 507 2768(N)}
+\Home{Mtshweni}{Limpopo Kontakte}{ ; Marble Hall}{+27 76 917 5004(P)}
+\Home{Muller}{Limpopo Kontakte}{ C/o Leoni Meintjes; Levubu}{+27 82 853 8771(P)\\+27 82 875 1596(A)}
+\Home{Mynhardt}{Limpopo Kontakte}{Desi was De Beer; Bela Bela}{083 384 7850(L)}
+\Home{Nel}{Limpopo Kontakte}{ c/o Diederick}{}
+\Home{Oosthuizen}{Limpopo Kontakte}{ ; Thabazimbi}{}
+\Home{Richardson}{Limpopo Kontakte}{ Rooiberg road, Thabazimbi; Thabazimbi}{}
+\Home{Robjin}{Limpopo Kontakte}{ ; Lephalale}{}
+\Home{Spaans}{Limpopo Kontakte}{ 2 Keipersol, Aqua Park, Tzaneen}{+27 78 775 1633(C)}
+\Home{Swanepoel}{Limpopo Kontakte}{ C/o Gert \& Ansie; Northam}{+27 72 242 9018(E)\\+27 72 242 9018(C)}
+\Home{Unknown}{Limpopo Kontakte}{ (Rina Shemmans Daughter) 61 Bezuidenhoudt street, Mokopane}{}
+\Home{Unknown}{Limpopo Kontakte}{ (Was Isaakse); Marble Hall}{}
+\Home{Unknown}{Limpopo Kontakte}{ Rina Shemmens sister in Thabazimbi}{}
+\Home{Unknown}{Limpopo Kontakte}{ c/o Adri Coetzee; Thabazimbi}{}
+\Home{Unknown}{Limpopo Kontakte}{ c/o Carolene}{}
+\Home{Unknown}{Limpopo Kontakte}{ c/o Meintjes}{+27 79 094 6748(C)}
+\Home{Unknown}{Limpopo Kontakte}{ c/o Saaiman}{}
+\Home{Unknown}{Limpopo Kontakte}{ c/o of Bryan Havemann}{}
+\Home{Unknown}{Limpopo Kontakte}{Ansofie,Hanco C/o Saaimans; Alldays}{}
+\Home{Unknown}{Limpopo Kontakte}{Melania C/o Saaimans; Alldays}{}
+\Home{Van der Walt}{Limpopo Kontakte}{ Mvuu Lodge, Vlakfontein Road, Mookgopong; odie@mvuu.co.za(O) }{+27 72 238 0092(O)}
+\Home{Viljoen}{Limpopo Kontakte}{ 1 Eugene Street, Modjadjiskloof; marina.viljoen22@gmail.com}{060 757 7398(M)}
+\Home{van Rensburg}{Limpopo Kontakte}{ c/o Niel van Rensburg}{}
+\Home{van Rensburg}{Limpopo Kontakte}{Sister Lenne,PW Botha Plaas Kalkfontein, Kalkbank, Polokwane, 0713 (-23.614255,29.397181)}{}
+\Home{van der Merwe}{Limpopo Kontakte}{ ?was married to Marus de Beer; Bela Bela}{083 384 7850}
+\Home{van der Schyff}{Limpopo Kontakte}{Ruan,Vian ; Phalaborwa}{+27 76 741 4566(S)}\EndHomes
+\EndSection
+\MLDistrictH{Limpopo Province Contacts}
+\MLMeetingH{Limpopo Kontakte}
+\MLHome{Booysen}{}{}
+\MLHome{Burger}{}{}
+\MLHome{Cawood}{}{}
+\MLHome{Chiloane}{}{Makungu,Ahlulani,Rulani}
+\MLHome{Cumming}{}{}
+\MLHome{Diederick}{}{Hanco,Ansofie}
+\MLHome{Dyzel}{}{}
+\MLHome{Ebrahim}{}{Zayn,Aliyah}
+\MLHome{Ferreira}{}{Andrea,Stephan}
+\MLHome{Fillis}{}{}
+\MLHome{Fillis (Jansen)}{}{}
+\MLHome{Fivas}{}{}
+\MLHome{Fivaz}{}{}
+\MLHome{Futcher}{}{}
+\MLHome{Goodes}{}{}
+\MLHome{Goodes}{}{}
+\MLHome{Grimsted}{}{}
+\MLHome{Grobbelaar}{}{}
+\MLHome{Havemann}{}{}
+\MLHome{Havemann}{}{}
+\MLHome{Havemann}{}{}
+\MLHome{Jansen}{}{Chante}
+\MLHome{Johnson}{}{}
+\MLHome{Johnson}{}{}
+\MLHome{Johnson}{}{}
+\MLHome{Joubert}{}{}
+\MLHome{Mapholisa}{}{}
+\MLHome{Meintjes}{}{}
+\MLHome{Meintjes}{}{}
+\MLHome{Mtshweni}{}{}
+\MLHome{Muller}{}{}
+\MLHome{Mynhardt}{}{Desi}
+\MLHome{Nel}{}{}
+\MLHome{Oosthuizen}{}{}
+\MLHome{Richardson}{}{}
+\MLHome{Robjin}{}{}
+\MLHome{Spaans}{}{}
+\MLHome{Swanepoel}{}{}
+\MLHome{Unknown}{}{}
+\MLHome{Unknown}{}{}
+\MLHome{Unknown}{}{}
+\MLHome{Unknown}{}{Melania}
+\MLHome{Unknown}{}{}
+\MLHome{Unknown}{}{}
+\MLHome{Unknown}{}{}
+\MLHome{Unknown}{}{}
+\MLHome{Unknown}{}{Ansofie,Hanco}
+\MLHome{Unknown}{}{}
+\MLHome{van der Merwe}{}{}
+\MLHome{van der Schyff}{}{Ruan,Vian}
+\MLHome{Van der Walt}{}{}
+\MLHome{van Rensburg}{}{}
+\MLHome{van Rensburg}{}{Sister Lenne,PW Botha}
+\MLHome{Viljoen}{}{}
+\end{document}
