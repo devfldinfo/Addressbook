@@ -46,7 +46,16 @@ jobs:
 
             # Rename output PDF
             mv output/"$base_name.pdf" output/"$base_name - View.pdf"
-          done        
+          done  
+
+      - name: Auto Commit PDFs
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Compiled LaTeX files with View and Print versions"
+          push_options: '--force'
+          file_pattern: 'output/*.pdf'
+
+          
 
       - name: Generate Booklet PDFs
         run: |
