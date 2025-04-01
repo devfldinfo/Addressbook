@@ -2,7 +2,7 @@ name: Generate Booklet PDFs
 
 on:
   workflow_run:
-    workflows: ["CompileLatexFiles.yml"]
+    workflows: ["Compile LaTeX Files"]
     types:
       - completed
   workflow_dispatch:
