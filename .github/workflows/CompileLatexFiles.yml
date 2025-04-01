@@ -33,14 +33,6 @@ jobs:
             # First LaTeX run (to generate .bcf and auxiliary files)
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
 
-
-
-
-
-
-
-
-
             # If .bcf file exists, run Biber
             if [ -f "output/$base_name.bcf" ]; then
               biber output/"$base_name"
@@ -51,16 +43,6 @@ jobs:
 
             # Third LaTeX run (to finalize references)
             pdflatex -interaction=nonstopmode -output-directory=output "$file"
-
-
-          - name: Auto Commit PDFs
-              uses: stefanzweifel/git-auto-commit-action@v4
-              with:
-                commit_message: "Compiled LaTeX files with View and Print versions"
-                push_options: '--force'
-                file_pattern: 'output/*.pdf'
-
-
 
             # Rename output PDF
             mv output/"$base_name.pdf" output/"$base_name - View.pdf"
