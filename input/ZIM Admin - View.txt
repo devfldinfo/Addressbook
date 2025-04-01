@@ -1,0 +1,49 @@
+\documentclass[english]{article}
+\title{ZIM Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Chikunahuna}{Zim Contacts}{ }{}
+\Home{Chiriga}{Zim Contacts}{ in RSA}{}
+\Home{Dekeya}{Zim Contacts}{Panashe,Pardon Miami,USA}{+1 (321) 365-6217(T)}
+\Home{Haritos}{Zim Contacts}{Johannah }{067-2402127}
+\Home{Kasiya}{Zim Contacts}{Timothy }{}
+\Home{Maduyu}{Zim Contacts}{Panashe }{0775 726 587}
+\Home{Mahwehwe}{Zim Contacts}{ moved to SA}{078 351 2252}
+\Home{Maposa}{Zim Contacts}{ c/o Mai Mbizo, Mapu}{+263774 700092}
+\Home{Mushuma}{Zim Contacts}{Tino Moved to South Africa}{0773 644 703\\775389525}
+\Home{Mutangadura}{Zim Contacts}{ Mzare St,}{067-21057\\0772 743 335}
+\Home{Mutumwabvi}{Zim Contacts}{Lloyd,Lionel Moved to South Africa}{0773 181764(R)\\0772 345 250(Lo)\\0775 874 536(Li)}
+\Home{Ncube}{Zim Contacts}{Nothembiso Dipshan Cattle Ranch, Filabusi}{+263774974398(H)\\+263777923731(T)}
+\Home{Nemani}{Zim Contacts}{ Gwizi Village/Fridge Air, Plot 633, Light Industrial Sites, Pbag F 33; fridge\_air@ info.bw}{067-2412022\\w 067-2414832\\or 2413356\\71302450(B)}
+\Home{Ruvingo}{Zim Contacts}{Nigel,Leon,Leslie,Aleyshia Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe}{0719199036(E)}
+\Home{Sharples}{Zim Contacts}{ }{0242 494 601}
+\Home{Sigwidi}{Zim Contacts}{Ben Bhasera's sister 40 Constable Rd, Romany Park}{}
+\Home{Zaranyika}{Zim Contacts}{ }{071 656 5134}
+\Home{Zvandaziva}{Zim Contacts}{Courtney,Clide }{+267 74 276 099(T)}\EndHomes
+\EndSection
+\MLDistrictH{ZIM Admin}
+\MLMeetingH{Zim Contacts}
+\MLHome{Chikunahuna}{}{}
+\MLHome{Chiriga}{}{}
+\MLHome{Dekeya}{}{Panashe,Pardon}
+\MLHome{Haritos}{}{Johannah}
+\MLHome{Kasiya}{}{Timothy}
+\MLHome{Maduyu}{}{Panashe}
+\MLHome{Mahwehwe}{}{}
+\MLHome{Maposa}{}{}
+\MLHome{Mushuma}{}{Tino}
+\MLHome{Mutangadura}{}{}
+\MLHome{Mutumwabvi}{}{Lloyd,Lionel}
+\MLHome{Ncube}{(Mai Inga's daughter)}{Nothembiso}
+\MLHome{Nemani}{}{}
+\MLHome{Ruvingo}{}{Nigel,Leon,Leslie,Aleyshia}
+\MLHome{Sharples}{}{}
+\MLHome{Sigwidi}{}{Ben Bhasera's sister}
+\MLHome{Zaranyika}{}{}
+\MLHome{Zvandaziva}{in Botswana Gabs.}{Courtney,Clide}
+\end{document}
