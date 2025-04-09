@@ -1,0 +1,91 @@
+\documentclass[english]{article}
+\title{EA Contacts}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Alien Card}{Kenya useful contact}{Enquiry; }{+254 110923424}
+\Home{Alltrash}{Kenya useful contact}{Buruburu Bach; Trash company}{+254 701 624294}
+\Home{Amron }{Kenya useful contact}{Pacific Forex; Amron Teller 5 Phone For Rates}{}
+\Home{Bikes (Gabi)}{Kenya useful contact}{Gabriel; }{+254725725635}
+\Home{Booking}{Kenya useful contact}{Kenya SGR; }{*639\#}
+\Home{Commissioner Of Oath Nairobi}{Kenya useful contact}{Humpry; }{+254722705759}
+\Home{Guide}{Kenya useful contact}{Dunstan Mount Kenya; }{+254 720 537340}
+\Home{Hardware}{Kenya useful contact}{Eac Stanley Blade Gikomba; Gerald Memories Hardware}{+254 736 000 764}
+\Home{Hove Empress}{Kenya useful contact}{Combi; }{+254778826812}
+\Home{Joyce}{Kenya useful contact}{Helper; EAC Joyce (helper At Franz Home}{+254 725 269896}
+\Home{Kakamega Water Paybill }{Kenya useful contact}{:772153; }{+254720270918}
+\Home{Kakamega Water}{Kenya useful contact}{Jean; }{+254720800278}
+\Home{Kakamega Zurmac}{Kenya useful contact}{Caroline; Bach Agent}{+254 720270918}
+\Home{Kakamega }{Kenya useful contact}{Alex Pikipiki; 350 shillings from Joyland To Isecheno}{+254713214551}
+\Home{Kakamega }{Kenya useful contact}{Nellie Mboga Kkm; Mboga Kkm}{+254721495249}
+\Home{Kakamega}{Kenya useful contact}{Maisha Mart; Free delivery for orders more than 1000 shillings}{+254732224312}
+\Home{Kakamega}{Kenya useful contact}{Smith Blue Shouldered Guest House kkm Forest; From Blue Shouldered Guest House kkm Forest}{+254722886833}
+\Home{Kenya immigration}{Kenya useful contact}{Switchboard; }{+254 110 923425}
+\Home{Kenya}{Kenya useful contact}{Power; ; bill@kplc.co.ke}{+254 725 043 000}
+\Home{Landlord}{Kenya useful contact}{Etemisi Kakamega Bach; }{+254722 612 648}
+\Home{Landlord}{Kenya useful contact}{Geoffrey Nanyuki Bach; }{+254 721 217569}
+\Home{Maranga Shuttle}{Kenya useful contact}{To Moshi; To Moshi}{+254733542549}
+\Home{Matunda }{Kenya useful contact}{Pikipiki Peter; }{+254 707 191 823}
+\Home{Mshana}{Tanzania}{MamaHappy; Tanga}{}
+\Home{Musango pikipiki}{Kenya useful contact}{Willie; }{+254719270793}
+\Home{Musango}{Kenya useful contact}{Robert Musango Pikipiki; }{+254 702 381 662}
+\Home{Nanyuki Taxi}{Kenya useful contact}{Simon; Taxi}{+254722952890}
+\Home{Nanyuki}{Kenya useful contact}{Daniel Pikipiki; }{+254114110477}
+\Home{Nanyuki}{Kenya useful contact}{Dominique Manera Buffalo Pikipiki; }{+254 794639207}
+\Home{Pikipiki}{Kenya useful contact}{Timothy; }{+254725102162}
+\Home{Repair}{Kenya useful contact}{Frederick Opio Kkm Fridge; }{+254722452836}
+\Home{Simon Hells Gate}{Kenya useful contact}{Simon; Hells Gate}{+245759834013}
+\Home{Tahmeed}{Kenya useful contact}{Dar es Salaam; }{+254784818814}
+\Home{Tax Accountant}{Kenya useful contact}{Elzeever; }{+254 723 160878}
+\Home{Tax KRA}{Kenya useful contact}{Helper of Elzeever; }{+254 732 343443}
+\Home{Taxi Moshi}{Tanzania useful contact}{Isaa; }{+255 629 367 691}
+\Home{Taxi Nanyuki}{Kenya useful contact}{Zak; }{+254711216449}
+\Home{Work Permit Enquiries}{Kenya useful contact}{Enquiries; }{+254 707 657991}\EndHomes
+\EndSection
+\MLDistrictH{EA Contacts}
+\MLMeetingH{Kenya useful contact}
+\MLHome{Alien Card}{}{Enquiry}
+\MLHome{Alltrash}{}{Buruburu Bach}
+\MLHome{Amron }{}{Pacific Forex}
+\MLHome{Bikes (Gabi)}{}{Gabriel}
+\MLHome{Booking}{}{Kenya SGR}
+\MLHome{Commissioner Of Oath Nairobi}{}{Humpry}
+\MLHome{Guide}{}{Dunstan Mount Kenya}
+\MLHome{Hardware}{}{Eac Stanley Blade Gikomba}
+\MLHome{Hove Empress}{}{Combi}
+\MLHome{Joyce}{}{Helper}
+\MLHome{Kakamega}{}{Maisha Mart}
+\MLHome{Kakamega}{}{Smith Blue Shouldered Guest House kkm Forest}
+\MLHome{Kakamega }{}{Alex Pikipiki}
+\MLHome{Kakamega }{}{Nellie Mboga Kkm}
+\MLHome{Kakamega Water}{}{Jean}
+\MLHome{Kakamega Water Paybill }{}{:772153}
+\MLHome{Kakamega Zurmac}{}{Caroline}
+\MLHome{Kenya}{}{Power}
+\MLHome{Kenya immigration}{}{Switchboard}
+\MLHome{Landlord}{}{Etemisi Kakamega Bach}
+\MLHome{Landlord}{}{Geoffrey Nanyuki Bach}
+\MLHome{Maranga Shuttle}{}{To Moshi}
+\MLHome{Matunda }{}{Pikipiki Peter}
+\MLHome{Musango}{}{Robert Musango Pikipiki}
+\MLHome{Musango pikipiki}{}{Willie}
+\MLHome{Nanyuki}{}{Daniel Pikipiki}
+\MLHome{Nanyuki}{}{Dominique Manera Buffalo Pikipiki}
+\MLHome{Nanyuki Taxi}{}{Simon}
+\MLHome{Pikipiki}{}{Timothy}
+\MLHome{Repair}{}{Frederick Opio Kkm Fridge}
+\MLHome{Simon Hells Gate}{}{Simon}
+\MLHome{Tahmeed}{}{Dar es Salaam}
+\MLHome{Tax Accountant}{}{Elzeever}
+\MLHome{Tax KRA}{}{Helper of Elzeever}
+\MLHome{Taxi Nanyuki}{Was away Jun 2024. Alternatives Minor (in Town 800 to Solomon) and Nicolas near Mongera. solomon also has a neighbour.}{Zak}
+\MLHome{Work Permit Enquiries}{}{Enquiries}
+\MLMeetingH{Tanzania}
+\MLHome{Mshana}{}{MamaHappy}
+\MLMeetingH{Tanzania useful contact}
+\MLHome{Taxi Moshi}{}{Isaa}
+\end{document}
