@@ -1,0 +1,371 @@
+\documentclass[english]{article}
+\title{Pretoria \& District}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Andrews}{Pecanwood}{Angeline, Ralph, Ronelle; 11 Quays Crescent, The Islands Estate, Hartbeespoort, Northwest; Po box 255 Broederstroom 0240; 0405angie@gmail.com; (-25,7650520, 27,8505140) }{062 489 4996}
+\Home{Botha}{Andeon}{Reagan; A Knight's Rest Guesthouse, Brits Rd, Pretoria North}{082 893 0591}
+\Home{Cawood}{Murrayfield}{Stan \& Anna, Ruben, James; 26 Bee Bee Street, The Wilgers Estate, Pretoria; ancawood@gmail.com(A) }{063 236 1428(S)\\083 455 0468(A)}
+\Home{Cawood}{Silver Lakes}{Jonathan \& Tricia, Divan; 829 Wapadrand Rd, Wapadrand, Pretoria; P O Box 723, Derdepoortpark 0035; jonathan@british4x4.co.za(J) }{083 306 9794(J)\\012 802 0084W(J)}
+\Home{Cloete}{Andeon}{Johan \& Lois; Plot 7, 683 Niemand St, Andeon AH, 0182; P O Box 48808, Hercules, 0030; johan.akleather@gmail.com(J) }{079 877 8007(J)\\082 559 6595(Lo)}
+\Home{Cloete}{Andeon}{Leonard; Plot 7, 683 Niemand St, Andeon AH, 0182; lcloete@pm.me}{082 404 8642}
+\Home{Coetzee}{Waverley}{Hester; 2 Caroline Place, 67 Codonia Lane, Môregloed; hestercoetz@gmail.com}{073 403 5405}
+\Home{Coleske}{Silver Lakes}{Arnold \& Margie, Arnold (jnr), Isabella; 13 Castle Pine Cres, Silver Lakes Golf Estate, 0081; P O Box 11478, Erasmuskloof 0048; coleske@mweb.co.za}{012 809 1633\\083 441 0616(A)\\083 384 0533(M)}
+\Home{Cornwall-Smith}{Andeon}{Carol \& Nigel; A Knight's Rest Guesthouse, Brits Rd, Pretoria North; P O Box 59116, Karen Park 0118; carol@aknightsrest.co.za}{063 576 7102}
+\Home{Cornwall}{Andeon}{Clinton; A Knight's Rest Guesthouse, Brits Rd, Pretoria North}{061 303 4527}
+\Home{Crause}{Andeon}{Aida; Plot 11, 710 Alfred Boyes Ave, Andeon; PO Box 48831, Hercules, 0030; crause.aida@gmail.com}{081 451 2990\\012 372 3596 H}
+\Home{Da Silva}{Waverley}{Steven \& Nicky, Josslynn, Miané; 913 17th Avenue Wonderboom South; sdasilva389@gmail.com(S) , nickywilson1997@gmail.com(N) }{074 453 2735(S)\\074 634 3846(N)}
+\Home{De Kock}{Waverley}{Chris; 4 Beau Monde Flats, 322, 14th Ave, Rietfontein 0084; herminadekock@yahoo.com}{012 329 0551\\082 922 0604}
+\Home{Diplock}{Huis Danalet}{Janette; Huis Danalet, 92 Dassiebos st, Wonderboom.}{}
+\Home{Du Preez}{Murrayfield}{Miempie \& Denis; 37 Helgaard St, Kilner Park, 0186; widupreez@telkomsa.net}{082 657 2521\\012 333 3536}
+\Home{Du Toit}{Silver Lakes}{Cobus \& Greta, Eileen, Michal; 15 Oysterbay Rd, Silver Lakes; P O Box 312, La Montagne 0184; kdtbon@gmail.com}{082 414 1412\\012 809 0495}
+\Home{Els}{Sinoville}{Annatjie; Bougainvilla Retirement Village No. 103, Bougainvillea Drive, Montana Park, 0159; P O Box 15493, Sinoville 0129}{084 589 1469\\012 543 2122}
+\Home{Els}{Zambezi Estate}{Anton \& Elaine, Quwen, Tristan, Nicole; Stand 1307, 1517 Pintail St, Zambezi Country Estate; P O Box 83035, Doornpoort, 0017; antonels111@gmail.com(A) , elaineels@telkomsa.net(E) }{012 524 3857\\082 821 5691(A)\\082 519 1767(E)}
+\Home{Fagan}{Huis Danalet}{Anne; Huis Danalet, 92 Dassiebos st, Wonderboom.}{083 633 2391}
+\Home{Faure}{Waverley}{Michael \& Jenny; 619 - 23rd Ave, Rietfontein, 0084; mfaure46@gmail.com(J)  , mike.bioceramix@gmail.com(M) }{082 890 2940(M)\\082 565 8832(J)}
+\Home{Fulton}{Huis Danalet}{Yvonne; Huis Danalet, 92 Dassiebos st, Wonderboom.; Box 907 047, Montana 0151}{}
+\Home{Furber}{Waverley}{Richard; 1258 Woodlands dr, Queenswood; furbs@absamail.co.za}{072 510 3315}
+\Home{Garcia}{Huis Danalet}{Heather; Huis Danalet, 92 Dassiebos st, Wonderboom.; heathernannymrsg@gmail.com}{084 607 4988}
+\Home{Greeff}{Huis Abendruhe}{Hendro \& Ina; 696 Sinagoge Rd, Roodeplaat, 0035; Posbus 12, Derdepoortpark 0035; hendrogreeff@gmail.com(H) , greeffina@gmail.com(I) }{012 819 1053\\083 255 0409(H)\\083 414 6070(I)}
+\Home{Greeff}{Zambezi Estate}{Gunther \& Nicolette, Ruben, Zander, Luhan; 696 Sinagoge Rd, Roodeplaat, 0035; PO Box 12 Derdepoortpark 0035; Nickypret@gmail.com(N) , greeffgj@gmail.com(G) }{083 399 9452(G)\\083 399 9451(N)\\012 543 3087 H}
+\Home{Havemann}{Andeon}{Leona; Unit 55, Bergvallei Retirement Estate, Bougainvillea Dr, Montana Tuine, Pretoria, 0182; carlhavemannza@gmail.com}{083 400 2848}
+\Home{Havemann}{Silver Lakes}{Lorna; Hoewe 44, Swavelpoort, Pretoria; PO Box 72711, Lynnwood Ridge, 0040; (-25.8505400, 28.4131270) }{067 055 0508\\012 811 0362}
+\Home{Herman}{Murrayfield}{Adelie; 17 Grace Avenue, Murrayfield, Pretoria, 0184; adelieherman.ah@gmail.com}{073 542 0865}
+\Home{Hughes}{Pecanwood}{Craig \& Marion, Timothy; 6 Pecanwood Close , Hartbeespoort 0240; craigrowenhughes@gmail.com(C) , marion.hughesct@gmail.com(M) }{076 599 1965(C)\\065 216 0409(T)\\079 490 6340(M)}
+\Home{Hughes}{Pecanwood}{Henny \& Lucy; 6 Pecanwood Close , Hartbeespoort 0240}{}
+\Home{Hurter}{Murrayfield}{James \& Louisa; 133 Analees St, Meyerspark, Pretoria; PO Box 2883, Halfway House 1685}{084 355 3257(J)\\084 515 8550(L)}
+\Home{Jacobs}{Waverley}{Jakes \& Henriet; 14 Graceland, 776 20th Avenue, Rietfontein, Pretoria; purpleblossoms@ymail.com(H) }{079 639 8036(J)\\083 763 2499(H)}
+\Home{Janse Van Rensburg}{Andeon}{Xavier \& Rosanne, Franco; 1104 Merwede Str Mountainview; xavier.rosanne@gmail.com}{084 736 2737(X)\\074 045 8754(R)}
+\Home{Janse van Rensburg}{Silver Lakes}{Christian; 9 Sawgrass Road, Silver Lakes; christianjvr@gmail.com}{083 418 6160}
+\Home{Janse van Rensburg}{Zambezi Estate}{Willie \& Marlene; 213 Goshawk St, Private Bag x24, Montana Park, Pretoria; marlene.jvr1971@outlook.com(M) }{082 963 1339(M)}
+\Home{Keeler}{Silver Lakes}{Cameron; 25 IQ Arabella, Six Fountains Estate, Pretoria}{}
+\Home{Koen}{Booysens}{Pieter \& Nadine, André, Edward; 544 Ulundi Ave, Mountain View, 0813; napi.koen@gmail.com}{079 894 9663(N)\\071 641 2176(P)\\063 684 2900(A)\\082 559 3889(E)}
+\Home{Kumire}{Waverley}{Leslie \& Mukiri; 22 Caister House, 635 Pretorius St, Arcadia, Pretoria, 0007; lkumire@gmail.com(L) , mukirig@yahoo.com(M) }{062 944 1332(L)\\064 154 3502(M)\\+254 722 392204(M)}
+\Home{Labuschagne}{Waverley}{Julie, Kezia; Waverley Manor 201B, 1179 Cunningham lane, Waverley; georitha@gmail.com}{082 515 3440}
+\Home{Leach}{Sinoville}{Anita; 90 Annlin Place Central, 236 Matlabas St., Sinoville 0182 (at gate dial Anita's no); anitaleach46@gmail.com}{012 566 3773\\082 729 8963}
+\Home{Lourens}{Booysens}{Kosie \& Isabel; 1262 Wilhelm St, Booysens, Pretoria}{082 435 1492(I)}
+\Home{Manus}{Zambezi Estate}{Leonardo \& Antonino, Chearn, Thamzyn; 1351 Pratincole St, Zambezi Country Estate, Pretoria, 0151; leonardomanus606@gmail.com(L) , antoninomanus720@gmail.com(A) }{082 802 1005(L)\\063 447 2970(L)\\012 548 5954\\060 520 3437(A)}
+\Home{Mashigo}{Atteridgeville}{Maria Matsoaisa; 979 Weir Street, Hercules}{071 757 6781}
+\Home{Mashigo}{Atteridgeville}{Snowball, Patricia, Lebogang, Thato, Reabetswe, Oupa (Seabata); 61 Konki Lerumo St, Atteridgeville 0125}{012 375 8409\\083 403 0705(P)\\072 444 1291(O)\\073 216 6909(S)\\071 537 7997(S)}
+\Home{Mathebula}{Soshanguve Zone HH}{Joyce; 6681 Matlapeng Crescent, Soshanguve, Pretoria, 0164; (-25.4450412, 28.0860785) }{072 309 3419}
+\Home{Mc Minn}{Waverley}{Marge, Jean, Megan; (c/o Jean and Megan Cilliers; son in law and daughter), 8 Bogey Street, Waterkloof}{071 427 0669(M)\\083 653 7747(J)\\083 263 6022(Me)}
+\Home{McCarthy}{Waverley}{Sheldon; 905 Eve St, Waverley 0186; sheldonhmccarthy@gmail.com(Sh) }{0716794439(Sh)}
+\Home{McCarthy}{Waverley}{Stanley \& Nerine; 905 Eve St, Waverley 0186; Stanley.mccarthy@bcx.co.za(S) , nsmccarthy100@gmail. com(N) }{081 393 0188(S)\\082 454 5839(N)}
+\Home{Mdungazi}{Silver Lakes}{Lucky \& Ollie; Mamelodi; (7C7C+GM7 Pretoria) }{+2776 539 5669(L)}
+\Home{Metz}{Zambezi Estate}{Frederick; 5 Casa Celtis, 320 Frank Str, Die Wilgers, 0196; frikmetz@gmail.com}{+27 76 436 3777}
+\Home{Metz}{Zambezi Estate}{Isabella; 5 Casa Celtis, 320 Frank Str, Die Wilgers, 0196}{082 461 3736}
+\Home{Mitchell}{Murrayfield}{Tiana; 495 Hilda Street, Akademia, Hatfield.; mitchelltiana77@gmail.com}{+27 76 640 3774}
+\Home{Mokhethi}{Huis Danalet}{Marie; Huis Danalet, 92 Dassiebos st, Wonderboom.; marieshirly001@gmail.com, mariemokhethi2017@gmail.com}{072 338 8540\\072 135 2301}
+\Home{Mundell}{Sinoville}{Ricky; 357 Gloriosa St, Sinoville x3, 0182; P O Box 370, Montana 0151; suger@telkomsa.net}{079 880 3919}
+\Home{Munguni}{Andeon}{Esther; Plot 11, 710 Alfred Boyes Ave, Andeon}{071 348 7645}
+\Home{Murphy}{Sinoville}{Barbara; 909 Dabchick Avenue, Montana Park; P O Box 15406, Lyttelton 0140; john.murphy@vodamail.co.za}{082 779 9464}
+\Home{Naude}{Huis Danalet}{Martha; Huis Danalet, 92 Dassiebos st, Wonderboom.; Box 907 047, Montana 0151}{061 822 3716}
+\Home{Nortjé}{Huis Danalet}{Tobie; Huis Danalet, 92 Dassiebos st, Wonderboom.; tobiasnortje12@gmail.com, monumentob@gmail.com}{072 555 2154\\+27 73 641 3623}
+\Home{Oldknow}{Huis Abendruhe}{Irene; 696 Sinagoge Rd, Roodeplaat, 0035; PO Box 908 047, Montana, 0151}{012 543 0064}
+\Home{Oldknow}{Murrayfield}{David; c/n Elaine \& Fitt Street, Willow Park Manor; Box 72182, Lynnwood Ridge, 0040}{063 634 7709}
+\Home{Oliver}{Huis Abendruhe}{Gizela, Lauren, Janine and Harriett; 537 Sinagoge Rd, Roodeplaat, 0035}{}
+\Home{Opperman}{Murrayfield}{Louwrens \& Nittie, Adriaan, Heleen; 911 17th Ave, Wonderboom South; opperla@lantic.net}{012 331 6641\\081 354 5703(L)\\083 5549255(N)}
+\Home{Ostling}{Huis Danalet}{Thea; 158 Wildekweper Street, Wonderboom; P.O. Box 10283, Linton Grange, Gqeberha 6015; bob.thea@telkomsa.net; (869G+MWR Pretoria, South Africa) }{082 356 7327(T)\\041 368 2877(T)}
+\Home{Pickering}{Silver Lakes}{Candice; 1376 Dickenson street, Waverley, Pretoria, 0186}{071 613 7236}
+\Home{Pieterse}{Booysens}{Helen \& Barney; 34 Beterskap Retirement Village, 930 Hanny St, Claremont}{082 864 5718(H)}
+\Home{Pistorius}{Huis Abendruhe}{Leon; 696 Sinagoge Rd, Roodeplaat, 0035; Posbus 82006, Doornpoort 0017}{012 524 3898\\072 111 6984}
+\Home{Potgieter}{Huis Danalet}{Carlize; Villa Zenobia, 795 Veda Ave, Montana}{076 651 5782}
+\Home{Pottie}{Silver Lakes}{Rodger; 71 Via Veneto, Lombardy Estate, Graham Rd/Lynnwood Rd ext. Share 0050, Pretoria (East); PO Box 39750, Moreleta Park 0044; rodger.anita@gmail.com}{082 463 7954}
+\Home{Richards}{Andeon}{Kaycey, Gorden; A Knight's Rest Guesthouse, Brits Rd, Pretoria North; littleknightsacademy@gmail.com}{071 718 2542}
+\Home{Robijn}{Murrayfield}{Cobie; Uniden 8, 192 Garden St, Meyers Park, 0184}{012 803 6476\\071 452 0310}
+\Home{Ross}{Waverley}{Hetty \& Rob; 2 Villa Carmen, 1199 Karriboom Street, Moregloed, Pretoria, 0186; hettypentz@gmail.com}{082 519 7056\\012 333 9140}
+\Home{Scheepers}{Huis Abendruhe}{Thomas \& Christa; Plot 24 Karee St, Pumulani; P O Box 8164, Pretoria, 0001; scheepersthomas2@gmail.com}{012 819 1406\\079 872 4331}
+\Home{Segwapa}{Murrayfield}{Pumla, Lizzy; 888 Dhlamini street - CA3, Section C, Mamelodi West; apsegwapa@gmail.com; (-25.7092435, 28.3353311) }{084 955 4383}
+\Home{Steyn}{Huis Danalet}{Gerrie \& Phoebe; Villa Ficus nr 13, 86 Katjiepiering street, Wonderboom; PO Box 908 047, Montana, 0151; gerrienellie@gmail.com(G) , phoebemargarite@gmail.com(P) }{074 411 1572(P)\\0125439842 W\\084 486 3029(G)}
+\Home{Steyn}{Waverley}{Gerhard; 729 16th Avenue, Wonderboom South; gerhardsteyn24@gmail.com}{082 330 6362}
+\Home{Stucky}{Pecanwood}{Bianca; 2 Marula unit 9; Ngwenya River Estate; Brits}{072 809 3187}
+\Home{Swanepoel}{Silver Lakes}{Erhard \& Lynne, Paul, Andrew; Hannington Wood Complex, 11 Button rd, Lynnwood Glen; PO Box 1057, Wapadrand, 0050; erhardswa@gmail.com(E) , lynneswa@gmail.com(L) }{084 735 9015(E)\\072 150 2175(L)\\+243 842 632 268(E)}
+\Home{Swart}{Silver Lakes}{Glenys; 9 Duiker Crescent, Silver Lakes; P O Box 11074, Silver Lakes 0054; theuns.swart66@gmail.com}{066 0766717}
+\Home{Swart}{Silver Lakes}{Riaan \& Lourika, Amica, Riané; 4 Klipspringer St, Silver Lakes Ext 3; Suite 124, Postnet, P/Sak X025, Lynnwood 0020; riaan@psi.limited(R) ; (69MJ+RXP Silver Lakes Golf Estate, South Africa) }{082 520 5528(R)\\082 336 7195(L)}
+\Home{Swart}{Silver Lakes}{Rona; 9 Duiker Crescent, Silver Lakes; rona@boesmanlandbiltong.co.za(R) }{083 4586159(R)}
+\Home{Swart}{Zambezi Estate}{Johann; 774 Besembiesie Road, Montana Park, Pretoria; P O Box 762, Derdepoortpark, 0035; zeh@telkomsa.net}{012 548 4190\\082 492 6442}
+\Home{Valadon}{Huis Danalet}{Marie; Huis Danalet, 92 Dassiebos st, Wonderboom; rolandvaladon@gmail.com}{060 601 2564}
+\Home{Van Aardt}{Sinoville}{Esmé \& Louis; 17 Annlin Place, 220 Matlabas Street, Annlin, Pretoria, 0066; vanaardt.esme@gmail.com}{012 771 8611\\083 628 3647(L)\\083 630 9976(E)}
+\Home{Van Heerden}{Huis Danalet}{Pieter; Huis Danalet, 92 Dassiebos st, Wonderboom.}{071 731 5836}
+\Home{Van Loggerenberg}{Huis Abendruhe}{Bennie; Huis Abendruhe, Plot 696, Sinagogeweg, Kameeldrift Oos; berindav@vodamail.co.za}{082 464 2140}
+\Home{Van Niekerk}{Zambezi Estate}{Monica; 531 Sefako makgatho Dr., Zambezi Retirement Village, Unit 248; monicapaulvn@bundunet.com}{060 755 5853}
+\Home{Van Rooyen}{Booysens}{Chris \& Annatjie; 136 Booysen St., Les Marais}{082 815 1490(C)\\082 373 1302(A)}
+\Home{Van Rooyen}{Booysens}{Hennie \& Marcharl, Stefan, Charl; 1535 Tienie str, Andeon AH, Pretoria; hennie@mcfire.co.za(H) , marcharl@mcfire.co.za(M) }{082 887 2052(H)\\082 805 5257(M)\\012 372 3639\\072 547 2172(S)}
+\Home{Van Zyl}{Waverley}{Mathilda; Krisant street, Silverton; mathildavanzyl02@gmail.com}{082 925 5192}
+\Home{Van der Walt}{Waverley}{Elizabeth; 19 Parktown Mews, 87 Green St, Parktown, Pretoria; vdwaltem3@gmail.com}{081 315 6645}
+\Home{Venter}{Pecanwood}{Elna; Plot 332, Rodekopjes, Brits; Posbus 1088, Brits 0250; elsjeve@gmail.com}{083 333 7687}
+\Home{Vercueil}{Andeon}{Barry \& Ursula; Plot 11, 710 Alfred Boyes Ave, Andeon AH, 0182; barry.vercueil@gmail.com(B) , uvercueil@gmail.com(U) }{083 702 3403(B)\\082 490 9383(U)}
+\Home{Vercueil}{Waverley}{Jared \& Laura; Unit 9, Waterberg, 205 Stead Avenue, Queenswood, Pretoria; j.vercueil1@gmail.com(J) }{083 390 7968(J)}
+\Home{Vermaak}{Murrayfield}{Dale \& Beverley, Clinton, Sherylee, Handen; 144 Rubida Str, Murrayfield, Pretoria, 0184; dale.vermaak@gmail.com(D) , beverleycv@gmail.com(B) }{012 332 3911H\\081 774 6255(D)\\+27 60 559 6579(B)\\+27870941554(B)\\078 785 5689(C)\\084 221 0133(S)}
+\Home{Webb}{Pecanwood}{Ian (jnr) \& Clarissa; 1 Concerto, Symphony Park, Melody, Hartbeespoort, 0260}{060 544 0183(I)\\076 814 5674(C)}
+\Home{Webb}{Pecanwood}{Ian \& Judy, Wayne, Julian, Shani; 4 Mauser St, Ifafi, Hartbeespoort, 0260; P.O. Box 13672, Northmead, Benoni, 1501; ian@ewgminerals.co.za, ianwebb53@gmail.com(I) }{083 455 2241(I)\\066 044 3211(J)\\0719836275(Jul)\\060 673 5702(S)\\083 791 3848(S)}
+\Home{Webb}{Sinoville}{Ronnie; Bougainvilla Retirement Village no. 1115, Bougainvillea Drive, Montana Park, 0159; ronnowen2@gmail.com}{057 357 2094H\\072 607 2545\\084 382 0391}
+\Home{Webb}{Waverley}{Taneil; Phyllis Robertson Home; tanzowebb1981@gmail.com(T) }{0824155621(T)}
+\Home{Weich}{Huis Danalet}{Muriel; Huis Danalet, 92 Dassiebos st, Wonderboom; Box 15223, Lyttelton 0140; ferdie.muriel@webafrica.org.za; (-25.8420180, 28.2006220) }{012 644 1654\\082 787 8509(M)}
+\Home{Welgemoed}{Huis Danalet}{Anna; Huis Danalet, 92 Dassiebos st, Wonderboom.; Box 907 047, Montana 0151}{}
+\Home{Wilson}{Waverley}{Abygail; 913 17th Avenue Wonderboom South}{078 398 5677}
+\Home{Wright}{Sinoville}{Noeleen; 407 Ben Viljoen St. Pretoria North}{076 110 6956\\041 367 5033}\EndHomes
+\EndSection
+\MLDistrictH{Pretoria \& District}
+\MLMeetingH{Andeon}
+\MLHome{Botha}{}{Reagan}
+\MLHome{Cloete}{SunAM,Wed;Elder}{Johan \& Lois}
+\MLHome{Cloete}{}{Leonard}
+\MLHome{Cornwall}{}{Clinton}
+\MLHome{Cornwall-Smith}{}{Carol \& Nigel}
+\MLHome{Crause}{}{Aida}
+\MLHome{Havemann}{}{Leona}
+\MLHome{Janse Van Rensburg}{}{Xavier \& Rosanne, Franco}
+\MLHome{Munguni}{}{Esther}
+\MLHome{Richards}{}{Kaycey, Gorden}
+\MLHome{Vercueil}{SunPM}{Barry \& Ursula}
+\MLMeetingH{Atteridgeville}
+\MLHome{Mashigo}{}{Maria Matsoaisa}
+\MLHome{Mashigo}{All mtgs;Elder}{Snowball, Patricia, Lebogang, Thato, Reabetswe, Oupa (Seabata)}
+\MLMeetingH{Booysens}
+\MLHome{Koen}{}{Pieter \& Nadine, André, Edward}
+\MLHome{Lourens}{SunPM,Wed;Elder}{Kosie \& Isabel}
+\MLHome{Pieterse}{}{Helen}
+\MLHome{Van Rooyen}{}{Chris \& Annatjie}
+\MLHome{Van Rooyen}{SunAM}{Hennie \& Marcharl, Stefan, Charl}
+\MLMeetingH{Huis Abendruhe}
+\MLHome{Greeff}{All mtgs;Elder}{Hendro \& Ina}
+\MLHome{Oldknow}{}{Irene}
+\MLHome{Oliver}{}{Gizela, Lauren, Janine and Harriett}
+\MLHome{Pistorius}{}{Leon}
+\MLHome{Scheepers}{}{Thomas}
+\MLHome{Van Loggerenberg}{}{Bennie}
+\MLMeetingH{Huis Danalet}
+\MLHome{Diplock}{}{Janette}
+\MLHome{Fagan}{}{Anne}
+\MLHome{Fulton}{}{Yvonne}
+\MLHome{Garcia}{}{Heather}
+\MLHome{Mokhethi}{}{Marie}
+\MLHome{Naude}{}{Martha}
+\MLHome{Nortjé}{}{Tobie}
+\MLHome{Ostling}{}{Thea}
+\MLHome{Potgieter}{}{Carlize}
+\MLHome{Steyn}{All mtgs;Elder}{Gerrie \& Phoebe}
+\MLHome{Valadon}{}{Marie}
+\MLHome{Van Heerden}{}{Pieter}
+\MLHome{Weich}{}{Muriel}
+\MLHome{Welgemoed}{}{Anna}
+\MLMeetingH{Murrayfield}
+\MLHome{Cawood}{SunPM}{Stan \& Anna}
+\MLHome{Du Preez}{}{Miempie}
+\MLHome{Herman}{}{Adelie}
+\MLHome{Hurter}{Wed}{James \& Louisa}
+\MLHome{Mitchell}{}{Tiana}
+\MLHome{Oldknow}{}{David}
+\MLHome{Opperman}{SunPM}{Louwrens \& Nittie, Adriaan, Heleen}
+\MLHome{Robijn}{}{Cobie}
+\MLHome{Segwapa}{}{Pumla}
+\MLHome{Vermaak}{SunAM;Elder}{Dale \& Beverley, Clinton, Sherylee, Handen}
+\MLMeetingH{Pecanwood@10h30;C Hughes}
+\MLHome{Andrews}{Wed}{Angeline, Ralph, Ronelle}
+\MLHome{Hughes}{SunAM,SunPM;Elder;SunPM@12pm}{Craig \& Marion, Timothy}
+\MLHome{Hughes}{}{Henny \& Lucy}
+\MLHome{Stucky}{}{Bianca}
+\MLHome{Venter}{}{Elna}
+\MLHome{Webb}{}{Ian (jnr) \& Clarissa}
+\MLHome{Webb}{}{Ian \& Judy, Wayne, Julian, Shani}
+\MLMeetingH{Waverley;S McCarthy}
+\MLHome{Coetzee}{}{Hester}
+\MLHome{Da Silva}{}{Steven \& Nicky, Josslynn, Miané}
+\MLHome{De Kock}{Wed}{Chris}
+\MLHome{Faure}{}{Michael \& Jenny}
+\MLHome{Furber}{Does not attend mtgs}{Richard}
+\MLHome{Jacobs}{}{Jakes \& Henriet}
+\MLHome{Kumire}{}{Leslie \& Mukiri}
+\MLHome{Labuschagne}{}{Julie, Kezia}
+\MLHome{Mc Minn}{attends no meetings}{Marge, Jean, Megan}
+\MLHome{McCarthy}{}{Sheldon}
+\MLHome{McCarthy}{SunAM,Wed;Elder}{Stanley \& Nerine}
+\MLHome{Ross}{}{Hetty}
+\MLHome{Steyn}{}{Gerhard}
+\MLHome{Van der Walt}{}{Elizabeth}
+\MLHome{Van Zyl}{}{Mathilda}
+\MLHome{Vercueil}{}{Jared \& Laura}
+\MLHome{Webb}{Please call Jady Hewitt on 0829225075 to make an appointment in advance.}{Taneil}
+\MLHome{Wilson}{}{Abygail}
+\MLMeetingH{Zambezi Estate}
+\MLHome{Els}{SunPM}{Anton \& Elaine, Quwen, Tristan, Nicole}
+\MLHome{Greeff}{}{Gunther \& Nicolette, Ruben, Zander, Luhan}
+\MLHome{Janse van Rensburg}{}{Willie \& Marlene}
+\MLHome{Manus}{SunAM;Elder}{Leonardo \& Antonino, Chearn, Thamzyn}
+\MLHome{Metz}{}{Frederick}
+\MLHome{Metz}{}{Isabella}
+\MLHome{Swart}{Not able to attend mtgs}{Johann}
+\MLHome{Van Niekerk}{}{Monica}
+\MLMeetingH{Silver Lakes;A Coleske}
+\MLHome{Cawood}{}{Jonathan \& Tricia, Divan}
+\MLHome{Coleske}{SunAM;Elder}{Arnold \& Margie, Arnold (jnr), Isabella}
+\MLHome{Du Toit}{SunPM}{Cobus \& Greta, Eileen, Michal}
+\MLHome{Havemann}{}{Lorna}
+\MLHome{Janse van Rensburg}{}{Christian}
+\MLHome{Keeler}{}{Cameron}
+\MLHome{Mdungazi}{}{Lucky \& Ollie}
+\MLHome{Pickering}{}{Candice}
+\MLHome{Pottie}{}{Rodger}
+\MLHome{Swanepoel}{}{Erhard \& Lynne, Paul, Andrew}
+\MLHome{Swart}{}{Glenys}
+\MLHome{Swart}{Wed}{Riaan \& Lourika, Amica, Riané}
+\MLHome{Swart}{}{Rona}
+\MLMeetingH{Sinoville}
+\MLHome{Els}{}{Annatjie}
+\MLHome{Leach}{Wed}{Anita}
+\MLHome{Mundell}{SunAM}{Ricky}
+\MLHome{Murphy}{Health too poor to attend}{Barbara}
+\MLHome{Van Aardt}{}{Esmé}
+\MLHome{Webb}{Elder}{Ronnie}
+\MLHome{Wright}{}{Noeleen}
+\MLMeetingH{Soshanguve Zone HH}
+\MLHome{Mathebula}{SunAM}{Joyce}
+\MLMeetingH{Huis Abendruhe SunPM@16h00}
+\MLHome{Greeff}{}{Gunther \& Nicolette, Ruben, Zander, Luhan}
+\MLHome{Greeff}{All mtgs;Elder}{Hendro \& Ina}
+\MLHome{Oldknow}{}{Irene}
+\MLHome{Oliver}{}{Gizela, Lauren, Janine and Harriett}
+\MLHome{Pistorius}{}{Leon}
+\MLHome{Scheepers}{}{Thomas}
+\MLHome{Van Loggerenberg}{}{Bennie}
+\MLMeetingH{Pintail St SunPM}
+\MLHome{Els}{}{Annatjie}
+\MLHome{Els}{SunPM}{Anton \& Elaine, Quwen, Tristan, Nicole}
+\MLHome{Janse van Rensburg}{}{Willie \& Marlene}
+\MLHome{Leach}{Wed}{Anita}
+\MLHome{Manus}{SunAM;Elder}{Leonardo \& Antonino, Chearn, Thamzyn}
+\MLHome{Mundell}{SunAM}{Ricky}
+\MLHome{Van Aardt}{}{Esmé}
+\MLHome{Webb}{Elder}{Ronnie}
+\MLHome{Wright}{}{Noeleen}
+\MLMeetingH{Silver Lakes SunPM@17h00;C du Toit}
+\MLHome{Cawood}{}{Jonathan \& Tricia, Divan}
+\MLHome{Coleske}{SunAM;Elder}{Arnold \& Margie, Arnold (jnr), Isabella}
+\MLHome{Du Toit}{SunPM}{Cobus \& Greta, Eileen, Michal}
+\MLHome{Janse van Rensburg}{}{Christian}
+\MLHome{Keeler}{}{Cameron}
+\MLHome{Pickering}{}{Candice}
+\MLHome{Pottie}{}{Rodger}
+\MLHome{Swanepoel}{}{Erhard \& Lynne, Paul, Andrew}
+\MLHome{Swart}{}{Glenys}
+\MLHome{Swart}{Wed}{Riaan \& Lourika, Amica, Riané}
+\MLHome{Swart}{}{Rona}
+\MLMeetingH{The Wilgers Estate SunPM;S Cawood}
+\MLHome{Cawood}{SunPM}{Stan \& Anna}
+\MLHome{Du Preez}{}{Miempie}
+\MLHome{Herman}{}{Adelie}
+\MLHome{Mitchell}{}{Tiana}
+\MLHome{Robijn}{}{Cobie}
+\MLHome{Vermaak}{SunAM;Elder}{Dale \& Beverley, Clinton, Sherylee, Handen}
+\MLMeetingH{Wonderboom South SunPM}
+\MLHome{Coetzee}{}{Hester}
+\MLHome{Da Silva}{}{Steven \& Nicky, Josslynn, Miané}
+\MLHome{De Kock}{Wed}{Chris}
+\MLHome{Faure}{}{Michael \& Jenny}
+\MLHome{Furber}{Does not attend mtgs}{Richard}
+\MLHome{Jacobs}{}{Jakes \& Henriet}
+\MLHome{Kumire}{}{Leslie \& Mukiri}
+\MLHome{McCarthy}{}{Sheldon}
+\MLHome{McCarthy}{SunAM,Wed;Elder}{Stanley \& Nerine}
+\MLHome{Opperman}{SunPM}{Louwrens \& Nittie, Adriaan, Heleen}
+\MLHome{Steyn}{}{Gerhard}
+\MLHome{Van der Walt}{}{Elizabeth}
+\MLHome{Van Zyl}{}{Mathilda}
+\MLHome{Vercueil}{}{Jared \& Laura}
+\MLHome{Wilson}{}{Abygail}
+\MLMeetingH{Andeon WedPM}
+\MLHome{Cloete}{SunAM,Wed;Elder}{Johan \& Lois}
+\MLHome{Cloete}{}{Leonard}
+\MLHome{Havemann}{}{Leona}
+\MLHome{Koen}{}{Pieter \& Nadine, André, Edward}
+\MLHome{Munguni}{}{Esther}
+\MLHome{Van Rooyen}{SunAM}{Hennie \& Marcharl, Stefan, Charl}
+\MLHome{Vercueil}{SunPM}{Barry \& Ursula}
+\MLMeetingH{Booysens WedAM@10h00;K Lourens}
+\MLHome{Crause}{}{Aida}
+\MLHome{Lourens}{SunPM,Wed;Elder}{Kosie \& Isabel}
+\MLHome{Pieterse}{}{Helen}
+\MLHome{Van Rooyen}{}{Chris \& Annatjie}
+\MLMeetingH{Hartbeespoort WedPM@19h30;A Andrews}
+\MLHome{Andrews}{Wed}{Angeline, Ralph, Ronelle}
+\MLHome{Hughes}{SunAM,SunPM;Elder;SunPM@12pm}{Craig \& Marion, Timothy}
+\MLHome{Hughes}{}{Henny \& Lucy}
+\MLHome{Stucky}{}{Bianca}
+\MLHome{Venter}{}{Elna}
+\MLHome{Webb}{}{Ian (jnr) \& Clarissa}
+\MLHome{Webb}{}{Ian \& Judy, Wayne, Julian, Shani}
+\MLMeetingH{Huis Abendruhe WedAM@09h30}
+\MLHome{Greeff}{All mtgs;Elder}{Hendro \& Ina}
+\MLHome{Metz}{}{Isabella}
+\MLHome{Oldknow}{}{Irene}
+\MLHome{Oliver}{}{Gizela, Lauren, Janine and Harriett}
+\MLHome{Pistorius}{}{Leon}
+\MLHome{Scheepers}{}{Thomas}
+\MLHome{Van Loggerenberg}{}{Bennie}
+\MLMeetingH{Huis Danalet WedAM@10h00}
+\MLHome{Diplock}{}{Janette}
+\MLHome{Fagan}{}{Anne}
+\MLHome{Fulton}{}{Yvonne}
+\MLHome{Garcia}{}{Heather}
+\MLHome{Mokhethi}{}{Marie}
+\MLHome{Naude}{}{Martha}
+\MLHome{Nortjé}{}{Tobie}
+\MLHome{Ostling}{}{Thea}
+\MLHome{Potgieter}{}{Carlize}
+\MLHome{Steyn}{All mtgs;Elder}{Gerrie \& Phoebe}
+\MLHome{Valadon}{}{Marie}
+\MLHome{Van Heerden}{}{Pieter}
+\MLHome{Weich}{}{Muriel}
+\MLHome{Welgemoed}{}{Anna}
+\MLMeetingH{Meyerspark WedAM@10h00;J Hurter}
+\MLHome{Cawood}{SunPM}{Stan \& Anna}
+\MLHome{Havemann}{}{Lorna}
+\MLHome{Hurter}{Wed}{James \& Louisa}
+\MLHome{Kruger}{}{Pierre \& Edna}
+\MLHome{Robijn}{}{Cobie}
+\MLHome{Swanepoel}{}{Jannie}
+\MLHome{Swart}{}{Glenys}
+\MLMeetingH{Queenswood WedAM@10h00;C de Kock}
+\MLHome{Coetzee}{}{Hester}
+\MLHome{De Kock}{Wed}{Chris}
+\MLHome{Furber}{Does not attend mtgs}{Richard}
+\MLHome{Van der Walt}{}{Elizabeth}
+\MLHome{Van Zyl}{}{Mathilda}
+\MLHome{Vercueil}{SunPM}{Barry \& Ursula}
+\MLMeetingH{Silver Lakes WedPM@19h30;R Swart}
+\MLHome{Cawood}{}{Jonathan \& Tricia, Divan}
+\MLHome{Coleske}{SunAM;Elder}{Arnold \& Margie, Arnold (jnr), Isabella}
+\MLHome{Du Toit}{SunPM}{Cobus \& Greta, Eileen, Michal}
+\MLHome{Janse van Rensburg}{}{Christian}
+\MLHome{Keeler}{}{Cameron}
+\MLHome{Pickering}{}{Candice}
+\MLHome{Pottie}{}{Rodger}
+\MLHome{Swanepoel}{}{Erhard \& Lynne, Paul, Andrew}
+\MLHome{Swart}{Wed}{Riaan \& Lourika, Amica, Riané}
+\MLHome{Swart}{}{Rona}
+\MLMeetingH{Sinoville WedAM@10h00;R Webb @ A Leach}
+\MLHome{Els}{}{Annatjie}
+\MLHome{Leach}{Wed}{Anita}
+\MLHome{Van Aardt}{}{Esmé}
+\MLHome{Webb}{Elder}{Ronnie}
+\MLHome{Wright}{}{Noeleen}
+\MLMeetingH{Waverley WedPM;S McCarthy}
+\MLHome{Faure}{}{Michael \& Jenny}
+\MLHome{Herman}{}{Adelie}
+\MLHome{McCarthy}{}{Sheldon}
+\MLHome{McCarthy}{SunAM,Wed;Elder}{Stanley \& Nerine}
+\MLHome{Mitchell}{}{Tiana}
+\MLHome{Opperman}{SunPM}{Louwrens \& Nittie, Adriaan, Heleen}
+\MLHome{Vermaak}{SunAM;Elder}{Dale \& Beverley, Clinton, Sherylee, Handen}
+\MLMeetingH{Zambezi Estate WedPM;A Els}
+\MLHome{Els}{SunPM}{Anton \& Elaine, Quwen, Tristan, Nicole}
+\MLHome{Greeff}{}{Gunther \& Nicolette, Ruben, Zander, Luhan}
+\MLHome{Janse van Rensburg}{}{Willie \& Marlene}
+\MLHome{Manus}{SunAM;Elder}{Leonardo \& Antonino, Chearn, Thamzyn}
+\MLHome{Mundell}{SunAM}{Ricky}
+\end{document}
