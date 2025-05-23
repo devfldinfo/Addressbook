@@ -14,10 +14,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Delete .aux and .log files in /output
-        run: |
-          find ./output -type f -name "*.aux" -o -name "*.log" -delete
+    #  - name: Delete .aux and .log files in /output
+    #    run: |
+    #      find ./output -type f -name "*.aux" -o -name "*.log" -delete
 
+      - name: Delete .aux and .log files
+        run: |
+          echo "Deleting .aux and .log files from ./output"
+          find ./output -type f -name "*.aux" -print -delete
+          find ./output -type f -name "*.log" -print -delete
+     
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
