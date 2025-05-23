@@ -1,0 +1,19 @@
+name: Clean Output Directory
+
+on:
+  workflow_dispatch:  # Allows manual trigger from the GitHub UI
+  push:
+    paths:
+      - 'output/**'
+
+jobs:
+  clean-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Delete .aux and .log files in /output
+        run: |
+          find ./output -type f -name "*.aux" -o -name "*.log" -delete
