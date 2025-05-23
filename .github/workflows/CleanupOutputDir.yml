@@ -2,9 +2,9 @@ name: Clean Output Directory
 
 on:
   workflow_dispatch:  # Allows manual trigger from the GitHub UI
-  push:
-    paths:
-      - 'output/**'
+#  push:
+#    paths:
+#      - 'output/**'
 
 jobs:
   clean-files:
