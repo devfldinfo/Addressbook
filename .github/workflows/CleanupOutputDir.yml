@@ -17,3 +17,11 @@ jobs:
       - name: Delete .aux and .log files in /output
         run: |
           find ./output -type f -name "*.aux" -o -name "*.log" -delete
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -u output
+          git commit -m "Remove .aux and .log files from /output"
+          git push
