@@ -1,0 +1,229 @@
+\documentclass[english]{article}
+\title{East London and District}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Abbott}{Woodleigh}{Chris \& Linda; Cottage F1, Fairlands Retirement Village, 44 Vian Road, Cambridge West, 5247; kukkiersa@gmail.com(C) , lindajoh26@gmail.com(L) }{076 790 9686(C)\\072 127 1886(L)}
+\Home{Bell}{Beacon Bay}{Desiree \& Tony; 7 Ravenswood Ave, Nahoon Valley, 5241; desiree.l.bell@gmail.com(D) }{043 735 0804\\063 387 8529(D)}
+\Home{Block}{King William's Town }{Bernadean, Waylon; 35 Barlow Crescent, Breidbach}{078 609 6175(B)\\043 643 3633W}
+\Home{Botha\_Gonubie}{Gonubie}{Lucian \& Nicolene; 24 4th Avenue, Gonubie, 5257; Box 893, Gonubie, 5256; lucianbotha10@gmail.com(L) , nbotha50gmail.com(N) }{083 507 9291(L)\\073 494 7523(N)}
+\Home{Botha}{King William's Town }{Martinus \& Anita, Luzarne, Zavier; 4 Rudolf Ginsberg Rd, Qonce, 5601; Box 56, King Wm's Town, 5600; martinus.botha@gmail.com(M) }{068 627 7388(M)\\078 379 2359(L)}
+\Home{Brandt}{Kidds Beach}{Bernie; Tayside Farm; PO Box 182, Kidd's Beach, 5264}{071 731 2847}
+\Home{Bussack}{Woodleigh}{Eunice, Eulenyé, Llache, Shanice; 12 Atwell st, Baysville; eunicebussack08@gmail.com(E) }{071 686 8322(E)\\0608905198(El)}
+\Home{Buys}{Woodleigh}{Johnnie \& Nellie; Berea Gardens, Flat 59, Jarvis Rd, Berea, 5241}{082 925 3017(N)}
+\Home{Collier}{Clifton Park}{Thelma \& John; Berea Gardens, Flat 44, Jarvis Rd, Berea, 5241}{726686762}
+\Home{Dalziel}{King William's Town }{Connie; 7de Laan, Breidbach}{}
+\Home{Damons}{Queenstown}{Ruth, Zealia, Ethan, Jadon, Luciano; ; (-33.865750,25.474412) }{073 488 3333 }
+\Home{Davira}{Mthatha}{Hendrick; Mthatha; hendrickdavira@yahoo.com}{+26378 553 5110\\643157656}
+\Home{Du Randt}{Woodleigh}{Eileen; E10 Fairlands Retirement Village, 44 Vian Rd, Cambridge, 5201}{082 215 7513}
+\Home{Genade}{Gonubie}{Brazil-Lynn \& Ignatius, Rileigh, Kyle; No 10, Gonubie Palms, 419 Quenera Rd, Quenera, East London, 5257; braziealexander@gmail.com(B) }{082 542 8928(B)\\071 868 3632(I)}
+\Home{Goliath}{Buffalo Flats}{Goli \& Nola, Charlton; 28 Windyridge Rd, Parkside, East London, 5209; ggoliath9@gmail.com(G) , charlton84@gmail.com(C) }{074 713 7000(G)\\084 529 0021(N)\\072 343 2844(C)}
+\Home{Gower}{Kidds Beach}{Shane \& Beverley, Dale, Grant; Lilyvalley Farm, Kidd's beach, East London; PO Box 5186, Greenfields, 5208; sgower@hyperlink.co.za(S) }{082 652 4253(S)\\082 974 7602(B)\\+27 82 474 7610(D)\\082 307 7729(G)}
+\Home{Gower}{Kidds Beach}{Vera; Lilyvalley Farm, Kidd's beach, East London; PO Box 5186, Greenfields, 5208}{082 967 4586}
+\Home{Gower}{Woodleigh}{Deane \& Kelly-Ann, Taylor-Rose, Jordan; 10 Clubar Place, Abbotsford; deane.gower@gmail.com(D) }{083 556 6166(D)\\084 620 1297(K)}
+\Home{Harding}{Beacon Bay}{Stuart \& Maurita; 2 Two Rivers Drive, Dorchester Heights}{0834907085(M)}
+\Home{Havemann}{Clifton Park}{Darryl \& Nikki, Liam, Layla; 17A Hillcrest Dr, Beaconhurst, 5241; darryl@form-it.co.za(D) , nicolettehavemann8@gmail.com(N) }{083 958 5756(N)\\0782398611(D)\\043 748 5205}
+\Home{Havemann}{Gonubie}{Allan \& Dawn; 56 Hazyridge, 9 Swallow Lane, Gonubie; allan.havemann@outlook.com(A) }{083 362 8692(A)\\066 202 8076(D)}
+\Home{Havemann}{Gonubie}{Melanie; 7 Kalinka Gardens, Heiola Street, Gonubie}{081 803 6317(M)}
+\Home{Heilbron}{King William's Town }{Lenie; 7de Laan, Breidbach}{}
+\Home{Hoft}{Fort Beaufort}{Bruce \& Ophelia, Bruce (jr), Barry; 83 Charlotte St., Fort Beaufort, 5720; Box 947, Fort Beaufort, 5720; champsfb@gmail.com, champsalice@gmail.com}{043 555 0442\\083 469 5623(B)\\078 056 7157(O)\\040 653 2535(Bjr)\\046 645 2720(Ba)}
+\Home{Holmes}{King William's Town }{Enrico, Chiano, Chenique; 4 Rudolf Ginsberg Rd, Qonce, 5601}{063 472 2898(E)\\071 893 3602(C)}
+\Home{Holmes}{King William's Town }{Jeanette; Room G19 :Lily Kirchmann Complex, Jarvis Road, Berea, East London; Box 2947, King William's Town, 5600}{}
+\Home{James}{Mthatha}{Marilyn \& Mike; Magogo's Self-catering, Lower Nenga, Mapuzi, Coffee Bay; marilyn.greenworld@gmail.com(Ma) }{+27 71 243 9024(Ma)}
+\Home{Klue}{Fort Beaufort}{Jenny; 27 Lee St., Adelaide, 5760}{082 393 5726}
+\Home{Knickelbein}{Fort Beaufort}{Adrian \& Diane, Sarah; 14 Fraser St., Fort Beaufort, 5720; adriankcph@gmail.com(A) , dianeniland@hotmail.com(D) }{084 240 6063(A)\\084 851 1115(D)}
+\Home{Knickelbein}{Fort Beaufort}{Anna-Marie, Gerald; 30 Church St., Fort Beaufort, 5720; anamarikn07@gmail.com(A) , gaknickelbein@gmail.com(G) }{083 611 4292(A)\\083 227 9359(G)}
+\Home{Koekemoer}{Beacon Bay}{Priscilla; 1 Imp Ave, Lotus Care Home, Beacon Bay, East Londen}{062 042 4724\\046 604 0531}
+\Home{Kula}{Fort Beaufort}{Bukelwa; c/o Champs Chicken}{078 056 2515}
+\Home{Maher}{Woodleigh}{James \& Sharon; 6 Wembley Drive, Cambridge; Srmaher2015@gmail.com}{073 337 6418(J)\\073 208 3264(S)}
+\Home{Mpayipeli (Mini)}{Buffalo Flats}{Constance; 13 30th Rd, Scenery Park, East London, 5253; (-32.995327,27.823249) }{084 738 1864 }
+\Home{Mtongana}{Mthatha}{Lulu; 50 Vukutu Str, Southernwood, Mthatha, 5100; Box 355, Mthatha, 5099; lulumto@gmail.com}{081 586 3045\\083 727 3124}
+\Home{Naude}{Beacon Bay}{Nadine, Emma, Kyle; 27 Lagoon View Drive, Beacon Bay; Box 2557, East London, 5200; nadinegrace@mweb.co.za}{043 748 6761\\083 390 3041}
+\Home{Oldknow}{Beacon Bay}{Gerda; c/o 2 Collingham, Blue Water Place, Beacon Bay, 5241; gerda.oldknow2014@gmail.com}{083 469 8518}
+\Home{Peens}{Gonubie}{Lorna; (Bianca Turner's mom) 44 Seaspray Gate 3, Peace Crescent, Gonubie; lornagpeens@gmail.com}{082 928 0239}
+\Home{Radloff}{Tarkastad}{Cecilia; Corner of Cathcart and Malva St,Tarkastad, 5370 (Use GPS); (-32.0124580, 26.2623300) }{067 580 8269}
+\Home{Robinson}{Clifton Park}{Eunice; 5 Finsbury Terrace, Berea, 5247}{043 726 3531}
+\Home{Robinson}{Clifton Park}{Mark \& Anita; 5 Finsbury Terrace, Berea, 5247; robinsonanita@gmail.com(A) , markarthur.rob@gmail.com(M) }{071 876 4651(M)\\083 711 5601(A)}
+\Home{Schooling}{Beacon Bay}{Debbie, Shane, Chané; 8 Parr Place, Gullsway Ho, Gonubie}{061 461 3923}
+\Home{Schultz}{Queenstown}{Estelle; 15 Winterberg Rd, Queenstown, 5320}{0603255144\\820749456}
+\Home{Sikiti}{Buffalo Flats}{Themba; }{078 527 11835}
+\Home{Sikiti}{Newlands (EL)}{Joyce (Silolo); 30306 St Mary Location}{}
+\Home{Sikiti}{Newlands (EL)}{Lulama (Eunice) \& Gevern, Hlomla; 2077, N. U3 Elinge, Mdantsane}{073 299 0587(E)\\060 721 1090(H)}
+\Home{Snyman}{King William's Town }{Janell; 4 Rudolf Ginsberg Rd, Qonce, 5601}{073 716 4915}
+\Home{Snyman}{King William's Town }{Maria; 6 Brown street, Breidbach, King Williams Town, 5601; Box 2947, King William's Town, 5600}{073 593 1592}
+\Home{Snyman}{Woodleigh}{Bernice \& Henry; 6 Wembley Drive, Chiselhurst, EL; berniesnyman@gmail.com(B) }{083 294 8318(B)\\078 317 1273(H)}
+\Home{Snyman}{Woodleigh}{Leslie, Cassia; 6 Wembley Drive, Chiselhurst, EL}{060 555 8983}
+\Home{Stuart}{Clifton Park}{Mark \& Avril, Denver; 2 Collingham, Blue Water Place, Beacon Bay, 5241; markstuart1402@gmail.com(M) }{083 449 7628(M)\\083 554 9615(A)}
+\Home{Tomose}{Newlands (EL)}{Margaret (Nomtandazo), Nomankosi; 100124, Cuba Village, Newlands; (-32.8968720, 27.7580280) }{064 062 2089(M)}
+\Home{Walters}{Buffalo Flats}{Garreth \& Jezania, Jarred, Cailyn, Matthen; 126 Boeing Road, Buffalo Flats Ext 2-7, 5209}{072 237 1466(G)\\043 7338403}
+\Home{Walters}{Buffalo Flats}{Kenneth \& Shereen; 126 Boeing Rd, Buffalo Flats Ext 2-7, 5209; shereenfwalters@gmail.com(S) }{079 095 7269(K)\\079 423 0737(S)}
+\Home{Webb}{Woodleigh}{Percy; 96 Beach Rd, Nahoon, East London; percywebb83@gmail.com}{083 412 7807}
+\Home{Webb}{Woodleigh}{Stefan \& Mareika, Annabelle; }{}
+\Home{Wentzel}{Queenstown}{Werner \& Renet, Bernard, Daniël, Benjamin; 15 Winterberg St, Queenstown; Box 305, Queenstown, 5320; renetvds@gmail.com(R) , wernerwentzel@gmail.com(W) }{071 198 1135(R)\\083 339 3054(W)}
+\Home{Westcott}{Clifton Park}{Ivor \& Brenda; Berea Gardens, Flat 44, Jarvis Rd, Berea, 5241; brenivs@gmail.com(B) , westcottivor@gmail.com(I) }{084 954 1212(I)\\084 505 7306(B)}
+\Home{Williams}{EL - Unassigned}{Peter; Moved to East London; williamspc@gmail.com}{082 562 7403}
+\Home{Wilmot}{Mthatha}{Sebina (Sebsie); 29 Don Thompson Drive, Fort Gale, Mthatha, 5100; sebinawilmot1956@gmail.com}{076 013 4675}
+\Home{Zenani}{Newlands (EL)}{Tandi; 30306 St Mary Location; P.O. St Lukes, Newlands, 5201; (-32.8879620, 27.7676070) }{069 433 3950(T)}\EndHomes
+\EndSection
+\MLDistrictH{East London and District}
+\MLMeetingH{Beacon Bay}
+\MLHome{Bell}{}{Desiree}
+\MLHome{Harding}{}{Stuart \& Maurita}
+\MLHome{Koekemoer}{}{Priscilla}
+\MLHome{Naude}{}{Nadine, Emma, Kyle}
+\MLHome{Oldknow}{}{Gerda}
+\MLHome{Schooling}{}{Debbie, Shane, Chané}
+\MLMeetingH{Buffalo Flats;To Kidd's Beach 1st Sunday of month}
+\MLHome{Goliath}{Wed;Elder;3rd Sun of mnth to KBeach}{Goli \& Nola, Charlton}
+\MLHome{Mpayipeli (Mini)}{}{Constance}
+\MLHome{Sikiti}{Gather on own on WedPM}{Themba}
+\MLHome{Walters}{3rd Sun of mnth to KBeach}{Garreth, Jarred, Cailyn, Matthen}
+\MLHome{Walters}{SunAM;3rd Sun of mnth to KBeach}{Kenneth \& Shereen}
+\MLMeetingH{Clifton Park}
+\MLHome{Collier}{}{Thelma \& John}
+\MLHome{Havemann}{}{Darryl \& Nikki, Liam, Layla}
+\MLHome{Robinson}{}{Eunice}
+\MLHome{Robinson}{SunAM,Wed;Elder}{Mark \& Anita}
+\MLHome{Stuart}{SunPM}{Mark \& Avril, Denver}
+\MLHome{Westcott}{}{Ivor \& Brenda}
+\MLMeetingH{EL - Unassigned}
+\MLHome{Williams}{}{Peter}
+\MLMeetingH{Fort Beaufort}
+\MLHome{Hoft}{SunAM,Wed;Elder;1st Sun alt mnth to Adelaide}{Bruce \& Ophelia, Bruce (jr), Barry}
+\MLHome{Klue}{}{Jenny}
+\MLHome{Knickelbein}{}{Adrian \& Diane, Sarah}
+\MLHome{Knickelbein}{SunPM}{Anna-Marie, Gerald}
+\MLHome{Kula}{}{Bukelwa}
+\MLMeetingH{Gonubie;A Havemann}
+\MLHome{Botha\_Gonubie}{SunPM}{Lucian \& Nicolene}
+\MLHome{Genade}{}{Brazil-Lynn \& Ignatius, Rileigh, Kyle}
+\MLHome{Havemann}{SunAM,Wed;Elder}{Allan \& Dawn}
+\MLHome{Havemann}{}{Melanie}
+\MLHome{Peens}{}{Lorna}
+\MLMeetingH{Kidds Beach;To Buffalo Flats 3rd Sunday of month}
+\MLHome{Brandt}{}{Bernie}
+\MLHome{Gower}{All mtgs;Elder;3rd Sun of mnth to Bflats- Not possible at the moment}{Shane \& Beverley, Dale, Grant}
+\MLHome{Gower}{}{Vera}
+\MLMeetingH{Mthatha}
+\MLHome{Davira}{}{Hendrick}
+\MLHome{James}{}{Marilyn}
+\MLHome{Mtongana}{All mtgs;Elder}{Lulu}
+\MLHome{Wilmot}{}{Sebina (Sebsie)}
+\MLMeetingH{Newlands (EL)}
+\MLHome{Sikiti}{}{Joyce (Silolo)}
+\MLHome{Sikiti}{Sometimes to Buffalo flats}{Lulama (Eunice), Hlomla}
+\MLHome{Tomose}{}{Margaret (Nomtandazo)}
+\MLHome{Zenani}{All mtgs;Elder}{Tandi}
+\MLMeetingH{Queenstown}
+\MLHome{Damons}{}{Ruth, Zealia, Ethan, Jadon}
+\MLHome{Schultz}{}{Estelle}
+\MLHome{Wentzel}{All mtgs;Elder}{Werner \& Renet, Bernard, Daniël, Benjamin}
+\MLMeetingH{Tarkastad}
+\MLHome{Radloff}{SunAM}{Cecilia}
+\MLMeetingH{Woodleigh}
+\MLHome{Abbott}{}{Chris \& Linda}
+\MLHome{Bussack}{}{Eunice, Eulenyé, Llache, Shanice}
+\MLHome{Buys}{}{Johnnie \& Nellie}
+\MLHome{Du Randt}{}{Eileen}
+\MLHome{Gower}{}{Deane \& Kelly-Ann, Taylor-Rose, Jordan}
+\MLHome{Maher}{SunPM;Sharon goes Wed pm to Gonubie}{James \& Sharon}
+\MLHome{Snyman}{}{Bernice \& Henry}
+\MLHome{Snyman}{}{Leslie, Cassia}
+\MLHome{Webb}{SunAM,Wed;Elder}{Percy}
+\MLHome{Webb}{}{Stefan \& Mareika, Annabelle}
+\MLMeetingH{King William's Town}
+\MLHome{Block}{}{Bernadean, Waylon}
+\MLHome{Botha}{SunAM,SunPM;Elder}{Martinus \& Anita, Luzarne, Zavier}
+\MLHome{Dalziel}{}{Connie}
+\MLHome{Heilbron}{}{Lenie}
+\MLHome{Holmes}{}{Enrico, Chiano, Chenique}
+\MLHome{Holmes}{}{Jeanette}
+\MLHome{Snyman}{}{Janell}
+\MLHome{Snyman}{Wed}{Maria}
+\MLMeetingH{Beacon Bay SunPM@17h00;A Stuart}
+\MLHome{Bell}{}{Desiree}
+\MLHome{Harding}{}{Stuart \& Maurita}
+\MLHome{Koekemoer}{}{Priscilla}
+\MLHome{Naude}{}{Nadine, Emma, Kyle}
+\MLHome{Oldknow}{}{Gerda}
+\MLHome{Schooling}{}{Debbie, Shane, Chané}
+\MLMeetingH{Buffalo Flats WedPM;K Walters}
+\MLHome{Goliath}{Wed;Elder;3rd Sun of mnth to KBeach}{Goli \& Nola, Charlton}
+\MLHome{Mpayipeli (Mini)}{}{Constance}
+\MLHome{Sikiti}{Gather on own on WedPM}{Themba}
+\MLHome{Walters}{3rd Sun of mnth to KBeach}{Garreth, Jarred, Cailyn, Matthen}
+\MLHome{Walters}{SunAM;3rd Sun of mnth to KBeach}{Kenneth \& Shereen}
+\MLMeetingH{Clifton Park SunPM@17h00;M Stuart}
+\MLHome{Collier}{}{Thelma \& John}
+\MLHome{Havemann}{}{Darryl \& Nikki, Liam, Layla}
+\MLHome{Robinson}{}{Eunice}
+\MLHome{Robinson}{SunAM,Wed;Elder}{Mark \& Anita}
+\MLHome{Stuart}{SunPM}{Mark \& Avril, Denver}
+\MLHome{Westcott}{}{Ivor \& Brenda}
+\MLMeetingH{Woodleigh SunPM;J Maher}
+\MLHome{Abbott}{}{Chris \& Linda}
+\MLHome{Bussack}{}{Eunice, Eulenyé, Llache, Shanice}
+\MLHome{Buys}{}{Johnnie \& Nellie}
+\MLHome{Du Randt}{}{Eileen}
+\MLHome{Gower}{}{Deane \& Kelly-Ann, Taylor-Rose, Jordan}
+\MLHome{Maher}{SunPM;Sharon goes Wed pm to Gonubie}{James \& Sharon}
+\MLHome{Snyman}{}{Bernice \& Henry}
+\MLHome{Snyman}{}{Leslie, Cassia}
+\MLHome{Webb}{SunAM,Wed;Elder}{Percy}
+\MLHome{Webb}{}{Stefan \& Mareika, Annabelle}
+\MLMeetingH{Beacon Bay WedPM@19h30;A Stuart}
+\MLHome{Bell}{}{Desiree}
+\MLHome{Harding}{}{Stuart \& Maurita}
+\MLHome{Koekemoer}{}{Priscilla}
+\MLHome{Naude}{}{Nadine, Emma, Kyle}
+\MLHome{Oldknow}{}{Gerda}
+\MLHome{Schooling}{}{Debbie, Shane, Chané}
+\MLMeetingH{Breidbach WedPM@19h00}
+\MLHome{Block}{}{Bernadean, Waylon}
+\MLHome{Botha}{SunAM,SunPM;Elder}{Martinus \& Anita, Luzarne, Zavier}
+\MLHome{Dalziel}{}{Connie}
+\MLHome{Heilbron}{}{Lenie}
+\MLHome{Holmes}{}{Enrico, Chiano, Chenique}
+\MLHome{Holmes}{}{Jeanette}
+\MLHome{Snyman}{}{Janell}
+\MLHome{Snyman}{Wed}{Maria}
+\MLMeetingH{Buffalo Flats SunPM@19h30;K Walters}
+\MLHome{Goliath}{Wed;Elder;3rd Sun of mnth to KBeach}{Goli \& Nola, Charlton}
+\MLHome{Mpayipeli (Mini)}{}{Constance}
+\MLHome{Sikiti}{Gather on own on WedPM}{Themba}
+\MLHome{Walters}{3rd Sun of mnth to KBeach}{Garreth, Jarred, Cailyn, Matthen}
+\MLHome{Walters}{SunAM;3rd Sun of mnth to KBeach}{Kenneth \& Shereen}
+\MLMeetingH{Clifton Park WedPM@19h30;M Robinson}
+\MLHome{Collier}{}{Thelma \& John}
+\MLHome{Gower}{}{Deane \& Kelly-Ann, Taylor-Rose, Jordan}
+\MLHome{Havemann}{}{Darryl \& Nikki, Liam, Layla}
+\MLHome{Robinson}{}{Eunice}
+\MLHome{Robinson}{SunAM,Wed;Elder}{Mark \& Anita}
+\MLHome{Stuart}{SunPM}{Mark \& Avril, Denver}
+\MLHome{Westcott}{}{Ivor \& Brenda}
+\MLMeetingH{Gonubie WedPM@19h30;A Havemann}
+\MLHome{Botha\_Gonubie}{SunPM}{Lucian \& Nicolene}
+\MLHome{Genade}{}{Brazil-Lynn \& Ignatius, Rileigh, Kyle}
+\MLHome{Havemann}{SunAM,Wed;Elder}{Allan \& Dawn}
+\MLHome{Havemann}{}{Melanie}
+\MLHome{Peens}{}{Lorna}
+\MLMeetingH{Newlands (EL) WedPM@14h30;Zenani}
+\MLHome{Sikiti}{}{Joyce (Silolo)}
+\MLHome{Sikiti}{Sometimes to Buffalo flats}{Lulama (Eunice), Hlomla}
+\MLHome{Tomose}{}{Margaret (Nomtandazo)}
+\MLHome{Zenani}{All mtgs;Elder}{Tandi}
+\MLMeetingH{Woodleigh WedAM@10h30;P Webb}
+\MLHome{Abbott}{}{Chris \& Linda}
+\MLHome{Bussack}{}{Eunice, Eulenyé, Llache, Shanice}
+\MLHome{Buys}{}{Johnnie \& Nellie}
+\MLHome{Du Randt}{}{Eileen}
+\MLHome{Maher}{SunPM;Sharon goes Wed pm to Gonubie}{James \& Sharon}
+\MLHome{Snyman}{}{Bernice \& Henry}
+\MLHome{Snyman}{}{Leslie, Cassia}
+\MLHome{Webb}{SunAM,Wed;Elder}{Percy}
+\MLHome{Webb}{}{Stefan \& Mareika, Annabelle}
+\end{document}
