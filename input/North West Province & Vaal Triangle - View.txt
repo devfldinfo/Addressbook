@@ -1,0 +1,184 @@
+\documentclass[english]{article}
+\title{North West Province \& Vaal Triangle}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Aspeling}{Meyerton}{Veronica; 37 Mimi Fourie Court Flats, First Floor, 26 Market Ave, Vereeniging}{082 535 8697}
+\Home{Badenhorst}{Kock St Potch}{Dylan; 50 Goud Str, Potchefstroom, 2531}{078 181 0921}
+\Home{Barnard}{Irene Park}{Tienie \& Gina; 17 Henry Rd, Irene Park, Klerksdorp; P O Box 6954, Flamwood, 2572; tieniebarnard2@telkomsa.net}{018 462 9068\\079 997 5227(T)\\082 332 7105(G)}
+\Home{Barnard}{Klerk Industria}{Hugo \& Odette, Nina, Eben; 17 Overberg Cres, Wilkoppies, 2571, Klerksdorp; ody@absamail.co.za(O) }{082 573 3259(H)\\083 785 0220(O)\\018 464 4296 W(H)}
+\Home{Barnard}{Kock St Potch}{Danie \& Reneé; Eleazer, ip 377, gedeelte 2; daniebarnard20@gmail.com(D) , reneebarnard1@gmail.com(R) ; (8VG3+26R Potchefstroom) }{066 157 4856(D)\\083 626 5713(D)\\078 150 1560(R)}
+\Home{Botha}{Irene Park}{Gail, Josh; 36 Jan van Riebeeck St, Stilfontein, 2551; Ext 6 Gail work; gail.b@curro.co.za}{084 677 3025(Gail)\\018 462 9023W}
+\Home{Bransby}{Van der Bijl}{Gloria; Stays with daughter Madeleine in Vereeniging.; gloriabransby@gmail.com}{082 893 3070}
+\Home{Brender-a-Brandis}{Van der Bijl}{Juliana; Huis Siesta,  Kamer 1 (Tweede vloer)  Saal D,  Pasteur Boulevard,  CW1, Vanderbijlpark, 1911; julianabrender@gmail.com}{083 321 8040}
+\Home{Chigara}{\~Gaborone}{Ernest \& Charlene, Gladys, Jasmine, Briella; Lot 1156, Three Kopje, Mokatse; PO Box 3971 CPO Gaborone; echigara01@gmail.com; (-24.603578,26.102305) }{+267 719 19372(E)\\+26772880707(C)\\+267 393 6007}
+\Home{Cottle}{Irene Park}{Rachel; 115 Buffelsfontein Rd, Stilfontein}{071 762 8115}
+\Home{De Ruiter}{Irene Park}{Sharon; 64 Ruth First Str, Stilfontein}{079 746 7938}
+\Home{Dowa}{Van der Bijl}{Ryan (Mahwehwe); 1054 Auriga road, Riverbend Gardens, Vanderbijlpark, 1939; (-26.7170190, 27.8842390) }{+2772 382 5585}
+\Home{Ecroignard}{Hartebeesfontein}{Robbie \& Mara; 51 Berg street, Hartebeestfontein; P O Box 732, Hartbeesfontein 2600; recroignard@gmail.com(R) }{018 431 0216\\082 890 2369(R)\\072 948 6616(M)}
+\Home{Engelbrecht}{Rustenburg}{Connie, Martin; Olifantsbrug; Box 5780, Rustenburg, 0300; engelbrechtcj1@gmail.com(C) ; (-25.8561630, 27.2887300) }{076 574 9246(C)\\083 416 6478(C)\\083 417 9502(M)}
+\Home{Engelbrecht}{Van der Bijl}{Herman; 32 Robert Broom St. CE5 van der Byl}{+27621261966}
+\Home{Erasmus}{Klerk Industria}{Lorraine; Oleander Retirement home. Leemhuis st, Klerksdorp; P O Box 7029, Flamwood, 2572}{064 836 1289}
+\Home{Faul}{Irene Park}{Estemóa; 15 Pagel Becker St, Klerksdorp; P O Box 14337, Flamwood Walk 2535; benestefaul@gmail.com}{018 468 6962\\082 408 3288}
+\Home{Faul}{Klerk Industria}{Benjamin \& Chantel (Stellie), Amé, Mynhardt, Ruben; 15 Pagel Bekker st, Klerksdorp; benjamin.faul@gmail.com(B) , stellie.robijn@gmail.com(C) }{078 694 7535(B)\\082 775 0602(C)}
+\Home{Faul}{Klerk Industria}{Ralie; 12 Fabriek st, Klerksdorp Industrial, Klerksdorp; P O Box 6088, Flamwood 2572; raliefaul@gmail.com}{018 468 4682\\073 337 3831}
+\Home{Faul}{Klerk Industria}{Willie (jnr) \& Caren, Wian, Carmien, Johane; -26.8474873, 26.5996026; williefaul@hotmail.com(Wj) , weidemancaren@gmail.com(C) }{083 481 6098(Wj)\\071 334 4068(C)}
+\Home{Faul}{Van der Hoff Park}{Denice, Delahni; 19 Olive Wood, Van der Hoff; P O Box 70016, Miederpark, Potch; difauls@vodamail.co.za, denicefaul@gmail.com(D) }{071 351 2678(Del)\\082 326 0554(D)}
+\Home{Faul}{Van der Hoff Park}{Joseph \& Ilze, Liam; 24 van Eck str, Bailey Park. Potchefstroom; josephf452@gmail.com}{073 265 9953(J)\\071 838 1127(I)}
+\Home{Ferreira}{Kock St Potch}{Francois; 25 Michael Heyns St, Woonstel 6, Dassierand, Potchefstroom, NW, 2531}{072 837 7170}
+\Home{Göss}{Meyerton}{Pieter \& Elize; 15 Sam Hewitt street, The Willows, nr.38, Riversdal, Meyerton; P O Box 1395, Meyerton, 1960}{076 664 2585(E)}
+\Home{Holmes}{Meyerton}{Geoff \& Ina-Marie; 2 Heron Drive, Three Rivers East, 1929; Box 24317, Three Rivers East 1941; grholmes7@gmail.com}{016 454 9430\\082 807 0706(G)\\083 632 6673(I)}
+\Home{Jacobs}{Mahikeng}{Arthur \& Annie; House 5089, Imperial Reserve, Ext 38, Mafikeng, 2745; (4JQG+6R3 Mahikeng) }{083 582 0976}
+\Home{James}{Meyerton}{Alwyn; 2 Vilette rd, Riversdal, Meyerton}{076 249 4647(A)}
+\Home{Janse van Vuuren}{Meyerton}{Vashti; Moved to Van der Bijl}{0847004505(V)}
+\Home{Kelbrick}{Van der Bijl}{Noel \& Rita; 68 Rosendal Landgoed, Stuttaford St, SE2, Vanderbijlpark; P O Box 12315, Lumier, 1905; noelkelbrick@gmail.com}{016 982 1604\\083 231 2029(N)\\084 505 6411(R)}
+\Home{Louw}{Hartebeesfontein}{George; 15 Uys Krige str, Stilfontein; georgelouw74@gmail.com}{018 484 3391\\084 823 9477}
+\Home{Louw}{Hartebeesfontein}{James; 15 Uys Krige str, Stilfontein; jameslouw119@gmail.com}{018 484 2074\\084 735 6673}
+\Home{Mann}{Van der Hoff Park}{David \& Annora; 10 Wagner St, Van der Hoff Park, Potchefstroom; P O Box 1654, Potchefstroom, 2520; david@fest.co.za}{082 800 2221(D)\\082 800 5559(A)}
+\Home{Mostert}{Derby}{Frans; Bultfontein; Box 67, Derby, 0347; fbmostert@gmail.com}{082 823 3379}
+\Home{Mostert}{Rustenburg}{Paul \& Antoinette; 55 Wildevy Avenue, Protea Park, Rustenburg, 0299; Box 20853, Protea Park, 0305; ppmostert@gmail.com}{082 455 4894(P)\\072 225 6508(A)}
+\Home{Nepgen}{Irene Park}{Constance; 110 Jasmyn st. Flimieda. Klerksdorp}{073 121 5064}
+\Home{Niehaus}{Meyerton}{Banie \& Louise; 19 Fitzsimmon St, SE6, Vanderbijlpark; P O Box 5735, Vanderbijlpark, 1900; banie.niehaus50@gmail.com}{082 465 5501(B)\\082 412 5115(L)}
+\Home{Niehaus}{Van der Bijl}{Naomi; Bron van Heil Tehuis, Heilbron; P O Box 5735, Vanderbijlpark, 1900; (-26.697881,27.698465) }{083 284 5295}
+\Home{Nolte}{Rustenburg}{Susan; 42 Arend rd, Santa Monica w/s, 22 Safari Tuine, Rustenburg, 0299; Box 20853, Protea Park, 0305; noltesusan@gmail.com}{072 396 8686}
+\Home{Oelofse}{Rustenburg}{Alta; Boshoek; PO Box 239, Boshoek, 0301; asoelofse@nwpg.gov.za; (-25.492615,27.085583) }{072 551 5329}
+\Home{Oldknow}{Kock St Potch}{Sharon; House 4, Amelia centre, Richardson Street, Potchefstroom}{018 290 5543}
+\Home{Pottas}{Van der Hoff Park}{Andries \& Maria, MariaJr; 33 Lucca, Tuscany Ridge, Potchefstroom; greylingpot@gmail.com(M) , andriespottas@gmail.com(A) }{073 802 1712(M)\\076 827 4341(MJr)}
+\Home{Robijn}{Kock St Potch}{Alex \& Lil; 134 Kock St, Potchefstroom; lilro@telkomsa.net}{0829207209(A)\\0828571109(L)}
+\Home{Robijn}{Kock St Potch}{Nicky (jnr) \& Chantelle, Nantes, Chanique; 6 Boom St, Potchefstroom; nicky.robijn@gmail.com(N) , chanteldek@gmail.com(C) }{064 954 6569(N)\\072 436 0089(C)}
+\Home{Robijn}{Kock St Potch}{Nicky \& Marina; 134 Kock St, Potchefstroom; P O Box 251, Potchefstroom, 2520; marina.robijn@gmail.com(M) , nicmyq@gmail.com(N) }{018 297 1809\\082 892 3861(N)\\082 554 1585(M)\\018 297 1121 W}
+\Home{Smit}{Van der Hoff Park}{Dawn; 10 Verdi st, Van der Hoff, Potchefstroom}{081 020 7091}
+\Home{Stander}{Zeerust}{Marietjie; Doornhoek farm, JP 298, Zeerust 2865; P.O. Box 987, Zeerust, 2865; stander.billy2@gmail.com; (-25.66807,26.147547) }{082 515 3659(M)}
+\Home{Swanepoel}{Van der Bijl}{Alta \& Nick; 10 Schonland St, SW2, Vanderbijlpark; P O Box 3723, Vanderbijlpark, 1900}{016 933 5873 H\\016 933 0505 W\\072 719 7690(A)}
+\Home{Swanepoel}{Van der Bijl}{Niekie \& Liezel, Kobus, Jaco; 8 Gainsborough St, SW 2, Vanderbijlpark; P O Box 3723, Vanderbijlpark, 1900; niekies82@gmail.com(N) }{082 744 8154(N)\\072 336 6818(L)}
+\Home{Terblanche}{Kock St Potch}{Jaco \& Natasha, Regardt, Karlien; Buxton House 5, Boys High School, Potchefstroom; PO Box 231 Potchefstroom 2520; terblanch@gmail.co(J) , tassyr@gmail.com(N) }{061 441 6665(J)\\082 907 7416(N)}
+\Home{Thomas}{Irene Park}{Edith \& David; 13 Molopo St, Stilfontein, 2551; edith@cpl.za.net}{018 484 3427\\082 301 4983(E)}
+\Home{Van Der Schyff}{Derby}{Louis \& Anette; Derby; Bultfontein Box 48, Derby, 0347; louisvanderschyff@gmail.com(L) , asvanderschyff@gmail.com(A) ; (-25.9932410, 27.0971830) }{084 587 6622(L)\\083 389 1790(A)\\071 690 8794 H}
+\Home{Van Heerden}{Van der Bijl}{Martin \& Marietjie; Huis Silverjare Theal Street, Sasolburg; Box 3768, Vanderbijlpark, 1900; martinvanheerden00@gmail.com}{064 037 8684(Mn)\\079 438 3125(Me)}
+\Home{Van Niekerk}{Carletonville}{Pietie, Christa; 9 Kowie st, Carltonville; christagibson.1@gmail.com}{018 786 2326H\\083 946 7876(C)}
+\Home{Van Niekerk}{Irene Park}{Dawid \& Evelyn; Jaconic hof, 8 Neeltjies street, Meiringspark, Klerksdorp; 6107, Flamwood, Klerksdorp, 2572; evelynfvn@gmail.com(E) }{083 236 2513(E)\\076 723 5115(E)}
+\Home{Van Rooyen}{Kock St Potch}{Clarise; 18 Wilgim street, No 1 Silverpark, Potchefstroom}{071 670 1620}
+\Home{Van Rooyen}{Kock St Potch}{Nina; 18 Wilgim street, No 1 Silverpark, Potchefstroom}{072 737 5264}
+\Home{Van der Merwe}{Kock St Potch}{Petrus \& Maureen; 134 Kock St, Potchefstroom}{076 472 0667(P)\\083 617 1889(M)}
+\Home{Viljoen}{Meyerton}{Neill \& Estelle; 57 Brandmuller Dr, Three Rivers; P O Box 1306, Vereeniging, 1930; vaaltfire@icon.co.za}{016 423 3103\\082 447 0889(N)\\082 457 2012(E)\\016 423 3104 Fax}
+\Home{Viljoen}{Rustenburg}{Carol; 18 Pipit Ave, Safari Gardens, Rustenburg; PostNet Suite 809, Private Bag X82329, Rustenburg, 0300; carolviljoen57@gmail.com}{082 808 6427}
+\Home{Vosloo}{Rustenburg}{Thinus \& Esther, Ané, Marthinus; 42 Rowland Close, Mooinooi, 0325; thinus@sv-law.co.za(T) , esther.vosloo1@gmail.com(E) }{082 921 0884(T)\\078 251 4465(E)}
+\Home{Wannenburg}{Hartebeesfontein}{Michael \& Dorothy; 5 Jooste street, Hartebeesfontein}{076 278 2463(M)\\071 341 8759(D)}
+\Home{Webb}{Irene Park}{George \& Beverley; 36 Jan van Riebeeck St, Stilfontein, 2551}{082 824 6116(G)\\082 788 9856(B)}
+\Home{Wessels}{Irene Park}{Ilse, Minke; 65 Johannesburg Rd, Irene Park; P O Box 14080, Flamwood Walk 2535; ilsew@polka.co.za}{082 495 2223(I)\\018 464 2369 W(I)}\EndHomes
+\EndSection
+\MLDistrictH{North West Province \& Vaal Triangle}
+\MLMeetingH{\~Gaborone}
+\MLHome{Chigara}{All mtgs;Elder}{Ernest \& Charlene, Gladys, Jasmine, Briella}
+\MLMeetingH{Carletonville}
+\MLHome{Van Niekerk}{Christa Gibson (Daughter where she is staying)}{Pietie, Christa}
+\MLMeetingH{Derby}
+\MLHome{Mostert}{SunPM}{Frans}
+\MLHome{Van Der Schyff}{SunAM,Wed;Elder}{Louis \& Anette}
+\MLMeetingH{Hartebeesfontein}
+\MLHome{Ecroignard}{SunAM,SunPM;Elder;Sun 10h30 and 5pm}{Robbie \& Mara}
+\MLHome{Louw}{}{George}
+\MLHome{Louw}{}{James}
+\MLHome{Wannenburg}{Wed;Wed 10h30}{Michael \& Dorothy}
+\MLMeetingH{Klerk Industria}
+\MLHome{Barnard}{SunPM;Elder}{Hugo \& Odette, Nina, Eben}
+\MLHome{Erasmus}{}{Lorraine}
+\MLHome{Faul}{Wed;WedPM Alt with Willie}{Benjamin \& Chantel (Stellie), Amé, Mynhardt, Ruben}
+\MLHome{Faul}{SunAM}{Ralie}
+\MLHome{Faul}{Wed;WedPM Alt with Benjamin}{Willie (jnr) \& Caren, Wian, Carmien, Johane}
+\MLMeetingH{Kock St Potch}
+\MLHome{Badenhorst}{}{Dylan}
+\MLHome{Barnard}{}{Danie \& Reneé}
+\MLHome{Ferreira}{}{Francois}
+\MLHome{Oldknow}{}{Sharon}
+\MLHome{Robijn}{}{Alex \& Lil}
+\MLHome{Robijn}{}{Nicky (jnr) \& Chantelle, Nantes, Chanique}
+\MLHome{Robijn}{All mtgs;Elder}{Nicky \& Marina}
+\MLHome{Terblanche}{}{Jaco \& Natasha, Regardt, Karlien}
+\MLHome{Van der Merwe}{}{Petrus \& Maureen}
+\MLHome{Van Rooyen}{}{Clarise}
+\MLHome{Van Rooyen}{}{Nina}
+\MLMeetingH{Mahikeng}
+\MLHome{Jacobs}{All mtgs;Elder}{Arthur \& Annie}
+\MLMeetingH{Meyerton@SunPM@5pm Sept-May; Jun-Aug 4h30pm}
+\MLHome{Aspeling}{}{Veronica}
+\MLHome{Göss}{All mtgs;Elder;Sun 4h30pm, Wed 10:30}{Pieter \& Elize}
+\MLHome{Holmes}{Takes SunPM}{Geoff \& Ina-Marie}
+\MLHome{James}{SunAM only}{Alwyn}
+\MLHome{Janse van Vuuren}{}{Vashti}
+\MLHome{Niehaus}{Takes WedAM}{Banie \& Louise}
+\MLHome{Viljoen}{}{Neill \& Estelle}
+\MLMeetingH{Rustenburg}
+\MLHome{Engelbrecht}{}{Connie, Martin}
+\MLHome{Mostert}{All mtgs;Elder}{Paul \& Antoinette}
+\MLHome{Nolte}{}{Susan}
+\MLHome{Oelofse}{}{Alta}
+\MLHome{Viljoen}{}{Carol}
+\MLHome{Vosloo}{}{Thinus \& Esther, Ané, Marthinus}
+\MLMeetingH{Van der Bijl}
+\MLHome{Bransby}{}{Gloria}
+\MLHome{Brender-a-Brandis}{}{Juliana}
+\MLHome{Dowa}{}{Ryan (Mahwehwe)}
+\MLHome{Engelbrecht}{}{Herman}
+\MLHome{Kelbrick}{Takes SunPM}{Noel \& Rita}
+\MLHome{Niehaus}{}{Naomi}
+\MLHome{Swanepoel}{}{Alta \& Nick}
+\MLHome{Swanepoel}{All mtgs;Elder;WedPm 7h30pm, SunPM 5pm}{Niekie \& Liezel, Kobus, Jaco}
+\MLHome{Van Heerden}{Don't attend mtgs}{Martin \& Marietjie}
+\MLMeetingH{Van der Hoff Park}
+\MLHome{Faul}{}{Denice, Delahni}
+\MLHome{Faul}{}{Joseph \& Ilze, Liam}
+\MLHome{Mann}{All mtgs;Elder}{David \& Annora}
+\MLHome{Pottas}{}{Andries \& Maria, MariaJr}
+\MLHome{Smit}{}{Dawn}
+\MLMeetingH{Zeerust}
+\MLHome{Stander}{SunPM}{Marietjie}
+\MLMeetingH{Irene Park;T Barnard}
+\MLHome{Barnard}{SunAM,SunPM;Elder}{Tienie \& Gina}
+\MLHome{Botha}{}{Gail, Josh}
+\MLHome{Cottle}{}{Rachel}
+\MLHome{De Ruiter}{Wed}{Sharon}
+\MLHome{Faul}{Wed}{Estemóa}
+\MLHome{Nepgen}{}{Constance}
+\MLHome{Thomas}{}{Edith \& David}
+\MLHome{Van Niekerk}{}{Dawid \& Evelyn}
+\MLHome{Webb}{SunPM}{George \& Beverley}
+\MLHome{Wessels}{}{Ilse, Minke}
+\MLMeetingH{Irene Park SunPM;T Barnard}
+\MLHome{Barnard}{SunAM,SunPM;Elder}{Tienie \& Gina}
+\MLHome{Faul}{Wed}{Estemóa}
+\MLHome{Nepgen}{}{Constance}
+\MLHome{Van Niekerk}{}{Dawid \& Evelyn}
+\MLHome{Wessels}{}{Ilse, Minke}
+\MLMeetingH{Webb SunPM;Webb}
+\MLHome{Botha}{}{Gail, Josh}
+\MLHome{Cottle}{}{Rachel}
+\MLHome{De Ruiter}{Wed}{Sharon}
+\MLHome{Thomas}{}{Edith \& David}
+\MLHome{Webb}{SunPM}{George \& Beverley}
+\MLMeetingH{De Ruiter WedPM;De Ruiter}
+\MLHome{Botha}{}{Gail, Josh}
+\MLHome{Cottle}{}{Rachel}
+\MLHome{De Ruiter}{Wed}{Sharon}
+\MLHome{Louw}{}{George}
+\MLHome{Louw}{}{James}
+\MLHome{Thomas}{}{Edith \& David}
+\MLHome{Webb}{SunPM}{George \& Beverley}
+\MLMeetingH{Estemoa WedAM;Faul}
+\MLHome{Barnard}{SunAM,SunPM;Elder}{Tienie \& Gina}
+\MLHome{Faul}{Wed}{Estemóa}
+\MLHome{Nepgen}{}{Constance}
+\MLHome{Van Niekerk}{}{Dawid \& Evelyn}
+\MLMeetingH{Klerksdorp WedPM;Benjamin alt WillieJr}
+\MLHome{Barnard}{SunPM;Elder}{Hugo \& Odette, Nina, Eben}
+\MLHome{Faul}{Wed;WedPM Alt with Willie}{Benjamin \& Chantel (Stellie), Amé, Mynhardt, Ruben}
+\MLHome{Faul}{SunAM}{Ralie}
+\MLHome{Faul}{Wed;WedPM Alt with Benjamin}{Willie (jnr) \& Caren, Wian, Carmien, Johane}
+\MLMeetingH{Wannenburg WedAM;Wannenburg}
+\MLHome{Ecroignard}{SunAM,SunPM;Elder;Sun 10h30 and 5pm}{Robbie \& Mara}
+\MLHome{Wannenburg}{Wed;Wed 10h30}{Michael \& Dorothy}
+\end{document}
