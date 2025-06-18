@@ -1,0 +1,87 @@
+\documentclass[english]{article}
+\title{WC Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Akligo}{Worker}{Glynnis; Date of Birth: Unknown, Started in Work: 2001, List: WA; stephenakligo@gmail.com}{+234 813 668 7207}
+\Home{Bezuidenhout}{Harare Contacts}{Jeanine; c/o Ian Bezuidenhout. 12 Crest Rd, Hornlee, Knysna 6571}{}
+\Home{Caixeiro}{NP Contacts}{Jeanette; 12 Felicia Street, Northvilla; nitrocivils@mweb.co.za}{083 232 3674}
+\Home{Ceerust}{KZN Contacts}{Jaco; 43 Jan Ellis St, The Reeds, Rooihuiskraal; Melanie Thompson sent a message on 21 September 2016; (-29,314,752,711,671) }{078 775 2358}
+\Home{Chasweka}{SW Golden Acre}{Allison; Mahuwe Sch Box 92, Mbire. Guruve; (-16.38788,30.762287) }{+263774897995(B)}
+\Home{Chigadza}{\~Gaborone}{Allison; Beitbridge}{077 586 9932(C)}
+\Home{Chigara}{Musadzi}{Jodi \& Chaentine, Jodaunté, Jordao, Cattelya; Date of Birth: Thu, 27 Dec 1956, Started in Work: 1982, List: SA; jaison.chigara@gmail.com}{+263 71 974 9499\\+263777749499}
+\Home{Clarke}{Rynfield}{Justin; c/o 52 Gainsborough Rd, Durban North, 4051; portshortie@telkomsa.net}{082 788 1002}
+\Home{Combrinck}{Ladismith}{Eddie \& Chani, Leilani, Danny; 38 Gazania Way, Belhar 4, 7490}{073 609 7016\\021 952 3511}\EndHomes
+\EndSection
+\MLDistrictH{WC Admin}
+\MLMeetingH{WC Contacts}
+\MLHome{Adams}{}{Gertie}
+\MLHome{Adonis}{}{}
+\MLHome{Anthony}{}{George}
+\MLHome{Cameron}{}{}
+\MLHome{Collier}{Cannot get to meetings}{Cyril, Olivia}
+\MLHome{Dalziel}{}{Lenie}
+\MLHome{De Beer}{}{Toinette}
+\MLHome{De Klerk}{Visiting 8-2pm Sat/Sun, Booking with phone to be made before planned visit.}{Renates}
+\MLHome{Du Plessis}{}{Christo}
+\MLHome{Dunn}{}{Clive}
+\MLHome{Duthie}{}{}
+\MLHome{Eksteen}{}{Byron}
+\MLHome{Faul}{}{Richard \& Elmi-Ané, Bréton}
+\MLHome{February}{}{Cameron}
+\MLHome{Foye}{}{David \& Cynthia, Richard, Logan, Rhosannah}
+\MLHome{Francis}{}{Keziah, Chloé}
+\MLHome{Frost}{}{Paul-Francois \& Lynnette, Katelyn}
+\MLHome{Geduld}{}{Carlo \& Colesa, Jeethan, Jeehan}
+\MLHome{Geduld}{}{Clinton \& Shinee, Xavier, Xayden, Xandria}
+\MLHome{Gihwala}{}{}
+\MLHome{Goss}{}{Freddie \& Erna, Zander, Taswill, Jason, Sonia}
+\MLHome{Hall}{}{Bertram}
+\MLHome{Hall}{}{Sam}
+\MLHome{Harmse}{}{Roslyn, Quinn}
+\MLHome{Hartman}{SunPM}{Coenie}
+\MLHome{Havemann}{}{Donny, Jenna}
+\MLHome{Howard}{}{Shelley}
+\MLHome{Hudson}{}{Edith}
+\MLHome{Hughes}{}{Ronwyn \& Yvette}
+\MLHome{Jeffries}{}{Harriet}
+\MLHome{Ketch}{}{Dustin}
+\MLHome{Kotzee}{}{Carlene \& Timothy, Carlyle, Theagan}
+\MLHome{Le Roux}{}{Lucille \& Errol}
+\MLHome{Leonard}{}{Debbie}
+\MLHome{Mc Lane}{don't know where she is}{Lynne}
+\MLHome{Michaels}{}{Sherwin \& Anthea}
+\MLHome{Mouton}{}{Abraham \& Martha}
+\MLHome{Muller}{}{Jason \& Tammy}
+\MLHome{Nefdt}{}{}
+\MLHome{Nortjé}{}{Johan}
+\MLHome{O'Ryan}{}{Jeremy}
+\MLHome{Phillips}{}{Neil}
+\MLHome{Phukuile}{}{Donavine}
+\MLHome{Pieterse}{}{Nathan \& Rochel, Vaughn, Jade, Callum}
+\MLHome{Pogenpoel}{}{Richard, Carmen}
+\MLHome{Potgieter}{}{Suzette, Andy, Amber, Ashley LeGrange}
+\MLHome{Robijn}{}{Marissa}
+\MLHome{Roodt}{}{Karel, Mishka}
+\MLHome{Rossouw}{}{Roelof}
+\MLHome{Rossouw}{}{Zelda}
+\MLHome{Slater}{}{Chrystal, Zachary, Elijah}
+\MLHome{Smit}{}{Santie}
+\MLHome{Snyder}{}{Eunice, Nadia}
+\MLHome{Snyder}{}{Hilton}
+\MLHome{Solomon}{}{Allandore}
+\MLHome{Solomons}{}{Aurelia, Leah, Erin-Leigh, Peyton}
+\MLHome{Swiegelaar}{}{Glynnis}
+\MLHome{Van der Merwe}{}{Jeanine}
+\MLHome{Victor}{}{Jeanette}
+\MLHome{Visagie}{}{Jaco}
+\MLHome{Vries}{}{Allison}
+\MLHome{Warner}{}{Allison}
+\MLHome{Warnick}{}{Jodi \& Chaentine, Jodaunté, Jordao, Cattelya}
+\MLHome{Willard}{}{Justin}
+\MLHome{Wise}{}{Eddie \& Chani, Leilani, Danny}
+\end{document}
