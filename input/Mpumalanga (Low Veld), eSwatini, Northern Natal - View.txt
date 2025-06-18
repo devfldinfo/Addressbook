@@ -1,0 +1,99 @@
+\documentclass[english]{article}
+\title{Mpumalanga (Low Veld), eSwatini, Northern Natal}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Arries}{Meyerton}{Christinah, Richard; 983 Butch Jantjies Rd, Reiger Park, Boksburg, 1459; P.O. Box 5059, Boksburg, 1460}{082 530 2961(A)\\081 361 6516(Ch)}
+\Home{Aspeling}{Worker}{Nora; 37 Mimi Fourie Court Flats, First Floor, 26 Market Ave, Vereeniging}{082 535 8697}
+\Home{Barkhuysen}{Worcester}{Maria; 33 Kiewietjie St, Cotswold Ext, Gqeberha. 6045; monraetc1@gmail.com}{083 645 1639(L)\\072 486 8301(M)}
+\Home{Cedras}{Heatherdale Heights}{Quinton \& Rene, Waldo; 37 Laurimer Street, Penhill Estate, Eersterivier, 7100; donavan.cedras@gmail.com(Dv) }{079 507 1629(Dv)\\081 048 2481(Dr)\\081 048 2480(Dy)\\0683278734(M)}
+\Home{Crouch}{Montrose Sun am}{Margaret, Thami; K2 Crook St, Ocean View, Mosselbaai, 6501}{071 177 0800}
+\Home{De Klerk}{WC Contacts}{Peggy; 46 Tennyson St, Kraaifontein, 7570}{081 833 2893\\021 988 1673\\074 450 5343}
+\Home{de Bruyn}{Stilbaai}{Dora, Fortune; Date of Birth: Mon, 12 Sep 1977, Started in Work: 1998, List: SA; andredebruyn@gmail.com}{+2782 828 0238}\EndHomes
+\EndSection
+\MLDistrictH{Mpumalanga (Low Veld), eSwatini, Northern Natal}
+\MLMeetingH{Bhunya}
+\MLHome{Dlamini}{All mtgs;Elder}{Dingaan \& Grace, Nosisa, TeNkosi}
+\MLHome{Dlamini}{}{Fikile, Sihlelelwe, Mbulisi}
+\MLHome{Dlamini}{}{Hlengiwe, Anele, Uminenkosi}
+\MLHome{Dlamini}{}{Joyce}
+\MLHome{Dlamini}{}{Linda \& Nozipho, Temahlubi, Phiweyinkosi}
+\MLHome{Dlamini}{}{Ncebo}
+\MLHome{Dlamini}{}{Ntomb'futhi \& Mandla, Jacob, Nkosephayo}
+\MLHome{Dlamini}{}{Zibonele \& Zanele, Ntando, PhephiswaYinkosi}
+\MLHome{Matsebula}{}{Phindile}
+\MLHome{Shabangu}{}{Philile, Sizolwethu}
+\MLHome{Shabangu}{}{Sibonakaliso, NoSipho}
+\MLHome{Shabangu}{}{Thobile, Princess}
+\MLHome{Simelane}{Sometimes attends Ezulwini}{Bongani, Mthokozisi, Nontsikelelo, Inkosikhona}
+\MLHome{Thabethe}{}{Christinah, Richard}
+\MLMeetingH{Ezulwini}
+\MLHome{Abner}{}{Ellen}
+\MLMeetingH{Kabokweni}
+\MLHome{Buthelezi}{Wife Thabile in Hyde Park}{Nkosinathi}
+\MLHome{Mabaso}{}{Agnes}
+\MLHome{Magagula}{}{Phumelela \& Minenhle (Rebekah), Sibonakaliso, Light}
+\MLHome{Mashego}{}{Dick \& Nora, Gilbert}
+\MLHome{Mathebula}{Elder}{Jerry}
+\MLHome{Nkosi}{}{Gweneth}
+\MLHome{Shiba}{}{Cynthia}
+\MLHome{Siera}{}{Bellinah}
+\MLHome{Siera}{}{Charles}
+\MLHome{Siera}{}{Solomon \& Lorraine}
+\MLHome{Thabethe}{}{Nora}
+\MLHome{Zwane}{All mtgs;Wed @ 16h00}{Peggy}
+\MLMeetingH{Lomahasha}
+\MLHome{Mahlalela}{}{Petros}
+\MLHome{Wynne}{All mtgs}{Margaret, Thami}
+\MLMeetingH{Madadeni}
+\MLHome{Buthelezi}{}{Lihle, Mpilo, Gugulethu, Njabulo}
+\MLHome{Mahlangu}{All mtgs;10:30, 12:30}{Sonti, Sinqobile, Noluthando, Siyabonga, Fanelesibonga}
+\MLHome{Mokoena}{Elder}{Mathapelo, Lindi}
+\MLHome{Nkosi}{}{Rosie}
+\MLHome{Tshuma}{Not able for mtgs}{Maria}
+\MLMeetingH{Matsulu}
+\MLHome{Siera}{All mtgs}{Ryna}
+\MLHome{Siera}{}{Zodwa, Nomathemba, Siyanda, Samantha, Gugu, Bonginkosi, Sinenhlanhla}
+\MLMeetingH{Nelspruit}
+\MLHome{De Beer}{}{Manus}
+\MLHome{Kgwedi}{}{Ingrid}
+\MLHome{Potgieter}{}{Luwies}
+\MLHome{Rossouw}{}{Angelique \& Francois, Franko}
+\MLHome{Vincent}{All mtgs;Elder}{Quinton \& Rene}
+\MLMeetingH{Nhlazatshe}
+\MLHome{Mathenjwa}{}{Bheki \& Celiwe}
+\MLHome{Ngozo}{}{Fakazile}
+\MLHome{Ngozo}{All mtgs}{Ivy, Mbali, Nonhle, Samukelisiwe}
+\MLHome{Ngozo}{}{Obed \& Mavis}
+\MLHome{Nkosi}{}{Priscilla, Phindokuhle, Siphesihle, Sinovuyo}
+\MLMeetingH{Nkoyoyo}
+\MLHome{Dlamini}{}{Mthembeni}
+\MLHome{Fakudze}{}{S'Fiso}
+\MLHome{Ginindza}{Elder}{Bonginkosi \& Nomcebo, Nonsikelelo, Sisekelo}
+\MLHome{Gumedze}{}{Alcinda (Juju), Junior, Mellissa, Tema, Shanikwa}
+\MLHome{Magagula}{Not able to get to mtgs}{Kate}
+\MLHome{Mnyakeni}{}{Baliwe, Sihlelelo}
+\MLHome{Mnyakeni}{}{Hlobisile, Simomo}
+\MLHome{Pais}{All mtgs}{Studio, Georgina}
+\MLMeetingH{Oshoek}
+\MLHome{Dlamini}{}{Sibongile}
+\MLHome{Mavuso}{All mtgs;Elder}{Willie \& Nomsa}
+\MLHome{Shabangu}{}{Aida}
+\MLHome{Shongwe}{}{Esther}
+\MLMeetingH{Sabie}
+\MLHome{Seymore}{All mtgs;Elder}{Danie \& Lydia}
+\MLMeetingH{Volksrust}
+\MLHome{Stucky}{}{Fritz}
+\MLMeetingH{Vryheid}
+\MLHome{Holtzhausen}{}{Driekie-Ann}
+\MLHome{Koch}{}{Margaret, Chante}
+\MLHome{Mitchell}{All mtgs;Elder;WedPM 19h00}{Albert \& Rossanna}
+\MLMeetingH{Vukuzakhe}
+\MLHome{Zwane}{All mtgs;Elder}{Dora, Fortune}
+\MLMeetingH{Waterval Boven}
+\MLHome{De Beer}{}{Annie}
+\end{document}
