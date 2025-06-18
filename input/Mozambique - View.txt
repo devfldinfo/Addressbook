@@ -1,0 +1,32 @@
+\documentclass[english]{article}
+\title{Mozambique}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Calitz}{Visiting Worker}{Emmanueller; Huis HP Piek, 153 Middle St (Cnr of Middel \& Melk St), Nieuw Muckelneuk}{072 623 2122\\071 369 1442\\078 523 0420}\EndHomes
+\EndSection
+\MLDistrictH{Mozambique}
+\MLMeetingH{Beira}
+\MLHome{Chiposse}{}{Ten}
+\MLHome{Cordar}{}{Ana Maria}
+\MLMeetingH{Mozambique Contacts}
+\MLHome{Cordar}{}{Sheila, Francisca (Chica), Ivette, Ivanirda, Celma}
+\MLHome{Fayd-Herbe }{}{Sónia Maria da Conceicão, Catarina, Estela da Conceicão, Antonio}
+\MLHome{Gale}{}{Gaspar}
+\MLHome{Ilunga Fernande}{}{Fernandez}
+\MLHome{Inocente}{}{Antonio \& Irene}
+\MLHome{Joaquim semente }{}{Ana Paula, Maria Luisa, Cesar, Manuel, Joaquim, Joaquina}
+\MLHome{João}{}{Nota \& Anna}
+\MLHome{Moyo}{}{Nyengeterai (M Petie)}
+\MLHome{Picador}{}{Armando Madalena \& José, Jefferson, Lucy}
+\MLHome{Quembo}{}{Manuel Tomás \& Zelia, Zelton, Rosevana}
+\MLHome{Quissimice}{}{Jorje Jeronimo \& Elisa, Lucia, Anita, Augusta, lidia}
+\MLHome{Quissimice}{}{Manecas Jeronimo \& Juliana, Papaito}
+\MLHome{Sebastiáo}{}{Euridice de Bernade(Ducha), Amerila, Mana Jú, Verne, Júlio, Jorson}
+\MLHome{Sebastião}{}{Balbina de Fatima Mariamo(Zinha), Jessica, julio}
+\MLHome{Vidigal}{}{Emmanueller}
+\end{document}
