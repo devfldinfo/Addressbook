@@ -1,0 +1,92 @@
+\documentclass[english]{article}
+\title{Still Bay, Riversdale to Beaufort West}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Anderson}{Ladismith}{Brian \& Joan; 6 Renaud Rd, Sydenham, 4091}{031 207 6608\\072 923 7671}
+\Home{Andrews}{WC Contacts}{Ian \& Anneline; 11 Quays Crescent, The Islands Estate, Hartbeespoort, Northwest; Po box 255 Broederstroom 0240; 0405angie@gmail.com; (-25,7650520, 27,8505140) }{062 489 4996}
+\Home{Andrew}{Pecanwood}{Cynthia; 1 B Stasie St, Ladismith 6655}{0735216984(J)}
+\Home{Botha}{Middelburg \#2}{Cynthia, Candice, Shiloh; 526 Chopin St, Constantia Park; Posbus 12933, Hatfield 0028; bothalouis4@gmail.com(L) , sugrettadu@gmail.com(S) }{012 998 8242\\083 410 5612(L)\\083 342 3157(S)}
+\Home{Bransby}{Worker}{Ruth; Huis Dien Bothma, 5 O'Hare St, Jansen Park, Boksburg, 1459}{073 572 8063}
+\Home{Cameron}{Hyde Park}{Antoinette; 5 Van Schalkwyk Rd, Rondebosch East, 7780; P O Box 36464, Glosderry, 7702; rodcam888@gmail.com(R) }{082 904 3300(R)\\082 792 8700(A)\\021 697 3384}
+\Home{Cele}{KZN Contacts}{Antonette; AA972 Umlazi.Box 28722, Wood Store, Hibberdene, 4220; Y801 Izimbokodo Rd, Umlazi; (-30.535883,30.570352) }{079 527 7419}
+\Home{Chiloane}{Admin - Passed Away}{Antoinette; -23.959804,31.049288; Phalaborwa}{+27 63 045 9800(L)\\+27 62 534 3073(I)}\EndHomes
+\EndSection
+\MLDistrictH{Still Bay, Riversdale to Beaufort West}
+\MLMeetingH{Ladismith}
+\MLHome{Andrew}{}{Johanalie \& Peter}
+\MLHome{Commins}{}{Eveline}
+\MLHome{De Wee}{}{Velicity}
+\MLHome{Moses}{}{Elizabeth, Marsha-lee}
+\MLHome{Skippers}{}{Jolene \& Rudolf, Aden}
+\MLMeetingH{Oudtshoorn}
+\MLHome{Arries}{Wed}{Jacobus \& Sarah, Sanfrid-lee, Sergio}
+\MLHome{Hess}{SunPM}{John}
+\MLHome{Hess}{}{Mary, Wilmarie}
+\MLHome{Holtzhausen}{SunPM}{Anita}
+\MLHome{Moore}{}{Cecily}
+\MLHome{Nowlan}{}{Grace}
+\MLHome{Quintiny}{}{Magrieta}
+\MLHome{Taylor}{SunAM,Wed;Elder;WedPM@18h00}{Brian \& Joan}
+\MLHome{Viljoen}{}{Antoinette}
+\MLMeetingH{Riversdale;SunAM\&PM Henry \& Mark alt takes mtg}
+\MLHome{Daries}{}{Vanessa}
+\MLHome{Human}{}{Elizma, Jamy-Leigh, Maxwell}
+\MLHome{Paulsen}{}{Geogina(Gina), Michaela, Lohan}
+\MLHome{Paulsen}{Takes All Mtgs}{Henry, Lazlo-John, Heinwill}
+\MLHome{Paulsen}{}{Livvy, Leighton}
+\MLHome{Paulsen}{}{Nicolene}
+\MLHome{Paulsen}{All mtgs;WedPM@18h30}{Sylvia, Wilfred}
+\MLHome{Riddles}{}{Skye}
+\MLHome{September}{}{Brenda, Le-Marc}
+\MLHome{September}{}{Elzane}
+\MLHome{Solomon}{}{Priscilla, Abigail, Normaleen Kamfer}
+\MLHome{Van Reenen}{}{Cynthia}
+\MLMeetingH{Stilbaai;J Bressler @ R Botha}
+\MLHome{Adams}{}{Colleen}
+\MLHome{Botha}{All mtgs}{Rita}
+\MLHome{Bresler}{Elder}{Jannie}
+\MLHome{Bruce}{}{Iona}
+\MLHome{De Beer}{}{Julius \& Melissa, Chanté, Danté}
+\MLHome{De Jager}{}{Daniel}
+\MLHome{Hallé}{}{Barbara}
+\MLHome{Heuer}{}{Pearl}
+\MLHome{Hickley}{}{Mary}
+\MLHome{Jacobs}{}{Mark}
+\MLHome{Moss}{}{Maria}
+\MLHome{Mostert}{}{Johan \& Rhoda}
+\MLHome{Naude}{}{Jan \& Thea}
+\MLHome{Pitcher}{}{Julie-Ann \& Kimbell}
+\MLHome{Schwab}{}{Sonia}
+\MLHome{van Vuuren}{}{Ruth}
+\MLHome{Visagie}{}{Antonette}
+\MLHome{Webb}{}{Antoinette}
+\MLMeetingH{Uniondale}
+\MLHome{Maree}{}{Rosie}
+\MLMeetingH{Beaufort West}
+\MLHome{Taylor}{}{Cynthia}
+\MLHome{Taylor}{}{Ian \& Anneline}
+\MLMeetingH{Stilbaai WedAM@10h30;R Botha}
+\MLHome{Adams}{}{Colleen}
+\MLHome{Botha}{All mtgs}{Rita}
+\MLHome{Bresler}{Elder}{Jannie}
+\MLHome{Bruce}{}{Iona}
+\MLHome{De Beer}{}{Julius \& Melissa, Chanté, Danté}
+\MLHome{De Jager}{}{Daniel}
+\MLHome{Hallé}{}{Barbara}
+\MLHome{Heuer}{}{Pearl}
+\MLHome{Hickley}{}{Mary}
+\MLHome{Jacobs}{}{Mark}
+\MLHome{Moss}{}{Maria}
+\MLHome{Mostert}{}{Johan \& Rhoda}
+\MLHome{Naude}{}{Jan \& Thea}
+\MLHome{Pitcher}{}{Julie-Ann \& Kimbell}
+\MLHome{Schwab}{}{Sonia}
+\MLHome{van Vuuren}{}{Ruth}
+\MLHome{Visagie}{}{Antonette}
+\MLHome{Webb}{}{Antoinette}
+\end{document}
