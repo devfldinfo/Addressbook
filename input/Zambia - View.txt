@@ -1,0 +1,62 @@
+\documentclass[english]{article}
+\title{Zambia}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\EndHomes
+\EndSection
+\MLDistrictH{Zambia}
+\MLMeetingH{Kapiri}
+\MLHome{Kabangamika}{}{Dunstan \& Mary, Gladys, Gracious, Mercy, Rosemary, Hope}
+\MLMeetingH{Kasama}
+\MLHome{Kaoma}{}{Fredah, Ruth, Josephine}
+\MLHome{Kaoma}{All mtgs;Elder}{Paul \& Royida, Bright, Hendrik, Sara, Royce, Naomi}
+\MLHome{Mulenga}{}{Matthew, Rogers}
+\MLMeetingH{Kitwe}
+\MLHome{Banda}{}{Amon (jnr) \& Evelyn, Destiny}
+\MLHome{Kanoni}{}{Kaoma \& Susan, Comfort, Destiny}
+\MLHome{Kaoma}{}{Margaret}
+\MLHome{Kaoma}{}{Martin \& Milica, Joseph, Martin (jnr)}
+\MLHome{Kaoma}{}{Stanley \& Janet, Gloria, Helen, Mathias, Martin}
+\MLHome{Meintjes}{SunAM;Elder}{Eugene \& Marleen}
+\MLMeetingH{Lusaka}
+\MLHome{Davira}{}{Miranda}
+\MLHome{Muchechesi}{}{Tafadzwa}
+\MLHome{Potgieter}{All mtgs;Elder}{Andre \& Carmen, Andrelize, Armin}
+\MLMeetingH{Luwingu}
+\MLHome{Chongo}{}{Joseph \& Mercy, Simon, Eunice, Haggai}
+\MLHome{Kabangamika}{All mtgs;Elder}{Abraham \& Susan, Marius, Felix, Mishek, Tracey, Rebecca}
+\MLHome{Kaoma}{}{Gift \& Kennedy}
+\MLHome{Kaoma}{}{Ida, Patrick, Veronica}
+\MLHome{Mwaba}{}{Christopher}
+\MLHome{Mwaba}{}{Kent}
+\MLHome{Nonde}{}{Jeremy \& Susan, Winfredah, Judith, Gift, Caleb, Jeremia, Henery}
+\MLMeetingH{Mkushi}
+\MLHome{Barnard}{}{Dehan \& Allé, Liam, Ella}
+\MLHome{Meintjes}{}{Hugo \& Linde, Ilke}
+\MLHome{Nonde}{}{Dorothy, Lucky, Gift, Linnet}
+\MLHome{Pretorius}{}{Janus \& Melissa, Miané, Jandré}
+\MLHome{Smith}{SunAM,Wed;Elder}{Leroy \& Bianca, Leah, Emma}
+\MLHome{Smith}{}{Minette}
+\MLMeetingH{ZAM Contacts}
+\MLHome{Banda}{}{Mother}
+\MLHome{Banda}{}{William}
+\MLHome{Chama}{}{Wigan}
+\MLHome{Chimuntu}{}{Gladys}
+\MLHome{Chimuntu}{}{Kabwe, Susan, Kabwe, Chibwe, Miniba, Chama, Misheck}
+\MLHome{Chongo}{C/o Paul }{John}
+\MLHome{Kabamba}{}{Joseph}
+\MLHome{Kafula}{}{Grace, Faith, Dan}
+\MLHome{Kafula}{}{Rose, Bruce, Blessed, Chanda}
+\MLHome{Kanoni}{}{Patricia, Petronella}
+\MLHome{Muyaniso}{}{Shadrach}
+\MLHome{Mwaba}{}{Boidy}
+\MLHome{Nonde}{}{Juliana}
+\MLHome{Sachikola}{}{Jeremiah \& Charity}
+\MLMeetingH{Zambia}
+\MLHome{Olls}{}{James}
+\end{document}
