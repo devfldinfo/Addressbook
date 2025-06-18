@@ -1,0 +1,84 @@
+\documentclass[english]{article}
+\title{Limpopo Province Contacts}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Adadjo}{Worker}{Cecil \& Elsie; Date of Birth: Wed, 29 Sep 1971, Started in Work: 2005, List: WA; etsevi@yahoo.fr}{+229 9618 7631}
+\Home{Beadon}{Dec 22 - Visiting Worker}{Chrissie; Addo's White House, Rietfontein Way, Sunland, Addo, 6105; rotarog@gmail.com; (-33.513905,25.637928) }{042 234 0666H\\074 697 4711(R)}
+\Home{Beasley}{Heatherdale Heights}{Dian; Dominican Republic; DOB: 28 February 1955; edjbeasley@gmail.com}{081 467 5050}
+\Home{Bekker}{Beacon Bay}{Heidi; 8 Charleroi Str, Kabega Park, Gqeberha, 6025; elsabie.b@gmail.com}{083 481 0045}
+\Home{Bello}{Kriel}{Ilse; Date of Birth: Thu, 02 Oct 1980, Started in Work: 2011, List: WA; solabello2011@gmail.com}{+234 814 164 3365}
+\Home{Bell}{Worker}{Herbert \& Maud, Melania; 30 Golden Harvest Village No 2, c/n Nyala Rd \& CR Swart Dr, Randburg; PO Box 35420, Northcliff 2115}{011 791 6556\\721387889}
+\Home{Benadie}{Kasselsvlei Rd}{Lindsey; 142 Springbok Crescent, Kriel; Box 31 Ga Nala, 2271; jacobusben@gmail.com(K) , annieben@mweb.co.za(A) }{082 923 6381(K)\\082 927 3430(A)}
+\Home{Benjamin}{Kasselsvlei Rd}{Madelein; 111 Chestnut Way, Belhar, 7490; claudiabenjamin88@gmail.com(Cl) ; (-33.948260,18.623754) }{078 989 4507(Cl)\\078 479 0075(T)}
+\Home{Benjamin}{Visiting Worker}{Naomi; 46 Kasselsvlei Rd, Bellville South, 7530; anniebenj@gmail.com(A) , teddybenj@gmail.com(E) }{083 707 0712(E)\\073 357 0705(A)\\021 951 5278}
+\Home{Berger}{Pinehurst}{Pieter \& Elmari, Ansofie, Hanco; Mexico; DOB: 03 February 1949; wmberger58@gmail.com}{}
+\Home{Bernardo}{Bethelsdorp SunAM}{Unknown; 5 Flamink Close, Durbanville 7550; isaacbernardo2007@gmail.com(I) }{0844068063(M)\\0604835151(I)\\021 975 4758\\0730356732(B)}
+\Home{Bhunu}{Hurungwe Contacts}{Lyndie; Kushinga Pri Sch, Box 409, Magunje/Plot 3, St Brendan Rd}{0786619878(M)\\0715084723(M)\\ 077 465 1091(C)}
+\Home{Biyase}{Harare Contacts}{Sheryl-Ann, Ruan, Vian; c/o Amble Inn}{+27 60 663 1878}
+\Home{Blondeel}{Admin - Passed Away}{Odie; Date of Birth: Wed, 11 Dec 1985, Started in Work: 2010, List: SA; dominishka85@gmail.com}{+7705 349 7651}
+\Home{Botha}{Admin - Passed Away}{Emile \& Wilmarie, Sister-Lenne, PW-Botha; 27 Generaal Botha Street, Welgelegen, Polokwane; marlenardenbotha@gmail.com}{081 248 4837}
+\Home{Botha}{Polokwane}{Angelique; 1535 Tienie str, Andeon AH, Pretoria}{067 035 6277(M)}
+\Home{Cawood}{Limpopo Kontakte}{Marina; 829 Wapadrand Rd, Wapadrand, Pretoria; P O Box 723, Derdepoortpark 0035; jonathan@british4x4.co.za(J) }{083 306 9794(J)\\012 802 0084W(J)}\EndHomes
+\EndSection
+\MLDistrictH{Limpopo Province Contacts}
+\MLMeetingH{Limpopo Kontakte}
+\MLHome{Booysen}{}{Gerhard}
+\MLHome{Burger}{}{Tokkie}
+\MLHome{Cawood}{}{Louise}
+\MLHome{Chiloane}{}{Loveness \& Innocentia, Makungu, Ahlulani, Rulani}
+\MLHome{Cumming}{}{Leanne, Cherylin}
+\MLHome{Diederick}{}{Pieter \& Elmari, Hanco, Ansofie}
+\MLHome{Dyzel}{}{Chris}
+\MLHome{Ebrahim}{}{Shabeer \& Yolandi, Zayn, Aliyah}
+\MLHome{Ferreira}{}{Cecilia, Andrea, Stephan}
+\MLHome{Fillis}{}{Jo-Anne}
+\MLHome{Fillis (Jansen)}{}{Jo-Anne}
+\MLHome{Fivas}{}{Jaco \& Belinda}
+\MLHome{Fivaz}{}{Jaco}
+\MLHome{Futcher}{}{Dudley}
+\MLHome{Goodes}{}{Joanna}
+\MLHome{Goodes}{}{Johanna}
+\MLHome{Grimsted}{}{Naomi}
+\MLHome{Grobbelaar}{}{Berno}
+\MLHome{Havemann}{}{Bryan}
+\MLHome{Havemann}{}{Davie}
+\MLHome{Havemann}{}{Davie}
+\MLHome{Jansen}{}{Alicia, Chante}
+\MLHome{Johnson}{}{Brian}
+\MLHome{Johnson}{}{Clive}
+\MLHome{Johnson}{}{Craig \& Beth}
+\MLHome{Joubert}{}{Tarien}
+\MLHome{Mapholisa}{}{Chrissie}
+\MLHome{Meintjes}{}{Natasha}
+\MLHome{Meintjes}{}{Natasha}
+\MLHome{Mtshweni}{}{Promise}
+\MLHome{Muller}{}{Pietman \& Alma}
+\MLHome{Mynhardt}{}{Lindie, Desi}
+\MLHome{Nel}{}{Dian}
+\MLHome{Oosthuizen}{}{Hannes}
+\MLHome{Richardson}{}{Heila}
+\MLHome{Robjin}{}{Gerhard}
+\MLHome{Spaans}{}{Carol}
+\MLHome{Swanepoel}{}{Cecil \& Elsie}
+\MLHome{Unknown}{}{Chrissie}
+\MLHome{Unknown}{}{Dian}
+\MLHome{Unknown}{}{Heidi}
+\MLHome{Unknown}{}{Herbert \& Maud, Melania}
+\MLHome{Unknown}{}{Ilse}
+\MLHome{Unknown}{}{Lindsey}
+\MLHome{Unknown}{}{Madelein}
+\MLHome{Unknown}{}{Naomi}
+\MLHome{Unknown}{}{Pieter \& Elmari, Ansofie, Hanco}
+\MLHome{Unknown}{}{Unknown}
+\MLHome{van der Merwe}{}{Lyndie}
+\MLHome{van der Schyff}{}{Sheryl-Ann, Ruan, Vian}
+\MLHome{Van der Walt}{}{Odie}
+\MLHome{van Rensburg}{}{Angelique}
+\MLHome{van Rensburg}{}{Emile \& Wilmarie, Sister-Lenne, PW-Botha}
+\MLHome{Viljoen}{}{Marina}
+\end{document}
