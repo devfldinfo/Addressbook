@@ -1,0 +1,16 @@
+\documentclass[english]{article}
+\title{St Helena Island}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Baard}{Kock St Potch}{Lillian; 2 Freesia St, Vredenburg, 7380; ruth.baard@gmail.com}{072 671 2252}\EndHomes
+\EndSection
+\MLDistrictH{St Helena Island}
+\MLMeetingH{St Helena Island}
+\MLHome{Clingham}{}{William \& Wendy}
+\MLHome{Thomas}{}{Lillian}
+\end{document}
