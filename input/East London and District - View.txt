@@ -1,0 +1,176 @@
+\documentclass[english]{article}
+\title{East London and District}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bal}{NP Contacts}{Margaret (Nomtandazo), Nomankosi; Huis Wittekruin, Uranus st, Vredenburg, 7380. Woonstel 11}{082 961 3849}
+\Home{Chicafa}{Admin - Misc}{Garreth \& Jezania, Jarred, Cailyn, Matthen; Hola Village, Ntcheu}{}
+\Home{Chicafa}{Ntcheu}{Kenneth \& Shereen; Hola Village, Ntcheu; (-14.95169,34.59024) }{}
+\Home{Chimanyi}{Harare Contacts}{Percy; Chiguhune Pr Sch, PB 944, Gutu}{0778 151 382\\078 435 4929}
+\Home{Chimbare}{Tshabalala}{Stefan \& Mareika, Annabelle; 94 chilimanzi cres,Glen norah A}{+263784 922 555 (K)}
+\Home{Chiriga}{Mookgopong}{Werner \& Renet, Bernard, Daniël, Benjamin; 2716 Chinotimba,Vic falls}{077 631 9228}
+\Home{Chiturumani}{Harare Contacts}{Ivor \& Brenda; Farm 226, Nyazvidzi; nyazvidzirockview@gmail.com}{071 669 687(R)\\077 248 5400(D)}
+\Home{Cloete}{Kraaifontein}{Peter; 56 Waterbessie Str, Sandalwood Mews, Kuilsrivier, 7580}{083 484 5757(E)\\021 903 3230}
+\Home{Coetzee}{Farrarmere}{Sebina (Sebsie); 247 Prince George Park, Dumane Rd, Parkdene, Boksburg.}{084 514 5027(Li)}
+\Home{Dammert}{Queenstown}{Tandi; 88 Monte Vista Boulevard, Monte Vista, 7460; dammertpatsy@gmail.com}{076 513 1567}\EndHomes
+\EndSection
+\MLDistrictH{East London and District}
+\MLMeetingH{Beacon Bay}
+\MLHome{Bell}{}{Desiree}
+\MLHome{Harding}{}{Stuart \& Maurita}
+\MLHome{Koekemoer}{}{Priscilla}
+\MLHome{Naude}{}{Nadine, Emma, Kyle}
+\MLHome{Oldknow}{}{Gerda}
+\MLHome{Schooling}{}{Debbie, Shane, Chané}
+\MLMeetingH{Buffalo Flats;To Kidd's Beach 1st Sunday of month}
+\MLHome{Goliath}{Wed;Elder;3rd Sun of mnth to KBeach}{Goli \& Nola, Charlton}
+\MLHome{Mpayipeli (Mini)}{}{Constance}
+\MLHome{Sikiti}{Gather on own on WedPM}{Themba}
+\MLHome{Walters}{3rd Sun of mnth to KBeach}{Garreth, Jarred, Cailyn, Matthen}
+\MLHome{Walters}{SunAM;3rd Sun of mnth to KBeach}{Kenneth \& Shereen}
+\MLMeetingH{Clifton Park}
+\MLHome{Collier}{}{Thelma \& John}
+\MLHome{Havemann}{}{Darryl \& Nikki, Liam, Layla}
+\MLHome{Robinson}{}{Eunice}
+\MLHome{Robinson}{SunAM,Wed;Elder}{Mark \& Anita}
+\MLHome{Stuart}{SunPM}{Mark \& Avril, Denver}
+\MLHome{Westcott}{}{Ivor \& Brenda}
+\MLMeetingH{EL - Unassigned}
+\MLHome{Williams}{}{Peter}
+\MLMeetingH{Fort Beaufort}
+\MLHome{Hoft}{SunAM,Wed;Elder;1st Sun alt mnth to Adelaide}{Bruce \& Ophelia, Bruce (jr), Barry}
+\MLHome{Klue}{}{Jenny}
+\MLHome{Knickelbein}{}{Adrian \& Diane, Sarah}
+\MLHome{Knickelbein}{SunPM}{Anna-Marie, Gerald}
+\MLHome{Kula}{}{Bukelwa}
+\MLMeetingH{Gonubie;A Havemann}
+\MLHome{Botha\_Gonubie}{SunPM}{Lucian \& Nicolene}
+\MLHome{Genade}{}{Brazil-Lynn \& Ignatius, Rileigh, Kyle}
+\MLHome{Havemann}{SunAM,Wed;Elder}{Allan \& Dawn}
+\MLHome{Havemann}{}{Melanie}
+\MLHome{Peens}{}{Lorna}
+\MLMeetingH{Kidds Beach;To Buffalo Flats 3rd Sunday of month}
+\MLHome{Brandt}{}{Bernie}
+\MLHome{Gower}{All mtgs;Elder;3rd Sun of mnth to Bflats- Not possible at the moment}{Shane \& Beverley, Dale, Grant}
+\MLHome{Gower}{}{Vera}
+\MLMeetingH{Mthatha}
+\MLHome{Davira}{}{Hendrick}
+\MLHome{James}{}{Marilyn}
+\MLHome{Mtongana}{All mtgs;Elder}{Lulu}
+\MLHome{Wilmot}{}{Sebina (Sebsie)}
+\MLMeetingH{Newlands (EL)}
+\MLHome{Sikiti}{}{Joyce (Silolo)}
+\MLHome{Sikiti}{Sometimes to Buffalo flats}{Lulama (Eunice), Hlomla}
+\MLHome{Tomose}{}{Margaret (Nomtandazo)}
+\MLHome{Zenani}{All mtgs;Elder}{Tandi}
+\MLMeetingH{Queenstown}
+\MLHome{Damons}{}{Ruth, Zealia, Ethan, Jadon}
+\MLHome{Schultz}{}{Estelle}
+\MLHome{Wentzel}{All mtgs;Elder}{Werner \& Renet, Bernard, Daniël, Benjamin}
+\MLMeetingH{Woodleigh}
+\MLHome{Abbott}{}{Chris \& Linda}
+\MLHome{Bussack}{}{Eunice, Eulenyé, Llache, Shanice}
+\MLHome{Buys}{}{Johnnie \& Nellie}
+\MLHome{Du Randt}{}{Eileen}
+\MLHome{Gower}{}{Deane \& Kelly-Ann, Taylor-Rose, Jordan}
+\MLHome{Maher}{SunPM;Sharon goes Wed pm to Gonubie}{James \& Sharon}
+\MLHome{Snyman}{}{Bernice \& Henry}
+\MLHome{Snyman}{}{Leslie, Cassia}
+\MLHome{Webb}{SunAM,Wed;Elder}{Percy}
+\MLHome{Webb}{}{Stefan \& Mareika, Annabelle}
+\MLMeetingH{King William's Town}
+\MLHome{Block}{}{Bernadean, Waylon}
+\MLHome{Botha}{SunAM,SunPM;Elder}{Martinus \& Anita, Luzarne, Zavier}
+\MLHome{Dalziel}{}{Connie}
+\MLHome{Heilbron}{}{Lenie}
+\MLHome{Holmes}{}{Enrico, Chiano, Chenique}
+\MLHome{Holmes}{}{Jeanette}
+\MLHome{Snyman}{}{Janell}
+\MLHome{Snyman}{Wed}{Maria}
+\MLMeetingH{Beacon Bay SunPM@17h00;A Stuart}
+\MLHome{Bell}{}{Desiree}
+\MLHome{Harding}{}{Stuart \& Maurita}
+\MLHome{Koekemoer}{}{Priscilla}
+\MLHome{Naude}{}{Nadine, Emma, Kyle}
+\MLHome{Oldknow}{}{Gerda}
+\MLHome{Schooling}{}{Debbie, Shane, Chané}
+\MLMeetingH{Buffalo Flats WedPM;K Walters}
+\MLHome{Goliath}{Wed;Elder;3rd Sun of mnth to KBeach}{Goli \& Nola, Charlton}
+\MLHome{Mpayipeli (Mini)}{}{Constance}
+\MLHome{Sikiti}{Gather on own on WedPM}{Themba}
+\MLHome{Walters}{3rd Sun of mnth to KBeach}{Garreth, Jarred, Cailyn, Matthen}
+\MLHome{Walters}{SunAM;3rd Sun of mnth to KBeach}{Kenneth \& Shereen}
+\MLMeetingH{Clifton Park SunPM@17h00;M Stuart}
+\MLHome{Collier}{}{Thelma \& John}
+\MLHome{Havemann}{}{Darryl \& Nikki, Liam, Layla}
+\MLHome{Robinson}{}{Eunice}
+\MLHome{Robinson}{SunAM,Wed;Elder}{Mark \& Anita}
+\MLHome{Stuart}{SunPM}{Mark \& Avril, Denver}
+\MLHome{Westcott}{}{Ivor \& Brenda}
+\MLMeetingH{Woodleigh SunPM;J Maher}
+\MLHome{Abbott}{}{Chris \& Linda}
+\MLHome{Bussack}{}{Eunice, Eulenyé, Llache, Shanice}
+\MLHome{Buys}{}{Johnnie \& Nellie}
+\MLHome{Du Randt}{}{Eileen}
+\MLHome{Gower}{}{Deane \& Kelly-Ann, Taylor-Rose, Jordan}
+\MLHome{Maher}{SunPM;Sharon goes Wed pm to Gonubie}{James \& Sharon}
+\MLHome{Snyman}{}{Bernice \& Henry}
+\MLHome{Snyman}{}{Leslie, Cassia}
+\MLHome{Webb}{SunAM,Wed;Elder}{Percy}
+\MLHome{Webb}{}{Stefan \& Mareika, Annabelle}
+\MLMeetingH{Beacon Bay WedPM@19h30;A Stuart}
+\MLHome{Bell}{}{Desiree}
+\MLHome{Harding}{}{Stuart \& Maurita}
+\MLHome{Koekemoer}{}{Priscilla}
+\MLHome{Naude}{}{Nadine, Emma, Kyle}
+\MLHome{Oldknow}{}{Gerda}
+\MLHome{Schooling}{}{Debbie, Shane, Chané}
+\MLMeetingH{Breidbach WedPM@19h00}
+\MLHome{Block}{}{Bernadean, Waylon}
+\MLHome{Botha}{SunAM,SunPM;Elder}{Martinus \& Anita, Luzarne, Zavier}
+\MLHome{Dalziel}{}{Connie}
+\MLHome{Heilbron}{}{Lenie}
+\MLHome{Holmes}{}{Enrico, Chiano, Chenique}
+\MLHome{Holmes}{}{Jeanette}
+\MLHome{Snyman}{}{Janell}
+\MLHome{Snyman}{Wed}{Maria}
+\MLMeetingH{Buffalo Flats SunPM@19h30;K Walters}
+\MLHome{Goliath}{Wed;Elder;3rd Sun of mnth to KBeach}{Goli \& Nola, Charlton}
+\MLHome{Mpayipeli (Mini)}{}{Constance}
+\MLHome{Sikiti}{Gather on own on WedPM}{Themba}
+\MLHome{Walters}{3rd Sun of mnth to KBeach}{Garreth, Jarred, Cailyn, Matthen}
+\MLHome{Walters}{SunAM;3rd Sun of mnth to KBeach}{Kenneth \& Shereen}
+\MLMeetingH{Clifton Park WedPM@19h30;M Robinson}
+\MLHome{Collier}{}{Thelma \& John}
+\MLHome{Gower}{}{Deane \& Kelly-Ann, Taylor-Rose, Jordan}
+\MLHome{Havemann}{}{Darryl \& Nikki, Liam, Layla}
+\MLHome{Robinson}{}{Eunice}
+\MLHome{Robinson}{SunAM,Wed;Elder}{Mark \& Anita}
+\MLHome{Stuart}{SunPM}{Mark \& Avril, Denver}
+\MLHome{Westcott}{}{Ivor \& Brenda}
+\MLMeetingH{Gonubie WedPM@19h30;A Havemann}
+\MLHome{Botha\_Gonubie}{SunPM}{Lucian \& Nicolene}
+\MLHome{Genade}{}{Brazil-Lynn \& Ignatius, Rileigh, Kyle}
+\MLHome{Havemann}{SunAM,Wed;Elder}{Allan \& Dawn}
+\MLHome{Havemann}{}{Melanie}
+\MLHome{Peens}{}{Lorna}
+\MLMeetingH{Newlands (EL) WedPM@14h30;Zenani}
+\MLHome{Sikiti}{}{Joyce (Silolo)}
+\MLHome{Sikiti}{Sometimes to Buffalo flats}{Lulama (Eunice), Hlomla}
+\MLHome{Tomose}{}{Margaret (Nomtandazo)}
+\MLHome{Zenani}{All mtgs;Elder}{Tandi}
+\MLMeetingH{Woodleigh WedAM@10h30;P Webb}
+\MLHome{Abbott}{}{Chris \& Linda}
+\MLHome{Bussack}{}{Eunice, Eulenyé, Llache, Shanice}
+\MLHome{Buys}{}{Johnnie \& Nellie}
+\MLHome{Du Randt}{}{Eileen}
+\MLHome{Maher}{SunPM;Sharon goes Wed pm to Gonubie}{James \& Sharon}
+\MLHome{Snyman}{}{Bernice \& Henry}
+\MLHome{Snyman}{}{Leslie, Cassia}
+\MLHome{Webb}{SunAM,Wed;Elder}{Percy}
+\MLHome{Webb}{}{Stefan \& Mareika, Annabelle}
+\end{document}
