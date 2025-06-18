@@ -1,0 +1,213 @@
+\documentclass[english]{article}
+\title{Jhb - West Rand}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Badza}{Seke}{Koos \& Petro; Chikwerengwe Sec Sch,Box 970, Gutu}{077 310 0989(N)}
+\Home{Basson}{Gordons Bay}{Donovan \& Anne, Donnay; Sea breeze Park, 2 Durmont Crescent, Gordon's Bay}{073 334 2854}
+\Home{Bester}{Pinehurst}{At \& Sus; Plumrus Room 38D. 1 Birmingham Rd, Plumstead, Cape Town, 7800}{021 788 9643}
+\Home{Beukes}{De Aar}{Frederick \& Annelize, Marizca; Moorreesburg; shirben@webmail.co.za}{072 047 8380}
+\Home{Bhunu}{St.Brendans}{Chanté \& Adriaan; Zim National Parks, 72 Mica street}{077 721 8866}
+\Home{Booysen}{NP Contacts}{Naphuscha \& Bernard, Tristan, Bianca, Lineez, Linza, Mishka; 3309 Kruisfontein 6306}{0078 965 9510(M)}
+\Home{Botha}{Admin - Emmigrated}{Ruwan \& Deslynne, Isabela, Gabrielle; A Knight's Rest Guesthouse, Brits Rd, Pretoria North}{082 893 0591}
+\Home{Bungoma}{Westgate}{Danie; Bungoma}{+254 710111313}
+\Home{Chicafa}{Malawi Contacts}{Madré \& Bruce, Keana, Keara; Hillside}{063 569 6148}
+\Home{Cloete}{Worker}{Raylene \& Mark; Plot 7, 683 Niemand St, Andeon AH, 0182; lcloete@pm.me}{082 404 8642}\EndHomes
+\EndSection
+\MLDistrictH{Jhb - West Rand}
+\MLMeetingH{Soweto}
+\MLHome{Masedi}{All mtgs}{Heidi}
+\MLHome{Mtshali}{Elder;Takes all mtgs@A Masedi}{Patrick \& Elizabeth, Mbali, Nontokozo, Gugulethu, Sibusiso}
+\MLHome{Ntilane}{}{Mary}
+\MLMeetingH{Amaryllis Dr SunAM}
+\MLHome{Du Toit}{Elder}{Willie \& Jakkie}
+\MLHome{Kotze}{}{Corrie}
+\MLHome{Kretschmer}{}{Beatty}
+\MLHome{Kretschmer}{All mtgs}{David \& Deidre, Caylin, Keegan}
+\MLHome{Nel}{Wed}{Diana}
+\MLHome{Nel}{}{Gjizelle}
+\MLHome{Otto}{}{Eben \& Chamonix, Catherine}
+\MLHome{Tiersma}{SunPM,Wed}{Koos \& Petro}
+\MLHome{Walljee}{}{Madré \& Bruce, Keana, Keara}
+\MLMeetingH{Eldorado Park SunAM;D van Zyl}
+\MLHome{Davids}{Wed}{Philda}
+\MLHome{Fritz}{SunPM}{Jeff \& Delores, Jade, Jaylin, Keahan}
+\MLHome{Hammond}{Wed;Elder}{Claude, Oriana, Leonie}
+\MLHome{Labuschagne}{}{Trent \& Naomi, Clifford, Nikki}
+\MLHome{Rhodes}{}{Sina}
+\MLHome{Smith}{}{Heneline, Liam}
+\MLHome{Van Zyl}{SunAM}{Danie}
+\MLMeetingH{Ennerdale Buys SunAM}
+\MLHome{Buys}{SunAM,SunPM;Elder}{Shane \& Monica}
+\MLHome{Buys}{}{Shanston \& Kay, Jaden, Kaysha, Lois, Micaiah}
+\MLHome{Khanye}{}{Tsitsi \& Godfrey, Noluthando, Mabuso, Godfrey(Jnr)}
+\MLHome{Mangale}{Wed}{Sylvester \& Letisha, Lemuel, Malachi, Azariah}
+\MLHome{Van der Merwe}{}{Chanté \& Adriaan}
+\MLHome{Van der Westhuizen}{}{Naphuscha \& Bernard, Tristan, Bianca, Lineez, Linza, Mishka}
+\MLMeetingH{Ennerdale MacKay SunAM}
+\MLHome{Kerspuy}{Verdonia unable to attend mtgs due to physical condition }{Miranda, Verdonia, Tanner}
+\MLHome{Mackay}{All mtgs;Elder}{Charles, Manuela}
+\MLHome{Mangale}{}{Edward \& Miena}
+\MLHome{Ontong}{}{Christeleen \& Rocco, Ranon, Calantha}
+\MLMeetingH{Featherbrooke SunAM}
+\MLHome{Dippenaar}{SunPM,Wed}{Louise}
+\MLHome{Dippenaar}{}{Reghardt \& Vicky}
+\MLHome{Grobbelaar}{}{Piet \& Mary}
+\MLHome{Hedder}{}{Kevin \& Marlise, Elizabeth, William}
+\MLHome{Hedder}{}{Vernon \& Monica, Rochelle, Veruska}
+\MLHome{Holtzhausen}{SunAM;Elder}{Louis \& Margaret}
+\MLHome{Pienaar}{}{Nicoleen, Beau}
+\MLHome{Pienaar}{}{Quentin \& Debbie, Justin}
+\MLHome{Ross}{}{Simoné \& Chris, Lienke}
+\MLHome{Van Rooi}{}{Ruwan \& Deslynne, Isabela, Gabrielle}
+\MLMeetingH{Florida SunAM}
+\MLHome{Botha}{}{Joy}
+\MLHome{Cornwall}{}{James \& Verona}
+\MLHome{Fritz}{SunPM}{Aubrey}
+\MLHome{Fritz}{SunAM,Wed;Elder}{Billy \& Millicent}
+\MLHome{Fritz}{}{BillyJean \& Salman-Mohamme, Zaidaan, Alaya}
+\MLHome{Fritz}{}{Jenny}
+\MLHome{Fritz}{}{Jonathan, Kylie, Joshua}
+\MLHome{Hogins}{}{Shauné}
+\MLHome{Williams}{}{Raylene \& Mark}
+\MLMeetingH{Noordheuwel SunAM;T Gloss}
+\MLHome{Bredenkamp}{}{Johan}
+\MLHome{Dunn}{}{Denise}
+\MLHome{Dunn}{}{Marlon \& Tremayne, Caleb, Eli, Leah}
+\MLHome{Dunn}{}{Oscar}
+\MLHome{Gloss}{SunAM,SunPM;Elder}{Tertius \& Heather}
+\MLHome{Grobler}{SunPM,Wed}{Marie}
+\MLHome{Grobler}{SunPM,Wed}{Vernon \& Talania}
+\MLHome{Hedder}{}{Reg \& Shirley}
+\MLHome{Underwood}{}{Donovan \& Anne, Donnay}
+\MLHome{Van Aarde}{}{At \& Sus}
+\MLHome{Van Aarde}{Wed}{Frederick \& Annelize, Marizca}
+\MLMeetingH{Amaryllis Dr SunPM}
+\MLHome{Du Toit}{Elder}{Willie \& Jakkie}
+\MLHome{Kotze}{}{Corrie}
+\MLHome{Kretschmer}{}{Beatty}
+\MLHome{Kretschmer}{All mtgs}{David \& Deidre, Caylin, Keegan}
+\MLHome{Nel}{Wed}{Diana}
+\MLHome{Nel}{}{Gjizelle}
+\MLHome{Otto}{}{Eben \& Chamonix, Catherine}
+\MLHome{Walljee}{}{Madré \& Bruce, Keana, Keara}
+\MLMeetingH{Avianto Estate SunPM@17h00;V Hedder/R Dippenaar @ L Dippenaar}
+\MLHome{Dippenaar}{SunPM,Wed}{Louise}
+\MLHome{Dippenaar}{}{Reghardt \& Vicky}
+\MLHome{Hedder}{}{Kevin \& Marlise, Elizabeth, William}
+\MLHome{Hedder}{}{Vernon \& Monica, Rochelle, Veruska}
+\MLHome{Holtzhausen}{SunAM;Elder}{Louis \& Margaret}
+\MLHome{Pienaar}{}{Quentin \& Debbie, Justin}
+\MLHome{Ross}{}{Simoné \& Chris, Lienke}
+\MLHome{Van Rooi}{}{Ruwan \& Deslynne, Isabela, Gabrielle}
+\MLMeetingH{Eldorado Park SunPM@17h00;Jeff Fritz}
+\MLHome{Davids}{Wed}{Philda}
+\MLHome{Fritz}{SunPM}{Jeff \& Delores, Jade, Jaylin, Keahan}
+\MLHome{Hammond}{Wed;Elder}{Claude, Oriana, Leonie}
+\MLHome{Rhodes}{}{Sina}
+\MLHome{Smith}{}{Heneline, Liam}
+\MLHome{Van Zyl}{SunAM}{Danie}
+\MLMeetingH{Ennerdale Buys SunPM@17h00}
+\MLHome{Buys}{SunAM,SunPM;Elder}{Shane \& Monica}
+\MLHome{Buys}{}{Shanston \& Kay, Jaden, Kaysha, Lois, Micaiah}
+\MLHome{Khanye}{}{Tsitsi \& Godfrey, Noluthando, Mabuso, Godfrey(Jnr)}
+\MLHome{Mangale}{Wed}{Sylvester \& Letisha, Lemuel, Malachi, Azariah}
+\MLHome{Van der Merwe}{}{Chanté \& Adriaan}
+\MLHome{Van der Westhuizen}{}{Naphuscha \& Bernard, Tristan, Bianca, Lineez, Linza, Mishka}
+\MLMeetingH{Ennerdale MacKay SunPM@17h00}
+\MLHome{Kerspuy}{Verdonia unable to attend mtgs due to physical condition }{Miranda, Verdonia, Tanner}
+\MLHome{Mackay}{All mtgs;Elder}{Charles, Manuela}
+\MLHome{Mangale}{}{Edward \& Miena}
+\MLHome{Ontong}{}{Christeleen \& Rocco, Ranon, Calantha}
+\MLMeetingH{Featherbrooke Retirement SunPM@17h00;P Grobbelaar @ P Grobler}
+\MLHome{Grobbelaar}{}{Piet \& Mary}
+\MLHome{Grobler}{SunPM,Wed}{Marie}
+\MLMeetingH{Florida 1 SunPM@17h00;A Fritz}
+\MLHome{Botha}{}{Joy}
+\MLHome{Cornwall}{}{James \& Verona}
+\MLHome{Fritz}{SunPM}{Aubrey}
+\MLHome{Fritz}{SunAM,Wed;Elder}{Billy \& Millicent}
+\MLHome{Fritz}{}{BillyJean \& Salman-Mohamme, Zaidaan, Alaya}
+\MLHome{Fritz}{}{Jenny}
+\MLHome{Fritz}{}{Jonathan, Kylie, Joshua}
+\MLHome{Hogins}{}{Shauné}
+\MLHome{Williams}{}{Raylene \& Mark}
+\MLMeetingH{Noordheuwel SunPM@17h00;T Gloss}
+\MLHome{Dunn}{}{Denise}
+\MLHome{Dunn}{}{Marlon \& Tremayne, Caleb, Eli, Leah}
+\MLHome{Dunn}{}{Oscar}
+\MLHome{Gloss}{SunAM,SunPM;Elder}{Tertius \& Heather}
+\MLHome{Hedder}{}{Reg \& Shirley}
+\MLHome{Van Aarde}{}{At \& Sus}
+\MLHome{Van Aarde}{Wed}{Frederick \& Annelize, Marizca}
+\MLMeetingH{Tarlton SunPM}
+\MLHome{Bredenkamp}{}{Johan}
+\MLHome{Grobler}{SunPM,Wed}{Vernon \& Talania}
+\MLHome{Tiersma}{SunPM,Wed}{Koos \& Petro}
+\MLHome{Underwood}{}{Donovan \& Anne, Donnay}
+\MLMeetingH{Amaryllis Dr WedPM@19h30;D Kretschmer }
+\MLHome{Du Toit}{Elder}{Willie \& Jakkie}
+\MLHome{Kotze}{}{Corrie}
+\MLHome{Kretschmer}{All mtgs}{David \& Deidre, Caylin, Keegan}
+\MLHome{Nel}{}{Gjizelle}
+\MLHome{Otto}{}{Eben \& Chamonix, Catherine}
+\MLHome{Walljee}{}{Madré \& Bruce, Keana, Keara}
+\MLMeetingH{Avianto Estate WedPM@19h30;K Hedder @ L Dippenaar}
+\MLHome{Dippenaar}{SunPM,Wed}{Louise}
+\MLHome{Hedder}{}{Kevin \& Marlise, Elizabeth, William}
+\MLHome{Hedder}{}{Vernon \& Monica, Rochelle, Veruska}
+\MLHome{Holtzhausen}{SunAM;Elder}{Louis \& Margaret}
+\MLHome{Pienaar}{}{Quentin \& Debbie, Justin}
+\MLHome{Ross}{}{Simoné \& Chris, Lienke}
+\MLHome{Van Rooi}{}{Ruwan \& Deslynne, Isabela, Gabrielle}
+\MLMeetingH{Eldorado Park WedAM;P Davids}
+\MLHome{Davids}{Wed}{Philda}
+\MLHome{Fritz}{SunPM}{Jeff \& Delores, Jade, Jaylin, Keahan}
+\MLHome{Rhodes}{}{Sina}
+\MLHome{Van Zyl}{SunAM}{Danie}
+\MLMeetingH{Eldorado Park WedPM;C Hammond}
+\MLHome{Hammond}{Wed;Elder}{Claude, Oriana, Leonie}
+\MLHome{Smith}{}{Heneline, Liam}
+\MLMeetingH{Ennerdale Buys WedPM@19h30}
+\MLHome{Buys}{SunAM,SunPM;Elder}{Shane \& Monica}
+\MLHome{Buys}{}{Shanston \& Kay, Jaden, Kaysha, Lois, Micaiah}
+\MLHome{Khanye}{}{Tsitsi \& Godfrey, Noluthando, Mabuso, Godfrey(Jnr)}
+\MLHome{Mangale}{Wed}{Sylvester \& Letisha, Lemuel, Malachi, Azariah}
+\MLHome{Van der Merwe}{}{Chanté \& Adriaan}
+\MLHome{Van der Westhuizen}{}{Naphuscha \& Bernard, Tristan, Bianca, Lineez, Linza, Mishka}
+\MLMeetingH{Ennerdale MacKay WedPM@19h30}
+\MLHome{Kerspuy}{Verdonia unable to attend mtgs due to physical condition }{Miranda, Verdonia, Tanner}
+\MLHome{Mackay}{All mtgs;Elder}{Charles, Manuela}
+\MLHome{Mangale}{}{Edward \& Miena}
+\MLHome{Ontong}{}{Christeleen \& Rocco, Ranon, Calantha}
+\MLMeetingH{Featherbrooke Retirement WedAM@10h30;P Grobbelaar @ P Grobler}
+\MLHome{Grobbelaar}{}{Piet \& Mary}
+\MLHome{Grobler}{SunPM,Wed}{Marie}
+\MLMeetingH{Florida 2 WedPM@19h30;B Fritz}
+\MLHome{Botha}{}{Joy}
+\MLHome{Cornwall}{}{James \& Verona}
+\MLHome{Fritz}{SunPM}{Aubrey}
+\MLHome{Fritz}{SunAM,Wed;Elder}{Billy \& Millicent}
+\MLHome{Fritz}{}{BillyJean \& Salman-Mohamme, Zaidaan, Alaya}
+\MLHome{Fritz}{}{Jenny}
+\MLHome{Fritz}{}{Jonathan, Kylie, Joshua}
+\MLHome{Hogins}{}{Shauné}
+\MLHome{Williams}{}{Raylene \& Mark}
+\MLMeetingH{Tarlton WedPM;V Grobler}
+\MLHome{Grobler}{SunPM,Wed}{Vernon \& Talania}
+\MLHome{Tiersma}{SunPM,Wed}{Koos \& Petro}
+\MLHome{Underwood}{}{Donovan \& Anne, Donnay}
+\MLMeetingH{Voortrekker St WedPM;F van Aarde}
+\MLHome{Dunn}{}{Marlon \& Tremayne, Caleb, Eli, Leah}
+\MLHome{Gloss}{SunAM,SunPM;Elder}{Tertius \& Heather}
+\MLHome{Hedder}{}{Reg \& Shirley}
+\MLHome{Van Aarde}{}{At \& Sus}
+\MLHome{Van Aarde}{Wed}{Frederick \& Annelize, Marizca}
+\MLMeetingH{Webber Street WedAM@10h30;K Tiersma @ D Nel}
+\MLHome{Kretschmer}{}{Beatty}
+\MLHome{Nel}{Wed}{Diana}
+\end{document}
