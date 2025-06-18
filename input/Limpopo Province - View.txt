@@ -1,0 +1,65 @@
+\documentclass[english]{article}
+\title{Limpopo Province}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Botha}{Andeon}{Niel; 54 Marula St, Sabie; Box 566 Sabie, 1260}{+2713 764 1658\\+27 72 476 0840}
+\Home{Brandt}{Everton}{Suzette \& Thinus, Marie; Tayside Farm; PO Box 182, Kidd's Beach, 5264}{071 731 2847}
+\Home{Brandt}{Kidds Beach}{Lechanne; 16 Raleigh Road, Mowbray, Cape Town, 7700}{073 257 2911}
+\Home{Carelse}{EC Contacts}{George; 8 Sandpiper, 2 Sandpiper Ave, Aston Bay, Jeffreys Bay, 6332}{084 278 0650}
+\Home{Carter}{Forest Town}{Johan, Henry, Twané; Barbados; Age 78; wyngrove1968@gmail.com}{+2760 769 8684\\+12462487622}\EndHomes
+\EndSection
+\MLDistrictH{Limpopo Province}
+\MLMeetingH{Alldays}
+\MLHome{Saaiman}{All mtgs;Elder}{Bartho \& Ansofie}
+\MLMeetingH{Kokanje}
+\MLHome{Botha}{SunAM;Elder;SunPm@18:00, WedPM@18:00}{Willem \& Mada}
+\MLHome{Grobbelaar}{SunPM;SunPM @ 18h00}{Ben \& Vien}
+\MLHome{Olivier}{Wed;SunPM @ 18h00}{Wenda}
+\MLHome{Simpson}{}{Dave \& Jennica}
+\MLMeetingH{Limpopo}
+\MLHome{Besselaar}{}{Maggie}
+\MLMeetingH{Louis Trichardt}
+\MLHome{Futcher}{}{Lurette \& Dudley, Tiaan, Bernard}
+\MLHome{Meintjes}{All mtgs;Elder}{Wouter \& Leoni}
+\MLMeetingH{Modjadjiskloof}
+\MLHome{Havemann}{}{Shirley, Julian}
+\MLHome{Johnson}{}{Irene \& Brian}
+\MLHome{Nel}{}{Karina}
+\MLHome{Viljoen}{All mtgs;Elder}{George}
+\MLHome{Viljoen}{}{Johan, Henry, Twané}
+\MLMeetingH{Mookgopong}
+\MLHome{Cawood}{All mtgs;Elder}{Stanford \& Inga, Donald}
+\MLHome{Cawood }{}{Kimberley}
+\MLHome{Chirive}{}{Givemore \& Joylene, Donald}
+\MLHome{Foster}{}{Roland \& Helen, Alannah, Beatrice}
+\MLHome{Olls}{}{Jennie}
+\MLHome{Van Staden}{}{Lechanne}
+\MLHome{Van Staden}{}{Suzette, Marie}
+\MLMeetingH{Musina}
+\MLHome{Kloppers}{}{Sarie}
+\MLMeetingH{Northam}
+\MLHome{Engelbrecht}{}{Gert (Bokkie) \& Ansie}
+\MLMeetingH{Polokwane}
+\MLHome{Alexander}{Wed}{Roger \& Gloria}
+\MLHome{Botha}{}{Marlen}
+\MLHome{Engelbrecht}{}{Annelie}
+\MLHome{Engelbrecht}{All mtgs}{Lianie}
+\MLHome{Hollington}{}{Ian \& Carla, Aiden, Owen}
+\MLHome{Roodt}{}{Carolene}
+\MLHome{van Rensburg}{Elder}{Niel}
+\MLMeetingH{Thabazimbi}
+\MLHome{Coetzee}{}{Adrie \& Johan, Daniel}
+\MLMeetingH{Polokwane WedAM@10h30;R Alexander}
+\MLHome{Alexander}{Wed}{Roger \& Gloria}
+\MLHome{Roodt}{}{Carolene}
+\MLMeetingH{Polokwane WedPM@17h00;N van Rensburg @ L Engelbrecht}
+\MLHome{Botha}{}{Marlen}
+\MLHome{Engelbrecht}{}{Annelie}
+\MLHome{Engelbrecht}{All mtgs}{Lianie}
+\MLHome{van Rensburg}{Elder}{Niel}
+\end{document}
