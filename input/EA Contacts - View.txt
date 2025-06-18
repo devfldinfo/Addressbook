@@ -1,0 +1,99 @@
+\documentclass[english]{article}
+\title{EA Contacts}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Alexander}{George Groenkloof}{Dar es Salaam; 185 Sunridge St, Hornlee, Knysna 6570; kathy.alexander0@gmail.com}{}
+\Home{Alien Card}{Worker}{Elzeever; }{+254 110923424}
+\Home{Allers}{Kenya useful contact}{Helper of Elzeever; Date of Birth: Sat, 31 Jan 1953, Started in Work: 1977, List: SA; jessedithallers@gmail.com}{+36 30 223 2077\\+27 60 399 7201}
+\Home{Alltrash}{Worker}{Isaa; Trash company}{+254 701 624294}
+\Home{Alognon}{Kenya useful contact}{Zak; Date of Birth: Tue, 08 Jun 1965, Started in Work: 1990, List: WA; alognonmed@gmail.com}{+229 96 75 4944}
+\Home{Barends}{NP Contacts}{Anna; 12 Dahlia St, Zeezicht, Pacaltsdorp 6529; rosy.barends@gmail.com(R) }{072 112 2256(R)}
+\Home{Chesango}{Durban North}{Peter, Claudia; Churu farm}{+263718448190(E)}
+\Home{Chigwada}{Harare Contacts}{Brian \& Helen; chivhu/ Mvuma}{+263 71 323 6904(G)\\+263 78 644 5113(G)}
+\Home{Chigwende}{Hatfield}{Ester; }{071 333 7899}
+\Home{Chihota}{Zhombe}{Ken \& Mary, Sammy; }{077 755 9132}
+\Home{Chikande}{Masvingo Contacts}{Kevin \& Faith, Chantal, Mary, Gracious; St Peters Sch, PB788, Kadoma}{073 997 5351(M)\\0777562350(M)}
+\Home{Chikoore}{Zim Contacts}{Paul \& Alice, Dausi; Matizha}{0780747553(M)}
+\Home{Chikunahuna}{Garangwe}{Sammy \& Jasinta, Jendricks, John; }{}
+\Home{Chikwava}{Midlands Contacts}{Joseph \& Jane; c/o Jaravaza Renias}{}
+\Home{Cordar}{Andeon}{Enquiries; Beira; (-19.7916309, 34.8684101) }{+258 84 746 0785}
+\Home{Surname}{Woodleigh}{Dorcas; Address; Postal Address; Email; (S) }{PhoneNumbers}\EndHomes
+\EndSection
+\MLDistrictH{EA Contacts}
+\MLMeetingH{Kenya}
+\MLHome{Bungoma}{Bungoma}{Grace}
+\MLHome{Julias}{Nairobi}{Contact Nairobi}
+\MLHome{Kakamega}{Kakamega}{Viona}
+\MLHome{Karani}{Nairobi}{Annie}
+\MLHome{Karimi}{Meru}{Makena(Stella sister)}
+\MLHome{Khimulu}{Muthetheni}{Peter \& Georgina, Levy}
+\MLHome{Khimulu}{Nairobi}{Rahim}
+\MLHome{Kithinji}{Nairobi}{Emily}
+\MLHome{Kithinji}{Nanyuki}{Musa}
+\MLHome{KwaHoekoe}{Nanyuki}{Jehosapat(Shekilegi)}
+\MLHome{KwaHoekoe}{Nanyuki}{John}
+\MLHome{Maina}{Nairobi}{Dunstan}
+\MLHome{Masiga}{Nairobi}{John}
+\MLHome{Masiga}{Bungoma}{Patrick}
+\MLHome{Mombasa}{Mombasa}{Timothy}
+\MLHome{Muthiora}{Nyeri}{Glady}
+\MLHome{Nairobi }{Nairobi}{Clary \& Erica, Shaun (chef), Mark (worked for UN), Christel (Shaun wife)}
+\MLHome{Ngutuku}{Bungoma}{Evans \& Evelyn}
+\MLHome{Ngutuku}{Bungoma}{Roy}
+\MLHome{Ouma}{Muthetheni}{John Paul}
+\MLHome{Ringerah}{Nairobi}{Kendi \& Daniel, Shadin, Cole, Kezia}
+\MLHome{Sobayeni}{Nakuru}{Thomas}
+\MLHome{Surname}{Witu}{Dorcas}
+\MLHome{Trzebinski}{Nairobi}{Anna}
+\MLHome{Wachira}{Kirinyaga}{Peter, Claudia}
+\MLHome{Wasikhe}{Musango}{Brian \& Helen}
+\MLHome{Wasikhe}{Nairobi}{Ester}
+\MLHome{Wasikhe}{Musango}{Ken \& Mary, Sammy}
+\MLHome{Wasikhe}{Musango}{Kevin \& Faith, Chantal, Mary, Gracious}
+\MLHome{Wasikhe}{Musango}{Paul \& Alice, Dausi}
+\MLHome{Wasikhe}{Nairobi}{Sammy \& Jasinta, Jendricks, John}
+\MLHome{Watiango}{Bungoma}{Joseph \& Jane}
+\MLMeetingH{Kenya useful contact}
+\MLHome{Alien Card}{}{Enquiry}
+\MLHome{Alltrash}{}{Buruburu Bach}
+\MLHome{Amron }{}{Pacific Forex}
+\MLHome{Booking}{}{Kenya SGR}
+\MLHome{Commissioner Of Oath Nairobi}{}{Humpry}
+\MLHome{Hardware}{}{Eac Stanley Blade Gikomba}
+\MLHome{Hove Empress}{}{Combi}
+\MLHome{Kakamega}{}{Maisha Mart}
+\MLHome{Kakamega }{}{Alex Pikipiki}
+\MLHome{Kakamega }{Kakamega}{Joyland Mengas contact}
+\MLHome{Kakamega }{}{Nellie Mboga Kkm}
+\MLHome{Kakamega Water}{}{Jean}
+\MLHome{Kakamega Water Paybill }{}{:772153}
+\MLHome{Kakamega Zurmac}{}{Caroline}
+\MLHome{Kenya}{}{Power}
+\MLHome{Kenya immigration}{}{Switchboard}
+\MLHome{Landlord}{}{Etemisi Kakamega Bach}
+\MLHome{Maranga Shuttle}{}{To Moshi}
+\MLHome{Matunda }{}{Pikipiki Peter}
+\MLHome{Musango}{}{Robert Musango Pikipiki}
+\MLHome{Musango pikipiki}{}{Willie}
+\MLHome{Nanyuki}{}{Daniel Pikipiki}
+\MLHome{Nanyuki}{}{Dominique Manera Buffalo Pikipiki}
+\MLHome{Nanyuki Taxi}{}{Simon}
+\MLHome{Ngige}{Ngong}{Alex}
+\MLHome{Pikipiki}{}{Timothy}
+\MLHome{Repair}{}{Frederick Opio Kkm Fridge}
+\MLHome{Tahmeed}{}{Dar es Salaam}
+\MLHome{Tax Accountant}{}{Elzeever}
+\MLHome{Tax KRA}{}{Helper of Elzeever}
+\MLHome{Taxi Nanyuki}{Was away Jun 2024. Alternatives Minor (in Town 800 to Solomon) and Nicolas near Mongera. solomon also has a neighbour.}{Zak}
+\MLHome{Work Permit Enquiries}{}{Enquiries}
+\MLMeetingH{Tanzania}
+\MLHome{Kollogi}{Dar es Salaam}{Saidulu}
+\MLMeetingH{Tanzania useful contact}
+\MLHome{Dar es Salaam }{}{Hamis taxi}
+\MLHome{Taxi Moshi}{}{Isaa}
+\end{document}
