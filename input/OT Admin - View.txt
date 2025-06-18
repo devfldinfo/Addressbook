@@ -1,0 +1,24 @@
+\documentclass[english]{article}
+\title{OT Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bailey}{Gelvandale SunAM}{Mercia, Thomas, Rose, Timmalena; 42 Hibiscus Road, Lentegeur, 7785}{+2771 092 3017(H)\\+27780325731(C)}
+\Home{Birch}{Worker}{Bruce; "Hillside", Gokwe Rd, Kwekwe / w 6 Kaguvi Dr, LIS; P.O.Box 170, Kwekwe; pjbirch76@gmail.com; (-18.94039,29.77879) }{+263712 406 741(P)\\0254 22654W\\+26377 701 4818(P)}
+\Home{Botha}{Thaba Phatchoa}{Eduard; 5 Mont Aux Sources lane, Carters Glen, Kimberley, 8301}{053 871 2389W\\082 775 9056}\EndHomes
+\EndSection
+\MLDistrictH{OT Admin}
+\MLMeetingH{OT Contacts}
+\MLHome{Engelbrecht}{}{Fransiena}
+\MLHome{Linde}{}{Kosie}
+\MLHome{Louw}{}{Anthony}
+\MLHome{Murambinda}{}{Dephine}
+\MLHome{Pieterse}{}{Lester}
+\MLHome{Titus}{}{Mercia, Thomas, Rose, Timmalena}
+\MLHome{Van der Nest}{}{Bruce}
+\MLHome{Van Heerden}{}{Eduard}
+\end{document}
