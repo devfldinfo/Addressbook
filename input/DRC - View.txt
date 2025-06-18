@@ -1,0 +1,22 @@
+\documentclass[english]{article}
+\title{DRC}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Barnard}{Kock St Potch}{Juliana, Freddie; 21 Vosges Avenue, Lorraine, Gqeberha 6070}{072 144 3847}\EndHomes
+\EndSection
+\MLDistrictH{DRC}
+\MLMeetingH{Likasi}
+\MLHome{Kimba}{}{Jean, Jaunluke, Helena}
+\MLHome{Kimba}{}{Mama Helena, Erhard, Belanje, Leslie, vzk Jean, Robert}
+\MLHome{Kiwilo}{}{Eric \& Gracio, Darrell Kumire, Marika}
+\MLHome{Likasi}{}{Sedric \& Vennesa, Abiga}
+\MLHome{Maloba}{}{Papa Maloba}
+\MLHome{Ndombe}{}{Papa Daniel, Prince}
+\MLHome{Sengai}{}{Papa}
+\MLHome{Tukumbane}{}{Juliana, Freddie}
+\end{document}
