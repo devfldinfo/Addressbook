@@ -1,0 +1,177 @@
+\documentclass[english]{article}
+\title{Harare}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Alexander}{Bethelsdorp SunAM}{Brighton; c/o Muriel Munro}{079 172 5714}
+\Home{Alexander}{Polokwane}{Joyce; 110 Myrtle Cres, New Horizons, Plettenberg Bay 6600; alexander.renata@gmail.com, ivanalexander086@gmail.com}{769438533}
+\Home{Barnard}{Knysna Sunridge}{Chipo(M Pauline), Melissa, Miranda; 4 Reinecke St, Ceres, 6835; barnard337@gmail.com(J) , mercc081@gmail.com(I) }{078 095 3365(J)\\082 674 7934(I)}
+\Home{Barnard}{Mill Park SunAM (113 Westview drive)}{Eusebia(M Chrispen), Chrispen; 8468 Stroebel St, Hornlee, Knysna 6571; P.O. Box 1129, Knysna 6570; dianabarnard1959@gmail.com}{079 522 7448}
+\Home{Buys}{Garangwe}{Evelette, Brian, Tanaka, Margaret; 73 Isis Crescent, Ext 1, Ennerdale, 1830; Shanstone@hatfieldvw.co.za}{083 6726499(S)}
+\Home{Daames}{Worker}{Tinashe, Patience, Tunga; 5 Theatre Close Westgate; sdaames2011@gmail.com(S) }{079 1110453(S)}
+\Home{Dagnin}{Mushaike}{Tungamirai(B Kudzwai) \& Constance (M Kudzwai), Kudzwai, Marylyn, Joshua; 36 Tracey street Weltevreden Glen Colorado Park; robertadagnin12@gmail.com}{067 993 4265}
+\Home{Davira}{Lusaka}{Sibongile; South africa}{+27643157656(H)}
+\Home{De Bruyn}{Worker}{Antonia(M Tavonga), Tavonga; 43 Malan St. Schoemansville; debruyn.marie@gmail.com}{012 253 1759\\071 944 9365}\EndHomes
+\EndSection
+\MLDistrictH{Harare}
+\MLMeetingH{Budiriro}
+\MLHome{Bhinzi}{}{Bertha (M Tanaka), Tanaka, Alisha}
+\MLHome{Chesango}{}{Esnath(M Takudzwa), Naledi}
+\MLHome{Jaravaza}{}{Benjamin(B Wadiwa) \& Fadzai(M Wadiwa), Wadiwa, Nyasha, Takudzwa, Beziel}
+\MLHome{Jaravaza}{}{Maxwell \& Michael}
+\MLHome{Mafukidze}{}{Perfect}
+\MLHome{Marumisa }{}{Kudzai}
+\MLHome{Murongazvombo}{}{Prince}
+\MLHome{Mutumwabvi}{All mtgs;Elder}{Festus(B Kiri) \& Janet(M Ropa), Ruvimbo, Melissa}
+\MLHome{Muzonde}{}{Ruth(M Ryan), Ryan, Natalie, Riley}
+\MLHome{Nyamapfeka}{}{Alec}
+\MLHome{Nziradzepatsva}{}{Trust}
+\MLHome{Zaranyika }{Wed}{Tungamirai(B Kudzwai) \& Constance (M Kudzwai), Kudzwai, Marylyn, Joshua}
+\MLMeetingH{Chihota}
+\MLHome{Mathews}{All mtgs;Elder}{Clever(B Mercy) \& Thembelani (M Mercy), Mercy, Malvern, Mike, Austin, Enia, Philip}
+\MLMeetingH{Chitungwiza}
+\MLHome{Busuman}{Elder}{Davison(B Casper) \& Mercy (M Casper), Natsai (vzk)}
+\MLHome{Makumbe}{}{Mufaro(M Kudzi), Fadzai, Jamaal, Jayden}
+\MLHome{Mavhurume}{All mtgs}{(M Nyasha), mzk: Toto, Nicole, Tariro, Munogonaishe}
+\MLHome{Mavhurume}{}{Nyasha(B Simbarashe), Simba, Tito, Jaison}
+\MLHome{Munyuni}{}{Mai Romio}
+\MLMeetingH{Harare Contacts}
+\MLHome{Basera}{}{Bernard}
+\MLHome{Bhaera}{}{Rumbidzai(M Takudzwa), Takudzwa}
+\MLHome{Bhunu}{}{Tabitha}
+\MLHome{Black}{}{Caanan}
+\MLHome{Chigwende}{}{Olivia (M Bruce), Bruce, Victoria, Jayden}
+\MLHome{Chihota}{}{Mai D}
+\MLHome{Chimbare}{}{Kudzai \& Newlife, Heavilla, Tatiana}
+\MLHome{Chiminya}{}{Mrs Chiminya}
+\MLHome{Chinaadzimu}{}{Joyce (mHayley Sasha)}
+\MLHome{Chinyanga}{}{Muriel(M Hettie's grand-daughter)}
+\MLHome{Chishanu}{}{Nicodemus(B Modicaai) \& Zvisinei(M Modicaai), mzk Mitchel, Anill}
+\MLHome{Chitambo}{}{Yeukai(M Rutendo) \& James (B Rutendo), Rutendo, Makanaka, Junior}
+\MLHome{Chitsike}{}{Farai \& Venencia, Tatenda, Nicholas, Tanyaradzwa}
+\MLHome{Chiturumani}{}{Doubt (B Sharai) \& Polite (M David), Patience Sharai, George, Tafadzwa, Wilfred, David}
+\MLHome{Chiwara}{}{}
+\MLHome{Chiwara}{}{Hettie(M Hettie's eldest daughter)}
+\MLHome{Dekeya}{}{Lenard(B Makatendeka) \& Petronella(M Makatendeka), Makatendeka, Alicia, Jeremy}
+\MLHome{Dhaura}{}{Justice}
+\MLHome{Domingo}{}{Tracey(M Richard's daughter)}
+\MLHome{Duri}{}{Monica(M Carol)}
+\MLHome{Dzvokora}{}{Chikomborero}
+\MLHome{Eggersglusz}{}{Darren \& Lovia, Brendan, Joshua}
+\MLHome{Gumiremiseve}{}{Vongai(M Rebecca)}
+\MLHome{Jaravaza}{}{Tabitha(M Two), Mishel}
+\MLHome{Kampila}{}{(Nesto) \& Angela, Nixon, Kelvin, Tapiwa, Chantelle, Mitchelle}
+\MLHome{Kampila}{}{Francis \& Mary}
+\MLHome{Kanzoto}{}{Jimmy (Baba Black's son)}
+\MLHome{Kapingautawa}{}{Tariro}
+\MLHome{Kaseke  }{}{Tendai(M Samatha), Samatha, Ropafadzo}
+\MLHome{Kaviya}{}{Anna( M Tawanda), Davey, mzk Tawanda}
+\MLHome{Kaviya}{}{Winnet(M Ruth), Ruth, Cephas}
+\MLHome{Kumire}{}{Renias(B Manu) \& Eunice(M Manu), Manuel, Ryan}
+\MLHome{Kutaura}{}{Panashe}
+\MLHome{Magama}{}{Josephine (M Justin), Maphoto}
+\MLHome{Magama}{}{Khumbulani (B Michelle)}
+\MLHome{Makondo}{}{Noreen (M Tino)}
+\MLHome{Makumbe}{}{Felix (B Obey), Obey}
+\MLHome{Mandaba}{}{Fungai, Tsitsi}
+\MLHome{Mangwiro}{}{Elvis}
+\MLHome{Manyuni}{}{Collen (b Romeo)}
+\MLHome{Mapurazi}{}{Admire(B Sharon) \& Grace(M Sharon), Sharon, Victoria, Tebbie}
+\MLHome{Marumisa}{}{Kudakwashe (B Gert's son)}
+\MLHome{Masanga}{}{Pamhidzai}
+\MLHome{Masanganise}{}{Emilda, David}
+\MLHome{Maseko}{}{Blessing, Thelma, Davidson}
+\MLHome{Mashonganyika}{}{Plaxedes (Ambuya Sandra), mzk: Sandra, Tendai}
+\MLHome{Mateyaunga}{}{Lynette (M Paida's daughter)(M Natasha)}
+\MLHome{Mavhika}{}{(brother of M Tsitsi of Mapu) (B Patience)}
+\MLHome{Mawisire}{}{Febi (Naboth's sister) (M Richard)}
+\MLHome{Mazhindu}{}{Mirirai}
+\MLHome{Mhishi}{}{Betty (Mbuya VaBlessing), vzk Brenda, Precious}
+\MLHome{Moyo}{}{Derick}
+\MLHome{Muchadehama}{}{Docas}
+\MLHome{Muchadehama}{}{Fred \& Wife, Delight, Makanaka, Brilliant}
+\MLHome{Mudzoki}{}{Joy}
+\MLHome{Mudzoki}{}{Vongai (M Jose), Joseph, Blessing}
+\MLHome{Mukaro}{}{Calistos \& Elizabeth}
+\MLHome{Mukaro}{}{Sam(Innocent) \& Nyarai (M Innocent), Innocent, Leroy, Denzil, Vincent, Courage}
+\MLHome{Mungwari}{}{Sandra, Tanaka}
+\MLHome{Murongazvombo}{}{Strive(B Abniel) \& Fainice(M Abniel), Abinel}
+\MLHome{Mutero}{}{Rodwell}
+\MLHome{Muungani}{}{Esther (grand-daughter of M Tererai) (M Farai)}
+\MLHome{Muvindi }{}{Tafadzwa}
+\MLHome{Muyemeki}{}{Lynn}
+\MLHome{Muyemeki}{}{Janet}
+\MLHome{Muyemeki}{}{Leslie}
+\MLHome{Muyemeki}{}{Memory}
+\MLHome{Muyemeki}{}{Paida}
+\MLHome{Muyemeki }{}{Shamiso}
+\MLHome{Mwadi(nee Chipwanyira)}{}{Heather \& Sanders, Linda, Lindiwe, Leslie}
+\MLHome{Neshiri}{}{Amanda, Agnera, Pearl}
+\MLHome{Neshiri}{}{Nyaradzo}
+\MLHome{Ngozo}{}{Mr \& Mrs, M. Amon (Daughters of Mai Mhungu - Marita)}
+\MLHome{Nhika}{}{Shepherd}
+\MLHome{Nyakonda}{}{Mrs (M.Revai's sister)}
+\MLHome{Nyanda }{}{Peter}
+\MLHome{Nziradzepatsva}{}{Best(B Zviko) \& wife(M Zviko), Nyasha}
+\MLHome{Nziradzepatsva}{}{Tinashe(B PrinceDan)) \& Kudzai(M PrinceDan), PrinceDan}
+\MLHome{Oldknow}{}{Trevor (Denise Oldknow's son)}
+\MLHome{Raymond}{MOVED TO UK}{Andrew \& Debbie, Cherisse, Tashana}
+\MLHome{Rwafa}{}{Patience}
+\MLHome{Rwafa}{}{Tecla}
+\MLHome{Sipeku}{}{Ropafadzo(M Zvikomborero), Fungisisa}
+\MLHome{Skinner}{}{Margie}
+\MLHome{Steenkamp}{}{Keith \& Claire, Emily}
+\MLHome{Tasuruwara}{}{Joyce}
+\MLHome{Tsikwa}{}{Chipo(M Pauline), Melissa, Miranda}
+\MLHome{Tsokodai}{}{Eusebia(M Chrispen), Chrispen}
+\MLHome{Veto}{}{Evelette, Brian, Tanaka, Margaret}
+\MLHome{Zaranyika}{}{Tinashe, Patience, Tunga}
+\MLHome{Zivengwa }{}{Sibongile}
+\MLHome{Zvoutete}{}{Antonia(M Tavonga), Tavonga}
+\MLMeetingH{Hatfield}
+\MLHome{Bhunu}{Couple moved to UK}{Andrew (B Rufaro) \& Vongai(M Rufaro), Rufaro, Miles Mukundi}
+\MLHome{Chigwende}{SunAM,SunPM}{Robert(B Ashley), Claire Robin, Barbara, Graham}
+\MLHome{Chinyoka}{}{Zorodzai \& B Panashe, Panashe, Takudzwa}
+\MLHome{Chiriga}{}{Tapiwa}
+\MLHome{Dhaura}{}{Basilisa(M Nyaradzo)}
+\MLHome{Dzvokora}{}{Obey}
+\MLHome{Gondo}{}{Taurai(B Kudzi), Vongai, Tanatswa, Leroy, Mutsa, Tamiranashe}
+\MLHome{Magaramombe}{}{Jane(M Jabulani), mzk Matipaishe}
+\MLHome{Muchadei }{}{Gladys(M Wisdom)}
+\MLHome{Mutomeko}{}{Rugare}
+\MLHome{Nhete}{}{Priscah(M Sharai), Mary Ann-Grace}
+\MLHome{Schmidt}{Share eldership with Robert; Wed 18:30}{Felicia}
+\MLMeetingH{Mahuwe}
+\MLHome{Chasweka}{}{Better(B Prince) \& Juliet(M Prince), Elton, Byron, Binon, Prestige}
+\MLMeetingH{Murehwa}
+\MLHome{Mazhindu}{All mtgs}{Mildred (M Rudo)}
+\MLHome{Mazhindu}{}{Charity (M Favour), Favour}
+\MLHome{Takavadii}{}{Brighton}
+\MLMeetingH{Norton}
+\MLHome{Dumbura}{Elder}{Jabulani(B Geraldine) \& Blessing(M Geraldine), Geraldine, Jane, Janise, Janel}
+\MLHome{Makondo}{All mtgs}{Eunice(M Katie)}
+\MLHome{Muzonde}{}{Terrance}
+\MLHome{Njanji}{}{Losper}
+\MLMeetingH{Nyava}
+\MLHome{Choma}{}{John \& Farai}
+\MLHome{Kaviya/Mamira}{}{Rosemary(Ambuya Washy)}
+\MLHome{Ketero}{}{Mavis(M Chamu), Petros, mzk Lewlene, Lindrell, Delroy}
+\MLHome{Mbatata}{}{Dorica(M Mbatata)}
+\MLHome{Mumba}{SunAM,SunPM;Elder}{Sekuru \& Mai Mumba, mzk Nyasha}
+\MLHome{Muzambi}{}{Martha (M Charles), Elmond, Munashe}
+\MLHome{N'andu}{}{Violen, vzk Munashe, Andrew}
+\MLHome{Parimangwana}{}{Mai}
+\MLMeetingH{Seke}
+\MLHome{Baera}{Shared Elder with Mai Violet}{Raston (B Tichaona) \& Nosta (M Tichaona)}
+\MLHome{Domingo}{}{Rebecca (M Orline), Orline, Tracey}
+\MLHome{Kampila}{All mtgs;M Violet Share elder with Raston}{Barbara \& Daniel, Martha, mzk Shawline, Tatenda, Clayton}
+\MLHome{Kampila}{}{Dhausie \& Tarisai}
+\MLMeetingH{Zvimba}
+\MLHome{Kanogwere}{}{Edna}
+\MLMeetingH{Bluff Hill}
+\MLHome{Schmidt}{Share eldership with Robert; Wed 18:30}{Felicia}
+\end{document}
