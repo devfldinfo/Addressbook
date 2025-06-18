@@ -1,0 +1,295 @@
+\documentclass[english]{article}
+\title{Pretoria \& District}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Adamson}{Admin - Misc}{Johann; 29 Madeliefie lane, Kimberley, 8301}{053 874 2327}
+\Home{Adams}{Heatherdale Heights}{Erhard \& Lynne, Paul, Andrew; 27 Frederick street, Heidedal, Bloemfontein, 9306; adamsliezl@yahoo.com}{739472707}
+\Home{Adams}{Stilbaai}{Glenys; 9 Olyf street, Malmesbury, 7300; adamsbelinda1@gmail.com(Be) , adamsbrent914@gmail.com}{063 367 4393(M)\\064 223 2820(Be)\\083 602 0980(C)}
+\Home{Adkins}{Admin - Passed Away}{Rona; 21 Coral Rd, Booysens Park}{061 489 3696(F)}
+\Home{Adkins}{Bethelsdorp SunAM}{Riaan \& Lourika, Amica, Riané; }{}
+\Home{Besselaar}{Protea Hoogte}{Marie; Farm V99A, Elandsdal, off R561; besselaarmaggie1@gmail.com}{084 739 6912\\0710150358}
+\Home{Beukman}{Nairobi}{Esmé \& Louis; 2 Olifants weg, Virginia, 9430; beukmancj@gmail.com}{060 620 7392\\072 147 2489}
+\Home{Blondeel}{Worker}{Elizabeth; 52 Lima Street, Sharonlea Ext 2, 2194; djblondeel@gmail.com(D) , shelagh.blondeel@gmail.com(S) }{082 875 4944(S)\\072 549 3554(D)}
+\Home{Botes}{FS Contacts}{Pieter; Universiteit van Noordwes; 21.jacques@gmail.com}{073 616 6079}
+\Home{Botha\_Gonubie}{Humansdorp SunAM}{Chris \& Annatjie; 24 4th Avenue, Gonubie, 5257; Box 893, Gonubie, 5256; lucianbotha10@gmail.com(L) , nbotha50gmail.com(N) }{083 507 9291(L)\\073 494 7523(N)}
+\Home{Botha\_PE}{Visiting Worker}{Hennie \& Marcharl, Stefan, Charl; 21 Riverwoods Complex, 262 Church Road, Walmer, 6065}{063 747 7261(N)}
+\Home{Botha}{EC Contacts}{Bennie; 28 Falcon Street, D'Urbanvale, 7550}{082 560 4716(Y)}
+\Home{Botha}{Florida SunAM}{Monica; 15 Plaine St., Midstream Hill, Centurion, 1692; henkbotha1@gmail.com; (-25.9347140, 28.1813240) }{078 658 1938(H)\\083 441 1330(B)}
+\Home{Burger}{Impala Park}{Mathilda; c/o Niel van Rensburg}{}
+\Home{Busuman}{Chitungwiza}{Elna; 265 Stanbury rd, Boksburg South; kabhushaz@gmail.com}{081 565 4796(C)\\082 299 0734(N)}
+\Home{Buthelezi}{Hyde Park}{Barry \& Ursula; Stand 2628, A Section, Msholozi. (Nkosinathi) 64 1st Road, Hyde Park. (Thabile \& children); Box 580 Nelspruit 1200; shenge.en@gmail.com; (-25.408564,31.167883) }{068 841 6404\\068 825 8178}
+\Home{Buttimer}{Dec 23 - Visiting Worker}{Jared \& Laura; Date of Birth: Unknown, Started in Work: 1997, List: WA; gilleb09@gmail.com}{+233 54 354 6336}
+\Home{Buys}{Ennerdale Buys SunAM}{Dale \& Beverley, Clinton, Sherylee, Handen; 7 Heber st. Ext 36, Bethelsdorp, Gqeberha}{071 087 4658(T)}
+\Home{Chiminya}{Matizha Mungwari}{Ian (jnr) \& Clarissa; 11998 Joburg, Norton}{078 566 0157}
+\Home{Chiminya}{ZAM Contacts}{Ian \& Judy, Wayne, Julian, Shani; Matizha Township}{078 009 8898(V)}
+\Home{Chimuntu}{Harare Contacts}{Ronnie; Sunday, Luwingu}{}
+\Home{Chinaka}{Harare Contacts}{Taneil; Gudza Sec Sch, Box 144, Mpandawana}{0715110635(M)}
+\Home{Chipwanyira}{Hatfield}{Anna; Mukonde Sch, PB 9046, Masvingo}{0779 321 394(R)\\+263779743379(F)}
+\Home{Chipwanyira}{Masvingo Contacts}{Muriel; Mukonde Sch, PB 9046, Masvingo}{+27743651286 (G)\\+27846882414(A)}
+\Home{Coetzee}{Forest Town}{Abygail; 6 Vygie St, Northmead X4, Benoni, 1501; P.O. Box 12179, Benoryn, 1504; eileenmarg001@gmail.com}{083 235 0997}
+\Home{Crause}{Andeon}{Noeleen; 16B Block, Eden Wilds, Old Pont Rd, Port Edward; Box 982, Port Edward,4295}{066 115 7019}\EndHomes
+\EndSection
+\MLDistrictH{Pretoria \& District}
+\MLMeetingH{Andeon}
+\MLHome{Botha}{}{Reagan}
+\MLHome{Cloete}{SunAM,Wed;Elder}{Johan \& Lois}
+\MLHome{Cloete}{}{Leonard}
+\MLHome{Cornwall}{}{Clinton}
+\MLHome{Cornwall-Smith}{}{Carol \& Nigel}
+\MLHome{Crause}{}{Aida}
+\MLHome{Havemann}{}{Leona}
+\MLHome{Janse Van Rensburg}{}{Xavier \& Rosanne, Franco}
+\MLHome{Munguni}{}{Esther}
+\MLHome{Richards}{}{Kaycey, Gorden}
+\MLHome{Vercueil}{SunPM}{Barry \& Ursula}
+\MLMeetingH{Atteridgeville}
+\MLHome{Mashigo}{}{Maria Matsoaisa}
+\MLHome{Mashigo}{All mtgs;Elder}{Snowball, Patricia, Lebogang, Thato, Reabetswe, Oupa (Seabata)}
+\MLMeetingH{Booysens}
+\MLHome{Koen}{}{Pieter \& Nadine, André, Edward}
+\MLHome{Lourens}{SunPM,Wed;Elder}{Kosie \& Isabel}
+\MLHome{Pieterse}{}{Helen}
+\MLHome{Van Rooyen}{}{Chris \& Annatjie}
+\MLHome{Van Rooyen}{SunAM}{Hennie \& Marcharl, Stefan, Charl}
+\MLMeetingH{Huis Abendruhe}
+\MLHome{Greeff}{All mtgs;Elder}{Hendro \& Ina}
+\MLHome{Oldknow}{}{Irene}
+\MLHome{Oliver}{}{Gizela, Lauren, Janine and Harriett}
+\MLHome{Pistorius}{}{Leon}
+\MLHome{Scheepers}{}{Thomas}
+\MLHome{Van Loggerenberg}{}{Bennie}
+\MLMeetingH{Huis Danalet}
+\MLHome{Diplock}{}{Janette}
+\MLHome{Fagan}{}{Anne}
+\MLHome{Fulton}{}{Yvonne}
+\MLHome{Garcia}{}{Heather}
+\MLHome{Mokhethi}{}{Marie}
+\MLHome{Naude}{}{Martha}
+\MLHome{Nortjé}{}{Tobie}
+\MLHome{Ostling}{}{Thea}
+\MLHome{Potgieter}{}{Carlize}
+\MLHome{Steyn}{All mtgs;Elder}{Gerrie \& Phoebe}
+\MLHome{Valadon}{}{Marie}
+\MLHome{Van Heerden}{}{Pieter}
+\MLHome{Weich}{}{Muriel}
+\MLHome{Welgemoed}{}{Anna}
+\MLMeetingH{Murrayfield}
+\MLHome{Cawood}{SunPM}{Stan \& Anna}
+\MLHome{Du Preez}{}{Miempie}
+\MLHome{Herman}{}{Adelie}
+\MLHome{Hurter}{Wed}{James \& Louisa}
+\MLHome{Mitchell}{}{Tiana}
+\MLHome{Oldknow}{}{David}
+\MLHome{Opperman}{SunPM}{Louwrens \& Nittie, Adriaan, Heleen}
+\MLHome{Robijn}{}{Cobie}
+\MLHome{Segwapa}{}{Pumla}
+\MLHome{Vermaak}{SunAM;Elder}{Dale \& Beverley, Clinton, Sherylee, Handen}
+\MLMeetingH{Pecanwood@10h30;C Hughes}
+\MLHome{Andrews}{Wed}{Angeline, Ralph, Ronelle}
+\MLHome{Hughes}{SunAM,SunPM;Elder;SunPM@12pm}{Craig \& Marion, Timothy}
+\MLHome{Hughes}{}{Henny \& Lucy}
+\MLHome{Stucky}{}{Bianca}
+\MLHome{Venter}{}{Elna}
+\MLHome{Webb}{}{Ian (jnr) \& Clarissa}
+\MLHome{Webb}{}{Ian \& Judy, Wayne, Julian, Shani}
+\MLMeetingH{Waverley;S McCarthy}
+\MLHome{Coetzee}{}{Hester}
+\MLHome{Da Silva}{}{Steven \& Nicky, Josslynn, Miané}
+\MLHome{De Kock}{Wed}{Chris}
+\MLHome{Faure}{}{Michael \& Jenny}
+\MLHome{Furber}{Does not attend mtgs}{Richard}
+\MLHome{Jacobs}{}{Jakes \& Henriet}
+\MLHome{Kumire}{}{Leslie \& Mukiri}
+\MLHome{Labuschagne}{}{Julie, Kezia}
+\MLHome{Mc Minn}{attends no meetings}{Marge, Jean, Megan}
+\MLHome{McCarthy}{}{Sheldon}
+\MLHome{McCarthy}{SunAM,Wed;Elder}{Stanley \& Nerine}
+\MLHome{Ross}{}{Hetty}
+\MLHome{Steyn}{}{Gerhard}
+\MLHome{Van der Walt}{}{Elizabeth}
+\MLHome{Van Zyl}{}{Mathilda}
+\MLHome{Vercueil}{}{Jared \& Laura}
+\MLHome{Webb}{Please call Jady Hewitt on 0829225075 to make an appointment in advance.}{Taneil}
+\MLHome{Wilson}{}{Abygail}
+\MLMeetingH{Zambezi Estate}
+\MLHome{Els}{SunPM}{Anton \& Elaine, Quwen, Tristan, Nicole}
+\MLHome{Greeff}{}{Gunther \& Nicolette, Ruben, Zander, Luhan}
+\MLHome{Janse van Rensburg}{}{Willie \& Marlene}
+\MLHome{Manus}{SunAM;Elder}{Leonardo \& Antonino, Chearn, Thamzyn}
+\MLHome{Metz}{}{Frederick}
+\MLHome{Metz}{}{Isabella}
+\MLHome{Swart}{Not able to attend mtgs}{Johann}
+\MLHome{Van Niekerk}{}{Monica}
+\MLMeetingH{Silver Lakes;A Coleske}
+\MLHome{Cawood}{}{Jonathan \& Tricia, Divan}
+\MLHome{Coleske}{SunAM;Elder}{Arnold \& Margie, Arnold (jnr), Isabella}
+\MLHome{Du Toit}{SunPM}{Cobus \& Greta, Eileen, Michal}
+\MLHome{Havemann}{}{Lorna}
+\MLHome{Janse van Rensburg}{}{Christian}
+\MLHome{Keeler}{}{Cameron}
+\MLHome{Mdungazi}{}{Lucky \& Ollie}
+\MLHome{Pickering}{}{Candice}
+\MLHome{Pottie}{}{Rodger}
+\MLHome{Swanepoel}{}{Erhard \& Lynne, Paul, Andrew}
+\MLHome{Swart}{}{Glenys}
+\MLHome{Swart}{Wed}{Riaan \& Lourika, Amica, Riané}
+\MLHome{Swart}{}{Rona}
+\MLMeetingH{Sinoville}
+\MLHome{Els}{}{Annatjie}
+\MLHome{Leach}{Wed}{Anita}
+\MLHome{Mundell}{SunAM}{Ricky}
+\MLHome{Murphy}{Health too poor to attend}{Barbara}
+\MLHome{Van Aardt}{}{Esmé}
+\MLHome{Webb}{Elder}{Ronnie}
+\MLHome{Wright}{}{Noeleen}
+\MLMeetingH{Soshanguve Zone HH}
+\MLHome{Mathebula}{SunAM}{Joyce}
+\MLMeetingH{Huis Abendruhe SunPM@16h00}
+\MLHome{Greeff}{}{Gunther \& Nicolette, Ruben, Zander, Luhan}
+\MLHome{Greeff}{All mtgs;Elder}{Hendro \& Ina}
+\MLHome{Oldknow}{}{Irene}
+\MLHome{Oliver}{}{Gizela, Lauren, Janine and Harriett}
+\MLHome{Pistorius}{}{Leon}
+\MLHome{Scheepers}{}{Thomas}
+\MLHome{Van Loggerenberg}{}{Bennie}
+\MLMeetingH{Pintail St SunPM}
+\MLHome{Els}{}{Annatjie}
+\MLHome{Els}{SunPM}{Anton \& Elaine, Quwen, Tristan, Nicole}
+\MLHome{Janse van Rensburg}{}{Willie \& Marlene}
+\MLHome{Leach}{Wed}{Anita}
+\MLHome{Manus}{SunAM;Elder}{Leonardo \& Antonino, Chearn, Thamzyn}
+\MLHome{Mundell}{SunAM}{Ricky}
+\MLHome{Van Aardt}{}{Esmé}
+\MLHome{Webb}{Elder}{Ronnie}
+\MLHome{Wright}{}{Noeleen}
+\MLMeetingH{Silver Lakes SunPM@17h00;C du Toit}
+\MLHome{Cawood}{}{Jonathan \& Tricia, Divan}
+\MLHome{Coleske}{SunAM;Elder}{Arnold \& Margie, Arnold (jnr), Isabella}
+\MLHome{Du Toit}{SunPM}{Cobus \& Greta, Eileen, Michal}
+\MLHome{Janse van Rensburg}{}{Christian}
+\MLHome{Keeler}{}{Cameron}
+\MLHome{Pickering}{}{Candice}
+\MLHome{Pottie}{}{Rodger}
+\MLHome{Swanepoel}{}{Erhard \& Lynne, Paul, Andrew}
+\MLHome{Swart}{}{Glenys}
+\MLHome{Swart}{Wed}{Riaan \& Lourika, Amica, Riané}
+\MLHome{Swart}{}{Rona}
+\MLMeetingH{The Wilgers Estate SunPM;S Cawood}
+\MLHome{Cawood}{SunPM}{Stan \& Anna}
+\MLHome{Du Preez}{}{Miempie}
+\MLHome{Herman}{}{Adelie}
+\MLHome{Mitchell}{}{Tiana}
+\MLHome{Robijn}{}{Cobie}
+\MLHome{Vermaak}{SunAM;Elder}{Dale \& Beverley, Clinton, Sherylee, Handen}
+\MLMeetingH{Wonderboom South SunPM}
+\MLHome{Coetzee}{}{Hester}
+\MLHome{Da Silva}{}{Steven \& Nicky, Josslynn, Miané}
+\MLHome{De Kock}{Wed}{Chris}
+\MLHome{Faure}{}{Michael \& Jenny}
+\MLHome{Furber}{Does not attend mtgs}{Richard}
+\MLHome{Jacobs}{}{Jakes \& Henriet}
+\MLHome{Kumire}{}{Leslie \& Mukiri}
+\MLHome{McCarthy}{}{Sheldon}
+\MLHome{McCarthy}{SunAM,Wed;Elder}{Stanley \& Nerine}
+\MLHome{Opperman}{SunPM}{Louwrens \& Nittie, Adriaan, Heleen}
+\MLHome{Steyn}{}{Gerhard}
+\MLHome{Van der Walt}{}{Elizabeth}
+\MLHome{Van Zyl}{}{Mathilda}
+\MLHome{Vercueil}{}{Jared \& Laura}
+\MLHome{Wilson}{}{Abygail}
+\MLMeetingH{Andeon WedPM}
+\MLHome{Cloete}{SunAM,Wed;Elder}{Johan \& Lois}
+\MLHome{Cloete}{}{Leonard}
+\MLHome{Havemann}{}{Leona}
+\MLHome{Koen}{}{Pieter \& Nadine, André, Edward}
+\MLHome{Munguni}{}{Esther}
+\MLHome{Van Rooyen}{SunAM}{Hennie \& Marcharl, Stefan, Charl}
+\MLHome{Vercueil}{SunPM}{Barry \& Ursula}
+\MLMeetingH{Booysens WedAM@10h00;K Lourens}
+\MLHome{Crause}{}{Aida}
+\MLHome{Lourens}{SunPM,Wed;Elder}{Kosie \& Isabel}
+\MLHome{Pieterse}{}{Helen}
+\MLHome{Van Rooyen}{}{Chris \& Annatjie}
+\MLMeetingH{Hartbeespoort WedPM@19h30;A Andrews}
+\MLHome{Andrews}{Wed}{Angeline, Ralph, Ronelle}
+\MLHome{Hughes}{SunAM,SunPM;Elder;SunPM@12pm}{Craig \& Marion, Timothy}
+\MLHome{Hughes}{}{Henny \& Lucy}
+\MLHome{Stucky}{}{Bianca}
+\MLHome{Venter}{}{Elna}
+\MLHome{Webb}{}{Ian (jnr) \& Clarissa}
+\MLHome{Webb}{}{Ian \& Judy, Wayne, Julian, Shani}
+\MLMeetingH{Huis Abendruhe WedAM@09h30}
+\MLHome{Greeff}{All mtgs;Elder}{Hendro \& Ina}
+\MLHome{Metz}{}{Isabella}
+\MLHome{Oldknow}{}{Irene}
+\MLHome{Oliver}{}{Gizela, Lauren, Janine and Harriett}
+\MLHome{Pistorius}{}{Leon}
+\MLHome{Scheepers}{}{Thomas}
+\MLHome{Van Loggerenberg}{}{Bennie}
+\MLMeetingH{Huis Danalet WedAM@10h00}
+\MLHome{Diplock}{}{Janette}
+\MLHome{Fagan}{}{Anne}
+\MLHome{Fulton}{}{Yvonne}
+\MLHome{Garcia}{}{Heather}
+\MLHome{Mokhethi}{}{Marie}
+\MLHome{Naude}{}{Martha}
+\MLHome{Nortjé}{}{Tobie}
+\MLHome{Ostling}{}{Thea}
+\MLHome{Potgieter}{}{Carlize}
+\MLHome{Steyn}{All mtgs;Elder}{Gerrie \& Phoebe}
+\MLHome{Valadon}{}{Marie}
+\MLHome{Van Heerden}{}{Pieter}
+\MLHome{Weich}{}{Muriel}
+\MLHome{Welgemoed}{}{Anna}
+\MLMeetingH{Meyerspark WedAM@10h00;J Hurter}
+\MLHome{Cawood}{SunPM}{Stan \& Anna}
+\MLHome{Havemann}{}{Lorna}
+\MLHome{Hurter}{Wed}{James \& Louisa}
+\MLHome{Kruger}{}{Pierre \& Edna}
+\MLHome{Robijn}{}{Cobie}
+\MLHome{Swanepoel}{}{Jannie}
+\MLHome{Swart}{}{Glenys}
+\MLMeetingH{Queenswood WedAM@10h00;C de Kock}
+\MLHome{Coetzee}{}{Hester}
+\MLHome{De Kock}{Wed}{Chris}
+\MLHome{Furber}{Does not attend mtgs}{Richard}
+\MLHome{Van der Walt}{}{Elizabeth}
+\MLHome{Van Zyl}{}{Mathilda}
+\MLHome{Vercueil}{SunPM}{Barry \& Ursula}
+\MLMeetingH{Silver Lakes WedPM@19h30;R Swart}
+\MLHome{Cawood}{}{Jonathan \& Tricia, Divan}
+\MLHome{Coleske}{SunAM;Elder}{Arnold \& Margie, Arnold (jnr), Isabella}
+\MLHome{Du Toit}{SunPM}{Cobus \& Greta, Eileen, Michal}
+\MLHome{Janse van Rensburg}{}{Christian}
+\MLHome{Keeler}{}{Cameron}
+\MLHome{Pickering}{}{Candice}
+\MLHome{Pottie}{}{Rodger}
+\MLHome{Swanepoel}{}{Erhard \& Lynne, Paul, Andrew}
+\MLHome{Swart}{Wed}{Riaan \& Lourika, Amica, Riané}
+\MLHome{Swart}{}{Rona}
+\MLMeetingH{Sinoville WedAM@10h00;R Webb @ A Leach}
+\MLHome{Els}{}{Annatjie}
+\MLHome{Leach}{Wed}{Anita}
+\MLHome{Van Aardt}{}{Esmé}
+\MLHome{Webb}{Elder}{Ronnie}
+\MLHome{Wright}{}{Noeleen}
+\MLMeetingH{Waverley WedPM;S McCarthy}
+\MLHome{Faure}{}{Michael \& Jenny}
+\MLHome{Herman}{}{Adelie}
+\MLHome{McCarthy}{}{Sheldon}
+\MLHome{McCarthy}{SunAM,Wed;Elder}{Stanley \& Nerine}
+\MLHome{Mitchell}{}{Tiana}
+\MLHome{Opperman}{SunPM}{Louwrens \& Nittie, Adriaan, Heleen}
+\MLHome{Vermaak}{SunAM;Elder}{Dale \& Beverley, Clinton, Sherylee, Handen}
+\MLMeetingH{Zambezi Estate WedPM;A Els}
+\MLHome{Els}{SunPM}{Anton \& Elaine, Quwen, Tristan, Nicole}
+\MLHome{Greeff}{}{Gunther \& Nicolette, Ruben, Zander, Luhan}
+\MLHome{Janse van Rensburg}{}{Willie \& Marlene}
+\MLHome{Manus}{SunAM;Elder}{Leonardo \& Antonino, Chearn, Thamzyn}
+\MLHome{Mundell}{SunAM}{Ricky}
+\end{document}
