@@ -1,0 +1,173 @@
+\documentclass[english]{article}
+\title{NP Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Adadjo}{Heatherdale Heights}{Christo \& Elzaan, Christel, Adriaan; Date of Birth: Sun, 23 Oct 1966, Started in Work: 1993, List: WA; kossiemail@yahoo.com}{+233 20 799 9500}
+\Home{Adams}{FS Contacts}{Jesenca; 18 Blombos, 33 Erica Drive, Still Bay West 6674; colandrea1964@gmail.com}{083 714 1287(C)}
+\Home{Adonis}{WC Contacts}{Rowan \& Mareli, Chanelle, Duncan; 7 Truter St, Victoria Park, Worcester, 6850}{076 581 1956}
+\Home{Bailey}{Everton}{Baba \& Veronica, Musa; 27 Byron Road, Kensington, Gqeberha; melanievalayden@hotmail.co.za}{073 409 9597}
+\Home{Barends}{George East Ext}{Alison; House C513, William Slammert Drive, Vastrap, Booysens Park}{079 555 6305}
+\Home{Bartlett}{Everton}{Freddy; 67 Jupiter Lane, Arcadia Complex, Verster Street, Universitas, Bloemfontein, 9321; jerrybartlett151@gmail.com(J) , heloise.buzzy@gmail.com(H) }{076 014 0874(J)\\076 513 8411(H)}
+\Home{Bernardo}{Limpopo}{Caren, Jean-Luc, Kiara; 181 France Crescent, Timothy Valley, Booysen Park, Bethelsdorp, Gqeberha, 6059}{062 935 2182(R)\\073 662 1307(Y)}
+\Home{Beukman}{FS Contacts}{Dewald; 13 Potgieter Street, De Aar, 7000}{073 607 3567(L)}
+\Home{Bibbey}{Worker}{Renaldo, Shani; 97 Cambridge St, Farrarmere, Benoni; P.O. Box 15208, Farrarmere, 1518; nanette.bibbey@gmail. com}{083 357 8830(M)\\071 860 9560(N)}
+\Home{Biell}{Kwekwe}{Nellie; Date of Birth: Thu, 31 Jul 1941, Started in Work: 1963, List: SA; barbara.biell@gmail.com}{+2783 388 4977\\+2782 377 1606}
+\Home{Bodenstein}{Malawi Contacts}{Odie; 5 Blueberry Drive, Blueberry Hill, St Helena Bay,  7390; kallie.bodenstein11@gmail.com}{022 742 1608\\083 657 7540}
+\Home{Bransby}{Admin - Passed Away}{Tommie \& Esther, Adriaan, Monique; Stays with daughter Madeleine in Vereeniging.; gloriabransby@gmail.com}{082 893 3070}
+\Home{Buck}{Kenya}{Carolyn; Unit 135, Protea Retirement Village, Heuwelsig, 956 Clifton Ave, Lyttelton; Box 534, Wapadrand, 0050; abuck51@outlook.com; (-25.8397059, 28.2006313) }{065 997 6299(A)\\082 813 3759(E)}
+\Home{Bussack}{EC Contacts}{Sternberg; 12 Atwell st, Baysville; eunicebussack08@gmail.com(E) }{071 686 8322(E)\\0608905198(El)}
+\Home{Busuman}{Madadeni}{Nadine, Hanno, Karli; Date of Birth: Sun, 28 Jul 1968, Started in Work: 1995, List: SA; ebushz@gmail.com}{+254757109170\\+255757129650\\+263772973096}
+\Home{Cameron}{Rondebosch East}{Thabiso, Gugu; 5 Van Schalkwyk Rd, Rondebosch East, 7780; Maureen Spies sent message 15 Feb; cameror@eskom.co.za}{082 903 9381(Cr)}
+\Home{Cameron}{Tygerdal}{Elvera \& Carel; 20 Upper East Side, 5th Ave, Rivonia, 2128; candiceyvettecameron@gmail.com}{082 903 9385}
+\Home{Carelse}{Bloemhof}{Hannes \& Petro, Annamarie; Victoria St, Willowmore 6445}{0742374448(T)\\044 923 1474(R)}
+\Home{Cavanagh}{Valeriedene}{Koos \& Meisie; 11 Sherwood Rd, Forest Town 2193; toomevarajhb@gmail.com(J) , ruthcavanaghjhb@gmail.com(R) }{011 646 1716H\\082 551 4583(J)\\082 815 1870(R)}
+\Home{Cawood }{Middelburg Kaap}{Werner; M'vuu Lodge, 4km out of Mookgopong; kimberleycawood19@icloud.com}{071 536 6236(K)}
+\Home{Cawood}{Mookgopong}{Tanja; Portion 19, Farm Vlakfontein, 1ste Laan, Mookgopong; stancawood@gmail.com(S) , iscawood@mweb.co.za(I) , Donaldcawood96@gmail.com(D) ; (-24.52509, 28.70119) }{082 327 4648(S)\\083 946 1350(I)\\076 835 8130(D)}
+\Home{Cedras}{Penhill Estate}{Nadia; 22 Rosmead str, Middelburg, 5900}{078 673 0325(A)}
+\Home{Chipiri}{Beira}{Adrian \& Rika; ; (-16.78837,29.35181) }{0778657379(E)\\+263717981345(E)\\0774032948(T)}
+\Home{Chipwanyira}{Masvingo}{Suzelle; Chirumanzu}{0777 426 364}
+\Home{Coetzee}{NP Contacts}{Mikayla; ; Margaret Domleo sent message 8 Feb}{076 931 2107}
+\Home{Coetzee}{Waverley}{Pieter \& Tracey, Khathryn; 19 Leipoldt St., Middelburg.; charmainecoetzee70@gmail.com}{076 373 4551\\066 224 0591}
+\Home{Cook}{Mozambique Contacts}{Wolfgang; Maas Straat 1, Eendekuil. Posbus 96, Citrusdal, 7340; ontvangs@cedarpack.com}{084 885 6777(SH)\\084 993 6777(SO)}
+\Home{Crause}{Winston Park}{Timothy \& Sarah, Katherine, Alexis, Madison; Plot 11, 710 Alfred Boyes Ave, Andeon; PO Box 48831, Hercules, 0030; crause.aida@gmail.com}{081 451 2990\\012 372 3596 H}\EndHomes
+\EndSection
+\MLDistrictH{NP Admin}
+\MLMeetingH{NP Contacts}
+\MLHome{Bam}{}{Megan}
+\MLHome{Barends}{}{Teagan, Terry}
+\MLHome{Booysen}{}{Gerhard}
+\MLHome{Botes}{}{Jacques}
+\MLHome{Botha}{}{Gavin}
+\MLHome{Brender-a-Brandis}{}{Cedric \& Tracey-Lea, Tegan-Skye}
+\MLHome{Busuman}{}{Asher \& Otillia, Mercy, Tawananyasha}
+\MLHome{Calitz}{}{Rowland}
+\MLHome{Ceerust}{}{}
+\MLHome{Chiloane}{}{Innocentia \& Loveness, Samuel}
+\MLHome{Coetzee}{}{Theinus}
+\MLHome{Coleman}{}{Carmen, Aden}
+\MLHome{Contact}{}{Elsabeth}
+\MLHome{De Bruyn}{Not attending}{Marie}
+\MLHome{De Wet}{}{Callie \& Pietta}
+\MLHome{Delport}{}{Isabel}
+\MLHome{Dippenaar}{}{Marinda \& Kobus, Aimée Claire}
+\MLHome{Dlamini}{}{Bonisile, Melisizwe}
+\MLHome{Dlamini}{}{Melusi}
+\MLHome{Dlamini}{}{Mmeli}
+\MLHome{Dojiwe}{}{Sithembile, Sammy}
+\MLHome{Du Randt}{}{Christene}
+\MLHome{Du Toit}{}{Paula}
+\MLHome{Dunn}{}{Shirley}
+\MLHome{Elgar}{}{Phillipa \& Gabby, Daniel, Caliska}
+\MLHome{Faul}{}{Anton \& Linette}
+\MLHome{Fisher}{}{Doris}
+\MLHome{Fourie}{}{Susan}
+\MLHome{Ginindza}{}{Mduduzi}
+\MLHome{Goliath}{Not attending}{Quinton}
+\MLHome{Gouws}{}{Renate \& Frikkie, Amy-Lee, Daniel, Donnay}
+\MLHome{Gower}{}{Shane Jr}
+\MLHome{Greef}{}{Rowan}
+\MLHome{Greeff}{NP Contacts}{Marnus \& Jodene, Andiné(Faul)}
+\MLHome{Greyling}{}{Magdelena, Liezle}
+\MLHome{Greyling}{}{Pieter \& Laura}
+\MLHome{Grobbelaar}{}{Berno \& Janelle}
+\MLHome{Grobler}{}{Piet \& Stella}
+\MLHome{Grootboom}{}{Ainsley}
+\MLHome{Hamilton}{}{Jeannie}
+\MLHome{Hartman}{}{Francois}
+\MLHome{Herion}{}{Fred, Rebecca}
+\MLHome{Hoffmann}{}{Lynae}
+\MLHome{Jack}{}{Emily}
+\MLHome{Jacobs}{}{Michaela \& Skylar}
+\MLHome{Janse van Vuuren}{not attending}{Susan}
+\MLHome{Jombo}{}{Kennedy \& Mufaro, Chiedza}
+\MLHome{Keeble}{}{Keenan, Lesedi, Reabetswe, Caireen}
+\MLHome{Kerspuy}{}{Tanner}
+\MLHome{Khoza}{}{Abednigo}
+\MLHome{Kock}{}{Laché, Caleb, Micah}
+\MLHome{Koekemoer}{}{Bertus \& Gertruida, Stienie vd Berg}
+\MLHome{Le Roux}{}{Kern}
+\MLHome{Lomas}{}{Wayne \& Magna, Georic, Johndré}
+\MLHome{Louw}{}{Daisy}
+\MLHome{Lucioli}{}{Mario}
+\MLHome{Lyon}{}{Debbie, Peter-John, Lionel}
+\MLHome{Magagula}{}{Sipho}
+\MLHome{Mallett}{}{}
+\MLHome{Mamba}{Daughter \& Son in Law of baba Petros Mamba}{Mkwenyana}
+\MLHome{Mangale}{}{Brenton, Terry-Ann, Mercedes, Isabella}
+\MLHome{Mangale}{}{Codney, Maurice}
+\MLHome{Mann}{}{Brent}
+\MLHome{Maplanka}{}{Viviene, Ganiwe}
+\MLHome{Masusku}{}{Cyril}
+\MLHome{McGillivray}{}{Laurine}
+\MLHome{Mda}{}{Kholisa}
+\MLHome{Minnaar}{}{Roeloff}
+\MLHome{Mohale}{}{Evan}
+\MLHome{Mostert}{}{Quintin \& Anneen, Leanè}
+\MLHome{Motsei}{}{Contact}
+\MLHome{Mtshweni}{}{Promise}
+\MLHome{Mundell}{}{Bonnie}
+\MLHome{Muthana}{}{Otilliah}
+\MLHome{Naude}{}{Penny, Sabrina, Joshua}
+\MLHome{Ndazamo}{}{Samson}
+\MLHome{Nkosi}{}{Erasmus \& Rosie, Khululeko, Nhlanhla, Wanela}
+\MLHome{Nkosi}{}{Gabsile \& Nomsombuluko}
+\MLHome{Nkosi}{}{Mndeni}
+\MLHome{Olivier}{}{John}
+\MLHome{Olls}{}{Timothy \& Sharon}
+\MLHome{Page}{}{Helen}
+\MLHome{Phillips}{}{Keenan}
+\MLHome{Phukuile}{SunPM}{Irwin}
+\MLHome{Phukuile}{}{Natalie}
+\MLHome{Pienaar}{}{Clark}
+\MLHome{Pienaar}{}{Heino}
+\MLHome{Pierce}{}{Jared}
+\MLHome{Pretorius}{}{Marike}
+\MLHome{Pretorius}{}{Shireen, Willie}
+\MLHome{Robat}{}{Hester}
+\MLHome{Rossouw}{}{Meliska}
+\MLHome{Roux}{}{Bianca \& Jaco}
+\MLHome{Sampson}{}{Clinton \& Grace, Hannah}
+\MLHome{Scrooby}{}{Trevor}
+\MLHome{Seroviv}{}{Reinett}
+\MLHome{Sibuyi}{}{Promise \& Boniwe}
+\MLHome{Siera}{}{Mapule, Sbusiso, Thabang}
+\MLHome{Silks}{}{Norman, Joyce}
+\MLHome{Sithole}{}{Waverley}
+\MLHome{Smit}{}{Niell}
+\MLHome{Stakes}{}{}
+\MLHome{Strydom}{}{Gwen}
+\MLHome{Styles}{}{Kyle \& Kerry-Lee}
+\MLHome{Swanepoel}{}{Christo \& Elzaan, Christel, Adriaan}
+\MLHome{Swart}{}{Jesenca}
+\MLHome{Swart}{}{Rowan \& Mareli, Chanelle, Duncan}
+\MLHome{Tjeko}{}{Baba \& Veronica, Musa}
+\MLHome{Topkin}{}{Alison}
+\MLHome{Turner}{}{Freddy}
+\MLHome{Valadon}{}{Caren, Jean-Luc, Kiara}
+\MLHome{van Aardt}{}{Dewald}
+\MLHome{Van der Merwe}{}{Shani}
+\MLHome{Van der Nest}{All mtgs}{Nellie}
+\MLHome{van der Walt}{}{Odie}
+\MLHome{Van Tonder}{not attending}{Esther, Adriaan, Monique}
+\MLHome{Van Zyl}{}{Carolyn}
+\MLHome{Van Zyl}{}{Sternberg}
+\MLHome{Venter}{}{Nadine, Hanno, Karli}
+\MLHome{Vilakazi}{}{Thabiso, Gugu}
+\MLHome{Viljoen}{}{Elvera \& Carel}
+\MLHome{Viljoen}{}{Hannes \& Petro, Annamarie}
+\MLHome{Viljoen}{All mtgs;Elder}{Koos \& Meisie}
+\MLHome{Viljoen}{}{Tanja}
+\MLHome{Viljoen}{}{Werner}
+\MLHome{Vincent}{}{Nadia}
+\MLHome{Weerts}{}{Adrian \& Rika}
+\MLHome{Weideman}{Jacq Perlmutter 14/01/2020}{Suzelle}
+\MLHome{Williamson}{}{Pieter \& Tracey, Khathryn}
+\MLHome{Windvogel}{}{Mikayla}
+\MLHome{Wockenfuss}{}{Wolfgang}
+\MLHome{Wright}{}{Sarah, Katherine, Alexis, Madison}
+\end{document}
