@@ -1,0 +1,80 @@
+\documentclass[english]{article}
+\title{KZN Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Amron }{Sherwood}{Andrew \& Carin, Cameron, Kelvin, Travis; Amron Teller 5 Phone For Rates}{}
+\Home{Barends}{Van der Stel SunAM}{Eunice; 34 Abrahamson Rd, Witfield; hilbarends@gmail.com}{064 974 1168(T)\\082 676 9675(TY)}
+\Home{Botha\_CT}{Gonubie}{Vaughan \& Rochelle, Rawdon; 94 Gladioli St, Kuils River, Cape Town, 7580; lucianbotha10@gmail.com(L) , nbotha50gmail.com(N) }{083 507 9291(L)\\073 494 7523(N)}
+\Home{Bryan}{Hennopspark}{Annetjie \& Nic; Texas \& Labours in Ukraine; texbryan@gmail.com}{+380 99 561 8771}
+\Home{Chinyoka}{Bulawayo Contacts}{Mark \& Diane, Laurence; Ruwa}{0772 887 918}
+\Home{Chiwara}{Harare Contacts}{Beverley \& Greg, Chloë, Luc, Jace; 15114 New Zengeza 4}{0773 778 031}
+\Home{Collier}{Clifton Park}{Eddie \& Candy; 63 Brand Street, Bredasdorp}{0710458716(C)}
+\Home{Cornwall-Smith}{Irene Park}{Grant \& Vanessa; A Knight's Rest Guesthouse, Brits Rd, Pretoria North; P O Box 59116, Karen Park 0118; carol@aknightsrest.co.za}{063 576 7102}
+\Home{Cornwall}{Florida SunAM}{Anthony \& Annette; A Knight's Rest Guesthouse, Brits Rd, Pretoria North}{061 303 4527}
+\Home{De Jager}{Garsfontein}{Nomathemba; Rooipitjie way, Die Bakery, Melkhoutfontein}{072 103 1970}
+\Home{De Jongh}{Admin - Passed Away}{Poppie, Bheki, Busisiwe, Nosipho; 68 Leander Road, 494 Crowthorne Estate, Bronberg; xen@etal.co.za}{082 897 1841}
+\Home{De Klerk}{Waverley}{Robert, Nokwanda, Nokuthula; Helderstroom Correctional Services, Medium section}{282151060}\EndHomes
+\EndSection
+\MLDistrictH{KZN Admin}
+\MLMeetingH{KZN Contacts}
+\MLHome{Bailie}{Alt takes SunPM, WedPM to Everton}{Tyrone \& Samantha, Joshua, Daniel}
+\MLHome{Biyase}{}{Maneli}
+\MLHome{Bown}{}{Mandi \& George, Georgia, Brent, Lily}
+\MLHome{Bransby}{}{Justin}
+\MLHome{Cele}{}{Beauty, Mondli, Njabulo}
+\MLHome{Cele}{}{Lettie, Simanga}
+\MLHome{Cele}{}{Sli}
+\MLHome{Cele}{}{Thandi, Andile}
+\MLHome{Church}{}{Yvette, Rochelle, Henry}
+\MLHome{De Jager}{}{Colleen}
+\MLHome{Dlamini}{}{Jabulani}
+\MLHome{Dlamini}{Ixopo}{Joseph}
+\MLHome{Dowling}{}{Henry \& Shirley, Rebecca\_(Bex)\_Meyer}
+\MLHome{Gumede}{}{Mthokozisi, Khayalihle, Qinisile, Happiness}
+\MLHome{Khumalo}{}{Sebe}
+\MLHome{Kinyua}{Durban}{Shiro}
+\MLHome{MacKenzie}{}{Andrew}
+\MLHome{MacKenzie}{Harding}{Jonathon}
+\MLHome{Madonsela}{}{Sindi \& Emmanuel, Nandipha, Wandile, Uganda, Alwande}
+\MLHome{Mann}{}{Lynton \& Secielle, Alexander}
+\MLHome{Mbele}{}{Themba}
+\MLHome{Memela}{}{Regina, Ntombiza, Ntombiza's Husband}
+\MLHome{Meyer}{Attends with caregiver}{Eleanor, Carol}
+\MLHome{Mhlongo}{}{Robert}
+\MLHome{Mkhize}{Umkomaas}{Bonginkosi}
+\MLHome{Mkhize}{}{Nontokozo}
+\MLHome{Mndaweni}{}{Sipho \& Priscilla}
+\MLHome{Msani}{}{Nonhlanhla, Simphiwe, Ayanda, Zwelethu, Nomphumelelo}
+\MLHome{Mthethwa}{}{Isaac, Nhlakaza}
+\MLHome{Mthethwa}{}{Sakhile}
+\MLHome{Mutungi}{Wed and Sun pm to Ballito}{Miriam}
+\MLHome{MyBurgh}{Umtwalume}{Qupi}
+\MLHome{Ncamane}{}{James}
+\MLHome{Nhlumayo}{KwaNzimakwe}{Sipho}
+\MLHome{Nkosi}{}{Mpume, Njabulo, Zekhethelo}
+\MLHome{Nqoko}{Gcilima}{Lizzie}
+\MLHome{Phakathi}{Seaview}{Lucy}
+\MLHome{Reddy}{Port Shepstone}{Clive}
+\MLHome{Reddy}{}{Hazel \& Rochelle, Bella}
+\MLHome{Sables}{}{Valmar}
+\MLHome{Shinga}{}{Francisca (Nonhlanhla)}
+\MLHome{Solomon}{}{Phillipa \& David, Drake}
+\MLHome{Stangherlin}{}{Maureen}
+\MLHome{Taylor}{}{Andrew \& Carin, Cameron, Kelvin, Travis}
+\MLHome{Tshezi}{}{Eunice}
+\MLHome{Van Rooyen}{}{Vaughan \& Rochelle, Rawdon}
+\MLHome{Van Zyl}{}{Annetjie \& Nic}
+\MLHome{Webber}{SunAM,Wed;Elder}{Mark \& Diane, Laurence}
+\MLHome{Whittaker}{}{Beverley, Chloë, Luc, Jace}
+\MLHome{Wise}{}{Eddie \& Candy}
+\MLHome{Wright}{SunAM;Elder}{Anthony \& Annette}
+\MLHome{Wright}{}{Grant \& Vanessa}
+\MLHome{Zwane}{}{Nomathemba}
+\MLHome{Zwane}{}{Poppie, Bheki, Busisiwe, Nosipho}
+\MLHome{Zwane }{}{Nokwanda, Nokuthula}
+\end{document}
