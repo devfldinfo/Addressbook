@@ -1,0 +1,137 @@
+\documentclass[english]{article}
+\title{West Coast}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Barnard}{Admin - Passed Away}{Norman \& Shinel, Frederick, Benjamin, Amy; Shigu Farm, Mkushi}{+260 966 722 043(D)\\+260968213961(A)}
+\Home{Barnard}{Irene Park}{Arthur \& Reneé; 17 Overberg Cres, Wilkoppies, 2571, Klerksdorp; ody@absamail.co.za(O) }{082 573 3259(H)\\083 785 0220(O)\\018 464 4296 W(H)}
+\Home{Barnard}{Mkushi}{Burnice; 17 Henry Rd, Irene Park, Klerksdorp; P O Box 6954, Flamwood, 2572; tieniebarnard2@telkomsa.net}{018 462 9068\\079 997 5227(T)\\082 332 7105(G)}
+\Home{Boshoff}{Eldoraigne}{Wessel \& Gerda; 84 Wonderboom Avenue, Randpark Ridge ext.11; PO Box 806, Cresta, 2118; seven.russel@gmail.com(R) , carolynboshoff@gmail.com(C) , jourdank2001@gmail.com(J) , tyronebosh100@gmail.com(T) }{+27 66 213 7811(R)\\083 325 8198(C)\\0722551570(J)\\0828769369(T)}
+\Home{Brender-a-Brandis}{Van der Bijl}{Dirk \& Amanda; Greenacres 11, Wenning Str SW5, Vanderbijlpark; PO Box 3927, Vereeniging 1930; cedric@modvid.co.uk(C) , contact@ateliertracylea.com(T) }{083 321 8050(T)\\083 655 1899(C)}
+\Home{Busuman}{Admin - Emmigrated}{Vicky \& Christine; 5917 Mmatswne Str, Windmill Park Boksburg}{077 860 6637}
+\Home{Cele}{Bangibizo}{Joey; Siyaphemba School, P Bag 569, Umzinto, 4200; (-30.449927,30.572507) }{}\EndHomes
+\EndSection
+\MLDistrictH{West Coast}
+\MLMeetingH{Eendekuil}
+\MLHome{Cook}{}{Shawn \& Sophia, Dillan, Cailyn}
+\MLMeetingH{Moorreesburg}
+\MLHome{Beukes}{}{Shirley \& Ben}
+\MLMeetingH{Vredendal}
+\MLHome{April}{}{Truitjie}
+\MLMeetingH{Williston;Louw, M}
+\MLHome{Louw}{All mtgs}{Maryke \& Koos, Marnel, Alet}
+\MLMeetingH{Atlantis;Geduld, F}
+\MLHome{Adams}{SunPM,Wed}{Martin \& Belinda, Leigh-Ann, Candice, Brent, Emily}
+\MLHome{Geduld}{All mtgs;Elder}{Frank \& Cathy}
+\MLHome{Minnies}{}{Awie \& Berenice}
+\MLHome{Solomons}{}{Charles \& Norma}
+\MLMeetingH{Graafwater;Turner, B}
+\MLHome{Foster}{SunPM}{Martin \& Trix}
+\MLHome{Foster}{}{Norman \& Karin}
+\MLHome{McDougall}{}{Thelma, Hannah}
+\MLHome{Simons}{}{Marco \& Carlinne, Conner}
+\MLHome{Turner}{}{Arthur \& Reneé}
+\MLHome{Turner}{SunAM}{Burnice}
+\MLHome{Turner}{Elder}{Norman \& Shinel, Frederick, Benjamin, Amy}
+\MLMeetingH{Langebaan \#1;Hall, B}
+\MLHome{Blom}{Wed}{Alwyn \& Karen}
+\MLHome{Blom}{}{Tobie \& Naomi}
+\MLHome{Faul}{}{Christine}
+\MLHome{Hall}{SunAM;Elder}{Bert \& Petronella}
+\MLHome{Roos}{}{Elizabeth, Riana, Zandré}
+\MLHome{Stuart}{SunAM;Elder;Due to circumstances not attending}{Andy \& Jill}
+\MLHome{Van Heerden}{}{Wessel \& Gerda}
+\MLMeetingH{Langebaan \#2;Minnie, F @ Schooling, C}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{Francois}
+\MLHome{Olls}{}{James \& Brenda}
+\MLHome{Schooling}{}{Freda}
+\MLHome{Van Wyk}{}{Dirk \& Amanda}
+\MLHome{Venter}{}{Vicky}
+\MLMeetingH{Lutzville}
+\MLHome{Visagie}{}{Joey}
+\MLMeetingH{Porterville}
+\MLHome{Bester}{}{Iona \& Johan}
+\MLMeetingH{St Helena Bay;Du Raan, E}
+\MLHome{Baard}{}{Ruth}
+\MLHome{Bal}{SunPM,Wed}{Lienkie}
+\MLHome{Du Raan}{SunAM;Elder}{Almaré}
+\MLHome{Ewertse}{}{Juanita}
+\MLHome{Günther}{}{Wietz \& Anneline, Natasja}
+\MLHome{Jeffries}{}{Patricia}
+\MLHome{Lehy}{SunPM}{Bob \& Annette}
+\MLHome{Schooling}{Elder}{Chris \& Lauren, Stanford}
+\MLHome{Smith}{}{Hazel}
+\MLMeetingH{Lamberts Bay PM}
+\MLHome{Simons}{}{Marco \& Carlinne, Conner}
+\MLMeetingH{Atlantis S;Geduld, F}
+\MLHome{Geduld}{All mtgs;Elder}{Frank \& Cathy}
+\MLHome{Minnies}{}{Awie \& Berenice}
+\MLHome{Solomons}{}{Charles \& Norma}
+\MLMeetingH{Graafwater S;Foster, Norman @ Foster, M}
+\MLHome{Foster}{SunPM}{Martin \& Trix}
+\MLHome{Foster}{}{Norman \& Karin}
+\MLHome{McDougall}{}{Thelma, Hannah}
+\MLHome{Turner}{}{Arthur \& Reneé}
+\MLHome{Turner}{SunAM}{Burnice}
+\MLHome{Turner}{Elder}{Norman \& Shinel, Frederick, Benjamin, Amy}
+\MLMeetingH{Langebaan S@17h00;Hall, B}
+\MLHome{Blom}{Wed}{Alwyn \& Karen}
+\MLHome{Blom}{}{Tobie \& Naomi}
+\MLHome{Faul}{}{Christine}
+\MLHome{Hall}{SunAM;Elder}{Bert \& Petronella}
+\MLHome{Roos}{}{Elizabeth, Riana, Zandré}
+\MLHome{Van Heerden}{}{Wessel \& Gerda}
+\MLMeetingH{Langebaan S \#2@17h00;F Minnie}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{Francois}
+\MLHome{Olls}{}{James \& Brenda}
+\MLHome{Schooling}{}{Freda}
+\MLHome{Van Wyk}{}{Dirk \& Amanda}
+\MLMeetingH{Malmesbury S@18h30;Oosthuizen, Johan}
+\MLHome{Adams}{SunPM,Wed}{Martin \& Belinda, Leigh-Ann, Candice, Brent, Emily}
+\MLHome{Oosthuysen}{}{Janice}
+\MLMeetingH{St Helena Bay S@17h00;Lehy, B}
+\MLHome{Du Raan}{SunAM;Elder}{Almaré}
+\MLHome{Ewertse}{}{Juanita}
+\MLHome{Jeffries}{}{Patricia}
+\MLHome{Lehy}{SunPM}{Bob \& Annette}
+\MLHome{Smith}{}{Hazel}
+\MLMeetingH{Vredenburg S@17h00;Günther, W @ Bal, L}
+\MLHome{Baard}{}{Ruth}
+\MLHome{Bal}{SunPM,Wed}{Lienkie}
+\MLHome{Günther}{}{Wietz \& Anneline, Natasja}
+\MLMeetingH{Atlantis W@10h30;Geduld, F @ Minnies, A}
+\MLHome{Geduld}{All mtgs;Elder}{Frank \& Cathy}
+\MLHome{Minnies}{}{Awie \& Berenice}
+\MLHome{Solomons}{}{Charles \& Norma}
+\MLMeetingH{Graafwater W@19h30;Blom, T}
+\MLHome{Foster}{SunPM}{Martin \& Trix}
+\MLHome{McDougall}{}{Thelma, Hannah}
+\MLHome{Turner}{}{Arthur \& Reneé}
+\MLHome{Turner}{SunAM}{Burnice}
+\MLHome{Turner}{Elder}{Norman \& Shinel, Frederick, Benjamin, Amy}
+\MLMeetingH{Laingville W@19h00;Du Raan, N @ De Windt, L}
+\MLHome{Lehy}{SunPM}{Bob \& Annette}
+\MLMeetingH{Langebaan W@19h00;Blom, A}
+\MLHome{Blom}{Wed}{Alwyn \& Karen}
+\MLHome{Blom}{}{Tobie \& Naomi}
+\MLHome{Faul}{}{Christine}
+\MLHome{Hall}{SunAM;Elder}{Bert \& Petronella}
+\MLHome{Roos}{}{Elizabeth, Riana, Zandré}
+\MLHome{Van Heerden}{}{Wessel \& Gerda}
+\MLMeetingH{Langebaan W \#2@19h00}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{Francois}
+\MLHome{Olls}{}{James \& Brenda}
+\MLHome{Schooling}{}{Freda}
+\MLHome{Van Wyk}{}{Dirk \& Amanda}
+\MLMeetingH{Malmesbury W@19h00;Adams, M}
+\MLHome{Adams}{SunPM,Wed}{Martin \& Belinda, Leigh-Ann, Candice, Brent, Emily}
+\MLHome{Oosthuysen}{}{Janice}
+\MLMeetingH{Vredenburg W@19h30;Günther, W @ Bal, L}
+\MLHome{Baard}{}{Ruth}
+\MLHome{Bal}{SunPM,Wed}{Lienkie}
+\MLHome{Günther}{}{Wietz \& Anneline, Natasja}
+\end{document}
