@@ -1,0 +1,138 @@
+\documentclass[english]{article}
+\title{North West Province \& Vaal Triangle}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Abrahams}{Worker}{Alta \& Nick; Unit 4, Eagles Nest complex, Begonia Road, Primrose Hill; P.O. Box 41327, Richards Bay, 3900}{072 736 7501(G)\\+27767441610(D)}
+\Home{Adams}{Westridge}{Niekie \& Liezel, Kobus, Jaco; N15 De Novo Rd, Kraaifontein, 7570; (-33.839483,18.775015) }{062 545 0773}
+\Home{Arendolf}{Oudtshoorn}{Jaco \& Natasha, Regardt, Karlien; 7 Truter St, Victoria Park, Worcester, 6850}{083 594 5314}
+\Home{Atienza}{St Helena Bay}{Edith \& David; Date of Birth: Unknown, Started in Work: 2002, List: WA; loida2002@gmail.com}{+233 54700 2084}
+\Home{Bhunu}{Southbroom}{Petrus \& Maureen; Waterfalls, Harare}{0778 008 075}
+\Home{Birch}{KZN Contacts}{Louis \& Anette; Date of Birth: Wed, 18 Apr 1979, Started in Work: 2002, List: SA; tkbirch79@gmail.com}{+263 71343 7072\\+2776 414 7076\\+26377 443 7072}
+\Home{Botes}{NP Contacts}{Martin \& Marietjie; 14 Marie Pl, Robindale x5, Randburg, 2194; PO Box 668, Fontainebleau 2032; chbotes@mweb.co.za(C) }{082 568 1239(C)\\082 824 6711(H)}
+\Home{Botha\_Humansdorp}{Mill Park SunAM (113 Westview drive)}{Clarise; 8 Hugo St, Humansdorp; nicolenebotha44@gmail.com}{0837594436(N)}
+\Home{Botha}{Emalahleni}{Pietie, Christa; 15 Lena Street, Riverlea, Johannesburg; riah@rohlig.co.za}{083 253 0303}
+\Home{Botha}{Irene Park}{Dawid \& Evelyn; Huis JJ Watson, frail care, cnr Craddock and Fichat Streets; P.O. Box 130, Hoekwil 6538}{+27 76 387 6322}
+\Home{Boto}{KZN Contacts}{Nina; Australia \& labouring in Papua New Guinea since 2008; DOB: 10 May 1964; pngandy64@gmail.com}{}
+\Home{Campbell}{Winston Park}{Carol; 6 Jacaranda St, Valmary Park, Durbanville; candice@freightfocus.co.za(C) , shelto@freightfocus.co.za(S) }{082 843 9367(S)\\082 928 8006(C)\\021 824 3374}
+\Home{Cawood}{Mookgopong}{Neill \& Estelle; 26 Bee Bee Street, The Wilgers Estate, Pretoria; ancawood@gmail.com(A) }{063 236 1428(S)\\083 455 0468(A)}
+\Home{Charli}{Mahuwe}{Thinus \& Esther, Ané, Marthinus; 2259 Masinyane Str, Tsakane, Brakpan}{0795604384(Z)\\0810423134(El)}
+\Home{Chicafa}{Masvingo Contacts}{Michael \& Dorothy; Hola Village, Ntcheu; chicafastivin@gmail.com(S) , francis.chicafa@gmail.com(F) ; (-14.95169,34.59024) }{+27 63 569 6148(S)\\+265889748022(J)\\+265999179554(S)\\+258855174831(S)\\+27672815361(S) }
+\Home{Chimedza}{Harare Contacts}{George \& Beverley; Ross Camp, Byo}{0773950514(B)\\071 226 1629(B)\\0715911832(A)\\+263784441861(A)}
+\Home{Chirive}{Harare Contacts}{Ilse, Minke; Portion 19, Farm Vlakfontein, 1ste Laan, Mookgopong}{072 453 7201(G)}\EndHomes
+\EndSection
+\MLDistrictH{North West Province \& Vaal Triangle}
+\MLMeetingH{\~Gaborone}
+\MLHome{Chigara}{All mtgs;Elder}{Ernest \& Charlene, Gladys, Jasmine, Briella}
+\MLMeetingH{Carletonville}
+\MLHome{Van Niekerk}{Christa Gibson (Daughter where she is staying)}{Pietie, Christa}
+\MLMeetingH{Derby}
+\MLHome{Mostert}{SunPM}{Frans}
+\MLHome{Van Der Schyff}{SunAM,Wed;Elder}{Louis \& Anette}
+\MLMeetingH{Hartebeesfontein}
+\MLHome{Ecroignard}{SunAM,SunPM;Elder;Sun 10h30 and 5pm}{Robbie \& Mara}
+\MLHome{Louw}{}{George}
+\MLHome{Louw}{}{James}
+\MLHome{Wannenburg}{Wed;Wed 10h30}{Michael \& Dorothy}
+\MLMeetingH{Klerk Industria}
+\MLHome{Barnard}{SunPM;Elder}{Hugo \& Odette, Nina, Eben}
+\MLHome{Erasmus}{}{Lorraine}
+\MLHome{Faul}{Wed;WedPM Alt with Willie}{Benjamin \& Chantel (Stellie), Amé, Mynhardt, Ruben}
+\MLHome{Faul}{SunAM}{Ralie}
+\MLHome{Faul}{Wed;WedPM Alt with Benjamin}{Willie (jnr) \& Caren, Wian, Carmien, Johane}
+\MLMeetingH{Kock St Potch}
+\MLHome{Badenhorst}{}{Dylan}
+\MLHome{Barnard}{}{Danie \& Reneé}
+\MLHome{Ferreira}{}{Francois}
+\MLHome{Oldknow}{}{Sharon}
+\MLHome{Robijn}{}{Alex \& Lil}
+\MLHome{Robijn}{}{Nicky (jnr) \& Chantelle, Nantes, Chanique}
+\MLHome{Robijn}{All mtgs;Elder}{Nicky \& Marina}
+\MLHome{Terblanche}{}{Jaco \& Natasha, Regardt, Karlien}
+\MLHome{Van der Merwe}{}{Petrus \& Maureen}
+\MLHome{Van Rooyen}{}{Clarise}
+\MLHome{Van Rooyen}{}{Nina}
+\MLMeetingH{Mahikeng}
+\MLHome{Jacobs}{All mtgs;Elder}{Arthur \& Annie}
+\MLMeetingH{Meyerton@SunPM@5pm Sept-May; Jun-Aug 4h30pm}
+\MLHome{Aspeling}{}{Veronica}
+\MLHome{Göss}{All mtgs;Elder;Sun 4h30pm, Wed 10:30}{Pieter \& Elize}
+\MLHome{Holmes}{Takes SunPM}{Geoff \& Ina-Marie}
+\MLHome{James}{SunAM only}{Alwyn}
+\MLHome{Janse van Vuuren}{}{Vashti}
+\MLHome{Niehaus}{Takes WedAM}{Banie \& Louise}
+\MLHome{Viljoen}{}{Neill \& Estelle}
+\MLMeetingH{Rustenburg}
+\MLHome{Engelbrecht}{}{Connie, Martin}
+\MLHome{Mostert}{All mtgs;Elder}{Paul \& Antoinette}
+\MLHome{Nolte}{}{Susan}
+\MLHome{Oelofse}{}{Alta}
+\MLHome{Viljoen}{}{Carol}
+\MLHome{Vosloo}{}{Thinus \& Esther, Ané, Marthinus}
+\MLMeetingH{Van der Bijl}
+\MLHome{Bransby}{}{Gloria}
+\MLHome{Brender-a-Brandis}{}{Juliana}
+\MLHome{Dowa}{}{Ryan (Mahwehwe)}
+\MLHome{Engelbrecht}{}{Herman}
+\MLHome{Kelbrick}{Takes SunPM}{Noel \& Rita}
+\MLHome{Niehaus}{}{Naomi}
+\MLHome{Swanepoel}{}{Alta \& Nick}
+\MLHome{Swanepoel}{All mtgs;Elder;WedPm 7h30pm, SunPM 5pm}{Niekie \& Liezel, Kobus, Jaco}
+\MLHome{Van Heerden}{Don't attend mtgs}{Martin \& Marietjie}
+\MLMeetingH{Van der Hoff Park}
+\MLHome{Faul}{}{Denice, Delahni}
+\MLHome{Faul}{}{Joseph \& Ilze, Liam}
+\MLHome{Mann}{All mtgs;Elder}{David \& Annora}
+\MLHome{Pottas}{}{Andries \& Maria, MariaJr}
+\MLHome{Smit}{}{Dawn}
+\MLMeetingH{Zeerust}
+\MLHome{Stander}{SunPM}{Marietjie}
+\MLMeetingH{Irene Park;T Barnard}
+\MLHome{Barnard}{SunAM,SunPM;Elder}{Tienie \& Gina}
+\MLHome{Botha}{}{Gail, Josh}
+\MLHome{Cottle}{}{Rachel}
+\MLHome{De Ruiter}{Wed}{Sharon}
+\MLHome{Faul}{Wed}{Estemóa}
+\MLHome{Nepgen}{}{Constance}
+\MLHome{Thomas}{}{Edith \& David}
+\MLHome{Van Niekerk}{}{Dawid \& Evelyn}
+\MLHome{Webb}{SunPM}{George \& Beverley}
+\MLHome{Wessels}{}{Ilse, Minke}
+\MLMeetingH{Irene Park SunPM;T Barnard}
+\MLHome{Barnard}{SunAM,SunPM;Elder}{Tienie \& Gina}
+\MLHome{Faul}{Wed}{Estemóa}
+\MLHome{Nepgen}{}{Constance}
+\MLHome{Van Niekerk}{}{Dawid \& Evelyn}
+\MLHome{Wessels}{}{Ilse, Minke}
+\MLMeetingH{Webb SunPM;Webb}
+\MLHome{Botha}{}{Gail, Josh}
+\MLHome{Cottle}{}{Rachel}
+\MLHome{De Ruiter}{Wed}{Sharon}
+\MLHome{Thomas}{}{Edith \& David}
+\MLHome{Webb}{SunPM}{George \& Beverley}
+\MLMeetingH{De Ruiter WedPM;De Ruiter}
+\MLHome{Botha}{}{Gail, Josh}
+\MLHome{Cottle}{}{Rachel}
+\MLHome{De Ruiter}{Wed}{Sharon}
+\MLHome{Louw}{}{George}
+\MLHome{Louw}{}{James}
+\MLHome{Thomas}{}{Edith \& David}
+\MLHome{Webb}{SunPM}{George \& Beverley}
+\MLMeetingH{Estemoa WedAM;Faul}
+\MLHome{Barnard}{SunAM,SunPM;Elder}{Tienie \& Gina}
+\MLHome{Faul}{Wed}{Estemóa}
+\MLHome{Nepgen}{}{Constance}
+\MLHome{Van Niekerk}{}{Dawid \& Evelyn}
+\MLMeetingH{Klerksdorp WedPM;Benjamin alt WillieJr}
+\MLHome{Barnard}{SunPM;Elder}{Hugo \& Odette, Nina, Eben}
+\MLHome{Faul}{Wed;WedPM Alt with Willie}{Benjamin \& Chantel (Stellie), Amé, Mynhardt, Ruben}
+\MLHome{Faul}{SunAM}{Ralie}
+\MLHome{Faul}{Wed;WedPM Alt with Benjamin}{Willie (jnr) \& Caren, Wian, Carmien, Johane}
+\MLMeetingH{Wannenburg WedAM;Wannenburg}
+\MLHome{Ecroignard}{SunAM,SunPM;Elder;Sun 10h30 and 5pm}{Robbie \& Mara}
+\MLHome{Wannenburg}{Wed;Wed 10h30}{Michael \& Dorothy}
+\end{document}
