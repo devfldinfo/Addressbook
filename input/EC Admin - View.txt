@@ -1,0 +1,67 @@
+\documentclass[english]{article}
+\title{EC Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{April}{Worcester}{Shireen; p/a 43 Hector Pietersen Straat, Vredendal Noord, 8160; apriltruitjie@gmail.com}{065 248 3757(T)}
+\Home{Blom}{Olivedale}{Ryno; 33 Birdland street, Country Club, Langebaan; Posbus 305, Graafwater, 8120; tobieblom@telkomsa.net(T) }{083 502 3753(T)\\083 514 6601(N)}
+\Home{Bosman}{EC Contacts}{Madie; No 7 112 Atholl Oaklands, Atholl Oaklands Drive, Elton Hill, Sandton 2196; lizelleb27@gmail.com}{082 325 7479}
+\Home{Botha}{EC Contacts}{Marie \& Marius, Willem; 5 5th Ave, Walmer, Gqeberha 6070; ncinciqala@gmail.com(G) , ia.botha78@gmail.com(I) }{0833257498(G)\\0823396038(I)}
+\Home{Bown}{Fairways}{Reonando \& Nathania; c/o 8 Makou St, Sedgefield 6573}{033 343 1535\\082 503 5094\\+27 82 331 6857}
+\Home{Chigogo}{Tshabalala}{Joslyn \& Nicky, Amy-Li, Jessica; Hwadze Secondary School, Village 9A}{071 747 5630(F)}
+\Home{Coleman}{Silver Lakes}{Arlene; 0A Janadel Ave, Halfway Gardens, Midrand, 1686, South Africa; keithredverscoleman@gmail.com; (-25.994922,28.115286) }{011 805 2424\\060 943 1383}
+\Home{Damant}{Tygerdal}{Kutala; 12 Guillaume Ave, Bordeaux, Randburg, 2194; debbie.damant@gmail.com}{082 773 7469\\011 781 3925}\EndHomes
+\EndSection
+\MLDistrictH{EC Admin}
+\MLMeetingH{EC Contacts}
+\MLHome{Adkins}{}{Candice, Ashley}
+\MLHome{Alexander}{}{Veronica}
+\MLHome{Barends}{}{Dilene}
+\MLHome{Bezuidenhout}{}{Christopher}
+\MLHome{Booysen}{}{Marilyn \& Johnny, Renisha, Rylin, Ruwaan, Jessica, Melissa, MJ}
+\MLHome{Botes}{}{Gerhard \& Suzette, Alycia, Jaques, Cameron}
+\MLHome{Botha}{}{Belinda, Tamlynne}
+\MLHome{Botha}{}{Leandri}
+\MLHome{Bussack}{}{Llwellyn}
+\MLHome{Carelse}{}{}
+\MLHome{Daniels}{}{Charell, Jordan, Mckenzie}
+\MLHome{Daniels}{}{Enver, Dee-Lynn}
+\MLHome{Daniëls}{}{Charlene}
+\MLHome{Dayken}{}{Michelle}
+\MLHome{Delport}{}{Heidi}
+\MLHome{Eleki}{}{Michael (Mthobele)}
+\MLHome{Ganca}{}{Florence, Olwethu, Ziyanda}
+\MLHome{Gerber}{Not Attending Anymore 2015}{Quinten, Keenan-Storm, Nika-Lydia}
+\MLHome{Gerber}{}{Tammy}
+\MLHome{Grootboom}{}{Keith-Lynn}
+\MLHome{Hurling}{Wed}{Karel}
+\MLHome{Hurling}{}{Pauline, Adunaike}
+\MLHome{Jordan}{}{Mackie, Phoebe}
+\MLHome{Kumire}{}{Tobias}
+\MLHome{Le Roux}{}{Jomantha, Kaishan, Kaidin}
+\MLHome{Michaels}{}{Daniell}
+\MLHome{Olls}{}{Geoffrey}
+\MLHome{Paulsen}{}{Caroline \& Jonathan}
+\MLHome{Phillips}{}{Dolores}
+\MLHome{Pienaar}{}{Chanelle, Saadiq, Fatimah, Imaan}
+\MLHome{Pienaar}{}{Shanice}
+\MLHome{Quintiny}{}{Meagan, John-Fred}
+\MLHome{Roberts}{}{Sanette, Roshanne}
+\MLHome{Sauer-Peterson}{}{Juletta}
+\MLHome{Schlemmer}{}{Nolan}
+\MLHome{Schoeman}{}{}
+\MLHome{Schooling}{}{Quintin}
+\MLHome{Steenkamp}{}{Talita}
+\MLHome{Tellen}{}{Shireen}
+\MLHome{van der Walt}{}{Ryno}
+\MLHome{van Heerden}{}{}
+\MLHome{Van Meyeren}{}{Marie, Willem}
+\MLHome{Van Schalkwyk}{}{Reonando \& Nathania}
+\MLHome{Warnick}{}{Joslyn, Amy-Li, Jessica}
+\MLHome{Winkelmann}{}{Arlene}
+\MLHome{Zenani}{}{Kutala}
+\end{document}
