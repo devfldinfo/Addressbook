@@ -1,0 +1,134 @@
+\documentclass[english]{article}
+\title{East Africa}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bewa}{Nairobi}{Wilfrid \& Denise, Samuel, David, Anne-Priscille; PQ7H+453 Nairobi}{+22374953408(W)\\+22366525796(D)}
+\Home{Degefaw}{Ethiopia}{Temesgen \& Sentayehu, Elelta; Yeka Bado, Addis Ababa, Ethiopia}{+251911931513}
+\Home{Eshitemi}{Ematsayi}{Harrison \& Agnes, Rebecca, Alex, Heidi, Florence, Kleopa; 7J7G+R8 Mwiyenga Village}{+254714677778(H)}
+\Home{Gachoki (Kenya)}{Nairobi}{Kinyua \& Ruth; JM74+H6H Ngong}{+254768764651(R)\\+254 703 515422(K)}
+\Home{Holtzhausen}{Witu}{Matie; HC6W+656 Kau; matieh@gmail.com}{+2773 806 4700}
+\Home{Kaburia}{Nanyuki}{Emily (mama Lydia), Joshua; 335R+CF9 Nanyuki}{+254714913980(E)\\+254 702 840362(J)}
+\Home{Kaburia}{Nanyuki}{Lydia \& Charles, Kate, Gachuchu; 2GFR+4R2 Nyahururu}{+254 755 462 305(L)\\+254703346794(L)\\+254704303308(L)\\+254 116 065822(L)}
+\Home{Karimi}{Nanyuki}{Stella, Charles, Makena; 24FX+J2X Oltulili}{+254728110915\\+254762322376}
+\Home{Kibata }{Nanyuki}{David; 245R+8H2 Oltulili}{+254722632307}
+\Home{Kibata}{Nairobi}{Kathryn; VWCH+Q9J Tatu City; 56 Mahiga homes, Ruiru}{+254722616036}
+\Home{Kihara }{Nanyuki}{David \& Zipora, Karani, Daniel, Dorcas; 23MG+69C Nanyuki}{+254724589160(D)\\+254725314651(Z)}
+\Home{Kinloch}{Dar es Salaam}{Arthur \& Rehema, Gertrude, David, Tim, Gift; 469M+92Q Dar es Salaam}{+255 743 004 393(A)\\+255 655 213 577(R)\\+255754066602(G)}
+\Home{Kinloch}{Dar es Salaam}{Wilfred \& Rohiya; 469M+92Q Dar es Salaam; House No 36,Juhudi Mtaa, Yombo Vituka, Machimbo, Temeke, Dar es Salaam}{+255 679 095 595(W)\\+255 659 133 361(R)\\+255 784 367 692(R)}
+\Home{Kithinji}{Mombasa}{Mugambi; Malindi}{+254 792 034052\\+254 715 621517}
+\Home{Kithinji}{Nanyuki}{MamaKendi, Isaac; 373R+926 Timau, Kenya}{+254725926114}
+\Home{Kithinji}{Witu}{Livirin (Baba Mukiri) \& Angelica (mama Mukiri), John, Reuben; HC6W+656 Kau}{+254 743 993147(L)\\+254718159965(A)}
+\Home{Kithinji}{Witu}{Nkatha (Bridget), Reina; HC6W+656 Kau}{+254756494710\\+254 705 240395}
+\Home{Koome}{Nanyuki}{Amos \& Agnes, Alex, Leam; 23X6+X44 Nanyuki, Kenya}{+254799176353(A)}
+\Home{Koome}{Nanyuki}{Solomon \& Ruth, Graham; 23X6+X44 Nanyuki, Kenya}{+254727792099(S)\\+254720042299(R)}
+\Home{Kway}{Dar es Salaam}{Kusare; X7JX+4MF Vibura, Tanzania}{+255 759 917 002}
+\Home{Kway}{Moshi}{Stefano \& Modesta, Elizabeth; M8XH+7C8 Majengo}{+255 756 317 404(S)}
+\Home{Madete}{Ematsayi}{Helen \& Silas, Faith, Joy, Ruth; Kakamega; hmangala68@gmail.com}{+254703316367(H)\\+254728460305(H)}
+\Home{Masiga }{Bungoma}{Agnes, Evaline, Kina(Darrell), Ester, Elizabeth, Grace(Evaline's daughter), Ladasha (Elizabeth's daughter); GGPV+5J9 Bungoma, Kenya}{+254723488803(A)}
+\Home{Masiga }{Mombasa}{Lettie; Mombasa}{+254715762919}
+\Home{Masiga}{Bungoma}{Kendra; Iten, Eldoret; kendramasiga@gmail.com(K) }{+254790927493(K)\\+254798142291(K)}
+\Home{Masiga}{Uganda}{Joseph; Busia border, Uganda}{+256 779 859980(J)\\+254750919936(J) }
+\Home{McMaine }{Dar es Salaam}{Ben \& Kelly; 672H+P95 Dar es Salaam, Tanzania; kellymcmaine@gmail.com(K) }{+18593817421(B)\\+255763548032(B)\\+255758109479(K)\\+17068323907(K)}
+\Home{Mshana}{Dar es Salaam}{MamaHappy; Tanga}{}
+\Home{Msuya}{Dodoma}{mamaKachu; 6G5QVRFP+Q8}{+255 757 097 434(M)\\+255 715 985 207(M)}
+\Home{Murunga}{Ematsayi}{Richard \& Niva, Heidi; 7J8H+6CJ Mwiyenga Village, Kenya}{+254725171112(R)}
+\Home{Murunga}{Nairobi}{Amos, Abraham; Kahawa, Nairobi}{+254702696599(A)\\+254714351877(AB)}
+\Home{Mwongera}{Nanyuki}{Paul \& Jane, Mwenda; 244R+C79 Oltulili}{+254784742016(P)\\+254788476560(J)\\+254721949374(P)}
+\Home{Njeru}{Nairobi}{Haston \& Jennifer; Isinya8R6X+VXW Isinya; 9G3C+CRH Muraru}{+254 723 713174(H)\\+254 705764609(J)}
+\Home{Njoroge}{Nairobi}{John \& Judy, Elwin, Edwin, Nyambura; X363+7P Thika, Kenya; mnjorogeus@yahoo.com(Jo) , judyw.maina77@yahoo.com(Ju) }{+254722780999(Jo)\\+254722373208(Ju)\\+254707819865(E)}
+\Home{Njue}{Nairobi}{Stanley \& Eunice; PV4J+P39 Nairobi}{+254722719636(S)}
+\Home{Ochango}{Ematsayi}{Doreen \& Geoffrey, Sharlene, Azel, Kingsley; Kakamega}{+254702092044(D)\\+254754424679(D)\\+254770495016(D)}
+\Home{Ochango}{Ematsayi}{Joy, Kyle; 7J9F+42 Mwiyenga Village}{}
+\Home{Ochango}{Ematsayi}{Mercyline; Kakamega; mercylineondeche@gmail.com}{+254 718 255114}
+\Home{Ochango}{Ematsayi}{Sammy \& Marilyn, Joy; 7J9F+C4H Mwiyenga Village, Kenya}{}
+\Home{Ochango}{Ematsayi}{Simon \& Josephine, Abraham; 7J9F+C4H Mwiyenga Village, Kenya}{+254712565941(S)}
+\Home{Ochango}{Ematsayi}{Steward(GG) \& Gertrude, Lawrence, Celine; 7J9F+C4H Mwiyenga Village, Kenya}{+254 798 173 675}
+\Home{Ochango}{Ematsayi}{Wycliff \& Angeline; 7J9F+42 Mwiyenga Village; wycliffeochango442@gmail.com(W) }{+254720648251(W)\\+254725077617(A)}
+\Home{Ochango}{Nairobi}{Jimmy; Nairobi}{+254792346111(J)}
+\Home{Ochango}{Nairobi}{Olesi \& Oscar, Ermina, Mary Ann, Deon; PP5R+R74 Nairobi}{+254704288959(O)}
+\Home{Otieno Othiambo}{Nairobi}{Vincent \& Rachel, Joseph, Nuela, Israel; PWJF+FH Nairobi, Kenya; HRCW+QCC Ramba centre}{+254723484792(V)\\+254704 313316(V)}
+\Home{Rimoi}{Moshi}{Jenny; JC9G+2C8 Kirua}{+255676510060}
+\Home{Samuel}{Ethiopia}{Habtamu \& Mekdes, Elroi, Anna; Hawassa; habtesml@gmail.com}{+251921564669}
+\Home{Shayo}{Moshi}{Monica (MamaVai); M99H+C56 Kiboriloni}{+255 752 502 860\\+255 784 386 872}
+\Home{Shirima}{Moshi}{Leah; J89Q+FH6 Moschi}{+255659698624}
+\Home{Simiyu}{Nairobi}{Gladys; ; gwambani2010@gmail.com}{+254705952270\\+254711509555}
+\Home{Uganda}{Uganda}{Aaron \& Irene; R287+5VM Kigumba, Uganda}{+256 785 325226(A)\\+256 779 984620(I)}
+\Home{Wasikhe}{Bungoma}{Anna; Bungoma}{+254 718 893497 }
+\Home{Wasikhe}{Musango}{Evans \& Mildred, Maritha, Jeremy; Musango}{+254792756854}
+\Home{Wasikhe}{Musango}{Jakobo \& Beatrice; Q3P9+5RH Matunda, Kenya}{+254710401608(J)\\+254116 471911(J)\\+254780840348(J)}
+\Home{Wasikhe}{Musango}{Jimmy \& Fanice, Hillary, Tony; Q3PC+5H7 Matunda, Kenya}{+254711746668(F)\\+254725218684(J)\\+254791601529(J)}\EndHomes
+\EndSection
+\MLDistrictH{East Africa}
+\MLMeetingH{Ethiopia}
+\MLHome{Degefaw}{}{Temesgen \& Sentayehu, Elelta}
+\MLHome{Samuel}{}{Habtamu \& Mekdes, Elroi, Anna}
+\MLMeetingH{Uganda}
+\MLHome{Masiga}{}{Joseph}
+\MLHome{Uganda}{}{Aaron \& Irene}
+\MLMeetingH{Bungoma}
+\MLHome{Masiga}{}{Kendra}
+\MLHome{Masiga }{}{Agnes, Evaline, Kina(Darrell), Ester, Elizabeth, Grace(Evaline's daughter), Ladasha (Elizabeth's daughter)}
+\MLHome{Wasikhe}{}{Anna}
+\MLMeetingH{Dar es Salaam}
+\MLHome{Kinloch}{}{Arthur \& Rehema, Gertrude, David, Tim, Gift}
+\MLHome{Kinloch}{}{Wilfred \& Rohiya}
+\MLHome{Kway}{}{Kusare}
+\MLHome{McMaine }{}{Ben \& Kelly}
+\MLHome{Mshana}{}{MamaHappy}
+\MLMeetingH{Dodoma}
+\MLHome{Msuya}{}{mamaKachu}
+\MLMeetingH{Ematsayi}
+\MLHome{Eshitemi}{}{Harrison \& Agnes, Rebecca, Alex, Heidi, Florence, Kleopa}
+\MLHome{Madete}{}{Helen, Faith, Joy, Ruth}
+\MLHome{Murunga}{}{Richard \& Niva, Heidi}
+\MLHome{Ochango}{}{Doreen, Sharlene, Azel, Kingsley}
+\MLHome{Ochango}{}{Joy, Kyle}
+\MLHome{Ochango}{}{Mercyline}
+\MLHome{Ochango}{}{Sammy \& Marilyn, Joy}
+\MLHome{Ochango}{}{Simon \& Josephine, Abraham}
+\MLHome{Ochango}{}{Steward(GG) \& Gertrude, Lawrence, Celine}
+\MLHome{Ochango}{}{Wycliff \& Angeline}
+\MLMeetingH{Mombasa}
+\MLHome{Kithinji}{}{Mugambi}
+\MLHome{Masiga }{}{Lettie}
+\MLMeetingH{Moshi}
+\MLHome{Kway}{}{Stefano \& Modesta}
+\MLHome{Rimoi}{}{Jenny}
+\MLHome{Shayo}{}{Monica (MamaVai)}
+\MLHome{Shirima}{}{Leah}
+\MLMeetingH{Musango}
+\MLHome{Wasikhe}{}{Evans \& Mildred, Maritha, Jeremy}
+\MLHome{Wasikhe}{}{Jakobo \& Beatrice}
+\MLHome{Wasikhe}{}{Jimmy \& Fanice, Hillary, Tony}
+\MLMeetingH{Nairobi}
+\MLHome{Bewa}{}{Wilfrid \& Denise, Samuel, David, Anne-Priscille}
+\MLHome{Gachoki (Kenya)}{}{Kinyua \& Ruth}
+\MLHome{Kibata}{}{Kathryn}
+\MLHome{Murunga}{}{Amos}
+\MLHome{Njeru}{}{Jennifer}
+\MLHome{Njoroge}{}{John \& Judy, Edwin, Nyambura}
+\MLHome{Njue}{}{Stanley}
+\MLHome{Ochango}{}{Jimmy}
+\MLHome{Ochango}{}{Olesi, Ermina, Mary Ann, Deon}
+\MLHome{Otieno Othiambo}{}{Vincent, Joseph, Nuela, Israel}
+\MLHome{Simiyu}{}{Gladys}
+\MLMeetingH{Nanyuki}
+\MLHome{Kaburia}{}{Emily (mama Lydia), Joshua}
+\MLHome{Kaburia}{}{Lydia, Kate, Gachuchu}
+\MLHome{Karimi}{}{Stella, Makena}
+\MLHome{Kibata }{}{David}
+\MLHome{Kihara }{}{David \& Zipora}
+\MLHome{Kithinji}{}{MamaKendi, Isaac}
+\MLHome{Koome}{}{Amos \& Agnes, Alex, Leam}
+\MLHome{Koome}{}{Solomon \& Ruth, Graham}
+\MLHome{Mwongera}{}{Paul \& Jane}
+\MLMeetingH{Witu}
+\MLHome{Holtzhausen}{}{Matie}
+\MLHome{Kithinji}{}{Livirin (Baba Mukiri) \& Angelica (mama Mukiri), John, Reuben}
+\MLHome{Kithinji}{}{Nkatha (Bridget), Reina}
+\end{document}
