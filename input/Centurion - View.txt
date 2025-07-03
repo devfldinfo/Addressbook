@@ -1,0 +1,244 @@
+\documentclass[english]{article}
+\title{Centurion}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Boshoff}{Newlands}{Jennifer; 45 Kembali Estate, Kentucky Drive, Faerie Glen; jenniferboshoff50@gmail.com}{084 400 1081}
+\Home{Bosman}{Eldoraigne}{Gawie \& Gerda; 19 Blue Gum Bend, Eldoraigne X3, Centurion 0157; gerda.bosman14@gmail.com(Ge) }{012 653 5561\\082 334 3712(Ga)\\082 334 2603(Ge)}
+\Home{Botha}{Newlands}{Henk \& Brenda, Latika, Henco; 15 Plaine St., Midstream Hill, Centurion, 1692; henkbotha1@gmail.com; (-25.9347140, 28.1813240) }{078 658 1938(H)\\083 441 1330(B)}
+\Home{Botha}{Newlands}{Louis \& Sugretta, Sternberg; 526 Chopin St, Constantia Park; Posbus 12933, Hatfield 0028; bothalouis4@gmail.com(L) , sugrettadu@gmail.com(S) }{012 998 8242\\083 410 5612(L)\\083 342 3157(S)}
+\Home{Brink}{Lyttelton Manor}{Lynette; 11 Chantellepark, 17 Baltimore Road, Pierre van Ryneveld X21; brinklynie@gmail.com}{012 663 2103\\082 423 5828}
+\Home{Bruce-Webster}{Lyttelton Manor}{Simon \& Celeste, Brendan, Carmen; 5 Ermelo St, Wierda Park X2; brucewebbies@gmail.com}{012 661 4705\\083 640 5088(S)\\082 374 1036(C)}
+\Home{Buck}{Hennopspark}{Anthony \& Eleanore; Unit 135, Protea Retirement Village, Heuwelsig, 956 Clifton Ave, Lyttelton; Box 534, Wapadrand, 0050; abuck51@outlook.com; (-25.8397059, 28.2006313) }{065 997 6299(A)\\082 813 3759(E)}
+\Home{Coetser}{Lyttelton Manor}{Dorothy; Unit 84 Protea Retirement Village, Heuwelsig, 956 Clifton Ave, Lyttelton; abdec@worldonline.co.za; (5642+V38 Centurion, South Africa) }{082 457 6601}
+\Home{De Beer}{Garsfontein}{Hanno; Unit 16, Milwaukee Mews, Kamassie Street, Morelta Park}{060 960 9176}
+\Home{De Jongh}{Garsfontein}{Xen, Mikayla; 68 Leander Road, 494 Crowthorne Estate, Bronberg; xen@etal.co.za}{082 897 1841}
+\Home{Dippenaar}{Highveld Centurion}{Logie-Jean; 30 Presena Crescent, Midstream Hill Retire, 1692; logie.dippenaar@icloud.com; (-25.9227044, 28.1820492) }{071 681 2697}
+\Home{Du Plessis}{Garsfontein}{Pierre; 68 Leander Road, 494 Crowthorne Estate, Bronberg}{082 820 7122}
+\Home{Du Plooy}{Newlands}{Arnold \& Karin, Bartoe, Beané; 541 Rembrandt Street, Faerie Glen, Pretoria, 0081; karenduplooy@gmail.com(K) }{083 406 7639(K)\\073 355 4965(A)}
+\Home{Dyzel}{Garsfontein}{Tommie \& Hannalie; 832 Tiervis Street, Garsfontein, Pretoria; P O Box 90342, Garsfontein, 0042; tommiedy@gmail.com}{012 998 9602\\083 268 6839(T)\\082 872 5142(H)}
+\Home{Erasmus}{Lyttelton Manor}{Cheryl, Arnold; 1 Village Nouvelle, 73 Burger Avenue, Lyttelton Manor, Centurion; cherripops@mweb.co.za}{082 554 9394\\011 328 1786W}
+\Home{Ewerste}{Highveld Centurion}{Basie \& Daphline, Andreas, Giovanna; 18 Kingscross Street, Midstream Estate, Old Kent Gate, Centurion; masene051@gmail.com(B) , ewertsed@gmail.com(D) }{082 417 1155(B)\\083 578 7123(D)}
+\Home{Fouche}{Garsfontein}{Eugene \& Luzanne, Willem, Eugene(Jr); 1313 Kransvalk Street,The Wilds Estate, Trumpeters Loop, Lions Head, Pretorius Park; fouche12.09@gmail.com(L) , eugenefouche87@gmail.com(E) }{0834016549(E)\\068 441 3514(L)}
+\Home{Havemann}{Lyttelton Manor}{Leon \& Lorraine, André; 7 Villa Mynhardie, 307 Duiker Ave, Zwartkop Ext 7, Centurion, 0157; leon.havemann@sasol.com; (45VG+8XG Centurion, South Africa) }{082 704 8280(Lo)\\082 808 6916(Le)}
+\Home{Havemann}{Lyttelton Manor}{Marge; 19 Pretorius Ave, Lyttelton Manor, Centurion, 0157; dave.havemann@gmail.com}{082 519 9221}
+\Home{Havemann}{Lyttelton Manor}{Vernon \& Sarah, Grant, Nadya; 19 Pretorius Ave, Lyttelton Manor, Centurion, 0157; vrhavemann@gmail.com(V) , sarah.havemann@gmail.com(S) }{082 612 1235(V)\\072 309 5478(S)}
+\Home{Holtzhausen}{Eldoraigne}{Sarena; 41 Boundary Rd, Plot 183, Mnandi AH, 0157; saar.holtzhausen@gmail.com; (-25.8956790, 28.0623150) }{082 899 5795}
+\Home{Horn}{Eldoraigne}{Lillibet; 78 Hampton road, Glen Austin, Midrand}{082 550 6261\\645429246}
+\Home{Hughes}{Lyttelton Manor}{Tiffany, Keanen; Unit 3, The Pines, 99 Shelanti Rd, Die Hoewes, Centurion; hughes@out.co.za}{082 603 8736}
+\Home{Janse van Rensburg}{Highveld Centurion}{Louis \& Milli; 156 Madeleine Street, Retire@Midstream, Midstream 1692; milli.louis@gmail.com; (-25.9203230, 28.1840950) }{082 568 2513(L)\\+27 73 114 8613(M)}
+\Home{Lomas}{Eldoraigne}{Adrian \& Sharon, Jared, Clayton, Megan; 298 Bardenhorst St, Wierda Park; P O Box 50130, Wierda Park 0149; adrian.lomas@m-t.co.za(A) , sharon@skinwell.co.za(S) }{082 374 2782(A)\\081 428 9272(S)}
+\Home{Lomas}{Eldoraigne}{Ruth; 298 Bardenhorst St, Wierda Park; P O Box 50130, Wierda Park 0149; theruthlomas524@gmail.com}{012 653 1780\\079 998 6149}
+\Home{Lomas}{Lyttelton Manor}{Geoff \& Susan; 43 Blackberry Street, Zwartkop Centurion; wayne@ctouch.co.za}{082 441 3446(G)\\082 465 9947(S)}
+\Home{Lotz}{Garsfontein}{Erika; 529 Windsor road Garsfontein Pretoria; erikalotz90@gmail.com}{082 460 1049}
+\Home{Louw}{Newlands}{Wallace \& Nellie; E26 Serene Park Retirement Centre,245 Johnny Claassens St, (Gate 2) Garsfontein; P O Box 175, Newlands, 0049; lawleny@gmail.com}{012 361 4683\\083 590 0973(W)\\072 288 2946(N)}
+\Home{Masedi}{Garsfontein}{Graham; 374 Rigel Avenue, Erasmusrand}{071 085 8971}
+\Home{Mengel}{Eldoraigne}{Alan \& Annatjie; 6 Guineafowl walk, Eldoraigne X3 , Centurion; Box 50262, Wierda Park 0149; alansm@mweb.co.za}{012 653 0542\\083 304 0558}
+\Home{Nelson}{Newlands}{Russel \& Babsie, Kevin, Carin; 1027 C Hertzog Flats, 29th Ave Villeria, Pretoria; babsienelson@gmail.com(B) }{071 671 7046(B)\\083 391 3347(R)}
+\Home{O'Brien}{Highveld Centurion}{Geraldine; GlenHaven, Annette Van Zyl street, Garsfontein, Care Unit 1, Love Lane; gerdesob46@icloud.com}{083 578 7121}
+\Home{Opperman}{Newlands}{Francois \& Elbé; 11 Villa George, 452 Keiskamma street, Erasmuskloof}{083 799 8147(F)\\083 799 8148(E)}
+\Home{Phukuile}{Garsfontein}{Bobby, Zelia; 721 Highwood Rd, Faerie Glen; P O Box 38264, Faerie Glen 0043; bobby@phukuile.com(B) ; (-25.7859620, 28.3248280) }{082 859 2174(B)}
+\Home{Pienaar}{Garsfontein}{Kobus \& Magda; 707 Coley street, Garsfontein; kpienaar@vodamail.co.za(K) ; (-24.750271,30.556570) }{+2783 943 2598(K)\\+27 82 685 8735(M)}
+\Home{Prinsloo}{Hennopspark}{Bianca \& Robert; 165 Meyer St, Wierda Park}{071 876 4677(B)}
+\Home{Reyneke}{Newlands}{Rina; 17 Golf Gardens, 65 Maroelana St, Maroelana, 0081; cereyneke@yahoo.com}{012 460 5387\\083 352 3223}
+\Home{Robinson}{Hennopspark}{Jean; Unit 1318, Eldoraigne Retirement Centre, 458 Willem Botha St, Centurion; jeanarobinson@telkomsa.net}{012 997 4670\\082 440 0692}
+\Home{Robinson}{Highveld Centurion}{Tony \& Elrie; 91B Stansted St, Highveld Ext 08, Centurion, 0157; 3xrobinson@gmail.com}{083 456 1603(T)\\083 538 2049(E)}
+\Home{Roper}{Hennopspark}{Clinton; 301 Roper St, Mopani, Hennopspark X4 0157 (44 Rhino Road); clintonroeper@gmail.com}{072 602 4806}
+\Home{Roper}{Hennopspark}{Harold \& Hughleen; 301 Roper St, Mopani, Hennopspark X4 0157 (44 Rhino Road); roperhj@gmail.com}{012 660 2197\\072 602 4897(Ha)\\076 273 6923(Hu)}
+\Home{Smith}{Hennopspark}{Nico \& Lynette, Gareth; 96 Rhyolite St, Zwartkops x8; Box 9923, Centurion 0046; nicolynettesmith@gmail.com}{071 898 3143(N)\\084 584 0318(L)}
+\Home{Styan}{Eldoraigne}{Jarrod; 42 Mountain Zanetti St, Midstream X22, Midlands Estate, 1682, Erf 1971; Jarrodstyan5@gmail.com}{083 303 2556}
+\Home{Styan}{Eldoraigne}{Jimmy; 42 Mountain Zanetti St, Midstream X22, Midlands Estate, 1682, Erf 1971; jwstyan@gmail.com}{084 251 1095}
+\Home{Swanepoel}{Newlands}{Jannie; The Retreat, Eenheid 84, TopFlight str, Hazeldean, 0002; P O Box 75562, Lynwoodridge, 0040; engelswan@hazeldeanretreat.co.za; (-25.78119373099791, 28.381399204520854) }{082 490 4333\\012 809 5584}
+\Home{Swartz}{Garsfontein}{Sophia; 266 Ivan Beckett St, Eersterust, 0022}{066 079 3615}
+\Home{Turner}{Lyttelton Manor}{Sonja \& Shane, Melissa, Cayleen; 62 King Street, Irene, 0157; sonja.turner@gmail.com}{083 626 2606(So)}
+\Home{Van Niekerk}{Garsfontein}{Hester; 57 Garsfontein Mews, 105 Cocker Street, Garsfontein, Pretoria; Private Bag X959, Postnet Suite X37, Lynwood Ridge 0040; hvn.leres@gmail.com}{073 662 5269}
+\Home{Van Schaik}{Garsfontein}{Dirkie; 1234 Paul street, Moreleta par; Box 11179, Centurion 0046; dirkiedb@telkomsa.net; (684P+VGV Pretoria, South Africa) }{082 771 3916}
+\Home{Van Zyl}{Garsfontein}{Seraline, Shandré; 284 Wynberg Avenue, Eersterust, Pretoria}{012 452 3500 W\\063 857 5245}
+\Home{Van der Merwe}{Newlands}{Noelene \& Charlie; 40 Rankin Ave, Rietvallei Park, 0157; noelenevandermerwe@gmail.com}{078 099 9870}
+\Home{Viljoen}{Garsfontein}{Joey; 32 Wildevy Road, Bronberg Retirement Estate, Midas Road, Olympus; P O Box 102053, Moreleta Plaza 0167; joey.benviljoen@gmail.com; (-25.8091520, 28.3394320) }{083 234 0577}
+\Home{Viljoen}{Hennopspark}{Merle; 96 Rhyolite St, Zwartkops,X8; Box 9923, Centurion 0046; merleviljoen@yahoo.com}{083 400 2640}
+\Home{Weich}{Lyttelton Manor}{Dou \& Jenny; 7 Akasia Str, Gerardsville; dou.weich@gmail.com(D) }{082 469 6666(D)\\082 871 5008(J)}
+\Home{Weideman}{Hennopspark}{Jandre; Unit 33 Winterwood, 268 Rhino Ave, Mopani, Hennopspark; jandre1weideman@gmail.com}{079 167 5198}
+\Home{Williams}{Hennopspark}{Gavin \& Geraldine, Shoneeze, Vayden; Green Acres Complex, Unit 8, 281 Von Willich Avenue, Die Hoewes, Centurion; Geraldinewilliams472@gmail.com(Ge) }{079 437 6137(Ga)\\+27 66 147 0526(Ge)}\EndHomes
+\EndSection
+\MLDistrictH{Centurion}
+\MLMeetingH{Eldoraigne;G Bosman}
+\MLHome{Bosman}{SunAM;Elder}{Gawie \& Gerda}
+\MLHome{Holtzhausen}{}{Sarena}
+\MLHome{Horn}{}{Lillibet}
+\MLHome{Lomas}{Wed}{Adrian \& Sharon, Jared, Clayton, Megan}
+\MLHome{Lomas}{}{Ruth}
+\MLHome{Mengel}{}{Alan \& Annatjie}
+\MLHome{Styan}{}{Jarrod}
+\MLHome{Styan}{}{Jimmy}
+\MLMeetingH{Garsfontein}
+\MLHome{De Beer}{}{Hanno}
+\MLHome{De Jongh}{}{Xen, Mikayla}
+\MLHome{Du Plessis}{}{Pierre}
+\MLHome{Dyzel}{SunAM,Wed;Elder}{Tommie \& Hannalie}
+\MLHome{Fouche}{}{Eugene \& Luzanne, Willem, Eugene(Jr)}
+\MLHome{Lotz}{}{Erika}
+\MLHome{Masedi}{}{Graham}
+\MLHome{Phukuile}{SunPM}{Bobby, Zelia}
+\MLHome{Pienaar}{}{Kobus}
+\MLHome{Swartz}{}{Sophia}
+\MLHome{Van Niekerk}{}{Hester}
+\MLHome{Van Schaik}{}{Dirkie}
+\MLHome{Van Zyl}{}{Seraline, Shandré}
+\MLHome{Viljoen}{}{Joey}
+\MLMeetingH{Hennopspark;H Roper}
+\MLHome{Buck}{}{Anthony \& Eleanore}
+\MLHome{Prinsloo}{}{Bianca \& Robert}
+\MLHome{Robinson}{Not attending}{Jean}
+\MLHome{Roper}{}{Clinton}
+\MLHome{Roper}{SunAM,Wed;Elder}{Harold \& Hughleen}
+\MLHome{Smith}{SunPM}{Nico \& Lynette, Gareth}
+\MLHome{Viljoen}{}{Merle}
+\MLHome{Weideman}{}{Jandre}
+\MLHome{Williams}{}{Gavin \& Geraldine, Shoneeze, Vayden}
+\MLMeetingH{Highveld Centurion;T Robinson}
+\MLHome{Dippenaar}{}{Logie-Jean}
+\MLHome{Ewerste}{Wed}{Basie \& Daphline, Andreas, Giovanna}
+\MLHome{Janse van Rensburg}{Wed}{Louis \& Milli}
+\MLHome{O'Brien}{}{Geraldine}
+\MLHome{Robinson}{SunAM;Elder}{Tony \& Elrie}
+\MLMeetingH{Lyttelton Manor;V Havemann}
+\MLHome{Brink}{}{Lynette}
+\MLHome{Bruce-Webster}{Wed}{Simon \& Celeste, Brendan, Carmen}
+\MLHome{Coetser}{}{Dorothy}
+\MLHome{Erasmus}{}{Cheryl, Arnold}
+\MLHome{Havemann}{}{Leon \& Lorraine, André}
+\MLHome{Havemann}{}{Marge}
+\MLHome{Havemann}{SunAM,SunPM;Elder}{Vernon \& Sarah, Grant, Nadya}
+\MLHome{Hughes}{}{Tiffany, Keanen}
+\MLHome{Lomas}{}{Geoff \& Susan}
+\MLHome{Turner}{}{Sonja \& Shane, Melissa, Cayleen}
+\MLHome{Weich}{}{Dou \& Jenny}
+\MLMeetingH{Newlands}
+\MLHome{Boshoff}{}{Jennifer}
+\MLHome{Botha}{SunPM}{Henk \& Brenda, Latika, Henco}
+\MLHome{Botha}{SunPM}{Louis \& Sugretta, Sternberg}
+\MLHome{Du Plooy}{}{Arnold \& Karin, Bartoe, Beané}
+\MLHome{Louw}{SunAM;Elder}{Wallace \& Nellie}
+\MLHome{Nelson}{}{}
+\MLHome{Opperman}{}{Francois \& Elbé}
+\MLHome{Reyneke}{Wed 10:30am}{Rina}
+\MLHome{Swanepoel}{}{Jannie}
+\MLHome{Van der Merwe}{}{Noelene}
+\MLMeetingH{Eldoraigne SunPM;Alan \& Quentin alt @ Q Pienaar}
+\MLHome{Bosman}{SunAM;Elder}{Gawie \& Gerda}
+\MLHome{Horn}{}{Lillibet}
+\MLHome{Lomas}{Wed}{Adrian \& Sharon, Jared, Clayton, Megan}
+\MLHome{Lomas}{}{Ruth}
+\MLHome{Mengel}{}{Alan \& Annatjie}
+\MLMeetingH{Faerie Glen SunPM}
+\MLHome{De Beer}{}{Hanno}
+\MLHome{Dyzel}{SunAM,Wed;Elder}{Tommie \& Hannalie}
+\MLHome{Fouche}{}{Eugene \& Luzanne, Willem, Eugene(Jr)}
+\MLHome{Lotz}{}{Erika}
+\MLHome{Masedi}{}{Graham}
+\MLHome{Metz}{}{Frederick}
+\MLHome{Metz}{}{Isabella}
+\MLHome{Phukuile}{SunPM}{Bobby, Zelia}
+\MLHome{Pienaar}{}{Kobus}
+\MLHome{Swartz}{}{Sophia}
+\MLHome{Van Niekerk}{}{Hester}
+\MLHome{Van Schaik}{}{Dirkie}
+\MLHome{Van Zyl}{}{Seraline, Shandré}
+\MLHome{Viljoen}{}{Joey}
+\MLMeetingH{Hennopspark SunPM;N Smith}
+\MLHome{Buck}{}{Anthony \& Eleanore}
+\MLHome{Prinsloo}{}{Bianca \& Robert}
+\MLHome{Roper}{}{Clinton}
+\MLHome{Roper}{SunAM,Wed;Elder}{Harold \& Hughleen}
+\MLHome{Smith}{SunPM}{Nico \& Lynette, Gareth}
+\MLHome{Viljoen}{}{Merle}
+\MLHome{Weideman}{}{Jandre}
+\MLHome{Williams}{}{Gavin \& Geraldine, Shoneeze, Vayden}
+\MLMeetingH{Lyttelton Manor SunPM;Simon \& Vernon alt @ V Havemann}
+\MLHome{Brink}{}{Lynette}
+\MLHome{Bruce-Webster}{Wed}{Simon \& Celeste, Brendan, Carmen}
+\MLHome{Coetser}{}{Dorothy}
+\MLHome{Erasmus}{}{Cheryl, Arnold}
+\MLHome{Havemann}{}{Leon \& Lorraine, André}
+\MLHome{Havemann}{}{Marge}
+\MLHome{Havemann}{SunAM,SunPM;Elder}{Vernon \& Sarah, Grant, Nadya}
+\MLHome{Hughes}{}{Tiffany, Keanen}
+\MLHome{Lomas}{}{Geoff \& Susan}
+\MLHome{Turner}{}{Sonja \& Shane, Melissa, Cayleen}
+\MLMeetingH{Midstream SunPM;André \& Henk alt @ H Botha}
+\MLHome{Botha}{SunPM}{Henk \& Brenda, Latika, Henco}
+\MLHome{Dippenaar}{}{Logie-Jean}
+\MLHome{Ewerste}{Wed}{Basie \& Daphline, Andreas, Giovanna}
+\MLHome{Janse van Rensburg}{Wed}{Louis \& Milli}
+\MLHome{O'Brien}{}{Geraldine}
+\MLHome{Robinson}{SunAM;Elder}{Tony \& Elrie}
+\MLHome{Styan}{}{Jarrod}
+\MLHome{Styan}{}{Jimmy}
+\MLMeetingH{Newlands SunPM}
+\MLHome{Boshoff}{}{Jennifer}
+\MLHome{Botha}{SunPM}{Louis \& Sugretta, Sternberg}
+\MLHome{Du Plooy}{}{Arnold \& Karin, Bartoe, Beané}
+\MLHome{Louw}{SunAM;Elder}{Wallace \& Nellie}
+\MLHome{Nelson}{}{}
+\MLHome{Opperman}{}{Francois \& Elbé}
+\MLHome{Reyneke}{Wed 10:30am}{Rina}
+\MLHome{Swanepoel}{}{Jannie}
+\MLHome{Van der Merwe}{}{Noelene}
+\MLMeetingH{Eldoraigne WedPM@19h30;A Lomas}
+\MLHome{Bosman}{SunAM;Elder}{Gawie \& Gerda}
+\MLHome{Lomas}{Wed}{Adrian \& Sharon, Jared, Clayton, Megan}
+\MLHome{Lomas}{}{Ruth}
+\MLHome{Mengel}{}{Alan \& Annatjie}
+\MLMeetingH{Garsfontein WedPM}
+\MLHome{Botha}{SunPM}{Louis \& Sugretta, Sternberg}
+\MLHome{De Beer}{}{Hanno}
+\MLHome{Du Plooy}{}{Arnold \& Karin, Bartoe, Beané}
+\MLHome{Dyzel}{SunAM,Wed;Elder}{Tommie \& Hannalie}
+\MLHome{Fouche}{}{Eugene \& Luzanne, Willem, Eugene(Jr)}
+\MLHome{Lotz}{}{Erika}
+\MLHome{Masedi}{}{Graham}
+\MLHome{Metz}{}{Frederick}
+\MLHome{Phukuile}{SunPM}{Bobby, Zelia}
+\MLHome{Pienaar}{}{Kobus}
+\MLHome{Swartz}{}{Sophia}
+\MLHome{Van Niekerk}{}{Hester}
+\MLHome{Van Zyl}{}{Seraline, Shandré}
+\MLMeetingH{Hennopspark WedPM@18h30;Clinton \& Gavin alt @ H Roper}
+\MLHome{Buck}{}{Anthony \& Eleanore}
+\MLHome{Roper}{}{Clinton}
+\MLHome{Roper}{SunAM,Wed;Elder}{Harold \& Hughleen}
+\MLHome{Smith}{SunPM}{Nico \& Lynette, Gareth}
+\MLHome{Weideman}{}{Jandre}
+\MLHome{Williams}{}{Gavin \& Geraldine, Shoneeze, Vayden}
+\MLMeetingH{Lyttelton Manor WedPM@19h00;S Bruce-Webster}
+\MLHome{Brink}{}{Lynette}
+\MLHome{Bruce-Webster}{Wed}{Simon \& Celeste, Brendan, Carmen}
+\MLHome{Erasmus}{}{Cheryl, Arnold}
+\MLHome{Havemann}{}{Marge}
+\MLHome{Havemann}{SunAM,SunPM;Elder}{Vernon \& Sarah, Grant, Nadya}
+\MLHome{Hughes}{}{Tiffany, Keanen}
+\MLMeetingH{Midstream WedPM@19h00;Louis \& Basie alt}
+\MLHome{Botha}{SunPM}{Henk \& Brenda, Latika, Henco}
+\MLHome{Dippenaar}{}{Logie-Jean}
+\MLHome{Ewerste}{Wed}{Basie \& Daphline, Andreas, Giovanna}
+\MLHome{Janse van Rensburg}{Wed}{Louis \& Milli}
+\MLHome{O'Brien}{}{Geraldine}
+\MLHome{Robinson}{SunAM;Elder}{Tony \& Elrie}
+\MLHome{Styan}{}{Jarrod}
+\MLHome{Styan}{}{Jimmy}
+\MLMeetingH{Newlands WedAM}
+\MLHome{Boshoff}{}{Jennifer}
+\MLHome{Coetser}{}{Dorothy}
+\MLHome{Horn}{}{Lillibet}
+\MLHome{Louw}{SunAM;Elder}{Wallace \& Nellie}
+\MLHome{Opperman}{}{Francois \& Elbé}
+\MLHome{Phukuile}{SunPM}{Bobby, Zelia}
+\MLHome{Reyneke}{Wed 10:30am}{Rina}
+\MLHome{Van Schaik}{}{Dirkie}
+\MLHome{Viljoen}{}{Joey}
+\end{document}
