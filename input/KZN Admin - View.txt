@@ -1,0 +1,123 @@
+\documentclass[english]{article}
+\title{KZN Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bailie}{KZN Contacts}{Tyrone \& Samantha, Joshua, Daniel; 61 Bosse St, New Germany, 3610; tsbailie@gmail.com, tyrone.bailie@hilti.com(T) }{031 705 4718\\082 941 5119(T)\\072 925 3543(S)}
+\Home{Biyase}{KZN Contacts}{Maneli; c/o Amble Inn}{+27 60 663 1878}
+\Home{Bown}{KZN Contacts}{Mandi \& George, Georgia, Brent, Lily; Eagles Nest Farm Muden Road (off Main Road Greytown) 3250; P.O. Box 882, Greytown, 3250; mandi.b@greytown.co.za(M) }{082 554 7597(M)\\0827776273(G)}
+\Home{Bransby}{KZN Contacts}{Justin; c/o Alex \& Gail Bransby; Denise Smith sent message on 7 Feb; bransby5@gmail.com}{084 549 4579}
+\Home{Cele}{KZN Contacts}{Beauty, Mondli, Njabulo; Siyaphemba School, P Bag 569, Umzinto, 4200; (-30.449927,30.572507) }{}
+\Home{Cele}{KZN Contacts}{Lettie, Simanga; ; (-30.449927,30.572507) }{073 858 8602}
+\Home{Cele}{KZN Contacts}{Sli; c/o Dora Cele; (-30.535883,30.570352) }{078 607 7572}
+\Home{Cele}{KZN Contacts}{Thandi, Andile; ; (-30.449927,30.572507) }{073 636 9433}
+\Home{Church}{KZN Contacts}{Yvette, Rochelle, Henry; 51 Mpushini Ave, Waterfall 1; yvettec@exim.co.za(Y) }{074 845 2222(Y)}
+\Home{De Jager}{KZN Contacts}{Colleen; Clipsham Farm, Road D551, Hattingspruit; Box 1874 Dundee, 3000; ndejager@kznatal.co.za; (-28.08212,30.162626) }{034 212 3674\\079 888 8458}
+\Home{Dlamini}{KZN Contacts}{Jabulani; ; Marius Marais sent message: Not attending meetings}{071 568 1398}
+\Home{Dlamini}{KZN Contacts}{Joseph; met in Ixopo in stationary shop. attended a few meetings in 2010 and a meeting at convention.}{072 435 0604}
+\Home{Dowling}{KZN Contacts}{Henry \& Shirley, Rebecca\_(Bex)\_Meyer; Flat 402, Flame Lily Park Retirement Village, 565 Stella Rd, Malvern; shirleyadowling@gmail.com}{061 429 3158(S)}
+\Home{Gumede}{KZN Contacts}{Mthokozisi, Khayalihle, Qinisile, Happiness; Box 30305, Hibberdene, 4220; Marius Marais sent message: Not attending meetings}{073 081 9217(Q)\\083 314 1249(H)}
+\Home{Khumalo}{KZN Contacts}{Sebe; House 1794, Tete, Stanger; sebekhumalo1@gmail.com; (-29.410802,31.236249) }{073 111 7102}
+\Home{Kinyua}{KZN Contacts}{Shiro; Durban}{071 674 4170}
+\Home{MacKenzie}{KZN Contacts}{Andrew; 14 Albizia Place Westville, Durban KwaZulu-Natal 3630 South Africa; andrew@andrewmac.co.za}{+2783 798 2394}
+\Home{MacKenzie}{KZN Contacts}{Jonathon; Son of MacGreggor MacKenzie from Ixopo. stays in Harding}{082 771 1468}
+\Home{Madonsela}{KZN Contacts}{Sindi \& Emmanuel, Nandipha, Wandile, Uganda, Alwande; 22 Maynard road, Sea Cow Lake, Kenville, 4051}{083 391 6366(S)\\084 5647609(E)}
+\Home{Mann}{KZN Contacts}{Lynton \& Secielle, Alexander; 94 Lake Hannah Road, Palm Lakes Estate, Ballito Bay; Hannes Marais 9 January 2020}{ +27 82 800 2222(L)\\+27 82 048 6047(S)}
+\Home{Mbele}{KZN Contacts}{Themba; ; Marius Marais sent message: Not attending meetings}{072 344 7774}
+\Home{Memela}{KZN Contacts}{Regina, Ntombiza, Ntombiza's Husband; From Bulwer; Marius Marais sent message: Not attending meetings}{076 174 6060(N)\\073 601 4974(R)\\079 468 5364(H)}
+\Home{Meyer}{KZN Contacts}{Eleanor, Carol; 3 Waterloo Cres, Farningham Ridge, Pinetown}{067 337 3140(E)\\083 457 9799(C)}
+\Home{Mhlongo}{KZN Contacts}{Robert; Removed from Mangete(Zulu), had no address}{}
+\Home{Mkhize}{KZN Contacts}{Bonginkosi; Worked with Raymond Bailie in Pongola. currently in Umkomaas}{071 974 2698}
+\Home{Mkhize}{KZN Contacts}{Nontokozo; ; (-30.52829,30.572053) }{+27 63 479 9187(N)}
+\Home{Mndaweni}{KZN Contacts}{Sipho \& Priscilla; Carisbrooke; Marius Marais sent message: Not attending meetings}{079 440 7998}
+\Home{Msani}{KZN Contacts}{Nonhlanhla, Simphiwe, Ayanda, Zwelethu, Nomphumelelo; Box 394, Margate, 4275; (-30.855605,30.161869) }{076 884 7406(Nu)\\072 510 7151(A)\\083 547 1751(A)}
+\Home{Mthethwa}{KZN Contacts}{Isaac, Nhlakaza; aMahlongwe. Near Olwasini primary school. See gps location; (-30.206917,30.696925) }{067 032 3131(I)\\0723081226(N)}
+\Home{Mthethwa}{KZN Contacts}{Sakhile; ; Hannes Marais moved him to contacts 24 September 2019}{082 624 6835}
+\Home{Mutungi}{KZN Contacts}{Miriam; Shaka Kraal; Hannes Marais 9 January 2020; (-29.448264,31.19232) }{079 885 5498}
+\Home{MyBurgh}{KZN Contacts}{Qupi; Sarah de Wet's daughter. married to Johan. stays in Umtwalume.}{}
+\Home{Ncamane}{KZN Contacts}{James; c/o Helene Bruce-Webster; (-31.007581,30.225481) }{073 415 0957}
+\Home{Nhlumayo}{KZN Contacts}{Sipho; was at Westville prison with Isaac. now stays in KwaNzimakwe}{073 789 4270}
+\Home{Nkosi}{KZN Contacts}{Mpume, Njabulo, Zekhethelo; House 5833, eHostela, Madadeni Section 4; (-27.747097,30.057173) }{081 250 5916(M)\\078 947 7673(M)}
+\Home{Nqoko}{KZN Contacts}{Lizzie; worked at the Pethicks in Margate. has a son Craig}{073 071 6747}
+\Home{Phakathi}{KZN Contacts}{Lucy; Daughter of Zifunele Phakathi that passed away in 2010}{+2773 197 8836}
+\Home{Reddy}{KZN Contacts}{Clive; son of Johny Reddy from Durban. works at Checkers in Southcoast mall. stays close to Protea Park}{084 925 0508}
+\Home{Reddy}{KZN Contacts}{Hazel \& Rochelle, Bella; 46 Evenside Rd, Caneside, Phoenix}{083 770 7293}
+\Home{Sables}{KZN Contacts}{Valmar; Richardsbay at the moment. Might move to Cape Town or Howick}{082 679 1558(V)\\021 554 1224}
+\Home{Shinga}{KZN Contacts}{Francisca (Nonhlanhla); Mtwalume Enyangwini; Marius Marais sent message: Not attending meetings}{074 663 9083\\076 219 3153\\060 383 2984}
+\Home{Solomon}{KZN Contacts}{Phillipa \& David, Drake; 37 Dawnview, 32 Claveshay, Cleland, PMB, 3201; pippawebber@gmail.com}{084 982 8170(P)\\071 8815964(D)}
+\Home{Stangherlin}{KZN Contacts}{Maureen; Hannes Marais 9 January 2020; jessi.stangherlin@gmail.com}{072 173 6337\\011 816 2978H}
+\Home{Taylor}{KZN Contacts}{Andrew \& Carin, Cameron, Kelvin, Travis; 28 Birnham Wood Rd, Merrivale; Box 537, Merrivale, 3291; andrew.taylor@eject.co.za(A) , carin.taylor@eject.co.za(C) ; (-29.573992,30.231352) }{T/F033 320 1291\\083 228 7808(C)\\082 553 4185(A)}
+\Home{Tshezi}{KZN Contacts}{Eunice; c/o Amble Inn; Marius Marais sent message: Not attending meetings}{071 461 6787\\078 058 1683}
+\Home{Van Rooyen}{KZN Contacts}{Vaughan \& Rochelle, Rawdon; 51 Mpushini Ave, Waterfall 1}{072 422 0461(V)\\071 5144 633(R)}
+\Home{Van Zyl}{KZN Contacts}{Annetjie \& Nic; Mooi Hawens, 4 Middleton Rd, Kamer nommer A220}{031 916 4467\\079 995 0824(A)}
+\Home{Webber}{KZN Contacts}{Mark \& Diane, Laurence; 19 Dryden Rd, Hayfields, PMB, 3201; marktheclockmaker@gmail.com(M) , webber.dg@gmail.com(D) }{083 660 7599(M)\\084 604 1704(D)\\072 571 5506(L)}
+\Home{Whittaker}{KZN Contacts}{Beverley \& Greg, Chloë, Luc, Jace; 1A Hofmeyer Rd, Winston Park, 3610; blwhittaker@mweb.co.za}{031 767 2617\\082 326 3862(B)}
+\Home{Wise}{KZN Contacts}{Eddie \& Candy; 27 Uplands Road, Blackridge, Pietermaritzburg, South Africa; Rosemary Wise's brother}{+27 82 853 1663(E)}
+\Home{Wright}{KZN Contacts}{Anthony \& Annette; 583 Marine Drive, Bluff, 4052; aewright50@gmail.com(Ant) , annettewright09@gmail.com(Ann) , anniebanz12@yahoo.com(Ann) }{084 533 2851(Ant)\\084 460 8643(Ann)}
+\Home{Wright}{KZN Contacts}{Grant \& Vanessa; 583 Marine Drive, Brighton Beach, Bluff 4052; aewrightfurnishers@gmail.com(G) , vanessaowright@icloud.com(V) }{084 666 6410(G)\\084 431 2505(V)\\031 916 1169}
+\Home{Zwane }{KZN Contacts}{Robert, Nokwanda, Nokuthula; Vukuzakhe. See GPS location; nokwandazwane@gmail.com(NK) ; (-27.374894,29.905309) }{0627884679(NK)\\+27 84 701 7092(NK)\\+27 63 742 7024(NT)}
+\Home{Zwane}{KZN Contacts}{Nomathemba; Durban; (-29.681863,30.886006) }{+27 62 261 6877(N)}
+\Home{Zwane}{KZN Contacts}{Poppie, Bheki, Busisiwe, Nosipho; See GPS location; (-27.8827080, 30.1388511) }{ +2782 866 9634(BH)\\063 006 7148(BH)\\071 405 0801\\076 625 1080(B)\\+27 73 758 1076(NO)\\064 997 7745(P)}\EndHomes
+\EndSection
+\MLDistrictH{KZN Admin}
+\MLMeetingH{KZN Contacts}
+\MLHome{Bailie}{Alt takes SunPM, WedPM to Everton}{Tyrone \& Samantha, Joshua, Daniel}
+\MLHome{Biyase}{}{Maneli}
+\MLHome{Bown}{}{Mandi \& George, Georgia, Brent, Lily}
+\MLHome{Bransby}{}{Justin}
+\MLHome{Cele}{}{Beauty, Mondli, Njabulo}
+\MLHome{Cele}{}{Lettie, Simanga}
+\MLHome{Cele}{}{Sli}
+\MLHome{Cele}{}{Thandi, Andile}
+\MLHome{Church}{}{Yvette, Rochelle, Henry}
+\MLHome{De Jager}{}{Colleen}
+\MLHome{Dlamini}{}{Jabulani}
+\MLHome{Dlamini}{Ixopo}{Joseph}
+\MLHome{Dowling}{}{Henry \& Shirley, Rebecca\_(Bex)\_Meyer}
+\MLHome{Gumede}{}{Mthokozisi, Khayalihle, Qinisile, Happiness}
+\MLHome{Khumalo}{}{Sebe}
+\MLHome{Kinyua}{Durban}{Shiro}
+\MLHome{MacKenzie}{}{Andrew}
+\MLHome{MacKenzie}{Harding}{Jonathon}
+\MLHome{Madonsela}{}{Sindi \& Emmanuel, Nandipha, Wandile, Uganda, Alwande}
+\MLHome{Mann}{}{Lynton \& Secielle, Alexander}
+\MLHome{Mbele}{}{Themba}
+\MLHome{Memela}{}{Regina, Ntombiza, Ntombiza's Husband}
+\MLHome{Meyer}{Attends with caregiver}{Eleanor, Carol}
+\MLHome{Mhlongo}{}{Robert}
+\MLHome{Mkhize}{Umkomaas}{Bonginkosi}
+\MLHome{Mkhize}{}{Nontokozo}
+\MLHome{Mndaweni}{}{Sipho \& Priscilla}
+\MLHome{Msani}{}{Nonhlanhla, Simphiwe, Ayanda, Zwelethu, Nomphumelelo}
+\MLHome{Mthethwa}{}{Isaac, Nhlakaza}
+\MLHome{Mthethwa}{}{Sakhile}
+\MLHome{Mutungi}{Wed and Sun pm to Ballito}{Miriam}
+\MLHome{MyBurgh}{Umtwalume}{Qupi}
+\MLHome{Ncamane}{}{James}
+\MLHome{Nhlumayo}{KwaNzimakwe}{Sipho}
+\MLHome{Nkosi}{}{Mpume, Njabulo, Zekhethelo}
+\MLHome{Nqoko}{Gcilima}{Lizzie}
+\MLHome{Phakathi}{Seaview}{Lucy}
+\MLHome{Reddy}{Port Shepstone}{Clive}
+\MLHome{Reddy}{}{Hazel \& Rochelle, Bella}
+\MLHome{Sables}{}{Valmar}
+\MLHome{Shinga}{}{Francisca (Nonhlanhla)}
+\MLHome{Solomon}{}{Phillipa \& David, Drake}
+\MLHome{Stangherlin}{}{Maureen}
+\MLHome{Taylor}{}{Andrew \& Carin, Cameron, Kelvin, Travis}
+\MLHome{Tshezi}{}{Eunice}
+\MLHome{Van Rooyen}{}{Vaughan \& Rochelle, Rawdon}
+\MLHome{Van Zyl}{}{Annetjie \& Nic}
+\MLHome{Webber}{SunAM,Wed;Elder}{Mark \& Diane, Laurence}
+\MLHome{Whittaker}{}{Beverley, Chloë, Luc, Jace}
+\MLHome{Wise}{}{Eddie \& Candy}
+\MLHome{Wright}{SunAM;Elder}{Anthony \& Annette}
+\MLHome{Wright}{}{Grant \& Vanessa}
+\MLHome{Zwane}{}{Nomathemba}
+\MLHome{Zwane}{}{Poppie, Bheki, Busisiwe, Nosipho}
+\MLHome{Zwane }{}{Nokwanda, Nokuthula}
+\end{document}
