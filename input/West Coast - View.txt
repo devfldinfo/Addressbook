@@ -1,0 +1,168 @@
+\documentclass[english]{article}
+\title{West Coast}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Adams}{Atlantis}{Martin \& Belinda, Leigh-Ann, Candice, Brent, Emily; 9 Olyf street, Malmesbury, 7300; adamsbelinda1@gmail.com(Be) , adamsbrent914@gmail.com}{063 367 4393(M)\\064 223 2820(Be)\\083 602 0980(C)}
+\Home{April}{Vredendal}{Truitjie \& Lukas; p/a 43 Hector Pietersen Straat, Vredendal Noord, 8160; apriltruitjie@gmail.com}{065 248 3757(T)}
+\Home{Baard}{St Helena Bay}{Ruth; 2 Freesia St, Vredenburg, 7380; ruth.baard@gmail.com}{072 671 2252}
+\Home{Bal}{St Helena Bay}{Lienkie; Huis Wittekruin, Uranus st, Vredenburg, 7380. Woonstel 11}{082 961 3849}
+\Home{Bester}{Porterville}{Iona \& Johan; 3 Meul st, Porterville; iona.bester.2001@gmail.com}{083 781 1099\\027 341 1099}
+\Home{Beukes}{Moorreesburg}{Shirley \& Ben; Moorreesburg; shirben@webmail.co.za}{072 047 8380}
+\Home{Blom}{Langebaan \#1}{Alwyn \& Karen; 109 Harpuisbos St, Myburgpark, Langebaan, 7357; alwyn.blom67@gmail.com(A) , Karen.blom68@gmail.com(K) }{072 281 4200(A)\\082 471 5943(K)}
+\Home{Blom}{Langebaan \#1}{Tobie \& Naomi; 33 Birdland street, Country Club, Langebaan; Posbus 305, Graafwater, 8120; tobieblom@telkomsa.net(T) }{083 502 3753(T)\\083 514 6601(N)}
+\Home{Cook}{Eendekuil}{Shawn \& Sophia, Dillan, Cailyn; Maas Straat 1, Eendekuil. Posbus 96, Citrusdal, 7340; ontvangs@cedarpack.com}{084 885 6777(SH)\\084 993 6777(SO)}
+\Home{Du Raan}{St Helena Bay}{Almaré; 10 St. Gabriel St, St.Helena Bay; PO Box 9, St Helena Bay, 7390; madelect@intekom.co.za}{082 376 6574\\022 736 1129W\\022 736 2644}
+\Home{Ewertse}{St Helena Bay}{Juanita, Alistair; 62 7th Avenue, Shelley Point, St Helena Bay, 7282; v.ewertse@gmail.com}{063 418 6805}
+\Home{Faul}{Langebaan \#1}{Christine; 109 Harpuisbos Street, Myburgpark, Langebaan, 7357; cfaul@mweb.co.za}{084 520 3832}
+\Home{Foster}{Graafwater}{Martin \& Trix; 29 Rhenius St, Graafwater; Posbus 334, Graafwater, 8120; martinfoster@telkomsa.net(M) }{0828215892(M)\\ 0711606121(T)\\274221141}
+\Home{Foster}{Graafwater}{Norman \& Karin; Kookfontein, Graafwater; PO Box 422, Graafwater, 8120; foster.norman.karin@gmail.com}{0834134369(N)\\0604407209(K)\\027 482 2930}
+\Home{Geduld}{Atlantis}{Frank \& Cathy; 62 Snip St, Cnr Swawel St, Robinvale, 7349; Posbus 1590, Dassenberg, 7350; cathy@imvusaplastics.co.za(C) , karel@imvusaplastics.co.za(F) }{082 384 9764(F)\\076 256 6099(C)\\021 572 0267}
+\Home{Günther}{St Helena Bay}{Wietz \& Anneline, Natasja; 6 Leyden St, Vredenburg; guentherwietz@gmail.com}{084 205 7502(W)\\084 205 8159(A)\\076 093 2228(N)}
+\Home{Hall}{Langebaan \#1}{Bert \& Petronella; 6 Meresteijn Road, Langebaan, 7357; bert.hall@mweb.co.za, berthall.ehs@gmail.com(B) }{082 326 3791(B)\\076 110 6229(P)\\022 772 0601}
+\Home{Jeffries}{St Helena Bay}{Patricia \& Joseph; 14 Strand St, Laingville, St Helena Bay, 7390}{073 169 5905(P)\\071 154 4660(P)}
+\Home{Lehy}{St Helena Bay}{Bob \& Annette; 5 Blueberry Drive, Blueberry Hill, St.Helena Bay, 7390; annette@axxess.co.za(A) }{082 565 5244(B)\\082 823 1747(A)\\022 742 1608}
+\Home{Louw}{Williston}{Maryke \& Koos, Marnel, Alet; Zakfontein - 25km out of town; Posbus 114, Williston 8920; drlouw@flexitron.co.za(K) , mlouw@fxsos.co.za(M) }{083 235 3209(K)\\083 6070 098(M)\\053 391 4186}
+\Home{McDougall}{Graafwater}{Thelma \& Stan, Hannah; ; Box 362, Graafwater, 8120; thelmamacdougall@gmail.com}{073 125 2319(T)\\063 525 2923(H)}
+\Home{Minnies}{Atlantis}{Awie \& Berenice, Keenan, Ashwel, Nathan; Rainbow Chicken Farm (Langdam - "Touch Wood") 8Kms out on the Klein Dassenberg Rd, Atlantis 7530}{061 528 6602(A)\\074 568 7009(B)}
+\Home{Minnie}{Langebaan \#2}{Francois; 1089 Van Breda Drive, LCE (Langebaan Country Estate), Langebaan; coisminnie@gmail.com}{082 811 9686}
+\Home{Olls}{Langebaan \#2}{James \& Brenda; 7 Harpuisbos Rd, Myburgpark, Langebaan 7357; James is at Venitia mine, Limpopo. Attends in Alldays. Stays at Marula Lodge Safari's; jamesm.olls@gmail.com(J) , olls.brenda@gmail.com(B) }{082 482 4038(B)\\072 643 8876(J)\\060 453 8270(J)}
+\Home{Roos}{Langebaan \#1}{Elizabeth, Riana, Zandré; 8 Emerald street, Villa Diamante, Langebaan; steveroos@webmail.co.za}{079 118 7612}
+\Home{Schooling}{Langebaan \#2}{Freda; 193 Elysenpark, Langebaan Country Estate, Langebaan; fschooling@gmail.com}{078 068 3798}
+\Home{Schooling}{St Helena Bay}{Chris \& Lauren, Stanford; 1113 Robbejacht Close, Langebaan Country Estate, Langebaan; chrisschooling@gmail.com}{+2782 554 8688 (C)\\074 899 4069 (L)\\227221863}
+\Home{Simons}{Graafwater}{Marco \& Carlinne, Conner; 3 Nortier Street, Lamberts Bay, 8130; carlinne.h.87@gmail.com(C) }{072 283 4062(M)\\0605467432(C)}
+\Home{Smith}{St Helena Bay}{Hazel; 138 Main St, Laingville, St Helena Bay, 7390; hazznetrading@gmail.com}{073 873 3004(H)}
+\Home{Solomons}{Atlantis}{Charles \& Norma; 6 Duikersteeg Street, Atlantis, 7349}{082 429 8070(C)\\072 613 8701(N)}
+\Home{Stuart}{Langebaan \#1}{Andy \& Jill; 81 Sunbird drive, Myburgh Park, Langebaan; Box 2557, East London, 5205; andyjill@worldonline.co.za(A) }{083 456 1625(A)\\083 960 5999(J)}
+\Home{Turner}{Graafwater}{Arthur \& Reneé; Lambertsbay Weg, Graafwater; dieturners@gmail.com(A) }{083 230 7270(A)\\083 665 2718(R)}
+\Home{Turner}{Graafwater}{Burnice; Spikkedissie (sign at gate), Breedevlei; P.O. Box 5, Graafwater, 8120; omaburnice@gmail.com; (-32.154776,18.617250) }{064 900 1666\\027 422 1623}
+\Home{Turner}{Graafwater}{Norman \& Shinel, Frederick, Benjamin, Amy; Spikkedissie (sign at gate), Breedevlei; PO Box 5, Graafwater, 8120; nsturner@mylan.co.za(N) ; (-32.154853,18.616999) }{082 894 7251(N)\\082 874 5234(S)\\027 422 1890}
+\Home{Van Heerden}{Langebaan \#1}{Wessel \& Gerda; 5 Rietbaai Close, Waterfront, Langebaan, 7357; wesselhendrick@outlook.com(W) }{072 360 3751(W)}
+\Home{Van Wyk}{Langebaan \#2}{Dirk \& Amanda; 3 Thera Way, Calypso Beach, Langebaan; marlynvwyk@gmail.com(A) , dirk.vanwyk@jbtc.com(D) }{083 625 8186(D)\\083 635 9155(A)\\021 913 1982}
+\Home{Venter}{Langebaan \#2}{Vicky \& Christine; 22 Casos str, Calypso Beach, Langebaan; safariv@corpdial.co.za(V) }{011 867 1357\\082 550 7550(V)\\082 556 8675(C)}
+\Home{Visagie}{Lutzville}{Joey; On N7 North take Klaver t/off.Continue to Vredendal.Turn right at Std Bank towards Lutzville.At Strandfontein/Doringbaai board turn left.Proceed until Indrafwinkel (on left),turn right.Cont 1km to house.; Posbus 17, Lutzville, 8165.; joeyvisagie07@gmail.com}{083 660 0004}\EndHomes
+\EndSection
+\MLDistrictH{West Coast}
+\MLMeetingH{Eendekuil}
+\MLHome{Cook}{}{Shawn \& Sophia, Dillan, Cailyn}
+\MLMeetingH{Moorreesburg}
+\MLHome{Beukes}{}{Shirley \& Ben}
+\MLMeetingH{Vredendal}
+\MLHome{April}{}{Truitjie}
+\MLMeetingH{Williston;Louw, M}
+\MLHome{Louw}{All mtgs}{Maryke \& Koos, Marnel, Alet}
+\MLMeetingH{Atlantis;Geduld, F}
+\MLHome{Adams}{SunPM,Wed}{Martin \& Belinda, Leigh-Ann, Candice, Brent, Emily}
+\MLHome{Geduld}{All mtgs;Elder}{Frank \& Cathy}
+\MLHome{Minnies}{}{Awie \& Berenice}
+\MLHome{Solomons}{}{Charles \& Norma}
+\MLMeetingH{Graafwater;Turner, B}
+\MLHome{Foster}{SunPM}{Martin \& Trix}
+\MLHome{Foster}{}{Norman \& Karin}
+\MLHome{McDougall}{}{Thelma, Hannah}
+\MLHome{Simons}{}{Marco \& Carlinne, Conner}
+\MLHome{Turner}{}{Arthur \& Reneé}
+\MLHome{Turner}{SunAM}{Burnice}
+\MLHome{Turner}{Elder}{Norman \& Shinel, Frederick, Benjamin, Amy}
+\MLMeetingH{Langebaan \#1;Hall, B}
+\MLHome{Blom}{Wed}{Alwyn \& Karen}
+\MLHome{Blom}{}{Tobie \& Naomi}
+\MLHome{Faul}{}{Christine}
+\MLHome{Hall}{SunAM;Elder}{Bert \& Petronella}
+\MLHome{Roos}{}{Elizabeth, Riana, Zandré}
+\MLHome{Stuart}{SunAM;Elder;Due to circumstances not attending}{Andy \& Jill}
+\MLHome{Van Heerden}{}{Wessel \& Gerda}
+\MLMeetingH{Langebaan \#2;Minnie, F @ Schooling, C}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{Francois}
+\MLHome{Olls}{}{James \& Brenda}
+\MLHome{Schooling}{}{Freda}
+\MLHome{Van Wyk}{}{Dirk \& Amanda}
+\MLHome{Venter}{}{Vicky}
+\MLMeetingH{Lutzville}
+\MLHome{Visagie}{}{Joey}
+\MLMeetingH{Porterville}
+\MLHome{Bester}{}{Iona \& Johan}
+\MLMeetingH{St Helena Bay;Du Raan, E}
+\MLHome{Baard}{}{Ruth}
+\MLHome{Bal}{SunPM,Wed}{Lienkie}
+\MLHome{Du Raan}{SunAM;Elder}{Almaré}
+\MLHome{Ewertse}{}{Juanita}
+\MLHome{Günther}{}{Wietz \& Anneline, Natasja}
+\MLHome{Jeffries}{}{Patricia}
+\MLHome{Lehy}{SunPM}{Bob \& Annette}
+\MLHome{Schooling}{Elder}{Chris \& Lauren, Stanford}
+\MLHome{Smith}{}{Hazel}
+\MLMeetingH{Lamberts Bay PM}
+\MLHome{Simons}{}{Marco \& Carlinne, Conner}
+\MLMeetingH{Atlantis S;Geduld, F}
+\MLHome{Geduld}{All mtgs;Elder}{Frank \& Cathy}
+\MLHome{Minnies}{}{Awie \& Berenice}
+\MLHome{Solomons}{}{Charles \& Norma}
+\MLMeetingH{Graafwater S;Foster, Norman @ Foster, M}
+\MLHome{Foster}{SunPM}{Martin \& Trix}
+\MLHome{Foster}{}{Norman \& Karin}
+\MLHome{McDougall}{}{Thelma, Hannah}
+\MLHome{Turner}{}{Arthur \& Reneé}
+\MLHome{Turner}{SunAM}{Burnice}
+\MLHome{Turner}{Elder}{Norman \& Shinel, Frederick, Benjamin, Amy}
+\MLMeetingH{Langebaan S@17h00;Hall, B}
+\MLHome{Blom}{Wed}{Alwyn \& Karen}
+\MLHome{Blom}{}{Tobie \& Naomi}
+\MLHome{Faul}{}{Christine}
+\MLHome{Hall}{SunAM;Elder}{Bert \& Petronella}
+\MLHome{Roos}{}{Elizabeth, Riana, Zandré}
+\MLHome{Van Heerden}{}{Wessel \& Gerda}
+\MLMeetingH{Langebaan S \#2@17h00;F Minnie}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{Francois}
+\MLHome{Olls}{}{James \& Brenda}
+\MLHome{Schooling}{}{Freda}
+\MLHome{Van Wyk}{}{Dirk \& Amanda}
+\MLMeetingH{Malmesbury S@18h30;Oosthuizen, Johan}
+\MLHome{Adams}{SunPM,Wed}{Martin \& Belinda, Leigh-Ann, Candice, Brent, Emily}
+\MLHome{Oosthuysen}{}{Janice}
+\MLMeetingH{St Helena Bay S@17h00;Lehy, B}
+\MLHome{Du Raan}{SunAM;Elder}{Almaré}
+\MLHome{Ewertse}{}{Juanita}
+\MLHome{Jeffries}{}{Patricia}
+\MLHome{Lehy}{SunPM}{Bob \& Annette}
+\MLHome{Smith}{}{Hazel}
+\MLMeetingH{Vredenburg S@17h00;Günther, W @ Bal, L}
+\MLHome{Baard}{}{Ruth}
+\MLHome{Bal}{SunPM,Wed}{Lienkie}
+\MLHome{Günther}{}{Wietz \& Anneline, Natasja}
+\MLMeetingH{Atlantis W@10h30;Geduld, F @ Minnies, A}
+\MLHome{Geduld}{All mtgs;Elder}{Frank \& Cathy}
+\MLHome{Minnies}{}{Awie \& Berenice}
+\MLHome{Solomons}{}{Charles \& Norma}
+\MLMeetingH{Graafwater W@19h30;Blom, T}
+\MLHome{Foster}{SunPM}{Martin \& Trix}
+\MLHome{McDougall}{}{Thelma, Hannah}
+\MLHome{Turner}{}{Arthur \& Reneé}
+\MLHome{Turner}{SunAM}{Burnice}
+\MLHome{Turner}{Elder}{Norman \& Shinel, Frederick, Benjamin, Amy}
+\MLMeetingH{Laingville W@19h00;Du Raan, N @ De Windt, L}
+\MLHome{Lehy}{SunPM}{Bob \& Annette}
+\MLMeetingH{Langebaan W@19h00;Blom, A}
+\MLHome{Blom}{Wed}{Alwyn \& Karen}
+\MLHome{Blom}{}{Tobie \& Naomi}
+\MLHome{Faul}{}{Christine}
+\MLHome{Hall}{SunAM;Elder}{Bert \& Petronella}
+\MLHome{Roos}{}{Elizabeth, Riana, Zandré}
+\MLHome{Van Heerden}{}{Wessel \& Gerda}
+\MLMeetingH{Langebaan W \#2@19h00}
+\MLHome{Minnie}{SunAM,SunPM;Elder}{Francois}
+\MLHome{Olls}{}{James \& Brenda}
+\MLHome{Schooling}{}{Freda}
+\MLHome{Van Wyk}{}{Dirk \& Amanda}
+\MLMeetingH{Malmesbury W@19h00;Adams, M}
+\MLHome{Adams}{SunPM,Wed}{Martin \& Belinda, Leigh-Ann, Candice, Brent, Emily}
+\MLHome{Oosthuysen}{}{Janice}
+\MLMeetingH{Vredenburg W@19h30;Günther, W @ Bal, L}
+\MLHome{Baard}{}{Ruth}
+\MLHome{Bal}{SunPM,Wed}{Lienkie}
+\MLHome{Günther}{}{Wietz \& Anneline, Natasja}
+\end{document}
