@@ -1,0 +1,202 @@
+\documentclass[english]{article}
+\title{Durban \& Pietermaritzburg}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Anderson}{Sherwood}{Valerie; 6 Renaud Rd, Sydenham, 4091}{031 207 6608\\072 923 7671}
+\Home{Bailie}{Everton}{Brian \& Sharlene; 42 Pearson Rd, Everton 3610; Box 342 Gillitts, 3603; sharbrier@gmail.com}{031 767 2771\\082 922 3406(B)\\082 930 5412(S)}
+\Home{Bartlett}{Everton}{Ruth; 30 Glenart Rd, Kloof, 3610; barty@mweb.co.za}{071 752 4321}
+\Home{Booysen}{Montrose Sun am}{Hettie; B1 Hampstead Park, Bishopstowe; piethettieb@gmail.com}{072 225 5162}
+\Home{Bransby}{Everton}{Alex \& Gail; 27 Mnini Rd, Kloof 3610; gail.bransby@gmail.com(G) }{083 301 9435(G)\\083 383 3458(A)}
+\Home{Calvert}{Sherwood}{Denis; 14a Bedford Road, Cowies Hill; gordoncalvert55@gmail.com}{082 338 4657}
+\Home{Canning}{Winston Park}{Ryan \& Jeanine, Nathan; 16 Patricia Rd, West Riding, Hillcrest,3610; jeanineroper@gmail.com(J) , rcanning78@gmail.com(R) }{083 357 8440(R)\\074 140 4860(J)}
+\Home{Cele}{Sydenham}{Nesta, Chantelle; 35 Slinger Road Newlands East, Durban 4001.; GPS location for Bangibizo; (-30.535883,30.570352) }{071 301 5953(N)}
+\Home{Chetty}{Durban North}{Desmond \& Trish, Megan; 13 Novacroft Place, unit no 8, Longcroft, Phoenix; desmondchetty19@gmail.com(D) , trishachetty19@gmail.com(T) }{068 502 9204(D)\\065 827 4559(T)}
+\Home{Chetty}{Durban North}{Ronny; 13 Novacroft Place, unit no 8, Longcroft, Phoenix; chettygovindraj@gmail.com}{081 711 1833}
+\Home{Clarke}{Durban North}{Shirley; c/o 52 Gainsborough Rd, Durban North, 4051; portshortie@telkomsa.net}{082 788 1002}
+\Home{Cresswell}{Winston Park}{Clinton; "Edenrock Farm," Lello Rd, Assagay; Box 86, Bothas Hill, 3660; clintoncreswell@gmail.com}{060 971 7283}
+\Home{Cumming}{Montrose Sun am}{Greg \& Susan; B1 Hampstead Park, Bishopstowe; Box 654, PMB, 3200; gaands@gmail.com; (-29.604742,30.452884) }{082 557 9852(G)\\084 548 0284(S)}
+\Home{Delport}{Sherwood}{Ian \& Tracey, Kayla; 13 Iver Rd, Westville; ian.delport@defy.co.za(I) }{083 412 2921(I)\\079 526 0253(T)\\031 262 0302}
+\Home{Dreyer}{Montrose Sun am}{Jennifer; 5 Rehoboth Country Estate 276 Murray Road, Lincoln Meade, PMB; jendreyer1@gmail.com}{082 782 8100(J)}
+\Home{Du Toit}{Amanzimtoti}{Molly; 46 Len Nichol Rd, Amanzimtoti, 4125; molly.dutoit@gmail.com}{072 667 2898}
+\Home{Dunn}{Bluff}{Ann; Room110, John Dunn Home, 224 Austerville Dr, Wentworth, 4052; Phone number is for reception.}{031 468 5691}
+\Home{Dunn}{Durban North}{Debbie, Carmel, Janice, Kellie; 31 Tyger Ave, Greenwood Park; debbiednn@gmail.com}{031 564 2419\\084 020 2402(D)}
+\Home{Dunn}{Sydenham}{Denise; 135 Snell Parade, 64 Dunelands, North Beach, DURBAN; denise.dunn@absa.co.za}{072 204 0577}
+\Home{Elms}{Winston Park}{Lorna \& Kevin, Ricardo, Letoya; 28 Marion Road, West Riding, Hillcrest, 3610; lornaelms73@gmail.com(L) }{061 463 5484(L)\\071 898 8457(K)}
+\Home{Faure}{Everton}{Mathilda; Unit 90 Green Meadow Country Estate, 20 Green Meadow Lane, Hillcrest, 3610; P.O. Box 1412, Kloof,3640; Matildafaure50@gmail.com}{063 110 7953}
+\Home{Field-Coleman}{Sydenham}{Butch \& Barbara, Shannon, Nikki; 9 Sport Rd, Manor Gardens, 4001; bfieldcoleman@yahoo.com}{072 012 954(Bu)\\079 785 8792(Ba)\\031 261 8395\\079 386 5899(N)}
+\Home{Germaine}{Winston Park}{Charlotte; 13 Mpete Rd, Drummond; Box 143 Bothas Hill, 3660; charlottegermaine30@gmail.com}{067 165 0881}
+\Home{Green}{Pinetown}{Andrew \& Thelma; 3 Coniston Lane, Malvern, 4093; thelandgreen@gmail.com}{031 464 3031\\083 447 3501(A)\\082 345 6831(T)}
+\Home{Green}{Sydenham}{Ben; 450 Queen Elizabeth Ave, 64 Somerset, Westridge, 4091; greencben@gmail.com}{083 736 5383}
+\Home{Hartman}{Durban North}{Bach \& Janine, Jaydon, Nathalie, Jesse; 52 Gainsborough Rd, Durban North, 4051; janineha@nedbank.co.za(J) ,bachhartman@gmail.com(B) }{083 301 2808(B)\\083 677 3860(J)\\031 563 1230\\076 984 9577(Ja)}
+\Home{Higginson}{Montrose Sun am}{Fiona; 6 Cupar Walk, Amberglen, Howick; fionahigginson44@gmail.com}{084 443 4448}
+\Home{Jantjes}{Winston Park}{Joy; c/o Lorna Elms, 28 Marion Road, West Riding, Hillcrest, 3610; Box 1100, Umtentweni, 4235}{084 742 9265(J)}
+\Home{Johnson}{Winston Park}{Heidi \& Patrick, Calli; 18 St Hillier Road, Winston Park, 3610; johnson.heidi87@gmail.com}{076 165 6541(H)}
+\Home{Kean}{Everton}{Susan; 42 Pearson Rd, Everton 3610; susan.kean03@gmail.com}{083 289 5736}
+\Home{Kincaid-Smith}{Durban North}{Hazel; 9 Norrie Avenue, Durban north, 4051; princeshill@lantic.net}{072 151 0014}
+\Home{King}{Durban North}{Hayley, Lance, Lesley-Anne, Ashleigh, Daniel; 61 Fern Grove, Park Hill; kinghayleyjoy@gmail.com(H) }{074 301 2998(H)\\061 328 9141(La)\\074 625 2825(Le)\\065 095 7567(A)\\071 2162636(D)}
+\Home{King}{Pinetown}{Mark \& Domoina, Abigail, Hannah, Leah; 6 Heather Rd, Farningham Ridge, Pinetown; ditsali@gmail.com(M) , domoinak@gmail.com(D) }{083 287 8998(M)\\083 714 2912(D)\\031 701 8343}
+\Home{King}{Sherwood}{Maureen; 49 Kenilworth Avenue, Sydenham, Durban, 4001; Box 37310, Overport, Durban 4067; maureen@miet.co.za}{084 507 7220}
+\Home{Kleinbooi}{Sydenham}{Patricia \& Ivan, Monique, Dean; 3 Gurnard Grove, Newlands East, 4037}{031 577 5278\\073 106 1054(P)}
+\Home{McDonald}{Sherwood}{Ralph \& Dawn, Shelby; 77 Harris Crescent, Sherwood, Durban, 4001; P.O. Box 70051, Overport, Durban 4067; dawn@coolconnection.co.za(D) , ralph@coolconnection.co.za(R) }{031 208 7222\\W031 207 8426\\082 553 2759(D)\\Flat031 207 4205\\079 574 0552(R)}
+\Home{McDonald}{Sherwood}{Shirley; 8 Iver road, Westville North; shirleymcdonald847@gmail.com(S) }{066 230 9963(S)}
+\Home{Mostert}{Montrose Sun am}{Francois \& Estelle; 103 Francis Staniland Rd, Montrose, PMB, 3201; estelle.m.mostert@gmail.com(E) , mossie.fj.mostert@gmail.com(F) }{082 556 2485(F)\\082 896 7458(E)}
+\Home{Mostert}{Montrose Sun am}{Thania, Maya; 103 Francis Staniland Rd, Montrose, PMB, 3201; thania.mostert@gmail.com}{079 522 2628}
+\Home{Ntombela}{Durban North}{Khanya; 267 Alan Paton Rd; nkwahla04@yahoo.com}{083 609 3351}
+\Home{Permal}{Sherwood}{Kirsty \& Luewell; 77 Harris Crescent, Sherwood, Durban, 4001}{082 558 6420(K)}
+\Home{Pierce}{Sydenham}{Patrick \& Rhoda; 50 Kenilworth Ave, Sydenham, 4091; piercepatrick@gmail.com}{031 209 8761\\061 954 3430(P)\\074 996 1376(R)}
+\Home{Pocock}{Sydenham}{Alice (Tooks); 9 Sport Rd, Manor Gardens, 4001; japocock2003@yahoo.co.uk}{031 261 8395\\071 118 7186}
+\Home{Powell}{Montrose Sun am}{Ghennie; 19 Tanner rd, Wembley, PMB, 3201}{082 679 5564}
+\Home{Pretorius}{Amanzimtoti}{Barend \& Elserie, Amelia, Suné; 83 Khotho Mkhunya Rd, Fleur De Lys, Unit no 3; barend.pretorius@gmail.com(B) , elserie.pretorius@gmail.com(E) }{083 605 9164(B)\\082 468 3819(E)}
+\Home{Pretorius}{Amanzimtoti}{Buks \& Charlotte; 3 Launceston Rd, Amanzimtoti, 4126; Box 1175, Amanzimtoti, 4125; chaspret@gmail.com(C) , pretholdings@gmail.com}{082 874 3589(Bu)\\076 234 1591(C)}
+\Home{Pretorius}{Amanzimtoti}{Jaques \& Sharon, Mia, Juan, Benjamin; 3 Launceston Rd, Amanzimtoti, 4126; sharon.wright89@gmail.com(S) }{083 227 0142(J)\\060 505 2674(S)}
+\Home{Reddy}{Pinetown}{Johnny \& Lilly, Vigie; 339 Skyridge Circle,Crossmoor,Chatsworth,4092}{071 805 0577(V)}
+\Home{Reddy}{Pinetown}{Neresh \& Michelle, Kezia, Azaria; 21 St Annes Crescent, Farningham, Pinetown 3610; nereshreddy@gmail.com(N) }{072 126 6040(N)\\079 331 2060(M)}
+\Home{Robins}{Amanzimtoti}{Joan \& Brian; 67 St Anton, 35 Beach Rd, Seadoone.}{031 903 7050\\083 311 8918(J)}
+\Home{Rothmann}{Winston Park}{Kenny \& Annita; 54 Montgomery Dr, Winston Park, 3610; kenann.rothmann@gmail.com}{082 801 3042(K)\\082 487 5218(A)\\031 767 5630}
+\Home{Round}{Everton}{George; 4 Crestleigh, 30 Hooper Drive, Crestview; nickyround68@gmail.com}{083 798 2938}
+\Home{Schlemmer}{Amanzimtoti}{Rodney; 412 Baobab Avenue, Widenham Retirement Village, Umkomaas, 4170; PO Box 412, Widenham Retirement Village, Umkomaas, 4173; rodney.schlemmer@gmail.com}{082 376 1576\\039 001 4671}
+\Home{Steyn}{Montrose Sun am}{Daphne; Frail Care, Room 19, 111 Marian Villa, 282 Alexander Rd (entrance John Barker Rd), PMB, 3201}{072 247 2402}
+\Home{Stucky}{Everton}{Gerda; 60 Aintree Lane, 541 Kassier Road, Assagay, 3610; gerdastucky@gmail.com}{079 173 3272}
+\Home{Swanepoel}{Sydenham}{Paul; 62 Courtleigh Heights, 147 Snell Parade, Durban, 4001; paulswanepoel@yahoo.com}{079 263 6853}
+\Home{Van Dam}{Durban North}{Isabel \& Kitty; 8 May Rd, Park Hill, 4051; P.O.Box 35059, Northway, 4065; clmscat@gmail.com}{031 5646 764\\073 051 9936(I)\\073 107 7377(K)}
+\Home{Van Heerden}{Winston Park}{Wessel \& Leana, Simoné, Chané, Wessel; 27A, Riverview Drive, Crestholme, Waterfall; leanavanheerden@gmail.com(L) , wvheerden@gmail.com(W) }{079 496 0113(W)\\064 909 5877(L)}
+\Home{Van der Berg}{Sherwood}{Aubrey; 21 Huntley Rd, Malvern 4093; aubrey7vanderberg@gmail.com}{082 458 3594\\072 746 8574}
+\Home{Venter}{Amanzimtoti}{Emmie; 10 Booth Rd, Amanzimtoti, 4126; emmieventer001@gmail.com}{072 369 0254}
+\Home{Williams}{Sherwood}{Melissa; 362 Esther Robert's Road, Glenwood, 4001; w.melishka@gmail.com}{079 892 8261}
+\Home{Wright}{Durban North}{Cynthia; c/o 52 Gainsborough Rd, Durban North, 4051; cynwright@telkomsa.net}{083 638 1454}
+\Home{Zondi}{Montrose Sun am}{Lindile; c/o Mostert, 103 Francis Staniland Rd, Montrose, PMB, 3201; (-29.627511,30.308140) }{076 118 8636}
+\Home{Zondi}{Montrose Sun am}{Lungile; 440203, Kwa Mpumuza Location, Pietermaritzburg, 3201; P.O.Box 75191, Phayiphini, Pietermaritzburg, 3201; (-29.645183, 30.272997) }{066 588 2627}
+\Home{Zondi}{Montrose Sun am}{Nelisile, Londiwe; 440203, Kwa Mpumuza Location, Pietermaritzburg, 3201; P.O.Box 75191, Phayiphini, Pietermaritzburg, 3201}{076 951 5232(N)\\073 335 0021(L)}\EndHomes
+\EndSection
+\MLDistrictH{Durban \& Pietermaritzburg}
+\MLMeetingH{Amanzimtoti}
+\MLHome{Du Toit}{}{Molly}
+\MLHome{Pretorius}{SunPM}{Barend \& Elserie, Amelia, Suné}
+\MLHome{Pretorius}{SunAM;Elder}{Buks \& Charlotte}
+\MLHome{Pretorius}{}{Jaques \& Sharon, Mia, Juan, Benjamin}
+\MLHome{Robins}{}{Joan \& Brian}
+\MLHome{Schlemmer}{}{Rodney}
+\MLHome{Venter}{}{Emmie}
+\MLMeetingH{Bluff}
+\MLHome{Dunn}{}{Ann}
+\MLMeetingH{Durban North;Wed @ Umhlanga}
+\MLHome{Chetty}{}{Desmond \& Trish, Megan}
+\MLHome{Chetty}{}{Ronny}
+\MLHome{Clarke}{}{Shirley}
+\MLHome{Dunn}{}{Debbie, Carmel, Janice, Kellie}
+\MLHome{Hartman}{SunAM,SunPM;Elder;Sun AM; Sun PM (Wed PM combined with Umhlanga)}{Bach \& Janine, Jaydon, Nathalie, Jesse}
+\MLHome{Kincaid-Smith}{}{Hazel}
+\MLHome{King}{}{Hayley, Lance, Lesley-Anne, Ashleigh, Daniel}
+\MLHome{Ntombela}{}{Khanya}
+\MLHome{Van Dam}{}{Isabel \& Kitty}
+\MLHome{Wright}{}{Cynthia}
+\MLMeetingH{Everton}
+\MLHome{Bailie}{SunAM;Elder;WedAM}{Brian \& Sharlene}
+\MLHome{Bartlett}{SunPM}{Ruth}
+\MLHome{Bransby}{}{Alex \& Gail}
+\MLHome{Faure}{}{Mathilda}
+\MLHome{Kean}{}{Susan}
+\MLHome{Round}{}{George}
+\MLHome{Stucky}{}{Gerda}
+\MLMeetingH{Montrose Sun am}
+\MLHome{Booysen}{}{Hettie}
+\MLHome{Cumming}{SunPM}{Greg \& Susan}
+\MLHome{Dreyer}{}{Jennifer}
+\MLHome{Higginson}{}{Fiona}
+\MLHome{Mostert}{All mtgs;Elder}{Francois \& Estelle}
+\MLHome{Mostert}{}{Thania, Maya}
+\MLHome{Powell}{}{Ghennie}
+\MLHome{Steyn}{}{Daphne}
+\MLHome{Zondi}{}{Lindile}
+\MLHome{Zondi}{}{Lungile}
+\MLHome{Zondi}{}{Nelisile, Londiwe}
+\MLMeetingH{Pinetown}
+\MLHome{Green}{SunPM}{Andrew \& Thelma}
+\MLHome{King}{SunAM;Elder}{Mark \& Domoina, Abigail, Hannah, Leah}
+\MLHome{Reddy}{}{Johnny \& Lilly, Vigie}
+\MLHome{Reddy}{}{Neresh \& Michelle, Kezia, Azaria}
+\MLMeetingH{Sherwood}
+\MLHome{Anderson}{SunPM;5:00 PM}{Valerie}
+\MLHome{Calvert}{}{Denis}
+\MLHome{Delport}{}{Ian \& Tracey, Kayla}
+\MLHome{King}{Wed}{Maureen}
+\MLHome{McDonald}{SunAM;Elder}{Ralph \& Dawn, Shelby}
+\MLHome{McDonald}{}{Shirley}
+\MLHome{Permal}{}{Kirsty \& Luewell}
+\MLHome{Van der Berg}{}{Aubrey}
+\MLHome{Williams}{}{Melissa}
+\MLMeetingH{Sydenham;P Pierce}
+\MLHome{Cele}{}{Nesta, Chantelle}
+\MLHome{Dunn}{}{Denise}
+\MLHome{Field-Coleman}{}{Butch \& Barbara, Shannon, Nikki}
+\MLHome{Green}{}{Ben}
+\MLHome{Kleinbooi}{WedAM}{Patricia}
+\MLHome{Pierce}{SunAM;Elder;Eve mtgs to Sherwood. Takes SunPM}{Patrick \& Rhoda}
+\MLHome{Pocock}{}{Alice (Tooks)}
+\MLHome{Swanepoel}{}{Paul}
+\MLMeetingH{Winston Park}
+\MLHome{Canning}{Wed}{Ryan \& Jeanine, Nathan}
+\MLHome{Cresswell}{}{Clinton}
+\MLHome{Elms}{}{Lorna \& Kevin, Ricardo, Letoya}
+\MLHome{Germaine}{}{Charlotte}
+\MLHome{Jantjes}{}{Joy}
+\MLHome{Johnson}{}{Heidi \& Patrick, Calli}
+\MLHome{Rothmann}{SunAM;Elder;SunPM@16:00}{Kenny \& Annita}
+\MLHome{Van Heerden}{SunPM}{Wessel \& Leana, Simoné, Chané, Wessel}
+\MLMeetingH{Montrose Sun@12h15;F Mostert}
+\MLHome{Cumming}{SunPM}{Greg \& Susan}
+\MLHome{Dreyer}{}{Jennifer}
+\MLHome{Higginson}{}{Fiona}
+\MLHome{Mostert}{All mtgs;Elder}{Francois \& Estelle}
+\MLHome{Mostert}{}{Thania, Maya}
+\MLHome{Powell}{}{Ghennie}
+\MLHome{Steyn}{}{Daphne}
+\MLHome{Zondi}{}{Lindile}
+\MLHome{Zondi}{}{Lungile}
+\MLHome{Zondi}{}{Nelisile, Londiwe}
+\MLMeetingH{Amanzimtoti WedPM;B Pretorius}
+\MLHome{Pretorius}{SunPM}{Barend \& Elserie, Amelia, Suné}
+\MLHome{Pretorius}{SunAM;Elder}{Buks \& Charlotte}
+\MLHome{Pretorius}{}{Jaques \& Sharon, Mia, Juan, Benjamin}
+\MLMeetingH{Everton WedAM;A Bransby @ B Bailie}
+\MLHome{Bailie}{SunAM;Elder;WedAM}{Brian \& Sharlene}
+\MLHome{Bartlett}{SunPM}{Ruth}
+\MLHome{Bransby}{}{Alex \& Gail}
+\MLHome{Faure}{}{Mathilda}
+\MLHome{Germaine}{}{Charlotte}
+\MLHome{Kean}{}{Susan}
+\MLHome{Round}{}{George}
+\MLHome{Stucky}{}{Gerda}
+\MLMeetingH{Montrose WedAM@10h30;F Mostert}
+\MLHome{Cumming}{SunPM}{Greg \& Susan}
+\MLHome{Dreyer}{}{Jennifer}
+\MLHome{Mostert}{All mtgs;Elder}{Francois \& Estelle}
+\MLHome{Mostert}{}{Thania, Maya}
+\MLHome{Powell}{}{Ghennie}
+\MLMeetingH{Newlands WedAM@10h00;P Kleinbooi}
+\MLHome{Cele}{}{Nesta, Chantelle}
+\MLHome{Green}{}{Ben}
+\MLHome{Kleinbooi}{WedAM}{Patricia}
+\MLHome{Pierce}{SunAM;Elder;Eve mtgs to Sherwood. Takes SunPM}{Patrick \& Rhoda}
+\MLMeetingH{Sherwood WedPM;Maureen King}
+\MLHome{Anderson}{SunPM;5:00 PM}{Valerie}
+\MLHome{Calvert}{}{Denis}
+\MLHome{King}{SunAM;Elder}{Mark \& Domoina, Abigail, Hannah, Leah}
+\MLHome{King}{Wed}{Maureen}
+\MLHome{McDonald}{SunAM;Elder}{Ralph \& Dawn, Shelby}
+\MLHome{Permal}{}{Kirsty \& Luewell}
+\MLHome{Swanepoel}{}{Paul}
+\MLMeetingH{Winston Park WedPM;R Canning}
+\MLHome{Canning}{Wed}{Ryan \& Jeanine, Nathan}
+\MLHome{Cresswell}{}{Clinton}
+\MLHome{Elms}{}{Lorna \& Kevin, Ricardo, Letoya}
+\MLHome{Jantjes}{}{Joy}
+\MLHome{Johnson}{}{Heidi \& Patrick, Calli}
+\MLHome{Rothmann}{SunAM;Elder;SunPM@16:00}{Kenny \& Annita}
+\MLHome{Van Heerden}{SunPM}{Wessel \& Leana, Simoné, Chané, Wessel}
+\end{document}
