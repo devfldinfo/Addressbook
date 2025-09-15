@@ -1,0 +1,297 @@
+\documentclass[english]{article}
+\title{NP Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bam}{NP Contacts}{Megan; Mokobulaan Plantations, Somerplatz 207, Lydenburg}{082 712 5809}
+\Home{Barends}{NP Contacts}{Teagan, Terry; 34 Abrahamson Rd, Witfield; hilbarends@gmail.com}{064 974 1168(T)\\082 676 9675(TY)}
+\Home{Booysen}{NP Contacts}{Gerhard; Tzaneen, Insect Science}{083 269 2235}
+\Home{Botes}{NP Contacts}{Jacques; Universiteit van Noordwes; 21.jacques@gmail.com}{073 616 6079}
+\Home{Botha}{NP Contacts}{Gavin; Moved to Dullstroom}{072 599 6551}
+\Home{Brender-a-Brandis}{NP Contacts}{Cedric \& Tracey-Lea, Tegan-Skye; Greenacres 11, Wenning Str SW5, Vanderbijlpark; PO Box 3927, Vereeniging 1930; cedric@modvid.co.uk(C) , contact@ateliertracylea.com(T) }{083 321 8050(T)\\083 655 1899(C)}
+\Home{Busuman}{NP Contacts}{Asher \& Otillia, Mercy, Tawananyasha; 5917 Mmatswne Str, Windmill Park Boksburg}{077 860 6637}
+\Home{Calitz}{NP Contacts}{Rowland; Huis HP Piek, 153 Middle St (Cnr of Middel \& Melk St), Nieuw Muckelneuk}{072 623 2122\\071 369 1442\\078 523 0420}
+\Home{Ceerust}{NP Contacts}{Suzette; 43 Jan Ellis St, The Reeds, Rooihuiskraal; Melanie Thompson sent a message on 21 September 2016; (-29,314,752,711,671) }{078 775 2358}
+\Home{Chiloane}{NP Contacts}{Innocentia \& Loveness, Samuel; Phalaborwa; (-23.959804,31.049288) }{0630459800(L)\\+27625343073(I)}
+\Home{Coetzee}{NP Contacts}{Theinus; ; Margaret Domleo sent message 8 Feb}{076 931 2107}
+\Home{Coleman}{NP Contacts}{David \& Chantelle, Carmen, Aden; 40 Fitzpatrick Str, Farrar Park, Boksburg, 1459; P.O. Box 18283, Sunward Park, 1470; dscacoleman@gmail.com}{082 351 2133(D)\\079 533 4127(C)}
+\Home{Contact}{NP Contacts}{Elsabeth; 8248 Mombansa st. Windmill Park}{063 593 6656}
+\Home{Da Silva}{NP Contacts}{Steven \& Nicky, Josslynn, Miané; 913 17th Avenue Wonderboom South; sdasilva389@gmail.com(S) , nickywilson1997@gmail.com(N) }{074 453 2735(S)\\074 634 3846(N)}
+\Home{De Bruyn}{NP Contacts}{Marie; 43 Malan St. Schoemansville; debruyn.marie@gmail.com}{012 253 1759\\071 944 9365}
+\Home{De Wet}{NP Contacts}{Callie \& Pietta; 13 Withaak St, Roodekrans; P O Box 2304, Wilro Park, 1731}{082 334 2969(C)\\082 299 1737(P)}
+\Home{Delport}{NP Contacts}{Isabel; 17 Meule street, Potchefstroom, 2520, Groenwilgers, Kamer 17}{072 631 6429\\082 082 1255}
+\Home{Dippenaar}{NP Contacts}{Marinda \& Kobus, Aimée Claire; 13 Summit Walk, 361 Summit Dr, Morningside; PO Box 4127, Rivonia 2128; marinda@africanrainbowcapital.co.za(M) }{083 633 4579(K)\\083 399 9551(M)}
+\Home{Dlamini}{NP Contacts}{Bonisile, Melisizwe; Nkoyoyo}{+268 7668 6130}
+\Home{Dlamini}{NP Contacts}{Melusi; Mhluzi, Middelburg; (69JX+RPV Middelburg, South Africa) }{060 733 5504}
+\Home{Dlamini}{NP Contacts}{Mmeli; Moved from KZN to JHB}{}
+\Home{Dojiwe}{NP Contacts}{Sithembile, Sammy; 2 Oceonos Close, Bloubosrand; sdojiwe@gmail.com}{073 047 3080}
+\Home{Du Randt}{NP Contacts}{Christene; Huis Herfsblaar, Kamer A516, 1244 Webb Rd, Queenswood, Pretoria, 0186}{0417761388\\846530324}
+\Home{Du Toit}{NP Contacts}{Paula; c/o Manus de Beer, 16 Long view Dr, Ngodwana village; heili@webmail.co.za}{+27 72 410 1687}
+\Home{Dunn}{NP Contacts}{Shirley; 29 Babiana road, (off Commando road), Horse Shoe}{081 019 3798}
+\Home{Dyzel}{NP Contacts}{Tommie \& Hannalie; 832 Tiervis Street, Garsfontein, Pretoria; P O Box 90342, Garsfontein, 0042; tommiedy@gmail.com}{012 998 9602\\083 268 6839(T)\\082 872 5142(H)}
+\Home{Elgar}{NP Contacts}{Phillipa \& Gabby, Daniel, Caliska; 23 Emerald St, Mount Pleasant, 6070; l.blessings@gmail.com}{084 680 2132}
+\Home{Faul}{NP Contacts}{Anton \& Linette; 14 Fifteenth Ave, Edenvale, 1609;  adupf@hotmail.com(A) , faullinette@gmail.com(L) }{084 477 4492(A)\\011 395 8900 W(A)\\084 670 8828(L)}
+\Home{Faure}{NP Contacts}{Michael \& Jenny; Moved to Capetown; mfaure46@gmail.com(J)  , mike.bioceramix@gmail.com(M) }{082 890 2940(M)\\082 565 8832(J)}
+\Home{Fisher}{NP Contacts}{Doris; No. 38A, 7th Street, Vrededorp, Johannesburg, 2141}{063 702 2519(D)}
+\Home{Fouche}{NP Contacts}{Eugene; ; eugenefouche87@gmail.com}{083 401 6549}
+\Home{Fourie}{NP Contacts}{Susan; 92 Dawie St., New Mark Estate, Hazeldean}{083 400 3220}
+\Home{Furber}{NP Contacts}{Richard; 1258 Woodlands dr, Queenswood; furbs@absamail.co.za}{072 510 3315}
+\Home{Ginindza}{NP Contacts}{Mduduzi; Malindza (Brother of Ginindza)}{+268 7636 4502}
+\Home{Goliath}{NP Contacts}{Quinton; 32 Lanham St, 2 Lanham Pl, East Lynne 0136; Qgoliath@cellc.co.za}{084 777 9823}
+\Home{Gouws}{NP Contacts}{Renate \& Frikkie, Amy-Lee, Daniel, Donnay; 161 Kenneth ave, Greenhills, Randfontein, 1759}{084 334 2067}
+\Home{Gower}{NP Contacts}{Shane Jr; }{078 957 8386}
+\Home{Greeff}{NP Contacts}{Marnus \& Jodene, Andiné(Faul); Plot 179, Vyfhoek, Potchefstroom.}{071 383 1977(J)}
+\Home{Greef}{NP Contacts}{Rowan; 20 President Street, Gebou C8, Potchefstroom}{064 179 5225}
+\Home{Greyling}{NP Contacts}{Magdelena, Liezle; P/A 24 Siegfried Kuschke Street, Sasolburg 1949}{069 359 8460(M)\\082 923 3174(L)\\016 976 4454H}
+\Home{Greyling}{NP Contacts}{Pieter \& Laura; Plot 93, Lavender Road, Bon Accord, Pretoria; Posbus 2794, Faerie Glen}{072 647 1077}
+\Home{Grobbelaar}{NP Contacts}{Berno \& Janelle; 32 Boshoff str, Modimolle, 0510; Pieter van Heerden sent a message on 6 Feb 2016. Anthony and Leon visited in February 2020. Berno \& Janelle attended a Gospel meeting in April 2020.; sheqincsolutions@gmail.com(B) , janellev@matrolab.co.za(J) }{+27763131661(B)\\074 453 0699(J)}
+\Home{Grobler}{NP Contacts}{Piet \& Stella; 251 Cosmos Street, Panorama Estate}{}
+\Home{Grootboom}{NP Contacts}{Ainsley; Was Mc Lane, we haven't had details for a long time...}{073 466 5355}
+\Home{Hamilton}{NP Contacts}{Jeannie; 63 Miemie Fourie Court Flats, 2nd Floor, 25 Market St, Vereeniging}{079 707 8036}
+\Home{Hartman}{NP Contacts}{Johannie, Francois; 6845 Pearl Bush Crescent, Akasia, 0118}{079 469 7846(J)\\084 897 9092(F)}
+\Home{Herion}{NP Contacts}{Fred, Rebecca; 5 Charmaine Court, Shreiff Road, Robindale}{082 775 9579}
+\Home{Hoffmann}{NP Contacts}{Lynae; 34 Abrahamson rd, Witfield, Boksburg; naenaefelix@gmail.com}{067 102 9744}
+\Home{Jack}{NP Contacts}{Emily; House 5047, Imperial reserve, Ext 38, Mafikeng, 2745}{076 588 9645}
+\Home{Jacobs}{NP Contacts}{Michaela \& Skylar; 34 Abrahamson Rd, Witfield}{074 714 9994(M)}
+\Home{Janse van Vuuren}{NP Contacts}{Susan; Huis Abendruhe, Plot 696, Sinagoge rd, Kameeldrift Oos}{076 882 9647}
+\Home{Jombo}{NP Contacts}{Kennedy \& Mufaro, Chiedza; 72 Weavers Nest, 1 Persimmon Street, Parkrand, Boksburg.}{073 148 2380(K)\\083 577 1594(M)\\078 597 9492(M)}
+\Home{Keeble}{NP Contacts}{Keenan, Lesedi, Reabetswe, Caireen; 6 Rhona Court, Robin Str, Flamwood, Klerksdorp}{079 308 6708(K)\\079 749 0759(L)}
+\Home{Kerspuy}{NP Contacts}{Tanner; 24 Biccard Street, Braamfontein, Johannesburg}{073 160 3830}
+\Home{Khoza}{NP Contacts}{Abednigo; House 7157, Tug street, Matsulu; (-25,5110390, 31,3434930) }{072 860 3274}
+\Home{Kock}{NP Contacts}{Laché \& Vernon, Caleb, Micah; 7 13th Streeet, Albertskroon, Randburg 2195; lache.kock@yahoo.com(L) , ikock@multichoice.co.za}{073 173 7719(L)}
+\Home{Koekemoer}{NP Contacts}{Bertus \& Gertruida, Stienie vd Berg; 6 Collins street, Sasoburg}{084 580 3791}
+\Home{Le Roux}{NP Contacts}{Kern; 23 Dirkie St, Suideroord, Universiteit van Noordwes, Potchefstroom; kerncleroux@gmail.com}{084 612 3700}
+\Home{Lomas}{NP Contacts}{Wayne \& Magna, Georic, Johndré; 42 Blackberry Street, Zwartkop, Centurion, 0157; wayne@ctouch.co.za}{082 452 3080(W)\\082 498 4397(M)}
+\Home{Lotz}{NP Contacts}{Erika; 529 Windsor road Garsfontein Pretoria; erikalotz90@gmail.com}{082 460 1049}
+\Home{Louw}{NP Contacts}{Daisy; 108 Dolomite str, Carletonville}{073 193 8909}
+\Home{Lucioli}{NP Contacts}{Mario; 13 Madeley St, Rynfiel, Benoni; mw-luci@mweb.co.za}{011 849 5739}
+\Home{Lyon}{NP Contacts}{Debbie, Peter-John, Lionel; Plot 110, Third road, Pomona, 1619; debbielyon@axxess.co.za}{082 788 2397(D)}
+\Home{Magagula}{NP Contacts}{Sipho, Zuma (Ishmael), Zinhle, Knowledge, Cyril; Siligane; (-25.3262191, 31.1813269) }{066 319 8198(S)}
+\Home{Mallett}{NP Contacts}{Rodney, Ross, Shannon; 8 Tarentaal Rd, Sunward Park, Boksburg, 1459; rodmal@mweb.co.za(R) , sunward.estate@absamail.co.za}{011 896 3360\\082 572 3239(R)}
+\Home{Mamba}{NP Contacts}{Mkwenyana; 222P+9QP Phola}{072 581 3357}
+\Home{Mangale}{NP Contacts}{Brenton, Terry-Ann, Mercedes, Isabella; 334/1 Percy Street \& 3rd Ave, Mid Ennerdale, Ennerdale, 1830}{072 720 0974(B)}
+\Home{Mangale}{NP Contacts}{Codney, Maurice; Ennerdale Mensions, Unit 30, 6th Ave, Mid Ennerdale, 1830}{073 489 8672(C)\\078 750 8079(M)}
+\Home{Mann}{NP Contacts}{Brent; Pezcod str, Bali Hoff nr 14, Van der Hoff park, Potchefstroom; brent@pickupwaste.co.za}{}
+\Home{Maplanka}{NP Contacts}{Viviene, Ganiwe; Botswana; Vivien daughter in law of the late Talita who worked for Suzie Gouws ‘s parents. Ganiwe is Vivien’s daughter and we contact her}{+267 73 828 282(G)\\+26774531177(V)}
+\Home{Masusku}{NP Contacts}{Cyril; 40 North St, Oakdene 2190; Jim Chafee sent a message on 20 February 2017}{063 115 0500}
+\Home{McGillivray}{NP Contacts}{Laurine; 20 Villa Rosa, Park Care Centre, 36 Escombe Avenue, Parktown, Johannesburg; laurinemcgis@gmail.com}{082 479 8198}
+\Home{Mda}{NP Contacts}{Kholisa; 70 Lettie Street, East Lynne, Pretoria}{082 702 0475}
+\Home{Minnaar}{NP Contacts}{Roeloff; 29 Eloff St, Hendrina; Roslyn Yeomans sent message 3 Feb}{062 233 7259}
+\Home{Mohale}{NP Contacts}{Evan; Mamelodi}{067 040 2253}
+\Home{Mostert}{NP Contacts}{Quintin \& Anneen, Leanè; 4 Bokmakierie Rd, Cashan, Rustenburg, 0299; Box 20853, Protea Park, 0305; quintin.mostert@aeciworld.com}{082 920 4055(Q)\\082 618 6975(A)}
+\Home{Motsei}{NP Contacts}{Contact; Motsei request out of India of Prabhakar}{+267 72 239 196\\+267 73 000 538}
+\Home{Mtshweni}{NP Contacts}{Promise; Marble Hall}{+27769175004}
+\Home{Mundell}{NP Contacts}{Bonnie; 205 George Anton Street. Sinoville}{064 703 1296}
+\Home{Muthana}{NP Contacts}{Otilliah; Ashar Busvumani, 5017 Taalanyane Str., Windmill Park Estate}{062 290 3065}
+\Home{Naude}{NP Contacts}{Penny, Sabrina, Joshua; Margaret Domleo gave message on the 1st of April; Was in Garsfontein}{}
+\Home{Ndazamo}{NP Contacts}{Samson; 22 Patrick Ave, Olivedale}{078 821 1077}
+\Home{Nkosi}{NP Contacts}{Erasmus \& Rosie, Khululeko, Nhlanhla, Wanela; 2259 Khoza St, Vosloorus (Dindela)}{071 828 1031(R)\\064 020 1661(E)}
+\Home{Nkosi}{NP Contacts}{Gabsile \& Nomsombuluko; Stand E445, Dundon No 1; P. Box 307, Dundonald, 2336}{+2763 052 9746(N)\\+2779 664 1155(G)}
+\Home{Nkosi}{NP Contacts}{Mndeni; Kriel}{072 701 6880}
+\Home{Olivier}{NP Contacts}{John; c/o 11 Sherwood Rd, Forest Town 2193; johnolivier20@gmail.com; (-24.708767,28.406083) }{066 243 3818}
+\Home{Olls}{NP Contacts}{Timothy \& Sharon; Unit 312, Norwich Hall, 13 West Kernick Avenue, Melrose North, 2196; PO Box 84205, Greenside 2034; timothyolls@gmail.com(T) , sharonfaure@gmail.com(S) }{076 974 8723(T)\\083 272 6588(S)}
+\Home{Page}{NP Contacts}{Helen; 18 Wishart St. Krugersdorp, 1741}{071 189 5510}
+\Home{Phillips}{NP Contacts}{Keenan; }{064 128 5146}
+\Home{Phukuile}{NP Contacts}{Irwin; 721 Highwood Rd, Faerie Glen; Melanie Thompson sent mail 7 Feb 2017; bobby@phukuile.com}{}
+\Home{Phukuile}{NP Contacts}{Natalie; Removed from Bobby's home}{}
+\Home{Pienaar}{NP Contacts}{Clark; moved to Port Elizabeth}{079 652 4720}
+\Home{Pienaar}{NP Contacts}{Heino; Middelburg; pienaarh209@gmail.com}{+27 82 373 9780}
+\Home{Pierce}{NP Contacts}{Jared; Currently in Cape Town; pierce.jaredjason@gmail.com}{079 730 5263}
+\Home{Pretorius}{NP Contacts}{Marike; 255 Selborne Ave, Lyttelton Manor; marike@hna.co.za}{079 481 5014}
+\Home{Pretorius}{NP Contacts}{Shireen, Willie; 15 Ellingham, 8 Naivasha Road, Sunninghill, 2157; shireenopie@yahoo.com}{079 525 3714}
+\Home{Rapoza}{NP Contacts}{Rueon \& Estelle; 9 Amber Rock, 34 Boschkop Ave, Boskruin; rapoza@yebo.co.za}{082 908 7654}
+\Home{Ribeiro}{NP Contacts}{Alcino; 40 North Street, Oakdene, 2190}{071 289 9032}
+\Home{Ribeiro}{NP Contacts}{Joel; }{083 457 8493}
+\Home{Robat}{NP Contacts}{Hester; 79 Amarant St. Weltevredenpark. Unit 2.}{079 494 3189}
+\Home{Rossouw}{NP Contacts}{Meliska; 8 Alida st., Flamwood, Klerksdorp; Tracey Birch sent message on 22 Nov 2016}{060 821 9363}
+\Home{Roux}{NP Contacts}{Bianca \& Jaco; 3 Orange str, Stilfontein}{071 442 2887(B)}
+\Home{Sampson}{NP Contacts}{Clinton \& Grace, Hannah; A Knight's Rest Guesthouse, Brits Rd, Pretoria North}{061 303 4527(C)}
+\Home{Scrooby}{NP Contacts}{Trevor; Currently in Pretoria. paula de toit is his siter in law; ask andre}{072 290 3309}
+\Home{Seroviv}{NP Contacts}{Reinett; Hartebeesspruit, Emalahleni 1042}{082 453 5944}
+\Home{Sibuyi}{NP Contacts}{Promise \& Boniwe; C/o Bryan Havemann}{+27724506477(B)}
+\Home{Siera}{NP Contacts}{Mapule, Sbusiso, Thabang; Mataffin; msiera@marleyps.co.za; (-25.4666749, 30.9279520) }{082 810 0469(M)}
+\Home{Silks}{NP Contacts}{Norman, Joyce; c/o C Botes, PO Box 668, Fontainebleau, 2032}{073 334 4118(N)\\071 339 4811(J)}
+\Home{Sithole}{NP Contacts}{Waverley; House 4563, Church circle, Matsulu}{082 488 2285}
+\Home{Smith}{NP Contacts}{Gerhard \& Lana; 10 Cathedral Peak St, Aerorand, Middelburg, 1055, South Africa; (-25.8033845, 29.4556603) }{083 631 8775(G)}
+\Home{Smit}{NP Contacts}{Niell; 65 Steve Biko street, Die Bult, Potchefstroom}{062 298 8535}
+\Home{Stakes}{NP Contacts}{Dennis, Stephen, André; 38 Wemmer St, Discovery, 1709}{011 472 5198\\061 953 9200}
+\Home{Strydom}{NP Contacts}{Gwen; Ventersdorp}{071 632 3033}
+\Home{Styles}{NP Contacts}{Kyle \& Kerry-Lee; 19 Earl Court, Jolin Ave, Morehill, Benoni, 1501; kerryabrahams48@gmail.com(Ke) , kylestyles89@gmail.com(Ky) }{076 799 0420(Ky)\\072 045 6366(Ke)}
+\Home{Swanepoel}{NP Contacts}{Christo \& Elzaan, Christel, Adriaan; 2 Vygie St, Kanonkop; swanepoel.christo@columbus.co.za}{072 342 5639(C)\\063 776 1270(E)}
+\Home{Swart}{NP Contacts}{Jesenca; Married and stays in Pretoria}{079 524 0904}
+\Home{Swart}{NP Contacts}{Rowan \& Mareli, Chanelle, Duncan; 392 Riverside Country Estate, Leeuwfontein; P O Box 761, Derdepoortpark, 0035; mrtlb@telkomsa.net}{012 808 0345\\082 492 6450(R)\\082 338 4558(M)}
+\Home{Tjeko}{NP Contacts}{Baba \& Veronica, Musa; 20 Shanette flats, 8 Philip st, Parys; motjeko@gmail.com(B) , vtjeko@gmail.com(V) }{071 302 2593(B)\\078 877 8091(V)\\076 392 4711}
+\Home{Topkin}{NP Contacts}{Alison; Potch University}{062 386 6398}
+\Home{Turner}{NP Contacts}{Freddy; Botswana}{+267 76 985 230}
+\Home{Valadon}{NP Contacts}{Caren, Jean-Luc, Kiara; 472 Rugby Ave, Randburg 2194; alan.valadon@hotmail.com}{083 498 0222(C)\\071 123 2555(JL)\\071 204 2260(K)}
+\Home{Van Tonder}{NP Contacts}{Tommie \& Esther, Adriaan, Monique; Plot 88, Bulfontein; P O Box 18751, Pretoria Noord 0116; esther7112@gmail.com(E) , team7112@gmail.com}{083 507 1661\\083 468 3158(E)}
+\Home{Van Zyl}{NP Contacts}{Carolyn; Carolyn daughter of late Dirk van Zyl or (Dick )}{+267 71 208 866}
+\Home{Van Zyl}{NP Contacts}{Sternberg; }{076 134 3580}
+\Home{Van der Merwe}{NP Contacts}{Renaldo, Shani; 40 Rankin Ave, Rietvallei Park, 0157; Melanie Thompson sent a message on 10 February. PO Box 17, Wierda Park 0149; noelenevandermerwe@gmail.com}{012 662 1297\\078 099 9870}
+\Home{Van der Nest}{NP Contacts}{Nellie; 35 Kriek Str Ext 9. Carletonville 2499; nellievdn@gmail.com}{072 250 9026}
+\Home{Venter}{NP Contacts}{Nadine, Hanno, Karli; 11 Darrock Avenue, Albermarle, Alberton}{081 256 3694}
+\Home{Vilakazi}{NP Contacts}{Thabiso, Gugu; eMsagweni, Emalahleni}{081 875 7007(T)\\079 746 0942(G)}
+\Home{Viljoen}{NP Contacts}{Elvera \& Carel; ; elvera@vera4art.co.za}{083 630 3290(E)}
+\Home{Viljoen}{NP Contacts}{Hannes \& Petro, Annamarie; 19 Tierkloof st, Glen Harvey, Gauteng}{072 259 5658(H)\\072 895 7788(P)}
+\Home{Viljoen}{NP Contacts}{Koos \& Meisie; BD 21B. 14 kms from Derby on Rd to Rustenburg}{014 549 2044\\076 132 1436(K)}
+\Home{Viljoen}{NP Contacts}{Tanja; 32 Lake Rd, Strubenvale, Springs; tanjavil23@gmail.com(T) }{083 242 7958(T)}
+\Home{Viljoen}{NP Contacts}{Werner; Quinton’s View 19, Drie Riviere, Vereeniging 1930}{072 240 8405}
+\Home{Vincent}{NP Contacts}{Nadia; Gordon's Bay, Cape Town}{+2783 386 1415}
+\Home{Weerts}{NP Contacts}{Adrian \& Rika; 38 Quarrywood, 13 The Straight Street, Lonehill; aweerts@lantic.net}{083 225 4860(A)\\082 060 5039(R)\\011 467 5571 H}
+\Home{Weideman}{NP Contacts}{Suzelle; C/o Willie en Caren Faul; weidemansuzelle@gmail.com}{079 747 9506}
+\Home{Williamson}{NP Contacts}{Pieter \& Tracey, Khathryn; 6 Kanon Avenue, Dennesig; pieterwilliamson.6789@gmail.com(P) , nilandtracey@gmail.com(T) }{082 564 8512(P)\\082 900 2224(T)}
+\Home{Windvogel}{NP Contacts}{Mikayla; Moved from East Rand to Durban; Margaret Domleo sent message 29 Nov 2016}{}
+\Home{Wockenfuss}{NP Contacts}{Wolfgang; ; wocwol@gmail.com}{+2779 897 5450\\+49 175 526 3320}
+\Home{Wright}{NP Contacts}{Timothy \& Sarah, Katherine, Alexis, Madison; 8 Voorbrand Ave, Allen Grove Ext 2, Kempton Park.; Box 2805, Faerie Glen, 0043; timothy771@gmail.com(T) , sarahwright771@gmail.com(S) }{+27615054102(S)}
+\Home{van Aardt}{NP Contacts}{Dewald; 905 Eve St, Waverley 0186; dewaldvanaardt@gmail.com}{060 667 6385}
+\Home{van der Walt}{NP Contacts}{Odie; Mvuu Lodge, Vlakfontein Road, Mookgophong; odie@mvuu.co.za}{072 238 0092}\EndHomes
+\EndSection
+\MLDistrictH{NP Admin}
+\MLMeetingH{NP Contacts}
+\MLHome{Bam}{}{Megan}
+\MLHome{Barends}{}{Teagan, Terry}
+\MLHome{Booysen}{}{Gerhard}
+\MLHome{Botes}{}{Jacques}
+\MLHome{Botha}{}{Gavin}
+\MLHome{Brender-a-Brandis}{}{Cedric \& Tracey-Lea, Tegan-Skye}
+\MLHome{Busuman}{}{Asher \& Otillia, Mercy, Tawananyasha}
+\MLHome{Calitz}{}{Rowland}
+\MLHome{Ceerust}{}{}
+\MLHome{Chiloane}{}{Innocentia \& Loveness, Samuel}
+\MLHome{Coetzee}{}{Theinus}
+\MLHome{Coleman}{}{Carmen, Aden}
+\MLHome{Contact}{}{Elsabeth}
+\MLHome{Da Silva}{}{Steven \& Nicky, Josslynn, Miané}
+\MLHome{De Bruyn}{Not attending}{Marie}
+\MLHome{De Wet}{}{Callie \& Pietta}
+\MLHome{Delport}{}{Isabel}
+\MLHome{Dippenaar}{}{Marinda \& Kobus, Aimée Claire}
+\MLHome{Dlamini}{}{Bonisile, Melisizwe}
+\MLHome{Dlamini}{}{Melusi}
+\MLHome{Dlamini}{}{Mmeli}
+\MLHome{Dojiwe}{}{Sithembile, Sammy}
+\MLHome{Du Randt}{}{Christene}
+\MLHome{Du Toit}{}{Paula}
+\MLHome{Dunn}{}{Shirley}
+\MLHome{Dyzel}{SunAM,Wed;Elder}{Tommie \& Hannalie}
+\MLHome{Elgar}{}{Phillipa \& Gabby, Daniel, Caliska}
+\MLHome{Faul}{}{Anton \& Linette}
+\MLHome{Faure}{}{Michael \& Jenny}
+\MLHome{Fisher}{}{Doris}
+\MLHome{Fouche}{}{Eugene}
+\MLHome{Fourie}{}{Susan}
+\MLHome{Furber}{Does not attend mtgs}{Richard}
+\MLHome{Ginindza}{}{Mduduzi}
+\MLHome{Goliath}{Not attending}{Quinton}
+\MLHome{Gouws}{}{Renate \& Frikkie, Amy-Lee, Daniel, Donnay}
+\MLHome{Gower}{}{Shane Jr}
+\MLHome{Greef}{}{Rowan}
+\MLHome{Greeff}{NP Contacts}{Marnus \& Jodene, Andiné(Faul)}
+\MLHome{Greyling}{}{Magdelena, Liezle}
+\MLHome{Greyling}{}{Pieter \& Laura}
+\MLHome{Grobbelaar}{}{Berno \& Janelle}
+\MLHome{Grobler}{}{Piet \& Stella}
+\MLHome{Grootboom}{}{Ainsley}
+\MLHome{Hamilton}{}{Jeannie}
+\MLHome{Hartman}{}{Francois}
+\MLHome{Herion}{}{Fred, Rebecca}
+\MLHome{Hoffmann}{}{Lynae}
+\MLHome{Jack}{}{Emily}
+\MLHome{Jacobs}{}{Michaela \& Skylar}
+\MLHome{Janse van Vuuren}{not attending}{Susan}
+\MLHome{Jombo}{}{Kennedy \& Mufaro, Chiedza}
+\MLHome{Keeble}{}{Keenan, Lesedi, Reabetswe, Caireen}
+\MLHome{Kerspuy}{}{Tanner}
+\MLHome{Khoza}{}{Abednigo}
+\MLHome{Kock}{}{Laché, Caleb, Micah}
+\MLHome{Koekemoer}{}{Bertus \& Gertruida, Stienie vd Berg}
+\MLHome{Le Roux}{}{Kern}
+\MLHome{Lomas}{}{Wayne \& Magna, Georic, Johndré}
+\MLHome{Lotz}{}{Erika}
+\MLHome{Louw}{}{Daisy}
+\MLHome{Lucioli}{}{Mario}
+\MLHome{Lyon}{}{Debbie, Peter-John, Lionel}
+\MLHome{Magagula}{}{Sipho}
+\MLHome{Mallett}{}{}
+\MLHome{Mamba}{Daughter \& Son in Law of baba Petros Mamba}{Mkwenyana}
+\MLHome{Mangale}{}{Brenton, Terry-Ann, Mercedes, Isabella}
+\MLHome{Mangale}{}{Codney, Maurice}
+\MLHome{Mann}{}{Brent}
+\MLHome{Maplanka}{}{Viviene, Ganiwe}
+\MLHome{Masusku}{}{Cyril}
+\MLHome{McGillivray}{}{Laurine}
+\MLHome{Mda}{}{Kholisa}
+\MLHome{Minnaar}{}{Roeloff}
+\MLHome{Mohale}{}{Evan}
+\MLHome{Mostert}{}{Quintin \& Anneen, Leanè}
+\MLHome{Motsei}{}{Contact}
+\MLHome{Mtshweni}{}{Promise}
+\MLHome{Mundell}{}{Bonnie}
+\MLHome{Muthana}{}{Otilliah}
+\MLHome{Naude}{}{Penny, Sabrina, Joshua}
+\MLHome{Ndazamo}{}{Samson}
+\MLHome{Nkosi}{}{Erasmus \& Rosie, Khululeko, Nhlanhla, Wanela}
+\MLHome{Nkosi}{}{Gabsile \& Nomsombuluko}
+\MLHome{Nkosi}{}{Mndeni}
+\MLHome{Olivier}{}{John}
+\MLHome{Olls}{}{Timothy \& Sharon}
+\MLHome{Page}{}{Helen}
+\MLHome{Phillips}{}{Keenan}
+\MLHome{Phukuile}{SunPM}{Irwin}
+\MLHome{Phukuile}{}{Natalie}
+\MLHome{Pienaar}{}{Clark}
+\MLHome{Pienaar}{}{Heino}
+\MLHome{Pierce}{}{Jared}
+\MLHome{Pretorius}{}{Marike}
+\MLHome{Pretorius}{}{Shireen, Willie}
+\MLHome{Rapoza}{}{Rueon \& Estelle}
+\MLHome{Ribeiro}{}{Alcino}
+\MLHome{Ribeiro}{}{Joel}
+\MLHome{Robat}{}{Hester}
+\MLHome{Rossouw}{}{Meliska}
+\MLHome{Roux}{}{Bianca \& Jaco}
+\MLHome{Sampson}{}{Clinton \& Grace, Hannah}
+\MLHome{Scrooby}{}{Trevor}
+\MLHome{Seroviv}{}{Reinett}
+\MLHome{Sibuyi}{}{Promise \& Boniwe}
+\MLHome{Siera}{}{Mapule, Sbusiso, Thabang}
+\MLHome{Silks}{}{Norman, Joyce}
+\MLHome{Sithole}{}{Waverley}
+\MLHome{Smit}{}{Niell}
+\MLHome{Smith}{}{Gerhard}
+\MLHome{Stakes}{}{}
+\MLHome{Strydom}{}{Gwen}
+\MLHome{Styles}{}{Kyle \& Kerry-Lee}
+\MLHome{Swanepoel}{}{Christo \& Elzaan, Christel, Adriaan}
+\MLHome{Swart}{}{Jesenca}
+\MLHome{Swart}{}{Rowan \& Mareli, Chanelle, Duncan}
+\MLHome{Tjeko}{}{Baba \& Veronica, Musa}
+\MLHome{Topkin}{}{Alison}
+\MLHome{Turner}{}{Freddy}
+\MLHome{Valadon}{}{Caren, Jean-Luc, Kiara}
+\MLHome{van Aardt}{}{Dewald}
+\MLHome{Van der Merwe}{}{Shani}
+\MLHome{Van der Nest}{All mtgs}{Nellie}
+\MLHome{van der Walt}{}{Odie}
+\MLHome{Van Tonder}{not attending}{Esther, Adriaan, Monique}
+\MLHome{Van Zyl}{}{Carolyn}
+\MLHome{Van Zyl}{}{Sternberg}
+\MLHome{Venter}{}{Nadine, Hanno, Karli}
+\MLHome{Vilakazi}{}{Thabiso, Gugu}
+\MLHome{Viljoen}{}{Elvera \& Carel}
+\MLHome{Viljoen}{}{Hannes \& Petro, Annamarie}
+\MLHome{Viljoen}{All mtgs;Elder}{Koos \& Meisie}
+\MLHome{Viljoen}{}{Tanja}
+\MLHome{Viljoen}{}{Werner}
+\MLHome{Vincent}{}{Nadia}
+\MLHome{Weerts}{}{Adrian \& Rika}
+\MLHome{Weideman}{Jacq Perlmutter 14/01/2020}{Suzelle}
+\MLHome{Williamson}{}{Pieter \& Tracey, Khathryn}
+\MLHome{Windvogel}{}{Mikayla}
+\MLHome{Wockenfuss}{}{Wolfgang}
+\MLHome{Wright}{}{Sarah, Katherine, Alexis, Madison}
+\end{document}
