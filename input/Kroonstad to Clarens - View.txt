@@ -1,0 +1,62 @@
+\documentclass[english]{article}
+\title{Kroonstad to Clarens}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Cronje}{Kroonstad}{Andre; 29 La Porta Vase, Kroonstad; Posbus 50, Kroonstad, 9500; andrecronje14@gmail.com}{079 916 2411}
+\Home{Cronje}{Kroonstad}{Yvonne; 106 Jordania Park, Jordania, Kroonstad, 9499; yvonnecronje5@gmail.com}{082 571 3168}
+\Home{Di Mezza}{Clarens}{Carlo \& Petro, Nicola, Luciano, Giovanni; 16 Naauwpoort str, Clarens; Posbus 29, Clarens, 9707; dimcon@telkomsa.net}{082 373 1428(C)\\082 857 8050(P)}
+\Home{Di Mezza}{Clarens}{Minnie; 16 Naauwpoort str, Clarens; Posbus 29, Clarens, 9707}{058 256 1313}
+\Home{Durrheim}{Welkom}{Dorothea; 20 Valentine Street, Bedelia, Welkom}{076 241 9998\\083 467 5119}
+\Home{Fagan}{Theunissen}{Desmond \& Glenda; 10 Babettes Villas, Jim Fouche street, Theunissen; desmondfagan@vodamail.co.za(D) , hnfagan@gmail.com}{082 456 1605(D)\\063 677 2973(G)}
+\Home{Heath}{Theunissen}{Tom \& Mariette; 46 Theunissen street, Bultfontein, 9670; Box 2018, Bethlehem, 9700; tcsmans@gmail.com(T) , mariette.heath@gmail.com(M) }{084 514 5697(T)\\084 208 0559(M)\\086 530 9170F}
+\Home{Miya}{Harrismith}{Jacob \& Maria, Donald; 26B, Raath St, Kestell or House 1057 Phahameng Location, Kestell 9860; mariamiya6@gmail.com(M) }{072 700 7351(J)\\079 409 7223(M)}
+\Home{Naudé}{Bethlehem}{Miemie, Nonnie; 29 Loubser st, Eureka, Bethlehem, 9701; dircolene@telkomsa.net(N) }{058 303 6545\\083 529 1879(M)\\083 408 2677(N)}
+\Home{Newton}{Ficksburg}{Owen \& Jeanette; 102 Van Soelen Str; Box 1254, Ficksburg, 9730; owennewton@telkomsa.net(O) , jeanette.newton@icloud.com(J) }{051 933 5336H\\082 808 3207(O)\\082 456 4145(J)}
+\Home{Pieterse}{Kroonstad}{Barnie; (In Benoni every 2nd weekend otherwise in Kroonstad)4 Wilcocks St, Goedgedacht, Kroonstad, 9499. 29 Clover Hill, 17 9th Road, Cloverdene, Benoni; bpieterse2@um.co.za}{073 164 4333}
+\Home{Sobanyeni}{Harrismith}{Wilson \& Nana; 8 Percy st, Harrismith, 9880}{073 814 6618(W)}
+\Home{Stander}{Bethlehem}{Johan, Christy, Roelof; 1 Suider Street, Bethlehem 9701; johanstander86@gmail.com(J) }{082 442 2668(J)}
+\Home{Topkin}{Kroonstad}{Alistair \& Chantelle, Kaleb, Ava, Leah; 12 Rule street, Suidrand, Kroonstad, 9499}{083 424 0647(A)\\078 531 6360(C)}
+\Home{Topkin}{Kroonstad}{Calvin \& Alvira, Kyle; 5 Fleck Street, Panorama, Kroonstad, 9499; Box 6246, Kroonheuwel, 9501; calwvintop@gmail.com(C) , awtopkin@gmail.com(A) }{051 991 1234H\\082 576 6292(C)\\082 361 3864(A)}
+\Home{Van Rooyen}{Harrismith}{Tilla; 78 Stuart rd, Harrismith, 9880}{058 622 1356}
+\Home{Van der Merwe}{Reitz}{Andre \& Riana, Manfred; Wouman Boerdery, Google maps, Wouman SOLARS.; Posbus 1016, Reitz, 9810; rvdmerwe@gmail.com}{082 427 1488(A)\\082 806 2622(R)}
+\Home{Wiese}{Bethlehem}{Martin; 3 School street, Senekal, 9600}{079 885 9256}
+\Home{Young}{Theunissen}{Robert \& Madezelle; 7 Holly rd, Merriespruit, Virginia, 9430; robbieyoung00@gmail.com(R) , madezelleley@gmail.com(M) }{074 713 5556(R)\\071 610 9944(M)}\EndHomes
+\EndSection
+\MLDistrictH{Kroonstad to Clarens}
+\MLMeetingH{Clarens}
+\MLHome{Di Mezza}{Elder}{Carlo \& Petro, Nicola, Luciano, Giovanni}
+\MLHome{Di Mezza}{All mtgs}{Minnie}
+\MLMeetingH{Ficksburg}
+\MLHome{Newton}{All mtgs;Elder;Ficksburg meeting on their own}{Owen \& Jeanette}
+\MLMeetingH{Harrismith}
+\MLHome{Miya}{}{Jacob \& Maria, Donald}
+\MLHome{Sobanyeni}{}{Wilson \& Nana}
+\MLHome{Van Rooyen}{SunAM}{Tilla}
+\MLMeetingH{Reitz}
+\MLHome{Van der Merwe}{All mtgs;Elder}{Andre \& Riana, Manfred}
+\MLMeetingH{Theunissen@10h00}
+\MLHome{Fagan}{All mtgs;Elder}{Desmond \& Glenda}
+\MLHome{Heath}{}{Tom \& Mariette}
+\MLHome{Young}{}{Robert \& Madezelle}
+\MLMeetingH{Welkom}
+\MLHome{Durrheim}{}{Dorothea}
+\MLMeetingH{Kroonstad}
+\MLHome{Cronje}{Takes SunPM}{Andre}
+\MLHome{Cronje}{Sun@6pm, Wed@7pm}{Yvonne}
+\MLHome{Pieterse}{Wed;Takes Wed PM}{Barnie}
+\MLHome{Topkin}{}{Alistair \& Chantelle, Kaleb, Ava, Leah}
+\MLHome{Topkin}{SunAM,SunPM;Elder}{Calvin \& Alvira, Kyle}
+\MLMeetingH{Bethlehem}
+\MLHome{Naudé}{All mtgs}{Miemie, Nonnie}
+\MLHome{Stander}{Elder}{Johan, Christy, Roelof}
+\MLHome{Wiese}{}{Martin}
+\MLMeetingH{Theunissen S \& W (evening)}
+\MLHome{Fagan}{All mtgs;Elder}{Desmond \& Glenda}
+\MLMeetingH{Virginia S \& W (evening)}
+\MLHome{Young}{}{Robert \& Madezelle}
+\end{document}
