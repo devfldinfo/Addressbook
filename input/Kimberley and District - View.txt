@@ -1,0 +1,93 @@
+\documentclass[english]{article}
+\title{Kimberley and District}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Beukman}{De Aar}{Lorinda \& Andre, Lillian, Adrian ; 13 Potgieter Street, De Aar, 7000}{073 607 3567(L)}
+\Home{Boraine}{Kimberley - Northview}{Dorothy; 9 Estelle Road, Northview, Kimberley, 8301}{082 258 2719}
+\Home{Botha}{Kimberley - Northview}{Jenny; 5 Mont Aux Sources lane, Carters Glen, Kimberley, 8301}{053 871 2389W\\082 775 9056}
+\Home{Carstens}{Bloemhof}{Madeleine \& Ben; 30 Voortrekker Street, Bloemhof 2660}{084 701 3472(M)}
+\Home{Cedras}{Middelburg Kaap}{Anita, Amy-lee; 22 Rosmead str, Middelburg, 5900}{078 673 0325(A)}
+\Home{Erasmus}{Hartsvallei}{Ria \& Rassie; Perseel 24 E4, Hartsvallei. Google Maps: XPW8+R9P Blyvooruitsig; Posbus 514, Jan Kempdorp, 8550}{082 538 1519}
+\Home{Greeff}{De Aar}{Rowena \& Monty; 17 Aquila rd, De Aar, 7000}{084 621 3300(M)\\072 550 7698(R)}
+\Home{Heathcote}{Kimberley - Northview}{Connie; 47 Jacobson Avenue, Sick Bay, Acacia Centre, Hadison Park, Kimberley}{082 705 4972}
+\Home{Hiscock}{Somerset-Oos}{Hettie; Huis Silwerjare, Kamer H2, Somerset Oos}{063 215 6062}
+\Home{Istaine}{Middelburg Kaap}{Joyce; 6 Van Heerden str, Middelburg, 5900}{071 499 0497}
+\Home{Jacobsz}{De Aar}{Ronél; 5 Helpmekaar Street , Victoria Wes, 7070; roneljacobsz@gmail.com}{079 740 3190}
+\Home{Jacobs}{Kimberley - Northview}{Philida, Chanté; 6 Doris Street, Northtview, Kimberley, 8301}{084 508 0805(P)\\053 871 3183W\\073 979 7039(C)}
+\Home{Jansen}{Danielskuil}{Thian \& Rachel, Tiara, Allison, Tirique; 465 Landbou Street, Danielskuil, 8405. Google Maps: RG5G+MV3 Danielskuil; jansenthian@gmail.com}{+27 74 570 6793(R)\\065 181 6441(T)}
+\Home{Johnson}{De Aar}{Susan, Magdalene, Carlene, Martin, Dalene; 11 Leeubekkie st, Newbright, De Aar; Posbus 324, De Aar, 7000}{053 631 4087\\084 378 7244(S)\\073 295 8334(C)}
+\Home{Joseph}{Kimberley - Northview}{Charlotte; 8 Carnation lane, Squarehill Park, Kimberley, 8301}{063 247 9641}
+\Home{Joseph}{Kimberley - Northview}{Frances; 29 Madeliefie Road, Kimberley}{083 451 1054}
+\Home{Kennel}{De Aar}{Charlotte; 20 Vygie st, New Bright, De Aar, 7000}{081 093 7189}
+\Home{Legg}{Middelburg Kaap}{Darryl \& Ilze, Christopher, Geena; 11 Heuwel St, Middelburg, 5900; Postal \& Business: 11 heuwelsig street, Middelburg, 5900; dlegg@aviationartsa.com}{082 820 3406(D)\\071 344 2898(I)}
+\Home{Mackay}{Kimberley - Northview}{Margaret, Lisa; 874 Aandblom st, Barkly-Wes; Posbus 390, Barkly-Wes, 8375}{063 195 2043}
+\Home{Naude}{Danielskuil}{Tienie; 189 Fontein Street, Danielskuil, 8405; (RG7W +GW7) }{}
+\Home{O'Halloran}{Graaff Reinet}{Kobie, Helen (skoondogter); 11 Rothman Street (Graaf Reinet)}{084 243 0491 (H)}
+\Home{Pheiffer}{De Aar}{Dondré; 11 Henry-Botha Avenue, Louisville, De Aar, 7000; pheiffercraigdondre@gmail.com}{+2776 433 9241}
+\Home{Smit}{Christiana}{Basil \& Jules, Ian, Neill; 66 Rivier Street, Christiana; blsmit@iafrica.com.na(B) , julessmit70@gmail.com(J) }{081 128 6086(B)\\076 989 8673(J)\\062 298 8535(I)\\062 298 8535(N)}
+\Home{Topkin}{Kimberley - Northview}{Ada; 2 Senate Way, Minerva Gardens, Kimberley, 8345}{082 789 0813H\\084 506 4635(A)}
+\Home{Topkin}{Kimberley - Northview}{Edmar \& Michelle, Alison, Ethan, Conner; 16 Yates St, Monument Heights, Kimberley, 8301; etopkin1@fnb.co.za(E) , mtopkin1@gmail.com(M) }{061 587 5485(E)\\064 500 5069(M)\\082 890 3789W}
+\Home{Topkin}{Kimberley - Northview}{Theresa, Benita; 20 Estelle Road, Norhtview, Kimberley, 8301}{076 896 0105(T)\\082 811 7613(B)}
+\Home{Van Deventer}{Cradock}{Cheryl \& Marius; 29 Jakaranda St, Cradock 5880; P.O. Box 548, Cradock 5880; cheryl@iym.gov.za(C) }{0488814666\\0827663340(C)}
+\Home{Van Schalkwyk}{Ritchie}{Wena, Sonja; Google Maps: XJFJ+9MH Modderrivier; Posbus 190, Modderrivier, 8700}{063 969 5335(W)\\074 081 8159(S)}
+\Home{Westcott}{Cradock}{Maureen; Elizabeth Jordaan Retirement Home, Room no5, FF passage, Protea Street, Cradock}{082 890 7254}\EndHomes
+\EndSection
+\MLDistrictH{Kimberley and District}
+\MLMeetingH{Bloemhof}
+\MLHome{Carstens}{}{Madeleine \& Ben}
+\MLMeetingH{Christiana}
+\MLHome{Smit}{}{Basil \& Jules, Ian, Neill}
+\MLMeetingH{Cradock}
+\MLHome{Van Deventer}{Elder}{Cheryl}
+\MLHome{Westcott}{}{Maureen}
+\MLMeetingH{Danielskuil}
+\MLHome{Jansen}{}{Thian \& Rachel, Tiara, Allison, Tirique}
+\MLHome{Naude}{}{Tienie}
+\MLMeetingH{De Aar}
+\MLHome{Beukman}{}{Lorinda \& Andre, Lillian, Adrian }
+\MLHome{Greeff}{}{Rowena \& Monty}
+\MLHome{Jacobsz}{}{Ronél}
+\MLHome{Johnson}{All mtgs;Elder}{Susan, Magdalene, Carlene, Martin, Dalene}
+\MLHome{Kennel}{}{Charlotte}
+\MLHome{Pheiffer}{}{Dondré}
+\MLMeetingH{Graaff Reinet}
+\MLHome{O'Halloran}{}{Kobie, Helen (skoondogter)}
+\MLMeetingH{Hartsvallei}
+\MLHome{Erasmus}{}{Ria \& Rassie}
+\MLMeetingH{Kimberley - Northview}
+\MLHome{Boraine}{Wed}{Dorothy}
+\MLHome{Botha}{SunPM;alt. Sun}{Jenny}
+\MLHome{Heathcote}{}{Connie}
+\MLHome{Jacobs}{SunAM}{Philida, Chanté}
+\MLHome{Joseph}{Takes Wed AM mtg}{Charlotte}
+\MLHome{Joseph}{SunPM;alt. Sun PM}{Frances}
+\MLHome{Mackay}{}{Margaret, Lisa}
+\MLHome{Topkin}{}{Ada}
+\MLHome{Topkin}{Wed;Elder}{Edmar \& Michelle, Alison, Ethan, Conner}
+\MLHome{Topkin}{}{Theresa, Benita}
+\MLMeetingH{Middelburg Kaap}
+\MLHome{Cedras}{Wed}{Anita, Amy-lee}
+\MLHome{Istaine}{}{Joyce}
+\MLHome{Legg}{SunAM,SunPM;Elder}{Darryl \& Ilze, Christopher, Geena}
+\MLMeetingH{Ritchie}
+\MLHome{Van Schalkwyk}{}{Wena, Sonja}
+\MLMeetingH{Somerset-Oos}
+\MLHome{Hiscock}{}{Hettie}
+\MLMeetingH{Kimberley WedAM \#1;D Boriane}
+\MLHome{Boraine}{Wed}{Dorothy}
+\MLHome{Botha}{SunPM;alt. Sun}{Jenny}
+\MLHome{Heathcote}{}{Connie}
+\MLHome{Jacobs}{SunAM}{Philida, Chanté}
+\MLHome{Joseph}{Takes Wed AM mtg}{Charlotte}
+\MLHome{Joseph}{SunPM;alt. Sun PM}{Frances}
+\MLHome{Mackay}{}{Margaret, Lisa}
+\MLHome{Topkin}{}{Theresa, Benita}
+\MLMeetingH{Kimberley WedAM \#2;E Topkin}
+\MLHome{Topkin}{}{Ada}
+\MLHome{Topkin}{Wed;Elder}{Edmar \& Michelle, Alison, Ethan, Conner}
+\end{document}
