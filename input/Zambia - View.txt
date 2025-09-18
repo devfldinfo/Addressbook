@@ -1,0 +1,105 @@
+\documentclass[english]{article}
+\title{Zambia}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Banda}{Kitwe}{Amon (jnr) \& Evelyn, Destiny; Kakolo compound, kitwe}{+260968277746\\+260767759626}
+\Home{Banda}{ZAM Contacts}{Mother; Mundelemane}{}
+\Home{Banda}{ZAM Contacts}{William; Chulu Village, Amon's relative}{}
+\Home{Barnard}{Mkushi}{Dehan \& Allé, Liam, Ella; Shigu Farm, Kakushi, Farm 8446, Tazara Corridor}{+260 966 722 043(D)\\+260968213961(A)}
+\Home{Botha}{Kitwe}{Willem; Luswishi Farm Block,  Lufwanyama District. Copper Belt; wilbriefarms@gmail.com}{+260953372741\\+27846222448}
+\Home{Chama}{ZAM Contacts}{Wigan; Lifubu, Luwingu}{}
+\Home{Chimuntu}{ZAM Contacts}{Gladys; Kawambwa}{+260951012084}
+\Home{Chimuntu}{ZAM Contacts}{Kabwe, Susan, Kabwe, Chibwe, Miniba, Chama, Misheck; Sunday, Luwingu}{}
+\Home{Chongo}{Solwezi}{Joseph \& Mercy, Simon, Eunice, Haggai; Lunsala}{+260771830822(J)}
+\Home{Chongo}{ZAM Contacts}{John; Lufubu, Luwingu}{}
+\Home{Davira}{Lusaka}{Miranda; University of Lusaka, Silverst Campus; (-15.3603422, 28.4766121) }{+263 78 399 4309}
+\Home{Kabamba}{ZAM Contacts}{Joseph; }{}
+\Home{Kabangamika}{Luwingu}{Abraham \& Susan, Marius, Felix, Mishek, Tracey, Rebecca; Lifubu, Luwingu}{095 147 1744(A)\\+260952162870(S)}
+\Home{Kabangamika}{Ndola}{Dunstan \& Mary, Gladys, Gracious, Mercy, Rosemary, Hope; Kapiri-Mposhi}{+260 975257126(M)\\+260968623624(D)}
+\Home{Kafula}{ZAM Contacts}{Grace, Faith, Dan; Box 460196, Lufubu, Luwingu}{+260 962 146132(D)\\+260 963 356132}
+\Home{Kafula}{ZAM Contacts}{Rose, Bruce, Blessed, Chanda; }{}
+\Home{Kanoni}{Luwingu}{Kaoma \& Susan, Comfort, Destiny; Lufubu; kkaoma99@gmail.com(K) }{+260 96 127 5394(K)\\+260962997382(S)}
+\Home{Kanoni}{ZAM Contacts}{Patricia, Petronella; }{}
+\Home{Kaoma}{Kasama}{Fredah, Ruth, Josephine; Kasama}{+260969540078(F)}
+\Home{Kaoma}{Kasama}{Paul \& Royida, Bright, Hendrik, Sara, Royce, Naomi; Kasama; (-10.2220980, 31.1664680) }{+260970302080(P)\\+260953059751(R)\\+260966067161(H)\\+260776073220(B)\\+260953204175(B)\\+260 77 4818370(B)}
+\Home{Kaoma}{Kitwe}{Margaret; Lwangwa, Kitwe; (-12.892581,28.241990) }{}
+\Home{Kaoma}{Kitwe}{Martin \& Milica, Joseph, Martin (jnr); Kamfinsa Prison}{+26097 847 9648(M)\\+260760740100(Ml)\\+260763629682(Jo)}
+\Home{Kaoma}{Kitwe}{Stanley \& Janet, Gloria, Helen, Mathias, Martin; Kitwe}{+260760739996(J)\\+260975218627(J)}
+\Home{Kaoma}{Luwingu}{Gift \& Kennedy; Luwingu}{}
+\Home{Kaoma}{Luwingu}{Ida, Patrick, Veronica; Lufubu, Luwingu}{}
+\Home{Meintjes}{Kitwe}{Eugene \& Marleen; Kamfinsa Farm, Box 20380, Kitwe; kamfinsa@gmail.com; (-12.90979,28.33226) }{+260965994403(E)\\+260965815006(M)}
+\Home{Meintjes}{Mkushi}{Hugo \& Linde, Ilke; Shigu Farm; Box 810151, Kapiri Mposhi; hugo.meintjes@gmail.com; (-13.904,29.334) }{+260 966722042(H)\\+260 966362556(L)\\+27845918078 SA(L)\\+260966775704(I)}
+\Home{Muchechesi}{Lusaka}{Tafadzwa; Eden University, Lusaka.; (-15.359995,28.236191) }{+26377 603 0802\\+26371 235 4912\\+260 77 1260096}
+\Home{Mulenga}{Kasama}{Matthew, Rogers; Kasama}{+260 97 3841974(M)}
+\Home{Muyaniso}{ZAM Contacts}{Shadrach; }{}
+\Home{Mwaba}{Luwingu}{Christopher; }{}
+\Home{Mwaba}{Luwingu}{Kent; }{+260 764845441}
+\Home{Mwaba}{ZAM Contacts}{Boidy; }{}
+\Home{Nonde}{Luwingu}{Jeremy \& Susan, Winfredah, Judith, Gift, Caleb, Jeremia, Henery; Lufubu, Luwingu}{+260 97 1213583\\+260 96 5757040\\+260950434144(W)}
+\Home{Nonde}{Mkushi}{Dorothy, Lucky, Gift, Linnet; Nkumbi - Mkushi}{+260765910446}
+\Home{Nonde}{ZAM Contacts}{Juliana; Lufubu, luwingu}{+260 976 270 417}
+\Home{Olls}{Zambia}{James; Moved to Zambia; jamesm.olls@gmail.com(J) }{072 643 8876(J)\\060 453 8270(J)}
+\Home{Potgieter}{Lusaka}{Andre \& Carmen, Andrelize, Armin; S/DL of S/D4. Farm  298A. State Lodge. Lusaka.; carmenpot@gmail.com(C) }{+2607 7131 0428(A)\\+260977169651(A)\\+27 82 334 1249(C)\\+260 777 884447}
+\Home{Pretorius}{Mkushi}{Janus \& Melissa, Miané, Jandré; Mkushi; janusprtrs685@gmail.com(J) , melissabarnard9@gmail.com(M) }{+260 74 2511151(J)\\+260 96 2775187(J)\\+2784 299 1544(M)\\+260 77 2368511(M)}
+\Home{Sachikola}{ZAM Contacts}{Jeremiah \& Charity; Nakonde District Council, P.O.Box 480083, Nakonde; jeremiahsachikola@yahoo.com}{+260 977828868}
+\Home{Smith}{Mkushi}{Leroy \& Bianca, Leah, Emma; Jubica Farm, Mkushi; leroyjsmith@gmail.com; (-13.7390830,29.1959780) }{+260775156334(L)\\+260 96 9035300(B)}
+\Home{Smith}{Mkushi}{Minette; Jubica Farm, Mkushi; ls8543@gmail.com; (-13.7390830,29.1959780) }{+260 974 618 472}\EndHomes
+\EndSection
+\MLDistrictH{Zambia}
+\MLMeetingH{Kasama}
+\MLHome{Kaoma}{}{Fredah, Ruth, Josephine}
+\MLHome{Kaoma}{All mtgs;Elder}{Paul \& Royida, Bright, Hendrik, Sara, Royce, Naomi}
+\MLHome{Mulenga}{}{Matthew, Rogers}
+\MLMeetingH{Kitwe}
+\MLHome{Banda}{}{Amon (jnr) \& Evelyn, Destiny}
+\MLHome{Botha}{}{Willem}
+\MLHome{Kaoma}{}{Margaret}
+\MLHome{Kaoma}{}{Martin \& Milica, Joseph, Martin (jnr)}
+\MLHome{Kaoma}{}{Stanley \& Janet, Gloria, Helen, Mathias, Martin}
+\MLHome{Meintjes}{SunAM;Elder}{Eugene \& Marleen}
+\MLMeetingH{Lusaka}
+\MLHome{Davira}{}{Miranda}
+\MLHome{Muchechesi}{}{Tafadzwa}
+\MLHome{Potgieter}{All mtgs;Elder}{Andre \& Carmen, Andrelize, Armin}
+\MLMeetingH{Luwingu}
+\MLHome{Kabangamika}{All mtgs;Elder}{Abraham \& Susan, Marius, Felix, Mishek, Tracey, Rebecca}
+\MLHome{Kanoni}{}{Kaoma \& Susan, Comfort, Destiny}
+\MLHome{Kaoma}{}{Gift \& Kennedy}
+\MLHome{Kaoma}{}{Ida, Patrick, Veronica}
+\MLHome{Mwaba}{}{Christopher}
+\MLHome{Mwaba}{}{Kent}
+\MLHome{Nonde}{}{Jeremy \& Susan, Winfredah, Judith, Gift, Caleb, Jeremia, Henery}
+\MLMeetingH{Mkushi}
+\MLHome{Barnard}{}{Dehan \& Allé, Liam, Ella}
+\MLHome{Meintjes}{}{Hugo \& Linde, Ilke}
+\MLHome{Nonde}{}{Dorothy, Lucky, Gift, Linnet}
+\MLHome{Pretorius}{}{Janus \& Melissa, Miané, Jandré}
+\MLHome{Smith}{SunAM,Wed;Elder}{Leroy \& Bianca, Leah, Emma}
+\MLHome{Smith}{}{Minette}
+\MLMeetingH{Ndola}
+\MLHome{Kabangamika}{}{Dunstan \& Mary, Gladys, Gracious, Mercy, Rosemary, Hope}
+\MLMeetingH{Solwezi}
+\MLHome{Chongo}{}{Joseph \& Mercy, Simon, Eunice, Haggai}
+\MLMeetingH{ZAM Contacts}
+\MLHome{Banda}{}{Mother}
+\MLHome{Banda}{}{William}
+\MLHome{Chama}{}{Wigan}
+\MLHome{Chimuntu}{}{Gladys}
+\MLHome{Chimuntu}{}{Kabwe, Susan, Kabwe, Chibwe, Miniba, Chama, Misheck}
+\MLHome{Chongo}{C/o Paul }{John}
+\MLHome{Kabamba}{}{Joseph}
+\MLHome{Kafula}{}{Grace, Faith, Dan}
+\MLHome{Kafula}{}{Rose, Bruce, Blessed, Chanda}
+\MLHome{Kanoni}{}{Patricia, Petronella}
+\MLHome{Muyaniso}{}{Shadrach}
+\MLHome{Mwaba}{}{Boidy}
+\MLHome{Nonde}{}{Juliana}
+\MLHome{Sachikola}{}{Jeremiah \& Charity}
+\MLMeetingH{Zambia}
+\MLHome{Olls}{}{James}
+\end{document}
