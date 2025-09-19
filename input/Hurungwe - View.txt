@@ -1,0 +1,135 @@
+\documentclass[english]{article}
+\title{Hurungwe}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bhunu}{Hurungwe Contacts}{Nyarai (M Blessed), Blessed; Chinhoyi Caves}{+263774627235(N)\\+263775830514(N)}
+\Home{Bhunu}{Kariba}{Bothwell; Zim National Parks, 72 Mica street}{077 721 8866}
+\Home{Bhunu}{St.Brendans}{Muputa (Baba Bhunu) \& Cyrene (M Bhunu); Kushinga Pri Sch, Box 409, Magunje/Plot 3, St Brendan Rd}{0786619878(M)\\0715084723(M)\\ 077 465 1091(C)}
+\Home{Bhunu}{St.Brendans}{Silent \& Gretta(BM Mazvita), Mazvita; Dixie Kushinga School}{+263777084157(G)\\+263 778 298 905(S)}
+\Home{Bwanali }{Hurungwe Contacts}{Cephas (B Forget) \& Regerai (M Forget), Lea, Lucia, Tendai; Garangwe Sch, PB 93, Magunje}{0777549751(C)}
+\Home{Chipiri}{Garangwe}{Ermina (M Tendai) \& Tizai(B Tendai), Tendai, Tobias, Roman, Alesha; ; (-16.78837,29.35181) }{0778657379(E)\\+263717981345(E)\\0774032948(T)}
+\Home{Dekeya}{Hurungwe Contacts}{Kundai; ; (-16.82866,29.67895) }{}
+\Home{Dekeya}{Kariba}{Kudakwashe; Hse no 1674 Nyamhunga 3}{+263 779 675728}
+\Home{Dekeya}{Vuti F}{Jephias(B Tadiswa) \& Gracious(M Tadiswa), Tadiswa, Jessika Mukundi; Jephias in UAE}{+971502147850 (J)\\+263719492378(J)\\+263779086398(G)}
+\Home{Gunguruve}{St.Brendans}{Mirriam(M Jelta), Jelta, Justice, Munashe, mzk Kupakwashe; ; (-16.8339,29.31228) }{0779 337 952(M)\\+263779516567(J)}
+\Home{Jaravaza}{Garangwe}{Renias(B Rudo) \& Anita(M Rudo); Garangwe Sch, Box 93, Magunje; (-16.75715,29.34235) }{0777 749 497(R)\\0774 830 892(A)\\071 974 9497(R)}
+\Home{Kamusapira}{Hurungwe Contacts}{mzk: Deon; Mahwada}{077 657 7521 (M)}
+\Home{Kapingautawa}{Garangwe}{Plaxidias(M Tariro), Wilson, Mabande, Sharon, Arnold; }{}
+\Home{Karikoga }{Hurungwe Contacts}{Ruvarashe(B Kudzi) \& Yocyline(M Kudzi), Kudzai; Garangwe Primary school}{+263772841610(R)}
+\Home{Makumbe}{Hurungwe Contacts}{Mercy(M Karima); Nyaramanda/Mandevu Section A, Zebra Downs, just after Buffalo Downs, 15-25km from Karoi, going to Chinoyi}{077 617 0815}
+\Home{Makumbe}{Tengwe}{John (B Felix) \& Esnath (M Felix), vzk Obey, Esnath; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{078 350 7175(J)}
+\Home{Makumbe}{Tengwe}{Kudakwashe (B Tavonga) \& Sweeder(M Tavonga), Tavonga, Tinashe; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{077 654 5185(K)\\0784532464(S)}
+\Home{Makumbe}{Tengwe}{Peter \& Beatrice; 88 Lamote}{0771321175(P)}
+\Home{Mapopoto}{Mahwada}{Mathew(B Anna) \& Judith (M Anna), Sharai, Simon, mzk Beshard; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe; (-17.17352,29.34839) }{0717 285 305(J)\\0715115963(M)\\0778347365(M)}
+\Home{Marikebo}{Garangwe}{Gibson(B Mark) \& Martha(M Mark), Mark, Tawana, Rufaro; }{ +263775020065(M)}
+\Home{Marufu}{Hurungwe Contacts}{Tafadzwa; Tavoy farm, Magunje}{0780879830(T)}
+\Home{Marumisa}{Hurungwe Contacts}{Clefas( B Justice) \& Vaida( M Justice), Justice, Venencia, Silent; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe}{}
+\Home{Marumisa}{Hurungwe Contacts}{Obey( B Innocent) \& Edzai ( M Innocent), Innocent; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe}{+263716962973(O)\\+263786317488(O)\\0716 398 237(E)\\071 510 4200(E)}
+\Home{Marumisa}{Mahwada}{Innocent (B Gertrude) \& Tendai ( M Gertrude), Anotida, Mzk Karol; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe; (-17.18,29.34555) }{0717393631(I)\\0785223589(I)\\+263710268362(T)}
+\Home{Marumisa}{Mahwada}{Tarusvosva(B Sarah) \& Miriam(M Sarah), Rest; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe; (-17.17556,29.35304) }{0719040970(M)}
+\Home{Marumisa}{Mahwada}{Venencia(M Patience) \& Chamunorwa( B Patience), Takudzwa, Neddie; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe; (-29.35311,17.17494) }{+263714111007(V)\\0714151059(C)}
+\Home{Masanga}{Garangwe}{Martin( B Revai) \& Tazvisiya ( M Revai); c/o Garangwe Sch, Box 93, Magunje; (-16.76407,29.3581) }{0776 339 631(M)\\0777 623 479(T)}
+\Home{Muchemwa}{Hurungwe Contacts}{Baba Brett \& Monica(M Brett), Brett, Brian; 1674 Nyamunga 3, Kariba}{0733 416 036(BB)\\077 379 0690 (M)}
+\Home{Mukonoweshuro}{Hurungwe Contacts}{Vimbai; Village 3, Granermill Showgrounds Road. chinhoyi}{714091356}
+\Home{Muyemeki }{Hurungwe Contacts}{Evelyn; Magunje Baracks}{+263715828634}
+\Home{Muyemeki}{St.Brendans}{Sam \& Maria, Munyaradzi, Mazvita; Karoi; (-16.8484,29.71757) }{+26377 531 9392(S)\\+263772717414(M)}
+\Home{Nyamapfeka}{Tengwe}{Patricia(M Josie), Jose, Loice; Ruben Compound, Magomera Farm; (-17.21993,29.60703) }{0777663700(P)\\0715873350(J)}
+\Home{Nyamutowa }{Hurungwe Contacts}{Cynthia \& Collen, Collen; Garangwe Sch, PB 93, Magunje}{}
+\Home{Nyamutowa }{Hurungwe Contacts}{Ignatius; Karoi}{+263 78 741 6152}
+\Home{Nyamutowa}{Garangwe}{Edzai(M Precious), Mike, Knowledge, mzk Perfect; Garangwe Sch, PB 93, Magunje}{+263772662310(M)}
+\Home{Nyamutowa}{Garangwe}{Mirriam, Prosper, Polite, Pelagia, Patricia, Primrose; Garangwe Sch, PB 93, Magunje}{077 314 4687}
+\Home{Nyamutowa}{Garangwe}{Newface (B Igie) \& Anna (M Igie), Nelson, Tanatswa, Rutendo; Garangwe Sch, PB 93, Magunje; (-16.75622,29.34253) }{+263776 176 386(N)\\+263714870915(A)}
+\Home{Nyamutowa}{Garangwe}{Precious \& Violet(B \& M Mercy), Mercy; Garangwe school}{+263785858194(V)\\+263785508035(P)\\+263785868194(P)}
+\Home{Nyamutowa}{Hurungwe Contacts}{Mai Mhofu, Grace; St Brendans}{}
+\Home{Nziradzepatsva}{Garangwe}{Josephine, Jefrey; Garangwe Sch, PB 93, Magunje}{0777 744 081(MN)}
+\Home{Nziradzepatsva}{Garangwe}{Loreen; Garangwe Sch, PB 93, Magunje}{077 369 8372}
+\Home{Nziradzepatsva}{Garangwe}{Vachinjanja; Garangwe}{+263773290543}
+\Home{Nziradzepatsva}{Hurungwe Contacts}{Ambuya Aldrin, Aldrin; Garangwe Sch, PB 93, Magunje}{}
+\Home{Nziradzepatsva}{Hurungwe Contacts}{Biggie(B Munashe) \& Shorai(M Munashe), Nyasha, Munashe, Damaine; Garangwe Sch, PB 93, Magunje; (-16.76638,29.35791) }{0778 372 748(S)\\0776 078 197(B)}
+\Home{Nziradzepatsva}{Hurungwe Contacts}{July, Shingai, Dudzai; Garangwe Sch, PB 93, Magunje}{0716 038 993(J)}
+\Home{Nziradzepatsva}{Hurungwe Contacts}{Violet(M Sandra), Sandra; Farm 325, Vuti F/Box 374,Karoi; (-16.63541,29.47543) }{}
+\Home{Phiri}{Hurungwe Contacts}{Nyaradzai(M Blessed) \& Garikai(B Blessed), Blessed, Ishmael; Kushinga Pri Sch, Box 409, Magunge/Plot 3, St Brendan Rd}{077 462 7235\\077 583 0514}
+\Home{Piyoso}{Mahwada}{Chipo(M Fanie); Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe}{0714688036(C)}
+\Home{Saidi}{Garangwe}{John \& Clara (BM Kineria), Martin, Shamayne, vzk Tadiwanashe, Panashe; Garangwe Sch, PB 93, Magunje}{0778908477(C)\\0783388652(J)}
+\Home{Sibanda}{Mahwada}{Stella(M Prisca) \& Christopher(Prisca), Brenda, Given; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe; (-17.17476,29.34724) }{0715996081(C)}
+\Home{Takawira}{Vuti F}{Ignatius(B Lizzie) \& Pauline(M Lizzie), Lizzie, Lameck, Ruvimbo, Liberty; Ashton Farm; (-16.68871,29.54696) }{0777 363 637(P)\\0715 329508(P)\\0778 279 095(I)\\0717 218235(I)}
+\Home{Takawira}{Vuti F}{Lizzie (M Monica); Farm 325, Vuti F; Box 374, Karoi; (-16.6351970, 29.4752340) }{ +263776060645(Li)\\+263719060645(Li)}
+\Home{VaMadhlovu}{Hurungwe Contacts}{Eneless (VaMadhlovu); Garangwe Sch, PB 93, Magunje}{}
+\Home{Zaranyika}{Hurungwe Contacts}{Thandi(M Rosy) \& B, Rosy, Junior, Thomas, Patience; Mudzimu, Zaranyika Village}{+263788963415(T)\\+263713838977(T)}
+\Home{Zaranyika}{Mudzimu}{Voster(Baba Tinashe) \& Rosemary(Mai Tinashe), Vzk Alfred, Rosie; Chitiki Sch, PB 2012, Karoi; (-17.0897,29.27704) }{071 637 3424(R)\\078 352 4444(R)\\0775693297(V)\\0712132621(V)}
+\Home{Zingora}{Vuti F}{Mercy; }{078 228 5116}
+\Home{Zvinorova}{Jinga}{Edith(M Elisha), vzk: Tunga, Elisha, Joy, Charles, Samantha; Jinga Pri Sch, PB 724, Karoi; (-17.18849,29.27817) }{0780806654(E)\\0718914720(T)}\EndHomes
+\EndSection
+\MLDistrictH{Hurungwe}
+\MLMeetingH{Garangwe}
+\MLHome{Chipiri}{}{Ermina (M Tendai) \& Tizai(B Tendai), Tendai, Tobias, Roman, Alesha}
+\MLHome{Jaravaza}{All mtgs;Elder}{Renias(B Rudo) \& Anita(M Rudo)}
+\MLHome{Kapingautawa}{}{Plaxidias(M Tariro), Wilson, Mabande, Sharon, Arnold}
+\MLHome{Marikebo}{}{Gibson(B Mark) \& Martha(M Mark), Mark, Tawana, Rufaro}
+\MLHome{Masanga}{}{Martin( B Revai) \& Tazvisiya ( M Revai)}
+\MLHome{Nyamutowa}{}{Edzai(M Precious), Mike, Knowledge, mzk Perfect}
+\MLHome{Nyamutowa}{}{Mirriam, Prosper, Polite, Pelagia, Patricia, Primrose}
+\MLHome{Nyamutowa}{}{Newface (B Igie) \& Anna (M Igie), Nelson, Tanatswa, Rutendo}
+\MLHome{Nyamutowa}{}{Precious \& Violet(B \& M Mercy), Mercy}
+\MLHome{Nziradzepatsva}{}{Josephine, Jefrey}
+\MLHome{Nziradzepatsva}{}{Loreen}
+\MLHome{Nziradzepatsva}{}{Vachinjanja}
+\MLHome{Saidi}{}{John \& Clara (BM Kineria), Martin, Shamayne, vzk Tadiwanashe, Panashe}
+\MLMeetingH{Hurungwe Contacts}
+\MLHome{Bhunu}{}{Nyarai (M Blessed), Blessed}
+\MLHome{Bwanali }{}{Cephas (B Forget) \& Regerai (M Forget), Lea, Lucia, Tendai}
+\MLHome{Dekeya}{}{Kundai}
+\MLHome{Kamusapira}{}{mzk: Deon}
+\MLHome{Karikoga }{}{Ruvarashe(B Kudzi) \& Yocyline(M Kudzi), Kudzai}
+\MLHome{Makumbe}{}{Mercy(M Karima)}
+\MLHome{Marufu}{}{Tafadzwa}
+\MLHome{Marumisa}{}{Clefas( B Justice) \& Vaida( M Justice), Justice, Venencia, Silent}
+\MLHome{Marumisa}{}{Obey( B Innocent) \& Edzai ( M Innocent), Innocent}
+\MLHome{Muchemwa}{}{Baba Brett \& Monica(M Brett), Brett, Brian}
+\MLHome{Mukonoweshuro}{Mai shumi's daughter}{Vimbai}
+\MLHome{Muyemeki }{}{Evelyn}
+\MLHome{Nyamutowa}{}{Mai Mhofu, Grace}
+\MLHome{Nyamutowa }{}{Cynthia \& Collen, Collen}
+\MLHome{Nyamutowa }{}{Ignatius}
+\MLHome{Nziradzepatsva}{}{Ambuya Aldrin, Aldrin}
+\MLHome{Nziradzepatsva}{}{Biggie(B Munashe) \& Shorai(M Munashe), Nyasha, Munashe, Damaine}
+\MLHome{Nziradzepatsva}{}{July, Shingai, Dudzai}
+\MLHome{Nziradzepatsva}{}{Violet(M Sandra), Sandra}
+\MLHome{Phiri}{}{Nyaradzai(M Blessed) \& Garikai(B Blessed), Blessed, Ishmael}
+\MLHome{VaMadhlovu}{}{Eneless (VaMadhlovu)}
+\MLHome{Zaranyika}{}{Thandi(M Rosy) \& B, Rosy, Junior, Thomas, Patience}
+\MLMeetingH{Jinga}
+\MLHome{Zvinorova}{}{Edith(M Elisha), vzk: Tunga, Elisha, Joy, Charles, Samantha}
+\MLMeetingH{Kariba}
+\MLHome{Bhunu}{}{Bothwell}
+\MLHome{Dekeya}{}{Kudakwashe}
+\MLMeetingH{Mahwada}
+\MLHome{Mapopoto}{}{Mathew(B Anna) \& Judith (M Anna), Sharai, Simon, mzk Beshard}
+\MLHome{Marumisa}{All mtgs;Elder}{Innocent (B Gertrude) \& Tendai ( M Gertrude), Anotida, Mzk Karol}
+\MLHome{Marumisa}{}{Tarusvosva(B Sarah) \& Miriam(M Sarah), Rest}
+\MLHome{Marumisa}{}{Venencia(M Patience) \& Chamunorwa( B Patience), Takudzwa, Neddie}
+\MLHome{Piyoso}{}{Chipo(M Fanie)}
+\MLHome{Sibanda}{}{Stella(M Prisca) \& Christopher(Prisca), Brenda, Given}
+\MLMeetingH{Mudzimu}
+\MLHome{Zaranyika}{All mtgs;Elder}{Voster(Baba Tinashe) \& Rosemary(Mai Tinashe), Vzk Alfred, Rosie}
+\MLMeetingH{St.Brendans}
+\MLHome{Bhunu}{All mtgs;Elder}{Muputa (Baba Bhunu) \& Cyrene (M Bhunu)}
+\MLHome{Bhunu}{}{Silent \& Gretta(BM Mazvita), Mazvita}
+\MLHome{Gunguruve}{}{Mirriam(M Jelta), Jelta, Justice, Munashe, mzk Kupakwashe}
+\MLHome{Muyemeki}{}{Sam \& Maria, Munyaradzi, Mazvita}
+\MLMeetingH{Tengwe}
+\MLHome{Makumbe}{All mtgs;Elder}{John (B Felix) \& Esnath (M Felix), vzk Obey, Esnath}
+\MLHome{Makumbe}{}{Kudakwashe (B Tavonga) \& Sweeder(M Tavonga), Tavonga, Tinashe}
+\MLHome{Makumbe}{}{Peter \& Beatrice}
+\MLHome{Nyamapfeka}{}{Patricia(M Josie), Jose, Loice}
+\MLMeetingH{Vuti F}
+\MLHome{Dekeya}{}{Jephias(B Tadiswa) \& Gracious(M Tadiswa), Tadiswa, Jessika Mukundi}
+\MLHome{Takawira}{}{Ignatius(B Lizzie) \& Pauline(M Lizzie), Lizzie, Lameck, Ruvimbo, Liberty}
+\MLHome{Takawira}{All mtgs;Elder}{Lizzie (M Monica)}
+\MLHome{Zingora}{}{Mercy}
+\end{document}
