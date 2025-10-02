@@ -1,0 +1,247 @@
+\documentclass[english]{article}
+\title{Strand, Hermanus, Paarl, Worcester}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Arendolf}{Worcester}{Averil; 7 Truter St, Victoria Park, Worcester, 6850}{083 594 5314}
+\Home{Basson}{Gordons Bay}{Yvonne; Sea breeze Park, 2 Durmont Crescent, Gordon's Bay}{073 334 2854}
+\Home{Baumann}{Gordons Bay}{Elizabeth; 39 Mountainside Boulevard, Mountainside, Gordons Bay, 7140; P.O.Box 204, Strand 7139; liz3@telkomsa.net}{082 738 9425\\021 856 5493}
+\Home{Bezuidenhout}{Hermanus}{Joy; 153 Fynbos Retirement Village, Church Str, Hermanus, 7200; joybez78@gmail.com}{063 694 0015}
+\Home{Chauke}{SW Golden Acre}{Thabo; 33 Little Greece, 65 George street, Strand}{067 245 8519}
+\Home{Chiwara}{Gordons Bay}{Rumbidzai; Flat 406, Soterio complex, 147 Chicago avenue, Strand}{061 439 7273}
+\Home{Delport}{SW Morningside}{Dave \& Beverley; K2 Golf Beach, Greenways Golf Estate, Strand 7140; thesadelports@gmail.com, beverleydelport@yahoo.co.uk(B) }{071 254 8929(B)\\081 896 4600(D)}
+\Home{Du Plessis}{Pearl Valley}{Michelle, Jenna-Lee, Daniel, Michael; 241 Castles Pine Close, Pearl Valley Golf Estate, Paarl, 7646; michelle@countrysidesa.co.za(M) }{072 757 2727(M)}
+\Home{Du Plessis}{SW Morningside}{Willie; 7 Bergzicht Gardens, Fijnbos Close, Strand}{829589809}
+\Home{Du Toit}{Gordons Bay}{Armandus \& Elzet; 49 Strand Ridge, Vredenhoff Street ,Strand, 7140; armandusdutoit@gmail.com(A) }{076 117 4629(A)\\072 721 1515(E)}
+\Home{Dyason}{SW Golden Acre}{Dennis, Jesse; 18a Curlew Way, Somerset Ridge}{081 598 9196}
+\Home{Ellis}{Hermanus}{Mandi, Melanie, Jon; 4 Goshawk street, Auvergne Estate, Blue Crane Road, Vermont; mandi2ellis@gmail.com}{084 667 7874(M)\\084 555 5502(M)\\071 242 6812(J)}
+\Home{Faul}{Gordons Bay}{Boetie; 6 Devon Road, Gordons Bay, 7140; jwf@absamail.co.za(B) }{082 926 2431(B)}
+\Home{Faure}{SW Morningside}{Lyneth; 15 Summerwood Estate, Hoeveld Rd, Somerset West, 7129}{082 920 5615}
+\Home{Hartnick}{Pearl Valley}{Olivia \& John, Marco; 455 Sysie St, Amstelhof, Paarl, 7646; johnhartnick@hotmail.com}{076 873 7587\\021 862 4241}
+\Home{Hickley}{SW Morningside}{Alan \& Barbara, Joshua, Shaylynn; 8 Croft Close, Briza, Somerset West, 7130; alanhickley@gmail.com(A) , barbara.hickley@gmail.com(B) }{082 570 6454(A)\\081 258 9820(A)\\082 825 8777(B)}
+\Home{Hughes}{Gordons Bay}{Edward \& Desiree, Kyle; 23 Fleur Park, Gordons Bay}{0613636390(E)\\071 632 2712(D)}
+\Home{Jackson}{Pearl Valley}{Stephen \& Annemi, Roula, Lara, StephenJr; Colenso, Malmesbury, 7299; annemijackson@gmail.com(A) , stephenjackson@conergate.com(S) }{082 569 2220(S)\\072 103 9179(A)\\022 487 2047}
+\Home{Jacobs}{Worcester}{Lennie; 22 Martin St, Victoria Park, Worcester, 6850; leonardjacobs626@gmail.com}{076 688 0949}
+\Home{Jacobs}{Worcester}{Leonard; 22 Martin St, Victoria Park, Worcester, 6850}{061 828 0866\\023 347 0467}
+\Home{Jansen}{Worcester}{Leona; Awendrus Tehuis, Van Zyl str, Esselin Park, Worcester}{084 459 6827}
+\Home{Jansen}{Worcester}{Prudence; c/o Joseph Barnard}{746921523}
+\Home{January}{Worcester}{Hendry \& Mary-Ann, NicoJohn, Heinrich, Raydon, Cheslyn; 17 Martin Street, Victoria Park, Worcester, 6850}{0687523237(H)\\071 968 8120(M)}
+\Home{Langenegger}{SW Golden Acre}{Johann \& Christine; C119 Emerald Bay, Green Ways, Beach Rd, Strand; Postal Unit 4278,Greenways, Beach Rd, Strand 7140; jlang@wam.co.za(J) }{082 893 5744(J)\\066 201 5760(C)\\021 854 5220}
+\Home{Liebenberg}{Worcester}{Naomi; 15 Transvaal weg, Worcester Wes, 7200}{081 334 3829}
+\Home{Lomas}{Gordons Bay}{Marion; La Fontana, Buccaneer St, Unit 16, 36 Tony Crescent, Gordon’s Bay, 7140; marionlomas034@gmail.com}{072 434 7584\\021 856 2886}
+\Home{Lomas}{SW Morningside}{Madeleine; Room 11, Mountainview, 121 Lourensford Road, Somerset West; mh-lomas@futurenet.co.za}{}
+\Home{Marais}{SW Golden Acre}{Johan \& Vanessa, Ayla, Keren; 19 Ainsworth Crescent, Golden Acre, Somerset West, 7130; lomasvanessa@gmail.com(V) , johanperu@gmail.com(J) }{081 530 4342(J)\\083 678 7322(V)}
+\Home{Mgamera}{SW Golden Acre}{Blessing; Flat A10, Villa Arnolda, 8 Kleinbos Ave, Strand}{}
+\Home{Minnaar}{SW Golden Acre}{Robyn; 14 Suurbessie Street, Idas Valley, Stellenbosch}{073 642 4129}
+\Home{Ngamera}{SW Golden Acre}{Blessing; Flat A10 Villa arnoldo, 8 Kleinbos ave, Strand}{073 470 2643}
+\Home{Oosthuysen}{Pearl Valley}{Janice; Country Fair Oberin Broiler Farm, R312 Lichtenburg Road, Suid Agter Paarl, 7620; oostjc@gmail.com}{076 330 4643}
+\Home{Opie}{SW Morningside}{Valmae; 60 DeVelde, Block 6, DeBeers Avenue, Somerset West; valmaeo@gmail.com}{083 280 2953}
+\Home{Pieterse}{Worcester}{Adine, Hayley; 7 Truter St, Victoria Park, Worcester, 6850; adinesadonis@gmail.com}{079 525 6900}
+\Home{Posthumus}{SW Morningside}{Aimee \& David, Luke, Oliver; 4 Marula Close, Olive Grove, Somerset West; aimeedelport@hotmail.com}{081 484 1096}
+\Home{Potgieter}{SW Golden Acre}{Dené; 5 Verreweide rd, Universitas Oord, Stellenbosch}{078 154 1050}
+\Home{Robinson}{Worcester}{Bridgette; 22 Martin St, Victoria Park, Worcester, 6850; bridgetterobinson1@gmail.com}{064 807 6088}
+\Home{Rothmann}{Pearl Valley}{Wesley \& Larysha; 7 Optenhorst Mews, Lemoenkloof, Paarl, 7647; wesley.rothmann@gmail.com(W) , larysha.rothmann@gmail.com(L) }{072 308 8687(W)\\071 610 1370(L)}
+\Home{Samuels}{Gordons Bay}{Melchoir \& Carol; 99 10th Street, Strand, 7139}{072 797 1659(M)}
+\Home{Sauls}{Worcester}{Alicia, Merlize, Keelan; 104 Parker Street, Worcester}{082 559 3541(A)\\061 984 6313(M)}
+\Home{Snyder}{Pearl Valley}{Leslie \& Merle, Arron; 12 Stephanie Str, Uitsig, Wellington, 7635}{072 116 6063(L)\\021 873 7230}
+\Home{Stadler}{Hermanus}{Elsabé, Nicolene, Jolene; 12 Vader Visser Street , Sandbaai Hermanus, 7200}{079 112 1957}
+\Home{Swanepoel}{Pearl Valley}{Marcel \& Susan, Michael, Rachel; 243 Bear Creek Blvd, Pearl Valley Golf Estate, Paarl, 7646; marcels@grp1.co.za(M) , susan.pearlvalley@gmail.com(S) }{021 867 1095\\083 290 8014(M)\\082 824 8840(S) }
+\Home{Swellah}{SW Golden Acre}{Linette; c/o Marion Lomas}{084 717 1966}
+\Home{Van Niekerk}{Gordons Bay}{Delarey \& Theresa, Caleb, Erin; 4 De Ruyter Street, Strand, 7140}{0844848840(D)\\0799748495(T)\\021 853 6914}
+\Home{Van Niekerk}{SW Morningside}{Daan \& Mary Meiring; 8 Myrtle St, Morningside, Somerset West; meiringmary@vodamail.co.za(M) }{076 279 8557(M)\\072 178 6421(D)}
+\Home{Van Wyk}{Hermanus}{Jim \& Yvonne; 49 Protea Park, Bergsig St, Sandbaai, Hermanus, 7200; vanwykjjc@gmail.com(J) }{084 508 1726(J)\\073 411 8032(Y)}
+\Home{Van Wyk}{Pearl Valley}{Johan \& Barbara, D.J.; Farm Les Hirondelles, Tulbagh Weg; P.O. Box 339, Tulbagh, 6820; johan@airwavetech.co.za(J) , johanvanwy@gmail.com(J) , barbsvanwyk@gmail.com(B) }{082 859 9067(J)\\064 804 0407(J)\\082 856 8572(B)\\021 976 5190}
+\Home{Van der Merwe}{SW Morningside}{Vivienne \& Japie; 9 Dianthus Street, Heldervue, Somerset West; vdmerwe.vivienne@gmail.com}{016 971 2420\\082 566 6644(J)\\073 260 3479(V)}
+\Home{Van der Walt}{SW Morningside}{Ivan \& Fiona, Tyler, Leila; 11 Fiona Close, Somerset West}{082 573 1229(F)}
+\Home{Willard}{Hermanus}{David \& Monique; 1103 Hilton Circle, Pringle Bay; davewillard3@gmail.com(D) , willardmonique@gmail.com(M) }{082 442 8625(D)\\083 327 7411(M)}
+\Home{Willard}{SW Morningside}{Chanel; Unit 2231, Somerset Links, Jigger Street, Somerset West; cwillardinteriors@gmail.com}{084 580 1254}
+\Home{Williamson}{SW Morningside}{Elmarie; 208 Fagan St, Strand, Cape Town, 7139; elmarie.williamson@gmail.com}{082 309 6508\\021 853 5311}
+\Home{Wise}{Gordons Bay}{John \& Elna; 50 Helena Avenue, Somerset West; the6wise@gmail.com(J) }{079 529 1069(J)\\082 895 7326(E)}
+\Home{Wise}{Gordons Bay}{Johnathan; 50 Helena Avenue, Helena Heights, Somerset West; jnwise00@gmail.com}{072 376 5034}\EndHomes
+\EndSection
+\MLDistrictH{Strand, Hermanus, Paarl, Worcester}
+\MLMeetingH{Hermanus@10h30;Van Wyk, Jim}
+\MLHome{Bezuidenhout}{Wed}{Joy}
+\MLHome{Ellis}{}{Mandi, Melanie, Jon}
+\MLHome{Stadler}{}{Elsabé}
+\MLHome{Van Wyk}{SunAM,SunPM;Elder}{Jim \& Yvonne}
+\MLHome{Willard}{}{David \& Monique}
+\MLMeetingH{Gordons Bay;Wise, J @ Faul, B}
+\MLHome{Basson}{}{Yvonne}
+\MLHome{Baumann}{Wed}{Elizabeth}
+\MLHome{Chiwara}{}{Rumbidzai}
+\MLHome{Du Toit}{}{Armandus \& Elzet}
+\MLHome{Faul}{SunAM}{Boetie}
+\MLHome{Hughes}{}{Edward \& Desiree}
+\MLHome{Lomas}{}{Marion}
+\MLHome{Samuels}{}{Melchoir}
+\MLHome{Van Niekerk}{}{Delarey \& Theresa, Caleb, Erin}
+\MLHome{Wise}{Elder}{John \& Elna}
+\MLHome{Wise}{Wed}{Johnathan}
+\MLMeetingH{Pearl Valley;Swanepoel, M}
+\MLHome{Du Plessis}{Wed}{Michelle, Jenna-Lee, Daniel, Michael}
+\MLHome{Hartnick}{}{Olivia}
+\MLHome{Jackson}{}{Stephen \& Annemi, Roula, Lara, StephenJr}
+\MLHome{Oosthuysen}{}{Janice}
+\MLHome{Rothmann}{}{Wesley \& Larysha}
+\MLHome{Snyder}{}{Leslie}
+\MLHome{Swanepoel}{SunAM,SunPM;Elder}{Marcel \& Susan, Rachel}
+\MLHome{Van Wyk}{}{Johan \& Barbara, D.J.}
+\MLMeetingH{SW Golden Acre;Marais, J}
+\MLHome{Chauke}{}{Thabo}
+\MLHome{Dyason}{}{Dennis, Jesse}
+\MLHome{Langenegger}{Takes Sun pm}{Johann \& Christine}
+\MLHome{Marais}{SunAM,SunPM;Elder}{Johan \& Vanessa, Ayla, Keren}
+\MLHome{Mgamera}{}{Blessing}
+\MLHome{Minnaar}{}{Robyn}
+\MLHome{Ngamera}{}{Blessing}
+\MLHome{Potgieter}{}{Dené}
+\MLHome{Swellah}{}{Linette}
+\MLMeetingH{SW Morningside@10h30;Hickley, A @ Van Niekerk, D}
+\MLHome{Delport}{}{Dave \& Beverley}
+\MLHome{Du Plessis}{}{Willie}
+\MLHome{Faure}{}{Lyneth}
+\MLHome{Hickley}{Wed;Elder}{Alan \& Barbara, Joshua, Shaylynn}
+\MLHome{Lomas}{Cannot attend meetings}{Madeleine}
+\MLHome{Opie}{}{Valmae}
+\MLHome{Posthumus}{}{Aimee \& David, Luke, Oliver}
+\MLHome{Van der Merwe}{}{Vivienne \& Japie}
+\MLHome{Van der Walt}{}{Ivan \& Fiona, Tyler, Leila}
+\MLHome{Van Niekerk}{All mtgs}{Daan \& Mary Meiring}
+\MLHome{Willard}{}{Chanel}
+\MLHome{Williamson}{}{Elmarie}
+\MLMeetingH{Worcester;Jacobs, L @ Adonis, A}
+\MLHome{Arendolf}{}{Averil}
+\MLHome{Jacobs}{}{Lennie}
+\MLHome{Jacobs}{SunAM,SunPM;Elder}{Leonard}
+\MLHome{Jansen}{}{Leona}
+\MLHome{Jansen}{}{Prudence}
+\MLHome{January}{Wed}{Hendry \& Mary-Ann, Raydon, Cheslyn}
+\MLHome{Liebenberg}{}{Naomi}
+\MLHome{Pieterse}{}{Adine, Hayley}
+\MLHome{Robinson}{}{Bridgette}
+\MLHome{Sauls}{}{Alicia, Merlize, Keelan}
+\MLMeetingH{Ceres SunPM@17h00;Barnard, J}
+\MLHome{Jansen}{}{Prudence}
+\MLMeetingH{Gordons Bay S@17h00;Samuels, M}
+\MLHome{Basson}{}{Yvonne}
+\MLHome{Baumann}{Wed}{Elizabeth}
+\MLHome{Chiwara}{}{Rumbidzai}
+\MLHome{Du Toit}{}{Armandus \& Elzet}
+\MLHome{Faul}{SunAM}{Boetie}
+\MLHome{Hughes}{}{Edward \& Desiree}
+\MLHome{Lomas}{}{Marion}
+\MLHome{Samuels}{}{Melchoir}
+\MLHome{Wise}{Elder}{John \& Elna}
+\MLHome{Wise}{Wed}{Johnathan}
+\MLMeetingH{Hermanus SunPM@12h00;Van Wyk, Jim}
+\MLHome{Bezuidenhout}{Wed}{Joy}
+\MLHome{Ellis}{}{Mandi, Melanie, Jon}
+\MLHome{Stadler}{}{Elsabé}
+\MLHome{Van Wyk}{SunAM,SunPM;Elder}{Jim \& Yvonne}
+\MLHome{Willard}{}{David \& Monique}
+\MLMeetingH{Pearl Valley S;Trench, K @ Swanepoel, M}
+\MLHome{Du Plessis}{Wed}{Michelle, Jenna-Lee, Daniel, Michael}
+\MLHome{Hartnick}{}{Olivia}
+\MLHome{Rothmann}{}{Wesley \& Larysha}
+\MLHome{Snyder}{}{Leslie}
+\MLHome{Swanepoel}{SunAM,SunPM;Elder}{Marcel \& Susan, Rachel}
+\MLHome{Van Wyk}{}{Johan \& Barbara, D.J.}
+\MLMeetingH{SW Golden Acre S@18h00;Langenegger J @ Marais, J}
+\MLHome{Chauke}{}{Thabo}
+\MLHome{Dyason}{}{Dennis, Jesse}
+\MLHome{Langenegger}{Takes Sun pm}{Johann \& Christine}
+\MLHome{Marais}{SunAM,SunPM;Elder}{Johan \& Vanessa, Ayla, Keren}
+\MLHome{Mgamera}{}{Blessing}
+\MLHome{Minnaar}{}{Robyn}
+\MLHome{Ngamera}{}{Blessing}
+\MLHome{Potgieter}{}{Dené}
+\MLHome{Swellah}{}{Linette}
+\MLMeetingH{SW Morningside S@17h30;Hickley, A @ Van Niekerk, D}
+\MLHome{Delport}{}{Dave \& Beverley}
+\MLHome{Du Plessis}{}{Willie}
+\MLHome{Faure}{}{Lyneth}
+\MLHome{Hickley}{Wed;Elder}{Alan \& Barbara, Joshua, Shaylynn}
+\MLHome{Lomas}{Cannot attend meetings}{Madeleine}
+\MLHome{Opie}{}{Valmae}
+\MLHome{Posthumus}{}{Aimee \& David, Luke, Oliver}
+\MLHome{Van der Merwe}{}{Vivienne \& Japie}
+\MLHome{Van der Walt}{}{Ivan \& Fiona, Tyler, Leila}
+\MLHome{Van Niekerk}{All mtgs}{Daan \& Mary Meiring}
+\MLHome{Willard}{}{Chanel}
+\MLHome{Williamson}{}{Elmarie}
+\MLMeetingH{Worcester S@17h00;January, H @ Jacobs, L}
+\MLHome{Arendolf}{}{Averil}
+\MLHome{Jacobs}{}{Lennie}
+\MLHome{Jacobs}{SunAM,SunPM;Elder}{Leonard}
+\MLHome{Jansen}{}{Leona}
+\MLHome{January}{Wed}{Hendry \& Mary-Ann, Raydon, Cheslyn}
+\MLHome{Liebenberg}{}{Naomi}
+\MLHome{Pieterse}{}{Adine, Hayley}
+\MLHome{Robinson}{}{Bridgette}
+\MLHome{Sauls}{}{Alicia, Merlize, Keelan}
+\MLMeetingH{Ceres WedPM@17h30;Barnard, J}
+\MLHome{Jansen}{}{Prudence}
+\MLMeetingH{Gordons Bay W@10h00;Faul, B @ E Baumann}
+\MLHome{Basson}{}{Yvonne}
+\MLHome{Baumann}{Wed}{Elizabeth}
+\MLHome{Faul}{SunAM}{Boetie}
+\MLHome{Hughes}{}{Edward \& Desiree}
+\MLHome{Lomas}{}{Marion}
+\MLHome{Wise}{Elder}{John \& Elna}
+\MLMeetingH{Helena Heights WedPM@19h30;Johnathan Wise}
+\MLHome{Chauke}{}{Thabo}
+\MLHome{Chiwara}{}{Rumbidzai}
+\MLHome{Du Toit}{}{Armandus \& Elzet}
+\MLHome{Dyason}{}{Dennis, Jesse}
+\MLHome{Marais}{SunAM,SunPM;Elder}{Johan \& Vanessa, Ayla, Keren}
+\MLHome{Mgamera}{}{Blessing}
+\MLHome{Ngamera}{}{Blessing}
+\MLHome{Samuels}{}{Melchoir}
+\MLHome{Swellah}{}{Linette}
+\MLHome{Wise}{Wed}{Johnathan}
+\MLMeetingH{Hermanus WedPM \#1@18h00;Van Wyk, Jim @ Bezuidenhout, J}
+\MLHome{Bezuidenhout}{Wed}{Joy}
+\MLHome{Ellis}{}{Mandi, Melanie, Jon}
+\MLHome{Stadler}{}{Elsabé}
+\MLHome{Van Wyk}{SunAM,SunPM;Elder}{Jim \& Yvonne}
+\MLMeetingH{Hermanus WedPM \#2@19h30;Strydom, F}
+\MLHome{Willard}{}{David \& Monique}
+\MLMeetingH{Pearl Valley W@19h30;Du Plessis, M}
+\MLHome{Du Plessis}{Wed}{Michelle, Jenna-Lee, Daniel, Michael}
+\MLHome{Hartnick}{}{Olivia}
+\MLHome{Rothmann}{}{Wesley \& Larysha}
+\MLHome{Snyder}{}{Leslie}
+\MLHome{Swanepoel}{SunAM,SunPM;Elder}{Marcel \& Susan, Rachel}
+\MLHome{Van Wyk}{}{Johan \& Barbara, D.J.}
+\MLMeetingH{SW Morningside WedAM@10h00;Delport, D @ Van Niekerk, D}
+\MLHome{Delport}{}{Dave \& Beverley}
+\MLHome{Du Plessis}{}{Willie}
+\MLHome{Opie}{}{Valmae}
+\MLHome{Van der Merwe}{}{Vivienne \& Japie}
+\MLHome{Van Niekerk}{All mtgs}{Daan \& Mary Meiring}
+\MLMeetingH{SW Morningside WedPM@19h30;Hickley, A}
+\MLHome{Faure}{}{Lyneth}
+\MLHome{Hickley}{Wed;Elder}{Alan \& Barbara, Joshua, Shaylynn}
+\MLHome{Langenegger}{Takes Sun pm}{Johann \& Christine}
+\MLHome{Minnaar}{}{Robyn}
+\MLHome{Posthumus}{}{Aimee \& David, Luke, Oliver}
+\MLHome{Potgieter}{}{Dené}
+\MLHome{Van der Walt}{}{Ivan \& Fiona, Tyler, Leila}
+\MLHome{Willard}{}{Chanel}
+\MLHome{Williamson}{}{Elmarie}
+\MLMeetingH{Worcester W@16h00;January, H}
+\MLHome{Arendolf}{}{Averil}
+\MLHome{Jacobs}{}{Lennie}
+\MLHome{Jacobs}{SunAM,SunPM;Elder}{Leonard}
+\MLHome{Jansen}{}{Leona}
+\MLHome{January}{Wed}{Hendry \& Mary-Ann, Raydon, Cheslyn}
+\MLHome{Liebenberg}{}{Naomi}
+\MLHome{Pieterse}{}{Adine, Hayley}
+\MLHome{Robinson}{}{Bridgette}
+\MLHome{Sauls}{}{Alicia, Merlize, Keelan}
+\end{document}
