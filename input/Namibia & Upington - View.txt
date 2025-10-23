@@ -1,0 +1,100 @@
+\documentclass[english]{article}
+\title{Namibia \& Upington}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Bezuidenhoudt}{Okahandja}{Leonie \& Kobus; Bellevue Villa Erf 06-16, Osona Village.; leonora.engelbrecht@gmail.com(L) }{081 363 8020}
+\Home{Coetzee}{Upington}{Lien; c/o Susan Smith. Plot, Jooste Eiland pad}{083 555 9080}
+\Home{Diergaardt}{Windhoek Khomasdal}{Elizabeth, Micaelo, Chrizano; Windhoek}{+264813411635(E)}
+\Home{Du Plessis}{Okaruaku}{André; Plaas “Okaruaku”; Posbus 518, Windhoek; alaskafarming@iway.na}{081 122 1402\\062 56 1434}
+\Home{Du Preez}{Okahandja}{Rika; 580 Vierde lane, Okahandja; Posbus 719, Okahandja; tyka@mweb.com.na}{062 50 1247\\081 128 1247}
+\Home{Havemann}{Swakopmund}{Marjan; W/s 31, On the Beach, Sandpiper Rd, Swakopmund; Posbus 1633, Swakopmund; 100343h@iway.na}{064 40 0005\\081 246 6433}
+\Home{Huisamen}{Swakopmund}{Helmon \& El-Selene; 5079 Omumborombonga Street, Swakopmund; Posbus 80743, Olympia; helmon@iway.na(H) , elseleneh@gmail.com(E) }{061 401 149 H/F\\081 124 7701(H)\\081 207 4880(E)}
+\Home{Jansen}{Upington}{Alicia; 9 Kalsium Street, Belview, Upington, 8801; ajansen198361@gmail.com}{062 589 0682}
+\Home{Jansen}{Upington}{Johnny \& Laurika, Ava, Leoniece; 9 Kalsium Street, Belview, Upington, 8801; Posbus 2129, Upington, 8800}{061 364 0464(J)\\061 813 0802(J)}
+\Home{Januarie}{Windhoek Senior Park}{Meleney, Jean-Claude, Damian, Tayla; 26 Villa Manzi, Sesriem street, Kleine Kuppe; Posbus 5751, Ausspannplatz; meleney@nampharm.com.na}{081 424 8149(M)}
+\Home{Kurz}{Otjiwarongo}{Emil \& Katie, Mercy, Monalisa; 1 Werf street, Otjiwarongo; Posbus 1241, Otiwarongo; emkurz@iway.na(E) }{067 30 4512 H\\081 127 7910(E)\\067307449 Fax\\081 2754454(Me)}
+\Home{Landsberg}{Aggeneys}{Adrian; 43 Pima Street, Aggeneys, 8893; PO Box 343, Aggeneys, 8893.; (-29.2369250, 18.8401330) }{073 170 0483(A)\\054 972 9712H}
+\Home{Louw}{Walvisbaai}{Joey \& Desmond, Lemise \& Zandré; 74 Neptune Street, Narraville, Walvisbaai.}{081 694 1495(D)\\081 441 3949(J)}
+\Home{Louw}{Windhoek Senior Park}{Deon \& Tania, Lauren; 2 Uhland Heights, Kenneth Kaunda street, Windhoek; Posbus 3934, Vineta; deonlo@yahoo.na}{081 272 6116(D)\\081 154 6600(D)\\081 229 6196(T)}
+\Home{Louw}{Windhoek Senior Park}{Piet; 20 Potgieter Street, Pioneers Park, Windhoek, Namibia, Senior Park, M2}{081 240 2669}
+\Home{Nell}{Aggeneys}{Natalie, Tyrick; 43 Pima Street, Aggeneys, 8893; PO Box 343, Aggeneys, 8893; natalien82@gmail.com; (-29.2369250, 18.8401330) }{082 433 8810(N)}
+\Home{Nel}{Upington}{Jan \& Julia; 31 Augrabies Str, Upington, 8800; (G6XR+JJQ Upington, South Africa) }{066 030 1322(JA)\\071 563 0888(JU)}
+\Home{Opperman}{Upington}{Wieks; Belle Rio Lifestyle Estate. 1 Louisvale Rd. Upington 8801; wieks.opperman@gmail.com; (-28.4416350, 21.2749340) }{+2763 212 2886}
+\Home{Opperman}{Windhoek Senior Park}{Danie; Plaas Arm 356, Okahandja}{081 605 1946}
+\Home{Pieterse}{Windhoek Khomasdal}{Brian \& Anita; 346 Hydra street, Dorado Park; Posbus 5751, Ausspannplatz; brianp019@gmail.com}{081 424 0495}
+\Home{Pieterse}{Windhoek Senior Park}{Lorna; 20 Potgieter Street, Pioneers Park, Windhoek, Namibia, Senior Park, Unit O1; Posbus 5751, Ausspannplatz; perlon@iway.na}{061 30 7703\\081 346 4604}
+\Home{Pottie}{NAM Contacts}{Eldon \& Claire, Liam; Outside Windhoek; eldonpottie@gmail. com(E) , clairewestcott@webmail.co.za(C) }{+264 81 574 0278(E)\\+264 81 466 0734(C)\\073 937 2173(C)}
+\Home{Schwartz}{Windhoek Khomasdal}{Sophia; c/o 271 Chrisopraas Street, Khomasdal, Windhoek, Namibia}{081 222 8202(So)}
+\Home{Schwartz}{Windhoek Khomasdal}{Susan; 20 Florence Nightingale, Windhoek, Namibia; Posbus 8378, Bachbrecht}{081 875 5533(Su)}
+\Home{Shand}{Windhoek Khomasdal}{Trevor \& Marlene, Joshua, Jesse; 271 Chrisopraas Street, Khomasdal, Windhoek, Namibia; Posbus 8378, Bachbrecht; trevor.shand25@gmail.com(T) }{081 145 8365(T)\\M081 294 4314(M)}
+\Home{Smith}{Upington}{Susan \& Sakkie, Sakkie jr; Plot, Jooste Eiland pad.; Posbus 1441, Upington, 8800; (G6CQ+PF7 Upington, South Africa) }{054 334 0047H\\084 586 6711(Su)}
+\Home{Strämke}{Okahandja}{Ansie \& Max; 335 Hoogenhout street, Okahandja; Posbus 55, Okahandja; anja@iafrica.com.na}{062 50 1459\\081 245 4854(A)}
+\Home{Swartz}{Windhoek Senior Park}{Katie; 4 Easton Court, 954 Nelson Mandela Ave; Posbus 5725, Ausspanplatz; katieswartz30@gmail.com}{081 837 2901(K)}
+\Home{Swart}{Kunene River Lodge}{Leon \& Hannetjie; Kunene River Lodge; 2leonswart@gmail.com(L) , leonswart@gecko.na(L) }{081 144 8144(L)\\081  661 5657(H)}
+\Home{Van Heerden}{NAM Contacts}{Eduard; }{}
+\Home{Van Heerden}{Walvisbaai}{Danie \& Jeanette, Daniella; 2de Straat Noord no 35; Posbus 1206, Walvisbaai}{081 646 1522}
+\Home{Van Heerden}{Windhoek Khomasdal}{Wilma; Farm Ombuindja; wilmavanheerden73@gmail.com; (-22.2825490, 16.9091940) }{081 393 9663}
+\Home{Van Wyk}{Walvisbaai}{Chet \& Zuzette, Timiica; 17 Protea Street, Walvis Bay; Posbus 3941, Walvisbaai; chet.vanwyk@icloud.com(C) }{081 124 2077(C)\\081 388 8430(S)}
+\Home{Van Wyk}{Windhoek Khomasdal}{Christopher; Lazarette House. Unit 5. Julius K Nyerere Street, Windhoek}{}
+\Home{Van der Nest}{NAM Contacts}{Bruce; Unit 12, Rautenburg Estates, Rautenbach Street, Klein Windhoek, Windhoek; PO Box 11360, Klein Windhoek, Windhoek, 11009; brucenjanet@gmail.com}{063274523 H\\811223545}
+\Home{Van der Walt}{Windhoek Khomasdal}{Stephanie; 74 Mosé Tjitendero street, Olympia, Windhoek, Namibia; Posbus 518, Windhoek; svdw@iway.na}{081 124 6252}
+\Home{Van der Walt}{Windhoek Senior Park}{Eddie; 20 Potgieter Street, Pioneers Park, Windhoek, Namibia, Senior Park, B4; Posbus 518, Windhoek}{081 351 6779}
+\Home{Vries}{Rehoboth}{Kynan \& Nadine, Aiden, Kadene, Lillian; Erf 458 block A, Rehoboth; Posbus 3360, Rehoboth; (M3PJ+GJQ Rehoboth, Namibia) }{+264 81 641 5999(K)}\EndHomes
+\EndSection
+\MLDistrictH{Namibia \& Upington}
+\MLMeetingH{Aggeneys}
+\MLHome{Landsberg}{}{Adrian}
+\MLHome{Nell}{}{Natalie, Tyrick}
+\MLMeetingH{Kunene River Lodge}
+\MLHome{Swart}{All mtgs;Elder}{Leon \& Hannetjie}
+\MLMeetingH{NAM Contacts}
+\MLHome{Pottie}{}{Eldon \& Claire, Liam}
+\MLHome{Van der Nest}{}{Bruce}
+\MLHome{Van Heerden}{}{Eduard}
+\MLMeetingH{Okahandja}
+\MLHome{Bezuidenhoudt}{}{Leonie \& Kobus}
+\MLHome{Du Preez}{}{Rika}
+\MLHome{Strämke}{}{Ansie \& Max}
+\MLMeetingH{Otjiwarongo}
+\MLHome{Kurz}{}{Emil \& Katie, Mercy, Monalisa}
+\MLMeetingH{Rehoboth}
+\MLHome{Vries}{}{Kynan \& Nadine, Aiden, Kadene, Lillian}
+\MLMeetingH{Swakopmund}
+\MLHome{Havemann}{SunAM,SunPM}{Marjan}
+\MLHome{Huisamen}{Wed;Elder}{Helmon \& El-Selene}
+\MLMeetingH{Upington}
+\MLHome{Coetzee}{}{Lien}
+\MLHome{Jansen}{}{Alicia}
+\MLHome{Jansen}{}{Johnny \& Laurika, Ava, Leoniece}
+\MLHome{Nel}{All mtgs;Elder}{Jan \& Julia}
+\MLHome{Opperman}{}{Wieks}
+\MLHome{Smith}{}{Susan \& Sakkie, Sakkie jr}
+\MLMeetingH{Walvisbaai}
+\MLHome{Louw}{}{Joey \& Desmond, Lemise \& Zandré}
+\MLHome{Van Heerden}{}{Danie \& Jeanette, Daniella}
+\MLHome{Van Wyk}{}{Chet \& Zuzette, Timiica}
+\MLMeetingH{Windhoek Senior Park}
+\MLHome{Januarie}{}{Meleney, Jean-Claude, Damian, Tayla}
+\MLHome{Louw}{}{Deon \& Tania, Lauren}
+\MLHome{Louw}{}{Piet}
+\MLHome{Opperman}{}{Danie}
+\MLHome{Pieterse}{}{Lorna}
+\MLHome{Swartz}{}{Katie}
+\MLHome{Van der Walt}{All mtgs;Elder}{Eddie}
+\MLMeetingH{Okaruaku}
+\MLHome{Du Plessis}{}{André}
+\MLMeetingH{Windhoek Khomasdal}
+\MLHome{Diergaardt}{}{Elizabeth, Micaelo, Chrizano}
+\MLHome{Pieterse}{Elder}{Brian \& Anita}
+\MLHome{Schwartz}{}{Sophia}
+\MLHome{Schwartz}{}{Susan}
+\MLHome{Shand}{Elder}{Trevor \& Marlene, Joshua, Jesse}
+\MLHome{Van der Walt}{}{Stephanie}
+\MLHome{Van Heerden}{}{Wilma}
+\MLHome{Van Wyk}{}{Christopher}
+\end{document}
