@@ -1,0 +1,25 @@
+\documentclass[english]{article}
+\title{OT Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Engelbrecht}{OT Contacts}{Fransiena; Plot 108, Townlands Gobabis, Plaas Hanfra; Posbus 257, Gobabis}{081 438 8423(F)}
+\Home{Linde}{OT Contacts}{Kosie; Plaas “Lindehof”; Posbus 160, Outjo}{067 31 3808}
+\Home{Louw}{OT Contacts}{Anthony; }{081 230 3205}
+\Home{Murambinda}{OT Contacts}{Dephine; Moved to Namibia}{ '+264 818 570463}
+\Home{Pieterse}{OT Contacts}{Lester; c/o Lester\&Shireen Pieterse. 1115 Omdongab Road, Kleine Kuppe, Windhoek, Namibia; Posbus 401, Windhoek; alletec@mweb.com.na}{081 686 8407}
+\Home{Titus}{OT Contacts}{Mercia, Thomas, Rose, Timmalena; 1 Werf street, Otjiwarongo; Posbus 1241, Otiwarongo}{081 244 9627(M)}\EndHomes
+\EndSection
+\MLDistrictH{OT Admin}
+\MLMeetingH{OT Contacts}
+\MLHome{Engelbrecht}{}{Fransiena}
+\MLHome{Linde}{}{Kosie}
+\MLHome{Louw}{}{Anthony}
+\MLHome{Murambinda}{}{Dephine}
+\MLHome{Pieterse}{}{Lester}
+\MLHome{Titus}{}{Mercia, Thomas, Rose, Timmalena}
+\end{document}
