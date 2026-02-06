@@ -1,0 +1,51 @@
+\documentclass[english]{article}
+\title{FS Admin}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Adamson}{FS Contacts}{Melissa \& Steven, Adrianna; 29 Madeliefie lane, Kimberley, 8301}{053 874 2327}
+\Home{Bester}{FS Contacts}{Gerhard \& Amanda; Frankdale Farm, Prieska; besters@wam.co.za(G) }{084 245 8651(G)\\083 391 3845(A)}
+\Home{Botha}{FS Contacts}{Elizma; 79 Peter Ewertse Rd, Ashbury, Bloemfontein, 9323, South Africa; Anthony Hodgkinson sent message 17 Feb}{}
+\Home{Dunn}{FS Contacts}{Bernie; 67 Brand Street, Ficksburg, 9730}{072 220 5847}
+\Home{Herion}{FS Contacts}{Cecil \& Hester; 2 Tarragona, Dolf van Niekerk Street, Langenhoven Park, Bloemfontein}{082 584 7330(C)}
+\Home{Janse van Vuuren}{FS Contacts}{Annelie; Ridgewood Nr 1, Blinkblaar rd, Woodland Hills Estate, Bloemfontein, 9301; annelie.vanvuuren@gmail.com, vanvuurenwors@gmail.com}{074 227 7462}
+\Home{Jansen}{FS Contacts}{Alicia; 9 Kalsium Street, Belview, Upington, 8801; ajansen198361@gmail.com}{062 589 0682}
+\Home{Langenhoven}{FS Contacts}{Ruben; 28 Krygs way, Fleurdal, Bloemfontein, 9301; Anthony Hodgkinson sent message 17 Feb; louisanru@gmail.com}{076 161 6167(R)}
+\Home{Liebenberg}{FS Contacts}{Betta; Bella Rio ouetehuis, Louisvale}{}
+\Home{Mannel}{FS Contacts}{Lorinda; moved to De Aar}{}
+\Home{Matthews}{FS Contacts}{Sheldon \& Elma; 196 Raymond Mhlaba rd, Noordhoek, Bloemfontein}{083 666 1412}
+\Home{Moffat}{FS Contacts}{Roger \& Adri, Robin, Duncan; 25 Leiden st, Noordhoek, Bloemfontein, 9301; moffatadri@gmail.com(A) , rogera340@gmail.com(R) }{082 375 3601(R)\\084 403 4880(A)\\072 199 0542(Rob)\\066 200 8891(D)}
+\Home{Mokhosi}{FS Contacts}{Fusi; House 3595, Moemaneng, Marquard 9610; fusim2@sparta.c.za}{074 380 3994}
+\Home{O'Brien}{FS Contacts}{Jolynn; 29 Leeubekkie rd, Heidedal, Bloemfontein, 9306; Anthony Hodgkinson sent message 17 Feb; joseh.obrien@gmail.com}{079 120 5178(JY)}
+\Home{Oosthuizen}{FS Contacts}{Keenan; 5 Mont Aux Sources rd, Carters Glen, Kimberley, 8301}{079 459 7504}
+\Home{Van Der Merwe}{FS Contacts}{Pieter \& Elaine; Reitz}{076 472 0666(P)\\084 512 0656(E)}
+\Home{Van Zuydam}{FS Contacts}{Pieter \& Barbara; Morning Glory farm, near Bethlehem; (28o15’41.3”S; 28o09’45.7”E) }{076 531 3113(B)}
+\Home{Visagie}{FS Contacts}{Elistina, Riaan; 13 Iris way, Odendaalsrus, 9480; elistinav@gmail.com}{057 398 1957H\\062 712 5817(E)}
+\Home{Young}{FS Contacts}{Evelyn; contact Robbie Young or Eddie W}{}\EndHomes
+\EndSection
+\MLDistrictH{FS Admin}
+\MLMeetingH{FS Contacts}
+\MLHome{Adamson}{}{Melissa \& Steven, Adrianna}
+\MLHome{Bester}{}{Gerhard \& Amanda}
+\MLHome{Botha}{}{Elizma}
+\MLHome{Dunn}{}{Bernie}
+\MLHome{Herion}{}{Cecil \& Hester}
+\MLHome{Janse van Vuuren}{}{Annelie}
+\MLHome{Jansen}{}{Alicia}
+\MLHome{Langenhoven}{Wed}{Ruben}
+\MLHome{Liebenberg}{}{Betta}
+\MLHome{Mannel}{removed from Sarah Mannel's home}{Lorinda}
+\MLHome{Matthews}{}{Sheldon \& Elma}
+\MLHome{Moffat}{Wed}{Roger \& Adri, Robin, Duncan}
+\MLHome{Mokhosi}{}{Fusi}
+\MLHome{O'Brien}{}{Jolynn}
+\MLHome{Oosthuizen}{}{Keenan}
+\MLHome{Van Der Merwe}{}{Pieter \& Elaine}
+\MLHome{Van Zuydam}{}{Pieter \& Barbara}
+\MLHome{Visagie}{}{Elistina, Riaan}
+\MLHome{Young}{}{Evelyn}
+\end{document}
