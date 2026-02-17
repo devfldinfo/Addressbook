@@ -1,0 +1,423 @@
+\documentclass[english]{article}
+\title{Gqeberha and District}
+\author{}
+\usepackage{addressbook1}
+\begin{document}
+\maketitle
+\clearpage
+\pagenumbering{arabic}
+\CSNormal
+\Home{Adkins}{Bethelsdorp SunAM}{Felecia; 21 Coral Rd, Booysens Park}{061 489 3696(F)}
+\Home{Alexander}{Bethelsdorp SunAM}{Ernest; 198 Lingelihle Rd, Timothy Valley, Booysen Park, Gqeberha 6001}{078 182 2830}
+\Home{Alexander}{Humansdorp SunAM}{Recardo \& Bernita, Joah; 27 Kemp Street, Humansdorp, 6300; recardoe.a01@gmail.com(R) }{081 793 6305(R)}
+\Home{Bailey}{Gelvandale SunAM}{Melanie \& Russel, Jaxon; 27 Byron Road, Kensington, Gqeberha; melanievalayden@hotmail.co.za}{073 409 9597}
+\Home{Barkhuysen}{Van der Stel SunAM}{Monrae \& Letisia; 33 Kiewietjie St, Cotswold Ext, Gqeberha. 6045; monraetc1@gmail.com}{083 645 1639(L)\\072 486 8301(M)}
+\Home{Barnard}{Mill Park SunAM (113 Westview drive)}{Joey; 21 Vosges Avenue, Lorraine, Gqeberha 6070}{072 144 3847}
+\Home{Beadon}{Mill Park SunAM (113 Westview drive)}{Roger, Kyle, Bryce; Addo's White House, Rietfontein Way, Sunland, Addo, 6105; rotarog@gmail.com; (-33.513905,25.637928) }{042 234 0666H\\074 697 4711(R)}
+\Home{Bekker}{Kabega Park SunAM}{Elsabie; 8 Charleroi Str, Kabega Park, Gqeberha, 6025; elsabie.b@gmail.com}{083 481 0045}
+\Home{Bernardo}{Bethelsdorp SunAM}{Ronald, Yolande, Ronaldo; 181 France Crescent, Timothy Valley, Booysen Park, Bethelsdorp, Gqeberha, 6059}{062 935 2182(R)\\073 662 1307(Y)}
+\Home{Bezuidenhout}{Kariega - Minnaar SunAM}{Corene \& Hannes; 4 Fremantle Street, Vanes Estate, Kariega, 6229}{078 711 5082(C)}
+\Home{Botha\_Humansdorp}{Humansdorp SunAM}{Nicolene \& Gavin, Alex-Zander, Zayne-Paul; 8 Hugo St, Humansdorp; nicolenebotha44@gmail.com}{0837594436(N)}
+\Home{Botha\_PE}{Mill Park SunAM (113 Westview drive)}{Nicolene; 21 Riverwoods Complex, 262 Church Road, Walmer, 6065}{063 747 7261(N)}
+\Home{Botha}{Walmer SunAM}{Gerard \& Ilze, Luke; 5 5th Ave, Walmer, Gqeberha 6070; ncinciqala@gmail.com(G) , ia.botha78@gmail.com(I) }{0833257498(G)\\0823396038(I)}
+\Home{Brown}{Bethelsdorp SunAM}{Emily; 36 Soudien Rd, Bethelsdorp, Gqeberha. 6059}{}
+\Home{Buys}{Bethelsdorp SunAM}{Tarryn \& Brian, Brooklyn, Tylor, Tashnique; 7 Heber st. Ext 36, Bethelsdorp, Gqeberha}{071 087 4658(T)}
+\Home{Carelse}{Jeffreys Bay SunAM}{Susan; 8 Sandpiper, 2 Sandpiper Ave, Aston Bay, Jeffreys Bay, 6332}{084 278 0650}
+\Home{Claassen}{Gelvandale SunAM}{Lilian; 141 Avalon Crescent, Gelvandale, Gqeberha. 6020}{069 528 6036}
+\Home{Clark}{Bethelsdorp SunAM}{Anseley, Euan, Astrid; 14898 Marakana, Ext 11 \& 12, Booysens Park, Gqeberha, 6059; (-33.843921,25.453917) }{078 092 7046(A)\\067 263 1133 (E)}
+\Home{Conradie}{Rowallan Park SunAM}{Quintus \& Simoné, Berto, Stefan; 8 Van Riebeeck Rd, Westering, Gqeberha 6015; P.O. Box 19282, Linton Grange, 6015; sconradie87@gmail.com(S) , quintysfreedom@gmail.com}{041 360 2548\\0835436928(Q)\\071 821 4033(S)}
+\Home{Conradie}{Van der Stel SunAM}{Dezney; 8 Van Riebeeck Rd, Westering, Gqeberha. 6015; P.O. Box 19282, Linton Grange, 6015; conradietransport@telkomsa.net}{083 266 5687}
+\Home{Dedaa}{Kensington}{Faith, Morné, Jason; 32 Pringle Road, Kensington, Gqeberha., 6001}{071 535 0555}
+\Home{Delport}{Jeffreys Bay SunAM}{Anetjie; c/o Rouen Delport; bendelport@gmail.com}{636863704}
+\Home{Delport}{Jeffreys Bay SunAM}{Rouen \& Joey, Micayla, Devon; 15 Dresden St, Jeffreys Bay, 6330}{067 330 2738(R)\\071 435 5435(J)}
+\Home{Du Bois}{Kabega Park SunAM}{Jan \& Joan; 17 Glenroy Estate, Glen Roy Drive, Glen Roy Park; joandb13@gmail.com(Jo) ; (-33.956240,25.500610) }{083 722 6807(Ja)\\079 492 2012(Jo)}
+\Home{Dyason}{Walmer SunAM}{Winston; 29 Robinvale, Verdun road, Lorraine, Gqeberha, 6070}{071 439 9292}
+\Home{Ferreira}{Kariega - Herion SunAM}{Paula; Rosa Munch Ouetehuis, 10 Victoria Straat, Kariega; pf181404@gmail.com}{060 783 0871\\073 846 6815}
+\Home{Geldenhuys}{Kensington}{Neil \& Belynda, Lyndin; 64 Connaught Ave, Kensington, Gqeberha, 6001; neilgeld@gmail.com(N) , belyndajordan@gmail.com(B) }{082 853 8514(N)\\083 770 3366(B)}
+\Home{Gerber}{Rowallan Park SunAM}{Edward; 64 Marina Rd, Clarendon Marine, Gqeberha. 6070; starfield.e@gmail.com}{082 390 7846}
+\Home{Gilbert}{Kabega Park SunAM}{Wendy \& Shaun; 17 Timothy Avenue, Broadwood, Gqeberha, 6070; wendymatthews49@gmail.com}{084 266 2444}
+\Home{Gowar}{Mill Park SunAM (113 Westview drive)}{Johan \& Rose; 258 Greenacres Village 11, Rochelle Rd, Greenacres, Gqeberha, 6057; johanggowar@gmail.com(J) , rosegowar@gmail.com(R) , thegowars@pemail.co.za(practice)}{060 444 8061(J)\\083 290 2538(R)}
+\Home{Gowar}{Mill Park SunAM (113 Westview drive)}{Matthew; 258 Greenacres Village 11, Rochelle Rd, Greenacres, Gqeberha, 6057; mattogowar@gmail.com}{063 452 7693}
+\Home{Grootboom}{Gelvandale SunAM}{Andrew, Daniella, Elizabeth-Ann, Raylene; 133 Bell Road, Gelvandale, Gqeberha., 6020}{063 315 4751(A)\\084 095 2692(D)}
+\Home{Grootboom}{Rowallan Park SunAM}{Beryl, Melinda, Sylvia; 14 Rudman Rd, Rowallan Park, Gqeberha. 6025; berylgrootboom5@gmail.com}{067 288 9225(B)\\060 493 3072(M)}
+\Home{Havenga}{Kabega Park SunAM}{Johnny \& Eunice; 77 The Ridge, Westbrook, Summerville Rd, Parsons Vlei, 6025; johnnyhavenga366@gmail.com}{081 412 9007H\\0828377768(J)\\0824172490(E)}
+\Home{Herion}{Kariega - Herion SunAM}{Alec; Rosa Munch Retirement Home, 10 Victoria Street, Kariega, 6229; herionalec@gmail.com}{072 315 9967}
+\Home{Herion}{Kariega - Herion SunAM}{Anna; Rosa Munch Ouetehuis, 10 Victoria Straat, Kariega}{073 215 7923}
+\Home{Herion}{Kariega - Herion SunAM}{Pieter \& Colette; 2 Lange St, Penford, Kariega}{082 412 6824(P)\\072 658 1070(C) }
+\Home{Herion}{Kariega - Herion SunAM}{Ricardo \& Katelyn, Evardo, Tia-Lee; 3 Lange Street, Penford, Kariega, 6229; ricardo.herion619@gmail.com(R) }{062 590 7033(R)}
+\Home{Hill}{Kariega - Minnaar SunAM}{Florrie; 23 Kersogie Drive, Rosedale, Kariega,6229}{0419884349\\764804687}
+\Home{Hollington}{Walmer SunAM}{Llewellyn \& Stina; 257 Fairhaven, Echo Foundation, c/o La Roche Drive \& Woodhead Drive, Humewood, Gqeberha, 6001; llewestinahollington@gmail.com}{044 272 8612\\083 527 6779(L)\\+27 64 837 0332(S)}
+\Home{Hutton}{Kabega Park SunAM}{Honora; 31 Walker Gardens, Montrose Rd, Sherwood P.E. 6025; noni.hutton@gmail.com}{082 683 3704}
+\Home{Jansen}{Bethelsdorp SunAM}{Marilyn, Serenity, Megan, Ryan; 41 Harebell Str, West End, Bethelsdorp, Gqeberha. 6059}{073 522 7345}
+\Home{Jonkers}{Humansdorp SunAM}{William \& Landa, Lindel, Jodene, Kaytlin, Randolene, Haleigh, Roseline Plaatjies; 16 Aandblom St, Kruisfontein, Humansdorp}{079 706 7665(W)\\063 916 3336(K)}
+\Home{Jordan}{Kariega - Minnaar SunAM}{Rowena, Antonio, Ané, Akeel; 29 Hlaba Crescent, McNaughton, Kariega}{072 686 3161(R)\\066 134 6051(R)}
+\Home{Kamfer}{Kariega - Minnaar SunAM}{Sophie; 13 Harvey St, Vanes Estate, Kariega 6229}{081 026 6096\\041 961 0370}
+\Home{Kelsey}{Mill Park SunAM (113 Westview drive)}{Clint \& Brigitte, Danielle; 12 Greenways, Lovemore Heights, Gqeberha, 6070; kelseycc@telkomsa.net}{0726581118(C)\\0823093973(B)}
+\Home{Kettledas}{Humansdorp SunAM}{Irenita (in Saudi) \& Ryan, Ashleigh; 11 Patrys St, Panorama, Humansdorp; P.O. Box 761, Humansdorp 6300}{060 682 9077(I)}
+\Home{Kettledas}{Humansdorp SunAM}{Portia; 298 Bambi Str, Vaaldam, Humansdorp 6300}{063 946 4721}
+\Home{Kettledas}{Kensington}{Ethan-Rick; 13 Burnswick road, Perridgevale, Gqeberha 6001}{065 968 2791}
+\Home{Kruger}{Kabega Park SunAM}{Heidi \& Craig; 102 The Ridge, Westbrook, Summerville Rd, Parsons Vlei, 6025; heidi.kruger@travel.co.za}{0822968955(H)\\0826928765(C)}
+\Home{Kumire}{Kensington}{Tracey; 15 Menai Street, Algoa Park, 6001; tracykumire5@gmail.com}{073 746 5778}
+\Home{Lourens}{Kariega - Herion SunAM}{Bettie, André; 1 Main Str, Bothasrus, Despatch 6219; P.O. Box 165, Despatch 6220}{041 933 2761\\076 627 8864(B)\\065 953 4191(A)}
+\Home{McDonald}{Kariega - Minnaar SunAM}{Candice \& Johnathan, Saige; 33 Cygnet Street, Rosedale, Kariega, 6229}{078 419 6797(C)}
+\Home{Michaels}{Jeffreys Bay SunAM}{John \& Maureen, Joshlyn, Waylin; 16 Steve Biko Ave, Gqeberhallsrus, Jeffreys Bay}{0726214110(J)\\0833120213(M)}
+\Home{Michaels}{Kariega - Minnaar SunAM}{Mita, Sanette Roberts; c/o Sanette Roberts, 5 Parrikiet Str, Rosedale, Kariega, 6229}{078 428 2605(S)}
+\Home{Minnaar}{Kariega - Minnaar SunAM}{Bertram \& Dorothy, Robyn; 13 Harvey St, Vanes Estate, Kariega 6229; bertram.minnaar@gmail.com(B) , dorothy.minnaar@gmail.com(D) }{0832861244(B)\\0833783654(D)\\073 642 4129(R)}
+\Home{Minnaar}{Kariega - Minnaar SunAM}{Bradley \& Jean, Liesl; 10 Sipres Rd, Gamble, Kariega 6229; brad.minnaar@gmail.com}{0742736180(B)}
+\Home{Minnaar}{Kariega - Minnaar SunAM}{Robyn; Moved back to her parents}{073 642 4129}
+\Home{Niewenhuis}{Bethelsdorp SunAM}{Janine, Cody; House 14856 Marakana, Ext 11 \& 12, Booysens Park, Gqeberha, 6059; (-33.844234,25.453509) }{069 549 3630}
+\Home{O'Ryan}{Bethelsdorp SunAM}{Angelene; 36 Soudien Rd, Bethelsdorp, Gqeberha. 6059; angieoryan31@gmail.com}{068 415 5453\\073 777 0976}
+\Home{Olivier}{Kabega Park SunAM}{Andrew \& Joye; "Lily on the Valley", 20 Abelia Crescent, Sunridge Park, 6045, Gqeberha; andrewolivier03@gmail.com}{0823201069(A)\\083 444 1439(J)}
+\Home{Olls}{Van der Stel SunAM}{Richard \& Karien; 29 Punto di Vista, Pembroke St, Kabega Park  Gqeberha 6025; P.O. Box 2165, Noorskloof 6331; karien@isat.co.za(K) }{0731890515(R)\\0828981618(K)}
+\Home{Olls}{Walmer SunAM}{Ian \& Jean; 22 Bradley Rd, Summerstrand, Gqeberha 6001; ian@olls.co.za(I) , jeanolls07@gmail.com(J) }{0824521836(I)\\0836550479(J)}
+\Home{Oosthuysen}{Van der Stel SunAM}{Janice; 34 Olive Schreiner Rd, Van der Stel, Gqeberha. 6025; oostjc@gmail.com}{076 330 4643}
+\Home{Perie}{Jeffreys Bay SunAM}{Elize; Kanarie No 6, Ons Tuiste, 20 Heugh Str, Humansdorp, 6300; perieelize@gmail.com}{825337750}
+\Home{Phaal}{Blue Horizon Bay SunAM}{Derek \& Lavinia; Van Stadens Mouth Holiday Resort; PO Box 19502, Linton Grange, 6015; dphaal@gmail.com}{0823558719(L)\\0837528095(D)}
+\Home{Phillips}{Van der Stel SunAM}{Andrew \& Roelene; 34 Olive Schreiner Rd, Van der Stel, Gqeberha. 6025; andrewp913@gmail.com(A) , roelenephillips@gmail.com(R) }{0413603318\\084 418 1966(A)\\083 618 3916(R)}
+\Home{Pienaar}{Kensington}{Deon \& Lana, Kristen, Clark; 2 Connaught Place, Kensington, Gqeberha., 6001}{071 606 2768(D)\\076 152 7687(L)\\079 278 9011(K)\\060 431 6275(C)}
+\Home{Pillay}{Bethelsdorp SunAM}{Nadasen; Life Kirkwood Care Centre (Unit 11), Sonop Street, Kirkwood, 6120}{+27 42 230 0333 }
+\Home{Procter-Sims}{Kabega Park SunAM}{Maxine \& Patrick, Flynn; 20 Melan Montmedy Street, Lorraine, 6070; schoonraadmaxine@gmail.com(M) }{073 259 5484(M)}
+\Home{Rossouw}{Rowallan Park SunAM}{Sarita; 14 Kay Court, Ritchie Crescent, Kabega Park, Gqeberha; saritarossouw@gmail.com}{074 882 4113}
+\Home{Sauls}{Gelvandale SunAM}{Renoah \& Karen, Dealiyah, Kearen, Daniqah, Azariah; 125 St Adams Drive, Jarman, Gqeberha. 6020; renoah.sauls@isuzu.co.za(R) }{0414522093 (H)\\081 548 6279(R)}
+\Home{Sauls}{Port Alfred SunAM}{Mervyn \& Charmel, Tamlyn, Allison; 11 Sports Rd, East Bank, Port Alfred, 6170; msauls@ndlambe.gov.za(M) }{ +2779 440 4112(M)\\083 282 7262(C)}
+\Home{Schoonraad}{Kabega Park SunAM}{Deon \& Chantal; 77 Avondale Rd, Kabega Park 6025; deons@grp1.co.za(D) , chantals@grp1.co.za(C) }{0833955990(D)\\0832768558(C)}
+\Home{Schoonraad}{Kariega - Herion SunAM}{Margie; 20 Magriet Conradie Tehuis, Willem Olckers St (end of),Despatch}{084 626 6545}
+\Home{Schultz}{Port Alfred SunAM}{Lemuel, Claudius; 10 Stewart Road, Port Alfred, 6170}{063 170 5874(L)}
+\Home{Simpson}{Van der Stel SunAM}{Alex \& Helene; 26 Olive Schreiner Road, Kabega Park, Gqeberha, 6025; alexhelenesimpson883@gmail.com}{076 413 0550}
+\Home{Smith}{Grahamstown SunAM}{Denise \& Denzil; 8 Kowie Str, Grahamstown, 6139}{0466224809\\072 270 3258}
+\Home{Solomon}{Van der Stel SunAM}{David \& Rosemary; Block 10, Unit 229, Willowdene Village, Cnr Frans Landman \& Willow Road, Fairview, 6070; P.O. Box 27602, Green Acres, Gqeberha. 6057; davesol1978@gmail.com}{061 925 1575(D)\\081 534 8091(R)}
+\Home{Sparks}{Kariega - Minnaar SunAM}{Monique \& Brodwynn, Seth, Ziva; 4 Fremantle St, Vains Estate Kariega; Nicky.bezuidenhout@gmail.com}{063 448 1043(M)}
+\Home{Steyl}{Blue Horizon Bay SunAM}{Cornelia; 47 Mimosa Rd, Blue Horizon Bay 6011; PO Box 22443, Gqeberha 6000; c8steyl@gmail.com}{0836532553\\041 776 1891}
+\Home{Steyl}{Blue Horizon Bay SunAM}{Heinrich \& Charmaine, Aldrich, Melodie, Mishke; 15 Aster Str, Blue Horizon Bay, 6011; PO Box 22443, Gqeberha 6000; heinsteyl@gmail.com(H) , ccsteyl@gmail.com(C) }{0417761929\\0836547677(H)\\082 879 2019(C)\\063 357 7663(A)}
+\Home{Steyl}{Blue Horizon Bay SunAM}{Konrad \& Lizette, Yolandi, Bernard; 3 Papawer Str, Blue Horizon Bay 6011; PO Box 22443, Gqeberha 6000; konradsteyl@gmail.com}{0417761685\\0828228621(L)\\0826536948(K)}
+\Home{Strydom}{Mill Park SunAM (113 Westview drive)}{Corrie; Home Sweet Home, Montmedy Rd, Lorraine; corstrym@gmail.com}{0413609129\\761753390}
+\Home{Swanepoel}{Kabega Park SunAM}{Fred \& Crystal; 28 Villa Radé, Nursery Close, Westering, Gqeberha. 6025; fredswanepoel@cybersmart.co.za}{0413606506\\0719980080(F)\\0834102033(C)}
+\Home{Syce}{Rowallan Park SunAM}{Neil, Michael, Neilin; 9 Glenhurd Mansions, 57 Handsworth St, Gqeberha; syceneil2@gmail.com}{079 037 0011(N)}
+\Home{Topkin}{Bethelsdorp SunAM}{Lawrence \& Eloma; 41 Koen Cres, Hillside, Bethelsdorp, 6059, Gqeberha. 6059; ltwelding@gmail.com}{0764577798(E)\\079 854 2057(L)}
+\Home{Valayden}{Gelvandale SunAM}{Aloma, Alvina; 59 Groenewald Rd, Gelvandale, Gqeberha. 6020; a.valaden@gmail.com}{066 329 2857(A)}
+\Home{Van Tonder}{Rowallan Park SunAM}{Evert \& Desiré; 56 Courcelles Rd, Lorraine, Gqeberha.}{063 777 3992(D)\\072 582 4641(E)}
+\Home{Vermaak}{Kariega - Herion SunAM}{Glenda; 33 De Jongh Drive, Janssendal, Kariega; glendagailvermaak@gmail.com}{083 564 9632}
+\Home{Wattrus}{Kensington}{Beverley \& Keith; 33 Tow Path, Redhouse, Gqeberha; P.O. Box 4, Redhouse, Gqeberha. 6215; bev.joy.wattrus@gmail.com(B) }{0842411747(B)}
+\Home{Westcott}{Port Alfred SunAM}{Patsy, Sandra; 23 Putt Road, East Bank, Port Alfred; thandulwandle@gmail.com}{046 624 3248\\079 023 3554(P)}
+\Home{du Bruyn}{Jeffreys Bay SunAM}{Marlene; 30 Franscina Ave, Eedenglen Retirement Village, Wonderboom Cres, Wavecrest, Jeffreys Bay; P.O.Box 2033, Noorsekloof, 6331; marlenedubruyn@telkomsa.net}{0422961608\\820467927}
+\Home{van Niekerk}{Kariega - Minnaar SunAM}{Nellene, Adrian, Bronwyn; 38 Sandpiper Drive, Mountain View, Kariega}{081 589 8577(A)\\0635560544(N)}
+\Home{van Wyk}{Mill Park SunAM (113 Westview drive)}{Gert \& Rozanne, Carter, Ruby; 3 Mowbray st, Newton Park, Gqeberha, 6025; rozannegowar@yahoo.com(R) , uhssport@gmail.com(G) }{0835501881(G)\\0833052608(R)}\EndHomes
+\EndSection
+\MLDistrictH{Gqeberha and District}
+\MLMeetingH{Bethelsdorp SunAM;E Brown}
+\MLHome{Adkins}{}{Felecia}
+\MLHome{Alexander}{}{Ernest}
+\MLHome{Bernardo}{}{Ronald}
+\MLHome{Brown}{All mtgs}{Emily}
+\MLHome{Buys}{}{Tarryn, Brooklyn, Tylor, Tashnique}
+\MLHome{Clark}{}{Anseley}
+\MLHome{Jansen}{}{Marilyn}
+\MLHome{Niewenhuis}{}{Janine}
+\MLHome{O'Ryan}{}{Angelene}
+\MLHome{Pillay}{}{Nadasen}
+\MLHome{Topkin}{Elder}{Lawrence \& Eloma}
+\MLMeetingH{Blue Horizon Bay SunAM;H Steyl}
+\MLHome{Phaal}{Elder}{Derek \& Lavinia}
+\MLHome{Steyl}{SunPM,Wed}{Cornelia}
+\MLHome{Steyl}{SunAM}{Heinrich \& Charmaine, Aldrich, Melodie, Mishke}
+\MLHome{Steyl}{}{Konrad \& Lizette, Yolandi, Bernard}
+\MLMeetingH{Gelvandale SunAM;A Valayden}
+\MLHome{Bailey}{}{Melanie \& Russel, Jaxon}
+\MLHome{Claassen}{Wed}{Lilian}
+\MLHome{Grootboom}{}{Andrew}
+\MLHome{Sauls}{Elder}{Renoah}
+\MLHome{Valayden}{SunAM,SunPM}{Aloma, Alvina}
+\MLMeetingH{Grahamstown SunAM;Once a month to Port Alfred}
+\MLHome{Smith}{}{Denise}
+\MLMeetingH{Humansdorp SunAM;W Jonkers}
+\MLHome{Alexander}{}{Recardo \& Bernita, Joah}
+\MLHome{Botha\_Humansdorp}{}{Nicolene \& Gavin, Alex-Zander, Zayne-Paul}
+\MLHome{Jonkers}{All mtgs;Elder}{William \& Landa, Jodene, Kaytlin, Randolene, Haleigh, Roseline Plaatjies}
+\MLHome{Kettledas}{}{Irenita (in Saudi) \& Ryan, Ashleigh}
+\MLHome{Kettledas}{}{Portia}
+\MLMeetingH{Jeffreys Bay SunAM;R Delport}
+\MLHome{Carelse}{}{Susan}
+\MLHome{Delport}{}{Anetjie}
+\MLHome{Delport}{Elder}{Rouen \& Joey}
+\MLHome{du Bruyn}{Wed}{Marlene}
+\MLHome{Michaels}{}{John \& Maureen}
+\MLHome{Perie}{}{Elize}
+\MLMeetingH{Kabega Park SunAM}
+\MLHome{Bekker}{}{Elsabie}
+\MLHome{Du Bois}{}{Jan \& Joan}
+\MLHome{Gilbert}{}{Wendy}
+\MLHome{Havenga}{SunPM}{Johnny \& Eunice}
+\MLHome{Hutton}{}{Honora}
+\MLHome{Kruger}{}{Heidi}
+\MLHome{Olivier}{}{Andrew \& Joye}
+\MLHome{Procter-Sims}{}{Maxine, Flynn}
+\MLHome{Schoonraad}{SunAM;Elder}{Deon \& Chantal}
+\MLHome{Swanepoel}{Wed}{Fred \& Crystal}
+\MLMeetingH{Kariega - Herion SunAM}
+\MLHome{Ferreira}{}{Paula}
+\MLHome{Herion}{}{Alec}
+\MLHome{Herion}{}{Anna}
+\MLHome{Herion}{SunAM,SunPM;Elder}{Pieter \& Colette}
+\MLHome{Herion}{}{Ricardo \& Katelyn, Evardo, Tia-Lee}
+\MLHome{Lourens}{}{Bettie, André}
+\MLHome{Schoonraad}{}{Margie}
+\MLHome{Vermaak}{WedAM}{Glenda}
+\MLMeetingH{Kariega - Minnaar SunAM}
+\MLHome{Bezuidenhout}{}{Corene}
+\MLHome{Hill}{}{Florrie}
+\MLHome{Jordan}{}{Rowena}
+\MLHome{Kamfer}{}{Sophie}
+\MLHome{McDonald}{}{Candice \& Johnathan, Saige}
+\MLHome{Michaels}{}{Mita, Sanette Roberts}
+\MLHome{Minnaar}{}{Robyn}
+\MLHome{Minnaar}{All mtgs;Elder}{Bertram \& Dorothy, Robyn}
+\MLHome{Minnaar}{}{Bradley, Liesl}
+\MLHome{Sparks}{}{Monique \& Brodwynn, Seth, Ziva}
+\MLHome{van Niekerk}{Wed}{Nellene, Adrian, Bronwyn}
+\MLMeetingH{Kensington;D Pienaar}
+\MLHome{Dedaa}{}{Faith}
+\MLHome{Geldenhuys}{}{Neil \& Belynda, Lyndin}
+\MLHome{Kettledas}{}{Ethan-Rick}
+\MLHome{Kumire}{}{Tracey}
+\MLHome{Pienaar}{All mtgs;Elder}{Deon \& Lana, Kristen, Clark}
+\MLHome{Wattrus}{}{Beverley}
+\MLMeetingH{Mill Park SunAM (113 Westview drive)}
+\MLHome{Barnard}{Wed}{Joey}
+\MLHome{Beadon}{}{Roger}
+\MLHome{Botha\_PE}{}{Nicolene}
+\MLHome{Gowar}{SunAM;Elder}{Johan \& Rose}
+\MLHome{Gowar}{}{Matthew}
+\MLHome{Kelsey}{SunPM}{Clint \& Brigitte, Danielle}
+\MLHome{Strydom}{Not able to attend mtgs}{Corrie}
+\MLHome{van Wyk}{}{Gert \& Rozanne, Carter, Ruby}
+\MLMeetingH{Port Alfred SunAM;Once a month to Grahamstown}
+\MLHome{Sauls}{All mtgs;Elder}{Mervyn \& Charmel, Tamlyn, Allison}
+\MLHome{Schultz}{}{Claudius}
+\MLHome{Westcott}{}{Patsy}
+\MLMeetingH{Rowallan Park SunAM;B Grootboom}
+\MLHome{Conradie}{Wed}{Quintus \& Simoné, Berto, Stefan}
+\MLHome{Gerber}{Elder}{Edward}
+\MLHome{Grootboom}{SunAM,SunPM}{Beryl, Melinda, Sylvia}
+\MLHome{Rossouw}{}{Sarita}
+\MLHome{Syce}{}{Neil}
+\MLHome{Van Tonder}{}{Evert \& Desiré}
+\MLMeetingH{Van der Stel SunAM;A Phillips}
+\MLHome{Barkhuysen}{}{Monrae \& Letisia}
+\MLHome{Conradie}{}{Dezney}
+\MLHome{Olls}{}{Richard \& Karien}
+\MLHome{Oosthuysen}{}{Janice}
+\MLHome{Phillips}{SunAM,Wed;Elder}{Andrew \& Roelene}
+\MLHome{Simpson}{}{Alex \& Helene}
+\MLHome{Solomon}{}{David \& Rosemary}
+\MLMeetingH{Walmer SunAM;L Hollington @ G Botha}
+\MLHome{Botha}{All mtgs;Takes WedPM}{Gerard \& Ilze, Luke}
+\MLHome{Dyason}{}{Winston}
+\MLHome{Hollington}{Elder}{Llewellyn \& Stina}
+\MLHome{Olls}{Takes SunPm}{Ian}
+\MLMeetingH{Bethelsdorp SunPM@17h00;E Brown}
+\MLHome{Alexander}{}{Ernest}
+\MLHome{Bernardo}{}{Ronald}
+\MLHome{Brown}{All mtgs}{Emily}
+\MLHome{Buys}{}{Tarryn, Brooklyn, Tylor, Tashnique}
+\MLHome{Jansen}{}{Marilyn}
+\MLHome{O'Ryan}{}{Angelene}
+\MLHome{Topkin}{Elder}{Lawrence \& Eloma}
+\MLMeetingH{Blue Horizon Bay SunPM@18h00;C Steyl}
+\MLHome{Phaal}{Elder}{Derek \& Lavinia}
+\MLHome{Steyl}{SunPM,Wed}{Cornelia}
+\MLHome{Steyl}{SunAM}{Heinrich \& Charmaine, Aldrich, Melodie, Mishke}
+\MLHome{Steyl}{}{Konrad \& Lizette, Yolandi, Bernard}
+\MLMeetingH{Booysens Park SunPM@16h30;J Niewenhuis}
+\MLHome{Adkins}{}{Felecia}
+\MLHome{Clark}{}{Anseley}
+\MLHome{Niewenhuis}{}{Janine}
+\MLMeetingH{Gelvandale SunPM@17h00;A Valayden}
+\MLHome{Bailey}{}{Melanie \& Russel, Jaxon}
+\MLHome{Claassen}{Wed}{Lilian}
+\MLHome{Grootboom}{}{Andrew}
+\MLHome{Sauls}{Elder}{Renoah}
+\MLHome{Valayden}{SunAM,SunPM}{Aloma, Alvina}
+\MLMeetingH{Humansdorp SunPM@17h00;W Jonkers}
+\MLHome{Alexander}{}{Recardo \& Bernita, Joah}
+\MLHome{Botha\_Humansdorp}{}{Nicolene \& Gavin, Alex-Zander, Zayne-Paul}
+\MLHome{Jonkers}{All mtgs;Elder}{William \& Landa, Jodene, Kaytlin, Randolene, Haleigh, Roseline Plaatjies}
+\MLHome{Kettledas}{}{Irenita (in Saudi) \& Ryan, Ashleigh}
+\MLHome{Kettledas}{}{Portia}
+\MLMeetingH{Jeffreys Bay SunPM@17h00;J Michaels @ M de Bruyn}
+\MLHome{Carelse}{}{Susan}
+\MLHome{Delport}{}{Anetjie}
+\MLHome{Delport}{Elder}{Rouen \& Joey}
+\MLHome{du Bruyn}{Wed}{Marlene}
+\MLHome{Michaels}{}{John \& Maureen}
+\MLHome{Perie}{}{Elize}
+\MLMeetingH{Kabega Park SunPM@17h00;J Havenga}
+\MLHome{Bekker}{}{Elsabie}
+\MLHome{Du Bois}{}{Jan \& Joan}
+\MLHome{Gilbert}{}{Wendy}
+\MLHome{Havenga}{SunPM}{Johnny \& Eunice}
+\MLHome{Hutton}{}{Honora}
+\MLHome{Kruger}{}{Heidi}
+\MLHome{Olivier}{}{Andrew \& Joye}
+\MLHome{Procter-Sims}{}{Maxine, Flynn}
+\MLHome{Schoonraad}{SunAM;Elder}{Deon \& Chantal}
+\MLHome{Swanepoel}{Wed}{Fred \& Crystal}
+\MLMeetingH{Kariega - Herion SunPM@17h00;P Herion}
+\MLHome{Herion}{}{Alec}
+\MLHome{Herion}{}{Anna}
+\MLHome{Herion}{SunAM,SunPM;Elder}{Pieter \& Colette}
+\MLHome{Herion}{}{Ricardo \& Katelyn, Evardo, Tia-Lee}
+\MLHome{Lourens}{}{Bettie, André}
+\MLHome{Schoonraad}{}{Margie}
+\MLHome{Vermaak}{WedAM}{Glenda}
+\MLMeetingH{Kariega - Minnaar SunPM@17h00;B Minnaar}
+\MLHome{Bezuidenhout}{}{Corene}
+\MLHome{Hill}{}{Florrie}
+\MLHome{Jordan}{}{Rowena}
+\MLHome{Kamfer}{}{Sophie}
+\MLHome{McDonald}{}{Candice \& Johnathan, Saige}
+\MLHome{Michaels}{}{Mita, Sanette Roberts}
+\MLHome{Minnaar}{}{Robyn}
+\MLHome{Minnaar}{All mtgs;Elder}{Bertram \& Dorothy, Robyn}
+\MLHome{Minnaar}{}{Bradley, Liesl}
+\MLHome{Sparks}{}{Monique \& Brodwynn, Seth, Ziva}
+\MLHome{van Niekerk}{Wed}{Nellene, Adrian, Bronwyn}
+\MLMeetingH{Kensington SunPM@17h00;D Pienaar}
+\MLHome{Dedaa}{}{Faith}
+\MLHome{Geldenhuys}{}{Neil \& Belynda, Lyndin}
+\MLHome{Kettledas}{}{Ethan-Rick}
+\MLHome{Kumire}{}{Tracey}
+\MLHome{Pienaar}{All mtgs;Elder}{Deon \& Lana, Kristen, Clark}
+\MLMeetingH{Mill Park SunPM@17h00;C Kelsey}
+\MLHome{Barnard}{Wed}{Joey}
+\MLHome{Botha\_PE}{}{Nicolene}
+\MLHome{Gowar}{SunAM;Elder}{Johan \& Rose}
+\MLHome{Gowar}{}{Matthew}
+\MLHome{Kelsey}{SunPM}{Clint \& Brigitte, Danielle}
+\MLHome{Strydom}{Not able to attend mtgs}{Corrie}
+\MLHome{van Wyk}{}{Gert \& Rozanne, Carter, Ruby}
+\MLMeetingH{Port Alfred SunPM@17h00;M Sauls}
+\MLHome{Sauls}{All mtgs;Elder}{Mervyn \& Charmel, Tamlyn, Allison}
+\MLHome{Schultz}{}{Claudius}
+\MLHome{Westcott}{}{Patsy}
+\MLMeetingH{Rowallan Park SunPM@17h00;B Grootboom}
+\MLHome{Conradie}{Wed}{Quintus \& Simoné, Berto, Stefan}
+\MLHome{Gerber}{Elder}{Edward}
+\MLHome{Grootboom}{SunAM,SunPM}{Beryl, Melinda, Sylvia}
+\MLHome{Rossouw}{}{Sarita}
+\MLHome{Syce}{}{Neil}
+\MLMeetingH{Van der Stel SunPM@17h00;D Conradie}
+\MLHome{Barkhuysen}{}{Monrae \& Letisia}
+\MLHome{Conradie}{}{Dezney}
+\MLHome{Olls}{}{Richard \& Karien}
+\MLHome{Oosthuysen}{}{Janice}
+\MLHome{Phillips}{SunAM,Wed;Elder}{Andrew \& Roelene}
+\MLHome{Simpson}{}{Alex \& Helene}
+\MLHome{Solomon}{}{David \& Rosemary}
+\MLMeetingH{Walmer SunPM@17h00;G Botha}
+\MLHome{Botha}{All mtgs;Takes WedPM}{Gerard \& Ilze, Luke}
+\MLHome{Dyason}{}{Winston}
+\MLHome{Hollington}{Elder}{Llewellyn \& Stina}
+\MLHome{Olls}{Takes SunPm}{Ian}
+\MLMeetingH{Bethelsdorp WedAM@10h30;E Brown}
+\MLHome{Alexander}{}{Ernest}
+\MLHome{Bernardo}{}{Ronald}
+\MLHome{Brown}{All mtgs}{Emily}
+\MLHome{Buys}{}{Tarryn, Brooklyn, Tylor, Tashnique}
+\MLHome{Jansen}{}{Marilyn}
+\MLHome{O'Ryan}{}{Angelene}
+\MLHome{Topkin}{Elder}{Lawrence \& Eloma}
+\MLMeetingH{Blue Horizon Bay WedPM@19h00;C Steyl}
+\MLHome{Phaal}{Elder}{Derek \& Lavinia}
+\MLHome{Steyl}{SunPM,Wed}{Cornelia}
+\MLHome{Steyl}{SunAM}{Heinrich \& Charmaine, Aldrich, Melodie, Mishke}
+\MLHome{Steyl}{}{Konrad \& Lizette, Yolandi, Bernard}
+\MLMeetingH{Booysens Park WedAM@10h30;J Niewenhuis}
+\MLHome{Adkins}{}{Felecia}
+\MLHome{Clark}{}{Anseley}
+\MLHome{Niewenhuis}{}{Janine}
+\MLMeetingH{Despatch WedAM@10h30;G Vermaak}
+\MLHome{Ferreira}{}{Paula}
+\MLHome{Lourens}{}{Bettie, André}
+\MLHome{Schoonraad}{}{Margie}
+\MLHome{Vermaak}{WedAM}{Glenda}
+\MLMeetingH{Gelvandale WedPM@19h00;L Claassen}
+\MLHome{Bailey}{}{Melanie \& Russel, Jaxon}
+\MLHome{Claassen}{Wed}{Lilian}
+\MLHome{Grootboom}{}{Andrew}
+\MLHome{Sauls}{Elder}{Renoah}
+\MLHome{Valayden}{SunAM,SunPM}{Aloma, Alvina}
+\MLMeetingH{Humansdorp WedPM@18h00;W Jonkers}
+\MLHome{Alexander}{}{Recardo \& Bernita, Joah}
+\MLHome{Botha\_Humansdorp}{}{Nicolene \& Gavin, Alex-Zander, Zayne-Paul}
+\MLHome{Jonkers}{All mtgs;Elder}{William \& Landa, Jodene, Kaytlin, Randolene, Haleigh, Roseline Plaatjies}
+\MLHome{Kettledas}{}{Irenita (in Saudi) \& Ryan, Ashleigh}
+\MLHome{Kettledas}{}{Portia}
+\MLMeetingH{Jeffreys Bay WedPM@18h30;R Delport @ M de Bruyn}
+\MLHome{Carelse}{}{Susan}
+\MLHome{Delport}{}{Anetjie}
+\MLHome{Delport}{Elder}{Rouen \& Joey}
+\MLHome{du Bruyn}{Wed}{Marlene}
+\MLHome{Michaels}{}{John \& Maureen}
+\MLHome{Perie}{}{Elize}
+\MLMeetingH{Kabega Park WedPM@19h30;F Swanepoel}
+\MLHome{Bekker}{}{Elsabie}
+\MLHome{Gilbert}{}{Wendy}
+\MLHome{Havenga}{SunPM}{Johnny \& Eunice}
+\MLHome{Kruger}{}{Heidi}
+\MLHome{Procter-Sims}{}{Maxine, Flynn}
+\MLHome{Schoonraad}{SunAM;Elder}{Deon \& Chantal}
+\MLHome{Swanepoel}{Wed}{Fred \& Crystal}
+\MLMeetingH{Kariega - Minnaar \#1 WedPM@19h30;N van Niekerk}
+\MLHome{Hill}{}{Florrie}
+\MLHome{McDonald}{}{Candice \& Johnathan, Saige}
+\MLHome{Michaels}{}{Mita, Sanette Roberts}
+\MLHome{Minnaar}{}{Bradley, Liesl}
+\MLHome{van Niekerk}{Wed}{Nellene, Adrian, Bronwyn}
+\MLMeetingH{Kariega - Minnaar \#2 WedPM@19h30;B Minnaar}
+\MLHome{Bezuidenhout}{}{Corene}
+\MLHome{Herion}{SunAM,SunPM;Elder}{Pieter \& Colette}
+\MLHome{Jordan}{}{Rowena}
+\MLHome{Kamfer}{}{Sophie}
+\MLHome{Minnaar}{}{Robyn}
+\MLHome{Minnaar}{All mtgs;Elder}{Bertram \& Dorothy, Robyn}
+\MLHome{Sparks}{}{Monique \& Brodwynn, Seth, Ziva}
+\MLMeetingH{Kensington WedPM@19h30;D Pienaar}
+\MLHome{Dedaa}{}{Faith}
+\MLHome{Geldenhuys}{}{Neil \& Belynda, Lyndin}
+\MLHome{Kettledas}{}{Ethan-Rick}
+\MLHome{Kumire}{}{Tracey}
+\MLHome{Pienaar}{All mtgs;Elder}{Deon \& Lana, Kristen, Clark}
+\MLMeetingH{Lorraine WedAM@10h30;J Barnard}
+\MLHome{Barnard}{Wed}{Joey}
+\MLHome{Du Bois}{}{Jan \& Joan}
+\MLHome{Gowar}{SunAM;Elder}{Johan \& Rose}
+\MLHome{Gowar}{}{Matthew}
+\MLHome{Hutton}{}{Honora}
+\MLHome{Olivier}{}{Andrew \& Joye}
+\MLHome{Olls}{}{Richard \& Karien}
+\MLHome{Strydom}{Not able to attend mtgs}{Corrie}
+\MLHome{van Wyk}{}{Gert \& Rozanne, Carter, Ruby}
+\MLHome{Wattrus}{}{Beverley}
+\MLMeetingH{Port Alfred WedPM@18h30;M Sauls}
+\MLHome{Sauls}{All mtgs;Elder}{Mervyn \& Charmel, Tamlyn, Allison}
+\MLHome{Schultz}{}{Claudius}
+\MLHome{Westcott}{}{Patsy}
+\MLMeetingH{Rowallan Park WedPM@19h30;Q Conradie}
+\MLHome{Conradie}{}{Dezney}
+\MLHome{Conradie}{Wed}{Quintus \& Simoné, Berto, Stefan}
+\MLHome{Gerber}{Elder}{Edward}
+\MLHome{Grootboom}{SunAM,SunPM}{Beryl, Melinda, Sylvia}
+\MLHome{Rossouw}{}{Sarita}
+\MLHome{Syce}{}{Neil}
+\MLMeetingH{Van der Stel WedPM@19h30;A Phillips}
+\MLHome{Barkhuysen}{}{Monrae \& Letisia}
+\MLHome{Oosthuysen}{}{Janice}
+\MLHome{Phillips}{SunAM,Wed;Elder}{Andrew \& Roelene}
+\MLHome{Simpson}{}{Alex \& Helene}
+\MLHome{Solomon}{}{David \& Rosemary}
+\MLMeetingH{Walmer WedPM@19h30;G Botha}
+\MLHome{Botha}{All mtgs;Takes WedPM}{Gerard \& Ilze, Luke}
+\MLHome{Dyason}{}{Winston}
+\MLHome{Hollington}{Elder}{Llewellyn \& Stina}
+\MLHome{Olls}{Takes SunPm}{Ian}
+\end{document}
