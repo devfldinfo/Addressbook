@@ -1,10 +1,10 @@
 name: Generate Booklet PDFs
 
 on:
-  workflow_run:
-    workflows: ["Compile LaTeX Files"]
-    types:
-      - completed
+  #workflow_run:
+  #  workflows: ["Compile LaTeX Files"]
+  #  types:
+  #    - completed
   workflow_dispatch:
 
 jobs:
