@@ -1,9 +1,0 @@
-\documentclass[]{minimal}
-\usepackage{pdfpages}
-\newcommand{\retrievepagecount}[1]{\pdfximage{#1}\edef\lastpagecount{\the\pdflastximagepages}}
-\begin{document}
-\retrievepagecount{f:/My Documents/Address Book/Output/Temp.pdf}
-\PackageWarning{haha}{%
-PDF Page count: xxxx \lastpagecount xxxx}
-\lastpagecount
-\end{document}
