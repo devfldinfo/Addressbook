@@ -17,7 +17,7 @@
 \Home{Kobedi}{Francistown}{Gosata \& Joshua, Neelo, mzk: Shaun; House no 5838 Nkuruma Rd,Donga township. Francistown; Box 10057, Francistown; (-21.17588,27.53307) }{ +267 762 74532(G)\\+267 742 48332(J)}
 \Home{Krause}{Bulawayo Contacts}{Willem \& Maureen (daugh Nancy d Villers); 110 Crouch Rd, Matsheumhlope}{0292 285489}
 \Home{Lyon}{Bulawayo Contacts}{Alec; 16 Dunblane Rd, Riverside; stoneage.com@gmail.com; (-20.2083,28.65423) }{029 2280885\\0778820357(A)}
-\Home{Lyon}{Four Winds}{Elisabeth; 195 Snaith Road, Burnside.}{+263782793509(E)}
+\Home{Lyon}{Four Winds}{Elisabeth; 14 Waynne road, Riverside.}{+263782793509(E)\\+263772338388(E)}
 \Home{Madhoo}{Bulawayo Contacts}{Chana, Rupesh; 33 Chaplin Rd, Khumalo}{0292 251380\\0772 333 164(C)}
 \Home{Magaisa}{Bulawayo Contacts}{Tsungai(M Tavonga) \& Joseph(B Tavonga), Tavonga, Wenyasha Reina; 26 Firbank Rd, Green Hill.Byo}{+26378 209 5322(T)\\071 328 4810(J)}
 \Home{Magama}{Bulawayo Contacts}{Dzingai; Vic Falls}{0772 463 096\\071 747 4612}
@@ -33,7 +33,6 @@
 \Home{Manyoka}{Tshabalala}{Tobias(B Kudzi) \& Farai(M Kudzi), Rosemary, Louis, Takudzwa; 165 Nkulumane}{077 685 0988(T)\\+263713329918(L)\\+263785840743 (F)\\+263778605355(R)\\+263777314168(Ta)}
 \Home{Mavaza }{Bulawayo Contacts}{Takesure(B Faith) \& (M Faith), Faith, Hope, charity; 13814 Ngulumane 12, Bulawayo; tsmavaza@gmail.com}{+263774068669(T)\\+263292484750H\\+263778213517(H) }
 \Home{Mavhurume}{Tshabalala}{Marjorie (M Taurai), Mzk: Sibonginkosi; 64982 Tshabalala Ext.; (-20.18313,28.5342) }{+263713790601(M)\\+263777340209(M)}
-\Home{Mazula}{Bulawayo Contacts}{Precious; 10 Harcourt Flats, 4th Avenue. BYO}{+263 78 356 7652}
 \Home{Mazura}{Bulawayo Contacts}{Sipho; 64982 Tshabalala Ext.}{+263782758947(S)}
 \Home{Mazura}{Tshabalala}{Janet(M Joy) \& Taurai(B Joy), Joy, Junior; 64982 Tshabalala Ext; (-20.18313,28.5342) }{077 558 3007(T)\\0773 455 533(J)}
 \Home{Mhlanga}{Four Winds}{Msindisi \& Rejoice; 1381 Emganwini, Byo}{+263780362106(M)\\+263789129948(R)}
@@ -49,7 +48,7 @@
 \Home{Mukuli}{Tshabalala}{Letwine(M Munashe) \& Richard, Munashe, Bradley; No 8 V Mansions, 6th Ave, Bulawayo}{0773 877 580(L)\\071 574 3424(L)\\0772741351(R)\\+263717789596(M)}
 \Home{Munyoro}{Bulawayo Contacts}{Davison(Husb of Veronica Zaranyika of M Tinashe); Hse 259 Muganini}{09-74661}
 \Home{Mupindu}{Bulawayo Contacts}{Peter (B Talita), Talita, Lilyvalley; 36 Kentmere, Morningside. Bulawayo}{+263772249551(P)\\+263717124149(P)\\+263778695906(P)}
-\Home{Ndlovu}{Bulawayo Contacts}{Saliwe(M Tumiso) \& Tlotliso, Tumiso; 2877 Emakhandeni, Byo}{078 505 9996(S)\\+263782545768(S)}
+\Home{Ndlovu}{Bulawayo Contacts}{Saliwe(M Tumiso) \& Tlotliso, Tumiso; 2877 Emakhandeni, Byo}{078 505 9996(S)\\+263782545768(S)\\+263714846353(S)}
 \Home{Phillips}{Bulawayo Contacts}{Desiree; Victoria Falls}{077 389 4001\\013 444 57}
 \Home{Phiri}{Bulawayo Contacts}{Wiseman(B Wiseman) \& Sizwile(M Wiseman), Wiseman Tafadzwa, Sean Babongile; No 343 SunningHill  North, Bulawayo}{0774219966(W)}
 \Home{Roberts}{Four Winds}{Will \& Linda; 28 Old Gwanda Road, Four winds; pinkteapots@gmail.com; (-20.218,28.5862) }{029 2246017\\+263712 629 343(W)\\+263775 218 481(L)}
@@ -78,7 +77,6 @@
 \MLHome{Manyoka}{}{Mike}
 \MLHome{Manyoka}{}{Prettymore(M Blessing), Winnie, Taberth}
 \MLHome{Mavaza }{}{Takesure(B Faith) \& (M Faith), Faith, Hope, charity}
-\MLHome{Mazula}{}{Precious}
 \MLHome{Mazura}{}{Sipho}
 \MLHome{Moyo}{}{Ketiwe}
 \MLHome{Moyo}{}{Ropafadzo Samantha}

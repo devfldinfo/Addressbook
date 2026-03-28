@@ -22,7 +22,7 @@
 \Home{Kapingautawa}{Garangwe}{Plaxidias(M Tariro), Wilson, Mabande, Sharon, Arnold; }{}
 \Home{Karikoga }{Hurungwe Contacts}{Ruvarashe(B Kudzi) \& Yocyline(M Kudzi), Kudzai; Garangwe Primary school}{+263772841610(R)}
 \Home{Makumbe}{Hurungwe Contacts}{Mercy(M Karima); Nyaramanda/Mandevu Section A, Zebra Downs, just after Buffalo Downs, 15-25km from Karoi, going to Chinoyi}{077 617 0815}
-\Home{Makumbe}{Tengwe}{John (B Felix) \& Esnath (M Felix), vzk Obey, Esnath; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{078 350 7175(J)}
+\Home{Makumbe}{Tengwe}{John (B Felix) \& Esnath (M Felix), vzk Obey, Esnath; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{078 350 7175(J)\\+263716874644(J)}
 \Home{Makumbe}{Tengwe}{Kudakwashe (B Tavonga) \& Sweeder(M Tavonga), Tavonga, Tinashe; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{077 654 5185(K)\\0784532464(S)}
 \Home{Makumbe}{Tengwe}{Peter \& Beatrice; 88 Lamote}{0771321175(P)}
 \Home{Mapopoto}{Mahwada}{Mathew(B Anna) \& Judith (M Anna), Sharai, Simon, mzk Beshard; Chabvamudeve Store, Kavaya B Centre, Box 158, Tengwe; (-17.17352,29.34839) }{0717 285 305(J)\\0715115963(M)\\0778347365(M)}
@@ -39,12 +39,13 @@
 \Home{Mukonoweshuro}{Hurungwe Contacts}{Vimbai; Village 3, Granermill Showgrounds Road. chinhoyi}{0714091356}
 \Home{Muyemeki }{Hurungwe Contacts}{Evelyn; Magunje Baracks}{+263715828634}
 \Home{Muyemeki}{St.Brendans}{Sam \& Maria, Munyaradzi, Mazvita; Karoi; (-16.8484,29.71757) }{+26377 531 9392(S)\\+263772717414(M)}
+\Home{Nyamapfeka }{Hurungwe Contacts}{Josie \& Rutendo9, Misheck, Mitchel; Ruben Compound, Magomera Farm}{+263787740458(;J)}
 \Home{Nyamapfeka}{Tengwe}{Alec; Tengwe}{+263785657222(A)}
-\Home{Nyamapfeka}{Tengwe}{Patricia(M Josie), Jose, Loice; Ruben Compound, Magomera Farm; (-17.21993,29.60703) }{0777663700(P)\\0715873350(J)}
+\Home{Nyamapfeka}{Tengwe}{Patricia(M Josie), Jose, Loice; Ruben Compound, Magomera Farm; (-17.21993,29.60703) }{0777663700(P)\\+263714029996(;P)}
 \Home{Nyamutowa }{Hurungwe Contacts}{Cynthia \& Collen, Collen; Garangwe Sch, PB 93, Magunje}{}
 \Home{Nyamutowa }{Hurungwe Contacts}{Ignatius; Karoi}{+263 78 741 6152}
 \Home{Nyamutowa}{Garangwe}{Edzai(M Precious), Mike, Knowledge, mzk Perfect; Garangwe Sch, PB 93, Magunje}{+263772662310(M)}
-\Home{Nyamutowa}{Garangwe}{Mirriam, Prosper, Polite, Pelagia, Patricia, Primrose; Garangwe Sch, PB 93, Magunje}{077 314 4687}
+\Home{Nyamutowa}{Garangwe}{Mirriam, Prosper, Polite, Pelagia, Patricia, Primrose; Garangwe Sch, PB 93, Magunje}{077 314 4687(M)\\+263778576214(P)}
 \Home{Nyamutowa}{Garangwe}{Newface (B Igie) \& Anna (M Igie), Nelson, Tanatswa, Rutendo; Garangwe Sch, PB 93, Magunje; (-16.75622,29.34253) }{+263776 176 386(N)\\+263714870915(A)}
 \Home{Nyamutowa}{Garangwe}{Precious \& Violet(B \& M Mercy), Mercy; Garangwe school}{+263785858194(V)\\+263785508035(P)\\+263785868194(P)}
 \Home{Nziradzepatsva}{Garangwe}{Josephine, Jefrey; Garangwe Sch, PB 93, Magunje}{0777 744 081(MN)}
@@ -90,6 +91,7 @@
 \MLHome{Muchemwa}{}{Baba Brett \& Monica(M Brett), Brett, Brian}
 \MLHome{Mukonoweshuro}{Mai shumi's daughter}{Vimbai}
 \MLHome{Muyemeki }{}{Evelyn}
+\MLHome{Nyamapfeka }{}{Josie \& Rutendo9, Misheck, Mitchel}
 \MLHome{Nyamutowa }{}{Cynthia \& Collen, Collen}
 \MLHome{Nyamutowa }{}{Ignatius}
 \MLHome{Nziradzepatsva}{}{Biggie(B Munashe) \& Shorai(M Munashe), Nyasha, Munashe, Damaine}

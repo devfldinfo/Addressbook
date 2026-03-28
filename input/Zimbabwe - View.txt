@@ -14,9 +14,8 @@
 \Home{Barnard}{Mkushi}{Dehan \& Allé, Liam, Ella; Shigu Farm, Kakushi, Farm 8446, Tazara Corridor}{+260 966 722 043(D)\\+260968213961(A)}
 \Home{Basera}{Harare Contacts}{Bernard; 43 Rolf Ave, Chisipite}{0242 885194\\0772 226 096}
 \Home{Bhaera}{Harare Contacts}{Rumbidzai(M Takudzwa), Takudzwa; Epworth}{+263718582463}
-\Home{Bhinzi}{Budiriro}{Nyandoro (B Tanaka) \& Bertha (M Tanaka), Tanaka, Alisha; 10384A, Kuwadzana 2.; (-17.81903,30.93778) }{+263772676630(N)\\+263719626630(N)\\+263775256391(B)}
+\Home{Bhinzi}{Budiriro}{Nyandoro (B Tanaka) \& Bertha (M Tanaka), Tanaka, Alisha; 10384A, Kuwadzana 2.; (-17.81903,30.93778) }{+263772676630(N)\\+263719626630(N)\\+263775256391(B)\\+263771414170(;T)}
 \Home{Bhunu}{Harare Contacts}{Tabitha; Waterfalls, Harare}{0778 008 075}
-\Home{Bhunu}{Hatfield}{Andrew (B Rufaro) \& Vongai(M Rufaro), Rufaro, Miles Mukundi; 6 Electron Tower, 12 Blackwall way, E149GB London; andreog.bhunu@gmail.com(A) , muneyivongai@gmail.com(V) }{0783483177(V)\\0713483177(V)\\+4477605997741(V)\\+447926204133(A)\\+263 77 606 2902(A)}
 \Home{Bhunu}{Hurungwe Contacts}{Nyarai (M Blessed), Blessed; Chinhoyi Caves}{+263774627235(N)\\+263775830514(N)}
 \Home{Bhunu}{Kariba}{Bothwell; Zim National Parks, 72 Mica street}{077 721 8866}
 \Home{Bhunu}{St.Brendans}{Muputa (Baba Bhunu) \& Cyrene (M Bhunu); Kushinga Pri Sch, Box 409, Magunje/Plot 3, St Brendan Rd}{0786619878(M)\\0715084723(M)\\ 077 465 1091(C)}
@@ -59,7 +58,6 @@
 \Home{Chipwanyira}{Masvingo Contacts}{Edison \& Loveness, Rosylin, Heather, Faith; Mukonde Sch, PB 9046, Masvingo}{+263786067164(E)}
 \Home{Chipwanyira}{Masvingo Contacts}{Hillary; in RSA}{0777 426 364}
 \Home{Chipwanyira}{Masvingo}{Rerai (M Respina) \& Felix(B Respina); Mukonde Sch, PB 9046, Masvingo}{0779 321 394(R)\\+263779743379(F)}
-\Home{Chiriga}{Hatfield}{Tapiwa; In Norway}{0775 056 080 (T)\\0778 402 734 (T)}
 \Home{Chiriga}{Hwange}{Tavonga; 2716 Chinotimba,Vic falls}{077 631 9228}
 \Home{Chiriga}{Zim Contacts}{Tatenda; in RSA}{}
 \Home{Chishanu}{Harare Contacts}{Nicodemus(B Modicaai) \& Zvisinei(M Modicaai), mzk Mitchel, Anill; c/o Nyava Sch, Bindura}{0774 094 809(N)\\0774 229 982(Z)}
@@ -102,16 +100,16 @@
 \Home{Gunguruve}{St.Brendans}{Mirriam(M Jelta), Jelta, Justice, Munashe, mzk Kupakwashe; ; (-16.8339,29.31228) }{0779 337 952(M)\\+263779516567(J)}
 \Home{Haritos}{Zim Contacts}{Yannie \& Helen, Johannah; }{067-2402127}
 \Home{Hlasi}{Midlands Contacts}{Wellington, Vimbai, Takudzwa, Thulani, Takundwa; Dombwe Pr Sch, Box 1 Shurugwi}{0779 309 212}
-\Home{Hove}{Gweru}{Emily(Mbuya Hove); 1 Peter falk Road, Athlone. Gweru}{+263778042826(E)\\+263715390222(E)}
-\Home{Hove}{Gweru}{Uneile (Mai Mikie), Mikayla, Eden; 9 Smart Road, Athlone. Gweru}{+263782865376(U)}
+\Home{Hove}{Gweru}{Emily(Mbuya Hove); 11 Smart road, Road, Athlone. Gweru}{+263778042826(E)\\+263715390222(E)}
+\Home{Hove}{Gweru}{Uneile (Mai Mikie), Mikayla, Eden; Victoria falls}{+263782865376(U)\\+263772268599(U)}
 \Home{Hungwe}{Harare Contacts}{Rashy \& Tariro; Harare}{078 475 9127(R)\\0778283444(T)}
 \Home{Jakachira}{Bulawayo Contacts}{Shelta; c/o Mai Tau Byo}{0771 267 528}
 \Home{Jakopo}{Masvingo Contacts}{Norudo; Masvingo}{078 329 3011}
 \Home{Jakopo}{Matizha Badza}{Pasipamire(B Taa) \& Vimbai(Mai Taa), Kyle, Abiot, mzk Farai; Tariro Sch, Gutu; (-19.50438,30.97215) }{+263773 477 985(P)\\+263775 052 890(V)\\+263714648547(V)\\+263772835217(P)\\+263714817277(P)}
 \Home{Jakopo}{Shurugwi}{Tinomuvonga(B Tracey) \& Tendai ( M Tracey), Tracey; Shurugwi}{+263773345675(TJ)\\ +263773787194 (T)\\+263735942630(T)}
 \Home{Jaravaza}{Budiriro}{Benjamin(B Wadiwa) \& Fadzai(M Wadiwa), Wadiwa, Nyasha, Takudzwa, Beziel; 7/2524 - 31st Cres. Glen View 1; (-17.913027,30.944567) }{0712 333 431(T)\\+263787552918(T)\\+263712097654(B)\\+263712980031(B)\\0774 097 654(B)\\+263776296878(F)}
-\Home{Jaravaza}{Budiriro}{Maxwell; stays in Glenview}{0717980004(MX)\\+263 71 308 6384(MX)}
 \Home{Jaravaza}{Garangwe}{Renias(B Rudo) \& Anita(M Rudo); Garangwe Sch, Box 93, Magunje; (-16.75715,29.34235) }{0777 749 497(R)\\0774 830 892(A)\\071 974 9497(R)}
+\Home{Jaravaza}{Harare Contacts}{Maxwell; stays in Glenview}{0717980004(MX)\\+263 71 308 6384(MX)}
 \Home{Jaravaza}{Harare Contacts}{Tabitha(M Two), Mishel; Harare}{0777 363 883(T)}
 \Home{Jaravaza}{Mushaike}{Tobias(B Leslie) \& Shovorai (M Leslie); Mushaike Sch. P. O. Box 436, Mpandawana, Gutu}{0772 699 818(T)\\+263787674239(T)\\0778 208 691(S)}
 \Home{Kabamba}{ZAM Contacts}{Joseph; }{}
@@ -154,14 +152,14 @@
 \Home{Konola }{Malawi Contacts}{Panganani; Malawi, Lilongwe}{+265 99 545 3510(P)}
 \Home{Konola}{Malawi Contacts}{Tecia; Malawi, Ntcheu Batch; (-14.7998560, 34.6230610) }{+265 99 518 8844(T)\\+265 88 138 8264(T)}
 \Home{Krause}{Bulawayo Contacts}{Willem \& Maureen (daugh Nancy d Villers); 110 Crouch Rd, Matsheumhlope}{0292 285489}
-\Home{Kumire}{Harare Contacts}{Renias(B Manu) \& Eunice(M Manu), Manuel, Ryan; 31587 M extension, Chitungwiza}{0734 115 585(E)\\073 426 0282(E)\\0779582648(E)\\+27842905298(R)}
+\Home{Kumire}{Harare Contacts}{Eunice(M Manu), Manuel, Ryan; 31587 M extension, Chitungwiza}{0734 115 585(E)\\073 426 0282(E)\\0779582648(E)}
 \Home{Kutaura}{Harare Contacts}{Panashe; }{078 400 5391}
 \Home{Kuvheya }{Masvingo Contacts}{Julie; Mukuruva Sch, Box 30, Chivhu}{+263777262375(J)}
 \Home{Kuvheya}{Manyene}{Winnet(M Julie), mzk Talent; Mukuruva Sch, Box 30, Chivhu}{077 307 3348(W)\\0717396240(W)}
 \Home{Kuvheya}{Masvingo Contacts}{David \& Pauline, Ruvarashe, Nenyasha, Munenyasha; Mukuruva Sch, Box 30, Chivhu}{+263778333075(D)}
 \Home{Kuvheya}{Masvingo Contacts}{Laurence \& Vimbai; Mukuruva Sch, Box 30, Chivhu}{+263784091025(L)\\+263777056496(V)}
 \Home{Lyon}{Bulawayo Contacts}{Alec; 16 Dunblane Rd, Riverside; stoneage.com@gmail.com; (-20.2083,28.65423) }{029 2280885\\0778820357(A)}
-\Home{Lyon}{Four Winds}{Elisabeth; 195 Snaith Road, Burnside.}{+263782793509(E)}
+\Home{Lyon}{Four Winds}{Elisabeth; 14 Waynne road, Riverside.}{+263782793509(E)\\+263772338388(E)}
 \Home{Machingura}{Masvingo}{Namatirai(M Simba), Kudzai, mzk: Vincent, Patience; Stand 3597 Beza St,Rujeko/Box 572, Masvingo}{0772 630 996(N)\\0772 429 254(K)}
 \Home{Machingura}{Masvingo}{Simba(B Hope) \& Nellie(M Hope), Hope; }{0772 944 780(S)\\071 271 7740(S)\\077 778 3998(N)}
 \Home{Madhoo}{Bulawayo Contacts}{Chana, Rupesh; 33 Chaplin Rd, Khumalo}{0292 251380\\0772 333 164(C)}
@@ -169,7 +167,7 @@
 \Home{Maduyu}{Masvingo Contacts}{Sheltar, Resta, Shephard; Dewende Sch, Box 440, Mupandawana}{}
 \Home{Maduyu}{Zim Contacts}{Ellemina, Panashe; }{0775 726 587}
 \Home{Madzikanda}{Zimbizi}{Mai Zadzisai; Gomba Sch, Basera,Gutu}{071 438 4932}
-\Home{Mafukidze}{Budiriro}{Perfect; }{+263787619488(P)}
+\Home{Mafukidze}{Harare Contacts}{Perfect; }{+263787619488(P)}
 \Home{Mafukidze}{Munyatipanzi}{Brighton(B Perfect) \& Mercy(M Perfect), Praise, Cynthia, Brighton, Peniel; Munyatipanze Sch, Box 36, Nembudzia}{+263774716702(B)\\+263713347953(B) +263773741925(M)}
 \Home{Magaisa}{Bulawayo Contacts}{Tsungai(M Tavonga) \& Joseph(B Tavonga), Tavonga, Wenyasha Reina; 26 Firbank Rd, Green Hill.Byo}{+26378 209 5322(T)\\071 328 4810(J)}
 \Home{Magama}{Bulawayo Contacts}{Dzingai; Vic Falls}{0772 463 096\\071 747 4612}
@@ -211,7 +209,7 @@
 \Home{Makumbe}{Masvingo Contacts}{Mai Salimu, Moila; Chiredzi}{}
 \Home{Makumbe}{Masvingo Contacts}{Never (B Tanya); 13 Mukanga St, Rufaro}{077 391 3659}
 \Home{Makumbe}{Masvingo Contacts}{Tinashe(B Nyasha); Triangle Country Club, Box 97, Triangle}{077 513 2747}
-\Home{Makumbe}{Tengwe}{John (B Felix) \& Esnath (M Felix), vzk Obey, Esnath; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{078 350 7175(J)}
+\Home{Makumbe}{Tengwe}{John (B Felix) \& Esnath (M Felix), vzk Obey, Esnath; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{078 350 7175(J)\\+263716874644(J)}
 \Home{Makumbe}{Tengwe}{Kudakwashe (B Tavonga) \& Sweeder(M Tavonga), Tavonga, Tinashe; 88 Lamote, c/o Tengwe Sch, Box 150, Tengwe}{077 654 5185(K)\\0784532464(S)}
 \Home{Makumbe}{Tengwe}{Peter \& Beatrice; 88 Lamote}{0771321175(P)}
 \Home{Makwara}{Masvingo Contacts}{Paida(B Ngaa); Matizha}{0779 732 027(P)\\0774 692 088(P)\\0777 600 807(P)}
@@ -265,10 +263,9 @@
 \Home{Maunganidze}{Masvingo Contacts}{Barbara \& Ephraim, Andrew; Chiredzi}{078 281 2526(B)\\0715559693(B) }
 \Home{Mavaza }{Bulawayo Contacts}{Takesure(B Faith) \& (M Faith), Faith, Hope, charity; 13814 Ngulumane 12, Bulawayo; tsmavaza@gmail.com}{+263774068669(T)\\+263292484750H\\+263778213517(H) }
 \Home{Mavhengere}{Midlands Contacts}{Angela(M Praise) \& Silence(B Praise), Praise; Village 16B}{}
-\Home{Mavhika}{Harare Contacts}{(brother of M Tsitsi of Mapu) (B Patience); 1271 Budiriro 1}{0733 871 117}
 \Home{Mavhika}{Mapu}{David(B Newton) \& Eunice(M Newton); Kwaedza Sch, PB6009, Gokwe}{0771467715(E)\\077 677 8370(D)}
 \Home{Mavhika}{Midlands Contacts}{Newton (B Sheila) \& Sithokozile(M Shiela), Sheila, Sharon, Samuel, Gracious; }{+263773347623(N)\\+263789960380(S)}
-\Home{Mavhurume}{Chitungwiza}{(M Nyasha), mzk: Toto, Nicole, Tariro, Munogonaishe; 15691 Muhonde Dr, Zengeza 5; (-18.00988,31.04176) }{0778 165 742\\0772 405 901\\Tsitsi 0772 890 859\\0781306160(NIC)}
+\Home{Mavhurume}{Chitungwiza}{(M Nyasha), mzk: Toto, Nicole, Tariro, Munogonaishe, Nathaniel; 15691 Muhonde Dr, Zengeza 5; (-18.00988,31.04176) }{0778 165 742\\0772 405 901\\Tsitsi 0772 890 859\\0781306160(NIC)}
 \Home{Mavhurume}{Chitungwiza}{Nyasha(B Simbarashe), Simba, Tito, Jaison; Seke Rd}{078 542 2877 (N)}
 \Home{Mavhurume}{Tshabalala}{Marjorie (M Taurai), Mzk: Sibonginkosi; 64982 Tshabalala Ext.; (-20.18313,28.5342) }{+263713790601(M)\\+263777340209(M)}
 \Home{Mawana}{Chidoma}{Kesi(M Tino), mzk: Lissa; Chidoma Sec School, Box 720, Gokwe}{+263789966504(K)}
@@ -281,7 +278,6 @@
 \Home{Mazhindu}{Harare Contacts}{Mirirai; Marondera}{0773 686 524}
 \Home{Mazhindu}{Murehwa}{Mildred (M Rudo); Magaya Sec Sch, Box 220, Murehwa}{0777 099 197(M)}
 \Home{Mazhindu}{Murehwa}{Zviko(B Favour), Favour; }{077 563 1295(Z)}
-\Home{Mazula}{Bulawayo Contacts}{Precious; 10 Harcourt Flats, 4th Avenue. BYO}{+263 78 356 7652}
 \Home{Mazura}{Bulawayo Contacts}{Sipho; 64982 Tshabalala Ext.}{+263782758947(S)}
 \Home{Mazura}{Tshabalala}{Janet(M Joy) \& Taurai(B Joy), Joy, Junior; 64982 Tshabalala Ext; (-20.18313,28.5342) }{077 558 3007(T)\\0773 455 533(J)}
 \Home{Mbatata}{Nyava}{Dorica(M Mbatata); c/o Nyava Sch, Bindura}{0779 646 235}
@@ -307,7 +303,7 @@
 \Home{Muchechesi}{Lusaka}{Tafadzwa; Eden University, Lusaka.; (-15.359995,28.236191) }{+26377 603 0802\\+26371 235 4912\\+260 77 1260096}
 \Home{Muchechesi}{Tshabalala}{Rosina(M Tanaka) \& Eric(B Tanaka), Tanaka, Tawananyasha; 7579/9 Tshabalala Dr, Tshabalala; (-20.18091,28.53391) }{0773 728 513(R)\\+263 71 778 5831(R)\\0718866445(E)\\0774611076(E)\\+263715297906(Tk)\\+263774241828(Tw)}
 \Home{Muchemwa}{Hurungwe Contacts}{Baba Brett \& Monica(M Brett), Brett, Brian; 1674 Nyamunga 3, Kariba}{0733 416 036(BB)\\077 379 0690 (M)}
-\Home{Muchemwa}{Midlands Contacts}{Elliot, c/o Enoch; }{}
+\Home{Muchemwa}{Midlands Contacts}{Elliot; }{}
 \Home{Muchemwa}{Zimbizi}{Goverai (M Selina), Rogers, Chemedzai, mzk Blessed; Zimbizi Sec Sch, Box 130, Mpandawana}{0713 910 390\\+263778872900}
 \Home{Muchemwa}{Zimbizi}{Vagere(B Mark); Zimbizi Sec Sch, Box 130, Mpandawana}{071 4705 300(V)}
 \Home{Mudimu}{Mashame}{Christine(M Jeremiah); Mashame Pri Sch, PB6231, Gokwe}{+263780401637(C)\\+263785930018(C)}
@@ -316,14 +312,14 @@
 \Home{Mudiwa}{Midlands Contacts}{Berena (M Elise's daughter), Nyasha; 2741/13 Mbizo}{055-47333}
 \Home{Mudzoki}{Bulawayo Contacts}{Steve; 70020/2 Lobengula}{+236712 804 018(S)\\+263713739407(S)}
 \Home{Mudzoki}{Bulawayo Contacts}{Violet (M Junior), Junior, Iyonie; Hwange}{+263713545585(V)\\+263774683001(V)}
-\Home{Mudzoki}{Harare Contacts}{Joy; Chitungwiza}{+263713037579}
+\Home{Mudzoki}{Harare Contacts}{Joy; Chegutu}{+263713037579}
 \Home{Mudzoki}{Harare Contacts}{Robert; Mutare}{+263 77 245 6750(R)}
 \Home{Mudzoki}{Harare Contacts}{Vongai (M Jose), Joseph, Blessing; MAFS Store, Joburg, Norton}{B Jose 0775 269 958}
+\Home{Mudzoki}{Hatfield}{Daina(M Varaidzai) \& Gilbert(B Varaidzai); Manica Bridge, Mutare}{+263776 153 249(D)\\0713 545 585(V)}
 \Home{Mudzoki}{Midlands Contacts}{Fungai(M Rengie) \& Manuel (B Rengie), Rumbi; Svibe Sec Sch, PB 21, Nembudzia}{+263782840727(F)\\+263788497990(M)}
 \Home{Mudzoki}{Midlands Contacts}{Mengesi; Kadoma}{+263774100538(M)}
 \Home{Mudzoki}{Midlands Contacts}{Thomas(B Tavonga) \& Chipo(M Tavonga); Plot 81, Oldham Farm/Box 635, Chegutu}{0774 180 890(T)}
 \Home{Mudzoki}{Nembudzia}{Tauya(B Thomie) \& Shumirai(M Thomas), Emmanuel, Prince, Kingsley, Steven, Abigail; Svibe Sec Sch, PB 21, Nembudzia}{+263780220932(S)}
-\Home{Mudzoki}{Nyamacheni}{Daina(M Varaidzai) \& Gilbert(B Varaidzai); Manica Bridge, Mutare}{+263776 153 249(D)\\0713 545 585(V)}
 \Home{Mugaga}{Madzokere}{Rumbidzai(M Kresencia) \& Marera(B Kresenzia), Marvelous, Archford; Madzokere}{0785730958(R)\\+27761970667(M)\\+27785648271(M)}
 \Home{Muguti }{Mapu}{Caleb \& Mai Clayton, Clayton, Tsitsi, Tinaye; Kwaedza Sch, PB6009, Gokwe}{}
 \Home{Muguti }{Midlands Contacts}{Remember; Kasonde, Gokwe}{+263789791092(R)}
@@ -378,7 +374,7 @@
 \Home{Mutumwabvi}{Budiriro}{Melissa; 11070 Nyazvidzi close, Budiriro 5}{+263 71 392 9832(M)\\+263786646299(M)}
 \Home{Mutumwabvi}{Harare Contacts}{Amanda, Vimbai, Pearl; 11070 Nyazvidzi close, Budiriro 5}{078 494 7264(A)}
 \Home{Mutumwabvi}{Murehwa}{Festus(B Kiri) \& Janet(M Ropa), mzk Zyan; Murehwa}{0772 364 219(F)\\0712 549 200(J)\\w04705122(J)\\+263 77 640 2552(J)}
-\Home{Mutumwabvi}{Murehwa}{Ruvimbo(M Zyan); 11070 Nyazvidzi close, Budiriro 5}{+263775 449 483(R)}
+\Home{Mutumwabvi}{Murehwa}{Ruvimbo(M Zyan); Malawi, Blantyre}{+263775 449 483(R)}
 \Home{Mutumwabvi}{Zim Contacts}{Rosina(M Lloyd), Lloyd, Lionel; Moved to South Africa}{0773 181764(R)\\0772 345 250(Lo)\\0775 874 536(Li)}
 \Home{Mutyorahuri}{Zhombe}{Edith (M Sibongile); St Andrews, Dzairo Village line.}{+263775236776(E)}
 \Home{Muvindi }{Masvingo Contacts}{Tafadzwa; Matizha}{+263774652896(T)}
@@ -394,7 +390,7 @@
 \Home{Muyemeki}{Harare Contacts}{Memory; Epworth, Harare}{ +263 71 559 5575}
 \Home{Muyemeki}{Harare Contacts}{Paida; Harare}{+263787089008(P)}
 \Home{Muyemeki}{St.Brendans}{Sam \& Maria, Munyaradzi, Mazvita; Karoi; (-16.8484,29.71757) }{+26377 531 9392(S)\\+263772717414(M)}
-\Home{Muzambi}{Nyava}{Martha (M Charles), Elmond, Munashe; }{0773745601(M)}
+\Home{Muzambi}{Nyava}{Martha, Elmond, Munashe; }{0773745601(M)}
 \Home{Muzanenhamo}{Midlands Contacts}{Chrystabel; }{071 821 5813}
 \Home{Muzanenhamo}{Midlands Contacts}{Vimbai \& Washington(BM Hotera), Shelton, Isaiah, Paddington, Martha; Safago Farm, Box 427, Gweru}{+263780173238(V)\\071 643 6399(S)\\0773625075(W)\\+263776539788(P)}
 \Home{Muzonde}{Budiriro}{Raymond(B Ryan) \& Ruth(M Ryan), Ryan, Natalie, Riley; Dzivarasekwa}{0772 980 604(Ra)\\+263 71 998 0604(Ra)\\0774 825 489(Ru)}
@@ -409,7 +405,7 @@
 \Home{Ndamba}{Chiriga}{Monica(Mai Simbi); Matutu Store, Box 9, Chatsworth}{0774 173 100(M)}
 \Home{Ndamba}{Harare Contacts}{Rashai; Harare}{0773 231 986}
 \Home{Ndamba}{Masvingo Contacts}{Rerai(M Melusi), Millicent; Bandwe Street, Rujeko C. Masvingo}{077 874 3231(R)}
-\Home{Ndlovu}{Bulawayo Contacts}{Saliwe(M Tumiso) \& Tlotliso, Tumiso; 2877 Emakhandeni, Byo}{078 505 9996(S)\\+263782545768(S)}
+\Home{Ndlovu}{Bulawayo Contacts}{Saliwe(M Tumiso) \& Tlotliso, Tumiso; 2877 Emakhandeni, Byo}{078 505 9996(S)\\+263782545768(S)\\+263714846353(S)}
 \Home{Ndombe}{Likasi}{Papa Daniel, Prince; DRC Contacts}{+243 811819641(D)\\+243 992757745(Pr)\\+243 811718753(Pr)\\+243811819641(Pr)}
 \Home{Neshiri}{Harare Contacts}{Elias; }{0773 150 944(E)}
 \Home{Neshiri}{Harare Contacts}{Nyaradzo; at Epworth}{0733 394 348}
@@ -425,12 +421,13 @@
 \Home{Nonde}{Mkushi}{Dorothy, Lucky, Gift, Linnet; Nkumbi - Mkushi}{+260765910446}
 \Home{Nonde}{ZAM Contacts}{Juliana; Lufubu, luwingu}{+260 976 270 417}
 \Home{Nyakonda}{Harare Contacts}{Mrs (M.Revai's sister); 72 The Chase}{0772 309 424}
+\Home{Nyamapfeka }{Hurungwe Contacts}{Josie \& Rutendo9, Misheck, Mitchel; Ruben Compound, Magomera Farm}{+263787740458(;J)}
 \Home{Nyamapfeka}{Tengwe}{Alec; Tengwe}{+263785657222(A)}
-\Home{Nyamapfeka}{Tengwe}{Patricia(M Josie), Jose, Loice; Ruben Compound, Magomera Farm; (-17.21993,29.60703) }{0777663700(P)\\0715873350(J)}
+\Home{Nyamapfeka}{Tengwe}{Patricia(M Josie), Jose, Loice; Ruben Compound, Magomera Farm; (-17.21993,29.60703) }{0777663700(P)\\+263714029996(;P)}
 \Home{Nyamutowa }{Hurungwe Contacts}{Cynthia \& Collen, Collen; Garangwe Sch, PB 93, Magunje}{}
 \Home{Nyamutowa }{Hurungwe Contacts}{Ignatius; Karoi}{+263 78 741 6152}
 \Home{Nyamutowa}{Garangwe}{Edzai(M Precious), Mike, Knowledge, mzk Perfect; Garangwe Sch, PB 93, Magunje}{+263772662310(M)}
-\Home{Nyamutowa}{Garangwe}{Mirriam, Prosper, Polite, Pelagia, Patricia, Primrose; Garangwe Sch, PB 93, Magunje}{077 314 4687}
+\Home{Nyamutowa}{Garangwe}{Mirriam, Prosper, Polite, Pelagia, Patricia, Primrose; Garangwe Sch, PB 93, Magunje}{077 314 4687(M)\\+263778576214(P)}
 \Home{Nyamutowa}{Garangwe}{Newface (B Igie) \& Anna (M Igie), Nelson, Tanatswa, Rutendo; Garangwe Sch, PB 93, Magunje; (-16.75622,29.34253) }{+263776 176 386(N)\\+263714870915(A)}
 \Home{Nyamutowa}{Garangwe}{Precious \& Violet(B \& M Mercy), Mercy; Garangwe school}{+263785858194(V)\\+263785508035(P)\\+263785868194(P)}
 \Home{Nyanda }{Harare Contacts}{Peter; Harare}{}
@@ -463,7 +460,7 @@
 \Home{Roberts}{Four Winds}{Will \& Linda; 28 Old Gwanda Road, Four winds; pinkteapots@gmail.com; (-20.218,28.5862) }{029 2246017\\+263712 629 343(W)\\+263775 218 481(L)}
 \Home{Runesu}{Dingani}{Patience(M Cynthia) \& Livingston (B Cynthia), Cynthia, Patrice, Lee Ann; Chivhu}{+263782128332(P)\\+263771087242(P)\\0771719935(L)}
 \Home{Rwafa}{Harare Contacts}{Patience; Gutu}{+263776165089\\+263717538960}
-\Home{Rwafa}{Harare Contacts}{Tecla; Chitungwiza, Manyame}{0771353242\\+263713489404}
+\Home{Rwafa}{Harare Contacts}{Tecla; Mutare}{0771353242\\+263713489404}
 \Home{Rwafa}{Masvingo Contacts}{Carolin; Shurugwi}{077 170 9997}
 \Home{Rwafa}{Masvingo Contacts}{Kudzai; works ZB bank Gutu}{077 368 8350\\071 535 6638}
 \Home{Rwafa}{Mukaro}{Winnet(Mai Kundai); Mukaro Pfungidzo turnoff, Gutu/Masz rd.}{078 238 5205(W)}
@@ -511,9 +508,9 @@
 \Home{Zava }{Midlands Contacts}{Monica(M Chiedza); Gokwe, Sanyati}{+263773661324(M)}
 \Home{Zava }{Midlands Contacts}{Taurai; Gokwe, Copper queen}{+263715908909(T)\\+263784804722(T)}
 \Home{Zava}{Midlands Contacts}{Mugove; ADDA}{}
-\Home{Zimbango}{Harare Contacts}{Samantha; Ziko}{+263777667391(S)}
+\Home{Zimbango}{Hatfield}{Samantha; Ziko}{+263777667391(S)}
 \Home{Zimbango}{Masvingo Contacts}{M Jerry, Memory, Tinashe, Mavis; Nhidza Primary school, Nharira}{+263771346877}
-\Home{Zimbeva}{Chirumanzu}{Respina(M Anotida) \& Absalom(B Ano), Anotida/Blessing, Brain, Tarisai; turn @ chaka shops. Head for Hama Mission School, take Siyahokwe rd to right,  before Mission. Govore Village, Vhudzi Pr. Sch}{+263777355092(A)}
+\Home{Zimbeva}{Chirumanzu}{Respina(M Anotida) \& Absalom(B Ano), Anotida/Blessing, Brain, Tarisai; turn @ chaka shops. Head for Hama Mission School, take Siyahokwe rd to right,  before Mission. Govore Village, Vhudzi Pr. Sch}{+263777355092(A)\\+263775756393(R)}
 \Home{Zimbizi}{Bulawayo Contacts}{Judith(M Margie); 4685 Nkulumane}{0735 088 383(J)\\+263778029759(J)}
 \Home{Zimbizi}{Bulawayo Contacts}{Maggie; Victoria Falls}{+263772397130(M)}
 \Home{Zimuto}{Masvingo Contacts}{Audrey; Mvuma}{}
@@ -553,7 +550,6 @@
 \MLHome{Manyoka}{}{Mike}
 \MLHome{Manyoka}{}{Prettymore(M Blessing), Winnie, Taberth}
 \MLHome{Mavaza }{}{Takesure(B Faith) \& (M Faith), Faith, Hope, charity}
-\MLHome{Mazula}{}{Precious}
 \MLHome{Mazura}{}{Sipho}
 \MLHome{Moyo}{}{Ketiwe}
 \MLHome{Moyo}{}{Ropafadzo Samantha}
@@ -608,15 +604,13 @@
 \MLHome{Tukumbane}{}{Juliana, Freddie}
 \MLDistrictH{Harare}
 \MLMeetingH{Budiriro}
-\MLHome{Bhinzi}{}{Bertha (M Tanaka), Tanaka, Alisha}
+\MLHome{Bhinzi}{Bhinzi is a contact}{Bertha (M Tanaka), Tanaka, Alisha}
 \MLHome{Chesango}{}{Esnath(M Takudzwa), Naledi}
 \MLHome{Chinaadzimu}{}{Joyce (mHayley Sasha)}
 \MLHome{Jaravaza}{}{Benjamin(B Wadiwa) \& Fadzai(M Wadiwa), Wadiwa, Nyasha, Takudzwa, Beziel}
-\MLHome{Jaravaza}{}{Maxwell}
-\MLHome{Mafukidze}{}{Perfect}
 \MLHome{Mutumwabvi}{SunAM,SunPM}{Melissa}
-\MLHome{Muzonde}{}{Ruth(M Ryan), Ryan, Natalie, Riley}
-\MLHome{Nyanda}{}{Munyaradzi (B Shalom) \& Tendai(M Shalom), Shalom, Chantelle}
+\MLHome{Muzonde}{Raymond is a contact}{Ruth(M Ryan), Ryan, Natalie, Riley}
+\MLHome{Nyanda}{Munya is a contact}{Munyaradzi (B Shalom) \& Tendai(M Shalom), Shalom, Chantelle}
 \MLHome{Nziradzepatsva}{}{Trust}
 \MLHome{Zaranyika }{Wed}{Tungamirai(B Kudzwai) \& Constance (M Kudzwai), Kudzwai, Marylyn, Joshua}
 \MLMeetingH{Chihota}
@@ -625,7 +619,7 @@
 \MLHome{Busuman}{Elder}{Davison(B Casper) \& Mercy (M Casper), Natsai (vzk)}
 \MLHome{Chiwara}{}{Letwine(M Justine) \& B Justin, vzk, Kuziva, Prosper, Roxanne, Kisha, Lean, Cortiney}
 \MLHome{Makumbe}{}{Mufaro(M Kudzi), Fadzai, Jamaal, Jayden}
-\MLHome{Mavhurume}{All mtgs}{(M Nyasha), mzk: Toto, Nicole, Tariro, Munogonaishe}
+\MLHome{Mavhurume}{All mtgs}{(M Nyasha), mzk: Toto, Nicole, Tariro, Munogonaishe, Nathaniel}
 \MLHome{Mavhurume}{}{Nyasha(B Simbarashe), Simba, Tito, Jaison}
 \MLHome{Munyuni}{}{Mai Romio}
 \MLMeetingH{Harare Contacts}
@@ -647,6 +641,7 @@
 \MLHome{Dzvokora}{}{Chikomborero}
 \MLHome{Eggersglusz}{}{Darren \& Lovia, Brendan, Joshua}
 \MLHome{Hungwe}{}{Rashy \& Tariro}
+\MLHome{Jaravaza}{}{Maxwell}
 \MLHome{Jaravaza}{}{Tabitha(M Two), Mishel}
 \MLHome{Kampila}{}{Francis \& Mary}
 \MLHome{Kampila}{}{Nesto \& Angela, Nixon, Kelvin, Tapiwa, Chantelle, Mitchelle}
@@ -654,8 +649,9 @@
 \MLHome{Kanzoto}{}{Jimmy (Baba Black's son)}
 \MLHome{Kapingautawa}{}{Tariro}
 \MLHome{Kaseke  }{}{Tendai(M Samatha), Samatha, Ropafadzo}
-\MLHome{Kumire}{}{Renias(B Manu) \& Eunice(M Manu), Manuel, Ryan}
+\MLHome{Kumire}{Mai Manu in SA}{Eunice(M Manu), Manuel, Ryan}
 \MLHome{Kutaura}{}{Panashe}
+\MLHome{Mafukidze}{}{Perfect}
 \MLHome{Magama}{}{Josephine (M Justin), Maphoto}
 \MLHome{Magama}{}{Khumbulani (B Michelle)}
 \MLHome{Makondo}{}{Noreen (M Tino)}
@@ -670,7 +666,6 @@
 \MLHome{Maseko}{}{Blessing, Thelma, Davidson}
 \MLHome{Mashonganyika}{}{Plaxedes (Ambuya Sandra), mzk: Sandra, Tendai}
 \MLHome{Mateyaunga}{}{Lynette (M Paida's daughter)(M Natasha)}
-\MLHome{Mavhika}{}{(brother of M Tsitsi of Mapu) (B Patience)}
 \MLHome{Mawisire}{}{Febi (Naboth's sister) (M Richard)}
 \MLHome{Mazhindu}{}{Mirirai}
 \MLHome{Mhishi}{}{Betty (Mbuya VaBlessing), vzk Brenda, Precious}
@@ -712,26 +707,25 @@
 \MLHome{Tsokodai}{}{Eusebia(M Chrispen), Chrispen}
 \MLHome{Veto}{}{Evelette, Brian, Tanaka, Margaret}
 \MLHome{Zaranyika}{}{Tinashe, Patience, Tunga}
-\MLHome{Zimbango}{}{Samantha}
 \MLHome{Zivengwa }{}{Sibongile(M Tadi)}
 \MLHome{Zvoutete}{}{Antonia(M Tavonga), Tavonga}
 \MLMeetingH{Hatfield}
-\MLHome{Bhunu}{Couple moved to UK}{Andrew (B Rufaro) \& Vongai(M Rufaro), Rufaro, Miles Mukundi}
 \MLHome{Chigwende}{SunAM,SunPM}{Robert(B Ashley), Claire Robin, Barbara, Graham}
 \MLHome{Chigwende }{}{Tinevimbo}
 \MLHome{Chinyoka}{}{Zorodzai \& B Panashe, Panashe, Takudzwa}
-\MLHome{Chiriga}{}{Tapiwa}
 \MLHome{Dhaura}{}{Basilisa(M Nyaradzo)}
 \MLHome{Dzvokora}{}{Obey(B Muriishe) \& Grace(M Muriishe), Muriishe}
 \MLHome{Gondo}{}{Taurai(B Kudzi), Tanatswa, Leroy, Mutsa, Tamiranashe}
 \MLHome{Gondo}{}{Vongai(M Akudzwe), Akudzwe}
 \MLHome{Magaramombe}{}{Jane(M Jabulani), mzk Matipaishe}
 \MLHome{Muchadei }{}{Gladys(M Wisdom)}
+\MLHome{Mudzoki}{}{Daina(M Varaidzai) \& Gilbert(B Varaidzai)}
 \MLHome{Murongazvombo}{}{Prince \& Kudzai}
 \MLHome{Mutomeko}{}{Rugare}
 \MLHome{Nhete}{}{Priscah(M Sharai), Mary Ann-Grace}
 \MLHome{Schmidt}{}{Felicia}
 \MLHome{Steenkamp}{}{Keith \& Claire, Emily}
+\MLHome{Zimbango}{}{Samantha}
 \MLMeetingH{Mahuwe}
 \MLHome{Chasweka}{}{Better(B Prince) \& Juliet(M Prince), Elton, Byron, Binon, Prestige}
 \MLMeetingH{Murehwa}
@@ -750,7 +744,7 @@
 \MLHome{Ketero}{}{Mavis(M Chamu), Petros, mzk Lewlene, Lindrell, Delroy}
 \MLHome{Mbatata}{}{Dorica(M Mbatata)}
 \MLHome{Mumba}{SunAM,SunPM;Elder}{Sekuru \& Mai Mumba, mzk Nyasha}
-\MLHome{Muzambi}{}{Martha (M Charles), Elmond, Munashe}
+\MLHome{Muzambi}{}{Martha, Elmond, Munashe}
 \MLHome{N'andu}{}{Violen, vzk Munashe, Andrew}
 \MLHome{Parimangwana}{}{Mai}
 \MLMeetingH{Seke}
@@ -790,6 +784,7 @@
 \MLHome{Muchemwa}{}{Baba Brett \& Monica(M Brett), Brett, Brian}
 \MLHome{Mukonoweshuro}{Mai shumi's daughter}{Vimbai}
 \MLHome{Muyemeki }{}{Evelyn}
+\MLHome{Nyamapfeka }{}{Josie \& Rutendo9, Misheck, Mitchel}
 \MLHome{Nyamutowa }{}{Cynthia \& Collen, Collen}
 \MLHome{Nyamutowa }{}{Ignatius}
 \MLHome{Nziradzepatsva}{}{Biggie(B Munashe) \& Shorai(M Munashe), Nyasha, Munashe, Damaine}
@@ -876,7 +871,7 @@
 \MLHome{Mawana}{}{Netiwe (M Lisa), Lisa}
 \MLHome{Mawana}{}{News (B Tino)}
 \MLHome{Mpofu}{}{Justine (M Freddie), Freddie}
-\MLHome{Muchemwa}{}{Elliot, c/o Enoch}
+\MLHome{Muchemwa}{}{Elliot}
 \MLHome{Mudimu}{}{Mai Shaulyn \& Anyway, Shanezze, Shyleen}
 \MLHome{Mudiwa}{}{Berena (M Elise's daughter), Nyasha}
 \MLHome{Mudzoki}{}{Fungai(M Rengie) \& Manuel (B Rengie), Rumbi}
@@ -918,8 +913,6 @@
 \MLHome{Zvinorova}{All mtgs;Elder;Wed 3pm}{Mbuya Zvino(M Paul), Eunice, Learmore}
 \MLMeetingH{Nembudzia}
 \MLHome{Mudzoki}{}{Shumirai(M Thomas), Emmanuel, Prince, Kingsley, Steven, Abigail}
-\MLMeetingH{Nyamacheni}
-\MLHome{Mudzoki}{}{Daina(M Varaidzai) \& Gilbert(B Varaidzai)}
 \MLMeetingH{Shurugwi}
 \MLHome{Jakopo}{Tendai works in Gutu}{Tinomuvonga(B Tracey) \& Tendai ( M Tracey), Tracey}
 \MLHome{Phiri}{SunAM,Wed}{Nurse(Mai Godi)}
