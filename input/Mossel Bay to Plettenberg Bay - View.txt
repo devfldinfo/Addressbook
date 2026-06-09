@@ -3,6 +3,7 @@
 \author{}
 \usepackage{addressbook1}
 \begin{document}
+\raggedbottom
 \maketitle
 \clearpage
 \pagenumbering{arabic}
