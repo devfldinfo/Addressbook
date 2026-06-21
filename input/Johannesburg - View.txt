@@ -29,10 +29,10 @@
 \Home{Fritz}{Hyde Park}{Jimmy; 123 Maud St, Florida, 1709; Jimmy.hrproperty@gmail.com; (-26.181555,27.92858) }{061 177 6257}
 \Home{Frost}{Hyde Park}{Billy \& Francien; 9 Bromley Close, Bryanston, Sandton (Stays with Cheryl their daughter); fpbfrost@gmail.com}{082 446 5299(B)\\083 607 6634(F)}
 \Home{Furter}{Valeriedene}{Mariana; 23 Columbine Avenue, Randpark, 2194}{079 891 5418}
+\Home{Gallis}{Boskruin}{Chantel \& Jamey; Unit 12, Jacana Rock, 17 Panther road, Boskruin}{084 319 4612(C)}
 \Home{Gilles}{Forest Town}{Carl \& Tracy-Anne, Caleb; 50 Cherry Drive, Randpark, 2194; carlandtracy@gmail.com}{082 305 1009(C)\\083 259 1703(T)}
 \Home{Gouws}{Boskruin}{Gerald; 17 Luiperd Street , Randfontein ; geraldgws@gmail.com}{072 442 4089}
 \Home{Greenwood}{Boskruin}{Chantelle \& Branden, Tristan, Connor; 114 Pritchard Street, Jukskei Park 2153; chantellegreenwood@gmail.com}{084 821 4788(C)\\072 206 0620(C)\\011 704 6389H}
-\Home{Hodgson}{Boskruin}{Chantel; Unit 12, Jacana Rock, 17 Panther road, Boskruin}{084 319 4612}
 \Home{Hodgson}{Boskruin}{Neale \& Charmaine, Jenny, Jessica, Johnathan; 21 Dolweni Ave, Boskruin; PO Box 2771, Bromhof 2154; hodgsonneale@gmail.com(N) , hodgsoncharm@gmail.com(C) }{082 413 3792(N)\\082 621 5419(N)\\082 855 7976(C)\\073 718 0129(J)}
 \Home{Holmes}{Alberton}{Kristin; 40 Rockwood, 26 Tussock Street, Meyersdal Nature Estate, Meyersdal; kristinh7@gmail.com}{082 941 7152}
 \Home{Holtzhausen}{Forest Town}{Margaux; 11 Aronsohn Road, Lyme Park, Sandton; margauxgrace.holtzhausen@gmail.com}{079 884 8172}
@@ -81,9 +81,9 @@
 \MLHome{Shamrock}{}{Kevin, Ryan}
 \MLMeetingH{Boskruin;N Hodgson}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Gouws}{}{Gerald}
 \MLHome{Greenwood}{}{Chantelle \& Branden, Tristan, Connor}
-\MLHome{Hodgson}{}{Chantel}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Schlemmer}{}{Maud}
@@ -151,7 +151,7 @@
 \MLHome{Shamrock}{}{Kevin, Ryan}
 \MLMeetingH{Boskruin SunPM@17h00;N Hodgson}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
-\MLHome{Hodgson}{}{Chantel}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Setekwa}{}{Betty}
@@ -211,7 +211,7 @@
 \MLHome{Scholtz}{All mtgs;Elder}{Dewet \& Soné, Ingrid, Quintin}
 \MLMeetingH{Boskruin WedPM@19h30;R Rapoza}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
-\MLHome{Hodgson}{}{Chantel}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Setekwa}{}{Betty}

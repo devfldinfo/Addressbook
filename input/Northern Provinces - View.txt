@@ -203,6 +203,7 @@
 \Home{Furter}{Valeriedene}{Mariana; 23 Columbine Avenue, Randpark, 2194}{079 891 5418}
 \Home{Futcher}{Limpopo Kontakte}{Dudley; c/o Lurette Futcher; Louis Trichardt}{}
 \Home{Futcher}{Louis Trichardt}{Lurette \& Dudley, Tiaan, Bernard; 38 Mopani St, Makhado 0920; lurettef@yahoo.com}{082 384 1054(L)}
+\Home{Gallis}{Boskruin}{Chantel \& Jamey; Unit 12, Jacana Rock, 17 Panther road, Boskruin}{084 319 4612(C)}
 \Home{Garcia}{Huis Danalet}{Heather; Huis Danalet, 92 Dassiebos st, Wonderboom.; heathernannymrsg@gmail.com}{084 607 4988}
 \Home{Gilfillan}{Impala Park}{Alec \& Mary; 16 Buffalo Road, Impala Park, Boksburg,1459; Gilfillan.alec@gmail.com(A) , mozzie884@gmail.com(M) }{011 894 3040\\083 276 7805(A)\\084 610 4088(M)}
 \Home{Gilfillan}{Impala Park}{Barry; 12 Cragg St, Rynfield, Benoni, 1514, South Africa; barryg22@gmail.com}{083 555 9382}
@@ -254,7 +255,6 @@
 \Home{Herman}{Emalahleni}{Etienne \& Adie, Lovaine; "Grootvallei", K 20, eMalahleni; etienne.herman@franke.com(E) , adieherman@gmail.com(A) ; (-25.72066,29.131391) }{082-872-9144(A)\\082 893 4049(E)\\078 077 7811(L)\\071 684 3530(E)\\+27 79 893 6832(L)}
 \Home{Hickley}{Huis Abendruhe}{Johnny; Huis Abendruhe, Plot 696, Sinagoge rd, Kameeldrift Oos}{+2776 699 3669}
 \Home{Hickley}{Impala Park}{Roger \& Lynette, Kevin, Ryan, Emma; 9 Tassenberg Rd, Alphen Park, Benoni; Private Bag X3, Unit 79, Bonaero Park, 1622; rhickley@eject.co.za}{011 395 4150W(R)\\083 276 5949(R)\\082 458 2840(L)}
-\Home{Hodgson}{Boskruin}{Chantel; Unit 12, Jacana Rock, 17 Panther road, Boskruin}{084 319 4612}
 \Home{Hodgson}{Boskruin}{Neale \& Charmaine, Jenny, Jessica, Johnathan; 21 Dolweni Ave, Boskruin; PO Box 2771, Bromhof 2154; hodgsonneale@gmail.com(N) , hodgsoncharm@gmail.com(C) }{082 413 3792(N)\\082 621 5419(N)\\082 855 7976(C)\\073 718 0129(J)}
 \Home{Hoffmann}{NP Contacts}{Lynae; 34 Abrahamson rd, Witfield, Boksburg; naenaefelix@gmail.com}{067 102 9744}
 \Home{Hofmann}{Kempton Park}{Deidre, JP, JW, Günther; 487 Shamrock road, Bredell AH, Kempton Park 1619}{073 839 2166(D)}
@@ -1139,9 +1139,9 @@
 \MLHome{Shamrock}{}{Kevin, Ryan}
 \MLMeetingH{Boskruin;N Hodgson}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Gouws}{}{Gerald}
 \MLHome{Greenwood}{}{Chantelle \& Branden, Tristan, Connor}
-\MLHome{Hodgson}{}{Chantel}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Schlemmer}{}{Maud}
@@ -1209,7 +1209,7 @@
 \MLHome{Shamrock}{}{Kevin, Ryan}
 \MLMeetingH{Boskruin SunPM@17h00;N Hodgson}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
-\MLHome{Hodgson}{}{Chantel}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Setekwa}{}{Betty}
@@ -1269,7 +1269,7 @@
 \MLHome{Scholtz}{All mtgs;Elder}{Dewet \& Soné, Ingrid, Quintin}
 \MLMeetingH{Boskruin WedPM@19h30;R Rapoza}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
-\MLHome{Hodgson}{}{Chantel}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Setekwa}{}{Betty}

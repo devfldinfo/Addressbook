@@ -588,6 +588,7 @@
 \Home{Gachoki (Kenya)}{Nairobi}{Kinyua \& Ruth; JM74+H6H Ngong}{+254768764651(R)\\+254 703 515422(K)}
 \Home{Gachoki}{Umhlanga}{Kinyua \& Ruth, Shiro, Andrew, Gakenia, Joy; 5 Quinine Close (off Milkwood way), Simbithi Eco-Estate, Ballito, 4420; P.O. Box 608, Umhlali, 4390; Kgachoki@waldene.com(K) , ruthkinyua@gmail.com(R) ; (-29.523659,31.217539) }{072 440 5233(K)\\082 835 4497(R)\\032 946 2216\\+27647534724(J)}
 \Home{Gale}{Mozambique Contacts}{Gaspar; Mopeia, Zambesia}{+258 87 721 1580(G)}
+\Home{Gallis}{Boskruin}{Chantel \& Jamey; Unit 12, Jacana Rock, 17 Panther road, Boskruin}{084 319 4612(C)}
 \Home{Ganca}{EC Contacts}{Florence, Nyameka, Olwethu, Ziyanda; 12 Mpehla street, Zwide 3, Ibhayi}{061 190 8646(F)}
 \Home{Garcia}{Huis Danalet}{Heather; Huis Danalet, 92 Dassiebos st, Wonderboom.; heathernannymrsg@gmail.com}{084 607 4988}
 \Home{Geduld}{Atlantis}{Frank \& Cathy; 62 Snip St, Cnr Swawel St, Robinvale, 7349; Posbus 1590, Dassenberg, 7350; cathy@imvusaplastics.co.za(C) , karel@imvusaplastics.co.za(F) }{082 384 9764(F)\\076 256 6099(C)\\021 572 0267}
@@ -741,7 +742,6 @@
 \Home{Hlasi}{Midlands Contacts}{Wellington, Vimbai, Takudzwa, Thulani, Takundwa; Dombwe Pr Sch, Box 1 Shurugwi}{0779 309 212}
 \Home{Hodgkinson}{Dan Pienaar}{Anthony; 5 General Conroy St, Siesta Home Room 44, Dan Pienaar, Bloemfontein, 9301}{+2782 750 5591}
 \Home{Hodgkinson}{Umhlanga}{Ted; 36 Broadwood Dr, Umhlanga, 4319; tedhodgkinson753@gmail.com}{072 613 0406}
-\Home{Hodgson}{Boskruin}{Chantel; Unit 12, Jacana Rock, 17 Panther road, Boskruin}{084 319 4612}
 \Home{Hodgson}{Boskruin}{Neale \& Charmaine, Jenny, Jessica, Johnathan; 21 Dolweni Ave, Boskruin; PO Box 2771, Bromhof 2154; hodgsonneale@gmail.com(N) , hodgsoncharm@gmail.com(C) }{082 413 3792(N)\\082 621 5419(N)\\082 855 7976(C)\\073 718 0129(J)}
 \Home{Hodgson}{Hoekwil}{Graham \& Caroline, Thomas; 4 Olifantshoek Road, Hoekwil, George 6538; P.O. Box 130, Hoekwil 6538; hoekwilhodgsons@gmail.com, thomasdhodgson@gmail.com(T) }{0833881717(G)\\0823490102(Ca)\\079 036 5156(T)}
 \Home{Hodgson}{Rondebosch East}{Claire; 322 Obs Court, 3A Howe Street, Observatory, Cape Town; hodgson.ce@gmail.com}{072 615 0551}
@@ -3857,9 +3857,9 @@
 \MLHome{Shamrock}{}{Kevin, Ryan}
 \MLMeetingH{Boskruin;N Hodgson}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Gouws}{}{Gerald}
 \MLHome{Greenwood}{}{Chantelle \& Branden, Tristan, Connor}
-\MLHome{Hodgson}{}{Chantel}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Schlemmer}{}{Maud}
@@ -3927,7 +3927,7 @@
 \MLHome{Shamrock}{}{Kevin, Ryan}
 \MLMeetingH{Boskruin SunPM@17h00;N Hodgson}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
-\MLHome{Hodgson}{}{Chantel}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Setekwa}{}{Betty}
@@ -3987,7 +3987,7 @@
 \MLHome{Scholtz}{All mtgs;Elder}{Dewet \& Soné, Ingrid, Quintin}
 \MLMeetingH{Boskruin WedPM@19h30;R Rapoza}
 \MLHome{Bruwer}{}{Cronjé \& Ansie, Ignatius}
-\MLHome{Hodgson}{}{Chantel}
+\MLHome{Gallis}{}{Chantel \& Jamey}
 \MLHome{Hodgson}{SunAM,SunPM;Elder}{Neale \& Charmaine, Jenny, Jessica, Johnathan}
 \MLHome{Rapoza}{Wed}{Rueon}
 \MLHome{Setekwa}{}{Betty}
