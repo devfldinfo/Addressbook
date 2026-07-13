@@ -2,6 +2,7 @@
 \usepackage{addressbook3}
 \usepackage{times}
 \usepackage{babel}
+\usepackage{xstring}
 \usepackage[OT1]{fontenc} 
 %\usepackage{graphicx}
 %\usepackage{layout}
@@ -208,15 +209,24 @@
 
 \makeHeaders  %Uncomment for headers
 
-\newcommand{\setMtgHeader}[1]{
+%\newcommand{\setMtgHeader}[1]{
 % \@startsection{section}{3}{0pt}{0pt}{0pt}{#1}{}
 %\part{#1}
 
 %\markright{\botmark\hfill}
 
 %\@startsection{section}{1}{0pt}{0pt}{0pt}{}{#1}{}
-\markboth{}{}
-\markright{#1}
+%\markboth{}{}
+%\markright{#1}
+%}
+
+
+
+\newcommand{\setMtgHeader}[1]{%
+  \markboth{}{}%
+  \IfSubStr{#1}{;}%
+    {\StrBefore{#1}{;}[\ShortHeader]\markright{\ShortHeader}}%
+    {\markright{#1}}%
 }
 
 
