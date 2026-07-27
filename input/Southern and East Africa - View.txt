@@ -400,7 +400,7 @@
 \Home{Delport}{NP Contacts}{Isabel; 17 Meule street, Potchefstroom, 2520, Groenwilgers, Kamer 17}{072 631 6429\\082 082 1255}
 \Home{Delport}{SW Morningside}{Dave \& Beverley; K2 Golf Beach, Greenways Golf Estate, Strand 7140; thesadelports@gmail.com, beverleydelport@yahoo.co.uk(B) }{071 254 8929(B)\\081 896 4600(D)}
 \Home{Delport}{Sherwood}{Ian \& Tracey, Kayla; 13 Iver Rd, Westville; ian.delport@defy.co.za(I) }{083 412 2921(I)\\079 526 0253(T)\\031 262 0302}
-\Home{Delport}{Virginia}{Anetjie; 9 Sederhof, 166 Danie Erasmus Dr, Merriespruit, Virginia, 9430; bendelport@gmail.com}{0636863704}
+\Home{Delport}{Virginia}{Anetjie; 14 Akasiahof, 166 Danie Erasmus Dr, Merriespruit, Virginia, 9430; bendelport@gmail.com}{0636863704}
 \Home{De Jager}{KZN Contacts}{Colleen; Clipsham Farm, Road D551, Hattingspruit; Box 1874 Dundee, 3000; ndejager@kznatal.co.za; (-28.08212,30.162626) }{034 212 3674\\079 888 8458}
 \Home{Dhaura}{Harare Contacts}{Justice; 6505 Unit J, Chitungwiza; (-18.00969,31.04167) }{0773 268 584}
 \Home{Dhaura}{Hatfield}{Basilisa(M Nyaradzo); Dama falls}{0772 575 749 (B)}
