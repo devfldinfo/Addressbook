@@ -7,29 +7,9 @@ const SPREADSHEET_ID =
 
 const SHEET_QRYEXPORT = "qryExport";
 const SHEET_GOOGLECONTACTS = "GoogleContacts";
-//const SHEET_UPDATE = "Update";
 const SHEET_SETTINGS = "Settings";
 const SHEET_MEETINGS = "qryExportField";
 const SCRIPT_VERSION = "1.1";
-
-/*
-const GOOGLECONTACTS_HEADER = [
-  "Surname",
-  "Name",
-  "Address",
-  "Email",
-  "Phone Numbers",
-  "Notes",
-  "UUID",
-  "ResourceName"
-];
-
-
-const UPDATE_HEADER = [
-  "UUID",
-  "Action"
-];
-*/
 
 const DEFAULT_MEETING_PREFIX = "TMP";
 const DEFAULT_COUNTRY_CODE = "+27";
@@ -49,191 +29,9 @@ function PrepareContactSync() {
   Stage1_WriteGoogleContacts(ss);
 }
 
-
-/************************************************************
- * GOOGLE CONTACT HELPERS
- ************************************************************/
-/*
-function GetGoogleContactGPS(person) {
-
-  if (
-    !person ||
-    !Array.isArray(
-      person.locations
-    )
-  ) {
-    return "";
-  }
-
-  for (
-    var i = 0;
-    i < person.locations.length;
-    i++
-  ) {
-
-    var location =
-      person.locations[i];
-
-    if (!location) {
-      continue;
-    }
-
-    if (
-      location.latitude != null &&
-      location.longitude != null
-    ) {
-
-      return String(
-        location.latitude
-      ) +
-      "," +
-      String(
-        location.longitude
-      );
-    }
-  }
-
-  return "";
-}
-
-
-function GetGoogleContactPhones(person) {
-
-  if (
-    !person ||
-    !Array.isArray(
-      person.phoneNumbers
-    )
-  ) {
-    return "";
-  }
-
-  var phones = [];
-
-  for (
-    var i = 0;
-    i < person.phoneNumbers.length;
-    i++
-  ) {
-
-    var value =
-      SafeString(
-        person.phoneNumbers[i].value
-      );
-
-    if (value) {
-
-      phones.push(
-        value.replace(
-          /\s+/g,
-          ""
-        )
-      );
-    }
-  }
-
-  return phones.join(", ");
-}
-
-
-function GetGoogleContactEmails(person) {
-
-  if (
-    !person ||
-    !Array.isArray(
-      person.emailAddresses
-    )
-  ) {
-    return "";
-  }
-
-  var emails = [];
-
-  for (
-    var i = 0;
-    i < person.emailAddresses.length;
-    i++
-  ) {
-
-    var value =
-      SafeString(
-        person.emailAddresses[i].value
-      );
-
-    if (value) {
-      emails.push(value);
-    }
-  }
-
-  return emails.join(", ");
-}
-
-
-function GetGoogleContactAddresses(person) {
-
-  if (
-    !person ||
-    !Array.isArray(
-      person.addresses
-    )
-  ) {
-    return "";
-  }
-
-  var values = [];
-
-  for (
-    var i = 0;
-    i < person.addresses.length;
-    i++
-  ) {
-
-    var value =
-      SafeString(
-        person.addresses[i].formattedValue
-      );
-
-    if (value) {
-      values.push(value);
-    }
-  }
-
-  return values.join("\n");
-}
-
-
-function GetGoogleContactDisplayName(person) {
-
-  if (
-    !person ||
-    !person.names ||
-    !person.names.length
-  ) {
-    return "";
-  }
-
-  var name =
-    person.names[0];
-
-  return SafeString(
-    name.displayName ||
-    (
-      SafeString(
-        name.givenName
-      ) +
-      " " +
-      SafeString(
-        name.familyName
-      )
-    ).trim()
-  );
-}
-
-*/
 /************************************************************
  * STAGE 1
  ************************************************************/
-
 function Stage1_WriteGoogleContacts(ss) {
 
   var sheet =
@@ -280,7 +78,7 @@ function Stage1_WriteGoogleContacts(ss) {
 
     var people =
       response &&
-      response.connections
+        response.connections
         ? response.connections
         : [];
 
@@ -456,7 +254,7 @@ function Stage1_WriteGoogleContacts(ss) {
    * Sort by surname, then name.
    */
   rows.sort(
-    function(a, b) {
+    function (a, b) {
 
       var surnameA =
         a[0].toLowerCase();
@@ -519,32 +317,6 @@ function Stage1_WriteGoogleContacts(ss) {
   }
 }
 
-/*
-function SortSheetByColumnA(sheet) {
-
-  var lastRow =
-    sheet.getLastRow();
-
-  if (
-    lastRow <= 1
-  ) {
-    return;
-  }
-
-  sheet
-    .getRange(
-      2,
-      1,
-      lastRow - 1,
-      sheet.getLastColumn()
-    )
-    .sort({
-      column: 1,
-      ascending: true
-    });
-}
-
-*/
 /************************************************************
  * ELIGIBILITY
  ************************************************************/
@@ -670,7 +442,7 @@ function BuildEligibilityValue(
     primary.meeting
   ]
     .filter(
-      function(value) {
+      function (value) {
         return (
           value != null &&
           String(value).trim() !== ""
@@ -824,7 +596,7 @@ function GetPrimaryMeeting(
 
   var primary =
     meetingLookup[
-      meetingName
+    meetingName
     ];
 
   if (!primary) {
@@ -867,9 +639,9 @@ function GetMeetingInfo(
 
   var row =
     meetingLookup[
-      String(
-        meeting
-      ).trim()
+    String(
+      meeting
+    ).trim()
     ];
 
   if (!row) {
@@ -1032,8 +804,8 @@ function ExtractNoteValue(
 
   return match
     ? String(
-        match[1]
-      ).trim()
+      match[1]
+    ).trim()
     : "";
 }
 
@@ -1094,8 +866,7 @@ function FlattenQryExportToContacts() {
     "Notes",
     "UUID",
     "Field",
-    "Meeting",
-    "Category"
+    "Meeting"
   ]];
 
   for (
@@ -1139,45 +910,40 @@ function FlattenQryExportToContacts() {
 
     var prefix =
       primary &&
-      primary.prefix
+        primary.prefix
         ? primary.prefix
         : SafeString(row[13]) ||
-          DEFAULT_MEETING_PREFIX;
+        DEFAULT_MEETING_PREFIX;
 
 
-var organizationField = "";
-var organizationMeeting = "";
-var organizationCategory = "RSA Contacts";
+    var organizationField = "";
+    var organizationMeeting = "";
 
-if (primary) {
+    if (primary) {
 
-  if (primary.field) {
+      if (primary.field) {
 
-    organizationField =
-      prefix +
-      "_" +
-      primary.field;
-  }
+        organizationField =
+          prefix +
+          "_" +
+          primary.field;
+      }
 
-  if (primary.meeting) {
+      if (primary.meeting) {
 
-    organizationMeeting =
-      prefix +
-      "_" +
-      primary.meeting;
-  }
-}
-
-
-
-
+        organizationMeeting =
+          prefix +
+          "_" +
+          primary.meeting;
+      }
+    }
 
     var countryCode =
       primary &&
-      primary.countryCode
+        primary.countryCode
         ? primary.countryCode
         : SafeString(row[18]) ||
-          DEFAULT_COUNTRY_CODE;
+        DEFAULT_COUNTRY_CODE;
 
     var notes =
       BuildNotesFromRow(
@@ -1263,7 +1029,7 @@ if (primary) {
       NormalizeEmailAddresses(
         emailValues
           .map(
-            function(e) {
+            function (e) {
               return e.value;
             }
           )
@@ -1274,7 +1040,7 @@ if (primary) {
       NormalizePhoneNumbers(
         phoneValues
           .map(
-            function(p) {
+            function (p) {
               return p.raw;
             }
           )
@@ -1318,24 +1084,23 @@ if (primary) {
         continue;
       }
 
-WriteFlattenedContact(
-  output,
-  row,
-  surname,
-  prefix,
-  countryCode,
-  person1,
-  true,
-  emailValues,
-  phoneValues,
-  notes,
-  uuid,
-  normalizedEmails,
-  normalizedPhones,
-  organizationField,
-  organizationMeeting,
-  organizationCategory
-);
+      WriteFlattenedContact(
+        output,
+        row,
+        surname,
+        prefix,
+        countryCode,
+        person1,
+        true,
+        emailValues,
+        phoneValues,
+        notes,
+        uuid,
+        normalizedEmails,
+        normalizedPhones,
+        organizationField,
+        organizationMeeting
+      );
     }
 
     /*
@@ -1370,24 +1135,23 @@ WriteFlattenedContact(
         continue;
       }
 
-WriteFlattenedContact(
-  output,
-  row,
-  surname,
-  prefix,
-  countryCode,
-  person2,
-  false,
-  emailValues,
-  phoneValues,
-  notes,
-  uuid,
-  normalizedEmails,
-  normalizedPhones,
-  organizationField,
-  organizationMeeting,
-  organizationCategory
-);
+      WriteFlattenedContact(
+        output,
+        row,
+        surname,
+        prefix,
+        countryCode,
+        person2,
+        false,
+        emailValues,
+        phoneValues,
+        notes,
+        uuid,
+        normalizedEmails,
+        normalizedPhones,
+        organizationField,
+        organizationMeeting
+      );
     }
   }
 
@@ -1395,7 +1159,7 @@ WriteFlattenedContact(
     output.shift();
 
   output.sort(
-    function(a, b) {
+    function (a, b) {
 
       var surnameA =
         String(
@@ -1487,8 +1251,7 @@ function WriteFlattenedContact(
   normalizedEmails,
   normalizedPhones,
   organizationField,
-  organizationMeeting,
-  organizationCategory
+  organizationMeeting
 ) {
 
   var personEmails =
@@ -1501,8 +1264,8 @@ function WriteFlattenedContact(
   var email =
     personEmails.length > 0
       ? NormalizeEmailAddresses(
-          personEmails.join(", ")
-        )
+        personEmails.join(", ")
+      )
       : normalizedEmails;
 
   var personPhones =
@@ -1539,8 +1302,8 @@ function WriteFlattenedContact(
   var phoneText =
     phones.length > 0
       ? NormalizePhoneNumbers(
-          phones.join(", ")
-        )
+        phones.join(", ")
+      )
       : normalizedPhones;
 
   /*
@@ -1611,8 +1374,7 @@ function WriteFlattenedContact(
     notes,
     uuid,
     organizationField,
-    organizationMeeting,
-    organizationCategory
+    organizationMeeting
   ]);
 }
 
@@ -1693,169 +1455,10 @@ function BuildNotesFromRow(
 /************************************************************
  * FAMILY NAMES FOR NOTES
  ************************************************************/
-/*
-function GetFamilyNamesFromRow(row) {
-
-  var names = [];
-
-  var names1 =
-    StripAllTags(
-      row[1]
-    );
-
-  names.push(
-    names1
-  );
-
-  var names2 =
-    ParseNames2(
-      row[2]
-    );
-
-  for (
-    var j = 0;
-    j < names2.length;
-    j++
-  ) {
-
-    if (
-      names2[j].name
-    ) {
-
-      names.push(
-        names2[j].name
-      );
-    }
-  }
-
-  return names.join(
-    ", "
-  );
-}
-*/
 
 /************************************************************
  * MEETING NOTES
  ************************************************************/
-/*
-function GetMeetingNotesFromRow(
-  row,
-  primary,
-  meetingLookup
-) {
-
-  var tmpNotes = "";
-
-  if (
-    primary &&
-    primary.rowIndex > -1
-  ) {
-
-    tmpNotes =
-      "Field:\n";
-
-    tmpNotes +=
-      primary.province +
-      " - " +
-      primary.field;
-
-    tmpNotes +=
-      "\n\nMeeting Info:\n";
-
-    tmpNotes +=
-      GetAllMeetingInfo(
-        row[11],
-        meetingLookup
-      ).trim();
-
-  }
-  else {
-
-    tmpNotes =
-      "Meeting not found: " +
-      String(
-        row[11] == null
-          ? ""
-          : row[11]
-      );
-  }
-
-  var tmp1 =
-    String(
-      row[10] == null
-        ? ""
-        : row[10]
-    ).trim();
-
-  if (
-    String(
-      row[9] || ""
-    ).toUpperCase() === "Y"
-  ) {
-
-    tmp1 +=
-      "\nElder of the Sun AM meeting";
-  }
-
-  var am =
-    String(
-      row[6] || ""
-    ).toUpperCase() === "Y";
-
-  var pm =
-    String(
-      row[7] || ""
-    ).toUpperCase() === "Y";
-
-  var wed =
-    String(
-      row[8] || ""
-    ).toUpperCase() === "Y";
-
-  if (
-    am &&
-    pm &&
-    wed
-  ) {
-
-    tmp1 +=
-      "\nHost's all meetings";
-
-  }
-  else {
-
-    if (am) {
-
-      tmp1 +=
-        "\nHost's Sun AM meeting";
-    }
-
-    if (pm) {
-
-      tmp1 +=
-        "\nHost's Sun PM meeting";
-    }
-
-    if (wed) {
-
-      tmp1 +=
-        "\nHost's Wed eve meeting";
-    }
-  }
-
-  if (
-    tmp1 &&
-    tmp1.trim()
-  ) {
-
-    tmpNotes +=
-      "\n\nAdditional Meeting Info:\n" +
-      tmp1.trim();
-  }
-
-  return tmpNotes.trim();
-}
-*/
 
 /************************************************************
  * NAME PARSING
@@ -2783,75 +2386,6 @@ function GetMeetingNotesFromRow(
   return tmpNotes.trim();
 }
 
-/*
-function BuildNotesFromRow(
-  row,
-  uuid,
-  primary,
-  meetingLookup
-) {
-
-  var notes =
-    "Family:\n";
-
-  notes +=
-    GetFamilyNamesFromRow(
-      row
-    );
-
-  notes +=
-    "\n\n" +
-    GetMeetingNotesFromRow(
-      row,
-      primary,
-      meetingLookup
-    ).trim();
-
-  var convention =
-    GetConvention(
-      row[11],
-      meetingLookup
-    );
-
-  if (
-    convention &&
-    convention.length > 0
-  ) {
-
-    notes +=
-      "\n\nConvention:\n" +
-      convention;
-  }
-
-  notes +=
-    "\n\nAccount:\n" +
-    Session
-      .getEffectiveUser()
-      .getEmail();
-
-  notes +=
-    "\n\nUpdated on Google:\n" +
-    FormatDateForNotes(
-      new Date()
-    );
-
-  notes +=
-    "\n\nModified on Sheet:\n" +
-    FormatDateForNotes(
-      row[14]
-    );
-
-  notes +=
-    "\n\nUUID:\n" +
-    uuid;
-
-  notes +=
-    "\n\nScript Version: " +
-    SCRIPT_VERSION;
-
-  return notes;
-}
-*/
 
 /************************************************************
  * GENERAL HELPERS
@@ -2866,81 +2400,6 @@ function SafeString(
     : String(value).trim();
 }
 
-/*
-function FormatSyncDate(
-  value
-) {
-
-  if (
-    value == null ||
-    value === ""
-  ) {
-
-    return "";
-  }
-
-  var date;
-
-  if (
-    Object.prototype.toString.call(
-      value
-    ) === "[object Date]"
-  ) {
-
-    date =
-      value;
-
-  }
-  else {
-
-    date =
-      new Date(
-        String(
-          value
-        )
-      );
-  }
-
-  if (
-    isNaN(
-      date.getTime()
-    )
-  ) {
-
-    return String(
-      value
-    ).trim();
-  }
-
-  return Utilities.formatDate(
-    date,
-    "GMT+2",
-    "dd/MM/yyyy HH:mm:ss"
-  );
-}
-
-
-function FormatSyncDate2(
-  value
-) {
-
-  if (
-    value == null ||
-    value === ""
-  ) {
-
-    return "";
-  }
-
-  return Utilities.formatDate(
-    new Date(
-      value
-    ),
-    "GMT+2",
-    "dd/MM/yyyy HH:mm:ss"
-  );
-}
-*/
 
 function FormatDateForNotes(
   value
@@ -3029,14 +2488,14 @@ function NormalizeAddressText(
       "\n"
     )
     .map(
-      function(line) {
+      function (line) {
         return SafeString(
           line
         );
       }
     )
     .filter(
-      function(line) {
+      function (line) {
         return line !== "";
       }
     )
@@ -3066,7 +2525,7 @@ function NormalizePhoneNumbers(
     )
       .split(",")
       .map(
-        function(phone) {
+        function (phone) {
 
           return phone
             .trim()
@@ -3081,14 +2540,14 @@ function NormalizePhoneNumbers(
         }
       )
       .filter(
-        function(phone) {
+        function (phone) {
           return phone !== "";
         }
       );
 
   phones =
     phones.filter(
-      function(
+      function (
         phone,
         index
       ) {
@@ -3129,7 +2588,7 @@ function NormalizeEmailAddresses(
     )
       .split(",")
       .map(
-        function(email) {
+        function (email) {
 
           return email
             .trim()
@@ -3137,14 +2596,14 @@ function NormalizeEmailAddresses(
         }
       )
       .filter(
-        function(email) {
+        function (email) {
           return email !== "";
         }
       );
 
   emails =
     emails.filter(
-      function(
+      function (
         email,
         index
       ) {
@@ -3386,12 +2845,12 @@ function SyncContactsToGoogle() {
 
     var desired =
       contactsByUuid[
-        uuid
+      uuid
       ];
 
     var existing =
       googleByUuid[
-        uuid
+      uuid
       ];
 
     if (!existing) {
@@ -3428,7 +2887,7 @@ function SyncContactsToGoogle() {
 
     var desiredContacts =
       contactsByUuid[
-        recreateUuid
+      recreateUuid
       ];
 
     for (
@@ -3462,7 +2921,7 @@ function SyncContactsToGoogle() {
 
     var existingContacts =
       googleByUuid[
-        deleteUuid
+      deleteUuid
       ];
 
     if (!existingContacts) {
@@ -3504,9 +2963,9 @@ function SyncContactsToGoogle() {
   /*
    * Refresh GoogleContacts.
    */
-//  Stage1_WriteGoogleContacts(
+  //  Stage1_WriteGoogleContacts(
   //  ss
- // );
+  // );
 }
 
 
@@ -3660,13 +3119,6 @@ function BuildGooglePerson(
           "RSA Contacts"
       }
     ]
-  
-
-
-
-
-
-
 
   };
 
@@ -3746,9 +3198,9 @@ function BuildGooglePerson(
       NormalizeAddressText(
         contact.address
       )
-      .split(
-        "\n"
-      );
+        .split(
+          "\n"
+        );
 
     person.addresses = [];
 
@@ -3839,14 +3291,14 @@ function BatchCreateGoogleContacts(
         !response ||
         !response.createdPeople ||
         response.createdPeople.length !==
-          batch.length
+        batch.length
       ) {
 
         throw new Error(
           "Google created " +
           (
             response &&
-            response.createdPeople
+              response.createdPeople
               ? response.createdPeople.length
               : 0
           ) +
@@ -3947,52 +3399,6 @@ function BatchDeleteGoogleContacts(
 /************************************************************
  * ADDRESS NORMALIZATION
  ************************************************************/
-/*
-function NormalizeAddressText(
-  value
-) {
-
-  if (
-    value == null ||
-    String(
-      value
-    ).trim() === ""
-  ) {
-
-    return "";
-  }
-
-  return String(
-    value
-  )
-    .replace(
-      /\r\n/g,
-      "\n"
-    )
-    .replace(
-      /\r/g,
-      "\n"
-    )
-    .split(
-      "\n"
-    )
-    .map(
-      function(line) {
-        return SafeString(
-          line
-        );
-      }
-    )
-    .filter(
-      function(line) {
-        return line !== "";
-      }
-    )
-    .join(
-      "\n"
-    );
-}
-*/
 
 /************************************************************
  * NOTES COMPARISON
@@ -4082,7 +3488,7 @@ function NormalizeNotesForComparison(notes) {
   value =
     value
       .split("\n")
-      .map(function(line) {
+      .map(function (line) {
         return line.trimEnd();
       })
       .join("\n");
