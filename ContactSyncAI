@@ -3,36 +3,49 @@
  ************************************************************/
 
 const SPREADSHEET_ID =
-  "1l3IkS_Stu6Y-N5y_sjMwYtITYBpbgVin_Ir4EqY9rB4";
+  "1bTu20GBp_ccaOpClMe986caiLBXzeSoSKNMa-OxhZ-I";
 
 const SHEET_QRYEXPORT = "qryExport";
-const SHEET_GOOGLECONTACTS = "GoogleContacts";
-const SHEET_SETTINGS = "Settings";
 const SHEET_MEETINGS = "qryExportField";
-const SCRIPT_VERSION = "1.1";
+const SHEET_GOOGLECONTACTS = "GoogleContacts";
+const SHEET_MASTERCONTACTS = "MasterContacts";
+const SHEET_UPDATESCHEDULE = "Update Schedule";
+const SHEET_SYNC_VARIABLES = "Sync Variables";
+const SCRIPT_VERSION = "1.2";
 
 const DEFAULT_MEETING_PREFIX = "TMP";
 const DEFAULT_COUNTRY_CODE = "+27";
 
 
 /************************************************************
- * MAIN SYNC
- ************************************************************/
-
-function PrepareContactSync() {
-
-  var ss =
-    SpreadsheetApp.openById(
-      SPREADSHEET_ID
-    );
-
-  Stage1_WriteGoogleContacts(ss);
-}
-
-/************************************************************
  * STAGE 1
  ************************************************************/
-function Stage1_WriteGoogleContacts(ss) {
+function WriteGoogleContacts() {
+
+  var ss = GetUserWorkSpreadsheet();
+
+//    SpreadsheetApp.openById(
+//      SPREADSHEET_ID
+//    );
+
+  if (
+    IsSyncDisabled(
+      ss
+    )
+  ) {
+    return;
+  }
+
+  var syncVariables =
+    GetSyncVariablesSheet(
+      ss
+    );
+
+  WriteSyncVariable(
+    syncVariables,
+    4,
+    SCRIPT_VERSION
+  );
 
   var sheet =
     GetOrCreateSheet(
@@ -300,7 +313,7 @@ function Stage1_WriteGoogleContacts(ss) {
     }
   );
 
-  if (
+  /*if (
     rows.length > 0
   ) {
 
@@ -315,6 +328,885 @@ function Stage1_WriteGoogleContacts(ss) {
         rows
       );
   }
+*/
+
+
+
+if (
+  rows.length > 0
+) {
+
+  sheet
+    .getRange(
+      2,
+      1,
+      rows.length,
+      8
+    )
+    .setValues(
+      rows
+    );
+}
+
+WriteSyncVariable(
+  syncVariables,
+  2,
+  new Date()
+);
+
+WriteSyncVariable(
+  syncVariables,
+  5,
+  rows.length
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/************************************************************
+ * FLATTEN ELIGIBLE MASTER ROWS INTO CONTACTS
+ ************************************************************/
+function WriteMasterContacts() {
+
+var ss = PrepareUserWorkSheet();
+
+//  var ss =
+//    SpreadsheetApp.openById(
+//      SPREADSHEET_ID
+//    );
+
+  if (
+    IsSyncDisabled(
+      ss
+    )
+  ) {
+    return;
+  }
+
+  var syncVariables =
+    GetSyncVariablesSheet(
+      ss
+    );
+
+  WriteSyncVariable(
+    syncVariables,
+    4,
+    SCRIPT_VERSION
+  );
+
+  var source =
+    ss.getSheetByName(
+      SHEET_QRYEXPORT
+    );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  if (!source) {
+
+    throw new Error(
+      "Sheet not found: " +
+      SHEET_QRYEXPORT
+    );
+  }
+
+  var contacts =
+    ss.getSheetByName(
+      SHEET_MASTERCONTACTS
+    ) ||
+    ss.insertSheet(
+      SHEET_MASTERCONTACTS
+    );
+
+  var selections =
+    GetEligibilitySelections(
+      ss
+    );
+
+  var meetingLookup =
+    LoadMeetingLookup(
+      ss
+    );
+
+  var data =
+    source
+      .getDataRange()
+      .getValues();
+
+  var output = [[
+    "Surname",
+    "Name",
+    "Address",
+    "Email",
+    "Phone Numbers",
+    "Notes",
+    "UUID",
+    "Field",
+    "Meeting"
+  ]];
+
+  for (
+    var r = 1;
+    r < data.length;
+    r++
+  ) {
+
+    var row =
+      data[r];
+
+    var uuid =
+      SafeString(
+        row[19]
+      );
+
+    if (!uuid) {
+      continue;
+    }
+
+    var meetings =
+      SafeString(
+        row[11]
+      );
+
+    if (
+      !IsFamilyEligible(
+        meetings,
+        selections,
+        meetingLookup
+      )
+    ) {
+      continue;
+    }
+
+    var primary =
+      GetPrimaryMeeting(
+        meetings,
+        meetingLookup
+      );
+
+    var prefix =
+      primary &&
+        primary.prefix
+        ? primary.prefix
+        : SafeString(row[13]) ||
+        DEFAULT_MEETING_PREFIX;
+
+
+    var organizationField = "";
+    var organizationMeeting = "";
+
+    if (primary) {
+
+      if (primary.field) {
+
+        organizationField =
+          prefix +
+          "_" +
+          primary.field;
+      }
+
+      if (primary.meeting) {
+
+        organizationMeeting =
+          prefix +
+          "_" +
+          primary.meeting;
+      }
+    }
+
+    var countryCode =
+      primary &&
+        primary.countryCode
+        ? primary.countryCode
+        : SafeString(row[18]) ||
+        DEFAULT_COUNTRY_CODE;
+
+    var notes =
+      BuildNotesFromRow(
+        row,
+        uuid,
+        primary,
+        meetingLookup
+      );
+
+    /*
+     * Surname:
+     * spaces become underscores.
+     */
+    var surname =
+      SafeString(
+        row[0]
+      ).replace(
+        /\s+/g,
+        "_"
+      );
+
+    /*
+     * Names1.
+     *
+     * Names can be separated by "&" or ",".
+     */
+    var names1 =
+      ParseNames1(
+        row[1]
+      );
+
+    /*
+     * Names2.
+     */
+    var names2 =
+      ParseNames2(
+        row[2]
+      );
+
+    /*
+     * Parse both email columns.
+     */
+    var emailValues = [];
+
+    var parsedEmail1 =
+      ParseEmailValues(
+        row[5]
+      );
+
+    var parsedEmail2 =
+      ParseEmailValues(
+        row[13]
+      );
+
+    for (
+      var e1 = 0;
+      e1 < parsedEmail1.length;
+      e1++
+    ) {
+
+      emailValues.push(
+        parsedEmail1[e1]
+      );
+    }
+
+    for (
+      var e2 = 0;
+      e2 < parsedEmail2.length;
+      e2++
+    ) {
+
+      emailValues.push(
+        parsedEmail2[e2]
+      );
+    }
+
+    var phoneValues =
+      ParsePhoneNumbers(
+        row[12]
+      );
+
+    var normalizedEmails =
+      NormalizeEmailAddresses(
+        emailValues
+          .map(
+            function (e) {
+              return e.value;
+            }
+          )
+          .join(", ")
+      );
+
+    var normalizedPhones =
+      NormalizePhoneNumbers(
+        phoneValues
+          .map(
+            function (p) {
+              return p.raw;
+            }
+          )
+          .join(", ")
+      );
+
+    /*
+     * Names1:
+     *
+     * First name is ALWAYS created.
+     * Additional names need a tag and matching
+     * personal email or phone.
+     */
+    for (
+      var n1 = 0;
+      n1 < names1.length;
+      n1++
+    ) {
+
+      var person1 =
+        names1[n1];
+
+      if (
+        n1 > 0 &&
+        !person1.tag
+      ) {
+        continue;
+      }
+
+      if (
+        n1 > 0 &&
+        !HasTaggedEmail(
+          person1.tag,
+          emailValues
+        ) &&
+        !HasTaggedPhone(
+          person1.tag,
+          phoneValues
+        )
+      ) {
+        continue;
+      }
+
+      WriteFlattenedContact(
+        output,
+        row,
+        surname,
+        prefix,
+        countryCode,
+        person1,
+        true,
+        emailValues,
+        phoneValues,
+        notes,
+        uuid,
+        normalizedEmails,
+        normalizedPhones,
+        organizationField,
+        organizationMeeting
+      );
+    }
+
+    /*
+     * Names2:
+     *
+     * Only create when the tag has matching
+     * personal email or phone.
+     */
+    for (
+      var n2 = 0;
+      n2 < names2.length;
+      n2++
+    ) {
+
+      var person2 =
+        names2[n2];
+
+      if (!person2.tag) {
+        continue;
+      }
+
+      if (
+        !HasTaggedEmail(
+          person2.tag,
+          emailValues
+        ) &&
+        !HasTaggedPhone(
+          person2.tag,
+          phoneValues
+        )
+      ) {
+        continue;
+      }
+
+      WriteFlattenedContact(
+        output,
+        row,
+        surname,
+        prefix,
+        countryCode,
+        person2,
+        false,
+        emailValues,
+        phoneValues,
+        notes,
+        uuid,
+        normalizedEmails,
+        normalizedPhones,
+        organizationField,
+        organizationMeeting
+      );
+    }
+  }
+
+  var header =
+    output.shift();
+
+  output.sort(
+    function (a, b) {
+
+      var surnameA =
+        String(
+          a[0]
+        ).toLowerCase();
+
+      var surnameB =
+        String(
+          b[0]
+        ).toLowerCase();
+
+      if (
+        surnameA <
+        surnameB
+      ) {
+        return -1;
+      }
+
+      if (
+        surnameA >
+        surnameB
+      ) {
+        return 1;
+      }
+
+      var nameA =
+        String(
+          a[1]
+        ).toLowerCase();
+
+      var nameB =
+        String(
+          b[1]
+        ).toLowerCase();
+
+      if (
+        nameA <
+        nameB
+      ) {
+        return -1;
+      }
+
+      if (
+        nameA >
+        nameB
+      ) {
+        return 1;
+      }
+
+      return 0;
+    }
+  );
+
+  output.unshift(
+    header
+  );
+
+  contacts.clearContents();
+
+  contacts
+    .getRange(
+      1,
+      1,
+      output.length,
+      output[0].length
+    )
+    .setValues(
+      output
+    );
+
+
+WriteSyncVariable(
+  syncVariables,
+  3,
+  new Date()
+);
+
+WriteSyncVariable(
+  syncVariables,
+  6,
+  output.length - 1
+);
+
+}
+
+/************************************************************
+ * SYNC CONTACTS TO GOOGLE
+ *
+ * Contacts:
+ *   A = Surname
+ *   B = Name
+ *   C = Address
+ *   D = Email
+ *   E = Phone Numbers
+ *   F = Notes
+ *   G = UUID
+ *
+ * GoogleContacts:
+ *   A = Surname
+ *   B = Name
+ *   C = Address
+ *   D = Email
+ *   E = Phone Numbers
+ *   F = Notes
+ *   G = UUID
+ *   H = ResourceName
+ ************************************************************/
+function SyncContactsToGoogle() {
+
+  var ss = GetUserWorkSpreadsheet();
+
+//    SpreadsheetApp.openById(
+//      SPREADSHEET_ID
+//    );
+
+  if (
+    IsSyncDisabled(
+      ss
+    )
+  ) {
+    return;
+  }
+
+  var syncVariables =
+    GetSyncVariablesSheet(
+      ss
+    );
+
+  WriteSyncVariable(
+    syncVariables,
+    4,
+    SCRIPT_VERSION
+  );
+
+  var contactsSheet =
+    ss.getSheetByName(
+      SHEET_MASTERCONTACTS
+    );
+
+
+
+
+
+
+
+  var googleSheet =
+    ss.getSheetByName(
+      SHEET_GOOGLECONTACTS
+    );
+
+  if (!contactsSheet) {
+
+    throw new Error(
+      "Sheet not found: Contacts"
+    );
+  }
+
+  if (!googleSheet) {
+
+    throw new Error(
+      "Sheet not found: " +
+      SHEET_GOOGLECONTACTS
+    );
+  }
+
+  var contactsData =
+    contactsSheet
+      .getDataRange()
+      .getValues();
+
+  var googleData =
+    googleSheet
+      .getDataRange()
+      .getValues();
+
+  /*
+   * Build Google lookup by UUID.
+   */
+  var googleByUuid = {};
+
+  for (
+    var g = 1;
+    g < googleData.length;
+    g++
+  ) {
+
+    var googleRow =
+      googleData[g];
+
+    var uuid =
+      SafeString(
+        googleRow[6]
+      );
+
+    if (!uuid) {
+      continue;
+    }
+
+    if (
+      !googleByUuid[uuid]
+    ) {
+
+      googleByUuid[uuid] = [];
+    }
+
+    googleByUuid[uuid].push({
+
+      surname:
+        SafeString(
+          googleRow[0]
+        ),
+
+      name:
+        SafeString(
+          googleRow[1]
+        ),
+
+      address:
+        NormalizeAddressText(
+          googleRow[2]
+        ),
+
+      email:
+        NormalizeEmailAddresses(
+          googleRow[3]
+        ),
+
+      phones:
+        NormalizePhoneNumbers(
+          googleRow[4]
+        ),
+
+      notes:
+        SafeString(
+          googleRow[5]
+        ),
+
+      uuid:
+        uuid,
+
+      resourceName:
+        SafeString(
+          googleRow[7]
+        )
+    });
+  }
+
+  /*
+   * Build Contacts lookup by UUID.
+   */
+  var contactsByUuid = {};
+
+  for (
+    var r = 1;
+    r < contactsData.length;
+    r++
+  ) {
+
+    var row =
+      contactsData[r];
+
+    var uuid =
+      SafeString(
+        row[6]
+      );
+
+    if (!uuid) {
+      continue;
+    }
+
+    if (
+      !contactsByUuid[uuid]
+    ) {
+
+      contactsByUuid[uuid] = [];
+    }
+
+    contactsByUuid[uuid].push({
+
+      surname:
+        SafeString(
+          row[0]
+        ),
+
+      name:
+        SafeString(
+          row[1]
+        ),
+
+      address:
+        NormalizeAddressText(
+          row[2]
+        ),
+
+      email:
+        NormalizeEmailAddresses(
+          row[3]
+        ),
+
+      phones:
+        NormalizePhoneNumbers(
+          row[4]
+        ),
+
+      notes:
+        SafeString(
+          row[5]
+        ),
+
+      uuid:
+        uuid,
+
+      organizationField:
+        row[7],
+
+      organizationMeeting:
+        row[8]
+    });
+  }
+
+  /*
+   * Determine which UUIDs need to be recreated.
+   */
+  var uuidsToRecreate = {};
+
+  for (
+    var uuid in contactsByUuid
+  ) {
+
+    var desired =
+      contactsByUuid[
+      uuid
+      ];
+
+    var existing =
+      googleByUuid[
+      uuid
+      ];
+
+    if (!existing) {
+
+      uuidsToRecreate[
+        uuid
+      ] = true;
+
+      continue;
+    }
+
+    if (
+      !AreContactSetsEqual(
+        desired,
+        existing
+      )
+    ) {
+
+      uuidsToRecreate[
+        uuid
+      ] = true;
+    }
+  }
+
+  /*
+   * CREATE FIRST.
+   */
+  var createPeople = [];
+
+  for (
+    var recreateUuid in
+    uuidsToRecreate
+  ) {
+
+    var desiredContacts =
+      contactsByUuid[
+      recreateUuid
+      ];
+
+    for (
+      var i = 0;
+      i < desiredContacts.length;
+      i++
+    ) {
+
+      createPeople.push(
+        BuildGooglePerson(
+          desiredContacts[i]
+        )
+      );
+    }
+  }
+
+  BatchCreateGoogleContacts(
+    createPeople
+  );
+
+  /*
+   * Only now prepare the old resource names
+   * for deletion.
+   */
+  var resourcesToDelete = [];
+
+  for (
+    var deleteUuid in
+    uuidsToRecreate
+  ) {
+
+    var existingContacts =
+      googleByUuid[
+      deleteUuid
+      ];
+
+    if (!existingContacts) {
+      continue;
+    }
+
+    for (
+      var d = 0;
+      d < existingContacts.length;
+      d++
+    ) {
+
+      if (
+        existingContacts[d]
+          .resourceName
+      ) {
+
+        resourcesToDelete.push(
+          existingContacts[d]
+            .resourceName
+        );
+      }
+    }
+  }
+
+  /*
+   * Delete old contacts only after all
+   * required creates have succeeded.
+   */
+  if (
+    resourcesToDelete.length > 0
+  ) {
+
+    BatchDeleteGoogleContacts(
+      resourcesToDelete
+    );
+  }
+
 }
 
 /************************************************************
@@ -325,21 +1217,21 @@ function GetEligibilitySelections(ss) {
 
   var sheet =
     ss.getSheetByName(
-      SHEET_SETTINGS
+      SHEET_UPDATESCHEDULE
     );
 
   if (!sheet) {
 
     throw new Error(
       "Sheet not found: " +
-      SHEET_SETTINGS
+      SHEET_UPDATESCHEDULE
     );
   }
 
   var values =
     sheet
       .getRange(
-        1,
+        2,
         1,
         sheet.getLastRow(),
         1
@@ -810,426 +1702,6 @@ function ExtractNoteValue(
 }
 
 
-/************************************************************
- * FLATTEN ELIGIBLE MASTER ROWS INTO CONTACTS
- ************************************************************/
-
-function FlattenQryExportToContacts() {
-
-  var ss =
-    SpreadsheetApp.openById(
-      SPREADSHEET_ID
-    );
-
-  var source =
-    ss.getSheetByName(
-      SHEET_QRYEXPORT
-    );
-
-  if (!source) {
-
-    throw new Error(
-      "Sheet not found: " +
-      SHEET_QRYEXPORT
-    );
-  }
-
-  var contacts =
-    ss.getSheetByName(
-      "Contacts"
-    ) ||
-    ss.insertSheet(
-      "Contacts"
-    );
-
-  var selections =
-    GetEligibilitySelections(
-      ss
-    );
-
-  var meetingLookup =
-    LoadMeetingLookup(
-      ss
-    );
-
-  var data =
-    source
-      .getDataRange()
-      .getValues();
-
-  var output = [[
-    "Surname",
-    "Name",
-    "Address",
-    "Email",
-    "Phone Numbers",
-    "Notes",
-    "UUID",
-    "Field",
-    "Meeting"
-  ]];
-
-  for (
-    var r = 1;
-    r < data.length;
-    r++
-  ) {
-
-    var row =
-      data[r];
-
-    var uuid =
-      SafeString(
-        row[19]
-      );
-
-    if (!uuid) {
-      continue;
-    }
-
-    var meetings =
-      SafeString(
-        row[11]
-      );
-
-    if (
-      !IsFamilyEligible(
-        meetings,
-        selections,
-        meetingLookup
-      )
-    ) {
-      continue;
-    }
-
-    var primary =
-      GetPrimaryMeeting(
-        meetings,
-        meetingLookup
-      );
-
-    var prefix =
-      primary &&
-        primary.prefix
-        ? primary.prefix
-        : SafeString(row[13]) ||
-        DEFAULT_MEETING_PREFIX;
-
-
-    var organizationField = "";
-    var organizationMeeting = "";
-
-    if (primary) {
-
-      if (primary.field) {
-
-        organizationField =
-          prefix +
-          "_" +
-          primary.field;
-      }
-
-      if (primary.meeting) {
-
-        organizationMeeting =
-          prefix +
-          "_" +
-          primary.meeting;
-      }
-    }
-
-    var countryCode =
-      primary &&
-        primary.countryCode
-        ? primary.countryCode
-        : SafeString(row[18]) ||
-        DEFAULT_COUNTRY_CODE;
-
-    var notes =
-      BuildNotesFromRow(
-        row,
-        uuid,
-        primary,
-        meetingLookup
-      );
-
-    /*
-     * Surname:
-     * spaces become underscores.
-     */
-    var surname =
-      SafeString(
-        row[0]
-      ).replace(
-        /\s+/g,
-        "_"
-      );
-
-    /*
-     * Names1.
-     *
-     * Names can be separated by "&" or ",".
-     */
-    var names1 =
-      ParseNames1(
-        row[1]
-      );
-
-    /*
-     * Names2.
-     */
-    var names2 =
-      ParseNames2(
-        row[2]
-      );
-
-    /*
-     * Parse both email columns.
-     */
-    var emailValues = [];
-
-    var parsedEmail1 =
-      ParseEmailValues(
-        row[5]
-      );
-
-    var parsedEmail2 =
-      ParseEmailValues(
-        row[13]
-      );
-
-    for (
-      var e1 = 0;
-      e1 < parsedEmail1.length;
-      e1++
-    ) {
-
-      emailValues.push(
-        parsedEmail1[e1]
-      );
-    }
-
-    for (
-      var e2 = 0;
-      e2 < parsedEmail2.length;
-      e2++
-    ) {
-
-      emailValues.push(
-        parsedEmail2[e2]
-      );
-    }
-
-    var phoneValues =
-      ParsePhoneNumbers(
-        row[12]
-      );
-
-    var normalizedEmails =
-      NormalizeEmailAddresses(
-        emailValues
-          .map(
-            function (e) {
-              return e.value;
-            }
-          )
-          .join(", ")
-      );
-
-    var normalizedPhones =
-      NormalizePhoneNumbers(
-        phoneValues
-          .map(
-            function (p) {
-              return p.raw;
-            }
-          )
-          .join(", ")
-      );
-
-    /*
-     * Names1:
-     *
-     * First name is ALWAYS created.
-     * Additional names need a tag and matching
-     * personal email or phone.
-     */
-    for (
-      var n1 = 0;
-      n1 < names1.length;
-      n1++
-    ) {
-
-      var person1 =
-        names1[n1];
-
-      if (
-        n1 > 0 &&
-        !person1.tag
-      ) {
-        continue;
-      }
-
-      if (
-        n1 > 0 &&
-        !HasTaggedEmail(
-          person1.tag,
-          emailValues
-        ) &&
-        !HasTaggedPhone(
-          person1.tag,
-          phoneValues
-        )
-      ) {
-        continue;
-      }
-
-      WriteFlattenedContact(
-        output,
-        row,
-        surname,
-        prefix,
-        countryCode,
-        person1,
-        true,
-        emailValues,
-        phoneValues,
-        notes,
-        uuid,
-        normalizedEmails,
-        normalizedPhones,
-        organizationField,
-        organizationMeeting
-      );
-    }
-
-    /*
-     * Names2:
-     *
-     * Only create when the tag has matching
-     * personal email or phone.
-     */
-    for (
-      var n2 = 0;
-      n2 < names2.length;
-      n2++
-    ) {
-
-      var person2 =
-        names2[n2];
-
-      if (!person2.tag) {
-        continue;
-      }
-
-      if (
-        !HasTaggedEmail(
-          person2.tag,
-          emailValues
-        ) &&
-        !HasTaggedPhone(
-          person2.tag,
-          phoneValues
-        )
-      ) {
-        continue;
-      }
-
-      WriteFlattenedContact(
-        output,
-        row,
-        surname,
-        prefix,
-        countryCode,
-        person2,
-        false,
-        emailValues,
-        phoneValues,
-        notes,
-        uuid,
-        normalizedEmails,
-        normalizedPhones,
-        organizationField,
-        organizationMeeting
-      );
-    }
-  }
-
-  var header =
-    output.shift();
-
-  output.sort(
-    function (a, b) {
-
-      var surnameA =
-        String(
-          a[0]
-        ).toLowerCase();
-
-      var surnameB =
-        String(
-          b[0]
-        ).toLowerCase();
-
-      if (
-        surnameA <
-        surnameB
-      ) {
-        return -1;
-      }
-
-      if (
-        surnameA >
-        surnameB
-      ) {
-        return 1;
-      }
-
-      var nameA =
-        String(
-          a[1]
-        ).toLowerCase();
-
-      var nameB =
-        String(
-          b[1]
-        ).toLowerCase();
-
-      if (
-        nameA <
-        nameB
-      ) {
-        return -1;
-      }
-
-      if (
-        nameA >
-        nameB
-      ) {
-        return 1;
-      }
-
-      return 0;
-    }
-  );
-
-  output.unshift(
-    header
-  );
-
-  contacts.clearContents();
-
-  contacts
-    .getRange(
-      1,
-      1,
-      output.length,
-      output[0].length
-    )
-    .setValues(
-      output
-    );
-}
 
 
 /************************************************************
@@ -2624,349 +3096,6 @@ function NormalizeEmailAddresses(
 }
 
 
-/************************************************************
- * SYNC CONTACTS TO GOOGLE
- *
- * Contacts:
- *   A = Surname
- *   B = Name
- *   C = Address
- *   D = Email
- *   E = Phone Numbers
- *   F = Notes
- *   G = UUID
- *
- * GoogleContacts:
- *   A = Surname
- *   B = Name
- *   C = Address
- *   D = Email
- *   E = Phone Numbers
- *   F = Notes
- *   G = UUID
- *   H = ResourceName
- ************************************************************/
-
-function SyncContactsToGoogle() {
-
-  var ss =
-    SpreadsheetApp.openById(
-      SPREADSHEET_ID
-    );
-
-  var contactsSheet =
-    ss.getSheetByName(
-      "Contacts"
-    );
-
-  var googleSheet =
-    ss.getSheetByName(
-      SHEET_GOOGLECONTACTS
-    );
-
-  if (!contactsSheet) {
-
-    throw new Error(
-      "Sheet not found: Contacts"
-    );
-  }
-
-  if (!googleSheet) {
-
-    throw new Error(
-      "Sheet not found: " +
-      SHEET_GOOGLECONTACTS
-    );
-  }
-
-  var contactsData =
-    contactsSheet
-      .getDataRange()
-      .getValues();
-
-  var googleData =
-    googleSheet
-      .getDataRange()
-      .getValues();
-
-  /*
-   * Build Google lookup by UUID.
-   */
-  var googleByUuid = {};
-
-  for (
-    var g = 1;
-    g < googleData.length;
-    g++
-  ) {
-
-    var googleRow =
-      googleData[g];
-
-    var uuid =
-      SafeString(
-        googleRow[6]
-      );
-
-    if (!uuid) {
-      continue;
-    }
-
-    if (
-      !googleByUuid[uuid]
-    ) {
-
-      googleByUuid[uuid] = [];
-    }
-
-    googleByUuid[uuid].push({
-
-      surname:
-        SafeString(
-          googleRow[0]
-        ),
-
-      name:
-        SafeString(
-          googleRow[1]
-        ),
-
-      address:
-        NormalizeAddressText(
-          googleRow[2]
-        ),
-
-      email:
-        NormalizeEmailAddresses(
-          googleRow[3]
-        ),
-
-      phones:
-        NormalizePhoneNumbers(
-          googleRow[4]
-        ),
-
-      notes:
-        SafeString(
-          googleRow[5]
-        ),
-
-      uuid:
-        uuid,
-
-      resourceName:
-        SafeString(
-          googleRow[7]
-        )
-    });
-  }
-
-  /*
-   * Build Contacts lookup by UUID.
-   */
-  var contactsByUuid = {};
-
-  for (
-    var r = 1;
-    r < contactsData.length;
-    r++
-  ) {
-
-    var row =
-      contactsData[r];
-
-    var uuid =
-      SafeString(
-        row[6]
-      );
-
-    if (!uuid) {
-      continue;
-    }
-
-    if (
-      !contactsByUuid[uuid]
-    ) {
-
-      contactsByUuid[uuid] = [];
-    }
-
-    contactsByUuid[uuid].push({
-
-      surname:
-        SafeString(
-          row[0]
-        ),
-
-      name:
-        SafeString(
-          row[1]
-        ),
-
-      address:
-        NormalizeAddressText(
-          row[2]
-        ),
-
-      email:
-        NormalizeEmailAddresses(
-          row[3]
-        ),
-
-      phones:
-        NormalizePhoneNumbers(
-          row[4]
-        ),
-
-      notes:
-        SafeString(
-          row[5]
-        ),
-
-      uuid:
-        uuid,
-
-      organizationField:
-        row[7],
-
-      organizationMeeting:
-        row[8]
-    });
-  }
-
-  /*
-   * Determine which UUIDs need to be recreated.
-   */
-  var uuidsToRecreate = {};
-
-  for (
-    var uuid in contactsByUuid
-  ) {
-
-    var desired =
-      contactsByUuid[
-      uuid
-      ];
-
-    var existing =
-      googleByUuid[
-      uuid
-      ];
-
-    if (!existing) {
-
-      uuidsToRecreate[
-        uuid
-      ] = true;
-
-      continue;
-    }
-
-    if (
-      !AreContactSetsEqual(
-        desired,
-        existing
-      )
-    ) {
-
-      uuidsToRecreate[
-        uuid
-      ] = true;
-    }
-  }
-
-  /*
-   * CREATE FIRST.
-   */
-  var createPeople = [];
-
-  for (
-    var recreateUuid in
-    uuidsToRecreate
-  ) {
-
-    var desiredContacts =
-      contactsByUuid[
-      recreateUuid
-      ];
-
-    for (
-      var i = 0;
-      i < desiredContacts.length;
-      i++
-    ) {
-
-      createPeople.push(
-        BuildGooglePerson(
-          desiredContacts[i]
-        )
-      );
-    }
-  }
-
-  BatchCreateGoogleContacts(
-    createPeople
-  );
-
-  /*
-   * Only now prepare the old resource names
-   * for deletion.
-   */
-  var resourcesToDelete = [];
-
-  for (
-    var deleteUuid in
-    uuidsToRecreate
-  ) {
-
-    var existingContacts =
-      googleByUuid[
-      deleteUuid
-      ];
-
-    if (!existingContacts) {
-      continue;
-    }
-
-    for (
-      var d = 0;
-      d < existingContacts.length;
-      d++
-    ) {
-
-      if (
-        existingContacts[d]
-          .resourceName
-      ) {
-
-        resourcesToDelete.push(
-          existingContacts[d]
-            .resourceName
-        );
-      }
-    }
-  }
-
-  /*
-   * Delete old contacts only after all
-   * required creates have succeeded.
-   */
-  if (
-    resourcesToDelete.length > 0
-  ) {
-
-    BatchDeleteGoogleContacts(
-      resourcesToDelete
-    );
-  }
-
-  /*
-   * Refresh GoogleContacts.
-   */
-  //  Stage1_WriteGoogleContacts(
-  //  ss
-  // );
-}
 
 
 /************************************************************
@@ -3494,4 +3623,397 @@ function NormalizeNotesForComparison(notes) {
       .join("\n");
 
   return value.trim();
+}
+
+function GetSyncVariablesSheet(ss) {
+
+  var sheet =
+    ss.getSheetByName(
+      SHEET_SYNC_VARIABLES
+    );
+
+  if (!sheet) {
+
+    sheet =
+      ss.insertSheet(
+        SHEET_SYNC_VARIABLES
+      );
+  }
+
+  sheet
+    .getRange(
+      1,
+      1,
+      1,
+      2
+    )
+    .setValues([[
+      "Variable",
+      "Value"
+    ]]);
+
+  sheet
+    .getRange(
+      2,
+      1,
+      6,
+      1
+    )
+    .setValues([
+      ["Retrieved from Google"],
+      ["Retrieved from Master"],
+      ["Script Version"],
+      ["Google Contacts Count"],
+      ["Master Count"],
+      ["Sync Disabled"]
+    ]);
+
+  return sheet;
+}
+
+
+function IsSyncDisabled(ss) {
+
+  var sheet =
+    GetSyncVariablesSheet(
+      ss
+    );
+
+  return (
+    SafeString(
+      sheet.getRange(
+        "B7"
+      ).getValue()
+    ) !== ""
+  );
+}
+
+
+function WriteSyncVariable(
+  sheet,
+  row,
+  value
+) {
+
+  sheet
+    .getRange(
+      row,
+      2
+    )
+    .setValue(
+      value
+    );
+}
+
+function PrepareUserWorkSheet() {
+
+  var email =
+    Session.getEffectiveUser().getEmail();
+
+  var atPosition =
+    email.indexOf("@");
+
+  if (atPosition === -1) {
+
+    throw new Error(
+      "Unable to determine user email."
+    );
+  }
+
+  var fileName =
+    email.substring(
+      0,
+      atPosition
+    ) +
+    " - UpdateScheduleAI";
+
+  var files =
+    DriveApp
+      .getRootFolder()
+      .getFilesByName(
+        fileName
+      );
+
+  var userSpreadsheet = null;
+  var isNewSpreadsheet = false;
+
+  /*
+   * Find existing user workbook.
+   */
+  while (files.hasNext()) {
+
+    var file =
+      files.next();
+
+    if (
+      file.getMimeType() ===
+      "application/vnd.google-apps.spreadsheet"
+    ) {
+
+      userSpreadsheet =
+        SpreadsheetApp.open(file);
+
+      break;
+    }
+  }
+
+  /*
+   * Create the user's workbook if it
+   * does not yet exist.
+   */
+  if (!userSpreadsheet) {
+
+    userSpreadsheet =
+      SpreadsheetApp.create(
+        fileName
+      );
+
+    isNewSpreadsheet = true;
+
+    var file =
+      DriveApp.getFileById(
+        userSpreadsheet.getId()
+      );
+
+    file.setStarred(true);
+  }
+
+  userSpreadsheet.setSpreadsheetLocale(
+    "en_US"
+  );
+
+  var masterSpreadsheet =
+    SpreadsheetApp.openById(
+      SPREADSHEET_ID
+    );
+
+  /*
+   * These two sheets are refreshed every time.
+   */
+  var sheetsToRefresh = [
+    SHEET_QRYEXPORT,
+    SHEET_MEETINGS
+  ];
+
+  for (
+    var i = 0;
+    i < sheetsToRefresh.length;
+    i++
+  ) {
+
+    var sheetName =
+      sheetsToRefresh[i];
+
+    var sourceSheet =
+      masterSpreadsheet.getSheetByName(
+        sheetName
+      );
+
+    if (!sourceSheet) {
+
+      throw new Error(
+        "Master sheet not found: " +
+        sheetName
+      );
+    }
+
+    /*
+     * Remove the old copy.
+     */
+    var existingSheet =
+      userSpreadsheet.getSheetByName(
+        sheetName
+      );
+
+    if (existingSheet) {
+
+      userSpreadsheet.deleteSheet(
+        existingSheet
+      );
+    }
+
+    /*
+     * Create the fresh destination sheet.
+     */
+    var destinationSheet =
+      userSpreadsheet.insertSheet(
+        sheetName
+      );
+
+    /*
+     * Copy values only.
+     */
+    var values =
+      sourceSheet
+        .getDataRange()
+        .getValues();
+
+    if (
+      values.length > 0 &&
+      values[0].length > 0
+    ) {
+
+      destinationSheet
+        .getRange(
+          1,
+          1,
+          values.length,
+          values[0].length
+        )
+        .setValues(
+          values
+        );
+
+      /*
+       * qryExport column M contains phone
+       * numbers. Force it to text so
+       * leading zeroes are retained.
+       */
+      if (
+        sheetName ===
+        SHEET_QRYEXPORT
+      ) {
+
+        destinationSheet
+          .getRange(
+            1,
+            13,
+            values.length,
+            1
+          )
+          .setNumberFormat("@");
+      }
+    }
+  }
+
+  /*
+   * Copy Update Schedule ONLY when the
+   * user's workbook is first created.
+   */
+  if (isNewSpreadsheet) {
+
+    var sourceUpdateSchedule =
+      masterSpreadsheet.getSheetByName(
+        SHEET_UPDATESCHEDULE
+      );
+
+    if (!sourceUpdateSchedule) {
+
+      throw new Error(
+        "Master sheet not found: " +
+        SHEET_UPDATESCHEDULE
+      );
+    }
+
+    var updateScheduleSheet =
+      sourceUpdateSchedule.copyTo(
+        userSpreadsheet
+      );
+
+    updateScheduleSheet.setName(
+      SHEET_UPDATESCHEDULE
+    );
+  }
+
+  /*
+   * Remove any empty default sheet.
+   * We do this without relying on the
+   * localized name "Sheet1".
+   */
+  var requiredSheets = [
+    SHEET_QRYEXPORT,
+    SHEET_MEETINGS,
+    SHEET_UPDATESCHEDULE
+  ];
+
+  var sheets =
+    userSpreadsheet.getSheets();
+
+  for (
+    var j = sheets.length - 1;
+    j >= 0;
+    j--
+  ) {
+
+    var currentSheet =
+      sheets[j];
+
+    if (
+      requiredSheets.indexOf(
+        currentSheet.getName()
+      ) !== -1
+    ) {
+      continue;
+    }
+
+    if (
+      currentSheet.getLastRow() === 0 &&
+      currentSheet.getLastColumn() === 0 &&
+      userSpreadsheet.getSheets().length > 1
+    ) {
+
+      userSpreadsheet.deleteSheet(
+        currentSheet
+      );
+    }
+  }
+
+  return userSpreadsheet;
+}
+
+function GetUserWorkSpreadsheet() {
+
+  var email =
+    Session
+      .getEffectiveUser()
+      .getEmail();
+
+  var atPosition =
+    email.indexOf("@");
+
+  if (
+    atPosition === -1
+  ) {
+
+    throw new Error(
+      "Unable to determine user email."
+    );
+  }
+
+  var fileName =
+    email.substring(
+      0,
+      atPosition
+    ) +
+    " - UpdateScheduleAI";
+
+  var files =
+    DriveApp
+      .getRootFolder()
+      .getFilesByName(
+        fileName
+      );
+
+  while (
+    files.hasNext()
+  ) {
+
+    var file =
+      files.next();
+
+    if (
+      file.getMimeType() ===
+      "application/vnd.google-apps.spreadsheet"
+    ) {
+
+      return SpreadsheetApp.open(
+        file
+      );
+    }
+  }
+
+  throw new Error(
+    "User work spreadsheet not found: " +
+    fileName
+  );
 }
