@@ -1,4 +1,4 @@
-/************************************************************
+***********************************************************
  * SIMPLE CONTACT SYNC + CONTACT FLATTENING
  ************************************************************/
 
@@ -11,6 +11,7 @@ const SHEET_GOOGLECONTACTS = "GoogleContacts";
 const SHEET_MASTERCONTACTS = "MasterContacts";
 const SHEET_UPDATESCHEDULE = "Update Schedule";
 const SHEET_SYNC_VARIABLES = "Sync Variables";
+const SHEET_DEBUG = "Debug";
 const SCRIPT_VERSION = "1.2";
 
 const DEFAULT_MEETING_PREFIX = "TMP";
@@ -22,11 +23,84 @@ const DEFAULT_COUNTRY_CODE = "+27";
  ************************************************************/
 function WriteGoogleContacts() {
 
-  var ss = GetUserWorkSpreadsheet();
+  var ss = null;
 
-//    SpreadsheetApp.openById(
-//      SPREADSHEET_ID
-//    );
+  try {
+
+    ss =
+      GetUserWorkSpreadsheet();
+
+    DebugLog(
+      ss,
+      "WriteGoogleContacts started"
+    );
+
+    if (
+      IsSyncDisabled(
+        ss
+      )
+    ) {
+
+      DebugLog(
+        ss,
+        "WriteGoogleContacts skipped: Sync Disabled"
+      );
+
+      return;
+    }
+
+    WriteGoogleContactsCore(
+      ss
+    );
+
+    DebugLog(
+      ss,
+      "WriteGoogleContacts completed"
+    );
+
+  }
+  catch (e) {
+
+    if (ss) {
+
+      DebugError(
+        ss,
+        "WriteGoogleContacts",
+        e
+      );
+
+    }
+    else {
+
+      /*
+       * The user workbook could not even
+       * be opened. Try to create/find the
+       * debug sheet in the master workbook.
+       */
+      try {
+
+        var master =
+          SpreadsheetApp.openById(
+            SPREADSHEET_ID
+          );
+
+        DebugError(
+          master,
+          "WriteGoogleContacts",
+          e
+        );
+
+      }
+      catch (ignore) {}
+    }
+
+    return;
+  }
+}
+
+function WriteGoogleContactsCore(ss) {
+
+//  var ss = GetUserWorkSpreadsheet();
 
   if (
     IsSyncDisabled(
@@ -52,6 +126,11 @@ function WriteGoogleContacts() {
       ss,
       SHEET_GOOGLECONTACTS
     );
+
+DebugLog(
+  ss,
+  "GoogleContacts sheet prepared"
+);
 
   sheet.clearContents();
 
@@ -263,6 +342,12 @@ function WriteGoogleContacts() {
   }
   while (pageToken);
 
+DebugLog(
+  ss,
+  "Google contacts retrieved: " +
+  rows.length
+);
+
   /*
    * Sort by surname, then name.
    */
@@ -313,24 +398,6 @@ function WriteGoogleContacts() {
     }
   );
 
-  /*if (
-    rows.length > 0
-  ) {
-
-    sheet
-      .getRange(
-        2,
-        1,
-        rows.length,
-        8
-      )
-      .setValues(
-        rows
-      );
-  }
-*/
-
-
 
 if (
   rows.length > 0
@@ -346,6 +413,12 @@ if (
     .setValues(
       rows
     );
+
+DebugLog(
+  ss,
+  "GoogleContacts sheet updated"
+);
+
 }
 
 WriteSyncVariable(
@@ -360,21 +433,6 @@ WriteSyncVariable(
   rows.length
 );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /************************************************************
@@ -382,7 +440,88 @@ WriteSyncVariable(
  ************************************************************/
 function WriteMasterContacts() {
 
-var ss = PrepareUserWorkSheet();
+  var ss = null;
+
+  try {
+
+    /*
+     * PrepareUserWorkSheet refreshes:
+     * qryExport
+     * qryExportField
+     *
+     * and creates Update Schedule only
+     * when the user's workbook is first created.
+     */
+    ss =
+      PrepareUserWorkSheet();
+
+    DebugLog(
+      ss,
+      "WriteMasterContacts started"
+    );
+
+    if (
+      IsSyncDisabled(
+        ss
+      )
+    ) {
+
+      DebugLog(
+        ss,
+        "WriteMasterContacts skipped: Sync Disabled"
+      );
+
+      return;
+    }
+
+    WriteMasterContactsCore(
+      ss
+    );
+
+    DebugLog(
+      ss,
+      "WriteMasterContacts completed"
+    );
+
+  }
+  catch (e) {
+
+    if (ss) {
+
+      DebugError(
+        ss,
+        "WriteMasterContacts",
+        e
+      );
+
+    }
+    else {
+
+      try {
+
+        var master =
+          SpreadsheetApp.openById(
+            SPREADSHEET_ID
+          );
+
+        DebugError(
+          master,
+          "WriteMasterContacts",
+          e
+        );
+
+      }
+      catch (ignore) {}
+    }
+
+    return;
+  }
+}
+
+
+function WriteMasterContactsCore(ss) {
+
+//var ss = PrepareUserWorkSheet();
 
 //  var ss =
 //    SpreadsheetApp.openById(
@@ -414,18 +553,10 @@ var ss = PrepareUserWorkSheet();
     );
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+DebugLog(
+  ss,
+  "Fresh master qryExport available"
+);
 
   if (!source) {
 
@@ -453,10 +584,21 @@ var ss = PrepareUserWorkSheet();
       ss
     );
 
+DebugLog(
+  ss,
+  "Meeting lookup loaded"
+);
+
   var data =
     source
       .getDataRange()
       .getValues();
+
+DebugLog(
+  ss,
+  "Master rows read: " +
+  (data.length - 1)
+);
 
   var output = [[
     "Surname",
@@ -831,6 +973,11 @@ var ss = PrepareUserWorkSheet();
       output
     );
 
+DebugLog(
+  ss,
+  "MasterContacts written: " +
+  (output.length - 1)
+);
 
 WriteSyncVariable(
   syncVariables,
@@ -870,7 +1017,80 @@ WriteSyncVariable(
  ************************************************************/
 function SyncContactsToGoogle() {
 
-  var ss = GetUserWorkSpreadsheet();
+  var ss = null;
+
+  try {
+
+    ss =
+      GetUserWorkSpreadsheet();
+
+    DebugLog(
+      ss,
+      "SyncContactsToGoogle started"
+    );
+
+    if (
+      IsSyncDisabled(
+        ss
+      )
+    ) {
+
+      DebugLog(
+        ss,
+        "SyncContactsToGoogle skipped: Sync Disabled"
+      );
+
+      return;
+    }
+
+    SyncContactsToGoogleCore(
+      ss
+    );
+
+    DebugLog(
+      ss,
+      "SyncContactsToGoogle completed"
+    );
+
+  }
+  catch (e) {
+
+    if (ss) {
+
+      DebugError(
+        ss,
+        "SyncContactsToGoogle",
+        e
+      );
+
+    }
+    else {
+
+      try {
+
+        var master =
+          SpreadsheetApp.openById(
+            SPREADSHEET_ID
+          );
+
+        DebugError(
+          master,
+          "SyncContactsToGoogle",
+          e
+        );
+
+      }
+      catch (ignore) {}
+    }
+
+    return;
+  }
+}
+
+
+function SyncContactsToGoogleCore(ss) {
+
+ // var ss = GetUserWorkSpreadsheet();
 
 //    SpreadsheetApp.openById(
 //      SPREADSHEET_ID
@@ -899,11 +1119,6 @@ function SyncContactsToGoogle() {
     ss.getSheetByName(
       SHEET_MASTERCONTACTS
     );
-
-
-
-
-
 
 
   var googleSheet =
@@ -935,6 +1150,14 @@ function SyncContactsToGoogle() {
     googleSheet
       .getDataRange()
       .getValues();
+
+DebugLog(
+  ss,
+  "Sync input: MasterContacts=" +
+  (contactsData.length - 1) +
+  ", GoogleContacts=" +
+  (googleData.length - 1)
+);
 
   /*
    * Build Google lookup by UUID.
@@ -1122,6 +1345,14 @@ function SyncContactsToGoogle() {
     }
   }
 
+DebugLog(
+  ss,
+  "Contacts requiring recreation: " +
+  Object.keys(
+    uuidsToRecreate
+  ).length
+);
+
   /*
    * CREATE FIRST.
    */
@@ -1154,6 +1385,13 @@ function SyncContactsToGoogle() {
   BatchCreateGoogleContacts(
     createPeople
   );
+
+DebugLog(
+  ss,
+  "Contacts created: " +
+  createPeople.length
+);
+
 
   /*
    * Only now prepare the old resource names
@@ -1205,6 +1443,12 @@ function SyncContactsToGoogle() {
     BatchDeleteGoogleContacts(
       resourcesToDelete
     );
+
+DebugLog(
+  ss,
+  "Old contacts deleted: " +
+  resourcesToDelete.length
+);    
   }
 
 }
@@ -4015,5 +4259,89 @@ function GetUserWorkSpreadsheet() {
   throw new Error(
     "User work spreadsheet not found: " +
     fileName
+  );
+}
+
+function GetDebugSheet(ss) {
+
+  var sheet =
+    ss.getSheetByName(
+      SHEET_DEBUG
+    );
+
+  if (!sheet) {
+
+    sheet =
+      ss.insertSheet(
+        SHEET_DEBUG
+      );
+
+    sheet
+      .getRange(
+        1,
+        1,
+        1,
+        2
+      )
+      .setValues([[
+        "Date / Time",
+        "Debug Information"
+      ]]);
+  }
+
+  return sheet;
+}
+
+
+function DebugLog(
+  ss,
+  message
+) {
+
+  try {
+
+    var sheet =
+      GetDebugSheet(
+        ss
+      );
+
+    sheet.appendRow([
+      new Date(),
+      SafeString(
+        message
+      )
+    ]);
+
+  }
+  catch (e) {
+
+    /*
+     * Never allow debugging itself to
+     * cause the main script to fail.
+     */
+  }
+}
+
+
+function DebugError(
+  ss,
+  functionName,
+  error
+) {
+
+  var message =
+    error &&
+    error.message
+      ? error.message
+      : String(
+          error
+        );
+
+  DebugLog(
+    ss,
+    "ERROR in " +
+    functionName +
+    ": " +
+    message
   );
 }
