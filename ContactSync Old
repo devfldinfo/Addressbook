@@ -1,0 +1,2526 @@
+var aVersion = "DEV - V145";
+
+// This is the File ID of the RSA Address Book. 
+// devfldinfo@gmail.com is the owner.
+// It is better to reference the file by ID than by name to make sure that the correct data is used
+gvAddressbookID = "1bTu20GBp_ccaOpClMe986caiLBXzeSoSKNMa-OxhZ-I";
+
+var aUpdateSchedulesheetname = "Update Schedule";
+var aUpdateScheduleFolderName = "Update Schedules";
+
+var aUpdateRow = 1;
+var aRetryCount = 0;
+var aBusyDeveloping = false;
+var aDebugMode = true;
+
+var gvStart = "";
+var gvEnd = "";
+
+var gvPhone1 = "";
+var gvPhone2 = "";
+var gvPhone3 = "";
+var gvHomeEmailAddress = "";
+var gvPersonalEmailAddress = "";
+var gvHomeAddress = "";
+var gvPostalAddress = "";
+var gvGPS = "";
+var gvPhoneType1 = "";
+var gvPhoneType2 = "";
+var gvPhoneType3 = "";
+var gvOrganizations = [];
+var gvContactsToAdd = [];
+var gvContactsToDelete = [];
+var gvContactCount = 0;
+var gvGoogleContactCount = 0;
+var gvUUIDs = "";
+
+var gvData = null;
+var gvMeetingData = null;
+var gvSyncVarsSheet = null;
+var gvDebugSheet = null;
+var gvErrorSheet = null;
+var gvUpdateSchedule = null;
+var gvUpdateScheduleSheet = null;
+var gvUpdateScheduleData = null;
+var gvGroupCountSheet = null;
+var gvMeetingSheet = null;
+var gvDataSheet = null;
+var gvCountryCodeData = null;
+var gvMaxContactsReached = '';
+var gvLastUpdatedDate = "";
+//var gvDoCleanup="";
+
+var gvDeleteGoogleGroup = null;
+var gvUpgradeGoogleGroup = null;
+var gvRSAGoogleGroup = null;
+var gvMyContactsGoogleGroup = null;
+var gvDELGoogleGroup = null;
+var gvPeopleGroup = "";
+var gvPrevGroup = "";
+
+var gvContactsData = [];
+var gvLogContacts = [];
+
+var gvRSAAddressBook = null;
+
+var gvComputerTime = null;
+var gvTmpi = -1;
+var dur = 0;
+var aMin = 0;
+var aHour = 0;
+
+var aCleanupCounter;
+
+// This is the maximum machine time the script can use for the day
+//Hannes 13 July, changed from 4000 to 2000 to prevent time out and too much machine time. Need more time for Maintenance routines.
+//var sCompTime = 1000;
+var sCompTime = 80 * 60;// 60 minutes per day.actual limit is 90 minutes 
+
+var sLatestUpdateDate = "B2";
+var sUpdatingRow = "B3";
+var sComputerTime = "B4";
+var sSyncDisabled = "B5";
+//var sAllContactNames1 = "B6";
+//var sAllContactNames2 = "B7";
+var sContactCount = "B6";
+var sIsRunning = "B8";
+var sRefreshContacts = "B9";
+var sVerifyCount = "B10";
+
+var sDateFormat = "MM/dd/yyyy HH:mm:ss";
+
+var runtimeCountStart = new Date();
+
+var tmp = "GWsbdbdb \nUpdated on Google:\n24/08/2019 19:43:02\nModified on Sheet:sff233\nScript Version: Dev - 51";
+
+var stime = 5 * 60; // This is the maximum time a script can run. This is to prevent errors. 5 minutes
+// actual limit is 6 minutes
+// MM 28/09/2022 changed the stime from 5*60-30 to 5*60
+
+function InstallAddressBook() {
+  // This function must always be the first function in the script. 
+  // When a new user wants to install the Address Book, this function will be the first one in the list, making it easier to find.
+
+  createAddressBookTrigger();
+}
+
+
+
+
+
+/**
+ * Creates a new tab in a Google Sheet specified by its ID and renames it to "qryExportField".
+ */
+function createAndRenameTabById() {
+  const spreadsheetId = "1LlZXVYx4nEtJOkG4Vedt5342mzTegEtIgGtiQA0HvXc"; // Your spreadsheet ID
+  const newTabName = "qryExportField";
+
+  Logger.log(`Attempting to open spreadsheet with ID: ${spreadsheetId}`);
+
+  try {
+    const spreadsheet = SpreadsheetApp.openById(spreadsheetId);
+    Logger.log(`Successfully opened spreadsheet: ${spreadsheet.getName()}`);
+
+    // Check if a sheet with the desired name already exists
+    const existingSheet = spreadsheet.getSheetByName(newTabName);
+    if (existingSheet) {
+      Logger.log(`Sheet "${newTabName}" already exists. Creating a new one with a unique name.`);
+      // If you want to always create a new one even if one exists,
+      // you could add a timestamp or number to the name, e.g.,
+      // newSheet.setName(`${newTabName}_${new Date().getTime()}`);
+      // For now, we'll just proceed to create a new one, and it will get a default name
+      // that we'll then rename. If you want to _replace_ the existing one, that's a different
+      // operation (delete existing, then create new).
+    }
+
+    // Add a new sheet (tab) to the spreadsheet
+    const newSheet = spreadsheet.insertSheet();
+    Logger.log(`New sheet created with default name: ${newSheet.getName()}`);
+
+    // Rename the newly created sheet
+    newSheet.setName(newTabName);
+    Logger.log(`New sheet renamed to: ${newTabName}`);
+
+
+    newSheet.insertRows(1,2000);
+    // Optional: Alert the user in the UI (only works if running from the bound script)
+//    SpreadsheetApp.getUi().alert('Success!', `New tab "${newTabName}" created successfully in spreadsheet "${spreadsheet.getName()}".`, SpreadsheetApp.getUi().ButtonSet.OK);
+
+  } catch (error) {
+    // Log any errors that occur and alert the user
+    Logger.log(`Error in createAndRenameTabById: ${error.toString()}`);
+    SpreadsheetApp.getUi().alert('Error', `An error occurred: ${error.message}. Check the Apps Script logs for more details.`, SpreadsheetApp.getUi().ButtonSet.OK);
+  }
+}
+
+
+
+
+
+
+
+
+
+function UninstallAddressBook(){
+  Logger.log("Uninstall started");
+  DeleteAllContacts(null);
+  Logger.log("Contacts deleted");
+  DeleteUpdateScheduleSheet();
+  Logger.log("Update schedule deleted");
+  removeAddressBookTrigger();
+  Logger.log("Triggers deleted");
+}
+
+function Uninstalled()
+{
+  var aUninstallRange = gvRSAAddressBook.getSheetByName("Uninstall").getRange("A2:A10").getValues();
+  
+  for (var i=0;i<aUninstallRange.length;i++)
+  {
+    var tmp = aUninstallRange[i][0];
+    if (tmp == Session.getEffectiveUser().getEmail())
+    {
+      UninstallAddressBook();
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function DoTesting() {
+
+  // FOR TESTING;
+  //Clear counters
+  //aHour =  3;
+  //aMin = 10;
+
+  //Do updates
+  //aHour = 2;
+  //aMin = 20;
+  //
+   //  sCompTime = 200000;
+  //  gvMaxContactsReached = 'Y';
+
+  //   ** RemoveDuplicates **
+  //aHour = 22;
+
+  //   ** CleanupContacts **
+  //  aHour = 5;
+  //  aMin = 10;
+
+  //  **  MoveContactsFromUpgradeToRSAAddressBook  **
+  //  aHour = 1;
+  //  aMin = 16;
+
+
+  //   ** Write Verifycontacts List **
+   // aHour = 4;
+   //aMin = 10;
+
+  //   ** LogContacts From GOOGLE**
+   //aHour = 7;
+   //aMin = 10;
+
+  //   ** Check contacts  **
+   //aHour = 6;
+   //aMin = 23;
+
+  //   ** CheckContactsVersion **
+  //    aHour = 2;
+  //    aMin = 16;
+
+  //   ** DeleteEmptyGroups **
+  //    aHour = 2;
+  //    aMin = 30;
+
+  //   ** CleanupContactsWithCorruptNotes **
+  //    aHour = 2;
+  //    aMin = 50;
+
+//RefreshBatch();
+
+}
+
+function RefreshBatch() {
+  // This is a legacy function that must be kept. 
+  // There might be users who's triggers are still set on this function
+
+  UpdateContacts();
+
+}
+
+function UpdateContactsDev() {
+  // This function is to override the aBusyDeveloping flag.
+  // The aBusyDevelping flag is used for development purposes.
+  // When the aBusyDeveloping flag is set to true, the function that is scheduled on the timer will exit immediatly
+  // When the aBusyDeveloping flag is set to true, run this function instead of UpdateContacts to test the script
+
+
+  aBusyDeveloping = false;
+
+  UpdateContacts();
+}
+
+function ClearCounters() {
+  // This function clears the counters in the Sync Variables sheet in the Update Schedule Spreadsheet of the specific user
+
+  WriteDebugMSG(aVersion + " - - - Clear Counters");
+
+  gvSyncVarsSheet.getRange(sComputerTime).setValue(""); //Max Machine Run Time Reached
+}
+
+function UpdateContacts() {
+  // This is the main function of the script.
+  // When the triggers are created for a new user, this is the function that will run on the specified schedule.
+  try {
+    try {
+      // If the Development flag is set to true, the function will exit immediatly
+      // This is a global variable that can be found at the top if the script
+      if (aBusyDeveloping)
+        return;
+
+      // Get the current minute and hour
+      // The hour is 24 hour format. 1-24
+      aMin = Utilities.formatDate(new Date(), "GMT+2", "m");
+      aHour = Number(Utilities.formatDate(new Date(), "GMT+2", "k"));
+
+      DoTesting();
+
+      // Open the Spreadsheet
+      gvRSAAddressBook = SpreadsheetApp.openById(gvAddressbookID);
+
+      // If the Spreadsheet cannot be opened, the function exits
+      if (gvRSAAddressBook == null)
+        return;
+
+      //Marius - Added function to uninstall AddressBook
+      // To uninstall user, add their email address to the Uninstall sheet in the RSAAddressbook spreadsheet
+      if (Uninstalled())
+        return;
+
+      if (aHour > 10)
+        return;
+
+      if (aMin > 31)
+        return;
+
+      GetUpdateScheduleSheet();
+      //getOrCreateTab(gvUpdateSchedule,"qryExportField");
+      //getOrCreateTab(gvUpdateSchedule,"Data");
+
+      // Get the Debug Log sheet in the Update schedule Spreadsheet of the specific user.
+      // All Debug info is written in the Debug Sheet
+      gvDebugSheet = getSheetInUpdateSchedule("Debug");
+      if (gvDebugSheet.getMaxRows() < 2000)
+        gvDebugSheet.insertRowsAfter(gvDebugSheet.getMaxRows(), 2000);
+
+      gvErrorSheet = getSheetInUpdateSchedule("ErrorLog");
+
+      // A message is written in the Debug Log for the specific user
+      WriteDebugMSG(aVersion + " - - - Start to Update Contacts");
+
+      gvSyncVarsSheet = getSheetInUpdateSchedule('Sync Variables');
+
+      gvSyncVarsSheet.getRange("B7").setValue(aVersion);
+
+      //  gvDoCleanup=gvSyncVarsSheet.getRange("B9").getValue();
+
+
+      // throw new Error("Checking...");
+
+      CheckIfScriptIsRunning();
+
+      if (aHour == 3)
+        ClearCounters();
+
+      CheckSyncDisabled();
+      CheckMaxComputerTimeForDay();
+
+      // Get Data from Spreadsheet. 10 seconds
+      // Some maintenance routines use it too.
+      GetContactData();
+      GetMeetingData();
+
+      // The Contacts are processed row by row from the Data sheet in the user's Update Schedule spreadsheet.
+      // To keep track as to which row is being updated, the row number is stored in the user's Sync Variables sheet in the Update Schedule spreadsheet
+      var tmp = gvSyncVarsSheet.getRange(sUpdatingRow).getValue();
+      var aLastRowStopped = 0;
+      aLastRowStopped = Number(tmp);
+
+      // The last Updated Date is retrieved from the Sync Variables sheet
+      // if the Last Update Date in the user's Sync Variables sheet is blank, 
+      // a default date of 1 Jan 1950 is used which will ensure that all rows will be updated in the user's Google account 
+      gvLastUpdatedDate = gvSyncVarsSheet.getRange(sLatestUpdateDate).getValue();
+      if ((gvLastUpdatedDate == "") || (gvLastUpdatedDate == null))
+        gvLastUpdatedDate = new Date("01/01/1950 01:01:01")
+
+      try //Check if date is valid
+      {
+        var tmpt = gvLastUpdatedDate.getTime();
+      }
+      catch (e) {
+        var twoweeks = 1000 * 60 * 60 * 24 * 14;
+        var now = new Date();
+        gvLastUpdatedDate = new Date(now.getTime() - twoweeks);
+        WriteDebugMSG("Last Update Date is not valid. Please fix data: ");
+      }
+
+      if ((aHour > 3) && (aHour < 22) && (aMin < 16)) //20/01/2022 Marius
+      {
+        LogContacts();
+        //   gvSyncVarsSheet.getRange(sContactCount).setValue(gvLogContacts.length);
+        throw new Error("Contacts Logged");
+      }
+
+      var aRefreshContacts = gvSyncVarsSheet.getRange(sRefreshContacts).getValue();
+      if(!isCellEmpty(aRefreshContacts))
+      {
+        WriteDebugMSG("START - DELETING ALL CONTACTS!!!!");
+        DeleteAllContacts(null);
+        WriteDebugMSG("FINISHED - DELETING ALL CONTACTS!!!!");
+        gvSyncVarsSheet.getRange(sLatestUpdateDate).setValue(null);
+        gvSyncVarsSheet.getRange(sUpdatingRow).setValue(0);
+        gvSyncVarsSheet.getRange(sRefreshContacts).setValue(null);
+        gvSyncVarsSheet.getRange(sIsRunning).setValue(null);
+        throw new Error("All contacts deleted");
+      }
+
+      //  if ((aHour>5)&&(aHour<22))
+      //   throw new Error("Updates are only done between 22:00 and 05:00");
+
+      WriteDebugMSG("Start loading contacts into memory");
+      //  gvGoogleContactCount=0;
+      RefreshContactsCache(null);
+      LoadContactsIntoMemory(null);
+      // LogUUIDs();
+      WriteDebugMSG("End loading contacts into memory");
+
+      gvMyContactsGoogleGroup = DoGetContactGroup("myContacts", false)["resourceName"];
+
+      //gvSyncVarsSheet.getRange(sContactCount).setValue(gvGoogleContactCount);
+
+      if ((aHour > 4) && (aHour < 22) && (aMin > 15)) {
+        CheckContacts();
+        throw new Error("Contacts checked");
+      }
+
+      if ((aHour > 5) && (aHour < 22))
+        throw new Error("Updates are only done between 22:00 and 05:00");
+
+      // Iterate through the Data starting from where the script stopped last
+      for (var i = aLastRowStopped; i < gvData.length; i++) {
+        CheckScriptRunningTime();
+
+        // The UUID for the row is stored in the 20th column
+        // To reference the 20th column, 19 is used because the columns start with 0
+        var tmpUserID = gvData[i][19];
+
+        // If the UUID is blank, go to the next line. might be more data
+        if (tmpUserID == "")
+          continue;
+
+        // Get the modified date of the row
+        // When the data in the main Address Book spreadsheet is changed, the date and time is written in the 15th column
+        // if the Modified Date is blank, a default date of 1 Jan 2010 is used which will ensure that the row is updated in the user's Google account 
+        var aModDate = gvData[i][14];
+
+        try //Check if date is valid
+        {
+          var tmpt = aModDate.getTime();
+        }
+        catch (e) {
+          aModDate = "";
+          var tmpNameError = gvData[i][1];
+          var tmpSurnameError = gvData[i][0];
+          WriteDebugMSG("Modified Date is not valid. Please fix data: " + tmpSurnameError + " " + tmpNameError + " - " + tmpUserID);
+        }
+
+        if ((aModDate == "") || (aModDate == null))
+          aModDate = new Date();
+
+        // If the modified date of the row is bigger than the last update date (the last time an update was done), then the row is updated 
+        // in the user's Google Contacts
+        if ((aModDate.getTime() > gvLastUpdatedDate.getTime())) {
+          UpdateContact(i);
+        }
+
+        if ((gvContactCount > 190) || (gvContactsToDelete.length > 490))//The batchCreate limit is 200 per call. The batchDelete limit is 500 per call
+          CommitChanges(i);
+      }
+
+      CommitChanges(i);
+
+      if (i >= gvData.length) {
+        gvSyncVarsSheet.getRange(sLatestUpdateDate).setValue(gvDataSheet.getRange("O1").getValue());
+        MakeDataSnapshot();
+        gvSyncVarsSheet.getRange(sUpdatingRow).setValue(0);
+      }
+    }
+    catch (e) {
+      WriteDebugMSG(e.message);
+    }
+
+    gvSyncVarsSheet.getRange(sIsRunning).setValue(null);
+    WriteDebugMSG("End of UpdateContacts " + gvComputerTime);
+  }
+  catch (e) { }
+}
+
+function UpdateContact(i) {
+  // A Check is done to see if the row that must be updated is in the user's selected update list.
+  // The user can select the Districts, fields and meetings that must be synced to the user's Google Contacts
+  if (MeetingIsInUpdateSchedule(gvData[i][11])) {
+    var aneweldergroup = null;
+    var aMtgRow = GetMeetingRow(gvData[i][11]);
+    var aField = gvMeetingData[aMtgRow][1];
+
+    if (gvData[i][9].toUpperCase() == "Y") // Is Elder
+      aneweldergroup = aField + " - Elders";
+
+    RefreshContact(gvData[i], aField, aneweldergroup);
+  }
+  else
+    DeleteContactsWithUUID(gvData[i][19]); //This contact is not part of the selected groups to sync
+}
+
+function CheckContacts() {
+  WriteDebugMSG("Checking Contacts Started...");
+  var aData = getSheetInUpdateSchedule("VerifyContacts").getDataRange().getValues();
+  var aCData = getSheetInUpdateSchedule("ContactLog").getDataRange().getValues();
+
+  if ((aData[0][0] == "") || (aCData[0][0] == ""))
+    throw new Error("ContactLog or VerifyContacts sheet is empty");
+
+  for (var i = 0; i < aData.length; i++) {
+    CheckScriptRunningTime();
+
+    if (aData[i][7] == "Not found") {
+      if (!UUIDHasBeenRefreshed(i, aData[i][6], aData)) {
+        var aRow = GetContactRowNo(aData[i][6]);
+
+        if (aRow > -1) {
+          WriteDebugMSG("Updating missing contact:" + gvData[aRow][0] + " " + gvData[aRow][1]);
+          UpdateContact(aRow);
+        }
+      }
+    }
+
+    if ((gvContactsToAdd.length > 190) || (gvContactsToDelete.length > 190))
+      CommitChanges(0);
+  }
+
+  CommitChanges(0);
+
+  aCData = getSheetInUpdateSchedule("ContactLog").getDataRange().getValues();
+  for (var i = 0; i < aCData.length; i++) {
+    CheckScriptRunningTime();
+
+    if (aCData[i][7] == "Duplicate") {
+      if (!UUIDHasBeenRefreshed2(i, aCData[i][5], aCData)) {
+        var aRow = GetContactRowNo(aCData[i][5]);
+
+        if (aRow > -1) {
+          WriteDebugMSG("Updating duplicate contact:" + gvData[aRow][0] + " " + gvData[aRow][1]);
+          UpdateContact(aRow);
+        }
+      }
+    }
+    else if (aCData[i][8] == "Bogus UUID"){//Marius 23/02/2026
+      if (!UUIDHasBeenRefreshed2(i,aCData[i][5], aCData)) {
+        var aRow = GetContactRowNo(aCData[i][5]);
+
+        if (aRow > -1) {
+          WriteDebugMSG("Deleting Bogus UUID: "+ aCData[i][5] + " " + aCData[i][1]);
+
+          UpdateContact(aRow);
+        //DeleteContactsWithUUID(aCData[i][5]);
+        }}
+      }
+
+
+
+
+
+
+    if (aCData[i][5] == "") {
+      WriteDebugMSG("Contact with no UUUID found: " + aCData[i][1]);
+      DeleteContactsWithUUID("");
+    }
+
+    if ((gvContactsToAdd.length > 190) || (gvContactsToDelete.length > 190))
+      CommitChanges(0);
+  }
+
+  CommitChanges(0);
+
+  WriteDebugMSG("Checking Contacts Ended...");
+}
+
+function UUIDHasBeenRefreshed2(aRowNo, aUUID, aData) {
+  for (var i = 0; i < aRowNo; i++) {
+    if ((aData[i][5] == aUUID) && (aData[i][7] == "Duplicate"))
+      return true;
+  }
+
+  return false;
+}
+
+function UUIDHasBeenRefreshed(aRowNo, aUUID, aData) {
+  for (var i = 0; i < aRowNo; i++) {
+    if ((aData[i][6] == aUUID) && (aData[i][7] == "Not found"))
+      return true;
+  }
+
+  return false;
+}
+
+function GetContactRowNo(aUUID) {
+  var aResult = -1;
+
+  for (var i = 0; i < gvData.length; i++) {
+    if (gvData[i][19] == aUUID) {
+      aResult = i;
+      break;
+    }
+  }
+
+  return aResult;
+}
+
+function CommitChanges(aRowNo) {
+  //This function does the batch create and delete of contacts.
+  WriteDebugMSG("Commiting changes... gvContactCount:" + gvContactCount);
+
+  if (gvContactsToAdd.length > 0) {
+    var acreateresponse = People.People.batchCreateContacts({ "contacts": gvContactsToAdd, "readMask": "names" });
+
+    var agroupmembers = [];
+    for (var agrp = 0; agrp < acreateresponse.createdPeople.length; agrp++)
+      agroupmembers.push(acreateresponse.createdPeople[agrp].requestedResourceName);
+
+    People.ContactGroups.Members.modify({ "resourceNamesToAdd": agroupmembers }, gvMyContactsGoogleGroup);
+  }
+
+  //  Utilities.sleep(5000); //9/12/2021 Marius - Commented out
+
+  if (gvContactsToDelete.length > 0)
+    People.People.batchDeleteContacts({ "resourceNames": gvContactsToDelete });
+
+  gvContactsToAdd = [];
+  gvContactsToDelete = [];
+  gvContactCount = 0;
+
+  if (aRowNo == 0)
+    aRowNo = -1;
+
+  gvSyncVarsSheet.getRange(sUpdatingRow).setValue(aRowNo + 1);
+}
+
+function DoGetContactGroup(aName, aCreate) {
+  //Marius 29/06/2021 - Creates Group if not exist and aCreate is true
+
+  var groups = People.ContactGroups.list({ "pageSize": 1000 })["contactGroups"];
+  var group = groups.find(group => group["name"] === aName);
+
+  if (!group && aCreate) {
+    var groupResource = { contactGroup: { name: aName } }
+    group = People.ContactGroups.create(groupResource);
+    Utilities.sleep(1000); //needed otherwise gives error
+    return DoGetContactGroup(aName, false);
+  }
+
+  return group;
+}
+
+function getDataSheet() {
+  // The Address Book data sheet is retreived from the user's Update schedule spreadsheet
+  gvDataSheet = gvUpdateSchedule.getSheetByName("Data");
+  // If the Data sheet does not exist, it is created and a copy of the data is made in the user's Update Schedule spreadsheet
+  if (gvDataSheet == null) {
+    gvDataSheet = gvUpdateSchedule.insertSheet("Data");
+    gvDataSheet.insertRows(1, 7000);
+    MakeDataSnapshot();
+  }
+}
+
+function GetContactData() {
+  getDataSheet();
+  gvData = gvDataSheet.getRange("a1:t4000").getValues();
+}
+
+function GetMeetingData() {
+  // A copy of the Field arrangements is stored in this sheet in the specific user's Update Schedule spreadsheet.
+  // The sheet's name is qryExportField
+  // The Field Arrangements are stored in the qry
+  gvMeetingSheet = gvUpdateSchedule.getSheetByName("qryExportField");
+
+  // If there is no "qryExportField" sheet in the user's Update Schedule spreadsheet, then a copy of the Address Book Data is made into the 
+  // user's Update Schedule spreadsheet.
+  // This is also an indication that it is a new user.
+  if (gvMeetingSheet == null) {
+    gvMeetingSheet = gvUpdateSchedule.insertSheet("qryExportField");
+    gvMeetingSheet.insertRowsAfter(1,7000);
+    MakeDataSnapshot();
+  }
+
+  // All the Meeting information is retrieved for example: District, Field and meeting Info
+  var MeetingDataRange = gvMeetingSheet.getRange('A1:T750');
+  gvMeetingData = MeetingDataRange.getValues();
+}
+
+function CheckSyncDisabled() {
+  // This gets the Sync Disabled value from the Sync Variables sheet
+  // This variable can be set to "y" in the users Sync Variables sheet to disable all syncing.
+  // This variable can be used when upgrading the script. Some users can be disabled for a while to ensure that all is running fine
+  var aSyncDisabled = gvSyncVarsSheet.getRange(sSyncDisabled).getValue();
+  if (aSyncDisabled.toUpperCase() == "Y")
+    throw new Error("Sync Disabled");
+}
+
+function getSheetInUpdateSchedule(aName) {
+  var aSheet = gvUpdateSchedule.getSheetByName(aName);
+
+  // If there is no Debug Sheet, a Debug sheet is created in the Update Schedule Spreadsheet of the specific user.
+  // If the Debug log becomes to full, 2000 rows, it is cleared.  
+  if (aSheet == null) {
+    aSheet = gvUpdateSchedule.insertSheet(aName);
+    aSheet.clear();
+  }
+  //MM 27-12-2021  else 
+  //    if (aSheet.getLastRow() > 2000)
+  //      aSheet.clear();
+
+  return aSheet;
+}
+
+function CheckMaxComputerTimeForDay() {
+  // Retreive the amount of machine time the script used for the day.
+  // If the machine time is to much, the function will exit with custom error which is logged in Debug Sheet
+  // The global variable sCompTime determines the amount of machine time this script may use
+
+  gvComputerTime = Number(gvSyncVarsSheet.getRange(sComputerTime).getValue());
+  if (gvComputerTime > sCompTime)
+    throw new Error("Max Computer Time Reached");
+}
+
+function MeetingIsInUpdateSchedule(aContactMtg) {
+  // This function checks if the meeting must be synced to the user's Google Contacts
+
+  // Get the meeting row in the qryExportField sheet in the user's Update Schedule Google Sheet
+  var aMtgRow = GetMeetingRow(aContactMtg);
+  if (aMtgRow == -1)
+    return false;
+
+  var aProvince = gvMeetingData[aMtgRow][0];
+  var aField = gvMeetingData[aMtgRow][1];
+  var aMtg = gvMeetingData[aMtgRow][2];
+
+  if (gvUpdateScheduleData == null) {
+    gvUpdateScheduleData = gvUpdateScheduleSheet.getRange("A2:H60");
+    gvUpdateScheduleDataValues = gvUpdateScheduleData.getValues();
+  }
+
+  var aResult = false;
+
+  for (var i = 0; (i < gvUpdateScheduleDataValues.length - 1); ++i) {
+    var row = gvUpdateScheduleDataValues[i];
+    var asField = row[0];
+    var asMustUpdate = row[7];
+
+    if ((asField.toUpperCase() == aProvince.toUpperCase()) || (asField.toUpperCase() == aField.toUpperCase()) || (asField.toUpperCase() == aMtg.toUpperCase()))
+      aResult = true;
+  }
+
+  return aResult;
+}
+
+function copySheetData(sourceSheet, targetSheet) {
+  var sourceRange = sourceSheet.getDataRange(); // Get all data from source sheet
+  var data = sourceRange.getValues(); // Read data into an array
+  
+  targetSheet.getRange("A:T").setNumberFormat("@"); //19/03/2026 Marius - Force all columns to text. Fixes problem with leading 0 not being copied
+
+  targetSheet.getRange(1, 1, data.length, data[0].length).setValues(data); // Write data to target sheet
+}
+
+
+
+
+function MakeDataSnapshot() {
+  // 16 seconds
+
+  // This function copies all the data from the Main RSA Address book Google Sheet to the user's Update Schedule Sheet
+  WriteDebugMSG("Making Snapshot started");
+
+  // All the Sync Variable Lables are set in the Sync Variables sheet
+  if (gvSyncVarsSheet != null) {
+    var tmpvalue = gvSyncVarsSheet.getRange("b1").getValue();
+    if (tmpvalue != "") {
+      var tmpvalue = gvSyncVarsSheet.getRange("b1:b30").clear();
+    }
+
+    var tmpRange = gvSyncVarsSheet.getRange("A1:a30").clear();
+    //gvSyncVarsSheet.getRange("A8:B15").clear(); //Can be removed later
+    var tmpRange = gvSyncVarsSheet.getRange("A1:b30");
+    var tmpData = tmpRange.getValues();
+
+    tmpData[0][0] = "Variable";
+    tmpData[1][0] = "Latest Update Date";
+    tmpData[2][0] = "Updating Row";
+    tmpData[2][1] = 0;
+    tmpData[3][0] = "Computer Time";
+    tmpData[4][0] = "Sync Disabled";
+    tmpData[5][0] = "Google Contacts Count";
+    tmpData[6][0] = "Script Version";
+    tmpData[6][1] = aVersion;
+    tmpData[7][0] = "Script is Running";
+    tmpData[8][0] = "Refresh Contacts";
+    tmpData[9][0] = "Verify Count";
+
+    tmpRange.setValues(tmpData);
+  }
+
+  // Copy all the meeting info to the user's Update Schedule Sheet
+  var aTmpSht = gvUpdateSchedule.getSheetByName("qryExportField");
+  if (aTmpSht == null)
+  {
+    //throw new Error("qryExportField tab does not exist");
+   //gvUpdateSchedule.insertSheet("qryExportField");
+   //.insertRows(1,2000);
+
+    //.setName("qryExportField");
+//    aTmpSht.setName("qryExportField");
+  }
+  else
+     aTmpSht.getDataRange().clear();
+
+  // aTmpSht = gvUpdateSchedule.getSheetByName("qryExportField");
+  // aTmpSht.insertRowsAfter(1,3000);
+
+//var aTmpSht = getOrCreateTab(gvUpdateSchedule,"qryExportField");
+//aTmpSht.getDataRange().clear();
+
+  var aQryExportFieldSheet = gvRSAAddressBook.getSheetByName("qryExportField");
+  var aFields = aQryExportFieldSheet.getDataRange().getValues();  
+
+copySheetData(aQryExportFieldSheet,aTmpSht);
+
+var aTmpSht2 = gvUpdateSchedule.getSheetByName("Data");
+if (aTmpSht2 != null)
+  aTmpSht2.getDataRange().clear();
+
+var aQryExport = gvRSAAddressBook.getSheetByName("qryExport");
+
+copySheetData(aQryExport,aTmpSht2);
+
+  gvDataSheet = gvUpdateSchedule.getSheetByName("Data");
+  gvDataSheet.deleteRow(1);
+  var anr = gvDataSheet.getDataRange();
+  anr.sort([{ column: 15, ascending: false }, { column: 1, ascending: true }]);
+
+  WriteDebugMSG("Making Snapshot finished");
+}
+
+/**
+ * Gets a tab by name from a Google Spreadsheet. If the tab doesn't exist, it creates a new one
+ * with the specified name and adds 1000 rows to it.
+ *
+ * @param {GoogleAppsScript.Spreadsheet.Spreadsheet} aSpreadsheet The Google Spreadsheet object.
+ * @param {string} aName The name of the tab to find or create.
+ * @returns {GoogleAppsScript.Spreadsheet.Sheet} The Spreadsheet tab object.
+ */
+function getOrCreateTab(aSpreadsheet, aName) {
+  let tab = aSpreadsheet.getSheetByName(aName); // Try to get the tab by name
+
+  if (tab) {
+    // If the tab exists, return it
+    return tab;
+  } else {
+    // If the tab does not exist, create it
+    tab = aSpreadsheet.insertSheet(aName);
+    // Insert 1000 lines at the end of the new tab
+    //tab.insertRowsAfter(tab.getMaxRows(), 1000);
+    return tab;
+  }
+}
+
+
+/*
+*********************************
+ADD CONTACTS
+*********************************
+
+*/
+
+function RemoveTagsFromNames(aNames) {
+  var aOpenIndex = aNames.indexOf("<");
+  var aCloseIndex = aNames.indexOf(">");
+
+  if (aCloseIndex < 0)
+    return aNames.trim();
+
+  var aTmpStr = aNames.slice(aOpenIndex, aCloseIndex + 1);
+  var aTmpStr2 = aNames.replace(aTmpStr, "");
+
+  if (aTmpStr2.indexOf("<") > -1)
+    aTmpStr2 = RemoveTagsFromNames(aTmpStr2);
+
+  return aTmpStr2.trim();
+}
+
+function getPersonalEmail(aprefix, emails) {
+  try{
+  if ((emails == "") || (emails == null))
+    return "";
+
+  var pemail = "";
+
+  var cg = emails.indexOf(",");
+
+  if (cg == -1) {
+    if (emails.indexOf(aprefix) != -1) {
+      pemail = emails.substr(0, emails.indexOf(aprefix)).trim();
+      return pemail;
+    }
+
+    return pemail;
+  }
+
+  var aEmails = Utilities.parseCsv(emails, ',')[0];
+
+  for (var i = 0; i < aEmails.length; ++i) {
+    var tmp = aEmails[i];
+
+    if (tmp.indexOf(aprefix) != -1) {
+      pemail = tmp.substr(0, tmp.indexOf(aprefix)).trim();
+      break;
+    }
+  }
+
+  return pemail
+  }catch(e)
+  {WriteDebugMSG("******* Error getting personal email: "+e.message);
+  return "";}
+}
+
+function getGenEmail(emails) {
+  try{
+  if ((emails == "") || (emails == null))
+    return "";
+
+  var pemail = "";
+  var cg = emails.indexOf(",");
+
+  if (cg == -1) {
+    var cg = emails.indexOf("<");
+
+    if (cg == -1)
+
+      pemail = emails;
+
+    return pemail;
+  }
+
+  var aEmails = Utilities.parseCsv(emails, ',')[0];
+
+  for (var i = 0; i < aEmails.length; ++i) {
+    var tmp = aEmails[i];
+
+    if (tmp.indexOf("<") == -1) {
+      pemail = tmp.trim();
+
+      break;
+    }
+  }
+
+  return pemail
+  }catch(e)
+  {WriteDebugMSG("***** Error getting general email: "+e.message);
+  return "";}
+}
+
+function ExtractEmail(aName) {
+  try {
+    var tmp = "";
+
+    var i = aName.indexOf("Email");
+
+    if (i > 0) {
+      var ii = aName.indexOf(">", i);
+
+      tmp = aName.substr(i + 6, ii - i - 6);
+    }
+  }
+  catch (e) {
+  }
+
+  return tmp;
+}
+
+function ExtractPrefix(aName) {
+  try {
+    var tmpstr = "";
+
+    var ii = aName.indexOf("<:");
+
+    if (ii > 0)
+
+      tmpstr = aName.substr(ii, aName.indexOf(">", ii) - ii + 1);
+
+    return tmpstr.replace(' ', '');
+  }
+  catch (e) {
+    return aName;
+  }
+}
+
+function AddNumbersToContact(anumbers, aprefix, aDistrict, asheetname) {
+  var tmpstr = "";
+
+  if (anumbers != null) {
+    for (var i = 0; i < anumbers.length; ++i) {
+      var ii = anumbers[i].indexOf("<:");
+
+      if (ii > 0)
+        tmpstr = anumbers[i].substr(ii).replace(' ', '');
+      else
+        tmpstr = "";
+
+      if (tmpstr == aprefix) {
+        tmpstr = anumbers[i].substr(0, anumbers[i].length - aprefix.length)
+
+        AddNumberToContact(tmpstr, aDistrict, asheetname);
+      }
+    }
+  }
+}
+
+function ContactHasInfo(aPrefix, aNames, aNumbers) {
+  var aHasEmail = false;
+  var aHasNumber = false;
+
+  try {
+    if (aNames != null)
+      aHasEmail = aNames.indexOf(aPrefix) != 0;
+
+    if (aNumbers != null)
+      if (typeof aNumbers != "number") //rather convert to string
+        aHasNumber = aNumbers.indexOf(aPrefix) != 0;
+
+    return aHasEmail || aHasNumber;
+  }
+  catch (e) {
+    return false;
+  }
+}
+
+function ExtractName(aName) {
+  try {
+    var tmpstr = "";
+
+    var ii = aName.indexOf("<");
+
+    if (ii > 0)
+      tmpstr = aName.substr(0, ii);
+    else
+      tmpstr = aName;
+
+    return tmpstr.replace(' ', '');
+  }
+  catch (e) {
+    return aName;
+  }
+}
+
+function GetNotes(aRow, aParents, aChildren) {
+  var aNotes = "Family:\n";
+  var tmpName = "";
+
+  aNotes = aNotes.concat(aParents, "\n\n", GetMeetingNotes(aRow).trim());
+
+  var aConvention = GetConvention(aRow[11]);
+
+  if (aConvention.length > 0)
+    aNotes = aNotes.concat('\n\nConvention:\n', aConvention);
+
+  var mDate = aRow[14];
+  var mDateF = mDate;
+  try {
+    mDateF = Utilities.formatDate(mDate, "GMT+2", sDateFormat);
+  }
+  catch (e) {
+    mDateF = mDate;
+  }
+
+  var tmpUUID = aRow[19];
+
+  aNotes = aNotes.concat('\n\nAccount:\n' + Session.getEffectiveUser().getEmail(), '\n\nUpdated on Google:\n', Utilities.formatDate(new Date(), "GMT+2", sDateFormat),
+
+    '\n\nModified on Sheet:\n', mDateF, '\n\nUUID:\n', tmpUUID, '\n\nScript Version: ', aVersion);
+
+  return aNotes;
+};
+
+function GetMeetingNotes(aRow) {
+  var tmpMeetingRow = GetMeetingRow(aRow[11]);
+  var tmpNotes = "";
+  if (tmpMeetingRow > -1) {
+    tmpNotes = "Field:\n";
+
+    tmpNotes = tmpNotes.concat(gvMeetingData[tmpMeetingRow][0], " - ", gvMeetingData[tmpMeetingRow][1], "\n");
+    tmpNotes = tmpNotes.concat("\n", "Meeting Info:\n", GetAllMeetingInfo(aRow[11]).trim());
+  }
+  else
+    tmpNotes = "Meeting not found: " + aRow[11];
+
+  var tmp1 = aRow[10] + '';
+
+
+  if (aRow[9] == "Y")
+    tmp1 = tmp1.concat("\nElder of the Sun AM meeting");
+
+  if (aRow[6] == "Y" && aRow[7] == "Y" && aRow[8] == "Y")
+    tmp1 = tmp1.concat("\nHost's all meetings");
+  else {
+    if (aRow[6] == "Y")
+      tmp1 = tmp1.concat("\nHost's Sun AM meeting");
+
+    if (aRow[7] == "Y")
+      tmp1 = tmp1.concat("\nHost's Sun PM meeting");
+
+    if (aRow[8] == "Y")
+      tmp1 = tmp1.concat("\nHost's Wed eve meeting");
+  }
+
+  if (tmp1.length > 0)
+    tmpNotes = tmpNotes.concat("\n\nAdditional Meeting Info:\n", tmp1.trim()).trim();
+
+  return tmpNotes;
+}
+
+function GetMeetingConvention(aRow) {
+  var tmpNotes = "";
+  var tmpMeetingRow = GetMeetingRow(aRow[11]);
+
+  if (tmpMeetingRow > -1)
+    tmpNotes = gvMeetingData[tmpMeetingRow][12];
+
+  return tmpNotes;
+
+}
+
+function GetMeetingName(aRow) {
+  var tmpNotes = "";
+  var tmpMeetingRow = GetMeetingRow(aRow[11]);
+
+  if (tmpMeetingRow > -1)
+    tmpNotes = gvMeetingData[tmpMeetingRow][2];
+
+  return tmpNotes;
+}
+
+function GetMeetingPrefix(aRow) {
+  var tmpPrefix = "TMP";
+  var tmpMTGS = aRow[11];
+
+  var tmpMeetingRow = GetMeetingRow(tmpMTGS);
+  if (tmpMeetingRow > -1)
+    tmpPrefix = gvMeetingData[tmpMeetingRow][13];
+  else
+    throw new Error("Meeting not found:" + aRow[11] + ' - ' + aRow[1] + ' - ' + aRow[19]);
+
+  return tmpPrefix;
+}
+
+function GetConvention(aMeetings) {
+  var tmpConv = "";
+  var tmpMeetingRow = GetMeetingRow(aMeetings);
+
+  if (tmpMeetingRow > -1) {
+    tmpConv = gvMeetingData[tmpMeetingRow][12];
+
+    if (tmpConv != null)
+      tmpConv = tmpConv.substr(tmpConv.indexOf(">") + 1, tmpConv.indexOf("</") - tmpConv.indexOf(">") - 1);
+  }
+
+  return tmpConv;
+};
+
+function GetMeetingRow(aMeetings) {
+  try {
+    var tmpRow = -1;
+
+    if (aMeetings.length > 0) {
+      var tmpMeetings = Utilities.parseCsv(aMeetings, ",");
+      var tmptmp = tmpMeetings[0][0];
+
+      var tmpSunAM = tmptmp;
+
+      var tmpMeeting = "";
+
+      for (var i = 1; i < gvMeetingData.length; ++i) {
+        tmpMeeting = gvMeetingData[i][2];
+        tmpMeeting = tmpMeeting.trim();
+        tmpSunAM = tmpSunAM.trim();
+
+        if (tmpMeeting == tmpSunAM) {
+          tmpRow = i;
+          break;
+        }
+      }
+    }
+  }
+  catch (e) {
+    WriteErrorMSG('Error getting meeting Row: ' + aMeetings + ": " + e.message);
+  }
+
+  if (tmpRow == -1)
+    WriteDebugMSG('Could not Find meeting: ' + aMeetings);
+
+  return tmpRow;
+}
+
+function GetAllMeetingInfo(aMeetings) {
+  try {
+    var tmpInfo = ' ';
+
+    var tmpMeetings = Utilities.parseCsv(aMeetings, ",")[0];
+
+    for (var i = 0; i < tmpMeetings.length; ++i) {
+      tmpInfo = tmpInfo.concat(GetMeetingInfo(tmpMeetings[i]), "\n");
+    }
+  }
+  catch (e) { }
+
+  return tmpInfo.trim();
+}
+
+function GetMeetingInfo(aMeeting) {
+  try {
+    var tmpRow = -1;
+
+    var tmpInfo = ' ';
+    var aMtg = aMeeting.trim();
+
+    for (var i = 1; i < gvMeetingData.length; ++i) {
+      tmpMeeting = gvMeetingData[i][2];
+
+      if (tmpMeeting == aMtg) {
+        tmpInfo = aMtg + ' ' + gvMeetingData[i][8]
+
+        var tmp1 = gvMeetingData[i][9] + '';
+
+        var tmp2 = gvMeetingData[i][7] + '';
+
+        if (tmp1.length > 0)
+          tmpInfo = tmpInfo + ' @ ' + tmp1;
+
+        if (tmp2.length > 0)
+          tmpInfo = tmpInfo + ' (' + tmp2 + ')';
+
+        break;
+      }
+    }
+  }
+  catch (e) { }
+
+  return tmpInfo;
+}
+
+function EmailIsPersonal(aCoupleNames, aChildrenNames, aEmail) {
+  var IsPersonal = false;
+  try {
+    IsPersonal = (aCoupleNames.indexOf(aEmail) > 0) || (aChildrenNames.indexOf(aEmail) > 0);
+  }
+  catch (e) {
+  }
+
+  return IsPersonal;
+};
+
+function AddNumberToContact(aNumber, aDistrict, asheetname) {
+  var tmpstr = "";
+
+  var tmpField = "main";
+
+  var tmpPrefix = GetPrefix(aNumber);
+
+  if (tmpPrefix.length == 0)
+    tmpPrefix = GetSuffix(aNumber);
+
+  tmpField = GetPhoneField(tmpPrefix, aNumber);
+
+  tmpstr = FormatNumber(aNumber, aDistrict);
+
+  if (tmpstr.length > 0) {
+    if (gvPhone1.length == 0) {
+      gvPhone1 = tmpstr;
+      gvPhoneType1 = tmpField;
+    }
+    else
+      if (gvPhone2.length == 0) {
+        gvPhone2 = tmpstr;
+        gvPhoneType2 = tmpField;
+      }
+      else {
+        gvPhone3 = tmpstr;
+        gvPhoneType3 = tmpField;
+      }
+  }
+}
+
+function FormatNumber(aNumber, aDistrict) {
+  var tmpstr = RemoveNonNumerics(aNumber);
+
+  if (tmpstr.length > 0) {
+    if (tmpstr.length > 9) {
+      var tmpLast = tmpstr.substr(tmpstr.length - 4);
+
+      var tmpMiddle = tmpstr.substr(tmpstr.length - 7, 3);
+
+      var tmpFirst = tmpstr.substr(0, tmpstr.length - 7);
+
+      tmpstr = tmpFirst.concat(" ", tmpMiddle, " ", tmpLast);
+    }
+
+    if ((tmpstr.charCodeAt(0) == 48) &&
+      (tmpstr.charCodeAt(1) == 48)) //0
+    {
+      tmpstr = tmpstr.substr(2);
+
+      tmpstr = GetCountryCode(aDistrict).concat(tmpstr);
+    }
+    else
+      if (tmpstr.charCodeAt(0) == 48) //0
+      {
+        tmpstr = tmpstr.substr(1);
+
+        tmpstr = GetCountryCode(aDistrict).concat(tmpstr);
+      }
+      else if(tmpstr.charAt(0)!="+")
+        tmpstr = GetCountryCode(aDistrict).concat(tmpstr);
+  }
+
+  return tmpstr;
+}
+
+function GetCountryCode(aDistrict) {
+  var aCode = "+27";
+
+  var tmp = "";
+
+  if (gvCountryCodeData == null) {
+    gvCountryCodeData = gvMeetingData;
+  }
+
+  for (var i = 1; i < gvCountryCodeData.length; ++i) {
+    tmp = gvCountryCodeData[i][2];
+
+    if (tmp.toUpperCase() == aDistrict.toUpperCase()) {
+      aCode = gvCountryCodeData[i][18];
+      break;
+    }
+  }
+
+  if (aCode == "")
+    aCode = '+27';
+
+  return aCode;
+}
+
+function GetPhoneField(aPrefix, aNumber) {
+  var tmp = "main";
+  aPrefix == aPrefix.toUpperCase();
+
+  if (IsMobileNumber(aNumber))
+    tmp = "mobile";
+  else {
+    if (aPrefix == "H" || aPrefix == "(H)" || aPrefix == "HOME")
+      tmp = "home"
+
+    if (aPrefix == "W" || aPrefix == "(W)" || aPrefix == "WRK" || aPrefix == "OFFICE")
+      tmp = "work";
+
+    if (aPrefix == "T/F" || aPrefix == "FAX" || aPrefix == "<F>" || aPrefix == "(FAX)" || aPrefix == "H/F")
+      tmp = "homeFax";
+  }
+
+  return tmp;
+}
+
+function IsMobileNumber(aNumber) {
+  var aMobile = false;
+
+  var tmp2 = 0;
+
+  var tmp = RemoveNonNumerics(aNumber);
+
+  if (tmp[0] == "+") //international numbers are normally mobile numbers?
+    aMobile = true
+  else {
+    if (tmp[0] == "0")
+      tmp2 = tmp[1];
+
+    if (Number(tmp2) > 5) //All mobile carriers in SA start from 061
+      aMobile = true;
+  }
+
+  return aMobile;
+}
+
+function GetPrefix(aNumber) {
+  var tmp = "";
+  var tmp2 = 0;
+
+  for (var i = 0; i < aNumber.length; ++i) {
+    tmp2 = aNumber.charCodeAt(i);
+
+    if (((tmp2 < 48) || (tmp2 > 57)) && (tmp2 != 43))
+      tmp = tmp.concat(aNumber[i])
+    else
+      i = aNumber.length;
+  }
+
+  return tmp;
+}
+
+function GetSuffix(aNumber) {
+  var tmp = "";
+
+  var tmp2 = 0;
+
+  for (var i = aNumber.length - 1; i > -1; --i) {
+    tmp2 = aNumber.charCodeAt(i);
+
+    if (((tmp2 < 48) || (tmp2 > 57)) && (tmp2 != 43))
+      tmp = aNumber[i].concat(tmp);
+    else
+      i = -1;
+  };
+
+  return tmp;
+}
+
+function RemoveNonNumerics(aNumber) {
+  var tmp = "";
+
+  var tmp2 = 0;
+
+  for (var i = 0; i < aNumber.length; ++i) {
+    tmp2 = aNumber.charCodeAt(i);
+
+    if (((tmp2 > 47) && (tmp2 < 58)) || (tmp2 == 43))
+      tmp = tmp.concat(aNumber[i]);
+  }
+
+  return tmp;
+}
+
+function RefreshContact(aRow, anewgroup, anewEldergroup) {
+  var aContactDate = Utilities.formatDate(new Date(), "GMT+2", sDateFormat);
+
+  var tmpSurname = aRow[0].trim(); //Surname  
+  var tmpNames1 = aRow[1].trim();  // Names1 
+  var tmpNames2 = aRow[2].trim(); //Names2
+  var tmpAddress = aRow[3]; //Address
+  var tmpPostal = aRow[4]; //Postal Address
+  var tmpEmails = aRow[5]; //Email
+  var tmpIsAM = aRow[6]; //isAM
+  var tmpIsPM = aRow[7]; //isPM
+  var tmpIsWed = aRow[8]; //isWed
+  var tmpIsElder = aRow[9]; //isElder
+  var tmpMtgNotes = aRow[10]; //MeetingNotes
+  var tmpMtgs = aRow[11]; //Meetings
+  var tmpPhoneNumbers = aRow[12]; //PhoneNumbers
+  var tmpEmail2 = aRow[13]; //Email2
+  var tmpGPSS = aRow[15]; //GPS South
+  var tmpGPSE = aRow[16]; //GPS East
+  var tmpUUID = aRow[19]; //UUID
+
+  //Marius added this check on 31/05/2025
+  if(tmpUUID.trim().length == 0)
+  {
+    WriteDebugMSG("UUID is empty for contact: "+tmpNames1+" "+tmpSurname);
+    return;
+  }
+
+  if (tmpSurname.length == 0)
+    tmpSurname = "Unknown";
+
+  if (tmpNames1.length == 0)
+    tmpNames1 = "Unknown";
+
+  var aMeeting = GetMeetingName(aRow);
+  var aNumbers = Utilities.parseCsv(tmpPhoneNumbers, ',')[0];
+  var hasCouple = false;
+
+  try {
+    if (tmpNames1.indexOf("&") > -1) {
+      hasCouple = true;
+      tmpNames1 = tmpNames1.replace('&', ',');
+    }
+  }
+  catch (e) {
+    hasCouple = false;
+  }
+
+  var aNames = "";
+  if (tmpNames2.length > 0)
+    aNames = Utilities.parseCsv(tmpNames1 + ',' + tmpNames2, ',')[0];
+  else
+    aNames = Utilities.parseCsv(tmpNames1, ',')[0];
+
+  if (aNames == null)
+    throw new Error("Names are empty");
+
+  var aFamMembers = RemoveTagsFromNames(aRow[1]);
+
+  if (tmpNames2.length > 0)
+    aFamMembers = aFamMembers.concat(", ", RemoveTagsFromNames(tmpNames2));
+
+  var tmpPersonalEmail = "";
+  var GeneralEmail = "";
+  var tmpEmail = "";
+
+  for (var cNames = 0; cNames < aNames.length; ++cNames) {
+    //These variables get populated in AddValueToContact functions
+    gvPhone1 = "";
+    gvPhone2 = "";
+    gvPhone3 = "";
+    gvHomeEmail = "";
+    gvPersonalEmail = "";
+    gvHomeAddress = "";
+    gvPostalAddress = "";
+    gvGPS = "";
+    gvPhoneType1 = "main";
+    gvPhoneType2 = "main";
+    gvPhoneType3 = "main";
+
+    tmpPersonalEmail = "";
+    GeneralEmail = "";
+    var tmpPrefix = "";
+    var AlreadyAddedAddress = false;
+    tmpEmail = "";
+
+    try {
+      var tmpIndex = aNames[cNames].indexOf('<');
+    }
+    catch (e) {
+      tmpIndex = -1;
+    }
+
+    if (tmpIndex == -1)
+      tmpIndex = aNames[cNames].length;
+    else
+      tmpPrefix = ExtractPrefix(aNames[cNames]);
+
+    tmpPersonalEmail = getPersonalEmail(tmpPrefix, tmpEmails);
+    GeneralEmail = getGenEmail(tmpEmails);
+
+    var addedgen = false;
+    var addedpers = false;
+
+    if (tmpPersonalEmail != "") {
+      tmpEmail = tmpPersonalEmail;
+      addedpers = true;
+    }
+    else {
+      if (cNames == 0) {
+        tmpEmail = GeneralEmail;
+        addedgen = true;
+      }
+    }
+
+    if (cNames > 0 && !ContactHasInfo(tmpPrefix, tmpNames2, tmpPhoneNumbers))
+      continue;
+
+    var tmpName = aNames[cNames].substring(0, tmpIndex).replace(' ', '');
+
+    // Add Phone Numbers  
+    if (tmpPrefix.length > 0)
+      AddNumbersToContact(aNumbers, tmpPrefix, aMeeting, "");
+
+    AddNumbersToContact(aNumbers, "", aMeeting, "");
+
+    gvPersonalEmail = tmpPersonalEmail;
+
+    if ((cNames == 0) || (hasCouple && cNames < 2)) {
+      // Only Add the following information to the main contacts in the family
+      // cNames is the counter for the for loop.
+      // So this info will only be added to the first contact in the family
+      // but if it is a couple, this info will also be added to the second contact in the family (father or mother)
+
+      gvHomeEmail = GeneralEmail;
+      gvHomeAddress = tmpAddress;
+      gvPostalAddress = tmpPostal;
+
+      AddValueToContact_GPS(tmpGPSS, tmpGPSE)
+    }
+
+    tmpSurname = tmpSurname.replace(' ', '_');
+    tmpSurname = tmpSurname.replace(' ', '_');
+    tmpPrefix = GetMeetingPrefix(aRow);
+
+    AddValueToContact_Groups(anewgroup, cNames, tmpIsElder, anewEldergroup, aMeeting, GetMeetingPrefix(aRow));
+
+    CreateContact(tmpSurname, tmpPrefix + " " + tmpName, gvHomeAddress, gvPostalAddress, gvGPS, gvHomeEmail, gvPersonalEmail, gvPhone1, gvPhoneType1, gvPhone2, gvPhoneType2, gvPhone3, gvPhoneType3, gvOrganizations, GetNotes(aRow, aFamMembers, aNames));
+  }
+  DeleteContactsWithUUID(tmpUUID);
+}
+
+function LoadContactsIntoMemory(aPToken) {
+  //Marius 29/06/2021 - Iterates through all contacts in 14sec
+  //  var aContact=[];
+
+  var connections = People.People.Connections.list('people/me',
+    {
+      pageSize: 2000,//amount of contacts to retrieve. Max is a 2000
+      pageToken: aPToken, // The token to send to the next iteration of a 2000
+      personFields: 'names,addresses,emailAddresses,phoneNumbers,organizations,biographies' //Details of contact to retrieve
+      //    personFields:'names,biographies' //Details of contact to retrieve
+    });
+
+  aPToken = connections.nextPageToken;
+
+  //Loop through contacts
+  if (connections.connections != null)
+    connections.connections.forEach(
+      function (person) {
+        CheckScriptRunningTime();
+
+        var aContact = [];
+
+        if (person.biographies != null)
+          if (person.biographies[0].value.indexOf("UUID") != -1) {
+            aContact.push(GetUUIDFromNotes(person.biographies[0].value));
+            aContact.push(person.resourceName);
+            aContact.push(GetVersionFromNotes(person.biographies[0].value));
+
+            gvContactsData.push(aContact);
+            gvGoogleContactCount += 1;
+          }
+      });
+
+  if (aPToken != null) //If there is no nextPageToken, the end is reached
+    LoadContactsIntoMemory(aPToken);
+}
+
+function DeleteContactsWithUUID(aUUID) {
+  // Marius 04/07/2021 Loops through all contacts and delete contact where UUIDs match
+  var tmpUUID = "";
+
+  for (var i = 0; i < gvContactsData.length; i++) {
+    tmpUUID = gvContactsData[i][0];
+
+    if (gvContactsData[i][0].localeCompare(aUUID) == 0) {
+      //   WriteDebugMSG("Deleting contact with UUID: "+aUUID+" ResourceName: "+gvContactsData[i][1]);
+      gvContactsToDelete.push(gvContactsData[i][1]);
+    }
+  }
+}
+
+function CreateContact(aFName, aGName, aAddress, aPOBox, aGPS, aEmail1, aEmail2, aPhoneNumber1, aPhoneType1, aPhoneNumber2, aPhoneType2, aPhoneNumber3, aPhoneType3, aOrganizations, aNotes) {
+  //Marius 29/06/2021 - Creates contact from paramaters sent
+
+  var contactResource =
+  {
+    "names":
+      [
+        {
+          "familyName": aFName,
+          "givenName": aGName
+        }
+      ],
+    "addresses":
+      [
+        { "streetAddress": aAddress },
+        { "poBox": aPOBox },
+        { "streetAddress": aGPS }
+      ],
+    "emailAddresses":
+      [
+        { "value": String(aEmail1) },
+        { "value": String(aEmail2) }
+      ],
+    "phoneNumbers":
+      [
+        { "type": aPhoneType1, "value": aPhoneNumber1 },
+        { "type": aPhoneType2, "value": aPhoneNumber2 },
+        { "type": aPhoneType3, "value": aPhoneNumber3 }
+      ]
+    , "organizations": aOrganizations
+    , "biographies":
+      [
+        { "value": aNotes }
+      ]
+  }
+
+  // WriteDebugMSG("Adding contact: "+aGName+" "+aFName);
+
+  gvContactsToAdd.push({ "contactPerson": contactResource });
+  gvContactCount += 1;
+}
+
+function AddValueToContact_Groups(anewgroup, cNames, tmpIsElder, anewEldergroup, aMeeting, aPrefix) {
+  gvOrganizations = [];
+  gvOrganizations.push({ "name": aPrefix + "_" + aMeeting });
+  gvOrganizations.push({ "name": aPrefix + "_" + anewgroup });
+  gvOrganizations.push({ "name": "RSA Contacts" });
+
+  if ((cNames == 0) && (tmpIsElder == "Y"))
+    gvOrganizations.push({ "name": aPrefix + "_" + anewEldergroup });
+
+}
+
+function AddValueToContact_GPS(tmpGPSS, tmpGPSE) {
+  var aIsSuccess = false;
+  var aTmpRetry = 0;
+
+  tmpGPSS = tmpGPSS + "";
+  tmpGPSE = tmpGPSE + "";
+  var avalue = "";
+
+  if (tmpGPSS.length > 0)
+    avalue = tmpGPSS;
+
+
+  if (tmpGPSE.length > 0)
+    if (avalue.length > 0)
+      avalue = "-" + avalue + "," + tmpGPSE;
+    else
+      avalue = tmpGPSE;
+
+  gvGPS = avalue;
+}
+
+
+/*
+CLEANUP ROUINES
+*/
+
+function GetVersionFromNotes(aNotes) {
+  // The script Version is stored in the notes field of the Google Contact
+  // The version of the script is at the top of the script
+
+  var astrt = aNotes.indexOf("Script Version") + 15;
+  var aresult = aNotes.slice(astrt).trim();
+  return aresult;
+}
+
+
+function GetLastModDateFromNotes(aNotes) {
+  // The last modified date for the contact row in the Address Book Google Sheet is stored in the notes field of the Google Contact
+  var astrt = aNotes.indexOf("Updated on Google") + 18;
+  var aend = aNotes.indexOf("Modified on Sheet") - 1;
+
+  var aresult = aNotes.slice(astrt, aend).trim();
+  var ssDateFormat = "MM/DD/YYYY hh:mm:ss";
+  var p = Moment.moment(aresult, ssDateFormat).toDate();
+  return p
+}
+
+function GetUUIDFromNotes(aNotes) {
+  // The UUID for the row in the Address Book Google sheet is stored in the notes field of the Google Contact.
+  var astrt = aNotes.indexOf("UUID") + 5;
+  var aend = aNotes.indexOf("Script") - 1;
+  var aresult = aNotes.slice(astrt, aend).trim();
+  return aresult;
+}
+
+
+function CheckScriptRunningTime() {
+  if (gvComputerTime == null)
+    gvComputerTime = gvSyncVarsSheet.getRange(sComputerTime).getValue();
+
+  dur = CalcScriptExecutionTime();
+
+  gvSyncVarsSheet.getRange(sComputerTime).setValue(gvComputerTime + dur);
+
+  if (dur > stime)
+    throw new Error("TIMES UP!");
+
+  return dur;
+}
+
+function FlattenSchedule() {
+  var s = "";
+
+  if (gvUpdateScheduleData == null) {
+    gvUpdateScheduleData = gvUpdateScheduleSheet.getRange("A2:H60");
+    gvUpdateScheduleDataValues = gvUpdateScheduleData.getValues();
+  }
+
+  for (var i = 0; i < gvUpdateScheduleDataValues.length; i++) {
+    for (var ii = 0; ii < gvMeetingData.length; ii++) {
+      if ((gvMeetingData[ii][0] == gvUpdateScheduleDataValues[i][0])
+        || (gvMeetingData[ii][1] == gvUpdateScheduleDataValues[i][0])
+        || (gvMeetingData[ii][2] == gvUpdateScheduleDataValues[i][0])) {
+        s = s + gvMeetingData[ii][0] + gvMeetingData[ii][1] + gvMeetingData[ii][2];
+      }
+    }
+  }
+
+  return s;
+}
+
+/*
+
+MISC
+
+*/
+
+
+function ClearAllFormating() {
+  gvRSAAddressBook = SpreadsheetApp.openById(gvAddressbookID);
+
+  for (var i = 2; i < gvRSAAddressBook.getNumSheets(); i++) {
+    var sheet = gvRSAAddressBook.getSheets()[i];
+
+    sheet.clearFormats();
+  }
+}
+
+function SortAllSheets() {
+  // Open the Spreadsheet
+  gvRSAAddressBook = SpreadsheetApp.openById(gvAddressbookID);
+
+  var sheets = gvRSAAddressBook.getSheets();
+
+  var sc = sheets.length - 4;
+
+  var Fieldsheet = sheets[1];
+  var FieldRange = Fieldsheet.getRange("A2:S700");
+  FieldRange.sort([{ column: 1, ascending: true }, { column: 2, ascending: true }, { column: 3, ascending: true }]);
+
+  for (var i = 4; (i < sc); ++i) {
+    var sheet = sheets[i];
+
+    var range = sheet.getRange("A2:U1000");
+
+    // Sorts by meeting, then ascending by surname then by name;
+
+    range.sort([{ column: 1, ascending: true }, { column: 2, ascending: true }]);
+  }
+}
+
+/*
+
+SYSTEM ROUTINES
+
+*/
+
+function listTriggers() {
+  WriteDebugMSG("List Triggers");
+
+  var triggers = ScriptApp.getProjectTriggers();
+
+  for (var i = 0; i < triggers.length; i++) {
+    WriteDebugMSG("Trigger " + i + ":" + triggers[i].getHandlerFunction());
+  }
+}
+
+function createAddressBookTrigger() {
+  var triggers = ScriptApp.getProjectTriggers();
+
+  for (var i = 0; i < triggers.length; i++) {
+    if (triggers[i].getHandlerFunction() == 'UpdateContacts')
+      ScriptApp.deleteTrigger(triggers[i]);
+
+    if (triggers[i].getHandlerFunction() == 'onOpen')
+      ScriptApp.deleteTrigger(triggers[i]);
+
+    if (triggers[i].getHandlerFunction() == "RefreshBatch")
+      ScriptApp.deleteTrigger(triggers[i]);
+  }
+
+  ScriptApp.newTrigger('UpdateContacts')
+
+    .timeBased()
+
+    .everyMinutes(15)
+
+    .create();
+
+
+}
+
+function removeAddressBookTrigger() {
+  var triggers = ScriptApp.getProjectTriggers();
+
+  for (var i = 0; i < triggers.length; i++) {
+    if (triggers[i].getHandlerFunction() == 'UpdateContacts')
+      ScriptApp.deleteTrigger(triggers[i]);
+
+    if (triggers[i].getHandlerFunction() == 'onOpen')
+      ScriptApp.deleteTrigger(triggers[i]);
+
+    if (triggers[i].getHandlerFunction() == "RefreshBatch")
+      ScriptApp.deleteTrigger(triggers[i]);
+  }
+}
+
+function GetUpdateScheduleSheet() {
+  var aFileName = Session.getEffectiveUser().getEmail();
+
+  aFileName = aFileName.substr(0, aFileName.indexOf("@")) + " - UpdateSchedule";
+
+  var files = DriveApp.getRootFolder().getFilesByName(aFileName);
+
+  var aFound = false;
+  while (files.hasNext()) {
+    var afile = files.next();
+    var amimetype = afile.getMimeType();
+
+    if (amimetype == "application/vnd.google-apps.spreadsheet") {
+      gvUpdateSchedule = SpreadsheetApp.open(afile);
+
+      gvUpdateScheduleSheet = gvUpdateSchedule.getSheetByName(aUpdateSchedulesheetname);
+
+      if (gvUpdateScheduleSheet == null) {
+        var att = gvRSAAddressBook.getSheetByName(aUpdateSchedulesheetname);
+
+        gvUpdateScheduleSheet = att.copyTo(gvUpdateSchedule);
+
+        gvUpdateScheduleSheet.setName(aUpdateSchedulesheetname);
+      }
+
+      //   afile.addEditor("devfldinfo@gmail.com");
+
+      aFound = true;
+      //   break;
+    }
+  }
+
+  if (!aFound) {
+    gvUpdateSchedule = SpreadsheetApp.create(aFileName)
+    var afile = DriveApp.getFileById(gvUpdateSchedule.getId());
+
+    afile.setStarred(true);
+
+    afile.addEditor("devfldinfo@gmail.com");
+    afile.addEditor("mariusmarais2008@gmail.com");
+
+    var att = gvRSAAddressBook.getSheetByName(aUpdateSchedulesheetname);
+
+    gvUpdateScheduleSheet = att.copyTo(gvUpdateSchedule);
+
+    gvUpdateScheduleSheet.setName(aUpdateSchedulesheetname);
+
+    //  d.insertRows(1,1000);
+
+  }
+
+  var ablanksheet = gvUpdateSchedule.getSheetByName('Sheet1');
+
+  if (ablanksheet != null)
+    gvUpdateSchedule.deleteSheet(ablanksheet);
+
+  //Delete legacy sheets
+  var asheets = gvUpdateSchedule.getSheets();
+  for (var i = 0; i < asheets.length; i++) {
+    if ((asheets[i].getName().indexOf("Copy of") != -1) ||
+      (asheets[i].getName().indexOf("Group Count") != -1))
+      gvUpdateSchedule.deleteSheet(asheets[i]);
+  }
+
+  gvUpdateSchedule.setSpreadsheetLocale("en_US");
+}
+
+function DeleteUpdateScheduleSheet() {
+  var aFileName = Session.getEffectiveUser().getEmail();
+
+  aFileName = aFileName.substr(0, aFileName.indexOf("@")) + " - UpdateSchedule";
+
+  var files = DriveApp.getRootFolder().getFilesByName(aFileName);
+
+  var aFound = false;
+  while (files.hasNext()) {
+    var afile = files.next();
+    var amimetype = afile.getMimeType();
+
+    if (amimetype == "application/vnd.google-apps.spreadsheet") {
+      afile.setTrashed(true);
+
+  }
+  }
+
+}
+
+function CalcScriptExecutionTime() {
+  var stop = new Date();
+
+  var newRuntime = Number(stop) - Number(runtimeCountStart);
+
+  return parseInt(newRuntime / 1000, 10);
+}
+
+function CheckIfScriptIsRunning() {
+  var aIsRunning = gvSyncVarsSheet.getRange(sIsRunning).getValue();
+
+  if (aIsRunning == "Y")
+    throw new Error("SCRIPT IS ALREADY RUNNING");
+  else
+    gvSyncVarsSheet.getRange(sIsRunning).setValue("Y");
+}
+
+
+function WriteErrorMSG(aMSG) {
+  LogMSG(gvErrorSheet, aMSG);
+}
+
+function WriteDebugMSG(aMSG) {
+
+  if (aDebugMode)
+    LogMSG(gvDebugSheet, aMSG);
+}
+
+function LogMSG(aSheet, aMSG) {
+
+  if (aSheet == null)
+    return;
+
+  var i = GetNextEmptyRow(aSheet);
+  // var i =1;
+  if (i == -1) {
+    aSheet.clear();
+    i = 1;
+  }
+
+  var r = aSheet.getRange("A" + i);
+  r.setValue(Utilities.formatDate(new Date(), "GMT+2", sDateFormat));
+  r = aSheet.getRange("B" + i);
+  r.setValue(aMSG);
+}
+
+function GetNextEmptyRow(aSheet) {
+  var aData = aSheet.getRange("A1:B2000").getValues();
+
+  try {
+    for (var i = 0; i < aData.length; i++) {
+      if ((aData[i][0] == "") || (aData[i][0] == null))
+        return i + 1;
+    }
+  }
+  catch (e) {
+  }
+
+  return -1;
+}
+
+function CreateRecordIDs() {
+
+  for (var i = 4; i < 14; i++) {
+    var sheet = gvRSAAddressbook.getSheets()[i];
+
+    var dataRange = sheet.getRange("T2:T" + sheet.getLastRow());
+
+    var data = dataRange.getValues();
+
+    for (var ii = 0; ii < data.length; ii++) {
+      var row = data[ii];
+
+      var tmp = row[0];
+
+      if (tmp == "id")
+        data[ii][0] = Utilities.getUuid();
+    }
+    dataRange.setValues(data);
+  }
+}
+
+function isCellEmpty(cellValue) {
+  // Check if value is null, undefined, or an empty string
+  return cellValue === null || cellValue === undefined || cellValue === "";
+}
+
+function RefreshContactsCache(aPToken) {
+  if (aPToken == null)
+    WriteDebugMSG("Starting to RefreshContactsCache");
+
+  var tmpc = People.People.Connections.list("people/me",
+    {
+      pageSize: 2000,
+      pageToken: aPToken,
+      personFields: 'names'
+    });
+
+  aPToken = tmpc.nextPageToken;
+
+  if (aPToken != null)
+    RefreshContactsCache(aPToken);
+
+  // WriteDebugMSG("End RefreshContactsCache");
+}
+
+function LogContacts() {
+  try {
+    if (aHour != 4) {
+      WriteDebugMSG("Starting to Log Contacts from Google to ContactLog sheet");
+
+      CheckScriptRunningTime();
+
+      var aContactLogSheet = getSheetInUpdateSchedule("ContactLog");
+      //   var aContactLogSheet = gvUpdateSchedule.insertSheet("ContactLog");
+      // aContactLogSheet.insertRows(1,2000);
+      gvGoogleContactCount = 0;
+
+      RefreshContactsCache(null);
+      CheckScriptRunningTime();
+      LoadContactsIntoData("");
+      //   CommitChanges(0);
+      WriteDebugMSG("       Contact Count:" + gvGoogleContactCount);
+      gvSyncVarsSheet.getRange(sContactCount).setValue(gvGoogleContactCount);
+      //    return;
+
+      const range = aContactLogSheet.getRange("A:J");
+      var atmpfltr = range.getFilter();
+      if (atmpfltr != null)
+        atmpfltr.remove();
+
+        //Marius 24/06/2024 Added another Column To Check For Bogus UUUids
+        //Marius 07/07/2024 Added another Column To Concatenate Name And UUID For Better Comparing Of Contacts Not Found 
+
+      aContactLogSheet.clear();
+      //  aContactLogSheet.getRange("a1:h4000").clear();
+      aContactLogSheet.getRange("a2:J" + (gvLogContacts.length + 1)).setValues(gvLogContacts);
+      aContactLogSheet.getRange("a2:J" + (gvLogContacts.length + 1)).sort([{ column: 2, descending: false }, { column: 1, descending: false }]);
+      aContactLogSheet.setFrozenRows(1);
+      aContactLogSheet.getRange("A1").setValue(Utilities.formatDate(new Date(), "GMT+2", sDateFormat));
+      aContactLogSheet.getRange("B1:J1").setValue("Header");
+      aContactLogSheet.setRowHeights(1, gvLogContacts.length + 1, 30);
+
+      const filter = range.createFilter();
+      WriteDebugMSG("End Logging Contacts from Google to ContactLog sheet");
+    }
+    else
+    {
+      ProcessData();
+      gvSyncVarsSheet.getRange(sVerifyCount).setValue(gvTmpi-1);
+    }
+
+  }
+  catch (e) {
+    WriteDebugMSG("**** Error Logging Contacts: " + e.message);
+  }
+}
+
+function LoadContactsIntoData(aPToken) {
+  //  var data=[];
+
+  var aContacts = People.People.Connections.list('people/me',
+    {
+      pageSize: 2000,//amount of contacts to retrieve. Max is a 2000
+      pageToken: aPToken, // The token to send to the next iteration of a 2000
+      personFields: 'names,addresses,emailAddresses,phoneNumbers,organizations,biographies' //Details of contact to retrieve
+    });
+
+  aPToken = aContacts.nextPageToken;
+
+  var i = 1;
+  aContacts.connections.forEach(
+    function (person) {
+      var data = [];
+
+      CheckScriptRunningTime();
+      if (person.biographies != null) {
+        if (person.biographies[0].value.indexOf("UUID") != -1) {
+          try {
+            data.push(person.organizations[0].name);
+          }
+          catch (e) {
+            data.push("NO MEETING");
+          }
+
+          try {
+            data.push(person.names[0].displayName);
+          }
+          catch (e) {
+            data.push("NAME ERROR");
+          }
+
+          var tmpEmailStr = "";
+          var tmpEmails = person.emailAddresses;
+
+          if (tmpEmails != null)
+
+            for (var ii = 0; ii < tmpEmails.length; ii++)
+              tmpEmailStr = tmpEmailStr + tmpEmails[ii].value + ", ";
+
+          var tmpPhoneStr = "";
+          var tmpPhones = person.phoneNumbers;
+
+          if (tmpPhones != null)
+            for (var iii = 0; iii < tmpPhones.length; iii++)
+              tmpPhoneStr = tmpPhoneStr + tmpPhones[iii].value + ", ";
+
+          data.push(tmpPhoneStr);
+          data.push(tmpEmailStr);
+
+          var tmpNotes = person.biographies[0].value;
+          while (tmpNotes.indexOf("\n") > -1) {
+            tmpNotes = tmpNotes.replace("\n", ", ");
+          }
+
+          data.push(tmpNotes);
+
+          i = gvLogContacts.length + 2;
+          var ii = i + 1;
+
+          data.push(GetUUIDFromNotes(tmpNotes).replace(/([,])/g, "").trim());
+          data.push('=if(iserror(vlookup(B' + i + ',VerifyContacts!$B$2:$B$8000,1,false)),"Not found","")');
+          data.push('=if((B' + i + '=B' + ii + ')*(F' + i + '=F' + ii + '), "Duplicate", "")');
+          //   data.push('=if(B'+i+'=B'+ii+',"Duplicate","")');
+          //Marius 24/06/2024 Added Column To Check For Bogus UUIDs
+          data.push('=if(iserror(vlookup(F' + i + ',VerifyContacts!$G$2:$G$8000,1,false)),"Bogus UUID","")');
+          //Marius 07/07/2024 Added Column To Concatenate Name And UUID
+          data.push('=CONCATENATE(B' + i + ',F' + i + ')');
+          gvLogContacts.push(data);
+
+
+          gvGoogleContactCount += 1;
+        }
+      }
+    });
+
+  if (aPToken != null) //If there is no nextPageToken, the end is reached
+    LoadContactsIntoData(aPToken);
+}
+
+function DeleteAllContacts(aPToken) {
+  //  var data=[];
+  var aSuccess = false;
+  var aRetryCount = 0;
+  var aContacts = People.People.Connections.list('people/me',
+    {
+      pageSize: 2000,//amount of contacts to retrieve. Max is a 2000
+      pageToken: aPToken, // The token to send to the next iteration of a 2000
+      personFields: 'names,addresses,emailAddresses,phoneNumbers,organizations,biographies' //Details of contact to retrieve
+    });
+
+  aPToken = aContacts.nextPageToken;
+
+  aContacts.connections.forEach(
+    function (person) {
+      var data = [];
+
+      if (person.biographies != null) {
+        if (person.biographies[0].value.indexOf("UUID") != -1) 
+          gvContactsToDelete.push(person.resourceName);
+          
+        
+      }
+      if (gvContactsToDelete.length > 490)
+        {  
+          aRetryCount = 0;
+          
+          while(aRetryCount<10)
+          {
+            try{
+          
+            People.People.batchDeleteContacts({ "resourceNames": gvContactsToDelete });
+            aRetryCount = 11;
+          
+          }catch(e)
+          { WriteDebugMSG("**** Error Processing contact "+e.message);
+            Utilities.sleep(10000);
+            aRetryCount +=1;
+            }
+          }
+          gvContactsToDelete = [];
+        }
+    })
+
+  if (aPToken != null) //If there is no nextPageToken, the end is reached
+    DeleteAllContacts(aPToken);
+
+      if (gvContactsToDelete.length > 0)
+        {  People.People.batchDeleteContacts({ "resourceNames": gvContactsToDelete });
+
+           gvContactsToDelete = [];
+        }
+}
+//////////////////////////
+/////////////////////////
+function LogUUIDs() {
+  gvUUIDs = "|";
+  for (var i = 0; i < gvData.length; i++) {
+    gvUUIDs = gvUUIDs + gvData[i][19] + "|";
+  }
+}
+
+function ProcessData() {
+  // Normally takes about 1 minute
+
+  WriteDebugMSG("Starting to write contacts from RSA Address Book Sheet to VerifyContacts sheet...");
+
+  CheckScriptRunningTime();
+  var aProcessedData = getSheetInUpdateSchedule("VerifyContacts");
+
+  var aProcessedDataRange = aProcessedData.getRange("a1:I4000");
+  aProcessedDataRange.clear();
+  var aProcessedDataRangeValues = aProcessedDataRange.getValues();
+
+  aProcessedDataRangeValues[0][0] = Utilities.formatDate(new Date(), "GMT+2", sDateFormat);
+  aProcessedDataRangeValues[0][1] = "NAME";
+  aProcessedDataRangeValues[0][2] = "PHONE";
+  aProcessedDataRangeValues[0][3] = "EMAIL";
+  aProcessedDataRangeValues[0][4] = "ADDRESS";
+  aProcessedDataRangeValues[0][5] = "POSTAL";
+  aProcessedDataRangeValues[0][6] = "UUID";
+  aProcessedDataRangeValues[0][7] = "VERIFY";
+  //Marius 07/07/2024 Added This Column
+  aProcessedDataRangeValues[0][8] = "NAMEUUID";
+  gvTmpi = 1;
+
+  // Iterate through the Data starting from where the script stopped last
+  for (var i = 0; (i < gvData.length); i++) {
+    CheckScriptRunningTime();
+
+    if (gvData[i][0] == "")
+      break;
+
+    ProcessContact(gvData[i], aProcessedDataRangeValues);
+  }
+
+  const range = aProcessedData.getRange("A:I");
+  var atmpfltr = range.getFilter();
+  if (atmpfltr != null)
+    atmpfltr.remove();
+
+  aProcessedDataRange.setValues(aProcessedDataRangeValues);
+  aProcessedData.setRowHeights(1, 4000, 30);
+  aProcessedData.setFrozenRows(1);
+  aProcessedDataRange = aProcessedData.getRange("a2:t4000");
+
+  aProcessedDataRange.sort([{ column: 2, descending: false }]);
+  aProcessedDataRange.setWrap(false);
+
+  const filter = range.createFilter();
+  WriteDebugMSG("Finished writting contacts from RSA Address Book Sheet to VerifyContacts sheet...");
+
+}
+
+function ProcessContact(aRow, aProcessedDataRange) {
+  var aContactDate = Utilities.formatDate(new Date(), "GMT+2", sDateFormat);
+
+  var tmpSurname = aRow[0].trim();  // Names
+  var tmpNames1 = aRow[1].trim();  // Names
+  var tmpNames2 = aRow[2].trim();  // Names
+  var tmpPhoneNumbers = aRow[12]; //PhoneNumbers
+  var tmpEmails = aRow[5]; //Email
+  var tmpAddress = aRow[3]; //Address
+  var tmpPostal = aRow[4]; //Postal Address
+  var tmpUUID = aRow[19]; //UUID
+
+  try{
+  if (tmpSurname == "")
+    return;
+
+//MM 24/07/2026
+  tmpSurname = tmpSurname.replace(/ /g,"_");
+
+  var aMeeting = GetMeetingName(aRow);
+//MM 24/07/2026
+  //var aNumbers = Utilities.parseCsv(tmpPhoneNumbers, ',')[0];
+  const aNumbers = tmpPhoneNumbers
+    ? tmpPhoneNumbers.split(",").map(s => s.trim())
+    : [];
+  
+  
+  var hasCouple = false;
+
+  if (MeetingIsInUpdateSchedule(aMeeting)) {
+    try {
+      if (tmpNames1.indexOf("&") > -1) {
+        hasCouple = true;
+        tmpNames1 = tmpNames1.replace('&', ',');
+      }
+    }
+    catch (e) {
+      hasCouple = false;
+    }
+
+
+
+//MM 24/07/2026
+    var aNames = "";
+      aNames = (tmpNames1 + "," + tmpNames2)
+    .split(",")
+ //   .map(s => s.trim())
+    .filter(Boolean);
+
+
+//    if (tmpNames2.length > 0)
+ //     aNames = Utilities.parseCsv(tmpNames1 + ',' + tmpNames2, ',')[0];
+  //  else
+   //   aNames = Utilities.parseCsv(tmpNames1, ',')[0];
+
+    var aFamMembers = RemoveTagsFromNames(aRow[1]);
+
+    if (tmpNames2.length > 0)
+      aFamMembers = aFamMembers.concat(", ", RemoveTagsFromNames(tmpNames2));
+
+    for (var cNames = 0; cNames < aNames.length; ++cNames) {
+      var tmpPersonalEmail = "";
+      var GeneralEmail = "";
+      var tmpPrefix = "";
+      var AlreadyAddedAddress = false;
+      var tmpEmail = "";
+
+      try {
+        var tmpIndex = aNames[cNames].indexOf('<');
+      }
+      catch (e) {
+        tmpIndex = -1;
+      }
+
+      if (tmpIndex == -1)
+        tmpIndex = aNames[cNames].length;
+      else
+        tmpPrefix = ExtractPrefix(aNames[cNames]);
+
+      tmpPersonalEmail = getPersonalEmail(tmpPrefix, tmpEmails);
+      GeneralEmail = getGenEmail(tmpEmails);
+
+      var addedgen = false;
+      var addedpers = false;
+
+      if (tmpPersonalEmail != "") {
+        tmpEmail = tmpPersonalEmail
+        addedpers = true;
+      }
+      else {
+        if (cNames == 0) {
+          tmpEmail = GeneralEmail;
+          addedgen = true;
+        }
+      }
+
+      if (cNames > 0 && !ContactHasInfo(tmpPrefix, tmpNames2, tmpPhoneNumbers))
+        continue;
+
+      var tmpName = aNames[cNames].substring(0, tmpIndex).replace(' ', '');
+
+      gvTmpi = gvTmpi + 1;
+
+//MM 24/07/2026
+//MM      tmpSurname = tmpSurname.replace(' ', '_');
+//MM      tmpSurname = tmpSurname.replace(' ', '_');
+
+      tmpName = tmpName.trim() + " " + tmpSurname.trim();
+
+      aProcessedDataRange[gvTmpi][1] = GetMeetingPrefix(aRow) + " " + tmpName.trim();
+
+      //Marius 13/01/2025 Added error checking
+      try{aProcessedDataRange[gvTmpi][3] = tmpEmail.trim();}
+      catch(e)
+      {aProcessedDataRange[gvTmpi][3] = "";}
+
+      if (tmpPrefix.length > 0)
+        ProcessNumbersToContact(aProcessedDataRange, aNumbers, tmpPrefix, aMeeting);
+
+      ProcessNumbersToContact(aProcessedDataRange, aNumbers, "", aMeeting);
+
+      aProcessedDataRange[gvTmpi][0] = aMeeting;
+
+      if ((cNames == 0) || (hasCouple && cNames < 2)) {
+        aProcessedDataRange[gvTmpi][3] = aProcessedDataRange[gvTmpi][3] + ", " + GeneralEmail.trim();
+        aProcessedDataRange[gvTmpi][3] = aProcessedDataRange[gvTmpi][3] + ", " + tmpPersonalEmail.trim();
+        aProcessedDataRange[gvTmpi][4] = tmpAddress.trim();
+        aProcessedDataRange[gvTmpi][5] = tmpPostal.trim();
+      }
+
+// NOT SO SURE HERE HANNES 8 may 2025
+
+      aProcessedDataRange[gvTmpi][6] = tmpUUID.trim();
+      var t = gvTmpi + 1;
+      aProcessedDataRange[gvTmpi][7] = '=if(iserror(vlookup(I' + t + ',ContactLog!$J$1:$J$8000,1,false)),"Not found","")';
+      //Marius 07/07/2024 Added This Column And Changed Lookup Above
+      aProcessedDataRange[gvTmpi][8] = "=CONCATENATE (B"+t+",G"+t+")";
+    }
+  }
+  }catch(e)
+   { WriteDebugMSG("**** Error Processing contact "+e.message);}
+}
+
+function ProcessNumbersToContact(Data, anumbers, aprefix, aDistrict) {
+  var tmpstr = "";
+
+  if (anumbers != null) {
+    for (var i = 0; i < anumbers.length; ++i) {
+      var ii = anumbers[i].indexOf("<:");
+
+      if (ii > 0)
+        tmpstr = anumbers[i].substr(ii).replace(' ', '');
+      else
+        tmpstr = "";
+
+      if (tmpstr == aprefix) {
+        tmpstr = anumbers[i].substr(0, anumbers[i].length - aprefix.length)
+
+        ProcessNumberToContact(Data, gvTmpi, tmpstr, aDistrict);
+      }
+    }
+  }
+}
+
+function ProcessNumberToContact(Data, aContactRow, aNumber, aDistrict) {
+
+  var tmpstr = "";
+
+//  var tmpField = ContactsApp.Field.MAIN_PHONE;
+
+  var tmpPrefix = GetPrefix(aNumber);
+
+  if (tmpPrefix.length == 0)
+    tmpPrefix = GetSuffix(aNumber);
+
+  if (tmpPrefix.length > 0)
+    tmpField = GetPhoneField(tmpPrefix, aNumber);
+
+  tmpstr = FormatNumber(aNumber, aDistrict);
+
+  Data[aContactRow][2] = Data[aContactRow][2] + ', ' + tmpstr
+}
+
+function writeUpdateScheduleFilesToSheet() {
+  // Get the spreadsheet by ID
+  const spreadsheetId = "1ZgFuwucs_0v9CsBbphHfE6U0b0D-lEPPCsldQr_DUBw";
+  const spreadsheet = SpreadsheetApp.openById(spreadsheetId);
+  
+  // Get the "Users" sheet
+  const sheet = spreadsheet.getSheetByName("Users");
+  if (!sheet) {
+    Logger.log("Sheet 'Users' not found.");
+    return;
+  }
+  
+  // Search for files ending with "- UpdateSchedule"
+  const files = DriveApp.searchFiles('title contains "- UpdateSchedule"');
+  
+  // Prepare array to store file names and links
+  const fileData = [];
+  
+  // Iterate through files and collect names and links
+  while (files.hasNext()) {
+    const file = files.next();
+    fileData.push([file.getName(), file.getUrl()]);
+  }
+  
+  // Sort fileData by file name (first element of each sub-array)
+  fileData.sort((a, b) => a[0].localeCompare(b[0]));
+  
+  // Clear existing content in columns H and I starting from row 1
+  const lastRow = sheet.getLastRow();
+  if (lastRow >= 1) {
+    sheet.getRange(1, 8, lastRow, 2).clearContent();
+  }
+  
+  // Write sorted file names to column H and links to column I starting from row 1
+  if (fileData.length > 0) {
+    sheet.getRange(1, 8, fileData.length, 2).setValues(fileData);
+  } else {
+    Logger.log("No files found with '- UpdateSchedule' in the name.");
+  }
+}
