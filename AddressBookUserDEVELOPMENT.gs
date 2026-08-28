@@ -27,7 +27,7 @@ const SHEET_DEBUG =
   "Debug";
 
 const SCRIPT_VERSION =
-  "DEV - 1.4";
+  "DEV - 1.5";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -1304,6 +1304,8 @@ function SyncContactsToGoogleCore(
     });
   }
 
+  var arefreshAll = refreshAll(ss);
+
   /*
    * Determine which UUIDs need to be recreated.
    *
@@ -1318,6 +1320,13 @@ function SyncContactsToGoogleCore(
   for (
     var uuid in contactsByUuid
   ) {
+      if (arefreshAll){
+        uuidsToRecreate[
+          uuid
+        ] = true;
+     
+        continue;
+      }
 
     var desired =
       contactsByUuid[
@@ -1525,6 +1534,8 @@ function SyncContactsToGoogleCore(
       resourcesToDelete.length
     );
   }
+
+  WriteSyncVariable(syncVariables,8,"");
 
   /*
    * Refresh GoogleContacts after a successful sync.
@@ -2206,13 +2217,18 @@ function WriteFlattenedContact(
       emailValues
     );
 
-  var email =
+var email =
+  NormalizeEmailAddresses(
+    personEmails.join(", ")
+  );
+
+/*  var email =
     personEmails.length > 0
       ? NormalizeEmailAddresses(
         personEmails.join(", ")
       )
       : normalizedEmails;
-
+*/
   var personPhones =
     GetPhonesForPerson(
       person.tag,
@@ -4212,7 +4228,7 @@ function GetSyncVariablesSheet(
     .getRange(
       2,
       1,
-      6,
+      7,
       1
     )
     .setValues([
@@ -4221,10 +4237,31 @@ function GetSyncVariablesSheet(
       ["Google Contacts Count"],
       ["Master Count"],
       ["Sync Disabled"],
-      ["Script Version"]
+      ["Script Version"],
+      ["Refresh All"]
     ]);
 
   return sheet;
+}
+
+function refreshAll(
+  ss
+) {
+
+  var sheet =
+    GetSyncVariablesSheet(
+      ss
+    );
+
+  return (
+    SafeString(
+      sheet
+        .getRange(
+          "B8"
+        )
+        .getValue()
+    ) !== ""
+  );
 }
 
 
