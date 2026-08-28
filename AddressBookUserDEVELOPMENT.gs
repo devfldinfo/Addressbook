@@ -552,12 +552,6 @@ function WriteMasterContactsCore(
       ss
     );
 
-  //  WriteSyncVariable(
-  //    syncVariables,
-  //    7,
-  //    SCRIPT_VERSION
-  //  );
-
   var source =
     ss.getSheetByName(
       SHEET_QRYEXPORT
@@ -784,6 +778,15 @@ function WriteMasterContactsCore(
       ParsePhoneNumbers(
         row[12]
       );
+
+ /*   DebugLog(
+  ss,
+  "Phone parsed: raw=[" +
+  phoneValues[0].raw +
+  "] tag=[" +
+  phoneValues[0].tag +
+  "]"
+); */ 
 
     var normalizedEmails =
       NormalizeEmailAddresses(
@@ -2241,13 +2244,18 @@ function WriteFlattenedContact(
     }
   }
 
-  var phoneText =
+var phoneText =
+  NormalizePhoneNumbers(
+    phones.join(", ")
+  );
+
+/*  var phoneText =
     phones.length > 0
       ? NormalizePhoneNumbers(
         phones.join(", ")
       )
       : normalizedPhones;
-
+*/
   /*
    * Combine Address + Postal Address + GPS
    * into one field.
