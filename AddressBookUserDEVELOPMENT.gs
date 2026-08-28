@@ -27,7 +27,7 @@ const SHEET_DEBUG =
   "Debug";
 
 const SCRIPT_VERSION =
-  "DEV - 1.3";
+  "DEV - 1.4";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -4307,6 +4307,47 @@ function DebugLog(
         ss
       );
 
+    /*
+     * Keep a maximum of 2000 debug entries.
+     * When 2000 entries are reached, start
+     * again at row 2, keeping the header.
+     */
+    if (
+      sheet.getLastRow() >= 2000
+    ) {
+
+      sheet
+        .getRange(
+          2,
+          1,
+          2000,
+          2
+        )
+        .clearContent();
+
+      sheet
+        .getRange(
+          2,
+          1
+        )
+        .setValue(
+          new Date()
+        );
+
+      sheet
+        .getRange(
+          2,
+          2
+        )
+        .setValue(
+          SafeString(
+            message
+          )
+        );
+
+      return;
+    }
+
     sheet.appendRow([
       new Date(),
       SafeString(
@@ -4323,7 +4364,6 @@ function DebugLog(
      */
   }
 }
-
 
 function LogErrorSafely(
   ss,
@@ -4906,6 +4946,22 @@ function InstallSyncSystem() {
     );
 
     /*
+     * Get the current logged-in user's
+     * Gmail address.
+     */
+    var gmailAddress =
+      Session
+        .getActiveUser()
+        .getEmail();
+
+    if (!gmailAddress) {
+
+      throw new Error(
+        "Unable to determine the current user's email address."
+      );
+    }
+
+    /*
      * Remove existing sync triggers first.
      */
     var triggers =
@@ -4931,7 +4987,7 @@ function InstallSyncSystem() {
         handler ===
         "RefreshBatch" ||
         handler ===
-        "UpdateContacts"        
+        "UpdateContacts"
       ) {
 
         ScriptApp.deleteTrigger(
@@ -4991,6 +5047,7 @@ function InstallSyncSystem() {
 
       message:
         "The sync system has been installed successfully."
+
     };
 
   }
@@ -5008,7 +5065,7 @@ function InstallSyncSystem() {
         false,
 
       message:
-        "Installation failed. Please contact the administrator."
+        e.message
     };
   }
 }
