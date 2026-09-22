@@ -27,7 +27,7 @@ const SHEET_DEBUG =
   "Debug";
 
 const SCRIPT_VERSION =
-  "DEV - 1.5";
+  "DEV - 1.6";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -35,18 +35,21 @@ const DEFAULT_MEETING_PREFIX =
 const DEFAULT_COUNTRY_CODE =
   "+27";
 
+var startTime = Date.now();
+var MAX_RUNTIME = 5 * 60 * 1000; // 5 minutes
+
 function RefreshBatch() {
   // This is a legacy function that must be kept. 
   // There might be users who's triggers are still set on this function
   UpdateContacts();
 }
 
-function UpdateContacts(){
+function UpdateContacts() {
   // This is a legacy function that must be kept. 
   // There might be users who's triggers are still set on this function
   InstallSyncSystem();
 }
-  
+
 /************************************************************
  * WEB APP
  ************************************************************/
@@ -66,6 +69,68 @@ function doGet() {
 /************************************************************
  * WRITE GOOGLE CONTACTS
  ************************************************************/
+/************************************************************
+ * COORDINATE CONTACT SYNC
+ ************************************************************/
+
+function CoordinateContactSync() {
+
+  var ss = null;
+
+  try {
+
+    ss = GetUserWorkSpreadsheet();
+
+    var syncVariables =
+      GetSyncVariablesSheet(ss);
+
+    var googleDate =
+      syncVariables
+        .getRange("B2")
+        .getValue();
+
+    var masterDate =
+      syncVariables
+        .getRange("B3")
+        .getValue();
+
+    /*
+     * GoogleContacts has not yet been written.
+     */
+    if (!googleDate) {
+      WriteGoogleContacts();
+      return;
+    }
+
+    /*
+     * MasterContacts has not yet been written.
+     */
+    if (!masterDate) {
+      WriteMasterContacts();
+      return;
+    }
+
+    /*
+     * Only sync when both snapshots were already present
+     * when this coordinator started.
+     */
+    if (googleDate && masterDate) {
+      SyncContactsToGoogle();
+//    WriteSyncVariable(syncVariables,2,"");
+    WriteSyncVariable(syncVariables,3,"");
+    }
+
+  }
+  catch (e) {
+
+    LogErrorSafely(
+      ss,
+      "CoordinateContactSync",
+      e
+    );
+
+  }
+}
 
 function WriteGoogleContacts() {
 
@@ -132,6 +197,7 @@ function WriteGoogleContactsCore(
   //    7,
   //    SCRIPT_VERSION
   //  );
+  WriteSyncVariable(syncVariables,2,"");
 
   var sheet =
     GetOrCreateSheet(
@@ -492,6 +558,7 @@ function WriteMasterContacts() {
     ss =
       GetUserWorkSpreadsheet();
 
+
     if (
       IsSyncDisabled(
         ss
@@ -511,12 +578,12 @@ function WriteMasterContacts() {
       "WriteMasterContacts started"
     );
 
-/*
- * Refresh qryExport and qryExportField.
- *
- * Update Schedule is preserved when an
- * old workbook is upgraded.
- */
+    /*
+     * Refresh qryExport and qryExportField.
+     *
+     * Update Schedule is preserved when an
+     * old workbook is upgraded.
+     */
     ss =
       PrepareUserWorkSheet();
 
@@ -552,6 +619,8 @@ function WriteMasterContactsCore(
       ss
     );
 
+  WriteSyncVariable(syncVariables,3,"");
+
   var source =
     ss.getSheetByName(
       SHEET_QRYEXPORT
@@ -569,6 +638,7 @@ function WriteMasterContactsCore(
     ss,
     "Fresh master qryExport available"
   );
+
 
   var contacts =
     ss.getSheetByName(
@@ -641,6 +711,22 @@ function WriteMasterContactsCore(
       SafeString(
         row[11]
       );
+
+    if (!meetings) {
+      continue;
+    }
+
+    if (!SafeString(
+        row[0]
+      )) {
+      continue;
+    } //Names1 is not empty
+
+    if (!SafeString(
+        row[1]
+      )) {
+      continue;
+    } //Names2 is not empty
 
     if (
       !IsFamilyEligible(
@@ -779,14 +865,14 @@ function WriteMasterContactsCore(
         row[12]
       );
 
- /*   DebugLog(
-  ss,
-  "Phone parsed: raw=[" +
-  phoneValues[0].raw +
-  "] tag=[" +
-  phoneValues[0].tag +
-  "]"
-); */ 
+    /*   DebugLog(
+     ss,
+     "Phone parsed: raw=[" +
+     phoneValues[0].raw +
+     "] tag=[" +
+     phoneValues[0].tag +
+     "]"
+   ); */
 
     var normalizedEmails =
       NormalizeEmailAddresses(
@@ -916,6 +1002,17 @@ function WriteMasterContactsCore(
         organizationMeeting
       );
     }
+
+
+
+
+
+if (runtimeExceeded_(startTime, MAX_RUNTIME)) {
+  DebugLog(ss,"Timed out while writing master contacts. "+output.length+" contacts");
+  Logger.log("Runtime limit reached after " + output.length + " contacts.");
+  return;
+}
+
   }
 
   var header =
@@ -979,6 +1076,9 @@ function WriteMasterContactsCore(
   output.unshift(
     header
   );
+
+  DebugLog(ss,"Output created");
+
 
   contacts.clearContents();
 
@@ -1098,12 +1198,6 @@ function SyncContactsToGoogleCore(
     GetSyncVariablesSheet(
       ss
     );
-
-  //  WriteSyncVariable(
-  //    syncVariables,
-  //    7,
-  //    SCRIPT_VERSION
-  //  );
 
   var contactsSheet =
     ss.getSheetByName(
@@ -1320,13 +1414,13 @@ function SyncContactsToGoogleCore(
   for (
     var uuid in contactsByUuid
   ) {
-      if (arefreshAll){
-        uuidsToRecreate[
-          uuid
-        ] = true;
-     
-        continue;
-      }
+    if (arefreshAll) {
+      uuidsToRecreate[
+        uuid
+      ] = true;
+
+      continue;
+    }
 
     var desired =
       contactsByUuid[
@@ -1535,7 +1629,8 @@ function SyncContactsToGoogleCore(
     );
   }
 
-  WriteSyncVariable(syncVariables,8,"");
+  WriteSyncVariable(syncVariables, 8, "");
+  WriteSyncVariable(syncVariables, 3, ""); //MasterContacts date
 
   /*
    * Refresh GoogleContacts after a successful sync.
@@ -1595,6 +1690,33 @@ function AreMasterAndGoogleCurrentForToday(
     return false;
   }
 
+   /*
+   * MasterContacts must have been written
+   * after GoogleContacts.
+   */
+  var masterTime =
+    new Date(masterDate).getTime();
+
+  var googleTime =
+    new Date(googleDate).getTime();
+
+  if (
+    masterTime <= googleTime
+  ) {
+
+    DebugLog(
+      ss,
+      "Sync skipped: MasterContacts timestamp is not newer than GoogleContacts. " +
+      "Master=" +
+      masterDate +
+      ", Google=" +
+      googleDate
+    );
+
+    return false;
+  }
+
+/*
   var timezone =
     ss.getSpreadsheetTimeZone();
 
@@ -1641,7 +1763,7 @@ function AreMasterAndGoogleCurrentForToday(
 
     return false;
   }
-
+*/
   return true;
 }
 
@@ -2217,18 +2339,18 @@ function WriteFlattenedContact(
       emailValues
     );
 
-var email =
-  NormalizeEmailAddresses(
-    personEmails.join(", ")
-  );
+  var email =
+    NormalizeEmailAddresses(
+      personEmails.join(", ")
+    );
 
-/*  var email =
-    personEmails.length > 0
-      ? NormalizeEmailAddresses(
-        personEmails.join(", ")
-      )
-      : normalizedEmails;
-*/
+  /*  var email =
+      personEmails.length > 0
+        ? NormalizeEmailAddresses(
+          personEmails.join(", ")
+        )
+        : normalizedEmails;
+  */
   var personPhones =
     GetPhonesForPerson(
       person.tag,
@@ -2260,18 +2382,18 @@ var email =
     }
   }
 
-var phoneText =
-  NormalizePhoneNumbers(
-    phones.join(", ")
-  );
+  var phoneText =
+    NormalizePhoneNumbers(
+      phones.join(", ")
+    );
 
-/*  var phoneText =
-    phones.length > 0
-      ? NormalizePhoneNumbers(
-        phones.join(", ")
-      )
-      : normalizedPhones;
-*/
+  /*  var phoneText =
+      phones.length > 0
+        ? NormalizePhoneNumbers(
+          phones.join(", ")
+        )
+        : normalizedPhones;
+  */
   /*
    * Combine Address + Postal Address + GPS
    * into one field.
@@ -3905,12 +4027,12 @@ function BuildGooglePerson(
 
       {
         name:
-          contact.organizationField
+          contact.organizationMeeting
       },
 
       {
         name:
-          contact.organizationMeeting
+          contact.organizationField
       },
 
       {
@@ -4300,6 +4422,8 @@ function WriteSyncVariable(
     .setValue(
       value
     );
+
+  SpreadsheetApp.flush();
 }
 
 
@@ -4504,8 +4628,8 @@ function CreateUserWorkSheet() {
 
   file.setStarred(true);
 
-  file.addEditor("devfldinfo@gmail.com");
-  file.addEditor("mariusmarais2008@gmail.com");
+  //  file.addEditor("devfldinfo@gmail.com");
+  //  file.addEditor("mariusmarais2008@gmail.com");
 
   userSpreadsheet
     .setSpreadsheetLocale(
@@ -4628,10 +4752,10 @@ function CreateUserWorkSheet() {
     }
   }
 
-/*
- * Copy the master Update Schedule into
- * the newly-created workbook.
- */
+  /*
+   * Copy the master Update Schedule into
+   * the newly-created workbook.
+   */
 
   var sourceUpdateSchedule =
     masterSpreadsheet.getSheetByName(
@@ -4701,7 +4825,52 @@ function CreateUserWorkSheet() {
   return userSpreadsheet;
 }
 
+function AddEditorIfNeeded(
+  file,
+  emailAddress
+) {
+
+  var owner =
+    file.getOwner();
+
+  if (
+    owner &&
+    owner
+      .getEmail()
+      .toLowerCase() ===
+    emailAddress.toLowerCase()
+  ) {
+
+    return;
+  }
+
+  var editors =
+    file.getEditors();
+
+  for (
+    var i = 0;
+    i < editors.length;
+    i++
+  ) {
+
+    if (
+      editors[i]
+        .getEmail()
+        .toLowerCase() ===
+      emailAddress.toLowerCase()
+    ) {
+
+      return;
+    }
+  }
+
+  file.addEditor(
+    emailAddress
+  );
+}
+
 function PrepareUserWorkSheet() {
+  var aUserFile = null;
 
   var email =
     Session
@@ -4764,7 +4933,7 @@ function PrepareUserWorkSheet() {
         )
       ) {
 
-        return UpgradeUserSpreadsheet(
+        aUserFile = UpgradeUserSpreadsheet(
           file,
           userSpreadsheet
         );
@@ -4774,8 +4943,9 @@ function PrepareUserWorkSheet() {
        * This is already a current-system
        * workbook. Refresh its dynamic sheets.
        */
-      return PrepareExistingUserWorkSheet(
-        userSpreadsheet);
+      if (!aUserFile)
+        aUserFile = PrepareExistingUserWorkSheet(
+          userSpreadsheet);
     }
   }
 
@@ -4783,7 +4953,22 @@ function PrepareUserWorkSheet() {
    * No workbook exists.
    * Create a new one.
    */
-  return CreateUserWorkSheet();
+  if (!aUserFile)
+    aUserFile = CreateUserWorkSheet();
+
+  if (aUserFile) {
+    AddEditorIfNeeded(
+      file,
+      "devfldinfo@gmail.com"
+    );
+
+    AddEditorIfNeeded(
+      file,
+      "mariusmarais2008@gmail.com"
+    );
+  }
+
+  return aUserFile;
 }
 
 function PrepareExistingUserWorkSheet(userSpreadsheet) {
@@ -4955,6 +5140,7 @@ function GetUserWorkSpreadsheet() {
       "application/vnd.google-apps.spreadsheet"
     ) {
 
+
       return SpreadsheetApp.open(
         file
       );
@@ -4962,10 +5148,6 @@ function GetUserWorkSpreadsheet() {
   }
 
   InstallSyncSystem();
-  //  throw new Error(
-  //    "User work spreadsheet not found: " +
-  //    fileName
-  //  );
 }
 
 
@@ -5270,4 +5452,8 @@ function UpgradeUserSpreadsheet(
   oldFile.setTrashed(true);
 
   return newSpreadsheet;
+}
+
+function runtimeExceeded_(startTime, maxRuntime) {
+  return (Date.now() - startTime) >= maxRuntime;
 }
