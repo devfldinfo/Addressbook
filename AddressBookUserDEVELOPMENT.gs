@@ -27,7 +27,7 @@ const SHEET_DEBUG =
   "Debug";
 
 const SCRIPT_VERSION =
-  "DEV - 1.7";
+  "DEV - 1.8";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -586,13 +586,12 @@ function WriteMasterContacts(existingSs) {
     );
 
     /*
-     * Refresh qryExport and qryExportField.
+     * qryExport and qryExportField are read
+     * directly from the master spreadsheet.
      *
-     * Update Schedule is preserved when an
-     * old workbook is upgraded.
+     * They are no longer copied into the
+     * user's workbook on every run.
      */
-    ss = PrepareUserWorkSheet();
-
     WriteMasterContactsCore(ss);
 
     DebugLog(
@@ -625,22 +624,53 @@ function WriteMasterContactsCore(
 
   WriteSyncVariable(syncVariables, 3, "");
 
+  /*
+   * Read the master source sheets directly
+   * into memory.
+   *
+   * This avoids:
+   *
+   *   Master -> user workbook copy
+   *   -> read back from user workbook
+   *
+   * and removes the expensive
+   * delete/insert/setValues cycle for the
+   * two large source sheets.
+   */
+  var masterSpreadsheet =
+    SpreadsheetApp.openById(
+      SPREADSHEET_ID
+    );
+
   var source =
-    ss.getSheetByName(
+    masterSpreadsheet.getSheetByName(
       SHEET_QRYEXPORT
     );
 
   if (!source) {
 
     throw new Error(
-      "Sheet not found: " +
+      "Master sheet not found: " +
       SHEET_QRYEXPORT
+    );
+  }
+
+  var meetingsSource =
+    masterSpreadsheet.getSheetByName(
+      SHEET_MEETINGS
+    );
+
+  if (!meetingsSource) {
+
+    throw new Error(
+      "Master sheet not found: " +
+      SHEET_MEETINGS
     );
   }
 
   DebugLog(
     ss,
-    "Fresh master qryExport available"
+    "Master source sheets opened directly"
   );
 
 
@@ -657,20 +687,26 @@ function WriteMasterContactsCore(
       ss
     );
 
-  var meetingLookup =
-    LoadMeetingLookup(
-      ss
-    );
-
-  DebugLog(
-    ss,
-    "Meeting lookup loaded"
-  );
-
   var data =
     source
       .getDataRange()
       .getValues();
+
+  var meetingData =
+    meetingsSource
+      .getDataRange()
+      .getValues();
+
+  var meetingLookup =
+    LoadMeetingLookup(
+      null,
+      meetingData
+    );
+
+  DebugLog(
+    ss,
+    "Meeting lookup loaded from master data"
+  );
 
   DebugLog(
     ss,
@@ -1940,26 +1976,43 @@ function NormalizeSelectionText(
  ************************************************************/
 
 function LoadMeetingLookup(
-  ss
+  ss,
+  suppliedData
 ) {
 
-  var sheet =
-    ss.getSheetByName(
-      SHEET_MEETINGS
-    );
+  var values = suppliedData;
 
-  if (!sheet) {
+  /*
+   * WriteMasterContacts supplies the master
+   * meeting data directly. Keep the sheet
+   * fallback for compatibility.
+   */
+  if (!values) {
 
-    throw new Error(
-      "Sheet not found: " +
-      SHEET_MEETINGS
-    );
+    if (!ss) {
+      throw new Error(
+        "Spreadsheet required when meeting data is not supplied."
+      );
+    }
+
+    var sheet =
+      ss.getSheetByName(
+        SHEET_MEETINGS
+      );
+
+    if (!sheet) {
+
+      throw new Error(
+        "Sheet not found: " +
+        SHEET_MEETINGS
+      );
+    }
+
+    values =
+      sheet
+        .getDataRange()
+        .getValues();
   }
-
-  var values =
-    sheet
-      .getDataRange()
-      .getValues();
 
   var map = {};
 
@@ -4639,9 +4692,6 @@ function CreateUserWorkSheet() {
 
   file.setStarred(true);
 
-  //  file.addEditor("devfldinfo@gmail.com");
-  //  file.addEditor("mariusmarais2008@gmail.com");
-
   userSpreadsheet
     .setSpreadsheetLocale(
       "en_US"
@@ -4662,106 +4712,14 @@ function CreateUserWorkSheet() {
     );
 
   /*
-   * These two sheets are refreshed every
-   * time WriteMasterContacts runs.
+   * qryExport and qryExportField are master
+   * source data and are no longer copied into
+   * the user's workbook.
+   *
+   * They are read directly by
+   * WriteMasterContacts().
    */
-  var sheetsToRefresh = [
-    SHEET_QRYEXPORT,
-    SHEET_MEETINGS
-  ];
 
-  for (
-    var i = 0;
-    i < sheetsToRefresh.length;
-    i++
-  ) {
-
-    var sheetName =
-      sheetsToRefresh[i];
-
-    var sourceSheet =
-      masterSpreadsheet.getSheetByName(
-        sheetName
-      );
-
-    if (!sourceSheet) {
-
-      throw new Error(
-        "Master sheet not found: " +
-        sheetName
-      );
-    }
-
-    /*
-     * Remove previous copy.
-     */
-    var existingSheet =
-      userSpreadsheet.getSheetByName(
-        sheetName
-      );
-
-    if (existingSheet) {
-
-      userSpreadsheet.deleteSheet(
-        existingSheet
-      );
-    }
-
-    /*
-     * Create fresh destination sheet.
-     */
-    var destinationSheet =
-      userSpreadsheet.insertSheet(
-        sheetName
-      );
-
-    /*
-     * Copy VALUES only.
-     */
-    var values =
-      sourceSheet
-        .getDataRange()
-        .getValues();
-
-    if (
-      values.length > 0 &&
-      values[0].length > 0
-    ) {
-
-      destinationSheet
-        .getRange(
-          1,
-          1,
-          values.length,
-          values[0].length
-        )
-        .setValues(
-          values
-        );
-
-      /*
-       * qryExport column M contains phone
-       * numbers. Force it to text so values
-       * already stored as text remain text.
-       */
-      if (
-        sheetName ===
-        SHEET_QRYEXPORT
-      ) {
-
-        destinationSheet
-          .getRange(
-            1,
-            13,
-            values.length,
-            1
-          )
-          .setNumberFormat(
-            "@"
-          );
-      }
-    }
-  }
 
   /*
    * Copy the master Update Schedule into
@@ -4795,8 +4753,6 @@ function CreateUserWorkSheet() {
    * relying on a localized name such as Sheet1.
    */
   var requiredSheets = [
-    SHEET_QRYEXPORT,
-    SHEET_MEETINGS,
     SHEET_UPDATESCHEDULE
   ];
 
@@ -4952,7 +4908,8 @@ function PrepareUserWorkSheet() {
 
       /*
        * This is already a current-system
-       * workbook. Refresh its dynamic sheets.
+       * workbook. Prepare the local workbook
+       * without copying the master source data.
        */
       if (!aUserFile)
         aUserFile = PrepareExistingUserWorkSheet(
@@ -4967,18 +4924,6 @@ function PrepareUserWorkSheet() {
   if (!aUserFile)
     aUserFile = CreateUserWorkSheet();
 
-  if (aUserFile) {
-    AddEditorIfNeeded(
-      file,
-      "devfldinfo@gmail.com"
-    );
-
-    AddEditorIfNeeded(
-      file,
-      "mariusmarais2008@gmail.com"
-    );
-  }
-
   return aUserFile;
 }
 
@@ -4989,126 +4934,86 @@ function PrepareExistingUserWorkSheet(userSpreadsheet) {
       "en_US"
     );
 
+  AddEditorIfNeeded(
+    DriveApp.getFileById(
+      userSpreadsheet.getId()
+    ),
+    "devfldinfo@gmail.com"
+  );
+
+  AddEditorIfNeeded(
+    DriveApp.getFileById(
+      userSpreadsheet.getId()
+    ),
+    "mariusmarais2008@gmail.com"
+  );
+
   userSpreadsheet
     .setSpreadsheetTimeZone(
       "Africa/Johannesburg"
     );
 
-  var masterSpreadsheet =
-    SpreadsheetApp.openById(
-      SPREADSHEET_ID
-    );
-
   /*
-   * These sheets are refreshed every
-   * time WriteMasterContacts runs.
+   * Remove the two legacy source-data tabs
+   * from existing user workbooks, if present.
+   *
+   * WriteMasterContacts now reads qryExport
+   * and qryExportField directly from the master
+   * spreadsheet, so local copies are no longer
+   * needed.
    */
-  var sheetsToRefresh = [
+  DeleteLegacyUserTabs_(
+    userSpreadsheet
+  );
+
+  return userSpreadsheet;
+}
+
+
+function DeleteLegacyUserTabs_(spreadsheet) {
+
+  var legacySheets = [
     SHEET_QRYEXPORT,
     SHEET_MEETINGS
   ];
 
   for (
     var i = 0;
-    i < sheetsToRefresh.length;
+    i < legacySheets.length;
     i++
   ) {
 
-    var sheetName =
-      sheetsToRefresh[i];
-
-    var sourceSheet =
-      masterSpreadsheet.getSheetByName(
-        sheetName
+    var sheet =
+      spreadsheet.getSheetByName(
+        legacySheets[i]
       );
 
-    if (!sourceSheet) {
-
-      throw new Error(
-        "Master sheet not found: " +
-        sheetName
-      );
+    if (!sheet) {
+      continue;
     }
 
     /*
-     * Remove previous copy.
+     * Google Sheets must retain at least one
+     * sheet. In a normal sync workbook there
+     * are several other sheets, so this should
+     * not normally prevent deletion.
      */
-    var existingSheet =
-      userSpreadsheet.getSheetByName(
-        sheetName
-      );
-
-    if (existingSheet) {
-
-      userSpreadsheet.deleteSheet(
-        existingSheet
-      );
-    }
-
-    /*
-     * Create fresh destination sheet.
-     */
-    var destinationSheet =
-      userSpreadsheet.insertSheet(
-        sheetName
-      );
-
-    /*
-     * Copy VALUES only.
-     */
-    var values =
-      sourceSheet
-        .getDataRange()
-        .getValues();
-
     if (
-      values.length > 0 &&
-      values[0].length > 0
+      spreadsheet.getSheets().length <= 1
     ) {
-
-SpreadsheetApp.flush();
-
-      destinationSheet
-        .getRange(
-          1,
-          1,
-          values.length,
-          values[0].length
-        )
-        .setValues(
-          values
-        );
-
-SpreadsheetApp.flush();
-
-      /*
-       * qryExport column M contains phone
-       * numbers. Force it to text.
-       */
-      if (
-        sheetName ===
-        SHEET_QRYEXPORT
-      ) {
-
-        destinationSheet
-          .getRange(
-            1,
-            13,
-            values.length,
-            1
-          )
-          .setNumberFormat(
-            "@"
-          );
-      }
+      throw new Error(
+        "Cannot delete legacy sheet '" +
+        legacySheets[i] +
+        "' because it is the last sheet in the workbook."
+      );
     }
-  }
 
-  /*
-   * Return the existing workbook.
-   */
-  return userSpreadsheet;
+    spreadsheet.deleteSheet(
+      sheet
+    );
+  }
 }
+
 
 function GetUserWorkSpreadsheet() {
 
@@ -5241,14 +5146,14 @@ function InstallSyncSystem() {
     }
 
     /*
-     * 01:00 - Master
+     * Run the coordinator every 10 minutes.
      */
     ScriptApp
       .newTrigger(
         "CoordinateContactSync"
       )
       .timeBased()
-      .everyHours(2)
+      .everyMinutes(10)
       .create();
 
     DebugLog(
