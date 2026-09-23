@@ -27,7 +27,7 @@ const SHEET_DEBUG =
   "Debug";
 
 const SCRIPT_VERSION =
-  "DEV - 1.6";
+  "DEV - 1.7";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -35,7 +35,7 @@ const DEFAULT_MEETING_PREFIX =
 const DEFAULT_COUNTRY_CODE =
   "+27";
 
-var startTime = Date.now();
+var startTime = 0;
 var MAX_RUNTIME = 5 * 60 * 1000; // 5 minutes
 
 function RefreshBatch() {
@@ -75,6 +75,13 @@ function doGet() {
 
 function CoordinateContactSync() {
 
+ var lock = LockService.getScriptLock();
+
+  if (!lock.tryLock(1000)) {
+    Logger.log("CoordinateContactSync skipped: another execution is already running.");
+    return;
+  }
+  
   var ss = null;
 
   try {
@@ -84,21 +91,22 @@ function CoordinateContactSync() {
     var syncVariables =
       GetSyncVariablesSheet(ss);
 
-    var googleDate =
+    /*
+     * Read both dates in one sheet call.
+     */
+    var syncDates =
       syncVariables
-        .getRange("B2")
-        .getValue();
+        .getRange("B2:B3")
+        .getValues();
 
-    var masterDate =
-      syncVariables
-        .getRange("B3")
-        .getValue();
+    var googleDate = syncDates[0][0];
+    var masterDate = syncDates[1][0];
 
     /*
      * GoogleContacts has not yet been written.
      */
     if (!googleDate) {
-      WriteGoogleContacts();
+      WriteGoogleContacts(ss);
       return;
     }
 
@@ -106,19 +114,18 @@ function CoordinateContactSync() {
      * MasterContacts has not yet been written.
      */
     if (!masterDate) {
-      WriteMasterContacts();
+      WriteMasterContacts(ss);
       return;
     }
 
     /*
-     * Only sync when both snapshots were already present
-     * when this coordinator started.
+     * Both snapshots were present when the
+     * coordinator started, so run the sync.
      */
-    if (googleDate && masterDate) {
-      SyncContactsToGoogle();
-//    WriteSyncVariable(syncVariables,2,"");
-    WriteSyncVariable(syncVariables,3,"");
-    }
+    SyncContactsToGoogle(ss);
+
+    // Preserve existing coordinator behaviour.
+    WriteSyncVariable(syncVariables, 3, "");
 
   }
   catch (e) {
@@ -130,27 +137,30 @@ function CoordinateContactSync() {
     );
 
   }
+
+  finally {
+
+    lock.releaseLock();
+
+  }
 }
 
-function WriteGoogleContacts() {
+function WriteGoogleContacts(existingSs) {
 
-  var ss = null;
+  var ss = existingSs || null;
 
   try {
 
-    ss =
-      GetUserWorkSpreadsheet();
+    if (!ss) {
+      ss = GetUserWorkSpreadsheet();
+    }
 
     DebugLog(
       ss,
       "WriteGoogleContacts started"
     );
 
-    if (
-      IsSyncDisabled(
-        ss
-      )
-    ) {
+    if (IsSyncDisabled(ss)) {
 
       DebugLog(
         ss,
@@ -160,9 +170,7 @@ function WriteGoogleContacts() {
       return;
     }
 
-    WriteGoogleContactsCore(
-      ss
-    );
+    WriteGoogleContactsCore(ss);
 
     DebugLog(
       ss,
@@ -197,7 +205,7 @@ function WriteGoogleContactsCore(
   //    7,
   //    SCRIPT_VERSION
   //  );
-  WriteSyncVariable(syncVariables,2,"");
+  WriteSyncVariable(syncVariables, 2, "");
 
   var sheet =
     GetOrCreateSheet(
@@ -549,21 +557,20 @@ function WriteGoogleContactsCore(
  * WRITE MASTER CONTACTS
  ************************************************************/
 
-function WriteMasterContacts() {
+function WriteMasterContacts(existingSs) {
 
-  var ss = null;
+  var ss = existingSs || null;
+
+  // Start the execution timer when WriteMasterContacts actually begins.
+  startTime = Date.now();
 
   try {
 
-    ss =
-      GetUserWorkSpreadsheet();
+    if (!ss) {
+      ss = GetUserWorkSpreadsheet();
+    }
 
-
-    if (
-      IsSyncDisabled(
-        ss
-      )
-    ) {
+    if (IsSyncDisabled(ss)) {
 
       DebugLog(
         ss,
@@ -584,12 +591,9 @@ function WriteMasterContacts() {
      * Update Schedule is preserved when an
      * old workbook is upgraded.
      */
-    ss =
-      PrepareUserWorkSheet();
+    ss = PrepareUserWorkSheet();
 
-    WriteMasterContactsCore(
-      ss
-    );
+    WriteMasterContactsCore(ss);
 
     DebugLog(
       ss,
@@ -619,7 +623,7 @@ function WriteMasterContactsCore(
       ss
     );
 
-  WriteSyncVariable(syncVariables,3,"");
+  WriteSyncVariable(syncVariables, 3, "");
 
   var source =
     ss.getSheetByName(
@@ -717,32 +721,33 @@ function WriteMasterContactsCore(
     }
 
     if (!SafeString(
-        row[0]
-      )) {
+      row[0]
+    )) {
       continue;
     } //Names1 is not empty
 
     if (!SafeString(
-        row[1]
-      )) {
+      row[1]
+    )) {
       continue;
     } //Names2 is not empty
-
-    if (
-      !IsFamilyEligible(
-        meetings,
-        selections,
-        meetingLookup
-      )
-    ) {
-      continue;
-    }
 
     var primary =
       GetPrimaryMeeting(
         meetings,
         meetingLookup
       );
+
+    if (
+      !IsFamilyEligible(
+        meetings,
+        selections,
+        meetingLookup,
+        primary
+      )
+    ) {
+      continue;
+    }
 
     var prefix =
       primary &&
@@ -784,26 +789,6 @@ function WriteMasterContactsCore(
         ) ||
         DEFAULT_COUNTRY_CODE;
 
-    var notes =
-      BuildNotesFromRow(
-        row,
-        uuid,
-        primary,
-        meetingLookup
-      );
-
-    /*
-     * Surname:
-     * spaces become underscores.
-     */
-    var surname =
-      SafeString(
-        row[0]
-      ).replace(
-        /\s+/g,
-        "_"
-      );
-
     /*
      * Names1.
      */
@@ -818,6 +803,27 @@ function WriteMasterContactsCore(
     var names2 =
       ParseNames2(
         row[2]
+      );
+
+    var notes =
+      BuildNotesFromRow(
+        row,
+        uuid,
+        primary,
+        meetingLookup,
+        names2
+      );
+
+    /*
+     * Surname:
+     * spaces become underscores.
+     */
+    var surname =
+      SafeString(
+        row[0]
+      ).replace(
+        /\s+/g,
+        "_"
       );
 
     /*
@@ -874,28 +880,6 @@ function WriteMasterContactsCore(
      "]"
    ); */
 
-    var normalizedEmails =
-      NormalizeEmailAddresses(
-        emailValues
-          .map(
-            function (e) {
-              return e.value;
-            }
-          )
-          .join(", ")
-      );
-
-    var normalizedPhones =
-      NormalizePhoneNumbers(
-        phoneValues
-          .map(
-            function (p) {
-              return p.raw;
-            }
-          )
-          .join(", ")
-      );
-
     /*
      * Names1:
      *
@@ -945,8 +929,6 @@ function WriteMasterContactsCore(
         phoneValues,
         notes,
         uuid,
-        normalizedEmails,
-        normalizedPhones,
         organizationField,
         organizationMeeting
       );
@@ -996,8 +978,6 @@ function WriteMasterContactsCore(
         phoneValues,
         notes,
         uuid,
-        normalizedEmails,
-        normalizedPhones,
         organizationField,
         organizationMeeting
       );
@@ -1007,11 +987,18 @@ function WriteMasterContactsCore(
 
 
 
-if (runtimeExceeded_(startTime, MAX_RUNTIME)) {
-  DebugLog(ss,"Timed out while writing master contacts. "+output.length+" contacts");
-  Logger.log("Runtime limit reached after " + output.length + " contacts.");
-  return;
-}
+    if (
+      runtimeExceeded_(
+        startTime,
+        MAX_RUNTIME
+      )
+    ) {
+      throw new Error(
+        "WriteMasterContacts stopped safely after " +
+        (output.length - 1) +
+        " flattened contacts to avoid the execution timeout."
+      );
+    }
 
   }
 
@@ -1077,7 +1064,7 @@ if (runtimeExceeded_(startTime, MAX_RUNTIME)) {
     header
   );
 
-  DebugLog(ss,"Output created");
+  DebugLog(ss, "Output created");
 
 
   contacts.clearContents();
@@ -1127,32 +1114,24 @@ if (runtimeExceeded_(startTime, MAX_RUNTIME)) {
  * SYNC CONTACTS TO GOOGLE
  ************************************************************/
 
-function SyncContactsToGoogle() {
+function SyncContactsToGoogle(existingSs) {
 
-  var ss = null;
+  var ss = existingSs || null;
 
   try {
 
-    ss =
-      GetUserWorkSpreadsheet();
+    if (!ss) {
+      ss = GetUserWorkSpreadsheet();
+    }
 
     /*
-     * Only sync when both snapshots are current
-     * for today.
+     * Only sync when both snapshots are current.
      */
-    if (
-      !AreMasterAndGoogleCurrentForToday(
-        ss
-      )
-    ) {
+    if (!AreMasterAndGoogleCurrentForToday(ss)) {
       return;
     }
 
-    if (
-      IsSyncDisabled(
-        ss
-      )
-    ) {
+    if (IsSyncDisabled(ss)) {
 
       DebugLog(
         ss,
@@ -1167,9 +1146,7 @@ function SyncContactsToGoogle() {
       "SyncContactsToGoogle started"
     );
 
-    SyncContactsToGoogleCore(
-      ss
-    );
+    SyncContactsToGoogleCore(ss);
 
     DebugLog(
       ss,
@@ -1690,10 +1667,10 @@ function AreMasterAndGoogleCurrentForToday(
     return false;
   }
 
-   /*
-   * MasterContacts must have been written
-   * after GoogleContacts.
-   */
+  /*
+  * MasterContacts must have been written
+  * after GoogleContacts.
+  */
   var masterTime =
     new Date(masterDate).getTime();
 
@@ -1716,54 +1693,54 @@ function AreMasterAndGoogleCurrentForToday(
     return false;
   }
 
-/*
-  var timezone =
-    ss.getSpreadsheetTimeZone();
-
-  var today =
-    Utilities.formatDate(
-      new Date(),
-      timezone,
-      "yyyy-MM-dd"
-    );
-
-  var masterDay =
-    Utilities.formatDate(
-      new Date(
-        masterDate
-      ),
-      timezone,
-      "yyyy-MM-dd"
-    );
-
-  var googleDay =
-    Utilities.formatDate(
-      new Date(
-        googleDate
-      ),
-      timezone,
-      "yyyy-MM-dd"
-    );
-
-  if (
-    masterDay !== today ||
-    googleDay !== today
-  ) {
-
-    DebugLog(
-      ss,
-      "Sync skipped: snapshots not current today. " +
-      "Master=" +
-      masterDay +
-      ", Google=" +
-      googleDay +
-      ", Today=" +
-      today
-    );
-
-    return false;
-  }
-*/
+  /*
+    var timezone =
+      ss.getSpreadsheetTimeZone();
+  
+    var today =
+      Utilities.formatDate(
+        new Date(),
+        timezone,
+        "yyyy-MM-dd"
+      );
+  
+    var masterDay =
+      Utilities.formatDate(
+        new Date(
+          masterDate
+        ),
+        timezone,
+        "yyyy-MM-dd"
+      );
+  
+    var googleDay =
+      Utilities.formatDate(
+        new Date(
+          googleDate
+        ),
+        timezone,
+        "yyyy-MM-dd"
+      );
+  
+    if (
+      masterDay !== today ||
+      googleDay !== today
+    ) {
+  
+      DebugLog(
+        ss,
+        "Sync skipped: snapshots not current today. " +
+        "Master=" +
+        masterDay +
+        ", Google=" +
+        googleDay +
+        ", Today=" +
+        today
+      );
+  
+      return false;
+    }
+  */
   return true;
 }
 
@@ -1837,7 +1814,8 @@ function GetEligibilitySelections(
 function IsFamilyEligible(
   meetings,
   selections,
-  meetingLookup
+  meetingLookup,
+  primary
 ) {
 
   if (
@@ -1848,11 +1826,20 @@ function IsFamilyEligible(
     return false;
   }
 
+  if (primary === undefined) {
+    primary =
+      GetPrimaryMeeting(
+        meetings,
+        meetingLookup
+      );
+  }
+
   var flattened =
     NormalizeSelectionText(
       BuildEligibilityValue(
         meetings,
-        meetingLookup
+        meetingLookup,
+        primary
       )
     );
 
@@ -1889,14 +1876,17 @@ function IsFamilyEligible(
 
 function BuildEligibilityValue(
   meetings,
-  meetingLookup
+  meetingLookup,
+  primary
 ) {
 
-  var primary =
-    GetPrimaryMeeting(
-      meetings,
-      meetingLookup
-    );
+  if (primary === undefined) {
+    primary =
+      GetPrimaryMeeting(
+        meetings,
+        meetingLookup
+      );
+  }
 
   if (!primary) {
 
@@ -2326,8 +2316,6 @@ function WriteFlattenedContact(
   phoneValues,
   notes,
   uuid,
-  normalizedEmails,
-  normalizedPhones,
   organizationField,
   organizationMeeting
 ) {
@@ -2467,6 +2455,20 @@ function WriteFlattenedContact(
     organizationField,
     organizationMeeting
   ]);
+
+  // Check immediately after this flattened contact is added.
+  if (
+    runtimeExceeded_(
+      startTime,
+      MAX_RUNTIME
+    )
+  ) {
+    throw new Error(
+      "WriteMasterContacts stopped safely after " +
+      (output.length - 1) +
+      " flattened contacts to avoid the execution timeout."
+    );
+  }
 }
 
 
@@ -2478,7 +2480,8 @@ function BuildNotesFromRow(
   row,
   uuid,
   primary,
-  meetingLookup
+  meetingLookup,
+  names2
 ) {
 
   var notes =
@@ -2486,7 +2489,8 @@ function BuildNotesFromRow(
 
   notes +=
     GetFamilyNamesFromRow(
-      row
+      row,
+      names2
     );
 
   notes +=
@@ -2500,7 +2504,8 @@ function BuildNotesFromRow(
   var convention =
     GetConvention(
       row[11],
-      meetingLookup
+      meetingLookup,
+      primary
     );
 
   if (
@@ -2560,7 +2565,8 @@ function BuildNotesFromRow(
 
 
 function GetFamilyNamesFromRow(
-  row
+  row,
+  names2
 ) {
 
   var names = [];
@@ -2574,10 +2580,12 @@ function GetFamilyNamesFromRow(
     names1
   );
 
-  var names2 =
-    ParseNames2(
-      row[2]
-    );
+  if (names2 === undefined) {
+    names2 =
+      ParseNames2(
+        row[2]
+      );
+  }
 
   for (
     var j = 0;
@@ -3485,14 +3493,17 @@ function NormalizePhoneNumber(
 
 function GetConvention(
   meetings,
-  meetingLookup
+  meetingLookup,
+  primary
 ) {
 
-  var primary =
-    GetPrimaryMeeting(
-      meetings,
-      meetingLookup
-    );
+  if (primary === undefined) {
+    primary =
+      GetPrimaryMeeting(
+        meetings,
+        meetingLookup
+      );
+  }
 
   if (!primary) {
 
@@ -3685,22 +3696,22 @@ function NormalizePhoneNumbers(
         }
       );
 
-  phones =
-    phones.filter(
-      function (
-        phone,
-        index
-      ) {
+  var uniquePhones = Object.create(null);
+  var uniquePhoneList = [];
 
-        return (
-          phones.indexOf(
-            phone
-          ) === index
-        );
-      }
-    );
+  for (
+    var i = 0;
+    i < phones.length;
+    i++
+  ) {
+    if (!uniquePhones[phones[i]]) {
+      uniquePhones[phones[i]] = true;
+      uniquePhoneList.push(phones[i]);
+    }
+  }
 
-  phones.sort();
+  uniquePhoneList.sort();
+  phones = uniquePhoneList;
 
   return phones.join(
     ", "
@@ -3741,22 +3752,22 @@ function NormalizeEmailAddresses(
         }
       );
 
-  emails =
-    emails.filter(
-      function (
-        email,
-        index
-      ) {
+  var uniqueEmails = Object.create(null);
+  var uniqueEmailList = [];
 
-        return (
-          emails.indexOf(
-            email
-          ) === index
-        );
-      }
-    );
+  for (
+    var i = 0;
+    i < emails.length;
+    i++
+  ) {
+    if (!uniqueEmails[emails[i]]) {
+      uniqueEmails[emails[i]] = true;
+      uniqueEmailList.push(emails[i]);
+    }
+  }
 
-  emails.sort();
+  uniqueEmailList.sort();
+  emails = uniqueEmailList;
 
   return emails.join(
     ", "
@@ -5055,6 +5066,8 @@ function PrepareExistingUserWorkSheet(userSpreadsheet) {
       values[0].length > 0
     ) {
 
+SpreadsheetApp.flush();
+
       destinationSheet
         .getRange(
           1,
@@ -5065,6 +5078,8 @@ function PrepareExistingUserWorkSheet(userSpreadsheet) {
         .setValues(
           values
         );
+
+SpreadsheetApp.flush();
 
       /*
        * qryExport column M contains phone
@@ -5214,7 +5229,9 @@ function InstallSyncSystem() {
         handler ===
         "RefreshBatch" ||
         handler ===
-        "UpdateContacts"
+        "UpdateContacts" ||
+        handler ===
+        "CoordinateContactSync"
       ) {
 
         ScriptApp.deleteTrigger(
@@ -5228,43 +5245,15 @@ function InstallSyncSystem() {
      */
     ScriptApp
       .newTrigger(
-        "WriteMasterContacts"
+        "CoordinateContactSync"
       )
       .timeBased()
-      .atHour(1)
-      .nearMinute(0)
-      .everyDays(1)
-      .create();
-
-    /*
-     * 02:00 - Google
-     */
-    ScriptApp
-      .newTrigger(
-        "WriteGoogleContacts"
-      )
-      .timeBased()
-      .atHour(2)
-      .nearMinute(0)
-      .everyDays(1)
-      .create();
-
-    /*
-     * 03:00 - Sync
-     */
-    ScriptApp
-      .newTrigger(
-        "SyncContactsToGoogle"
-      )
-      .timeBased()
-      .atHour(3)
-      .nearMinute(0)
-      .everyDays(1)
+      .everyHours(2)
       .create();
 
     DebugLog(
       ss,
-      "Sync installation completed: 3 triggers created"
+      "Sync installation completed: 1 trigger created"
     );
 
     return {
