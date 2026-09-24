@@ -27,7 +27,7 @@ const SHEET_DEBUG =
   "Debug";
 
 const SCRIPT_VERSION =
-  "DEV - 1.8";
+  "DEV - 1.9";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -75,18 +75,32 @@ function doGet() {
 
 function CoordinateContactSync() {
 
- var lock = LockService.getScriptLock();
-
-  if (!lock.tryLock(1000)) {
-    Logger.log("CoordinateContactSync skipped: another execution is already running.");
-    return;
-  }
+  /* var lock = LockService.getScriptLock();
   
+    if (!lock.tryLock(1000)) {
+      Logger.log("CoordinateContactSync skipped: another execution is already running.");
+      return;
+    }
+    */
   var ss = null;
 
   try {
 
     ss = GetUserWorkSpreadsheet();
+
+    /*
+     * Check the Update Schedule version before
+     * doing any contact-sync work. If the stored
+     * version does not match SCRIPT_VERSION,
+     * reinstall the sync system and stop this run.
+     */
+    if (
+      CheckUpdateScheduleVersion_(
+        ss
+      )
+    ) {
+      return;
+    }
 
     var syncVariables =
       GetSyncVariablesSheet(ss);
@@ -138,11 +152,11 @@ function CoordinateContactSync() {
 
   }
 
-  finally {
-
-    lock.releaseLock();
-
-  }
+  /*  finally {
+  
+      lock.releaseLock();
+  
+    }*/
 }
 
 function WriteGoogleContacts(existingSs) {
@@ -4969,6 +4983,215 @@ function PrepareExistingUserWorkSheet(userSpreadsheet) {
   return userSpreadsheet;
 }
 
+function CheckUpdateScheduleVersion_(ss) {
+
+  if (!ss) {
+    return false;
+  }
+
+  var sheet =
+    ss.getSheetByName(
+      SHEET_SYNC_VARIABLES
+    );
+
+  if (!sheet) {
+    throw new Error(
+      "Sheet not found: " +
+      SHEET_SYNC_VARIABLES
+    );
+  }
+
+  var versionCell =
+    FindUpdateScheduleVersionCell_(
+      sheet
+    );
+
+  if (!versionCell) {
+    throw new Error(
+      "Unable to find the version number in " +
+      SHEET_SYNC_VARIABLES +
+      ". Add a 'Script Version' or 'Version' label, or store the version as a DEV-style version value."
+    );
+  }
+
+  var storedVersion =
+    SafeString(
+      versionCell.getDisplayValue()
+    ).trim();
+
+  var scriptVersion =
+    SafeString(
+      SCRIPT_VERSION
+    ).trim();
+
+  if (
+    storedVersion ===
+    scriptVersion
+  ) {
+    return false;
+  }
+
+  DebugLog(
+    ss,
+    "Script version mismatch: Update Schedule=" +
+    storedVersion +
+    ", SCRIPT_VERSION=" +
+    scriptVersion +
+    ". Reinstalling sync system."
+  );
+
+  InstallSyncSystem();
+
+  return true;
+}
+
+function FindUpdateScheduleVersionCell_(sheet) {
+
+  var range =
+    sheet.getDataRange();
+
+  var values =
+    range.getDisplayValues();
+
+  /*
+   * First look for a labelled version cell.
+   * Accept either 'Script Version' or 'Version'.
+   */
+  for (
+    var r = 0;
+    r < values.length;
+    r++
+  ) {
+
+    for (
+      var c = 0;
+      c < values[r].length;
+      c++
+    ) {
+
+      var label =
+        SafeString(
+          values[r][c]
+        ).trim().toLowerCase();
+
+      if (
+        label === "script version" ||
+        label === "version"
+      ) {
+
+        /*
+         * Prefer the cell immediately to the
+         * right of the label, but only when it
+         * actually contains a version-looking value.
+         */
+        if (
+          c + 1 < values[r].length &&
+          IsVersionValue_(
+            values[r][c + 1]
+          )
+        ) {
+          return sheet.getRange(
+            r + 1,
+            c + 2
+          );
+        }
+      }
+    }
+  }
+
+  /*
+   * Otherwise look for a version-looking value
+   * such as 'DEV - 1.7' or '1.7' anywhere in
+   * the sheet.
+   */
+
+  for (
+    var r2 = 0;
+    r2 < values.length;
+    r2++
+  ) {
+
+    for (
+      var c2 = 0;
+      c2 < values[r2].length;
+      c2++
+    ) {
+
+      var candidate =
+        SafeString(
+          values[r2][c2]
+        ).trim();
+
+      if (
+        IsVersionValue_(
+          candidate
+        )
+      ) {
+        return sheet.getRange(
+          r2 + 1,
+          c2 + 1
+        );
+      }
+    }
+  }
+
+  return null;
+}
+
+
+function IsVersionValue_(value) {
+
+  var text =
+    SafeString(value).trim();
+
+  if (!text) {
+    return false;
+  }
+
+  return (
+    /^DEV\s*-\s*\d+(?:\.\d+)+$/i.test(text) ||
+    /^\d+(?:\.\d+)+$/.test(text)
+  );
+}
+
+
+function SetUpdateScheduleVersion_(ss) {
+
+  if (!ss) {
+    throw new Error(
+      "Unable to update the Update Schedule version because the user spreadsheet is unavailable."
+    );
+  }
+
+  var sheet =
+    ss.getSheetByName(
+      SHEET_SYNC_VARIABLES
+    );
+
+  if (!sheet) {
+    throw new Error(
+      "Sheet not found: " +
+      SHEET_SYNC_VARIABLES
+    );
+  }
+
+  var versionCell =
+    FindUpdateScheduleVersionCell_(
+      sheet
+    );
+
+  if (!versionCell) {
+    throw new Error(
+      "Unable to find the version number in " +
+      SHEET_SYNC_VARIABLES +
+      " while installing the sync system."
+    );
+  }
+
+  versionCell.setValue(
+    SCRIPT_VERSION
+  );
+}
 
 function DeleteLegacyUserTabs_(spreadsheet) {
 
@@ -5090,6 +5313,10 @@ function InstallSyncSystem() {
     DebugLog(
       ss,
       "Sync installation started"
+    );
+
+    SetUpdateScheduleVersion_(
+      ss
     );
 
     /*
