@@ -27,7 +27,7 @@ const SHEET_DEBUG =
   "Debug";
 
 const SCRIPT_VERSION =
-  "DEV - 1.9";
+  "DEV - 2.0";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -173,6 +173,20 @@ function WriteGoogleContacts(existingSs) {
       ss,
       "WriteGoogleContacts started"
     );
+
+    /*
+     * Check the Update Schedule version before
+     * doing any contact-sync work. If the stored
+     * version does not match SCRIPT_VERSION,
+     * reinstall the sync system and stop this run.
+     */
+    if (
+      CheckUpdateScheduleVersion_(
+        ss
+      )
+    ) {
+      return;
+    }
 
     if (IsSyncDisabled(ss)) {
 
@@ -5140,6 +5154,8 @@ function FindUpdateScheduleVersionCell_(sheet) {
 
 
 function IsVersionValue_(value) {
+  
+  return true; //cannot check for DEV
 
   var text =
     SafeString(value).trim();
