@@ -30,7 +30,7 @@ const SHEET_DATA =
   "Data";
 
 const SCRIPT_VERSION =
-  "DEV - 2.2";
+  "DEV - 2.3";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -233,11 +233,6 @@ function WriteGoogleContactsCore(
       ss
     );
 
-  //  WriteSyncVariable(
-  //    syncVariables,
-  //    7,
-  //    SCRIPT_VERSION
-  //  );
   WriteSyncVariable(syncVariables, 2, "");
 
   var sheet =
@@ -942,15 +937,6 @@ function WriteMasterContactsCore(
         row[12]
       );
 
-    /*   DebugLog(
-     ss,
-     "Phone parsed: raw=[" +
-     phoneValues[0].raw +
-     "] tag=[" +
-     phoneValues[0].tag +
-     "]"
-   ); */
-
     /*
      * Names1:
      *
@@ -1053,10 +1039,6 @@ function WriteMasterContactsCore(
         organizationMeeting
       );
     }
-
-
-
-
 
     if (
       runtimeExceeded_(
@@ -4406,11 +4388,65 @@ function BatchDeleteGoogleContacts(ss,
 
     }
     catch (e) {
-      DebugLog(ss,"Batch contact deletion failed: " + e.message);
-  //    throw new Error(
-//        "Batch contact deletion failed: " +
-        e
-    //  );
+
+      var errorMessage = String(
+        e && e.message ? e.message : e
+      );
+
+      DebugLog(
+        ss,
+        "Batch contact deletion failed: " + errorMessage
+      );
+
+      /*
+       * If Google reports that one or more contact resources
+       * are no longer found, invalidate both snapshots so
+       * the next coordinator run retrieves them again.
+       */
+      if (
+        errorMessage.indexOf(
+          "Contact person resources are not found"
+        ) !== -1
+      ) {
+
+        try {
+
+          var syncVariables =
+            GetSyncVariablesSheet(ss);
+
+          syncVariables
+            .getRange("B2:B3")
+            .clearContent();
+
+          SpreadsheetApp.flush();
+
+          DebugLog(
+            ss,
+            "Cleared Retrieved from Google and Retrieved from Master " +
+            "because Google reported missing contact resources."
+          );
+
+        }
+        catch (clearError) {
+
+          DebugLog(
+            ss,
+            "Failed to clear retrieval timestamps after missing-resource " +
+            "deletion error: " +
+            String(
+              clearError && clearError.message
+                ? clearError.message
+                : clearError
+            )
+          );
+
+        }
+
+        // Preserve the original API error for the caller.
+        throw e;
+      }
+
+      // Other deletion errors retain the existing log-and-continue behaviour.
     }
   }
 }
