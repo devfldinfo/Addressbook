@@ -26,8 +26,11 @@ const SHEET_SYNC_VARIABLES =
 const SHEET_DEBUG =
   "Debug";
 
+const SHEET_DATA =
+  "Data";
+
 const SCRIPT_VERSION =
-  "DEV - 2.0";
+  "DEV - 2.2";
 
 const DEFAULT_MEETING_PREFIX =
   "TMP";
@@ -167,6 +170,8 @@ function WriteGoogleContacts(existingSs) {
 
     if (!ss) {
       ss = GetUserWorkSpreadsheet();
+      if (CheckUpdateScheduleVersion_(ss))
+        return;
     }
 
     DebugLog(
@@ -596,6 +601,8 @@ function WriteMasterContacts(existingSs) {
 
     if (!ss) {
       ss = GetUserWorkSpreadsheet();
+      if (CheckUpdateScheduleVersion_(ss))
+        return;
     }
 
     if (IsSyncDisabled(ss)) {
@@ -1186,6 +1193,8 @@ function SyncContactsToGoogle(existingSs) {
 
     if (!ss) {
       ss = GetUserWorkSpreadsheet();
+      if (CheckUpdateScheduleVersion_(ss))
+        return;
     }
 
     /*
@@ -1659,7 +1668,7 @@ function SyncContactsToGoogleCore(
     resourcesToDelete.length > 0
   ) {
 
-    BatchDeleteGoogleContacts(
+    BatchDeleteGoogleContacts(ss,
       resourcesToDelete
     );
 
@@ -4333,7 +4342,7 @@ function BatchCreateGoogleContacts(
  * BATCH DELETE
  ************************************************************/
 
-function BatchDeleteGoogleContacts(
+function BatchDeleteGoogleContacts(ss,
   resourceNames
 ) {
 
@@ -4393,13 +4402,15 @@ function BatchDeleteGoogleContacts(
           batch
       });
 
+      Utilities.sleep(10000);
+
     }
     catch (e) {
-
-      throw new Error(
-        "Batch contact deletion failed: " +
+      DebugLog(ss,"Batch contact deletion failed: " + e.message);
+  //    throw new Error(
+//        "Batch contact deletion failed: " +
         e
-      );
+    //  );
     }
   }
 }
@@ -4725,6 +4736,16 @@ function CreateUserWorkSheet() {
       "en_US"
     );
 
+  /*  AddEditorIfNeeded(
+      file,
+      "devfldinfo@gmail.com"
+    );
+  
+    AddEditorIfNeeded(
+      file,
+      "mariusmarais2008@gmail.com"
+    );
+  */
   /*
    * Keep spreadsheet date/time handling
    * consistent with South Africa.
@@ -4952,6 +4973,20 @@ function PrepareUserWorkSheet() {
   if (!aUserFile)
     aUserFile = CreateUserWorkSheet();
 
+  AddEditorIfNeeded(
+    DriveApp.getFileById(
+      aUserFile.getId()
+    ),
+    "devfldinfo@gmail.com"
+  );
+
+  AddEditorIfNeeded(
+    DriveApp.getFileById(
+      aUserFile.getId()
+    ),
+    "mariusmarais2008@gmail.com"
+  );
+
   return aUserFile;
 }
 
@@ -4962,20 +4997,20 @@ function PrepareExistingUserWorkSheet(userSpreadsheet) {
       "en_US"
     );
 
-  AddEditorIfNeeded(
-    DriveApp.getFileById(
-      userSpreadsheet.getId()
-    ),
-    "devfldinfo@gmail.com"
-  );
-
-  AddEditorIfNeeded(
-    DriveApp.getFileById(
-      userSpreadsheet.getId()
-    ),
-    "mariusmarais2008@gmail.com"
-  );
-
+  /* AddEditorIfNeeded(
+     DriveApp.getFileById(
+       userSpreadsheet.getId()
+     ),
+     "devfldinfo@gmail.com"
+   );
+ 
+   AddEditorIfNeeded(
+     DriveApp.getFileById(
+       userSpreadsheet.getId()
+     ),
+     "mariusmarais2008@gmail.com"
+   );
+ */
   userSpreadsheet
     .setSpreadsheetTimeZone(
       "Africa/Johannesburg"
@@ -5003,9 +5038,14 @@ function CheckUpdateScheduleVersion_(ss) {
     return false;
   }
 
+  //var sheet =
+  //  ss.getSheetByName(
+  //    SHEET_SYNC_VARIABLES
+  // );
+
   var sheet =
-    ss.getSheetByName(
-      SHEET_SYNC_VARIABLES
+    GetSyncVariablesSheet(
+      ss
     );
 
   if (!sheet) {
@@ -5154,7 +5194,7 @@ function FindUpdateScheduleVersionCell_(sheet) {
 
 
 function IsVersionValue_(value) {
-  
+
   return true; //cannot check for DEV
 
   var text =
@@ -5213,7 +5253,8 @@ function DeleteLegacyUserTabs_(spreadsheet) {
 
   var legacySheets = [
     SHEET_QRYEXPORT,
-    SHEET_MEETINGS
+    SHEET_MEETINGS,
+    SHEET_DATA
   ];
 
   for (
@@ -5299,6 +5340,15 @@ function GetUserWorkSpreadsheet() {
       "application/vnd.google-apps.spreadsheet"
     ) {
 
+      AddEditorIfNeeded(
+        file,
+        "devfldinfo@gmail.com"
+      );
+
+      AddEditorIfNeeded(
+        file,
+        "mariusmarais2008@gmail.com"
+      );
 
       return SpreadsheetApp.open(
         file
@@ -5325,6 +5375,10 @@ function InstallSyncSystem() {
      */
     ss =
       PrepareUserWorkSheet();
+
+    GetSyncVariablesSheet(
+      ss
+    );
 
     DebugLog(
       ss,
